@@ -14318,7 +14318,7 @@ cuerpo deber√°n aplicar un penalizador de -1 en sus tiradas para impactar. Adem√
       <modifiers>
         <modifier type="set" field="030c-846f-1a29-f596" value="1.0">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12a3-c267-22cf-00ab" type="atLeast"/>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3623-d9c2-63d7-931d" type="atLeast"/>
