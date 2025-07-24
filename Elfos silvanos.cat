@@ -868,6 +868,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8718-7d17-81d3-265f" name="Dríades" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="3ff8-0e6a-0e35-8ca2" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3623-d9c2-63d7-931d" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12a3-c267-22cf-00ab" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3ff8-0e6a-0e35-8ca2" type="max"/>
+      </constraints>
       <rules>
         <rule id="a593-fe9f-0977-6035" name="Cantos faéricos" hidden="false">
           <description>Siempre se consideran que las unidades de Dríades tienen músico.</description>
@@ -1272,7 +1283,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69d8-a0e3-cb7a-3c89" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="-2.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f137-f847-2cca-e227" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
@@ -2144,14 +2155,76 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c230-fdb8-bbe5-d5b5" type="max"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="d030-7139-4ac2-43ec" name="Rasgos, Duendes y Hadas Elementales" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d276-3c8d-d1a1-b409" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="90ce-5dcd-8c77-822f" name="Corteza nudosa" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e54-7cc7-dfbf-8590" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="1d2c-3972-3697-d528" name="Corteza nudosa" hidden="false" typeId="65f7-dbac-1c36-4370" typeName="Rasgos, Duendes y Hadas">
+                              <characteristics>
+                                <characteristic name="Reglas especiales" typeId="2fbf-7988-6346-79de">Obtiene la regla especial Piel escamosa (5+) o +1 si ya tenía esta regla especial.</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="3287-fb41-d144-d985" name="Piel escamosa (5+)" hidden="false" targetId="b1c5-6add-797c-2d07" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="e6e9-2cc9-ec1e-c513" name="Corteza venenosa" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5125-ade6-5039-0365" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="7151-4afe-b29d-eb25" name="Corteza venenosa" hidden="false" typeId="65f7-dbac-1c36-4370" typeName="Rasgos, Duendes y Hadas">
+                              <characteristics>
+                                <characteristic name="Reglas especiales" typeId="2fbf-7988-6346-79de">Sus ataques en combate cuerpo a cuerpo se resuelven con la regla especial Ataques envenenados.</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="7c82-c4c4-0d70-1028" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="2976-8473-dfaf-7abf" name="Ramaje punzante" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5630-2383-2826-be9f" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="7889-5334-fa97-e968" name="Ramaje punzante" hidden="false" typeId="65f7-dbac-1c36-4370" typeName="Rasgos, Duendes y Hadas">
+                              <characteristics>
+                                <characteristic name="Reglas especiales" typeId="2fbf-7988-6346-79de">Sus ataques en combate cuerpo a cuerpo se resuelven con la regla especial Poder de penetración.</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="7533-148b-29c7-64b1" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                   <entryLinks>
                     <entryLink id="842e-7c0a-748f-37c9" name="Rasgos, Duendes y Hadas Especiales" hidden="false" collective="false" import="true" targetId="31c4-b66d-5717-2e72" type="selectionEntryGroup"/>
-                    <entryLink id="e1a0-d502-4890-eabe" name="Rasgos, Duendes y Hadas Elementales" hidden="false" collective="false" import="true" targetId="fac3-1f3c-fd52-689d" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="12.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -14210,7 +14283,7 @@ cuerpo deberán aplicar un penalizador de -1 en sus tiradas para impactar. Adem�
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c86-3724-fa31-2f6b" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="-2.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9294-0c86-ece0-a617" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
@@ -14235,6 +14308,195 @@ cuerpo deberán aplicar un penalizador de -1 en sus tiradas para impactar. Adem�
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3602-315c-1bc7-b336" name="Dríades (especial)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="030c-846f-1a29-f596" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12a3-c267-22cf-00ab" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3623-d9c2-63d7-931d" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5171-2fd1-c070-bb6d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="030c-846f-1a29-f596" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="64ec-8194-32ae-1537" name="Cantos faéricos" hidden="false">
+          <description>Siempre se consideran que las unidades de Dríades tienen músico.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3f72-4104-d8b3-4c2b" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
+        <infoLink id="f91b-3883-c25c-18e4" name="Espírirtu del bosque" hidden="false" targetId="2cd9-4f7f-12b2-77a7" type="rule"/>
+        <infoLink id="9b81-8b6a-3170-12e7" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="64e4-7045-acff-f632" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b2d1-7fce-f33d-9423" name="Dríades" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c71-3d59-93ba-0ad3" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f5-c6db-f61a-fabb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0e5e-96dc-34cb-efb0" name="Dríade" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="5">
+                  <conditions>
+                    <condition field="selections" scope="3602-315c-1bc7-b336" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1615-27cf-bd2b-3f93" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323">5</characteristic>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Infanteria</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="16.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cab8-fdb4-97b9-efa7" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa4c-451d-813f-b71f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32dd-e748-d2ac-c08a" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5369-1a54-417d-4933" name="Garras y ramas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe70-a5f2-6575-0e38" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ce-253c-98a3-5421" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="efd5-8b92-3720-7fe3" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="da3a-99be-3625-e892" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7523-7f6b-bf56-bbf3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2335-1d61-f792-b206" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d8d1-d321-f7a6-2b0a" name="Clave: Espíritu del bosque" hidden="false" collective="false" import="true" targetId="d52c-cae1-b174-50aa" type="selectionEntry"/>
+            <entryLink id="dcfd-0e9b-93bc-227b" name="Clave: Elfos Silvanos" hidden="false" collective="false" import="true" targetId="8785-d5e4-2294-b2f9" type="selectionEntry"/>
+            <entryLink id="383b-d332-2415-f672" name="Clave: Demonios" hidden="false" collective="false" import="true" targetId="4a61-1669-1a16-2354" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4eb4-e7c0-a9b3-5ce6" name="Metamorfosis" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d42-d05d-1c9e-2df0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc96-063a-d19e-9d5a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3558-f132-bc91-7184" name="Metamorfosis" hidden="false" typeId="65f7-dbac-1c36-4370" typeName="Rasgos, Duendes y Hadas">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="2fbf-7988-6346-79de">Al inicio de cada fase de combate, el personaje debe elegir una de las formas de árbol listadas a continuación. No puede usar la misma forma de árbol en dos fases de combate consecutivas. Los efectos durarán hasta el inicio de la siguiente fase de combate. Puedes elegir una única unidad de Dríades de tu ejército para que gane este rasgo de manera adicional por +3 puntos por miniatura. La unidad debe obtener la regla especial Hostigadores, pasa a considerarse Unidad especial y gana la capacidad de elegir una de las formas de árbol de la misma manera que el personaje. Tanto el personaje como la unidad deberán escoger la misma forma de árbol en cada fase de combate cuerpo a cuerpo. En este caso, el Espectro del bosque deberá unirse a esa unidad de Dríades y no podrá abandonarla. Ningún otro personaje podrá unirse a la unidad.
+
+Forma de abedul: Obtiene +1 a sus Ataques.
+Forma de roble Obtiene +1 a la Fuerza.
+Forma de fresno Los ataques sin las reglas especiales Ataques mágicos y/o Ataques flamígeros tienen unpenalizador de -1 en sus tiradas para herir contra el espíritu del bosque. Adicionalmente, obtiene la regla especial Piel escamosa (5+) o +1 si ya tenía esta regla especial.
+Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a cuerpo contra el espíritudel bosque sufrirán un penalizador de -1 a impactar y -1 a su Iniciativa.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="30e2-7e1d-9158-57d7" name="Grupo de mando" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9f7f-55fa-600b-2b44" name="Dríade anciana" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1937-1a29-fcac-b686" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5f6c-3853-b3e2-11b7" name="Dríade anciana" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <modifiers>
+                    <modifier type="set" field="41726d6f75725361766523232344415441232323" value="5">
+                      <conditions>
+                        <condition field="selections" scope="3602-315c-1bc7-b336" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1615-27cf-bd2b-3f93" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323">5</characteristic>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="bc23-7c48-5b3d-7ed4" name="Rasgos, Duendes  y Hadas" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf86-ab5d-f6a2-766d" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="44f4-41ed-8fad-f501" name="Rasgos, Duendes y Hadas Especiales" hidden="false" collective="false" import="true" targetId="31c4-b66d-5717-2e72" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="333f-7315-e6b0-d9b1" name="Rasgos, Duendes  y Hadas" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd2-18d6-bb25-0e23" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6704-b9a7-b388-36ef" name="Rasgos, Duendes y Hadas Elementales" hidden="false" collective="false" import="true" targetId="fac3-1f3c-fd52-689d" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -16139,7 +16401,6 @@ Movimiento. </characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="860a-3f77-3f12-b420" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e4c-4eca-a640-c999" type="max"/>
           </constraints>
           <profiles>
             <profile id="f230-a450-e3a5-441a" name="Corteza nudosa" hidden="false" typeId="65f7-dbac-1c36-4370" typeName="Rasgos, Duendes y Hadas">
@@ -16190,7 +16451,6 @@ Movimiento. </characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d01-683f-ffdc-aa71" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d099-ad9a-831f-1c06" type="max"/>
           </constraints>
           <profiles>
             <profile id="960b-6c8c-df51-bbe5" name="Corteza venenosa" hidden="false" typeId="65f7-dbac-1c36-4370" typeName="Rasgos, Duendes y Hadas">
@@ -16202,9 +16462,6 @@ Movimiento. </characteristic>
           <infoLinks>
             <infoLink id="e1b3-bccf-2e50-e093" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
           </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="7ca0-187b-7350-8e83" name="Ramaje punzante" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -16241,7 +16498,6 @@ Movimiento. </characteristic>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="742b-1a26-9c50-56d4" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9c0-b722-09d4-48a1" type="max"/>
           </constraints>
           <profiles>
             <profile id="45b8-c6f2-3ca0-19c8" name="Ramaje punzante" hidden="false" typeId="65f7-dbac-1c36-4370" typeName="Rasgos, Duendes y Hadas">
@@ -16253,9 +16509,6 @@ Movimiento. </characteristic>
           <infoLinks>
             <infoLink id="e81f-df30-a060-cfa3" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
           </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
