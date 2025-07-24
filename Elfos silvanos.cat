@@ -14380,7 +14380,7 @@ cuerpo deberán aplicar un penalizador de -1 en sus tiradas para impactar. Adem�
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="16.0"/>
+            <cost name="pts" typeId="points" value="17.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cab8-fdb4-97b9-efa7" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -14438,7 +14438,7 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -16462,6 +16462,9 @@ Movimiento. </characteristic>
           <infoLinks>
             <infoLink id="e1b3-bccf-2e50-e093" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7ca0-187b-7350-8e83" name="Ramaje punzante" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -16509,6 +16512,9 @@ Movimiento. </characteristic>
           <infoLinks>
             <infoLink id="e81f-df30-a060-cfa3" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
