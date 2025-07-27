@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f71e-06e9-0083-adc2" name="Poder vampírico">
       <characteristicTypes>
@@ -742,6 +742,9 @@
               <infoLinks>
                 <infoLink id="7cfc-dc73-571f-ce69" name="Formaciones de combate de Bretonia" hidden="false" targetId="4bcc-4673-75b1-2383" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -2316,7 +2319,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1(2)</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">6</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
               </characteristics>
@@ -3317,12 +3320,15 @@ Poder TABLA DEL CARRUAJE NEGRO
                     <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
-                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
-                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"></characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3a20-78e2-d2ca-0333" name="Vampiro resucitado" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3358,6 +3364,9 @@ Poder TABLA DEL CARRUAJE NEGRO
                 <infoLink id="e9f3-07eb-b4c3-083a" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
                 <infoLink id="7ec5-6da7-ba2e-9ff0" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -3382,8 +3391,8 @@ Poder TABLA DEL CARRUAJE NEGRO
                     <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
                     <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
                     <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
-                    <characteristic name="R" typeId="5423232344415441232323"></characteristic>
-                    <characteristic name="H" typeId="5723232344415441232323"></characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323"/>
+                    <characteristic name="H" typeId="5723232344415441232323"/>
                     <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">4</characteristic>
@@ -4832,6 +4841,11 @@ Poder TABLA DEL CARRUAJE NEGRO
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b66-6310-8c1f-4bb6" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="0334-2a31-e839-d658" value="0.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b66-6310-8c1f-4bb6" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="238c-58f0-cbd9-81c4" type="max"/>
@@ -5565,7 +5579,7 @@ Poder TABLA DEL CARRUAJE NEGRO
                 <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
