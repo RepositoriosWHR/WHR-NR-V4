@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b824-aacc-6637-fa81" name="Renombre">
       <characteristicTypes>
@@ -38942,7 +38942,6 @@ Se trata de un hechizo de potenciación que puede lanzarse sobre una unidad amig
       <infoLinks>
         <infoLink id="e92a-9a6f-5b8a-94e4" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
         <infoLink id="cbbb-32db-63f3-a487" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
-        <infoLink id="2316-20e4-39ae-7c3b" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
         <infoLink id="225e-89ce-99c8-66f0" name="Mercenario" hidden="false" targetId="f693-0c5c-49bd-91e7" type="rule"/>
         <infoLink id="df68-539b-308d-ae88" name="Señor del conocimiento" hidden="false" targetId="38ca-408d-dbc3-4847" type="rule">
           <modifiers>
@@ -40185,13 +40184,46 @@ D6 	Resultado
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="81c7-6a5a-fd5d-53f6" type="equalTo"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd99-43af-c90f-41f0" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="81c7-6a5a-fd5d-53f6" type="atLeast"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd99-43af-c90f-41f0" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="increment" field="b70d-f779-e350-8e8f" value="1.0">
+          <conditions>
+            <condition field="limit::points" scope="roster" value="5999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="b70d-f779-e350-8e8f" value="1.0">
+          <conditions>
+            <condition field="limit::points" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="b70d-f779-e350-8e8f" value="1.0">
+          <conditions>
+            <condition field="limit::points" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="b70d-f779-e350-8e8f" value="1.0">
+          <conditions>
+            <condition field="limit::points" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="b70d-f779-e350-8e8f" value="1.0">
+          <conditions>
+            <condition field="limit::points" scope="roster" value="4999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="b70d-f779-e350-8e8f" value="1.0">
+          <conditions>
+            <condition field="limit::points" scope="roster" value="3999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b70d-f779-e350-8e8f" type="max"/>
+      </constraints>
       <rules>
         <rule id="a69c-c564-f666-6223" name="Masa de cieno" hidden="false">
           <description>Una Bestia de cieno es inmune a los efectos de la regla especial Heridas múltiples, y tiene la regla especial Regeneración (4+), que se incrementa a 2+ si al menos una parte de la peana de la bestia se encuentra en un pantano o ciénaga. Pese a ser una Bestia monstruosa, una Bestia del cieno no es Veloz.</description>

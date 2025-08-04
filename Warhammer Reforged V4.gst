@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -139,6 +139,19 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="5385-d51f-e855-7fb6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3dbf-c7a7-c46a-c734" name="Portaestandarte de batalla" hidden="false" targetId="f277-3fe2-22c5-0650" primary="false">
+          <modifiers>
+            <modifier type="set" field="d6fe-b51b-cc30-b0fa" value="0.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a132-ff2a-7f39-4dc4" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4434-2d68-1c35-86f9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6fe-b51b-cc30-b0fa" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -409,66 +422,6 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="82de-e77a-499f-9af1" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="4b3e-a4af-93aa-d888" name="Bretonia" hidden="false">
-      <categoryLinks>
-        <categoryLink id="c154-fb3c-0b09-0937" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="6076-c3be-0183-269f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3562-c102-a71d-b770" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="c6a9-0fc6-6952-af3e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8de0-fbaf-7848-58c7" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="7a38-9103-0ecd-7b8e" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="9f47-f110-13af-46ed" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7a38-9103-0ecd-7b8e" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ece4-dce3-ab89-21f9" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5d41-75f8-fb06-f2aa" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="36b3-842f-a77c-7243" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="eba4-c0b8-022a-5c3c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="fc1b-5cb3-ec73-5df5" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="9190-5f0e-9a82-08e6" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="a148-7ff7-bf24-6ef5" name="Portaestandarte de batalla" hidden="false" targetId="f277-3fe2-22c5-0650" primary="false">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3d5e-8ff4-c967-54e4" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="1c9b-8449-a94e-2cac" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4574-1c9c-ed62-6ff0" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="f317-cc16-8a25-8a2c" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="f317-cc16-8a25-8a2c" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -3326,6 +3279,24 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec7c-006c-e5b0-78a0" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa98-3923-8e6b-5b45" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10d1-756a-68ff-c681" name="Clave: Estalia" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50a7-c2d2-b533-1742" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1a-7aa7-47fc-57f3" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2012-8f5d-9387-7791" name="Clave: Licántropos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1d8-1326-d8a7-564f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c5e-5699-b71a-6c70" type="min"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -7734,6 +7705,9 @@ con el valor de los cuidadores). Los cuidadores pueden atacar a cualquier unidad
     </rule>
     <rule id="fd9c-d1aa-8ce2-51b6" name="Protección por montura (3)" hidden="false">
       <description>Esta regla especial siempre va acompañada de un número entre paréntesis y es propia de ciertas monturas. El número entre paréntesis es lo que ha de añadirse a la tirada de salvación por armadura de la miniatura (esto es adicional al +1 por ir montado que proporcionan todas las monturas). Por ejemplo, un personaje elfo oscuro con armadura pesada y escudo montado en gélido (que tiene Protección por montura (1)) tendrá una tirada de salvación por armadura total de 2+.</description>
+    </rule>
+    <rule id="aa38-f8cc-f423-efc2" name="Regeneración (2+)" hidden="false">
+      <description>Esta regla especial siempre va acompañada de un número entre paréntesis; por ejemplo, Regeneración (5+), o Regeneración (2+). Cada vez que la miniatura sufra una o más heridas, tras realizar todas las tiradas de salvación pertinentes, tira 1D6 por cada herida: si el resultado es igual o superior al indicado por su Regeneración, la herida será cancelada. Algunos efectos aumentan las tiradas de Regeneración; el máximo al que se puede llegar apilando es de 3+ o, si la miniatura tiene una Potencia de unidad 5+, de 4+, salvo que se especifique lo contrario.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

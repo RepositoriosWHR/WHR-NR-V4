@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f71e-06e9-0083-adc2" name="Poder vampírico">
       <characteristicTypes>
@@ -225,7 +225,16 @@
                   <entryLinks>
                     <entryLink id="0b46-7230-2b8f-63f9" name="Estandartes mágicos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
                     <entryLink id="6910-43f9-56a7-28cd" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink id="2ee0-095d-9ab2-cd34" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink id="2ee0-095d-9ab2-cd34" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="dcdb-8633-c62e-515c" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -904,9 +913,26 @@
                     <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="006a-1e1d-2e04-9272" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="91d0-3072-1da6-8bb1" name="Estandartes mágicos. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
+                    <entryLink id="91d0-3072-1da6-8bb1" name="Estandartes mágicos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
                     <entryLink id="87b2-1f81-226e-d0e0" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink id="24b0-3443-e634-e108" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink id="24b0-3443-e634-e108" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="b453-e2a5-f544-46df" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1227,8 +1253,25 @@
                   <entryLinks>
                     <entryLink id="c75e-3f40-d928-01bc" name="Estandartes mágicos. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
                     <entryLink id="e41f-bd96-e033-eb3b" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink id="9b1a-3ef1-894d-ec32" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink id="9b1a-3ef1-894d-ec32" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="df1f-7025-2b76-9970" name="Estandartes mágicos. Clan Dragón Sangriento. Tumularios" hidden="false" collective="false" import="true" targetId="f8b0-984d-7acf-7769" type="selectionEntryGroup"/>
+                    <entryLink id="e53d-8b7f-d5eb-9693" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1642,10 +1685,27 @@
                     <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="745a-af87-e354-ca08" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="3ec5-59ab-aa96-4f11" name="Estandartes mágicos. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
+                    <entryLink id="3ec5-59ab-aa96-4f11" name="Estandartes mágicos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
                     <entryLink id="62af-c456-bed0-3a68" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink id="f0b7-35f1-4f8f-eee6" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink id="f0b7-35f1-4f8f-eee6" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="5bb4-925f-af66-9b65" name="Estandartes mágicos. Clan Dragón Sangriento. Tumularios" hidden="false" collective="false" import="true" targetId="f8b0-984d-7acf-7769" type="selectionEntryGroup"/>
+                    <entryLink id="66f5-8b34-f6ff-ea57" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2010,11 +2070,11 @@
                     <entryLink id="47a1-45e0-3a6f-2389" name="Objetos hechizados. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="d7be-e7a8-62bf-3089" type="selectionEntryGroup"/>
                     <entryLink id="1dd3-f745-4d7b-6881" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="3b23-7423-4bba-d4bd" name="Talismanes mágicos. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="ebc2-7343-1585-2dc7" type="selectionEntryGroup"/>
-                    <entryLink id="67b4-c8f1-729f-f30a" name="Armas mágicas. Personajes del orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup">
+                    <entryLink id="67b4-c8f1-729f-f30a" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4fb-e9ea-5570-3a94" type="equalTo"/>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -2026,6 +2086,9 @@
                     <entryLink id="145b-f052-5873-4c17" name="Armas mágicas. Clan dragón sangriento. Mayal" hidden="false" collective="false" import="true" targetId="208a-87e0-fbd6-f0d4" type="selectionEntryGroup"/>
                     <entryLink id="5a58-0dac-6b84-4db7" name="Objetos hechizados. Clan dragón sangriento. Orgullo marcial" hidden="false" collective="false" import="true" targetId="a276-2952-d854-dcc7" type="selectionEntryGroup"/>
                     <entryLink id="318f-f36b-807d-9cc9" name="Armaduras mágicas. Sólo Vampiros" hidden="false" collective="false" import="true" targetId="9318-876f-cb10-a101" type="selectionEntryGroup"/>
+                    <entryLink id="ed52-5b3d-7f71-f123" name="Artefactos arcanos. Orden" hidden="false" collective="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup"/>
+                    <entryLink id="dbc9-1d71-05c1-54fe" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
+                    <entryLink id="c6ac-572e-1d8c-05a2" name="Artefactos arcanos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="5828-5170-69f8-9255" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -2077,8 +2140,25 @@
                   <entryLinks>
                     <entryLink id="544c-d6c2-e995-49f0" name="Estandartes mágicos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
                     <entryLink id="4456-7893-ff04-f390" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink id="9fdf-56df-2b7d-495f" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink id="9fdf-56df-2b7d-495f" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="bed3-5fea-8b26-bd34" name="Estandartes mágicos. Clan dragón sangriento. Vampiros" hidden="false" collective="false" import="true" targetId="085c-0714-2273-d208" type="selectionEntryGroup"/>
+                    <entryLink id="703f-120a-dbcb-4348" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2903,6 +2983,26 @@
                     <entryLink id="1fff-5590-470a-4402" name="Armas mágicas. Clan dragón sangriento. Mayal" hidden="false" collective="false" import="true" targetId="208a-87e0-fbd6-f0d4" type="selectionEntryGroup"/>
                     <entryLink id="f49a-2398-edaf-2496" name="Armaduras mágicas. Sólo Vampiros" hidden="false" collective="false" import="true" targetId="9318-876f-cb10-a101" type="selectionEntryGroup"/>
                     <entryLink id="14ca-38bf-2c0f-df10" name="Objetos hechizados. Clan dragón sangriento. Orgullo marcial" hidden="false" collective="false" import="true" targetId="a276-2952-d854-dcc7" type="selectionEntryGroup"/>
+                    <entryLink id="3c52-3180-9395-fc1c" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="e77b-2423-1b68-2227" name="Artefactos arcanos. Orden" hidden="false" collective="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="97fc-7f42-8d7c-8ac0" name="Artefactos arcanos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="5828-5170-69f8-9255" type="selectionEntryGroup"/>
+                    <entryLink id="8053-1bae-1238-4c10" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -2955,8 +3055,25 @@
                   <entryLinks>
                     <entryLink id="e47c-aeb4-b4aa-3d50" name="Estandartes mágicos. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
                     <entryLink id="7e23-573d-1758-2712" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink id="2c9f-c3e2-3689-1767" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink id="2c9f-c3e2-3689-1767" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="7268-c176-b856-f358" name="Estandartes mágicos. Clan Dragón Sangriento. Vampiros" hidden="false" collective="false" import="true" targetId="085c-0714-2273-d208" type="selectionEntryGroup"/>
+                    <entryLink id="3e9b-e173-5e1a-ebe0" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -3743,6 +3860,26 @@ Poder TABLA DEL CARRUAJE NEGRO
                     <entryLink id="f6b0-38fc-c9c8-de9c" name="Armas mágicas. Clan dragón sangriento. Mayal" hidden="false" collective="false" import="true" targetId="208a-87e0-fbd6-f0d4" type="selectionEntryGroup"/>
                     <entryLink id="a435-7791-ac22-762b" name="Armaduras mágicas. Sólo Vampiros" hidden="false" collective="false" import="true" targetId="9318-876f-cb10-a101" type="selectionEntryGroup"/>
                     <entryLink id="62c8-85dc-9cff-57da" name="Objetos hechizados. Clan dragón sangriento. Orgullo marcial" hidden="false" collective="false" import="true" targetId="a276-2952-d854-dcc7" type="selectionEntryGroup"/>
+                    <entryLink id="2972-fba7-6920-acff" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="d183-f70d-9ce7-53fe" name="Artefactos arcanos. Orden" hidden="false" collective="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="dc04-bc34-4f8e-488a" name="Artefactos arcanos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="5828-5170-69f8-9255" type="selectionEntryGroup"/>
+                    <entryLink id="fe91-66ce-a014-ef6f" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -3794,8 +3931,25 @@ Poder TABLA DEL CARRUAJE NEGRO
                   <entryLinks>
                     <entryLink id="2641-29b5-3c3f-8a54" name="Estandartes mágicos. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
                     <entryLink id="d3e3-9756-7b0d-eb31" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink id="ea81-7499-4842-cfca" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink id="ea81-7499-4842-cfca" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="a6f5-3e4f-a228-51fe" name="Estandartes mágicos. Clan Dragón Sangriento. Vampiros" hidden="false" collective="false" import="true" targetId="085c-0714-2273-d208" type="selectionEntryGroup"/>
+                    <entryLink id="2963-6b5b-22b9-df2f" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -3925,7 +4079,7 @@ Poder TABLA DEL CARRUAJE NEGRO
                 <characteristic name="H" typeId="5723232344415441232323">1(2)</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1(2)</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">6</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">5</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">6</characteristic>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
@@ -4364,8 +4518,25 @@ Poder TABLA DEL CARRUAJE NEGRO
                     <entryLink id="c2b3-b372-548f-4698" name="Armas mágicas. Clan Dragón Sangriento. Vampiros. Arma de mano" hidden="false" collective="false" import="true" targetId="382f-67b3-ff34-dce3" type="selectionEntryGroup"/>
                     <entryLink id="529c-2786-0c8a-4314" name="Armas mágicas. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup"/>
                     <entryLink id="7303-1248-617d-5f72" name="Armas mágicas. Mangual" hidden="false" collective="false" import="true" targetId="a1a5-7361-b444-3054" type="selectionEntryGroup"/>
-                    <entryLink id="3ccf-b5e2-3fc7-6987" name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup"/>
+                    <entryLink id="3ccf-b5e2-3fc7-6987" name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="6fae-706c-b4f8-9219" name="Armas mágicas. Hechiceros. Armas emparejadas" hidden="false" collective="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup"/>
+                    <entryLink id="9c5e-e6b9-1b64-bc6b" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="d2b3-11cf-d4d1-042c" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -4444,6 +4615,15 @@ Poder TABLA DEL CARRUAJE NEGRO
                   <entryLinks>
                     <entryLink id="0967-7af4-6065-e9d6" name="Artefactos arcanos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="5828-5170-69f8-9255" type="selectionEntryGroup"/>
                     <entryLink id="abcb-5657-84e1-18f3" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
+                    <entryLink id="cc46-072d-e6b9-0851" name="Artefactos arcanos. Orden" hidden="false" collective="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -4481,22 +4661,48 @@ Poder TABLA DEL CARRUAJE NEGRO
                     <entryLink id="067f-af1b-8a2c-4ae4" name="Armas mágicas. Reliquias. Clan Dragón Sangriento. Arma de mano" hidden="false" collective="false" import="true" targetId="6724-3214-8520-5593" type="selectionEntryGroup"/>
                     <entryLink id="c411-9297-5546-5074" name="Armas mágicas. Reliquias. Arma a dos manos" hidden="false" collective="false" import="true" targetId="4b88-5eb8-4e24-cb72" type="selectionEntryGroup"/>
                     <entryLink id="6400-4e1c-ff1f-6297" name="Armas Mágicas. Reliquias. Arma de mano" hidden="false" collective="false" import="true" targetId="6ac5-e7fd-42b0-198b" type="selectionEntryGroup"/>
+                    <entryLink id="9ca7-39a9-df8c-8add" name="Armas mágicas. Reliquias. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="f1e5-3b95-cb7a-bb42" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="dc05-7240-8d66-3e13" name="Talismanes. Reliquias" hidden="false" collective="false" import="true">
                   <entryLinks>
                     <entryLink id="7fc4-18b1-6f26-5b98" name="Talismanes mágicos. Reliquias. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="cb7e-dbee-e182-2e81" type="selectionEntryGroup"/>
-                    <entryLink id="1558-e349-83fb-e706" name="Talismanes Mágicos. Reliquias" hidden="false" collective="false" import="true" targetId="5fd8-9a42-ce90-d88f" type="selectionEntryGroup"/>
-                    <entryLink id="04c4-0018-7ef2-b67d" name="Talismanes mágicos. Reliquias. Destrucción" hidden="false" collective="false" import="true" targetId="3904-2168-873f-f9ea" type="selectionEntryGroup"/>
+                    <entryLink id="1558-e349-83fb-e706" name="Talismanes mágicos. Reliquias" hidden="false" collective="false" import="true" targetId="5fd8-9a42-ce90-d88f" type="selectionEntryGroup"/>
+                    <entryLink id="04c4-0018-7ef2-b67d" name="Talismanes mágicos. Reliquias. Destrucción" hidden="false" collective="false" import="true" targetId="3904-2168-873f-f9ea" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="fbd0-7122-e65f-5120" name="Talismanes mágicos. Reliquias. Orden" hidden="false" collective="false" import="true" targetId="cb93-ae32-c6be-0104" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="cf67-b48c-a2d6-9c3d" name="Artefactos arcanos. Reliquias" hidden="false" collective="false" import="true">
                   <entryLinks>
-                    <entryLink id="29a0-48c8-3538-6f98" name="Artefactos arcanos. Reliquias. Personajes de la destrucción" hidden="false" collective="false" import="true" targetId="4b82-1f62-073f-aefa" type="selectionEntryGroup">
+                    <entryLink id="29a0-48c8-3538-6f98" name="Artefactos arcanos. Reliquias. Destrucción" hidden="false" collective="false" import="true" targetId="4b82-1f62-073f-aefa" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="22d6-a405-012c-6d08" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4fb-e9ea-5570-3a94" type="equalTo"/>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -4889,14 +5095,6 @@ Poder TABLA DEL CARRUAJE NEGRO
                 <cost name="pts" typeId="points" value="90.0"/>
               </costs>
             </entryLink>
-            <entryLink id="3d29-b059-fada-97ee" name="Corcel sangriento" hidden="false" collective="false" import="true" targetId="77fb-9ebd-22a5-6d3d" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9dd-97b4-bc26-f3bb" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="40.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="f472-4f5b-2502-93ed" name="Dragón zombi" hidden="false" collective="false" import="true" targetId="b827-7a61-17d1-e472" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b4e-40c0-19b5-69cd" type="max"/>
@@ -5097,7 +5295,7 @@ Poder TABLA DEL CARRUAJE NEGRO
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d4b-9cea-7eca-248c" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="f8d7-25ba-97fa-2955" name="Armas Mágicas. Alabarda" hidden="false" collective="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
+                    <entryLink id="f8d7-25ba-97fa-2955" name="Armas mágicas. Alabarda" hidden="false" collective="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
                     <entryLink id="49a1-9ec3-5cef-f197" name="Armas mágicas. Clan Dragón Sangriento. Alabarda" hidden="false" collective="false" import="true" targetId="ff97-b784-ee20-b3e2" type="selectionEntryGroup"/>
                     <entryLink id="eb14-5641-87d0-f61b" name="Armas mágicas. Clan Dragón Sangriento. Arma de mano" hidden="false" collective="false" import="true" targetId="9bc2-dd76-33e0-983a" type="selectionEntryGroup"/>
                     <entryLink id="9912-f4b7-8799-4005" name="Armas mágicas. Clan Dragón Sangriento. Mayal" hidden="false" collective="false" import="true" targetId="208a-87e0-fbd6-f0d4" type="selectionEntryGroup"/>
@@ -5126,6 +5324,15 @@ Poder TABLA DEL CARRUAJE NEGRO
                     </entryLink>
                     <entryLink id="b4ce-d245-16f0-a20b" name="Armas mágicas. Clan Dragón Sangriento. Vampiros. Arma de mano" hidden="false" collective="false" import="true" targetId="382f-67b3-ff34-dce3" type="selectionEntryGroup"/>
                     <entryLink id="7c29-dd20-0a3c-2aa8" name="Armas mágicas. Mangual" hidden="false" collective="false" import="true" targetId="a1a5-7361-b444-3054" type="selectionEntryGroup"/>
+                    <entryLink id="76a0-7caa-0dbd-e22b" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="b09e-2879-1b59-24a0" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -5176,6 +5383,15 @@ Poder TABLA DEL CARRUAJE NEGRO
                   <entryLinks>
                     <entryLink id="09fd-c7dd-08e6-2681" name="Artefactos arcanos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="5828-5170-69f8-9255" type="selectionEntryGroup"/>
                     <entryLink id="b153-2bf4-cef6-4f84" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
+                    <entryLink id="60bc-27c9-6b19-34b7" name="Artefactos arcanos. Orden" hidden="false" collective="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5275,11 +5491,28 @@ Poder TABLA DEL CARRUAJE NEGRO
               </constraints>
               <entryLinks>
                 <entryLink id="d296-a691-fffd-3e1f" name="Estandartes mágicos. Clan Dragón Sangriento. Vampiros" hidden="false" collective="false" import="true" targetId="085c-0714-2273-d208" type="selectionEntryGroup"/>
-                <entryLink id="b807-3d6a-c01b-07b0" name="Estandartes mágicos. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
+                <entryLink id="b807-3d6a-c01b-07b0" name="Estandartes mágicos. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
                 <entryLink id="1af9-659d-ae44-c32e" name="Estandartes mágicos. Reliquias" hidden="false" collective="false" import="true" targetId="ce18-5154-29c0-927b" type="selectionEntryGroup"/>
                 <entryLink id="491e-22ec-a0ff-b638" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                <entryLink id="8316-f7d9-63e5-2dc2" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                <entryLink id="8316-f7d9-63e5-2dc2" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
                 <entryLink id="4a20-dc6e-8a6e-a4cb" name="Estandartes mágicos. Reliquias. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="e13a-ca72-da46-3017" type="selectionEntryGroup"/>
+                <entryLink id="160f-7637-152e-a8ef" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -5982,12 +6215,29 @@ Poder TABLA DEL CARRUAJE NEGRO
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e554-901d-c993-184f" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="295b-3447-1f5e-b7be" name="Estandartes mágicos. Clan Dragón Sangriento. Tumularios" hidden="false" collective="false" import="true" targetId="f8b0-984d-7acf-7769" type="selectionEntryGroup"/>
+                <entryLink id="295b-3447-1f5e-b7be" name="Estandartes mágicos. Clan dragón sangriento. Tumularios" hidden="false" collective="false" import="true" targetId="f8b0-984d-7acf-7769" type="selectionEntryGroup"/>
                 <entryLink id="d711-e744-8356-1a58" name="Estandartes mágicos. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="4125-2ac7-4980-1f0f" type="selectionEntryGroup"/>
                 <entryLink id="0ab5-b9cc-b087-63f7" name="Estandartes mágicos. Reliquias" hidden="false" collective="false" import="true" targetId="ce18-5154-29c0-927b" type="selectionEntryGroup"/>
-                <entryLink id="95ea-22c4-5c1d-cb7e" name="Estandartes Mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                <entryLink id="94fe-ac7b-f0e7-45db" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                <entryLink id="95ea-22c4-5c1d-cb7e" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
+                <entryLink id="94fe-ac7b-f0e7-45db" name="Estandartes mágicos. Destrucción" hidden="false" collective="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
                 <entryLink id="785c-3873-b973-b9c3" name="Estandartes mágicos. Reliquias. Clan Dragón Sangriento" hidden="false" collective="false" import="true" targetId="e13a-ca72-da46-3017" type="selectionEntryGroup"/>
+                <entryLink id="bd47-353a-974e-f997" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -6323,7 +6573,16 @@ Poder TABLA DEL CARRUAJE NEGRO
                   </constraints>
                   <entryLinks>
                     <entryLink id="bd97-1cad-4bf1-3a82" name="Armas mágicas. Clan dragón sangriento. Arma de mano" hidden="false" collective="false" import="true" targetId="9bc2-dd76-33e0-983a" type="selectionEntryGroup"/>
-                    <entryLink id="bcf5-fed2-c3a6-bce4" name="Armas Mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                    <entryLink id="bcf5-fed2-c3a6-bce4" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                    <entryLink id="9dc4-6938-ff4b-2623" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c7f-456c-a47b-eac2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="1459-5005-0d3f-ce3c" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -8833,102 +9092,6 @@ inferior</characteristic>
             <entryLink id="bff5-600c-2ee1-5275" name="Clave: Vampiros" hidden="false" collective="false" import="true" targetId="34ee-4360-80b0-1c0b" type="selectionEntry"/>
             <entryLink id="0087-c2e9-299a-1df4" name="Clave: Dragón" hidden="false" collective="false" import="true" targetId="0a78-8842-d90c-582d" type="selectionEntry"/>
             <entryLink id="8059-85c6-5400-e3d2" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="dbdb-1299-0d90-a188" name="Dragón carmesí" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89ae-f60b-80b0-8549" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0630-8fb3-f1e7-64a8" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="8059-7f20-3e40-452d" name="Estallido amatista" hidden="false">
-          <description>Se trata de un Arma de aliento con F8 que tira para herir contra el Liderazgo en lugar de contra la Resistencia, y no permite tirada de salvación por armadura.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="6f54-2a15-6b38-4671" name="Monstruo" hidden="false" targetId="0518-1c98-54e1-371d" type="rule"/>
-        <infoLink id="1e3c-dd1e-0632-118c" name="Volar" hidden="false" targetId="670e-1a23-b1e1-6e6f" type="rule"/>
-        <infoLink id="25e9-9fb6-f99e-5217" name="Piel escamosa (2+)" hidden="false" targetId="4c17-1353-fcdd-fe40" type="rule"/>
-        <infoLink id="6dd8-39bd-3295-53aa" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="f521-3407-3925-2923" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="729f-76c3-a9d2-abaf" name="Dragón carmesí" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="696f-8b16-de7e-0504" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1d0-0c56-94ee-7de3" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="09c6-59e9-6e52-f4af" name="Dragón carmesí" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
-                <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
-                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
-                <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">2</characteristic>
-                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="290.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1348-5c6e-bf10-b762" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b41-1081-25b1-cd23" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3dd-4e6f-ac88-d5f2" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6120-da1d-10b7-1f4b" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfaf-77af-fbec-fa74" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e50-82a6-317c-a1e2" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="7255-2beb-9d30-6dd9" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d5f7-2a3d-3db9-a432" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a906-c2f3-c619-3949" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="833b-055f-d458-b451" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="c4ab-488c-d526-9f31" name="Clave: Dragón Sangriento" hidden="false" collective="false" import="true" targetId="ff26-6a3a-c1c5-8447" type="selectionEntry"/>
-            <entryLink id="2c9c-7e33-a554-fd2f" name="Clave: Condes Vampiro" hidden="false" collective="false" import="true" targetId="6934-ec52-c6cf-c67b" type="selectionEntry"/>
-            <entryLink id="2367-5fa8-6626-288e" name="Clave: No muertos" hidden="false" collective="false" import="true" targetId="59ad-fb9e-4562-cfd9" type="selectionEntry"/>
-            <entryLink id="3ac9-9cf6-5cdd-d922" name="Clave: Vampiros" hidden="false" collective="false" import="true" targetId="34ee-4360-80b0-1c0b" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>

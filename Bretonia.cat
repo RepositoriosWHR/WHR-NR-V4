@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -3042,7 +3042,14 @@ Desafío).</description>
                 <cost name="pts" typeId="points" value="55.0"/>
               </costs>
             </entryLink>
-            <entryLink id="faf9-9568-8dad-20a7" name="Corcel bretoniano (Damiselas)" hidden="false" collective="false" import="true" targetId="6daa-3789-c473-4603" type="selectionEntry"/>
+            <entryLink id="faf9-9568-8dad-20a7" name="Corcel bretoniano (Damiselas)" hidden="false" collective="false" import="true" targetId="6daa-3789-c473-4603" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e94-f7f3-1a74-0a7a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="785c-e3f2-65f9-9329" name="Nivel de magia" hidden="false" collective="false" import="true" defaultSelectionEntryId="2cf0-86e4-e16f-7061">
@@ -3447,13 +3454,27 @@ Desafío).</description>
               </constraints>
               <entryLinks>
                 <entryLink id="ef18-1378-4c44-12c1" name="Virtudes" hidden="false" collective="false" import="true" targetId="b00c-6377-ec6b-4560" type="selectionEntryGroup"/>
-                <entryLink id="9c09-e774-4b4e-21b3" name="Virtudes. Voto de la busqueda" hidden="false" collective="false" import="true" targetId="7e72-77e4-e4cf-da99" type="selectionEntryGroup"/>
-                <entryLink id="6df6-f919-ce5a-b66c" name="Virtudes. Voto del Grial" hidden="false" collective="false" import="true" targetId="e500-6780-f29e-2a28" type="selectionEntryGroup">
+                <entryLink id="9c09-e774-4b4e-21b3" name="Virtudes. Voto de la busqueda" hidden="false" collective="false" import="true" targetId="7e72-77e4-e4cf-da99" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="d730-051a-f1fe-25ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e51-3559-9dbb-ea5e" type="equalTo"/>
+                        <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
                       </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="6df6-f919-ce5a-b66c" name="Virtudes. Voto del Grial" hidden="false" collective="false" import="true" targetId="e500-6780-f29e-2a28" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b744-bc38-2463-dd92" type="equalTo"/>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e51-3559-9dbb-ea5e" type="equalTo"/>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2f3e-60c4-3878-68d5" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </entryLink>
@@ -3461,7 +3482,7 @@ Desafío).</description>
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd44-3e03-fdac-8146" type="equalTo"/>
+                        <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a60-823a-cc38-caae" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -3469,9 +3490,14 @@ Desafío).</description>
                 <entryLink id="3e70-472b-166f-009c" name="Virtudes. Voto del caballero No General, No Porta" hidden="false" collective="false" import="true" targetId="e165-09b7-7863-cbcb" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="d730-051a-f1fe-25ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f3e-60c4-3878-68d5" type="equalTo"/>
-                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a60-823a-cc38-caae" type="equalTo"/>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2f3e-60c4-3878-68d5" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </entryLink>
@@ -4039,12 +4065,20 @@ Desafío).</description>
               </constraints>
               <entryLinks>
                 <entryLink id="9dff-0f61-53f1-39b6" name="Virtudes" hidden="false" collective="false" import="true" targetId="b00c-6377-ec6b-4560" type="selectionEntryGroup"/>
-                <entryLink id="33b0-92e5-463f-0a51" name="Virtudes. Voto de la busqueda" hidden="false" collective="false" import="true" targetId="7e72-77e4-e4cf-da99" type="selectionEntryGroup"/>
-                <entryLink id="669d-6076-ea73-af88" name="Virtudes. Paladín" hidden="false" collective="false" import="true" targetId="3972-b7bf-af53-1516" type="selectionEntryGroup">
+                <entryLink id="33b0-92e5-463f-0a51" name="Virtudes. Voto de la busqueda" hidden="false" collective="false" import="true" targetId="7e72-77e4-e4cf-da99" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="16cb-3b70-ac9d-e6a9" type="equalTo"/>
+                        <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6594-461b-8f8a-43d9" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="669d-6076-ea73-af88" name="Virtudes. Paladín No General" hidden="false" collective="false" import="true" targetId="3972-b7bf-af53-1516" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="f722-86b1-d4c5-e39e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="16cb-3b70-ac9d-e6a9" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -4052,9 +4086,14 @@ Desafío).</description>
                 <entryLink id="daec-4aa2-ab62-1c1b" name="Virtudes. Voto del Grial" hidden="false" collective="false" import="true" targetId="e500-6780-f29e-2a28" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="f722-86b1-d4c5-e39e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="86d2-612d-2653-c2bd" type="equalTo"/>
-                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b744-bc38-2463-dd92" type="equalTo"/>
+                            <condition field="selections" scope="f722-86b1-d4c5-e39e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="86d2-612d-2653-c2bd" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </entryLink>
@@ -4073,13 +4112,26 @@ Desafío).</description>
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink id="34b9-ab1a-b7ab-450c" name="Virtudes. Voto del caballero" hidden="false" collective="false" import="true" targetId="de13-dadd-4357-1610" type="selectionEntryGroup"/>
-                <entryLink id="9152-1713-4e0f-fe97" name="Virtudes. Voto del caballero No General, No Porta" hidden="false" collective="false" import="true" targetId="e165-09b7-7863-cbcb" type="selectionEntryGroup">
+                <entryLink id="34b9-ab1a-b7ab-450c" name="Virtudes. Voto del caballero" hidden="false" collective="false" import="true" targetId="de13-dadd-4357-1610" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="f722-86b1-d4c5-e39e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16cb-3b70-ac9d-e6a9" type="equalTo"/>
+                        <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4a60-823a-cc38-caae" type="equalTo"/>
                       </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="9152-1713-4e0f-fe97" name="Virtudes. Voto del caballero No General, No Porta" hidden="false" collective="false" import="true" targetId="e165-09b7-7863-cbcb" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="f722-86b1-d4c5-e39e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16cb-3b70-ac9d-e6a9" type="equalTo"/>
+                            <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a60-823a-cc38-caae" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </entryLink>
@@ -5343,6 +5395,7 @@ Desafío).</description>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c641-ba0d-9325-2255" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afa2-e259-4cbc-4ad9" type="min"/>
       </constraints>
       <infoLinks>
         <infoLink id="fd12-72fd-bf4a-6fdb" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
@@ -5357,7 +5410,7 @@ Desafío).</description>
         <infoLink id="b261-766b-4b28-bce1" name="Caballero" hidden="false" targetId="eeb6-9248-cb21-7e47" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e520-2ece-6ca4-5ccb" name="Portaestandarte de batalla" hidden="false" targetId="f277-3fe2-22c5-0650" primary="true"/>
+        <categoryLink id="d90e-28db-0651-6d5c" name="New CategoryLink" hidden="false" targetId="f277-3fe2-22c5-0650" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b08e-05e6-b05b-52a6" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" type="upgrade">
@@ -11835,7 +11888,7 @@ cuatro Peregrinos que huiránnjunto al resto de su unidad). El Relicario tiene u
         <infoLink id="9a5f-cfeb-3f96-3e15" name="Deber del vasallo" hidden="false" targetId="65ec-3f07-dacb-e25a" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="065d-c0bb-1505-da1e" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+        <categoryLink id="497a-e6ba-3633-7d70" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e62e-f3f1-4e60-5739" name="Peregrinos del sagrado relicario" hidden="false" collective="false" import="true" type="model">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -3195,9 +3195,6 @@
                   </repeats>
                 </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="15ce-55e3-5154-e3e2" type="min"/>
-              </constraints>
               <rules>
                 <rule id="756b-cd08-8c26-b11e" name="Marca del caos absoluto. Guerreros del Caos" hidden="false">
                   <description>Obtienen la regla especial Inmune a psicología; además, al inicio de la batalla efectúa una tirada en la tabla del Ojo de los dioses y aplica el resultado a toda la unidad (considera los resultados de 2 como 3).</description>
@@ -3229,9 +3226,6 @@
                   </repeats>
                 </modifier>
               </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fa6-d5a8-d429-53a7" type="min"/>
-              </constraints>
               <infoLinks>
                 <infoLink id="5b2f-bf28-1586-def9" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
                 <infoLink id="d3da-50cb-b68a-4d0d" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
