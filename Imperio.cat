@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="208e-cf58-eefc-06d2" name="Orden de caballería">
       <characteristicTypes>
@@ -2525,6 +2525,13 @@ El Tanque a vapor imperial puede disparar sus armas incluso si está trabado en 
       </costs>
     </selectionEntry>
     <selectionEntry id="30dd-a086-80c6-a54f" name="Ogros imperiales" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="append" field="name" value="(Destacamento)">
+          <conditions>
+            <condition field="selections" scope="30dd-a086-80c6-a54f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a2f9-9fad-22d5-8c08" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="499f-c090-e400-64e6" type="max"/>
       </constraints>
@@ -17278,6 +17285,13 @@ Eterna.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="9694-5097-b3d6-a480" name="Alabarderos" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="append" field="name" value="(Destacamento)">
+          <conditions>
+            <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="64a5-6208-9760-be85" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="7513-d405-d8c0-05a4" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
       </infoLinks>
@@ -17771,6 +17785,13 @@ Eterna.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="6823-bf0a-1090-848d" name="Arqueros" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="append" field="name" value="(Destacamento)">
+          <conditions>
+            <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ad5-322a-0161-12ef" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="3fa8-1c9f-7876-0de6" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
         <infoLink id="5b41-025f-219e-4bb4" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule">
@@ -18275,6 +18296,13 @@ Eterna.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c89-d68d-4f7e-d702" name="Ballesteros " hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="append" field="name" value="(Destacamento)">
+          <conditions>
+            <condition field="selections" scope="2c89-d68d-4f7e-d702" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e80-2d03-4930-a7ab" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="69e9-eabc-085d-0c0b" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
         <infoLink id="4872-67de-ffa7-468d" name="Mercenario" hidden="false" targetId="f693-0c5c-49bd-91e7" type="rule"/>
@@ -21623,6 +21651,13 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </costs>
     </selectionEntry>
     <selectionEntry id="be30-3904-e871-28f6" name="Compañías libres " hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="append" field="name" value="(Destacamento)">
+          <conditions>
+            <condition field="selections" scope="be30-3904-e871-28f6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0da0-7e92-18d3-ed41" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="36a2-b7db-8fda-4f68" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
       </infoLinks>
@@ -22142,6 +22177,13 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </costs>
     </selectionEntry>
     <selectionEntry id="f233-4844-d0ec-5efe" name="Espadachines" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="append" field="name" value="(Destacamento)">
+          <conditions>
+            <condition field="selections" scope="f233-4844-d0ec-5efe" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="95eb-6cf2-c034-44ad" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="67c7-0aa9-8dae-0880" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
       </infoLinks>
@@ -22554,6 +22596,13 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </costs>
     </selectionEntry>
     <selectionEntry id="9cb8-fdfe-5f58-5a01" name="Fusileros" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="append" field="name" value="(Destacamento)">
+          <conditions>
+            <condition field="selections" scope="9cb8-fdfe-5f58-5a01" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abb3-8e04-5382-47f2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="2d7c-7289-989c-b933" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
       </infoLinks>
@@ -23533,6 +23582,11 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="append" field="name" value="(Destacamento)">
+          <conditions>
+            <condition field="selections" scope="ec9c-ea58-715e-8933" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3162-d8f0-b42e-45ef" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae2d-fd90-7dde-e77c" type="max"/>
@@ -24128,6 +24182,13 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </costs>
     </selectionEntry>
     <selectionEntry id="af4a-134f-dac2-7f79" name="Lanceros" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="append" field="name" value="(Destacamento)">
+          <conditions>
+            <condition field="selections" scope="af4a-134f-dac2-7f79" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df3a-fc0b-89c7-6674" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="73c0-4709-7074-e95d" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
       </infoLinks>
@@ -26546,7 +26607,7 @@ hechicero.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="190.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d547-47c8-b97d-4fd1" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
@@ -26694,7 +26755,7 @@ hechicero.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="190.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9190-c9af-fe82-5531" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -1029,6 +1029,7 @@
                     <entryLink id="1f2d-1113-3ca0-af97" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
                     <entryLink id="0a68-c7ff-419a-d0a4" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                     <entryLink id="be97-5373-7f54-9b38" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                    <entryLink id="770c-7d48-9dbd-98cb" name="Talismanes mágicos. Bretonia. Voto de la búsqueda" hidden="false" collective="false" import="true" targetId="cf20-5f15-b576-5d09" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1534,6 +1535,7 @@
                     <entryLink id="dcc4-00cd-e569-424a" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink id="d867-e12e-d105-3fce" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
                     <entryLink id="c6b9-5149-fb7b-65f9" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink id="b4c9-f883-979d-5b64" name="Armaduras mágicas. Bretonia. Voto del Grial" hidden="false" collective="false" import="true" targetId="7406-8035-8953-ca33" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2397,6 +2399,7 @@
                     <entryLink id="2800-3b40-c9ea-3a93" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
                     <entryLink id="1b5f-70ff-d198-5b93" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
                     <entryLink id="8f58-306b-26b3-d0e6" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink id="69b8-0e38-a598-8956" name="Armaduras mágicas. Bretonia. Voto del Grial" hidden="false" collective="false" import="true" targetId="7406-8035-8953-ca33" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -3148,6 +3151,15 @@ Desafío).</description>
                     <entryLink id="c16f-c762-fc10-158d" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
                     <entryLink id="a184-78ed-8d83-c3ad" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                     <entryLink id="1528-5712-8751-5863" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                    <entryLink id="7037-c387-79a9-4788" name="Armaduras mágicas. Bretonia. Voto del Grial" hidden="false" collective="false" import="true" targetId="7406-8035-8953-ca33" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b744-bc38-2463-dd92" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="114e-b317-79fc-e3c3" name="Armas mágicas" hidden="false" collective="false" import="true">
@@ -3202,8 +3214,24 @@ Desafío).</description>
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="b982-bee3-0bde-d2d3" name="Armas mágicas. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup"/>
-                    <entryLink id="f62e-7658-b290-5ffd" name="Armas mágicas. Hechiceros. Armas emparejadas" hidden="false" collective="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup"/>
+                    <entryLink id="b982-bee3-0bde-d2d3" name="Armas mágicas. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="f62e-7658-b290-5ffd" name="Armas mágicas. Hechiceros. Armas emparejadas" hidden="false" collective="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="9741-b02e-8f41-7440" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -3246,7 +3274,7 @@ Desafío).</description>
                     </modifier>
                     <modifier type="set" field="fab4-adaa-2c9a-bec3" value="0.0">
                       <conditions>
-                        <condition field="selections" scope="c0e4-640c-76dd-2615" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11d4-97a4-38c1-5d9a" type="equalTo"/>
+                        <condition field="selections" scope="c0e4-640c-76dd-2615" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dd34-320e-345d-b6ea" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -3257,6 +3285,15 @@ Desafío).</description>
                     <entryLink id="4c3e-001a-513c-b8a1" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="2e20-bce7-6d3b-a8be" name="Talismanes mágicos. Bretonia" hidden="false" collective="false" import="true" targetId="3a32-5e39-414e-fef5" type="selectionEntryGroup"/>
                     <entryLink id="1e1b-159f-3c2b-dec4" name="Talismanes mágicos. Bretonia. Caballeros" hidden="false" collective="false" import="true" targetId="ae47-6a82-51d3-6b00" type="selectionEntryGroup"/>
+                    <entryLink id="1527-840b-78b9-cd83" name="Talismanes mágicos. Bretonia. Voto de la búsqueda" hidden="false" collective="false" import="true" targetId="cf20-5f15-b576-5d09" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="6fbb-8257-496a-2bf0" name="Artefactos arcanos" hidden="false" collective="false" import="true">
@@ -4294,6 +4331,15 @@ Desafío).</description>
                     <entryLink id="69ac-726e-d1f0-11fe" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
                     <entryLink id="f2ec-ec6b-d18b-1c34" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                     <entryLink id="7873-7a1c-48f0-d951" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                    <entryLink id="826a-a9f3-55ca-67f8" name="Armaduras mágicas. Bretonia. Voto del Grial" hidden="false" collective="false" import="true" targetId="7406-8035-8953-ca33" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b744-bc38-2463-dd92" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="48a6-1f32-e7a0-85bc" name="Armas mágicas" hidden="false" collective="false" import="true">
@@ -4386,6 +4432,15 @@ Desafío).</description>
                     <entryLink id="d7d3-83a0-efd8-8bba" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="b83e-c03d-0b1c-cbf9" name="Talismanes mágicos. Bretonia" hidden="false" collective="false" import="true" targetId="3a32-5e39-414e-fef5" type="selectionEntryGroup"/>
                     <entryLink id="219f-d5a3-47b6-7544" name="Talismanes mágicos. Bretonia. Caballeros" hidden="false" collective="false" import="true" targetId="ae47-6a82-51d3-6b00" type="selectionEntryGroup"/>
+                    <entryLink id="9b32-de00-f7c9-2bf4" name="Talismanes mágicos. Bretonia. Voto de la búsqueda" hidden="false" collective="false" import="true" targetId="cf20-5f15-b576-5d09" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5575,6 +5630,15 @@ Desafío).</description>
                     <entryLink id="6f88-c076-18a6-d3c6" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
                     <entryLink id="42b8-6d60-7beb-099c" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                     <entryLink id="19f6-f6bb-3fb3-937c" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                    <entryLink id="5b3d-076e-af67-29b8" name="Armaduras mágicas. Bretonia. Voto del Grial" hidden="false" collective="false" import="true" targetId="7406-8035-8953-ca33" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="b2f5-5922-ab84-5a07" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b744-bc38-2463-dd92" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="864d-529c-75e3-81ce" name="Armas mágicas" hidden="false" collective="false" import="true">
@@ -5667,6 +5731,15 @@ Desafío).</description>
                     <entryLink id="9cc2-62bd-2260-5d5e" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="56bc-1678-7f3c-3fba" name="Talismanes mágicos. Bretonia" hidden="false" collective="false" import="true" targetId="3a32-5e39-414e-fef5" type="selectionEntryGroup"/>
                     <entryLink id="83d2-43fc-93c8-9790" name="Talismanes mágicos. Bretonia. Caballeros" hidden="false" collective="false" import="true" targetId="ae47-6a82-51d3-6b00" type="selectionEntryGroup"/>
+                    <entryLink id="60be-7cc4-24c5-73bf" name="Talismanes mágicos. Bretonia. Voto de la búsqueda" hidden="false" collective="false" import="true" targetId="cf20-5f15-b576-5d09" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="b2f5-5922-ab84-5a07" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -12986,25 +13059,6 @@ durante los Desafíos en los que participe.</characteristic>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b5f8-af5f-9b88-c232" name="Escudo del grial" hidden="true" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a853-5460-4e81-4cab" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a6e8-e39f-84c6-047d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="1900-21d4-03d2-082e" name="Escudo del grial" hidden="false" typeId="219b-aed3-c65c-d46d" typeName="Armadura mágica">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="e0ed-7366-4856-8f3d">Escudo. Sólo Caballero con el Voto del Grial. Incrementa la tirada de salvación especial del portador por la regla especial Favor de la Dama a 4+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2a1a-d3f0-7981-3d33" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="8ad6-f2e1-6103-f724" name="Maldición del pielverde" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be40-e95a-8cb0-ff37" type="max"/>
@@ -13032,7 +13086,7 @@ durante los Desafíos en los que participe.</characteristic>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d5a-b3dc-c843-c49a" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="a45f-fe27-317b-5452" name="Guardapelo de Sirienne" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a45f-fe27-317b-5452" name="Guardapelo de Sirienne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1796-533f-45e8-1c4b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ef57-2c43-b4c3-d69c" type="max"/>
@@ -13846,22 +13900,6 @@ El portador obtendrá un bonificador de +2 al lanzamiento de los hechizos del Sa
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d861-1ad6-6661-1715" name="Insignia de la búsqueda" hidden="true" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c21d-eb14-99a2-5d38" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0a1-6b47-589a-f081" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9da8-c74d-1444-57db" name="Insignia de la búsqueda" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo Caballero con el Voto de la búsqueda. La tirada de salvación especial otorgada por la regla especial Favor de la Dama se incrementa a 4+ contra las heridas causadas por miniaturas de los tipos Bestia monstruosa y Monstruo. Esto afecta al portador y a cualquier unidad de la que forme parte.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15021,6 +15059,57 @@ Destrucción).</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cf20-5f15-b576-5d09" name="Talismanes mágicos. Bretonia. Voto de la búsqueda" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08fc-37db-c18f-187c" type="max"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de89-efe3-566f-a723" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="469a-a655-0dc7-9fd9" name="Insignia de la búsqueda" hidden="true" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8962-89bf-f053-1dfb" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6736-6d6e-19a5-3c61" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bec0-b1eb-4f53-b955" name="Insignia de la búsqueda" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo Caballero con el Voto de la búsqueda. La tirada de salvación especial otorgada por la regla especial Favor de la Dama se incrementa a 4+ contra las heridas causadas por miniaturas de los tipos Bestia monstruosa y Monstruo. Esto afecta al portador y a cualquier unidad de la que forme parte.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7406-8035-8953-ca33" name="Armaduras mágicas. Bretonia. Voto del Grial" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99be-7e1f-7cba-cdbd" type="max"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1021-ed59-3ee6-c854" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="411f-be41-a9eb-6d04" name="Escudo del grial" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3774-7843-98f1-7c22" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a12-3843-9305-a944" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b6b7-9413-2500-022b" name="Escudo del grial" hidden="false" typeId="219b-aed3-c65c-d46d" typeName="Armadura mágica">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="e0ed-7366-4856-8f3d">Escudo. Sólo Caballero con el Voto del Grial. Incrementa la tirada de salvación especial del portador por la regla especial Favor de la Dama a 4+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6194-322b-64ef-ec75" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

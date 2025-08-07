@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -7862,7 +7862,7 @@ con el valor de los cuidadores). Los cuidadores pueden atacar a cualquier unidad
       <characteristics>
         <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
         <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Disparo rápido.</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Disparo rápido, Disparos múltiples (2)</characteristic>
       </characteristics>
     </profile>
     <profile id="c028-354e-9169-7463" name="Escudo" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armadura">
@@ -7947,7 +7947,7 @@ con el valor de los cuidadores). Los cuidadores pueden atacar a cualquier unidad
       <characteristics>
         <characteristic name="Rango" typeId="52616e676523232344415441232323">Combate</characteristic>
         <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Requiere ambas manos, Descarga, +1 Ataque</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Armas emparejadas, Descarga</characteristic>
       </characteristics>
     </profile>
     <profile id="9607-7f57-879f-5c42" name="Yelmo" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armadura">

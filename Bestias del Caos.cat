@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="1" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="2" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coccorota, Aswer y Gengis.</readme>
   <publications>
     <publication id="51fc-eb9b-pubN65537" name="Bestias del Caos Reforged"/>
@@ -773,10 +773,6 @@ la civilización.</description>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0d09-73ea-7581-3616" name="Grupo de mando" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c50-7d94-d714-dbd5" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ea9-76ff-3ff6-dcfb" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="5cf0-cd83-e03e-f17d" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -789,13 +785,12 @@ la civilización.</description>
             <selectionEntry id="5b73-6458-eeb1-3b34" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ce-b346-81c3-0a0c" type="max"/>
-                <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45f1-c7b5-c8ab-e616" type="max"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup id="9bd7-23fc-ead9-f0ee" name="Estandarte mágico" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc34-1f1f-fa39-f0b4" type="max"/>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1137-f0d3-6fa2-c1a9" type="min"/>
+                    <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e75e-59a2-26c1-3ab1" type="max"/>
                   </constraints>
                   <entryLinks>
                     <entryLink id="636a-c693-2be8-b745" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
@@ -1886,73 +1881,58 @@ la civilización.</description>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5e79-bd2d-8acb-7aab" name="Reglas especiales" hidden="false" collective="false" import="true" type="upgrade">
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1500-358f-459e-e9fe" name="Reglas especiales" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e76-00e8-0de9-856a" type="max"/>
+              </constraints>
               <selectionEntries>
-                <selectionEntry id="b700-05f2-87e8-734f" name="Emboscada" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="3fff-1c0b-f3ce-199c" name="Emboscada" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="points" value="4.0">
                       <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                       </repeats>
                     </modifier>
-                    <modifier type="set" field="bc50-1aa4-c364-6d48" value="2.0">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-                            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                    <modifier type="set" field="74f8-b113-9248-3a23" value="0.0">
+                    <modifier type="set" field="48ae-7147-8d71-bc8f" value="2.0">
                       <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="941c-e55f-745c-09d6" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc50-1aa4-c364-6d48" type="max"/>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78c7-ea26-11bf-63f2" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f8-b113-9248-3a23" type="max"/>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="48ae-7147-8d71-bc8f" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8031-6829-a0dc-3f9b" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="0de9-6885-ce8f-6bae" name="Emboscada" hidden="false" targetId="205a-c2c4-c48e-44c2" type="rule"/>
+                    <infoLink id="be8c-376a-4a21-844e" name="Emboscada" hidden="false" targetId="205a-c2c4-c48e-44c2" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="941c-e55f-745c-09d6" name="Vanguardia" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="3c59-eb6e-b6f0-f2dc" name="Vanguardia" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="points" value="2.0">
                       <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                       </repeats>
-                    </modifier>
-                    <modifier type="set" field="3b9f-4d1a-def9-d3b9" value="0.0">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b700-05f2-87e8-734f" type="equalTo"/>
-                      </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c20-179e-75f1-93ad" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b9f-4d1a-def9-d3b9" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3fb-cd15-4042-9cfb" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="bcb8-f47a-f4ff-039c" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
+                    <infoLink id="f696-f8ec-3b9f-53bb" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
         <selectionEntryGroup id="06a6-15c8-420d-f75a" name="Grupo de mando" hidden="false" collective="false" import="true">
           <constraints>
@@ -16480,19 +16460,15 @@ Aplastar:  Coloca la plantilla de gigante caído con uno de sus lados estrechos 
     <selectionEntry id="8fce-a070-1008-5767" name="Minotauros (Básica)" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1e74-3ede-5ab5-cfea" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b16-b16d-6e71-3683" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a337-510a-09ef-c819" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1e74-3ede-5ab5-cfea" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a337-510a-09ef-c819" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b16-b16d-6e71-3683" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>

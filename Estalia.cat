@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f56e-da6a-d244-d8f9" name="Orden de caballería">
       <characteristicTypes>
@@ -6555,28 +6555,7 @@ atrás! ni Presencia inspiradora.</description>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="8da3-5054-0ded-e680" name="Opciones" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4122-dc9c-aa95-0a34" type="max"/>
-          </constraints>
           <selectionEntries>
-            <selectionEntry id="7d41-7859-e5ac-546e" name="Mosquete" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="5.0">
-                  <repeats>
-                    <repeat field="selections" scope="ca76-ca3b-5877-fcf4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb0b-78cf-070d-6f5a" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb8-ede2-3544-8944" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="6719-3d26-1343-874f" name="Mosquete" hidden="false" targetId="3701-eabf-00c3-5a11" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="ca7b-c1ed-2d64-c2cd" name="Rodela" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
@@ -6595,25 +6574,52 @@ atrás! ni Presencia inspiradora.</description>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8dfb-4553-e3d9-3719" name="Arcabuz" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="3.0">
-                  <repeats>
-                    <repeat field="selections" scope="ca76-ca3b-5877-fcf4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb0b-78cf-070d-6f5a" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc8c-54a1-0c84-2fe9" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5ba5-75e1-8746-768a" name="Arcabuz" hidden="false" targetId="b4a0-b411-6500-1510" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b84c-2e91-f388-32e0" name="Armas de disparo" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="73c2-dfb1-91c6-c765" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="bd3c-0759-f284-0c44" name="Mosquete" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="points" value="5.0">
+                      <repeats>
+                        <repeat field="selections" scope="ca76-ca3b-5877-fcf4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb0b-78cf-070d-6f5a" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bae5-5cda-e725-9e0a" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="c14a-b957-4644-1dc1" name="Mosquete" hidden="false" targetId="3701-eabf-00c3-5a11" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1d9d-65e0-2ddf-12b6" name="Arcabuz" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="points" value="3.0">
+                      <repeats>
+                        <repeat field="selections" scope="ca76-ca3b-5877-fcf4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb0b-78cf-070d-6f5a" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9019-226b-8596-908a" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="2eac-fc8c-61ca-4511" name="Arcabuz" hidden="false" targetId="b4a0-b411-6500-1510" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>

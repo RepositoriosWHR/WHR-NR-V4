@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="1" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="2" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coroccota Bada, Aswer y Gengis.</readme>
   <profileTypes>
     <profileType id="82a1-ea3c-b415-8a9a" name="Objeto">
@@ -947,7 +947,7 @@
         <infoLink id="7042-3ee6-8620-1a08" name="Cuchillos/estrellas arrojadizas" hidden="false" targetId="2d13-b3f6-f40b-23fc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7215-e6fe-099e-5d11-5370656369616c23232344415441232323" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+        <categoryLink id="4b5a-9610-da8f-b599" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d591-b5ab-cf5c-51e0" name="Trampero gnoblar" hidden="false" collective="false" import="true" type="model">
@@ -2233,7 +2233,7 @@ D6 Resultado (Agarrar y...)
               <modifiers>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2.0">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3997-87aa-b7ea-ed68" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c75e-caa1-7e0c-6687" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2269,23 +2269,6 @@ D6 Resultado (Agarrar y...)
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3997-87aa-b7ea-ed68" name="Pieles de bestia" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f59-97fd-aea4-f989" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d69-1637-cf9f-e2c8" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="d3a2-0246-6f17-d628" name="Pieles de bestia" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armadura">
-                  <characteristics>
-                    <characteristic name="Salvación" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323">5+</characteristic>
-                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="185.0"/>
@@ -2305,6 +2288,28 @@ D6 Resultado (Agarrar y...)
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="53a9-2f06-1261-0731" name="Opciones" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="c75e-caa1-7e0c-6687" name="Pieles de bestia" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2438-0bae-f660-273f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="71c4-9bd2-6588-1983" name="Pieles de bestia" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armadura">
+                  <characteristics>
+                    <characteristic name="Salvación" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323">5+</characteristic>
+                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -4374,7 +4379,7 @@ Bajas: (Mejora para Skrag) / (Mejora para los gargantuas)
         <infoLink id="c1d9-0013-d21e-9b11" name="Infantería monstruosa" hidden="false" targetId="4958-70de-0b69-9825" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4c9d-0af2-6ac9-de7e" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
+        <categoryLink id="a0d6-f51f-0a65-4be2" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4de8-ce7a-620c-a92a" name="Comehombres" hidden="false" collective="false" import="true" type="model">

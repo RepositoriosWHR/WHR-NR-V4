@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1902-3bc7-65bd-b65b" name="Recompensa del caos">
       <characteristicTypes>
@@ -13640,6 +13640,27 @@ salvación especial de 4+ contra todos los Ataques mágicos y las heridas causad
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ab-b386-3809-fe8f" type="max"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa0a-3680-e666-96e9" type="min"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry id="7540-57b5-78a3-08d5" name="Talismán bendito de Plaga" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3322-db57-6a67-f6c2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cfe7-3793-57d6-a9b5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dc86-e502-95a0-0101" name="Talismán bendito de Plaga" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Proporciona a su portador la regla especial Regeneración (6+), o un +1 a su Regeneración si ya disponía de ella. Además, al inicio de cada uno de tus turnos, el portador recupera una herida que hubiese sufrido previamente durante la batalla.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b6e5-4a79-a8f0-4d37" name="Regeneración (6+)" hidden="false" targetId="4aee-7485-a141-cd20" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="7d5c-7d3b-5728-d1cd" name="Talismanes mágicos. Kurgan" hidden="false" collective="false" import="true">
       <constraints>
@@ -13661,25 +13682,6 @@ salvación especial de 4+ contra todos los Ataques mágicos y las heridas causad
           </profiles>
           <infoLinks>
             <infoLink id="c466-0832-aff1-b378" name="Aura demoníaca (4+)" hidden="false" targetId="79f2-17bc-18d1-75e3" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="460f-cc0f-c3a9-7f6d" name="Talismán bendito de Plaga" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="02a0-e339-fc46-7de7" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5794-fc7b-9e2e-2e1c" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="fa96-7dc7-2e20-ffdb" name="Talismán bendito de Plaga" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Proporciona a su portador la regla especial Regeneración (6+), o un +1 a su Regeneración si ya disponía de ella. Además, al inicio de cada uno de tus turnos, el portador recupera una herida que hubiese sufrido previamente durante la batalla.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2ffc-5032-50fd-cdc7" name="Regeneración (6+)" hidden="false" targetId="4aee-7485-a141-cd20" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>

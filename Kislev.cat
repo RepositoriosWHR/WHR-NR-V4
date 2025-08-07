@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8811-284e-f214-88b5" name="Kossars" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2448,7 +2448,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b24d-0c80-e084-4c4d" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
+        <categoryLink id="ee91-8a45-4781-e0cc" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0e0a-8a90-09df-511a" name="Streltsi" hidden="false" collective="false" import="true" type="model">
