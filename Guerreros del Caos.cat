@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -27037,7 +27037,7 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc77-5d3a-3a70-c735" name="Carruaje del Caos" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dc77-5d3a-3a70-c735" name="Carruaje del Caos" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="3dd0-0bbd-5e48-6276" name="Potencia de unidad 4" hidden="false">
           <modifiers>
@@ -27192,27 +27192,27 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06b5-da8a-38b8-91eb" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="025c-6fef-3979-fa8e" name="Marca de Tzeentch. Unidades" hidden="false" collective="false" import="true" targetId="96fb-d019-8c83-aea3" type="selectionEntry">
+            <entryLink id="025c-6fef-3979-fa8e" name="Marca de Tzeentch. Personajes" hidden="false" collective="false" import="true" targetId="0227-474e-a38a-e11c" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="69cb-e831-24f8-8e71" name="Marca del caos absoluto. Unidades" hidden="false" collective="false" import="true" targetId="bc49-6882-c66c-bc26" type="selectionEntry">
+            <entryLink id="69cb-e831-24f8-8e71" name="Marca del Caos absoluto. Pesonajes" hidden="false" collective="false" import="true" targetId="0a61-f281-bb4c-8846" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="7d49-847d-8835-01c8" name="Marca de Slaanesh. Unidades" hidden="false" collective="false" import="true" targetId="011d-ecac-f652-9fd9" type="selectionEntry">
+            <entryLink id="7d49-847d-8835-01c8" name="Marca de Slaanesh. Personajes" hidden="false" collective="false" import="true" targetId="d333-8c87-9c04-4d3b" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="a211-f1b7-fa4b-bd5f" name="Marca de Khorne. Unidades" hidden="false" collective="false" import="true" targetId="01e5-81a4-0637-f7b1" type="selectionEntry">
+            <entryLink id="a211-f1b7-fa4b-bd5f" name="Marca de Khorne. Personajes" hidden="false" collective="false" import="true" targetId="7a16-b72a-0527-51a1" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="25.0"/>
               </costs>
             </entryLink>
-            <entryLink id="4d35-6a1a-6cae-ef05" name="Marca de Nurgle. Unidades" hidden="false" collective="false" import="true" targetId="f223-1aa7-0d30-eabd" type="selectionEntry">
+            <entryLink id="4d35-6a1a-6cae-ef05" name="Marca de Nurgle. Personajes" hidden="false" collective="false" import="true" targetId="964b-8236-6668-ab84" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>

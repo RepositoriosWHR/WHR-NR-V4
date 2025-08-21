@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="79c7-cc45-fd7a-618d" name="No muertos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="79c7-cc45-fd7a-618d" name="No muertos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d35-4e46-308c-cb63" name="Arcanos nigrománticos">
       <characteristicTypes>
@@ -2268,7 +2268,7 @@ unirse a una unidad de Espíritus.</description>
                 <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
-                <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
@@ -14174,14 +14174,14 @@ combate cuerpo a cuerpo.</characteristic>
       <characteristics>
         <characteristic name="Rango" typeId="52616e676523232344415441232323">Combate</characteristic>
         <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">Usuario</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Ataques mñagicos, Golpe letal, Arma de mano: Se considera un Arma de mano a todos los efectos y puede utilizarse en combinación con un Escudo para realizar Parada, siguiendo las reglas habituales.</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Ataques mágicos, Golpe letal, Arma de mano: Se considera un Arma de mano a todos los efectos y puede utilizarse en combinación con un Escudo para realizar Parada, siguiendo las reglas habituales.</characteristic>
       </characteristics>
     </profile>
     <profile id="b4e3-b1ca-f038-ed81" name="Armas emparejadas funerarias" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
       <characteristics>
         <characteristic name="Rango" typeId="52616e676523232344415441232323">Combate</characteristic>
         <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">Usuario</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Requiere ambas manos, +1 Ataque, Ataques mñagicos, Golpe letal</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Requiere ambas manos, +1 Ataque, Ataques mágicos, Golpe letal</characteristic>
       </characteristics>
     </profile>
     <profile id="1731-80af-06e2-8f83" name="Arma a dos manos funerarias" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">

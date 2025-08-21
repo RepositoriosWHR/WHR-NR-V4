@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="208e-cf58-eefc-06d2" name="Orden de caballería">
       <characteristicTypes>
@@ -26527,9 +26527,6 @@ hechicero.</description>
         <infoLink id="4e53-65d1-66fb-489e" name="Objetivo grande" hidden="false" targetId="71eb-6467-3a39-bdb6" type="rule"/>
         <infoLink id="ddd1-6d32-0c24-4fe7" name="Protección por montura (2)" hidden="false" targetId="e265-bb6c-2315-231a" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="0958-4fe7-20cc-b296" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
-      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3093-98ce-dbd9-379c" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -26619,6 +26616,7 @@ hechicero.</description>
             <selectionEntry id="7d11-81e6-4957-050a" name="Caballo de guerra" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0346-25a3-ea27-fd91" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="73d7-ceb1-e6e0-0192" type="min"/>
               </constraints>
               <profiles>
                 <profile id="e9c2-b6b4-f99b-8b78" name="Caballo de guerra (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -26675,9 +26673,6 @@ hechicero.</description>
         <infoLink id="bfda-1d88-7946-ec83" name="Objetivo grande" hidden="false" targetId="71eb-6467-3a39-bdb6" type="rule"/>
         <infoLink id="902e-ada2-9405-15c5" name="Protección por montura (2)" hidden="false" targetId="e265-bb6c-2315-231a" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="03d3-35d0-b5b1-11f2" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
-      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5269-f73d-1d1f-f35c" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>

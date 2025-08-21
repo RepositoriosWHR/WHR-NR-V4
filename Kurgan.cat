@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1902-3bc7-65bd-b65b" name="Recompensa del caos">
       <characteristicTypes>
@@ -6990,6 +6990,15 @@ resultados de 2 como 3).</description>
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink id="107d-aeba-4572-7598" name="Recompensas del Caos menores. No hechicero/Khorne" hidden="false" collective="false" import="true" targetId="85f1-e20a-ea0b-6023" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7530-1c20-ec06-8295" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -7079,6 +7088,104 @@ resultados de 2 como 3).</description>
               </costs>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8c19-9fe5-c01e-0090" name="Objetos mágicos " hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4446-bd97-c3a8-bfe2" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="71d2-7673-53e5-d61a" name="Objetos hechizados" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c1a0-10b4-08f7-aba9" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="abef-ab88-f597-4395" name="Objetos Hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
+                <entryLink id="53f0-3cb9-3f05-55b2" name="Objetos hechizados. Kurgan. Khorne" hidden="false" collective="false" import="true" targetId="2eda-a7a1-a04b-3e5b" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7530-1c20-ec06-8295" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="5eb4-42d0-8876-7129" name="Objetos hechizados. Kurgan. Nurgle" hidden="false" collective="false" import="true" targetId="2314-02f8-ba15-2f1a" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf15-f28c-0689-515e" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="f500-60a7-e782-fe48" name="Objetos hechizados. Kurgan. Slaanesh" hidden="false" collective="false" import="true" targetId="0b05-a00f-7832-8ec6" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2130-8db6-f7dc-8c82" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="3904-3fd5-4113-1321" name="Objetos hechizados. Kurgan. Tzeentch" hidden="false" collective="false" import="true" targetId="4557-70f9-835c-e5c9" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0cbb-1c3a-5e70-7f3b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="112b-1f08-1338-456b" name="Objetos hechizados. Kurgan" hidden="false" collective="false" import="true" targetId="a51b-37b7-3368-dc4f" type="selectionEntryGroup"/>
+                <entryLink id="cb56-a57f-8d07-8e31" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="fedc-aec5-6836-a293" name="Talismanes mágicos" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9356-7e81-d564-0ee6" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="cea6-49ac-3c6e-439c" name="Talismanes Mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                <entryLink id="fddd-9dc9-8553-f660" name="Talismanes mágicos. Kurgan" hidden="false" collective="false" import="true" targetId="7d5c-7d3b-5728-d1cd" type="selectionEntryGroup"/>
+                <entryLink id="82c3-13d0-5313-ce78" name="Talismanes mágicos. Kurgan. Slaanesh" hidden="false" collective="false" import="true" targetId="d9f1-f03f-d139-4f92" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2130-8db6-f7dc-8c82" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="b525-466b-b0aa-fa16" name="Talismanes mágicos. Kurgan. Nurgle" hidden="false" collective="false" import="true" targetId="b106-ed76-7117-5839" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf15-f28c-0689-515e" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="0767-04e2-64d4-a234" name="Talismanes mágicos. Kurgan. Tzeentch" hidden="false" collective="false" import="true" targetId="3804-dd64-8fe8-aeba" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0cbb-1c3a-5e70-7f3b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="a174-1e9a-59ad-277f" name="Talismanes mágicos. Kurgan. Khorne" hidden="false" collective="false" import="true" targetId="2747-9b23-29c1-2e6e" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7530-1c20-ec06-8295" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -8406,11 +8513,6 @@ de Wulfrik.</characteristic>
         <modifier type="set" field="0e54-08e2-dc37-12fd" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="0e54-08e2-dc37-12fd" value="3.0">

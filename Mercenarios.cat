@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b824-aacc-6637-fa81" name="Renombre">
       <characteristicTypes>
@@ -6418,7 +6418,11 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="1f43-0253-c1b6-179f" name="Grifo" hidden="false" collective="false" import="true" targetId="2735-22f0-16c5-4c38" type="selectionEntry"/>
+            <entryLink id="1f43-0253-c1b6-179f" name="Grifo" hidden="false" collective="false" import="true" targetId="2735-22f0-16c5-4c38" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="165.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="78a7-3a54-8029-f244" name="Opciones" hidden="false" collective="false" import="true">
@@ -50732,7 +50736,7 @@ De la misma manera que los Destacamentos apoyan a las Unidades principales, las 
       <characteristics>
         <characteristic name="Rango" typeId="52616e676523232344415441232323">Combate</characteristic>
         <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">Usuario</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Al inicio de cada combate (no de cada ronda), una unidad de ogros con puño de hierro ha de decidir si los utiliza como si fuesen escudos o como si fuesen armas de mano adicionales.</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Al inicio de cada ronda de combate una unidad de ogros con puño de hierro ha de decidir si los utiliza como si fuesen escudos o como si fuesen armas de mano adicionales.</characteristic>
       </characteristics>
     </profile>
     <profile id="3c4e-808b-b5b2-0ce3" name="Pistola ogra" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">

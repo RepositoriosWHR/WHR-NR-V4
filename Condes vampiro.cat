@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6daf-483a-4d59-83db" name="Poder vampírico">
       <characteristicTypes>
@@ -4865,6 +4865,15 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
                     <entryLink id="b79f-8097-d122-7f07" name="Talismanes Mágicos - Vampiros" hidden="false" collective="false" import="true" targetId="baf5-056c-783d-80cc" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="4727-5eab-1de8-afce" name="Artefactos arcanos" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="72e2-662a-7c98-c5cb" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="677a-b2a2-be39-8570" name="Artefactos arcanos. Condes vampiro" hidden="false" collective="false" import="true" targetId="3f6d-7fe6-6c34-29ef" type="selectionEntryGroup"/>
+                    <entryLink id="e342-8377-1125-8362" name="Artefactos Arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -7814,34 +7823,19 @@ combatiendo. Ten en cuenta que no puede disparar en la fase de magia el Lamento 
     </selectionEntry>
     <selectionEntry id="9369-f448-2e66-c0cf" name="Varghulf" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set-primary" field="category" value="5370656369616c23232344415441232323">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="714a-192f-7da1-c2f7" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="remove" field="category" value="5261726523232344415441232323">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="714a-192f-7da1-c2f7" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="7a9c-76be-38f0-5ec1" value="1.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="714a-192f-7da1-c2f7" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="unset-primary" field="category" value="5261726523232344415441232323">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="714a-192f-7da1-c2f7" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="7a9c-76be-38f0-5ec1" value="2.0">
+        <modifier type="set" field="7a9c-76be-38f0-5ec1" value="3.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="7a9c-76be-38f0-5ec1" value="1.0">
+        <modifier type="set" field="7a9c-76be-38f0-5ec1" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="714a-192f-7da1-c2f7" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -11528,7 +11522,7 @@ permite tirada de salvación por armadura.</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="abef-83e2-d769-b1aa" name="Vampira (Lahmia)" hidden="false" collective="false" import="true" targetId="756c-4630-0416-afb8" type="selectionEntry"/>
+        <entryLink id="abef-83e2-d769-b1aa" name="Vampiro (Necrarca)" hidden="false" collective="false" import="true" targetId="4caf-444a-f26c-3f56" type="selectionEntry"/>
         <entryLink id="5d60-1398-ed71-fdd3" name="Saga (W&apos;soran)" hidden="false" collective="false" import="true" targetId="7c60-27f8-69aa-3aed" type="selectionEntry"/>
       </entryLinks>
       <costs>
@@ -15611,8 +15605,15 @@ especial de 4+.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="db19-d690-7928-5db0" name="[Ex] - Yaghur" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba4-16cb-76c3-55bf" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba4-16cb-76c3-55bf" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="099d-970f-0b20-76c1" name="¡Está vivo!" hidden="false" targetId="2a7d-2489-37d7-b836" type="rule"/>
@@ -15726,6 +15727,186 @@ especial de 4+.</description>
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b56e-afcb-ca98-7322" name="Varghulf (Especial)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="714a-192f-7da1-c2f7" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="f3dc-c0f7-ba82-42aa" value="4.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="f3dc-c0f7-ba82-42aa" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f3dc-c0f7-ba82-42aa" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="adcb-bdea-6cf8-18a0" name="No muerto" hidden="false" targetId="3d39-5d46-7335-225c" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3f45-c3e5-84dc-be7e" name="Monstruo" hidden="false" targetId="0518-1c98-54e1-371d" type="rule"/>
+        <infoLink id="5666-d0b9-1aab-84bb" name="Vampiro" hidden="false" targetId="3ba1-ffb7-6be4-a913" type="rule"/>
+        <infoLink id="006d-6f62-20ae-e547" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
+        <infoLink id="7874-5dfb-b187-71eb" name="Volar (8)" hidden="false" targetId="4976-4d2f-fd36-1a17" type="rule"/>
+        <infoLink id="8642-9a3c-f894-7296" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b06d-d59d-40a8-5eac" name="Unidades especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1faa-90b1-3f05-db39" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="454f-60a0-3efa-120a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f52-1538-48a5-8afd" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8875-bea6-b42e-536b" name="Garras" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c4f-1ab0-42f2-1275" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4a7-86d0-529d-b5a4" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f29f-72a4-fdb9-f88f" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4dde-c691-f25d-d6ca" name="Varghulf" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96e5-9579-27e8-e0ea" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="723a-bfdb-62ca-5a85" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="28e6-bdcc-12aa-1d31" name="Varghulf" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="increment" field="5323232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="b56e-afcb-ca98-7322" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a27-ed01-75a4-3038" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">8</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">4</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="155.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5b80-5b62-e2c6-b448" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50a3-cb51-c7e9-8ce7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41b1-7d68-5135-8d43" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="da1f-c4ec-039d-e46d" name="Clave: Condes Vampiro" hidden="false" collective="false" import="true" targetId="6934-ec52-c6cf-c67b" type="selectionEntry"/>
+            <entryLink id="e1f1-a540-f961-7057" name="Clave: No muertos" hidden="false" collective="false" import="true" targetId="59ad-fb9e-4562-cfd9" type="selectionEntry"/>
+            <entryLink id="341a-5cee-697d-1128" name="Clave: Vampiros" hidden="false" collective="false" import="true" targetId="34ee-4360-80b0-1c0b" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e124-3f25-0ce0-97a9" name="Opciones" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee66-8d93-230b-761f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fe05-b725-931b-d0b7" name="Zarpas mortales" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5498-3f3c-ec02-2967" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ea99-ab2c-d4ae-6cfc" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4a27-ed01-75a4-3038" name="Músculos de acero" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f135-917c-0f1b-1e87" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5d5d-678d-f36a-f48b" name="Músculos de acero" hidden="false">
+                  <description>Obtiene +1 a su Fuerza.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1d8f-c819-8ba2-7119" name="Locura de sangre" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e8e-296f-961c-d490" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7e84-48f3-0a31-49a7" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
+                <infoLink id="298a-2b3f-b453-b966" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3988-2dd8-cfba-775b" name="Garras infectadas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="773b-c954-61da-17d6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="94f3-c67f-8d65-ea6b" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7dda-17dc-418b-9b0d" name="Cazador oscuro" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d29a-4226-c46f-9660" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5e3d-f59a-6f89-fe88" name="Exploradores" hidden="false" targetId="462e-27b4-5c07-747d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

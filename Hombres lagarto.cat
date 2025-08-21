@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9ec5-91ab-c1bc-3ae5" name="Desove">
       <characteristicTypes>
@@ -173,7 +173,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d191-8999-a5b1-12f6" name="Desoves sagrados." hidden="false" collective="true" import="true">
+        <selectionEntryGroup id="d191-8999-a5b1-12f6" name="Desoves sagrados." hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad3e-6056-5104-3e71" type="max"/>
           </constraints>
@@ -8867,8 +8867,8 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
                 <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">3</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">3</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
@@ -8989,16 +8989,6 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="d65b-5ef5-7f43-3339" value="3.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="d65b-5ef5-7f43-3339" value="2.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d65b-5ef5-7f43-3339" type="max"/>
@@ -9007,11 +8997,11 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <infoLink id="174d-8dc7-2341-850a" name="Cruzar (obstáculos)" hidden="false" targetId="5dfd-3f02-cece-1e02" type="rule"/>
         <infoLink id="3496-9e80-7338-57e3" name="Unidad legendaria" hidden="false" targetId="729e-2ed5-79eb-8288" type="rule"/>
         <infoLink id="3a40-cd32-8655-fb26" name="Piel escamosa (3+)" hidden="false" targetId="f3fe-4c6e-197e-832f" type="rule"/>
-        <infoLink id="397c-d312-b222-7f56" name="Impactos por carga (1D3)" hidden="false" targetId="97de-652c-df54-f43b" type="rule"/>
         <infoLink id="d1c2-ad8c-edc3-4621" name="Monstruo" hidden="false" targetId="0518-1c98-54e1-371d" type="rule"/>
         <infoLink id="43d8-d543-044d-3ef2" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="5ec6-1b44-ca7f-3a1a" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
         <infoLink id="2f65-f5bf-704c-8cf1" name="Heridas múltiples (1D6)" hidden="false" targetId="e658-6033-5e1f-c1c4" type="rule"/>
+        <infoLink id="ec26-a225-c508-58ca" name="Monstruosamente grande" hidden="false" targetId="38d4-1707-be50-7d0f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a7dc-1871-3bcf-86e8" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
@@ -9033,7 +9023,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
                 <characteristic name="H" typeId="5723232344415441232323">10</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">3</characteristic>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruos</characteristic>
@@ -10289,14 +10279,14 @@ dispersión de hechizos. Además, Kremlo conocerá los tres hechizos identifica
             <profile id="6f14-e616-81fa-f27f" name="Jinete eslizón" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">2</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">6</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">5</characteristic>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
@@ -10429,14 +10419,14 @@ dispersión de hechizos. Además, Kremlo conocerá los tres hechizos identifica
                 <profile id="0445-95e6-81f5-f077" name="Bravo de Tlanxla" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                    <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
                     <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
                     <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
                     <characteristic name="R" typeId="5423232344415441232323">2</characteristic>
                     <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
-                    <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
-                    <characteristic name="L" typeId="4c4423232344415441232323">6</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">5</characteristic>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>

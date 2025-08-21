@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="924e-28e4-pubN65537" name="Elfos Silvanos. Libro de Ejércitos. Warhammer Reforged"/>
   </publications>
@@ -3797,11 +3797,21 @@
                             <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e105-d7c2-4ca3-5115" type="equalTo"/>
                           </conditions>
                         </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                     </entryLink>
                     <entryLink id="cbb2-1160-47e9-a2a0" name="Armaduras mágicas. Elfos silvanos. Armadura ligera" hidden="false" collective="false" import="true" targetId="24a0-768d-2d8b-1a93" type="selectionEntryGroup"/>
                     <entryLink id="6753-4f21-43ce-e8d3" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup">
                       <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
+                          </conditions>
+                        </modifier>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
                             <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e105-d7c2-4ca3-5115" type="equalTo"/>
@@ -3810,13 +3820,34 @@
                       </modifiers>
                     </entryLink>
                     <entryLink id="44f3-b275-209d-dcd5" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
-                    <entryLink id="3947-0eea-30ce-f447" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
-                    <entryLink id="0494-c759-82e8-fad1" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                    <entryLink id="3947-0eea-30ce-f447" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="0494-c759-82e8-fad1" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="30a3-c67e-69a4-1e69" name="Armaduras mágicas. Elfos silvanos. Armadura pesada" hidden="false" collective="false" import="true" targetId="a53b-5dfe-eb5b-1013" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
                             <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e105-d7c2-4ca3-5115" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -4754,6 +4785,24 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="72de-ce1e-6fae-8445" name="Flechas veloces" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="7f47-d917-eee9-90ca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8451-e1b2-2958-9152" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="feec-9196-38f0-5383" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7101-bc88-b965-80e5" name="Flechas veloces" hidden="false" targetId="fb97-c17e-864d-d073" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6118,11 +6167,16 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="a5ef-a8df-e0c7-dabc" name="Armaduras mágicas. Elfos Silvanos. Armadura ligera" hidden="false" collective="false" import="true" targetId="2b8c-b624-ecf8-be73" type="selectionEntryGroup">
+                    <entryLink id="a5ef-a8df-e0c7-dabc" name="Armaduras mágicas. Elfos silvanos" hidden="false" collective="false" import="true" targetId="2b8c-b624-ecf8-be73" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
                             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e105-d7c2-4ca3-5115" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -6135,16 +6189,42 @@
                             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e105-d7c2-4ca3-5115" type="equalTo"/>
                           </conditions>
                         </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                     </entryLink>
                     <entryLink id="a937-db2d-c676-e4f7" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
-                    <entryLink id="1ce7-7a44-7f6c-2f7c" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
-                    <entryLink id="977c-602d-1dcc-c8a4" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                    <entryLink id="1ce7-7a44-7f6c-2f7c" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="977c-602d-1dcc-c8a4" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="0c05-9e2b-43ce-c9be" name="Armaduras mágicas. Elfos silvanos. Armadura pesada" hidden="false" collective="false" import="true" targetId="a53b-5dfe-eb5b-1013" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
                             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e105-d7c2-4ca3-5115" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab51-f21a-bc31-9989" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -6581,6 +6661,24 @@
                 <cost name="pts" typeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="fbe3-f960-a97f-8dc6" name="Flechas veloces" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="bde5-1e44-3c15-a57b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8451-e1b2-2958-9152" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="09d8-e16a-1143-6ff5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5e4e-af70-7e40-39e0" name="Flechas veloces" hidden="false" targetId="fb97-c17e-864d-d073" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="233f-9035-4a5f-5788" name="Montura" hidden="false" collective="false" import="true">
@@ -6756,13 +6854,6 @@
             <selectionEntryGroup id="0d47-bf52-bb6f-b7c4" name="Armaduras" hidden="false" collective="false" import="true">
               <selectionEntries>
                 <selectionEntry id="4794-69b3-2f71-33f1" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e105-d7c2-4ca3-5115" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae00-7cf6-b53f-bbe4" type="max"/>
                   </constraints>
@@ -13113,7 +13204,7 @@ Sombras.</description>
                 <infoLink id="e0b7-0f06-df07-891c" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bcac-97db-2f54-3da4" name="Cuerpo embrujado" hidden="false" collective="false" import="true" type="upgrade">
@@ -13151,7 +13242,7 @@ Sombras.</description>
                 <infoLink id="5daf-658f-a2a7-83ac" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
