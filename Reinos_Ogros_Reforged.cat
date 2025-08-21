@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="3" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="4" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coroccota Bada, Aswer y Gengis.</readme>
   <profileTypes>
     <profileType id="82a1-ea3c-b415-8a9a" name="Objeto">
@@ -3516,6 +3516,7 @@ D6 Resultado (Agarrar y...)
                 <entryLink id="8b44-7f40-52f2-f1b0" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                 <entryLink id="452a-02bd-7833-d5de" name="Estandartes mágicos. Reliquias. Ogros" hidden="false" collective="false" import="true" targetId="cab1-54fd-c78c-6f65" type="selectionEntryGroup"/>
                 <entryLink id="cf9b-efc1-4113-4ee1" name="Estandartes mágicos. Ogros" hidden="false" collective="false" import="true" targetId="7631-2252-51c5-c690" type="selectionEntryGroup"/>
+                <entryLink id="8e28-3576-19e2-45eb" name="Estandartes mágicos. Reliquias" hidden="false" collective="false" import="true" targetId="ce18-5154-29c0-927b" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -5295,57 +5296,57 @@ Bajas: (Mejora para Skrag) / (Mejora para los gargantuas)
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9747-e6ad-763d-f8a1" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="fba8-3419-da72-13cb" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="fba8-3419-da72-13cb" name="Cepo de mano" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="93b4-5dda-5dce-06ee" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
+                    <infoLink id="93b4-5dda-5dce-06ee" name="Cepo de mano" hidden="false" targetId="f5f4-8981-315a-f4b1" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8d8e-bbae-b296-b99f" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="3d2b-fad7-e2ba-d2bd" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
-              </selectionEntries>
-              <entryLinks>
-                <entryLink id="ffac-ef07-7353-dbff" name="Puño de Hierro" hidden="false" collective="false" import="true" targetId="361c-5c10-231f-a1e0" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="6f77-31c4-f533-ea29" value="-1.0"/>
-                  </modifiers>
+                <selectionEntry id="2a82-018f-dab8-4d09" name="Puño de Hierro" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="29d5-fa2d-18a9-3ddc" name="Puño de hierro" hidden="false" targetId="2a00-aa65-1f3a-16c0" type="profile"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="4.0"/>
                   </costs>
-                </entryLink>
-                <entryLink id="74db-465d-fb79-ac42" name="Maza ogra adicional" hidden="false" collective="false" import="true" targetId="5a38-f5e3-e1e3-02b8" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="6474-01c9-54ae-bdfd" value="-1.0"/>
-                  </modifiers>
-                  <costs>
-                    <cost name="pts" typeId="points" value="3.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="1ee2-8030-b18f-5956" name="Cepo de mano" hidden="false" collective="false" import="true" targetId="9479-283f-d63c-d1a2" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="b2bd-8064-cddf-2f81" value="-1.0"/>
-                  </modifiers>
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="c3b8-a168-a4cc-4d98" name="Pistola ogra" hidden="false" collective="false" import="true" targetId="77e3-4200-bea1-dc85" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="b891-8612-9347-1193" value="-1.0"/>
-                  </modifiers>
-                  <costs>
-                    <cost name="pts" typeId="points" value="7.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="a900-1848-6eac-edfe" name="Ristra de pistolas ogras" hidden="false" collective="false" import="true" targetId="d5d7-2081-b756-a744" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="7705-be92-b133-8fd3" value="-1.0"/>
-                  </modifiers>
+                </selectionEntry>
+                <selectionEntry id="31b5-a09c-2a6c-6f16" name="Ristra de pistolas ogras" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="c739-cdac-91a9-100e" name="Ristra de pistolas (Combate)" hidden="false" targetId="254a-7f45-14ed-4756" type="profile"/>
+                    <infoLink id="43cc-4123-506b-0cc7" name="Ristra de pistolas (Disparo)" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="11.0"/>
                   </costs>
-                </entryLink>
-              </entryLinks>
+                </selectionEntry>
+                <selectionEntry id="7a1c-b83b-2960-a8b1" name="Pistola ogra" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="3b6b-6a7b-9234-b9eb" name="Pistola ogra (combate)" hidden="false" targetId="fe02-4f84-4b3d-c733" type="profile"/>
+                    <infoLink id="1461-d35c-ef66-a656" name="Pistola ogra (disparo)" hidden="false" targetId="712f-e101-d4bc-61d7" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="7.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3e8c-8c8f-fd87-9ec0" name="Maza ogra adicional" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="bf09-f78b-6c4e-a7b8" name="Maza ogras emparejadas" hidden="false" targetId="2406-daeb-ad4d-5559" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
