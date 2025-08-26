@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9ec5-91ab-c1bc-3ae5" name="Desove">
       <characteristicTypes>
@@ -5211,10 +5211,35 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="3a13-029b-600d-4df4" name="Objetos hechizados. Hombres lagarto. Eslizones" hidden="false" collective="false" import="true" targetId="bbea-ab12-cca0-f84f" type="selectionEntryGroup"/>
-                    <entryLink id="e016-8fb1-7b63-09a1" name="Objetos hechizados. Hombres lagarto. Infantería" hidden="false" collective="false" import="true" targetId="9db2-01fd-da30-4aa4" type="selectionEntryGroup"/>
+                    <entryLink id="e016-8fb1-7b63-09a1" name="Objetos hechizados. Hombres lagarto. Infantería" hidden="false" collective="false" import="true" targetId="9db2-01fd-da30-4aa4" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e43-32e2-6443-0592" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="85be-3055-10e9-1088" name="Objetos hechizados. Hombres lagarto" hidden="false" collective="false" import="true" targetId="e103-2f22-0afd-4f9b" type="selectionEntryGroup"/>
                     <entryLink id="31e2-4a9a-be23-1b9d" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink id="353b-07e6-1755-b554" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup"/>
+                    <entryLink id="353b-07e6-1755-b554" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e43-32e2-6443-0592" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="83a8-b4e4-08a7-c0b3" name="Objetos hechizados. Hombres lagarto. Eslizón. Infantería" hidden="false" collective="false" import="true" targetId="bf57-7e5c-7ede-53f7" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e43-32e2-6443-0592" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="942c-f9cf-3bb0-9d72" name="Talismanes" hidden="false" collective="false" import="true">
@@ -6189,10 +6214,35 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="e5ff-5628-cd66-5e32" name="Objetos hechizados. Hombres lagarto. Eslizones" hidden="false" collective="false" import="true" targetId="bbea-ab12-cca0-f84f" type="selectionEntryGroup"/>
-                    <entryLink id="099c-d387-e344-fc4e" name="Objetos hechizados. Hombres lagarto. Infantería" hidden="false" collective="false" import="true" targetId="9db2-01fd-da30-4aa4" type="selectionEntryGroup"/>
+                    <entryLink id="099c-d387-e344-fc4e" name="Objetos hechizados. Hombres lagarto. Infantería" hidden="false" collective="false" import="true" targetId="9db2-01fd-da30-4aa4" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="a2c0-e158-c9b5-55fb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="387b-9e42-5f10-6559" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="d756-d42a-75f9-2df6" name="Objetos hechizados. Hombres lagarto" hidden="false" collective="false" import="true" targetId="e103-2f22-0afd-4f9b" type="selectionEntryGroup"/>
                     <entryLink id="e95a-dbc3-abc6-4c0c" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink id="0529-571e-36d8-ceb9" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup"/>
+                    <entryLink id="0529-571e-36d8-ceb9" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="a2c0-e158-c9b5-55fb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="387b-9e42-5f10-6559" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="1331-d8df-b624-3ac2" name="Objetos hechizados. Hombres lagarto. Eslizón. Infantería" hidden="false" collective="false" import="true" targetId="bf57-7e5c-7ede-53f7" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="a2c0-e158-c9b5-55fb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="387b-9e42-5f10-6559" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="1b07-17f7-a8bf-7f91" name="Talismanes" hidden="false" collective="false" import="true">
@@ -6626,10 +6676,35 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="71ba-cb05-33b8-d019" name="Objetos hechizados. Hombres lagarto. Eslizones" hidden="false" collective="false" import="true" targetId="bbea-ab12-cca0-f84f" type="selectionEntryGroup"/>
-                    <entryLink id="452d-4db2-7bc1-3a40" name="Objetos hechizados. Hombres lagarto. Infantería" hidden="false" collective="false" import="true" targetId="9db2-01fd-da30-4aa4" type="selectionEntryGroup"/>
+                    <entryLink id="452d-4db2-7bc1-3a40" name="Objetos hechizados. Hombres lagarto. Infantería" hidden="false" collective="false" import="true" targetId="9db2-01fd-da30-4aa4" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6450-fade-376d-56e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a2d3-7011-0348-a3fb" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="6bc5-60fd-f503-7e4f" name="Objetos hechizados. Hombres lagarto" hidden="false" collective="false" import="true" targetId="e103-2f22-0afd-4f9b" type="selectionEntryGroup"/>
                     <entryLink id="313e-e620-3468-fe1e" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink id="17ce-e5da-66cc-4f9a" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup"/>
+                    <entryLink id="17ce-e5da-66cc-4f9a" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6450-fade-376d-56e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a2d3-7011-0348-a3fb" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="e337-1b38-5b8f-ce43" name="Objetos hechizados. Hombres lagarto. Eslizón. Infantería" hidden="false" collective="false" import="true" targetId="bf57-7e5c-7ede-53f7" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6450-fade-376d-56e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a2d3-7011-0348-a3fb" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="ddcb-8f8f-fbfc-a483" name="Talismanes" hidden="false" collective="false" import="true">
@@ -11339,8 +11414,8 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
         <rule id="183f-fc77-36df-f9b3" name="Rugido primitivo" hidden="false">
           <description>Una vez por batalla, al inicio de uno de tus turnos, puedes declarar que el troglodón ruge. Todos los eslizones a 18&quot; o menos del troglodón pueden repetir sus tiradas para impactar (tanto en combate cuerpo a cuerpo como con disparos) hasta el final de ese turno del jugador.</description>
         </rule>
-        <rule id="1e4f-7680-3d2c-5ecb" name="Escupir veneno" hidden="false">
-          <description>El Troglodón puede disparar como un Cañón que puede estimar 0-6 dados (más el dado de artillería) que se resuelve con Fuerza 4 y no permite realizar tirada de salvación por armadura. Coloca la plantilla redonda pequeña tras la distancia recorrida en el rebote: todas las miniaturas cubiertas por la plantilla (utiliza las reglas habituales para impactos parciales) sufrirán también un impacto del “cañón”. Un Troglodón puede disparar aunque mueva, pero no si marcha. Si obtienes un resultado de Problemas, en lugar de tirar en una tabla, el personaje sufrirá una herida sin posibilidad de tirada de salvación por armadura.</description>
+        <rule id="0ade-b718-e6d7-9bd4" name="Escupir veneno" hidden="false">
+          <description>El troglodón puede disparar como una Catapulta con un alcance de 0-24”, Fuerza 3 y la regla especial Ataques Flamígeros. Los impactos de este disparo no permiten tirada de salvación por armadura. El impacto central se resolverá del mismo modo pero con Fuerza 5. Si obtienes un resultado de problemas, en lugar de tirar en la tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir veneno si mueve, pero no si marcha.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -12490,7 +12565,7 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
           <profiles>
             <profile id="ef13-cad2-e7b0-0084" name="Tótem de las profecías" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Todas las unidades aliadas a 12” o menos del portador del Tótem podrán repetir los resultados naturales de 1 obtenidos en sus tiradas para impactar y herir. El portador del Tótem y la unidad de la que forme parte obtendrán la Regla Especial Inmunes a Psicología.</characteristic>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Todas las unidades aliadas a 12” o menos del portador del Tótem podrán repetir los resultados naturales de 1 obtenidos en sus tiradas para impactar y herir tanto en combate cuerpo a cuerpo como con proyectiles. El portador del Tótem y la unidad de la que forme parte obtendrán la Regla Especial Inmunes a Psicología.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13060,24 +13135,23 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="313b-55af-559e-1fa9" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="705b-250f-0e3b-740d" name="Embrujo del guerrero jaguar" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7351-17a0-93f1-f2d4" name="Capa de plumas" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="98f6-a4d7-7513-79cb" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f17b-9691-0ad6-4332" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c738-7b24-8b11-2550" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1413-8eca-9452-987c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f021-9eca-69d6-28fd" name="Embrujo del guerrero jaguar" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
+            <profile id="c43f-619a-8c32-7a0d" name="Capa de plumas" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">El portador pasa a tener Movimiento 9 y la 
-regla especial Veloz.</characteristic>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo eslizones sin montura. El portador obtiene la regla especial Volar (10).</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="9a23-a762-bc99-3111" name="Veloz" hidden="false" targetId="6d32-e54e-896e-0d9f" type="rule"/>
+            <infoLink id="4fcf-5514-0293-798c" name="Volar (10)" hidden="false" targetId="be56-917b-a9d5-2c76" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13104,25 +13178,6 @@ regla especial Veloz.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="535d-4189-3b36-9362" name="Capa de plumas" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6419-ebc8-02c4-054c" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2851-ae84-8047-f290" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0186-3ef0-ee6e-66e2" name="Capa de plumas" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo eslizones. El portador obtiene la regla especial Volar (10).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="8f29-f889-8789-a10a" name="Volar (10)" hidden="false" targetId="be56-917b-a9d5-2c76" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="749a-2944-92c7-538a" name="Libélula de mercurio" hidden="false" collective="false" import="true" type="upgrade">
@@ -13618,6 +13673,33 @@ regla especial Veloz.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bf57-7e5c-7ede-53f7" name="Objetos hechizados. Hombres lagarto. Eslizón. Infantería" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1713-52b2-313a-8dab" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dbdd-d5d5-0a08-3752" name="Embrujo del guerrero jaguar" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef20-b7fa-26c9-eec2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53d2-6846-d887-5711" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fe0f-df34-d405-4342" name="Embrujo del guerrero jaguar" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">El portador pasa a tener Movimiento 9 y la 
+regla especial Veloz.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2672-d94e-ec67-057e" name="Veloz" hidden="false" targetId="6d32-e54e-896e-0d9f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

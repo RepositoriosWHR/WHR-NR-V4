@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="2" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="3" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4be9-2442-f655-1d41" name="Runa talismánica">
       <characteristicTypes>
@@ -7594,13 +7594,14 @@ con varias runas iguales).</characteristic>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="00ec-5d1d-8ef2-7f86" name="Pistola" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="00ec-5d1d-8ef2-7f86" name="Pistola enana" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9df6-b0fb-2200-fe6b" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b3f-c088-b775-b3a6" type="min"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="3944-96df-8ef2-0df8" name="Pistola" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
+                    <infoLink id="3944-96df-8ef2-0df8" name="Pistola enana (combate)" hidden="false" targetId="9c9a-8151-2b34-8ed7" type="profile"/>
+                    <infoLink id="eaee-e16e-24b3-2339" name="Pistola enana (disparo)" hidden="false" targetId="c7bb-329c-74f7-cf31" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -16018,7 +16019,7 @@ Las unidades transportadas en la zona de carga o los héroes que estén en la ca
             <rule id="6bd4-20b5-98c1-41ad" name="Runas del Yunque Rúnico" hidden="false">
               <description>-Runa del hogar y el clan: Cuando se martillea esta runa, todos los enanos aliados que estén huyendo en el campo de batalla se reagrupan automáticamente. Todos los enanos aliados obtienen la regla especial Inmune a psicología hasta el inicio de tu siguiente fase de magia. Poder de los ancestros: Además de lo mencionado anteriormente, todas las unidades de enanos aliadas en el campo de batalla duplican su Potencia de unidad hasta el inicio de tu siguiente fase de magia.
 
--Runa de la devastación: Selecciona una unidad enemiga a 36” o menos del Yunque rúnico. Esta unidad sufrirá 1D6 impactos de Fuerza 5 con la regla especial Ataque de rayos. Ten en cuenta que no se considera un proyectil. Poder de los ancestros: En lugar de seleccionar una unidad enemiga, selecciona 1D2+1 unidades diferentes como objetivo para los rayos. Cada una sufrirá impactos como se ha descrito anteriormente.
+-Runa de la devastación: Selecciona una unidad enemiga a 36” o menos del Yunque rúnico. Esta unidad sufrirá 1D6 impactos de Fuerza 5 con la regla especial Ataque de rayos. Ten en cuenta que no se considera un proyectil ni un disparo, aunque los impactos de este ataque especial se distribuyen como proyectiles. Poder de los ancestros: En lugar de seleccionar una unidad enemiga, selecciona 1D2+1 unidades diferentes como objetivo para los rayos. Cada una sufrirá impactos como se ha descrito anteriormente.
 
 -Runa del oprobio: Elige una unidad enemiga a 24” o menos del Yunque rúnico. Esa unidad verá su Movimiento e Iniciativa reducidos a la mitad hasta el inicio de tu siguiente fase de magia. Además, perderá la regla Veloz y tendrá un penalizador de -1 a su Liderazgo por la misma duración. Poder de los ancestros: Selecciona 1D2+1 unidades diferentes en lugar de solo una dentro del alcance; aplica los penalizadores a todas ellas.
 

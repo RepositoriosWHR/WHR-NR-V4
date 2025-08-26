@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="d2ea-a0b8-pubN65537" name="Grey Infernal Reforged"/>
   </publications>
@@ -13258,22 +13258,6 @@ Golpe letal.</characteristic>
             <cost name="pts" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fc2e-4404-2f57-c71a" name="Esplendor diabólico" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d90a-560f-fc53-fc18" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="950e-d9cf-414c-5571" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0198-e4c6-47fb-bcff" name="Esplendor diabólico" hidden="false" typeId="454f-9dda-874e-99b2" typeName="Recompensa del caos">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="c061-8049-b24d-6e12">Todos los enemigos a 6” o menos del Personaje tendrán un penalizador de -1 a su Liderazgo.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="b7d8-1e3b-96a5-20fc" name="Aliento de fuego" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ebe-5355-4871-e545" type="max"/>
@@ -13330,13 +13314,13 @@ Golpe letal.</characteristic>
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e03b-6e55-0a18-7a62" name="Piel de Caos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e03b-6e55-0a18-7a62" name="Pellejo de Caos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d89-bc03-2484-f2f5" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8326-4abe-fbd8-6784" type="max"/>
           </constraints>
           <profiles>
-            <profile id="30c4-96af-1dbb-fde3" name="Piel de Caos" hidden="false" typeId="454f-9dda-874e-99b2" typeName="Recompensa del caos">
+            <profile id="30c4-96af-1dbb-fde3" name="Pellejo de Caos" hidden="false" typeId="454f-9dda-874e-99b2" typeName="Recompensa del caos">
               <characteristics>
                 <characteristic name="Reglas especiales" typeId="c061-8049-b24d-6e12">El personaje obtiene la regla especial Piel escamosa (6+).</characteristic>
               </characteristics>
@@ -14254,7 +14238,7 @@ especial Resistencia mágica (2).</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c46d-3b92-d25d-ee75" name="Ojo de Tzeentch " hidden="false" collective="false" import="true" type="upgrade">

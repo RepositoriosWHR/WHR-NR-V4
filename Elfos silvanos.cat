@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="924e-28e4-pubN65537" name="Elfos Silvanos. Libro de Ejércitos. Warhammer Reforged"/>
   </publications>
@@ -871,9 +871,27 @@
       <modifiers>
         <modifier type="increment" field="3ff8-0e6a-0e35-8ca2" value="1.0">
           <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12a3-c267-22cf-00ab" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3623-d9c2-63d7-931d" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12a3-c267-22cf-00ab" repeats="1" roundUp="false"/>
           </repeats>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4929-2a4d-6eaa-81bd" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="464a-0d14-caec-6f7a" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="3ff8-0e6a-0e35-8ca2" value="-1.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4929-2a4d-6eaa-81bd" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="464a-0d14-caec-6f7a" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -8007,7 +8025,7 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
           <description>Drycha puede usar esta regla especial una vez por batalla al final de cualquiera de sus fases de movimiento si no se encuentra trabada en combate cuerpo a cuerpo, se encuentra dentro de un Bosque y hay al menos otro Bosque en el campo de batalla. Retira a Drycha y su unidad del campo de batalla y colócala dentro de otro Bosque del campo de batalla a tu elección. Debe ser capaz de colocar la unidad completamente a más de 1” de unidades enemigas dentro del Bosque para poder utilizar esta regla.</description>
         </rule>
         <rule id="2c6d-ecd6-29a6-4d0e" name="La más antigua de las driades" hidden="false">
-          <description>rycha tiene la regla especial Presencia inspiradora, que sólo afecta a Dríades, Arbóreos, Hombres árbol, Duendes del bosque y Espectros del bosque.</description>
+          <description>rycha tiene la regla especial Presencia inspiradora, que sólo afecta a Dríades, Arbóreos, Hombres árbol, Duendes del bosque y Espectros del bosque. Si incluyes a Drycha, brezo de la aflicción en tu lista de ejército, la inclusión de unidades de Dríades no se verá restringida por las unidades de Guardia del bosque o Guardia eterna.</description>
         </rule>
         <rule id="78fa-f6f8-7613-8989" name="Doncella de Coeddil" hidden="false">
           <description>Drycha no puede ser el General del ejército. Además, siempre que Drycha no tenga su atributo máximo de Heridas, obtendrá la regla especial Furia asesina y no la perderá aunque pierda un combate.</description>
@@ -13055,7 +13073,7 @@ disparos, tira 2D6 y elige el resultado mayor.</characteristic>
 Sombras.</description>
         </rule>
         <rule id="ae16-3112-b2bb-7208" name="Desconfianza ancestral" hidden="false">
-          <description>Drycha no puede beneficiarse de la regla especial Presencia inspiradora de ninguna miniatura sin la regla especial Espíritu del bosque. Además, solamente podrá ser General en un ejército compuesto únicamente por miniaturas con la regla especial Espíritu del bosque.</description>
+          <description>Drycha no puede beneficiarse de la regla especial Presencia inspiradora de ninguna miniatura sin la regla especial Espíritu del bosque. Además, solamente podrá ser General en un ejército compuesto únicamente por miniaturas con la regla especial Espíritu del bosque. Si incluyes a Drycha, doncella de Addaivoch en tu lista de ejército, la inclusión de unidades de Dríades no se verá restringida por las unidades de Guardia del bosque o Guardia eterna.</description>
         </rule>
         <rule id="dda4-dae3-8cfb-ad48" name="La voluntad del bosque" hidden="false">
           <description>Al inicio de cada uno de turnos, elige una unidad de Dríades a 6” o menos de Drycha. Esa unidad obtendrá de manera adicional a los que ya tenga una de las tres opciones de Rasgos, duendes y hadas elementales. El efecto dura un turno completo de juego.</description>
@@ -14158,6 +14176,11 @@ cuerpo deberán aplicar un penalizador de -1 en sus tiradas para impactar. Adem�
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="379a-ebad-90d5-b0f6" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1da1-c8a0-230b-f068" type="max"/>
@@ -14877,13 +14900,11 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
       </costs>
     </selectionEntry>
     <selectionEntry id="c683-6774-a19d-8636" name="Carro de guerra" hidden="false" collective="false" import="true" type="unit">
-      <rules>
-        <rule id="9bfa-73d7-6127-992b" name="Potencia de unidad 3" hidden="false"/>
-      </rules>
       <infoLinks>
         <infoLink id="a9c2-2bc5-af55-c2e9" name="Cruzar (bosques)" hidden="false" targetId="9d01-387d-269d-5a44" type="rule"/>
         <infoLink id="9b66-4ed0-c599-074c" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
         <infoLink id="37db-9272-b3be-be6e" name="Caballería rápida" hidden="false" targetId="0b7e-2a08-2b5a-51d7" type="rule"/>
+        <infoLink id="b0d9-8fcd-a5c1-60bb" name="Protección por montura (1)" hidden="false" targetId="1f9d-b34a-3d89-add6" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="3aa1-0b84-060f-eadf" name="Carro de guerra" hidden="false" collective="false" import="true" type="model">
@@ -14919,7 +14940,7 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfbe-5ec9-9c20-5dfa" type="min"/>
           </constraints>
           <profiles>
-            <profile id="97c0-785a-48b1-36b7" name="Áuriga elfo silvano" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="97c0-785a-48b1-36b7" name="Guerrero elfo silvano" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323"/>
                 <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
@@ -14930,7 +14951,7 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">5</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
               </characteristics>
@@ -14950,18 +14971,6 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   </constraints>
                   <infoLinks>
                     <infoLink id="9fe8-e7b1-fd21-ab97" name="Arco élfico" hidden="false" targetId="c7b5-c56d-c921-7c2c" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="f431-0af6-ce47-850b" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7442-883a-4101-c138" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b33-54ca-3abc-b1ac" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="a0b2-ce9a-0cda-c98a" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -15005,12 +15014,12 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">9</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
-                    <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323"></characteristic>
                     <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
-                    <characteristic name="R" typeId="5423232344415441232323">3</characteristic>
-                    <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323"></characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323"></characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">1 (2)</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">6</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
@@ -15018,10 +15027,6 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink id="86a4-2253-78e6-6eef" name="Cruzar (bosques)" hidden="false" targetId="9d01-387d-269d-5a44" type="rule"/>
-                <infoLink id="f700-43b0-2cf7-7df6" name="Caballería rápida" hidden="false" targetId="0b7e-2a08-2b5a-51d7" type="rule"/>
-              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -17128,7 +17133,7 @@ personaje debe elegir como montura un Corcel élfico.</characteristic>
           <profiles>
             <profile id="1513-05d7-f508-bf31" name="Selathoi, estirpe eterna" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">El personaje está equipado con Armadura pesada, obtiene las reglas especiales Tozudez e Inmune a psicología y sólo podrá unirse a unidades de Guardia eterna. Pueden elegir uno de sus objetos mágicos (que no sea una Reliquia) de la lista de objetos mágicos de los Altos elfos. Solo pueden elegir como montura una Gran águila o un Dragón forestal. Si se equipan con Arco de Ellyrion o Arco de navegante, no pueden utilizar flechas mágicas ni especiales.</characteristic>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">El personaje está equipado con Armadura pesada, obtiene las reglas especiales Tozudez e Inmune a psicología y sólo podrá unirse a unidades de Guardia eterna. Pueden elegir uno de sus objetos mágicos (que no sea una Reliquia) de la lista de objetos mágicos de los Altos elfos. Solo pueden elegir como montura una Águila gigante o un Dragón forestal. Si se equipan con Arco de Ellyrion o Arco de navegante, no pueden utilizar flechas mágicas ni especiales.</characteristic>
               </characteristics>
             </profile>
           </profiles>

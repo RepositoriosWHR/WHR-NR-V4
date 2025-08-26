@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1902-3bc7-65bd-b65b" name="Recompensa del caos">
       <characteristicTypes>
@@ -6999,6 +6999,15 @@ resultados de 2 como 3).</description>
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink id="c86c-d794-5eb2-ea47" name="Recompensas del caos. Hechiceros" hidden="false" collective="false" import="true" targetId="7065-011b-e69a-fd8b" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c059-281a-f6c2-dcc8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -8386,9 +8395,6 @@ de Wulfrik.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf3b-60d8-4775-bf69" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="b008-9db0-1205-89c8" name="Marca del caos absoluto" hidden="false" targetId="d20b-2a11-317d-fa05" type="rule"/>
-          </infoLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -8856,6 +8862,7 @@ de Wulfrik.</characteristic>
             <entryLink id="858b-151a-52c0-6e7f" name="Clave: Kurgan" hidden="false" collective="false" import="true" targetId="8ce1-4ed1-f37c-2fd3" type="selectionEntry"/>
             <entryLink id="5668-8b5f-054b-26ac" name="Clave: Caos" hidden="false" collective="false" import="true" targetId="7859-8066-fb2b-c7c8" type="selectionEntry"/>
             <entryLink id="3801-1476-5a11-8cad" name="Clave: Humanos" hidden="false" collective="false" import="true" targetId="074a-f7b8-5b0b-3558" type="selectionEntry"/>
+            <entryLink id="6171-867e-5469-ff84" name="Clave: Paladín del Caos" hidden="false" collective="false" import="true" targetId="ce2b-d391-0003-7d6f" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -10601,7 +10608,7 @@ D6 	Resultado (Agarrar y...)
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e74f-0774-776c-b899" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="81b6-c0b4-eb5b-bac5" name="Marca de Khorne. Personajes" hidden="false" collective="false" import="true" targetId="7530-1c20-ec06-8295" type="selectionEntry">
+            <entryLink id="81b6-c0b4-eb5b-bac5" name="Marca de Khorne. Unidades" hidden="false" collective="false" import="true" targetId="41a6-d18a-1460-aabc" type="selectionEntry">
               <infoLinks>
                 <infoLink id="e60a-313b-1ea0-20d4" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule">
                   <modifiers>
@@ -10614,7 +10621,7 @@ D6 	Resultado (Agarrar y...)
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </entryLink>
-            <entryLink id="a31e-96bd-cb41-108b" name="Marca de Nurgle. Personajes" hidden="false" collective="false" import="true" targetId="cf15-f28c-0689-515e" type="selectionEntry">
+            <entryLink id="a31e-96bd-cb41-108b" name="Marca de Nurgle. Unidades" hidden="false" collective="false" import="true" targetId="aba0-1add-f8e6-6168" type="selectionEntry">
               <rules>
                 <rule id="20e7-5803-77cc-0e51" name="Marca de Nurgle. Mamut del Caos" hidden="false">
                   <description>Los enemigos tienen un penalizador de -1 para impactarles con proyectiles y los enemigos en contacto peana con peana tendrán -1 a su Habilidad de Armas.</description>
@@ -10624,7 +10631,7 @@ D6 	Resultado (Agarrar y...)
                 <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </entryLink>
-            <entryLink id="22ed-f985-b5d8-6eae" name="Marca de Slaanesh. Personajes" hidden="false" collective="false" import="true" targetId="2130-8db6-f7dc-8c82" type="selectionEntry">
+            <entryLink id="22ed-f985-b5d8-6eae" name="Marca de Slaanesh. Unidades" hidden="false" collective="false" import="true" targetId="b4f5-abca-1828-c275" type="selectionEntry">
               <infoLinks>
                 <infoLink id="4687-3ed7-1c2e-2be2" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
                 <infoLink id="b957-133d-c74a-0fc5" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
@@ -10633,7 +10640,7 @@ D6 	Resultado (Agarrar y...)
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </entryLink>
-            <entryLink id="1bdf-80a6-de75-fd30" name="Marca de Tzeentch. Personajes" hidden="false" collective="false" import="true" targetId="0cbb-1c3a-5e70-7f3b" type="selectionEntry">
+            <entryLink id="1bdf-80a6-de75-fd30" name="Marca de Tzeentch. Unidades" hidden="false" collective="false" import="true" targetId="9368-30c0-5c4e-baa3" type="selectionEntry">
               <rules>
                 <rule id="e968-94d3-9339-da86" name="Marca de Tzeentch. Mamut del Caos" hidden="false">
                   <description>Obtiene la regla especial Ataques flamígeros (todos) y una tirada de salvación especial de 6+ (o +1 si ya disponían de ella) </description>
@@ -10650,7 +10657,7 @@ D6 	Resultado (Agarrar y...)
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </entryLink>
-            <entryLink id="a8d0-e68b-f636-a772" name="Marca de Caos absoluto. Personajes" hidden="false" collective="false" import="true" targetId="f4e7-b253-934f-81e7" type="selectionEntry">
+            <entryLink id="a8d0-e68b-f636-a772" name="Marca de Caos absoluto. Unidades" hidden="false" collective="false" import="true" targetId="cf4d-6b71-a4c4-c958" type="selectionEntry">
               <rules>
                 <rule id="e260-5542-edf4-7a28" name="Marca de Caos absoluto. Mamut del Caos" hidden="false">
                   <description>Al inicio de la batalla, antes del despliegue, efectúa una tirada en la tabla del Ojo de los Dioses y aplica el resultado al mamut durante la batalla; repite los resultados de 2.</description>
@@ -10694,7 +10701,7 @@ D6 	Resultado (Agarrar y...)
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="ffc1-be29-617f-4687" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7530-1c20-ec06-8295" type="equalTo"/>
+                            <condition field="selections" scope="ffc1-be29-617f-4687" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="41a6-d18a-1460-aabc" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -10703,7 +10710,7 @@ D6 	Resultado (Agarrar y...)
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="ffc1-be29-617f-4687" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf15-f28c-0689-515e" type="equalTo"/>
+                            <condition field="selections" scope="ffc1-be29-617f-4687" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aba0-1add-f8e6-6168" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -10712,7 +10719,7 @@ D6 	Resultado (Agarrar y...)
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="ffc1-be29-617f-4687" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2130-8db6-f7dc-8c82" type="equalTo"/>
+                            <condition field="selections" scope="ffc1-be29-617f-4687" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4f5-abca-1828-c275" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -10721,7 +10728,7 @@ D6 	Resultado (Agarrar y...)
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="ffc1-be29-617f-4687" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0cbb-1c3a-5e70-7f3b" type="equalTo"/>
+                            <condition field="selections" scope="ffc1-be29-617f-4687" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9368-30c0-5c4e-baa3" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -11162,11 +11169,6 @@ D6 	Resultado (Agarrar y...)
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfd7-ff3c-3c99-4cf3" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="4a35-ce38-4ae9-eab0" name="Marca del Caos absoluto" hidden="false" targetId="d20b-2a11-317d-fa05" type="rule"/>
-        <infoLink id="6559-e73c-4550-d39b" name="Carga devastadora" hidden="false" targetId="dbe6-c910-7f37-aeac" type="rule"/>
-        <infoLink id="bf61-20cb-5e26-6b3b" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -11197,11 +11199,6 @@ D6 	Resultado (Agarrar y...)
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46bf-fb8e-effe-69df" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="1bb6-79b6-e99e-d3b2" name="Marca de Tzeentch" hidden="false" targetId="c801-80b9-8358-6909" type="rule"/>
-        <infoLink id="4b69-63af-2fab-5682" name="Ataques flamígeros" hidden="false" targetId="6985-722e-1ce4-b838" type="rule"/>
-        <infoLink id="db5a-d5b8-db78-dd61" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -11232,11 +11229,6 @@ D6 	Resultado (Agarrar y...)
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b3f-6823-927c-5823" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="83a2-4fe6-8bdf-a6b6" name="Marca de Slaanesh" hidden="false" targetId="ad65-d2f2-6a37-761c" type="rule"/>
-        <infoLink id="eb2e-4792-377c-86e4" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
-        <infoLink id="0c00-7a3a-ff4e-45b4" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -11267,9 +11259,6 @@ D6 	Resultado (Agarrar y...)
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b414-4d3d-bdec-ec70" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="1fde-3d81-8301-ab08" name="Marca de Nurgle" hidden="false" targetId="62f0-5a1f-2b8b-74c5" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -12767,7 +12756,7 @@ D6 	Resultado (Agarrar y...)
             <entryLink id="8a28-5862-e738-7f6f" name="Recompensa Mayor" hidden="false" collective="false" import="true" targetId="1e00-b3e9-2eaf-bcf7" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="45.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -14793,21 +14782,6 @@ D6 Poción del Caos
   <sharedRules>
     <rule id="56e3-cc6c-c4a6-3373" name="La Voluntad del Caos" hidden="false">
       <description>Las unidades con esta regla especial pueden repetir los chequeos de Pánico fallidos.</description>
-    </rule>
-    <rule id="e99c-db79-2807-4d6c" name="Marca de Khorne" hidden="false">
-      <description>Otorga las reglas especiales Furia asesina y Resistencia mágica (1).</description>
-    </rule>
-    <rule id="62f0-5a1f-2b8b-74c5" name="Marca de Nurgle" hidden="false">
-      <description>Otorga +1R, pero también -1I. Además, los enemigos tienen un penalizador de -1 para impactar con proyectiles al dispararlos, y -1HA al enemigo en cuerpo a cuerpo (no afecta a tropas de Nurgle, demonios de Nurgle o tropas Pestilens skaven).</description>
-    </rule>
-    <rule id="ad65-d2f2-6a37-761c" name="Marca de Slaanesh" hidden="false">
-      <description>Otorga las reglas especiales Inmune a la psicología y Sangre fría.</description>
-    </rule>
-    <rule id="c801-80b9-8358-6909" name="Marca de Tzeentch" hidden="false">
-      <description>Otorga un +1 a la tirada de salvación especial (6+ si no disponen de ella), y las reglas especiales Ataques mágicos y Ataques flamígeros en sus ataques en cuerpo a cuerpo y con proyectiles.</description>
-    </rule>
-    <rule id="d20b-2a11-317d-fa05" name="Marca del caos absoluto" hidden="false">
-      <description>Otorga las reglas especiales Carga devastadora e Inmune a la psicología.</description>
     </rule>
     <rule id="f5d0-891d-c44d-7574" name="Ojo de los dioses" hidden="false">
       <description>Los personajes con esta regla especial y la clave Paladín del Caos tienen la regla especial Orgullo marcial. Los oficiales con esta regla especial también tienen la regla especial Orgullo marcial. Si una miniatura con esta regla especial mata a un personaje enemigo (pero no un oficial) en un Desafío o a un Objetivo grande (ya sea en combate, magia, etc) deberá tirar 2D6 en la tabla del Ojo de los dioses y aplicar inmediatamente el resultado (los efectos, a menos que se especifique, permanecen el resto de la batalla. Los resultados repetidos se consideran resultados de 3. Algunos oficiales también tienen la regla especial “Ojo de los dioses”, en cuyo caso también podrán tirar en la tabla del Ojo de los dioses si eliminan en Desafío a un oficial o personaje enemigo o si acaban con un Objetivo grande.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0838-843b-f148-7874" name="Skaven" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0838-843b-f148-7874" name="Skaven" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6e2e-eebb-846d-4520" name="Recompensa del caos">
       <characteristicTypes>
@@ -189,7 +189,7 @@
                 <cost name="pts" typeId="points" value="70.0"/>
               </costs>
             </entryLink>
-            <entryLink id="db66-600d-858b-7b91" name="Mortero de viento corrosivo" hidden="false" collective="false" import="true" targetId="1dc9-0d2d-41e1-b6c4" type="selectionEntry">
+            <entryLink id="db66-600d-858b-7b91" name="Mortero de viento envenenado" hidden="false" collective="false" import="true" targetId="1dc9-0d2d-41e1-b6c4" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="65.0"/>
               </costs>
@@ -3454,7 +3454,6 @@ envenenados.</description>
                     <entryLink id="9275-3ba2-e017-2f22" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink id="3140-8628-e169-02ac" name="Armas mágicas. Skaven. Arma de mano" hidden="false" collective="false" import="true" targetId="c143-7882-c7f3-a377" type="selectionEntryGroup"/>
                     <entryLink id="17d4-ab16-ec19-e6a4" name="Armas mágicas. Skaven. Armas emparejadas" hidden="false" collective="false" import="true" targetId="313a-7d9b-58e3-a465" type="selectionEntryGroup"/>
-                    <entryLink id="657b-7156-3cd7-c6bd" name="Armas mágicas. Skaven. Alabarda" hidden="false" collective="false" import="true" targetId="b5a8-3a75-fbcd-cf44" type="selectionEntryGroup"/>
                     <entryLink id="088d-60ba-3586-86c2" name="Armas mágicas. Alabarda" hidden="false" collective="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -4736,7 +4735,6 @@ envenenados.</description>
                     <entryLink id="4814-a8c7-9707-ecd3" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink id="e97a-3b5e-82c0-72f9" name="Armas mágicas. Skaven. Arma de mano" hidden="false" collective="false" import="true" targetId="c143-7882-c7f3-a377" type="selectionEntryGroup"/>
                     <entryLink id="b0dc-85ca-0eb8-08a0" name="Armas mágicas. Skaven. Armas emparejadas" hidden="false" collective="false" import="true" targetId="313a-7d9b-58e3-a465" type="selectionEntryGroup"/>
-                    <entryLink id="1644-7720-ee53-2402" name="Armas mágicas. Skaven. Alabarda" hidden="false" collective="false" import="true" targetId="b5a8-3a75-fbcd-cf44" type="selectionEntryGroup"/>
                     <entryLink id="2222-b4f2-52e8-0943" name="Armas mágicas. Alabarda" hidden="false" collective="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -5998,6 +5996,7 @@ envenenados.</description>
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink id="0ada-4a4b-db34-086b" name="Armas mágicas. Skaven. Alabarda bruja" hidden="false" collective="false" import="true" targetId="b5a8-3a75-fbcd-cf44" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="1810-cba0-e7af-4f0e" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -10430,7 +10429,7 @@ un total de cinco hechizos).</characteristic>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="170b-06ad-215f-f891" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="998c-db80-51d7-bf9a" value="4.0">
+        <modifier type="set" field="998c-db80-51d7-bf9a" value="6.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
           </conditions>
@@ -13862,12 +13861,12 @@ especial de 4+. Tanto él como la unidad en la que esté tienen la regla especia
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1dc9-0d2d-41e1-b6c4" name="Mortero de viento corrosivo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1dc9-0d2d-41e1-b6c4" name="Mortero de viento envenenado" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ced9-b873-747c-bae6" type="max"/>
       </constraints>
       <rules>
-        <rule id="0f88-284a-6cec-629c" name="Mortero de viento corrosivo" hidden="false">
+        <rule id="0f88-284a-6cec-629c" name="Mortero de viento envenenado" hidden="false">
           <description>El Mortero de viento envenenado es un arma de disparo que puede Mover y disparar. Dispara como una Catapulta que utiliza la plantilla redonda pequeña y tiene un alcance de 6-24&quot; sin impacto central diferenciado. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales para impactos parciales) sufrirá una herida automática con un resultado de 4+ en 1D6 sin posibilidad de salvación por armadura. Estos impactos tienen la regla especial Ataques mágicos. Puede disparar sobre cualquier objetivo a la vista o, si se encuentra a 3&quot; o menos de su Unidad madre, puede usar su línea de visión para disparar. Si el objetivo no se encuentra 
 dentro de su línea de visión, el disparo desviará siempre (el doble del resultado del dado de artillería en caso de no obtener un resultado de punto de mira en el dado de dispersión). En caso de obtener un resultado de Problemas, tira 1D6 en la siguiente tabla:
 
@@ -14723,7 +14722,7 @@ especiales Ataque de rayos y Ataques mágicos.
           <profiles>
             <profile id="ced4-2b16-7622-9752" name="Pergamino de tormenta de disformidad" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un solo uso. Objeto portahechizos de nivel de energía 5. Todas las unidades con la regla especial Volar o Flotar que estén haciendo uso de dichas reglas sufrirán 1D6 impactos automáticos de Fuerza 5 distribuidos como disparos con la regla especial Ataque de rayos.</characteristic>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un solo uso. Objeto portahechizos de nivel de energía 5. Se trata de un hechizo de Tempestad mágica. Todas las unidades con la regla especial Volar o Flotar que estén haciendo uso de dichas reglas sufrirán 1D6 impactos automáticos de Fuerza 5 distribuidos como disparos con la regla especial Ataque de rayos.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14848,7 +14847,7 @@ especiales Ataque de rayos y Ataques mágicos.
           <profiles>
             <profile id="230b-7d30-fd70-4a6e" name="Cohete aniquilador" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Un solo uso. Puede utilizarse en cualquier fase de disparo propia si el portador no está trabado en combate ni ha marchado durante ese turno. Estima una distancia de entre 0-8 dados más el dado de artillería (como si se tratase de un Cañón): coloca la plantilla redonda grande al final de la distancia estimada. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de Fuerza 5 con la regla especial Ataques mágicos. Si obtienes tres o más resultados de 1 en la tirada de estimación, tira 1D6 en la Tabla de problemas del Cohete aniquilador:
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Un solo uso. Puede utilizarse en cualquier fase de disparo propia si el portador no está trabado en combate ni ha marchado durante ese turno. Estima una distancia de entre 0-8 dados más el dado de artillería (como si se tratase de un Cañón): coloca la plantilla redonda grande al final de la distancia estimada. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de Fuerza 5 con la regla especial Ataques mágicos. Si obtienes un resultado de Problemas en la primera tirada del dado de artillería, tira 1D6 en la tabla de problemas del Cohete Aniquilador:
 
 1 ¡Buuum!: Coloca la plantilla redonda grande centrada sobre el lanzador y resuelve el impacto de manera habitual.
 2-5 Pérdida del ala estabilizadora: Tira el dado dedispersión para determinar la dirección que tomará el cohete desde el lanzador.
@@ -15154,7 +15153,7 @@ penalizador de -1 en su tirada para impactar. Además, ningún enemigo que cargu
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b5a8-3a75-fbcd-cf44" name="Armas mágicas. Skaven. Alabarda" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="b5a8-3a75-fbcd-cf44" name="Armas mágicas. Skaven. Alabarda bruja" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45de-ed11-0bcf-5759" type="max"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01cb-b244-2e6c-2efd" type="min"/>
@@ -15173,7 +15172,7 @@ penalizador de -1 en su tirada para impactar. Además, ningún enemigo que cargu
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="1fec-4f55-0cc0-3348" name="Alabarda" hidden="false" targetId="8dd0-8d9d-2436-cbf1" type="profile"/>
+            <infoLink id="1fec-4f55-0cc0-3348" name="Alabarda bruja" hidden="false" targetId="512a-5c1c-116b-c9ad" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
@@ -15684,7 +15683,7 @@ penalizador de -1 en su tirada para impactar. Además, ningún enemigo que cargu
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="2c14-2f77-f8ea-d0b5" name="La fuerza del número" hidden="false">
-      <description> Todas las unidades con esta regla especial sumarán su bonificador por filas a su atributo de Liderazgo para realizar sus chequeos de desmoralización, así como de Miedo, Terror y Pánico, pudiendo aplicar el Liderazgo base del general por la regla especial Presencia inspiradora (hasta un máximo de Liderazgo 10).</description>
+      <description>Todas las unidades con esta regla especial sumarán su bonificador por filas a su atributo de Liderazgo para realizar sus chequeos de desmoralización, para evitar cargar por Furia asesina, Estupidez, Miedo, Terror y Pánico, pudiendo aplicar el Liderazgo base del general por la regla especial Presencia inspiradora (hasta un máximo de Liderazgo 10). </description>
     </rule>
     <rule id="e7d9-b876-8ed2-648f" name="Coraje mezquino" hidden="false">
       <description> Al comienzo de cada ronda de combate, el personaje con esta regla especial y con mayor atributo de Liderazgo dentro de una unidad podrá realizar un movimiento de ¡Dejad paso! para desplazarse a la segunda fila de la unidad que lo acompañe, pese a encontrarse en contacto peana con peana con una o más miniaturas enemigas y sin sufrirningún tipo de efecto adverso: simplemente desplaza al personaje a la segunda fila (del mismo modo que si hubiera rechazado un Desafío). Sin embargo, tras realizar este movimiento no podrá realizar ninguno de sus ataques contra las unidades enemigas en contacto con su unidad. Adicionalmente, dicho personaje podrá dar su Liderazgo a su unidad desde cualquier punto de esta, no sólo desde su fila delantera. Al final de cada ronda de combate deberás devolver el personaje al frontal de la unidad.</description>

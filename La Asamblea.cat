@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5752-4a70-7461-a2aa" name="La Asamblea" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5752-4a70-7461-a2aa" name="La Asamblea" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="7828-c6dc-75df-a355" name="Remoquete">
       <characteristicTypes>
@@ -1313,7 +1313,7 @@
       </constraints>
       <infoLinks>
         <infoLink id="f114-f2c4-304c-fb00" name="Enjambre" hidden="false" targetId="d477-174e-9843-a1b7" type="rule"/>
-        <infoLink id="dd00-67ad-d412-af89" name="Flotar" hidden="false" targetId="bfb1-ac97-7d3e-9593" type="rule"/>
+        <infoLink id="dd00-67ad-d412-af89" name="Flotar (8)" hidden="false" targetId="7465-4e8e-6ec8-2a0f" type="rule"/>
         <infoLink id="a0bc-b4f6-943f-9fca" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1379,6 +1379,7 @@
             <entryLink id="a3c9-0f6d-4d31-e5da" name="Clave: Halflings" hidden="false" collective="false" import="true" targetId="c57f-82bb-e80a-c8e6" type="selectionEntry"/>
             <entryLink id="b292-06cb-4769-0946" name="Clave: Imperio" hidden="false" collective="false" import="true" targetId="60f4-8aa5-0832-56be" type="selectionEntry"/>
             <entryLink id="2cfd-e4bf-9044-79b3" name="Clave: La Asamblea" hidden="false" collective="false" import="true" targetId="6337-3f19-9a5d-ba68" type="selectionEntry"/>
+            <entryLink id="3db4-b6b4-1c47-2362" name="Clave: Marabunta" hidden="false" collective="false" import="true" targetId="33cf-1b46-57da-2f2a" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -11767,7 +11768,7 @@ Sombras.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

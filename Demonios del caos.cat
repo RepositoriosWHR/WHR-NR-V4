@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9aa0-a435-0f3a-053a" name="Regalo demoníaco">
       <characteristicTypes>
@@ -12365,9 +12365,6 @@ grande.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="603f-7633-8740-d330" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69df-a047-4790-9585" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="9d67-b965-51fb-da07" name="Sed de sangre" hidden="false" targetId="80da-9884-6542-7173" type="rule"/>
-          </infoLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -12508,9 +12505,6 @@ grande.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1310-c0cb-cccb-a8bb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d63-5c16-4482-0026" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="a616-595f-52ae-f3db" name="Sed de sangre" hidden="false" targetId="80da-9884-6542-7173" type="rule"/>
-          </infoLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -12786,9 +12780,6 @@ grande.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f6-9a26-d9dd-acd3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8180-a08a-00a9-fbc9" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="8b86-ef1e-3863-462f" name="Sed de sangre" hidden="false" targetId="80da-9884-6542-7173" type="rule"/>
-          </infoLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -12904,9 +12895,6 @@ grande.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e71-22b1-c76e-cd6b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa5b-5143-d45d-9a87" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="8b04-778b-8b6b-faa7" name="Sed de sangre" hidden="false" targetId="80da-9884-6542-7173" type="rule"/>
-          </infoLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -13023,9 +13011,6 @@ grande.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb7b-0b12-c5b7-568b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b0d-3523-cf76-fee9" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="c03d-d055-36b4-c512" name="Sed de sangre" hidden="false" targetId="80da-9884-6542-7173" type="rule"/>
-          </infoLinks>
         </entryLink>
       </entryLinks>
       <costs>
@@ -13341,242 +13326,8 @@ grande.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="196c-f082-295f-24fd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02ce-b8d7-0f1d-4ae5" type="min"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="8145-f11d-2fe0-dba3" name="Sed de sangre" hidden="false" targetId="80da-9884-6542-7173" type="rule"/>
-          </infoLinks>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ca5c-27ee-f5bc-595e" name="Valkirias del caos" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="991d-f386-b183-f917" value="2.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="991d-f386-b183-f917" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="d2ff-3e18-1308-6ce3" name="Guerreras expertas" hidden="false">
-          <description>En el turno en que realicen una carga exitosa, las Valquirias obtienen la regla especial Carga devastadora y Ataque rápido.</description>
-        </rule>
-        <rule id="7cd4-802b-5240-84a1" name="Cazadores de almas" hidden="false">
-          <description>Las Valquirias pueden repetir los resultados de 1 en sus tiradas para impactar fallidas, tanto con sus ataques de disparo como con sus ataques en cuerpo a cuerpo, siempre que disparen o ataquen específicamente a un personaje enemigo (esto incluye a los Oficiales de las unidades) .</description>
-        </rule>
-        <rule id="0a6c-7245-384b-7067" name="Campeonas de los dioses" hidden="false">
-          <description>Las Valkirias no sufren animosidad demoníaca, y podrán efectuar su tirada de salvación por Aura demoníaca incluso contra Ataques mágicos. Además al inicio de cada ronda de combate cuerpo a cuerpo pueden elegir de la siguiente lista, uno de los siguientes favores otorgados por los cuatro grandes Dioses del Caos, y aplicar el efecto descrito a continuación durante dicha fase de combate cuerpo a cuerpo. No puedes elegir el mismo favor en dos fases de combate consecutivas:
--Favor de Khorne: la unidad gana la regla especial Golpe letal.
--Favor de Nurgle: la unidad gana la regla especial Regeneración (5+).
--Favor de Slaanesh: las miniaturas enemigas en contacto peana con peana con las valkirias verán su HA e I reducidas a la mitad (redondeando hacia arriba).
--Favor de Tzeencth: aumenta su tirada de salvación por Aura demoníaca a 4+ y otorga la regla especial Ataques flamígeros.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="7d37-03d4-d71c-9287" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
-        <infoLink id="e383-a8bf-1644-84ac" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
-        <infoLink id="5fb3-0d36-9f2c-d631" name="Volar" hidden="false" targetId="670e-1a23-b1e1-6e6f" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="2d1d-fd75-6d22-5c54" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3f67-a530-83d8-7413" name="Valkirias del caos" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b0-528b-be50-9538" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ad-2113-8a69-5702" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="a475-7c58-cf00-14f7" name="Valkirias del caos" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">4</characteristic>
-                <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
-                <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
-                <characteristic name="H" typeId="5723232344415441232323">2</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
-                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4e3a-4de5-55ad-cdf8" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f8-1182-5a66-752d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1341-8365-6c35-93c1" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="7d33-580a-77e0-e7f8" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e587-83cb-a12b-4283" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7aa-426b-c68d-a1d0" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5b51-eb87-0eb5-dd0d" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="162e-f23d-64fe-c1dc" name="Jabalina" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1891-5a82-1a53-8868" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c129-bfec-190d-e62c" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="c1c6-6ea9-ecd8-c813" name="Jabalina" hidden="false" targetId="a629-6d4b-3e74-7ff7" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b2ad-596e-d0fc-159e" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f267-1dbb-a0bf-8fdf" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289f-2416-d477-6d4b" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="72e0-fa9d-2b10-4666" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8cb1-aff4-910d-0bc0" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a169-78bb-ac22-637d" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="901a-b547-eb3e-0869" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="6041-4e39-66d4-ae24" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4c2c-c704-623d-e1e6" name="Lanza" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e315-abed-161c-3ddb" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="542d-9f7c-21ec-b236" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="64a8-206b-ba01-4b58" name="Lanza (infantería)" hidden="false" targetId="ea63-f860-d8f5-b7db" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="083a-ae8c-53ce-a3f4" name="Marca del caos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f4-a1a8-3e5e-8cfe" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03f2-5aff-9ce0-980e" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="0f62-66ea-8f09-53a3" name="Demonio caos absoluto iugig" hidden="false" collective="false" import="true" targetId="d388-205c-e000-56ec" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3742-3af4-bba0-a7ae" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fcd-f314-c62a-dc7b" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1cab-ca28-a6c8-129c" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d17-74ac-7fec-d56a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dc6-3d95-f2fc-4fd8" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="21f0-b3da-ad5c-5194" name="Clave: Demonios del Caos" hidden="false" collective="false" import="true" targetId="411e-33eb-0712-2cba" type="selectionEntry"/>
-            <entryLink id="110f-5d59-023e-d8c6" name="Clave: Caos" hidden="false" collective="false" import="true" targetId="7859-8066-fb2b-c7c8" type="selectionEntry"/>
-            <entryLink id="f39d-cc7d-e37d-7464" name="Clave: Demonios" hidden="false" collective="false" import="true" targetId="4a61-1669-1a16-2354" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="6c6f-ed89-22f9-552a" name="Grupo de mando" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="3311-c1ca-61b7-73e0" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71fa-2e2c-601c-df6b" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="2726-9284-fbf3-3460" name="Cuerno de guerra" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e59-af35-d253-79c2" type="max"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="35e5-8e48-cfd2-fc03" name="Cuerno de guerra" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                      <characteristics>
-                        <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La unidad obtendrá un bonificador de +1 a la resolución del combate mientras la portadora siga viva.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="be02-edf0-714f-131d" name="Paladina de los dioses" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9040-e854-2a02-5e76" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="5ec0-a191-8db7-376d" name="Paladina de los dioses" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-                  <characteristics>
-                    <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                    <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
-                    <characteristic name="HP" typeId="425323232344415441232323">4</characteristic>
-                    <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
-                    <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
-                    <characteristic name="H" typeId="5723232344415441232323">2</characteristic>
-                    <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
-                    <characteristic name="L" typeId="4c4423232344415441232323">9</characteristic>
-                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
-                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -15038,7 +14789,7 @@ Las miniaturas con la regla especial Demonio (Khorne) situadas a 6&quot; o menos
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="df98-7500-1db9-83bf" name="Demonio Slaanesh. Unidades" hidden="false" collective="false" import="true" targetId="4f98-6e2d-3f87-0d31" type="selectionEntry">
+        <entryLink id="df98-7500-1db9-83bf" name="Demonio Slaanesh. Personajes" hidden="false" collective="false" import="true" targetId="8b7e-f537-0364-0b10" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6655-f4c5-0f37-d847" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00aa-9a86-6da4-ea67" type="min"/>
@@ -16987,8 +16738,7 @@ Las miniaturas con la regla especial Demonio (Khorne) situadas a 6&quot; o menos
           <profiles>
             <profile id="d6eb-06d0-b52b-00fc" name="Hacha descuartizadora" hidden="false" typeId="9aa0-a435-0f3a-053a" typeName="Regalo demoníaco">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="a0ac-d89f-70e8-096e">Los ataques del demonio en combate cuerpo a cuerpo 
-obtienen la regla especial Heridas Múltiples (1D6).</characteristic>
+                <characteristic name="Reglas especiales" typeId="a0ac-d89f-70e8-096e">Los ataques del demonio en combate cuerpo a cuerpo obtienen la regla especial Heridas Múltiples (1D6).</characteristic>
               </characteristics>
             </profile>
           </profiles>

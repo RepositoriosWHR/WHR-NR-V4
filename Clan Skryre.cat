@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="887a-65ec-749f-cd54" name="Clan Skryre" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="887a-65ec-749f-cd54" name="Clan Skryre" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e6b4-690d-917e-1a11" name="Ratas de Clan Skryre" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -10,13 +10,13 @@
         <categoryLink id="6c16-8fc3-110e-605d" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3a70-76ce-b2ab-72ef" name="Guerreros de Clan Skryre" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3a70-76ce-b2ab-72ef" name="Ratas de Clan Skryre" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c02f-b942-3644-9cd2" type="max"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b39-7a50-c1d2-7554" type="min"/>
           </constraints>
           <profiles>
-            <profile id="63d3-eb38-c22b-fb6c" name="Guerrero de Clan Skryre" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="63d3-eb38-c22b-fb6c" name="Ratas de Clan Skryre" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <modifiers>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
@@ -76,6 +76,28 @@
             <entryLink id="627b-e2c0-c9c3-53fb" name="Clave: Skaven" hidden="false" collective="false" import="true" targetId="74f1-b2fc-fa84-e908" type="selectionEntry"/>
             <entryLink id="b9e2-43fa-6b05-c323" name="Clave: Clan Skyre" hidden="false" collective="false" import="true" targetId="a03e-1e50-a9e3-e674" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b72d-4082-ff77-0e62" name="Equipo de destrucción" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="e6b4-690d-917e-1a11" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a70-76ce-b2ab-72ef" type="lessThan"/>
+                    <condition field="selections" scope="e6b4-690d-917e-1a11" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe45-0e77-3f68-a9b8" type="equalTo"/>
+                    <condition field="selections" scope="e6b4-690d-917e-1a11" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b110-b7f6-a768-2424" type="equalTo"/>
+                    <condition field="selections" scope="e6b4-690d-917e-1a11" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebc1-7607-0560-2e87" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="255d-f732-6e60-bb5b" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -2267,7 +2289,7 @@
       <modifiers>
         <modifier type="increment" field="d821-69a7-f0cc-f5cf" value="1.0">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e6b4-690d-917e-1a11" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b72d-4082-ff77-0e62" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
         <modifier type="append" field="name" value=": Mortero de viento envenenado">
@@ -3611,13 +3633,13 @@
           <description>El condensador proporciona al Ratatanque la regla especial Aura demoníaca (4+) contra heridas que no procedan del propio Ratatanque. Cada vez que debas realizar una tirada en la tabla de problemas del condensador deberás sumar el total de heridas sufridas por el Ratatanque para determinar el resultado en la tabla. Si por cualquier motivo el Ratatanque llega a cero heridas, deberás aplicar inmediatamente el resultado de ¡Ka-Boom! de la tabla de problemas.</description>
         </rule>
         <rule id="3998-d161-3429-fa34" name="¡Acelera-acelera!" hidden="false">
-          <description>Puedes declarar que vas a pisar el acelerador en el momento de mover el Ratatanque. Tira el dado de artillería además de su movimiento aleatorio y añade el resultado para determinar la distancia que recorre. Si obtienes un resultado de problemas, deberás realizar una tirada en la tabla de problemas del condensador; el Ratatanque se desplazará solamente el resultado obtenido en la tirada de 2D6 (salvo que la tabla de problemas del reactor indique lo contrario). El Ratatanque no podrá hacer uso de sus armas de disparo en el turno en que haga uso de esta regla. El ingeniero y su dotación no pueden luchar en combate cuerpo a cuerpo; el enemigo impactará automáticamente al Ratatanque en combate cuerpo a cuerpo. Sin embargo, sí que podrá disparar su Ristra de pistolas brujas.</description>
+          <description>Puedes declarar que vas a pisar el acelerador en el momento de mover el Ratatanque. Tira el dado de artillería además de su movimiento aleatorio y añade el resultado para determinar la distancia que recorre. Si obtienes un resultado de problemas, deberás realizar una tirada en la tabla de problemas del condensador; el Ratatanque se desplazará solamente el resultado obtenido en la tirada de 2D6 (salvo que la tabla de problemas del reactor indique lo contrario). El Ratatanque no podrá hacer uso de sus armas de disparo en el turno en que haga uso de esta regla. </description>
         </rule>
         <rule id="cd0f-e1b1-fc6e-74b5" name="Demolición" hidden="false">
-          <description>Los obstáculos bajos o endebles tienen pocas posibilidades de impedir el avance del Ratatanque. Todos los obstáculos de altura igual o menor a 1” son ignorados a efectos de movimiento y combate. Todos los obstáculos de este tipo sobre los que pase el Ratatanque deben retirarse del campo de batalla (si es posible). Cualquier tipo de río, marisma o elemento de terreno acuático es terreno intransitable para el Ratatanque, el cual es sencillamente demasiado pesado como para no hundirse.</description>
+          <description>Todos los Obstáculos de altura igual o menor a 1” son ignorados a efectos de movimiento y combate. Todos los obstáculos de este tipo sobre los que pase el Ratatanque deben retirarse del campo de batalla (si es posible). Cualquier elemento de escenografía del tipo Elemento acuático se considera terreno Intransitable para el Ratatanque, el cual es sencillamente demasiado pesado como para no hundirse.</description>
         </rule>
         <rule id="9175-7da9-7be2-30c9" name="Machacar al enemigo Ratatanque" hidden="false">
-          <description>El Ratatanque tiene la regla especial Impactos por carga (1D6+2). Además, en todas las fases de combate cuerpo a cuerpo en que no haya cargado, el Ratatanque realiza un ataque especial que se resuelve con Iniciativa cero, y causa a una unidad enemiga en contacto peana con peana con el Ratatanque 1D6 impactos de F8 distribuidos como disparos; estos impactos cuentan para la resolución del combate. </description>
+          <description>El ingeniero y su dotación no pueden luchar en combate cuerpo a cuerpo; el enemigo impactará automáticamente al Ratatanque en combate cuerpo a cuerpo, aunque podrá disparar su Ristra de pistolas brujas. El Ratatanque tiene la regla especial Impactos por carga (1D6+2). Además, en todas las fases de combate cuerpo a cuerpo en que no haya cargado, el Ratatanque realiza un ataque especial que se resuelve con Iniciativa cero que causa a una unidad enemiga en contacto peana con peana con el Ratatanque 1D6 impactos de F8 distribuidos como disparos; estos impactos cuentan para la resolución del combate. </description>
         </rule>
         <rule id="21be-27de-ff7a-3c51" name="Tabla de problemas del Condensador de Disformidad a Reacción" hidden="false">
           <description>1D6+H Tabla de problemas del Condensador de Disformidad a Reacción
@@ -5423,7 +5445,7 @@ Pistola bruja mejorada.  Alcance: 12&quot;. F: 5. Reglas especiales: Poder de Pe
           <description>Adicionalmente a los hechizos que conoce, Ikit Claw conoce dos hechizos adicionales (para un total de cinco). </description>
         </rule>
         <rule id="778d-2719-de36-4ca2" name="Ingeniero-jefe" hidden="false">
-          <description>Un ejército que incluya a Ikit Claw puede incluir un Cañón de disformidad o una Rueda de la muerte como opción de Unidad básica. Además, siempre que una máquina de guerra o Grupo de apoyo tenga que efectuar una tirada en una tabla de Problemas, podrá repetir esa tirada (incluso aunque Ikit haya sido retirado como baja). Si Ikit Claw es el General del ejército, los Diablos de asalto contarán como Grupo de apoyo a efectos de esta regla.</description>
+          <description>Un ejército del Clan Skryre que incluya a Ikit Claw puede incluir un Cañón de disformidad o una Rueda de la muerte como opción de Unidad Básica. Además, siempre que una máquina de guerra o Grupo de apoyo tenga que efectuar una tirada en una tabla de Problemas, podrá repetir esa tirada (incluso aunque Ikit haya sido retirado como baja). Si Ikit Claw es el General del ejército, los Diablos de asalto contarán como Grupo de apoyo a efectos de esta regla.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6146,8 +6168,7 @@ causa de este Arma de aliento deberá realizar inmediatamente un chequeo de Pán
       </constraints>
       <rules>
         <rule id="2d4d-2373-6446-b5dd" name="Ráfaga de disformidad" hidden="false">
-          <description>Se trata de un arma de disparo que tiene un alcance de 18&quot;. Sus impactos se resuelven con Fuerza 5 y las reglas especiales Ataques mágicos y Poder de penetración. Los disparos realizados con la Amerratadora fuegobrujo impactan automáticamente (se trata de un arma de Tormenta de proyectiles). Para determinar el número de disparos que realiza la Amerratadora, apunta a un único objetivo dentro del alcance y tira el dado de artillería; el resultado indicará el número de disparos que realizará. Puedes elegir parar o, si lo deseas, tirar un segundo dado de artillería y añadir el resultado al número de disparos. Puedes seguir repitiendo este proceso. Sin embargo, si obtienes un resultado de problemas o un resultado repetido en los dados, la Amerratadora fuegobrujo habrá sufrido un problema. Tira inmediatamente 1D6 en la tabla de problemas de y aplica el resultado antes de realizar los disparos:
-D6 Tabla de problemas de la Amerratadora fuegobrujo
+          <description>Se trata de un arma de disparo que tiene un alcance de 18&quot;. Sus impactos se resuelven con Fuerza 5 y las reglas especiales Ataques mágicos y Poder de penetración. Los disparos realizados con la Amerratadora fuegobrujo impactan automáticamente (se trata de un arma de Tormenta de proyectiles). Para determinar el número de disparos que realiza la Amerratadora, apunta a un único objetivo dentro del alcance y tira el dado de artillería; el resultado indicará el número de disparos que realizará. Puedes elegir parar o, si lo deseas, tirar un segundo dado de artillería y añadir el resultado al número de disparos. Puedes seguir repitiendo este proceso. Sin embargo, si obtienes un resultado de problemas o un resultado repetido en los dados, la Amerratadora fuegobrujo habrá sufrido un problema. Tira inmediatamente 1D6 en la tabla de problemas de la Amerratadora fuegobrujo y aplica el resultado antes de realizar los disparos:
 1-2 ¡Blam!: No realices ningún disparo y retira la miniatura como baja.
 3-5 ¡Peonza!: Tira el dado de dispersión. Encara la Amerratadora fuegobrujo en la dirección indicada y realiza todos los disparos (incluyendo los del dado que causó la tirada en la tabla de problemas) más dos. Resuelve los disparos contra la primera unidad que se encuentre en su trayectoria en línea recta y dentro del alcance, sea amiga o enemiga.
 6¡Bbbbrrrrrttt!: El arma realiza todos sus disparos contra el objetivo previsto (incluyendo los del dado que causó la tirada en la tabla de problemas) con las reglas habituales, pero lo hace con Fuerza 3.</description>
@@ -8698,7 +8719,8 @@ el grupo de apoyo. Todas las miniaturas bajo la plantilla (utiliza las reglas ha
     <selectionEntry id="cb25-1be6-f3df-8569" name="Ratzooka" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="b62d-e45b-f7a4-4b4d" name="Ratzooka" hidden="false">
-          <description>Se trata de un arma que puede Mover y disparar, la cual dispara como un cañón con un alcance estimado de 3 dados (más el dado de artillería) y que puede girarse en el acto para encararse al objetivo que pretenda disparar. El proyectil impactará sobre la primera miniatura amiga o enemiga que se cruce con la trayectoria del rebote. El proyectil tiene F7 y las reglas especiales Poder de penetración, Ataques mágicos, Ataques flamígeros y Heridas múltiples (1D3). Adicionalmente, coloca la plantilla redonda pequeña sobre la miniatura o punto en que se detuvo el proyectil. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales para impactos parciales) sufrirá un impacto de F4 con las reglas especiales Ataques solo flamígeros y Ataques mágicos. Si en la tirada para determinar el rebote se obtiene un resultado de Problemas, el cohete estará defectuoso y no explotará (aunque en el caso de caer sobre una miniatura, seguirá causando un único impacto de F7 con las reglas especiales Heridas múltiples [1D3] y Ataques mágicos). El Ratzooka puede Aguantar y disparar si es cargado, o si su unidad madre es cargada y se encuentra a 3&quot; o menos de ésta. Si en la primera tirada del dado de artillería se obtiene un resultado de problemas, realiza inmediatamente una tirada en la siguiente tabla:
+          <description>Se trata de un arma que puede Mover y disparar, la cual dispara como un cañón con un alcance estimado de 0-3 dados (más el dado de artillería). El proyectil impactará sobre la primera miniatura (amiga o enemiga) que se cruce con la trayectoria del rebote y se detendrá sobre ésta (o tras recorrer la distancia obtenida en los dados). El proyectil tiene F7 y las reglas especiales Poder de penetración, Ataques mágicos, Ataques flamígeros y Heridas múltiples (1D3). Adicionalmente, coloca la plantilla redonda pequeña sobre la miniatura o punto en que se detuvo el proyectil. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales para impactos parciales) sufrirá un impacto de F4 con las reglas especiales Ataques solo flamígeros y Ataques mágicos. Si en la tirada para determinar el rebote se obtiene un resultado de Problemas, el cohete estará defectuoso y no explotará (aunque en el caso de 
+caer sobre una miniatura, seguirá causando un único impacto de F7 con las reglas especiales Heridas múltiples [1D3] y Ataques mágicos). El Ratzooka puede Aguantar y disparar si es cargado, o si su unidad madre es cargada y se encuentra a 3&quot; o menos de ésta. Si en la primera tirada del dado de artillería se obtiene un resultado de problemas, realiza inmediatamente una tirada en la siguiente tabla:
 D6 Tabla de problemas del Ratzooka
 1-2 ¡Ka-Boom!: Coloca la plantilla redonda grande sobre el Grupo de apoyo. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales para impactos parciales) sufrirá un impacto de F4 
 con las reglas especiales Ataques solo flamígeros y Ataques mágicos. Retira la miniatura del campo de batalla como baja.
@@ -9735,7 +9757,7 @@ con las reglas especiales Ataques solo flamígeros y Ataques mágicos. Retira la
           <profiles>
             <profile id="58bf-6a4d-fe7c-6760" name="Cohete aniquilador" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Un solo uso. El Cohete Aniquilador puede utilizarse en cualquier fase de disparo propia si el portador no está trabado en combate ni ha marchado durante ese turno. Estima una distancia de entre 4 y 10 dados como si se tratase de un cañón, pero no tires el dado de artillería: coloca la plantilla redonda grande al final de la distancia estimada. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de F5. Si obtienes tres o más resultados de 1 en la tirada de estimación, tira 1D6 en la tabla de problemas del Cohete Aniquilador:
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Un solo uso. El Cohete Aniquilador puede utilizarse en cualquier fase de disparo propia si el portador no está trabado en combate ni ha marchado durante ese turno. Estima una distancia de entre 4 y 10 dados como si se tratase de un cañón, pero no tires el dado de artillería: coloca la plantilla redonda grande al final de la distancia estimada. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de F5. Si obtienes un resultado de Problemas en la primera tirada del dado de artillería, tira 1D6 en la tabla de problemas del Cohete Aniquilador:
 D6 Tabla de problemas del Cohete Aniquilador
 1 ¡Buuum!: Coloca la plantilla redonda grande centrada sobre el lanzador y resuelve el impacto de manera habitual.
 2-5 Pérdida del ala estabilizadora: Tira el dado de dispersión para determinar la dirección que tomará el cohete desde el lanzador.
@@ -9822,7 +9844,7 @@ D6 Tabla de problemas del Cohete Aniquilador
           <profiles>
             <profile id="3f90-2eb3-7fcb-833b" name="Ratas explosivas" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo tres usos. El portador puede utilizar las Ratas explosivas durante su fase de disparo. La rata explosiva se dispara como un cañón que estima 0 dados (utiliza sólo el dado de artillería). Coloca la plantilla redonda pequeña en cualquier punto del recorrido: el impacto central se resuelve con Fuerza 6 y las reglas especiales Poder de penetración, Ataques flamígeros y Ataques mágicos. Las miniaturas bajo la plantilla sufrirán un impacto de Fuerza 3 con las reglas especiales Ataques sólo flamígeros y Ataques mágicos. Además, cualquier unidad que sufra al menos una baja a consecuencia de este disparo deberá superar un chequeo de Pánico. Sin embargo, si obtienes un resultado de problemas en la primera tirada, coloca la plantilla centrada sobre el portador y resuelve los impactos de forma normal.</characteristic>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo tres usos. El portador puede utilizar una de las Ratas explosivas durante su fase de disparo. La rata explosiva se dispara como un cañón que estima 0 dados (utiliza sólo el dado de artillería). Coloca la plantilla redonda pequeña en cualquier punto del recorrido: el impacto central se resuelve con Fuerza 6 y las reglas especiales Poder de penetración, Ataques flamígeros y Ataques mágicos. Las miniaturas bajo la plantilla sufrirán un impacto de Fuerza 3 con las reglas especiales Ataques sólo flamígeros y Ataques mágicos. Además, cualquier unidad que sufra al menos una baja a consecuencia de este disparo deberá superar un chequeo de Pánico. Sin embargo, si obtienes un resultado de problemas en la primera tirada del dado de artillería para estimar la distancia que recorre, coloca la plantilla centrada sobre el portador y resuelve los impactos de forma normal.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10213,7 +10235,8 @@ Cada grupo de apoyo consiste en dos Skaven de Infantería montados en una única
       <description>Al comienzo de cada ronda de combate, el personaje con esta regla especial y con mayor atributo de Liderazgo dentro de una unidad podrá realizar un movimiento de ¡Dejad paso! para desplazarse a la segunda fila de la unidad que lo acompañe, pese a encontrarse en contacto peana con peana con una o más miniaturas enemigas y sin sufrir ningún tipo de efecto adverso: simplemente desplaza al personaje a la segunda fila (del mismo modo que si hubiera rechazado un Desafío). Sin embargo, tras realizar este movimiento no podrá realizar ninguno de sus ataques contra las unidades enemigas en contacto con su unidad. Adicionalmente, dicho personaje podrá dar su Liderazgo a su unidad desde cualquier punto de esta, no sólo desde su fila delantera. Al final de cada ronda de combate deberás devolver el personaje al frontal de la unidad.</description>
     </rule>
     <rule id="51f6-0d39-7e49-618a" name="La fuerza del número" hidden="false">
-      <description> Todas las unidades con esta regla especial sumarán su bonificador por filas a su atributo de Liderazgo para realizar sus chequeos de desmoralización, así como de Miedo, Terror y Pánico, pudiendo aplicar el Liderazgo base del general por la regla especial Presencia inspiradora (hasta un máximo de Liderazgo 10).</description>
+      <description>Todas las unidades con esta regla especial sumarán su bonificador por filas a su atributo de Liderazgo para realizar sus chequeos de desmoralización y Estupidez, así como de Psicología (Miedo, Terror y Pánico) y para contener los impulsos de cargar por su Furia 
+asesina, pudiendo aplicar el Liderazgo base del general por la regla especial Presencia inspiradora (hasta un máximo de Liderazgo 10).</description>
     </rule>
     <rule id="9307-de93-45af-6348" name="Unidad conjunta" hidden="false">
       <description>Los grupos de apoyo adquiridos por unidades de Ratas de clan o Tecnoalimañas deben desplegarse a 3&quot; o menos de la unidad que lo ha adquirido, conocida como unidad madre. Después de ese momento, se considerará una unidad en todos los aspectos. Mientras se mantenga a 3&quot; o menos de su unidad madre, contará como si tuviera una tirada de salvación especial de 4+ contra disparos y hechizos del tipo Proyectil mágico.</description>

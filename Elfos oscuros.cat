@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3216-304d-pubN65537" name="Elfos Oscuros Reforged"/>
   </publications>
@@ -5593,6 +5593,7 @@ unidad. A la hora de disparar contra un Caldero de Sangre, éste deberá conside
             <modifier type="append" field="name" value="(Altos elfos)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="3fa6-9ffb-004c-f007" name="Khainitas" hidden="false" targetId="57ef-0601-26a7-fdac" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e811-1231-e4be-7d3f" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>

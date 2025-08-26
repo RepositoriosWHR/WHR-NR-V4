@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8811-284e-f214-88b5" name="Kossars" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -8379,6 +8379,7 @@ Ywrr. Además, podrá incluir hasta dos unidades de Guardia de hielo en su ejér
           </constraints>
           <entryLinks>
             <entryLink id="13b0-4266-f8bb-3c4e" name="Clave: Kislev" hidden="false" collective="false" import="true" targetId="ec25-f1c8-60f3-e894" type="selectionEntry"/>
+            <entryLink id="c454-fd8c-d0a5-51b1" name="Clave: Ave elemental" hidden="false" collective="false" import="true" targetId="3f9c-c31b-ca2a-90ae" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>

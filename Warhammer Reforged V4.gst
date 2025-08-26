@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -87,6 +87,7 @@
     <categoryEntry id="6ac5-4cd8-e378-fe13" name="Coatl" hidden="false"/>
     <categoryEntry id="f2fe-dc98-ce1d-76e2" name="Maestro ingeniero de Nuln" hidden="false"/>
     <categoryEntry id="b463-65a6-c5b2-1c17" name="Fusileros" hidden="false"/>
+    <categoryEntry id="8243-422f-87a4-f048" name="Huestes de Apoyo" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5374616e6461726423232344415441232323" name="Ejército estándar" hidden="false">
@@ -101,7 +102,7 @@
             <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5374616e6461726423232344415441232323-436f726523232344415441232323" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
+        <categoryLink id="5374616e6461726423232344415441232323-436f726523232344415441232323" name="Unidades básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
           <modifiers>
             <modifier type="increment" field="b523-688b-1242-a9b7" value="1.0">
               <repeats>
@@ -114,12 +115,12 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b523-688b-1242-a9b7" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5374616e6461726423232344415441232323-5370656369616c23232344415441232323" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
+        <categoryLink id="5374616e6461726423232344415441232323-5370656369616c23232344415441232323" name="Unidades especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
           <constraints>
             <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5374616e6461726423232344415441232323-5261726523232344415441232323" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
+        <categoryLink id="5374616e6461726423232344415441232323-5261726523232344415441232323" name="Unidades singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
           <constraints>
             <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
           </constraints>
@@ -152,6 +153,38 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4434-2d68-1c35-86f9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6fe-b51b-cc30-b0fa" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1589-befc-c268-d174" name="Huestes de Apoyo" hidden="false" targetId="8243-422f-87a4-f048" primary="false">
+          <modifiers>
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="8.0">
+              <conditions>
+                <condition field="limit::points" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="25.0">
+              <conditions>
+                <condition field="limit::points" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="7.0">
+              <conditions>
+                <condition field="limit::points" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="10.0">
+              <conditions>
+                <condition field="limit::points" scope="roster" value="4999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="25.0">
+              <conditions>
+                <condition field="limit::points" scope="roster" value="9999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="limit::points" scope="roster" value="0.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="2e53-15da-044f-3cbf" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -7025,7 +7058,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
       <description>Esta regla especial siempre se acompaña de una descripción entre paréntesis, que hace referencia a uno o varios tipos de terreno. Por ejemplo, Cruzar (Bosques), Cruzar (Obstáculos) o Cruzar (Todos los terrenos). Una unidad con esta regla especial ignora las penalizaciones al movimiento que le pudiese imponer el terreno indicado, tanto en Terreno difícil como en Terreno muy difícil, además de ese tipo de Terreno peligroso. Un carro con Cruzar no sufrirá impactos por cruzar ese terreno. Ten en cuenta que las unidades con Cruzar nunca pueden cruzar Terreno intransitable. </description>
     </rule>
     <rule id="fc5c-7e1e-498d-ffb4" name="Demonio" hidden="false">
-      <description>Las miniaturas con esta regla especial tienen las reglas especiales Inestable, Inmune a psicología, Inmune a veneno, Ataques mágicos, Aura demoníaca (5+) y causan Miedo. Si en una miniatura de Caballería o Caballería monstruosa la montura tiene la regla especial Demonio pero el jinete no, no se le aplicarán las reglas especiales Inestable, Inmune a veneno ni Aura demoníaca y tan sólo la montura tendrá la regla especial Ataques mágicos; sin embargo, se seguirán considerando Demonios a los demás efectos. Recuerda que conservarán la regla especial Inmune a psicología y causarán Miedo.</description>
+      <description>Las miniaturas con esta regla especial tienen las reglas especiales Inestable, Inmune a psicología, Inmune a veneno, Ataques mágicos, Aura demoníaca (5+) y causan Miedo.Si en una miniatura de Caballería, Caballería monstruosa, Carro o Monstruo tiene la regla especial Demonio pero el jinete no, no se le aplicarán las reglas especiales Inestable, Inmune a veneno ni Aura demoníaca y tan sólo la montura tendrá la regla especial Ataques mágicos; sin embargo, se seguirán considerando Demonios a los demás efectos. Recuerda que conservarán la regla especial Inmune a psicología y causarán Miedo.</description>
     </rule>
     <rule id="e198-cb4f-6dfc-1dcc" name="Disparo rápido" hidden="false">
       <description>Una miniatura o un arma de disparo con esta regla especial no sufre los penalizadores de -1 en su tirada para impactar por mover y disparar ni por Aguantar y disparar y podrá utilizarse para Aguantar y disparar aunque el enemigo inicie su carga a una distancia igual o inferior a su atributo de Movimiento.</description>
@@ -7049,7 +7082,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
       <description>Las unidades con esta regla especial pueden decidir al principio de cada turno mover a pie como es habitual o flotando, en cuyo caso su Movimiento será el indicado junto a su regla especial Flotar, obtendrán la regla especial Veloz e ignorarán el terreno y las unidades al moverse, aunque no podrán marchar bajo ninguna circunstancia. El atributo de Movimiento incrementado también se tiene en cuenta al cargar, perseguir o huir (sin embargo, al perseguir o huir, lo hará a ras del suelo, por lo que no podrá atravesar unidades enemigas). Además, las unidades con esta regla especial tienen la regla especial Hostigadores a menos que su tipo de tropa sea Carro, Máquina de guerra o Monstruo. Puedes decidir que tus unidades con esta regla especial comiencen la batalla posadas en el suelo pero debes comunicárselo a tu oponente tras el despliegue. Si no especificas nada, se considera que siempre comienzan flotando. Las miniaturas con las reglas especiales Volar o Flotar pueden elevarse por encima del campo de batalla, por lo que mientras estén en el aire siempre pueden ver y ser vistos, no se benefician de coberturas ni otras unidades se beneficiarán de coberturas frente a ellos y ningún tamaño de tropa ni elemento de escenografía puede bloquearles la línea de visión o bloquear la línea de visión hacia ellos. Ten en cuenta que las unidades no pueden ser atravesadas por debajo por otras unidades aunque estén en el aire.</description>
     </rule>
     <rule id="8fa0-a4f6-e454-dbfe" name="Francotirador" hidden="false">
-      <description>Una miniatura o arma de disparo con esta regla especial ignora las reglas habituales de selección de objetivos al disparar: puede disparar contra cualquier miniatura dentro de su alcance y línea de visión. Puede seleccionar incluso a un personaje dentro de una unidad. Al usar esta regla especial contra un personaje dentro de una unidad se tiene un penalizador adicional de -1 a la tirada para impactar.</description>
+      <description>Una miniatura o arma de disparo con esta regla especial ignora las reglas habituales de selección de objetivos al disparar: puede disparar contra cualquier miniatura dentro de su alcance y línea de visión. Puede seleccionar incluso a un personaje dentro de una unidad a través de cualquier número de filas o columnas, mientras siga pudiendo trazar una línea de visión hacia el, teniendo en cuenta que las miniaturas de la propia unidad del personaje objetivo no tapan línea de visión frente a disparos efectuados con esta regla especialAl usar esta regla especial contra un personaje dentro de una unidad se tiene un penalizador adicional de -1 a la tirada para impactar.</description>
     </rule>
     <rule id="145c-6914-de8b-e9cc" name="Furia asesina" hidden="false">
       <description>Las miniaturas con esta regla especial tienen la regla especial Inmune a psicología y un Ataque adicional (en el caso de miniaturas montadas, el jinete y la montura sólo obtendrán el Ataque adicional si se indica que posee Furia asesina; es decir, si el jinete tiene Furia asesina, el corcel no tiene por qué tenerla. Sin embargo, si la fuente es un hechizo que otorga Furia asesina a toda la unidad, las monturas sí se beneficiarán de ello). Además, esas unidades (incluso aquellas en las que sólo uno de sus miembros tenga la regla especial Furia asesina) que no hayan declarado carga ese turno o se encuentren trabadas en combate deberán declarar una carga contra la unidad enemiga más cercana al final de la sub-fase de Declaración de cargas a menos que superen un chequeo de Liderazgo para contener sus impulsos; en este chequeo no pueden utilizarse las reglas especiales Presencia inspiradora ni ¡Ni un paso atrás! Ten en cuenta que sólo deberán declarar una
@@ -7149,7 +7182,7 @@ Mientras se encuentren trabados en combate, continuarán en formación cerrada c
       <description>Las unidades con esta regla especial pueden repetir cualquier chequeo de Liderazgo fallido que realicen. Si la unidad con esta regla especial la otorga a las unidades amigas a su alrededor y tiene la regla especial Objetivo grande, el alcance de esta regla especial se incrementa en 6”.</description>
     </rule>
     <rule id="3d39-5d46-7335-225c" name="No muerto" hidden="false">
-      <description>Las miniaturas con esta regla especial tienen las siguientes reglas especiales: Inmune a psicología, Inestable, Inmune a veneno y causan Miedo. Además, no pueden efectuar movimientos de marcha a menos que tengan la regla especial Hostigadores o sean personajes individuales. Las tropas dentro del alcance de la regla especial Presencia inspiradora del General del ejército al inicio de la fase de movimiento podrán marchar siguiendo las reglas habituales. Las unidades con esta regla especial bajo el mando de un personaje con uno o más niveles de magia también podrán efectuar movimientos de marcha.</description>
+      <description>Las miniaturas con esta regla especial tienen las siguientes reglas especiales: Inmune a psicología, Inestable, Inmune a veneno y causan Miedo. Además, no pueden efectuar movimientos de marcha a menos que tengan la regla especial Hostigadores, Caballería rápida o sean personajes individuales. Las tropas dentro del alcance de la regla especial Presencia inspiradora del General del ejército al inicio de la fase de movimiento podrán marchar siguiendo las reglas habituales. Las unidades con esta regla especial bajo el mando de un personaje con uno o más niveles de magia también podrán efectuar movimientos de marcha. Junto a la regla No muerto se indica una cantidad entre paréntesis, que indica cuántas heridas restaura en la unidad cada dado de invocación (usado en varios hechizos, reglas y objetos mágicos).</description>
     </rule>
     <rule id="71eb-6467-3a39-bdb6" name="Objetivo grande" hidden="false">
       <description>Una miniatura con esta regla especial siempre podrá ser elegida como objetivo de disparos aunque tropas más pequeñas bloqueen la línea de visión. Tan sólo otras miniaturas o elementos de escenografía con esta regla especial obstruyen la línea de visión hacia estas miniaturas. Los disparos efectuados contra ellas no tendrán el penalizador de -1 por larga distancia. Tamaño Enorme.</description>
@@ -7350,7 +7383,7 @@ Tiro parabólico: Una catapulta puede utilizarse para disparar contra objetivos 
 
 A continuación, tira el número de dados que has elegido y el dado de artillería. La suma total de todos los dados que has tirado (incluyendo el de artillería) indica la distancia a la que cae la bala: mide desde el centro del frontal de la miniatura con el Cañón en la dirección que indicaste la distancia total obtenida. Si en el dado de artillería obtienes un resultado de Problemas, el disparo se cancela y deberás tirar 1D6 en la tabla de problemas del Cañón, pues algo habrá ido mal.
 
-Una vez has calculado donde cae la bala, deberás determinar si esta rebota. Para ello, debes tirar de nuevo el dado de artillería; la bala rebotará en línea recta hacia adelante una distancia igual al resultado del dado de artillería. Si obtienes un resultado de Problemas en esta tirada, significa que la bala se habrá detenido y no rebotará. En este caso no debes tirar en la tabla de problemas. Si la bala cae en un punto fuera de la línea de visión del cañón, tan sólo rebotará la mitad de la distancia indicada en el dado de artillería.
+Una vez has calculado donde cae la bala, deberás determinar si esta rebota. Para ello, debes tirar de nuevo el dado de artillería; la bala rebotará en línea recta hacia adelante una distancia igual al resultado del dado de artillería. Si obtienes un resultado de Problemas en esta tirada, significa que la bala se habrá detenido y no rebotará. En este caso no debes tirar en la tabla de problemas. Si la bala cae en un punto fuera de la línea de visión del cañón, tan sólo rebotará la mitad de la distancia indicada en el dado de artillería. Si la bala cae en un punto fuera de la línea de visión del cañón, y que no sea parte de la unidad objetivo del disparo, tan sólo rebotará la mitad de la distancia indicada en el dado de artillería (esto representa que el disparo se ha realizado con demasiada inclinación, generando una parábola con mucha altura y cayendo la bala mas en vertical que en horizontal).
 
 Cualquier miniatura sobre la que caiga la bala, así como cualquier miniatura bajo la línea del rebote, sufrirán un impacto de la Fuerza y daño indicados en el perfil del cañón (normalmente Fuerza 10 y Heridas múltiples (1D6)). Ten en cuenta que no puedes impactar a más de una miniatura por cada fila/columna que tenga la unidad que recibe el cañonazo.
 
@@ -7685,7 +7718,7 @@ En el instante en que una Encarnación Elemental sea retirada como baja del camp
       <description>Las miniaturas con esta regla especial tienen las siguientes reglas especiales: Inmune a psicología, Inestable, Inmune a veneno y causan Miedo. Además, no pueden efectuar movimientos de marcha a menos que tengan la regla especial Hostigadores o sean personajes individuales. Las tropas dentro del alcance de la regla especial Presencia inspiradora del General del ejército al inicio de la fase de movimiento podrán marchar siguiendo las reglas habituales. Las unidades con esta regla especial bajo el mando de un personaje con uno o más niveles de magia también podrán efectuar movimientos de marcha. Junto a la regla No muerto se indica una cantidad entre paréntesis, que indica cuántas heridas restaura en la unidad cada dado de invocación (usado en varios hechizos, reglas y objetos mágicos).</description>
     </rule>
     <rule id="b314-335e-6db5-cb02" name="No Muerto (1D2)" hidden="false">
-      <description>Las miniaturas con esta regla especial tienen las siguientes reglas especiales: Inmune a psicología, Inestable, Inmune a veneno y causan Miedo. Además, no pueden efectuar movimientos de marcha a menos que tengan la regla especial Hostigadores o sean personajes individuales. Las tropas dentro del alcance de la regla especial Presencia inspiradora del General del ejército al inicio de la fase de movimiento podrán marchar siguiendo las reglas habituales. Las unidades con esta regla especial bajo el mando de un personaje con uno o más niveles de magia también podrán efectuar movimientos de marcha. Junto a la regla No muerto se indica una cantidad entre paréntesis, que indica cuántas heridas restaura en la unidad cada dado de invocación (usado en varios hechizos, reglas y objetos mágicos).</description>
+      <description>Las miniaturas con esta regla especial tienen las siguientes reglas especiales: Inmune a psicología, Inestable, Inmune a veneno y causan Miedo. Además, no pueden efectuar movimientos de marcha a menos que tengan la regla especial Hostigadores, Caballería rápida o sean personajes individuales. Las tropas dentro del alcance de la regla especial Presencia inspiradora del General del ejército al inicio de la fase de movimiento podrán marchar siguiendo las reglas habituales. Las unidades con esta regla especial bajo el mando de un personaje con uno o más niveles de magia también podrán efectuar movimientos de marcha. Junto a la regla No muerto se indica una cantidad entre paréntesis, que indica cuántas heridas restaura en la unidad cada dado de invocación (usado en varios hechizos, reglas y objetos mágicos).</description>
     </rule>
     <rule id="a1ef-9b90-f032-c742" name="No Muerto (1D6, Legión)" hidden="false">
       <description>Las miniaturas con esta regla especial tienen las siguientes reglas especiales: Inmune a psicología, Inestable, Inmune a veneno y causan Miedo. Además, no pueden efectuar movimientos de marcha a menos que tengan la regla especial Hostigadores o sean personajes individuales. Las tropas dentro del alcance de la regla especial Presencia inspiradora del General del ejército al inicio de la fase de movimiento podrán marchar siguiendo las reglas habituales. Las unidades con esta regla especial bajo el mando de un personaje con uno o más niveles de magia también podrán efectuar movimientos de marcha. Junto a la regla No muerto se indica una cantidad entre paréntesis, que indica cuántas heridas restaura en la unidad cada dado de invocación (usado en varios hechizos, reglas y objetos mágicos).</description>
@@ -7701,7 +7734,7 @@ En el instante en que una Encarnación Elemental sea retirada como baja del camp
     </rule>
     <rule id="13d8-677d-ccf0-c0c5" name="Monstruos con cuidadores" hidden="false">
       <description>Se consideran una única miniatura en la que los cuidadores se colocan siempre tras el monstruo. Los enemigos siempre atacarán contra la Habilidad de armas del monstruo. Se utilizan siempre los valores de Resistencia y Heridas del monstruo, así como los atributos del monstruo para todos los chequeos de atributo (salvo los de Liderazgo, que se realizan 
-con el valor de los cuidadores). Los cuidadores pueden atacar a cualquier unidad a la que pueda atacar el monstruo, aunque estos nunca podrán ser atacados directamente ni pueden ser objetivo de ningún disparo o hechizo. Si el monstruo muere, elimina también las miniaturas de los cuidadores.</description>
+con el valor de los cuidadores). Los cuidadores pueden atacar a cualquier unidad a la que pueda atacar el monstruo, aunque estos nunca podrán ser atacados directamente ni pueden ser objetivo de ningún disparo o hechizo. Si el monstruo muere, elimina también las miniaturas de los cuidadores. Su Potencia de unidad es igual a la Potencia del monstruo +1 por cada cuidador</description>
     </rule>
     <rule id="a5eb-98d2-3b7c-18c7" name="Monstruos con castillos" hidden="false">
       <description>Estos monstruos tienen también los perfiles de su tripulación, aunque se consideran una única miniatura y siempre se usan los valores de Resistencia y Heridas del Monstruo, así como sus tiradas de salvación pertinentes. En cuerpo a cuerpo, el monstruo y la dotación pueden atacar con normalidad a cualquier miniatura en contacto con la peana del monstruo y el enemigo debe tirar para impactar contra la Habilidad de armas más alta de entre el monstruo y su tripulación. Siempre resuelve sus chequeos de atributo usando los valores del monstruo salvo en los chequeos de Liderazgo, que utilizará el valor más alto entre el Monstruo y su tripulación. Su Potencia de unidad es igual a la Potencia del monstruo +1 por cada tripulante de Infantería o +3 por cada tripulante de Infantería monstruosa. Se trata como un monstruo en todos los demás aspectos. </description>

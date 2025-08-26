@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6daf-483a-4d59-83db" name="Poder vampírico">
       <characteristicTypes>
@@ -8055,6 +8055,10 @@ combatiendo. Ten en cuenta que no puede disparar en la fase de magia el Lamento 
         <rule id="d871-7fa5-699d-ed16" name="¡La muerte en llamas!" hidden="false">
           <description>Los Jinetes espectrales tienen la regla especial Impactos por carga (1); esos impactos siempre se resuelven con Fuerza 5 y las reglas especiales Ataques mágicos y Ataques flamígeros.</description>
         </rule>
+        <rule id="94d6-cd7c-7d3c-a814" name="Fantasmas" hidden="false">
+          <description>Tan sólo los personajes con la regla especial Etéreo pueden 
+unirse a una unidad de Jinetes espectrales.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="6fd2-0528-99f3-11d9" name="No Muerto (1D2)" hidden="false" targetId="b314-335e-6db5-cb02" type="rule"/>
@@ -8661,27 +8665,34 @@ combatiendo. Ten en cuenta que no puede disparar en la fase de magia el Lamento 
               <selectionEntries>
                 <selectionEntry id="0aed-6396-46ae-f3de" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f795-16af-a962-2383" type="max"/>
-                    <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e151-cabc-ce49-a3ed" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e60a-1d35-acb8-9318" type="max"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="581d-475c-7567-77a8" name="Talismanes Mágicos. Condes Vampiro" hidden="false" collective="false" import="true" targetId="baf5-056c-783d-80cc" type="selectionEntryGroup"/>
-                    <entryLink id="cab1-935e-b6b4-6c30" name="Talismanes Mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
-                    <entryLink id="4a45-6415-089f-84c8" name="Objetos Hechizados. Condes Vampiro" hidden="false" collective="false" import="true" targetId="227a-5ec1-da06-2131" type="selectionEntryGroup"/>
-                    <entryLink id="d010-5d2c-64ac-ec11" name="Objetos Hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink id="831f-a25d-d913-6c5f" name="Armas Mágicas. Mayal" hidden="false" collective="false" import="true" targetId="518c-5b40-e21f-57a0" type="selectionEntryGroup"/>
-                    <entryLink id="bf86-530a-e060-ae0b" name="Armas mágicas. Lanza de caballería" hidden="false" collective="false" import="true" targetId="5328-bc17-759c-bb2f" type="selectionEntryGroup"/>
-                    <entryLink id="59e1-842e-4eb0-335a" name="Armas Mágicas. Condes Vampiro. Lanza de caballería" hidden="false" collective="false" import="true" targetId="accf-2667-02c6-e70c" type="selectionEntryGroup"/>
-                    <entryLink id="8eef-95c0-43e1-8b4d" name="Armas Mágicas. Condes Vampiro. Arma de mano" hidden="false" collective="false" import="true" targetId="0195-9dd2-ee77-cb3e" type="selectionEntryGroup"/>
-                    <entryLink id="81b5-4b09-5e53-f3fc" name="Armas Mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
-                    <entryLink id="f7cc-acc4-5852-b777" name="Armas Mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
-                    <entryLink id="9193-f9e2-ebf5-7cdc" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
-                    <entryLink id="5690-9292-46c4-034f" name="Armaduras mágicas. Condes Vampiro. Clan Dragñon Sangriento" hidden="false" collective="false" import="true" targetId="64f6-6484-bb6d-54c5" type="selectionEntryGroup"/>
-                    <entryLink id="c437-368c-d8ed-3913" name="Armaduras mágicas. Condes Vampiro" hidden="false" collective="false" import="true" targetId="2fd7-3387-07b4-8591" type="selectionEntryGroup"/>
-                    <entryLink id="011d-2097-024f-71ff" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
-                    <entryLink id="fabe-8554-46a9-cc82" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
-                    <entryLink id="8bec-be18-24fb-8280" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
-                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="c588-babb-188e-0ad3" name="Objetos mágicos" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95cb-fc67-12ec-da5b" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd36-dcbd-3248-db38" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="dd56-0d80-20ef-c40f" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
+                        <entryLink id="653e-4f54-b07b-0faa" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
+                        <entryLink id="323a-eaf2-a127-f4a5" name="Armaduras mágicas. Condes vampiro" hidden="false" collective="false" import="true" targetId="2fd7-3387-07b4-8591" type="selectionEntryGroup"/>
+                        <entryLink id="672d-62c0-be75-045b" name="Armaduras mágicas. Condes vampiro. Clan dragón sangriento" hidden="false" collective="false" import="true" targetId="64f6-6484-bb6d-54c5" type="selectionEntryGroup"/>
+                        <entryLink id="4fd8-81c3-df94-6bbb" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
+                        <entryLink id="3f34-3bdb-9631-f835" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                        <entryLink id="5901-b7ce-721b-8cd2" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
+                        <entryLink id="f02b-5ea6-bc50-5dbf" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                        <entryLink id="b03a-f1c0-8cd1-3a88" name="Armas mágicas. Condes vampiro. Arma de mano" hidden="false" collective="false" import="true" targetId="0195-9dd2-ee77-cb3e" type="selectionEntryGroup"/>
+                        <entryLink id="0bea-55ba-98e2-0fab" name="Armas mágicas. Condes vampiro. Lanza de caballería" hidden="false" collective="false" import="true" targetId="accf-2667-02c6-e70c" type="selectionEntryGroup"/>
+                        <entryLink id="076d-1c0c-ae3a-9956" name="Armas mágicas. Lanza de caballería" hidden="false" collective="false" import="true" targetId="5328-bc17-759c-bb2f" type="selectionEntryGroup"/>
+                        <entryLink id="df1b-4c27-1aaa-e8f1" name="Armas mágicas. Mayal" hidden="false" collective="false" import="true" targetId="518c-5b40-e21f-57a0" type="selectionEntryGroup"/>
+                        <entryLink id="ccc0-6f73-09cb-e85c" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
+                        <entryLink id="2354-25b3-6acb-de22" name="Objetos hechizados. Condes vampiro" hidden="false" collective="false" import="true" targetId="227a-5ec1-da06-2131" type="selectionEntryGroup"/>
+                        <entryLink id="9429-41c7-2ad7-301c" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                        <entryLink id="f6c4-9d28-63a9-33f5" name="Talismanes mágicos. Condes vampiro" hidden="false" collective="false" import="true" targetId="baf5-056c-783d-80cc" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
@@ -9518,7 +9529,6 @@ potenciada.</description>
         <infoLink id="5490-6b5d-bd49-4c62" name="Etéreo" hidden="false" targetId="34c4-9e60-1a62-eda5" type="rule"/>
         <infoLink id="8030-c382-fb22-6c41" name="Objetivo grande" hidden="false" targetId="71eb-6467-3a39-bdb6" type="rule"/>
         <infoLink id="0fb8-d497-6137-a4cf" name="Flotar (8)" hidden="false" targetId="7465-4e8e-6ec8-2a0f" type="rule"/>
-        <infoLink id="39b2-c66c-2b67-0b6a" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5456-0691-7db9-023c" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
@@ -15369,7 +15379,6 @@ especial de 4+.</description>
             <entryLink id="2446-f65b-69b7-d977" name="Clave: Condes Vampiro" hidden="false" collective="false" import="true" targetId="6934-ec52-c6cf-c67b" type="selectionEntry"/>
             <entryLink id="bb95-5669-7e0b-4aea" name="Clave: No muertos" hidden="false" collective="false" import="true" targetId="59ad-fb9e-4562-cfd9" type="selectionEntry"/>
             <entryLink id="9156-beb3-b60c-9386" name="Clave: Vampiros" hidden="false" collective="false" import="true" targetId="34ee-4360-80b0-1c0b" type="selectionEntry"/>
-            <entryLink id="3d66-6833-6ffd-39be" name="Clave: Fantasma" hidden="false" collective="false" import="true" targetId="46df-b0d6-b094-e0d2" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -16563,7 +16572,6 @@ especial de 4+.</description>
         <infoLink id="d856-cc1d-256a-4a2c" name="Objetivo grande" hidden="false" targetId="71eb-6467-3a39-bdb6" type="rule"/>
         <infoLink id="c612-3812-b709-8f8b" name="Flotar (8)" hidden="false" targetId="7465-4e8e-6ec8-2a0f" type="rule"/>
         <infoLink id="c887-4058-ca15-51cd" name="Protección por montura (1)" hidden="false" targetId="1f9d-b34a-3d89-add6" type="rule"/>
-        <infoLink id="2816-4ccd-4736-f4e8" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="b266-cf2b-f7f1-b62f" name="Horda de espíritus" hidden="false" collective="false" import="true" type="upgrade">
@@ -19147,9 +19155,9 @@ especial No muertos debe efectuar un chequeo de Liderazgo, sufriendo una herida 
   <sharedProfiles>
     <profile id="b0a2-f540-1270-0b19" name="Arco lahmiano" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
       <characteristics>
-        <characteristic name="Rango" typeId="52616e676523232344415441232323">24&quot;</characteristic>
-        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">F del portador</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Lluvia de flechas.Ataques envenenados, Ataques mágicos y Disparo rápido.</characteristic>
+        <characteristic name="Rango" typeId="52616e676523232344415441232323">30&quot;</characteristic>
+        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Ataques mágicos, Ataques envenenados, Disparo rápido, Lluvia de flechas</characteristic>
       </characteristics>
     </profile>
     <profile id="e7da-b257-719b-1ed0" name="Armadura de placas" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armadura">

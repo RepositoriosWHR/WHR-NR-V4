@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a20d-ec9e-719a-2f03" name="Senda">
       <characteristicTypes>
@@ -1036,6 +1036,7 @@
             <selectionEntry id="414f-38e5-0986-0c58" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62b4-0d0c-69ce-a25a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="101a-e3fd-b2ad-577f" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="1872-41cd-eabc-1a02" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
@@ -8559,7 +8560,7 @@ elegir ninguna montura.</characteristic>
               <profiles>
                 <profile id="6093-f751-28ee-334a" name="Talismán de Hoeth" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Convierte a Eltharion en un hechicero de nivel de magia 2 que elige sus hechizos de uno solo de los ocho Saberes Básicos de la magia. Eltharion puede lanzar hechizos aunque lleve armadura.</characteristic>
+                    <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Otorga a Eltharion la clave hechicero y nivel de magia 2. Elige sus hechizos de uno solo de los ocho Saberes Básicos de la magia. Eltharion puede lanzar hechizos aunque lleve armadura.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13803,7 +13804,7 @@ elegir ninguna montura.</characteristic>
           <description>El Ave de la tormenta tiene la regla especial Aura de frío, que afecta a todos los enemigos a 8” o menos de él. Todos los enemigos que ataquen al Ave de la tormenta en combate cuerpo a cuerpo tendrán un penalizador de -1 a su tirada para impactar. Por último, el Ave de la tormenta tiene la regla especial Inmune a fuego.</description>
         </rule>
         <rule id="db06-f381-f2ad-861e" name="Heraldo de la tormenta" hidden="false">
-          <description>En cada una de tus fases de disparo, tira 1D6 por cada unidad enemiga a 12” o menos del Ave de la tormenta: si obtienes un resultado de 5+, esa unidad sufrirá 1D6 impactos de Fuerza 5 (distribuidos como proyectiles) con la regla especial Ataque de rayos. Además, el Ave de la tormenta tiene la regla especial Inmune a rayos.</description>
+          <description>En cada una de tus fases de disparo, tira 1D6 por cada unidad enemiga a 12” o menos del Ave de la tormenta: si obtienes un resultado de 5+, esa unidad sufrirá 1D6 impactos de Fuerza 5 (distribuidos como proyectiles, aunque ten en cuenta que no es un proyectil ni un disparo) con la regla especial Ataque de rayos. Además, el Ave de la tormenta tiene la regla especial Inmune a rayos.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -13914,6 +13915,20 @@ elegir ninguna montura.</characteristic>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="8596-31dc-f933-88d9" name="Barda" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b5f0-90bb-5739-b027" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c27b-45b8-0472-d16a" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e17a-5735-9898-5271" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0281-99e7-8ee5-920f" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb70-bab8-ae34-879f" type="max"/>
           </constraints>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="208e-cf58-eefc-06d2" name="Orden de caballería">
       <characteristicTypes>
@@ -1225,11 +1225,14 @@ Al inicio de cada turno, debes declarar cuántos Puntos de vapor vas a utilizar 
 -Girar hasta 90º.
 -Reformar estando trabado en combate (esto lo hace en la sub-fase de Movimientos obligatorios) . 
 -Disparar el Cañón (sólo una vez por turno).
-Tras declarar los Puntos a vapor que van a utilizarse, se efectúa una tirada de 1D6 y se le suman los Puntos de vapor invertidos y las heridas que haya sufrido el Tanque de vapor imperial y se consulta la tabla de la Caldera 
+Tras declarar los Puntos a vapor que van a utilizarse, se efectúa una tirada de 1D6 y se le suman los Puntos de vapor invertidos y las heridas que haya sufrido el Tanque de vapor imperial y se consulta la tabla de la Caldera.
 El Tanque a vapor imperial mueve en la sub-fase de Movimientos obligatorios de tu fase de movimiento. 
 El Tanque a vapor imperial no puede cargar pero, si su movimiento le lleva al contacto con un enemigo, se considerará carga (ten en cuenta que no se puede reaccionar a dicha “carga”). El Tanque a vapor imperial causa 1D6 Impactos por carga (por ser Carro) más 1D3 adicionales por cada Punto de vapor que haya utilizado en mover ese turno hacia adelante (no es necesario que el tanque mueva físicamente, se cuentan los puntos que haya declarado para mover). Ten en cuenta que el movimiento de girar es parte del movimiento, con lo cual, si solamente con girar te lleva al contacto peana con peana con el enemigo, se considera igualmente una carga exitosa. En este caso el tanque quedará trabado por el lado por donde se encuentre la unidad enemiga respecto a él cuando choque (sigue el mismo criterio descrito en el Reglamento en el apartado “Cargas por el flanco y por la retaguardia” de la sub-fase 5 “Movimiento de las tropas que cargan” de la fase de movimiento cuando haya dudas de porqué lado es la carga). Si ya se encuentra trabado el Tanque a vapor imperial atropella a sus enemigos, causando 1D3 impactos por carga por cada por cada Punto de vapor que utilice en mover ese turno hacia adelante contra una unidad que esté trabada por su frontal (no es necesario que el tanque mueva físicamente, se cuentan los puntos que haya declarado para mover). 
 Durante su fase de movimiento, el Tanque a vapor imperial puede destrabarse de un combate simplemente moviendo (haciendo uso de sus puntos de vapor), siempre y cuando pueda mover y/o girar para que su movimiento lo lleve a 1” o más de la unidad o unidades enemigas con las que estaba trabado.
-El Tanque a vapor imperial puede disparar sus armas incluso si está trabado en combate. </description>
+El Tanque a vapor imperial puede disparar sus armas incluso si está trabado en combate. 
+El Tanque a vapor puede usar su cañón de vapor del mismo modo que un Arma de aliento, sin utilizar puntos de 
+vapor.
+El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y Aguantar y disparar) . Si está trabado, sólo puede disparar como excepción frente a una de las unidades con las que se encuentra trabado, sin repartir impactos entre varias unidades trabadas. Sólo puede Aguantar y disparar si el Tanque a vapor no se encuentra trabado en combate.</description>
         </rule>
         <rule id="d628-c477-c01f-b9a3" name="Caldera de Vapor" hidden="false">
           <description>1-10 No sucede nada.
@@ -9619,7 +9622,8 @@ en lugar de las 12” habituales. Además, si se encuentra en la misma unidad qu
           <description>Emil y cualquier unidad en la que se incluya podrán repetir los chequeos de Liderazgo fallidos.</description>
         </rule>
         <rule id="48ef-cf01-9e6a-8b25" name="Aplastar al débil" hidden="false">
-          <description> Emil Valgeir y la unidad a la que se uniese podrán repetir sus tiradas para impactar fallidas en combate contra miniaturas con Liderazgo 7 o inferior. </description>
+          <description>Las miniaturas con esta regla especial podrán repetir los resultados de 1 en sus tiradas para herir contra enemigos con L7 o inferior. Sin 
+embargo el Ar Ulric es tan poderoso en su fe que él y la unidad a la que se uniese podrán repetir sus tiradas para impactar fallidas en combate contra miniaturas con Liderazgo 7 o inferior.</description>
         </rule>
         <rule id="40f7-5f06-016f-bd6f" name="Rivalidad" hidden="false">
           <description>No puedes incluir a Emil en la misma unidad en la que se encuentre un Sacerdote guerrero de Sigmar, un Cazador de brujas o un Archilector de Sigmar. No podrá unirse a unidades de Flagelantes. </description>
@@ -12742,7 +12746,7 @@ Tiradores de Hochland pueden repetir los resultados naturales de 1 obtenidos en 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="210.0"/>
+            <cost name="pts" typeId="points" value="180.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4be1-8a14-0852-c448" name="Nivel de magia 1" hidden="false" collective="false" import="true" type="upgrade">
@@ -21587,7 +21591,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts" typeId="points" value="6.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

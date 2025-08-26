@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -23465,6 +23465,11 @@ D6 	Resultado (Agarrar y...)
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53d8-43e6-573c-3e9a" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0d91-27a3-a4c2-7182" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e258-b13c-baab-c1fe" type="max"/>
@@ -25666,6 +25671,13 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
       </costs>
     </selectionEntry>
     <selectionEntry id="0c08-428f-55ec-08d3" name="[Ex] - Rey de la plaga pútrida" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e7fa-d372-d48f-f683" type="max"/>
       </constraints>

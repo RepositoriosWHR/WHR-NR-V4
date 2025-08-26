@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -9344,7 +9344,7 @@ enemiga, salvo ella) podrá realizar tiradas de salvación especial.</descriptio
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="210.0"/>
+            <cost name="pts" typeId="points" value="180.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="044d-cfdd-5979-8752" name="Nivel de magia 1" hidden="false" collective="false" import="true" type="upgrade">
@@ -13851,7 +13851,7 @@ El portador obtendrá un bonificador de +2 al lanzamiento de los hechizos del Sa
           <profiles>
             <profile id="ae30-d9d8-0746-2dc6" name="Icono de la oración de Quenelles" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Un solo uso. Puede utilizarse para hacer que una unidad situada a 18” o menos del portador que hubiese perdido el Favor de la Dama lo recupere de inmediato.</characteristic>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Un solo uso. Puede utilizarse al principio de cualquier turno propio para hacer que una unidad situada a 18” o menos del portador que hubiese perdido el Favor de la Dama lo recupere de inmediato.</characteristic>
               </characteristics>
             </profile>
           </profiles>
