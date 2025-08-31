@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -3784,13 +3784,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b39-ddab-4bb1-bb5f" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ddce-4dfa-500f-8e8e" name="Arma de mano hechizada" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ddce-4dfa-500f-8e8e" name="Arma de bruja" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8dc-adbd-b696-97d7" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b1-6c55-4e67-73b3" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="9569-b340-ba0c-9e5d" name="Arma de mano hechizada" hidden="false" targetId="a895-4978-ca78-57f5" type="profile"/>
+                <infoLink id="9569-b340-ba0c-9e5d" name="Arma bruja" hidden="false" targetId="a241-0157-b04a-0dcd" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -3914,7 +3914,7 @@
                     </entryLink>
                     <entryLink id="b3aa-ae70-7d72-e68a" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink id="ad49-950a-310b-96b4" name="Armas mágicas. Lanza de caballería" hidden="false" collective="false" import="true" targetId="5328-bc17-759c-bb2f" type="selectionEntryGroup"/>
-                    <entryLink id="4579-7cb9-064d-05d4" name="Armas mágicas. Guerreros del Caos. Tzeentch. Arma de mano" hidden="false" collective="false" import="true" targetId="72f8-0021-5d85-9c02" type="selectionEntryGroup">
+                    <entryLink id="4579-7cb9-064d-05d4" name="Armas mágicas. Guerreros del Caos. Tzeentch. Arma bruja" hidden="false" collective="false" import="true" targetId="72f8-0021-5d85-9c02" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
@@ -3924,7 +3924,7 @@
                       </modifiers>
                     </entryLink>
                     <entryLink id="48f4-85d0-e790-e566" name="Objetos hechizados. Guerreros del caos" hidden="false" collective="false" import="true" targetId="e5c2-7b23-9998-606a" type="selectionEntryGroup"/>
-                    <entryLink id="ae5a-5f50-d46e-a4a0" name="Armas mágicas. Guerreros del caos. Slaanesh. Arma de mano" hidden="false" collective="false" import="true" targetId="ec2e-c1da-a16a-b251" type="selectionEntryGroup">
+                    <entryLink id="ae5a-5f50-d46e-a4a0" name="Armas mágicas. Guerreros del Caos. Slaanesh. Arma de mano" hidden="false" collective="false" import="true" targetId="ec2e-c1da-a16a-b251" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
@@ -3933,7 +3933,7 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="a956-71ef-09ec-e86e" name="Armas mágicas. Guerreros del Caos. Nurgle. Arma de mano" hidden="false" collective="false" import="true" targetId="0a25-0287-3b9b-fc3f" type="selectionEntryGroup">
+                    <entryLink id="a956-71ef-09ec-e86e" name="Armas mágicas. Guerreros del Caos. Nurgle. Arma bruja" hidden="false" collective="false" import="true" targetId="0a25-0287-3b9b-fc3f" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
@@ -3942,7 +3942,7 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="dbe7-d7fd-9b29-46d1" name="Armas mágicas. Guerreros del caos. Khorne. Arma de mano" hidden="false" collective="false" import="true" targetId="277a-e3b2-e9a6-eec7" type="selectionEntryGroup">
+                    <entryLink id="dbe7-d7fd-9b29-46d1" name="Armas mágicas. Guerreros del Caos. Khorne. Arma bruja" hidden="false" collective="false" import="true" targetId="277a-e3b2-e9a6-eec7" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
@@ -3951,7 +3951,7 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="123a-d94f-df7c-fa59" name="Armaduras mágicas. Guerreros del caos" hidden="false" collective="false" import="true" targetId="db18-b9da-be54-350c" type="selectionEntryGroup"/>
+                    <entryLink id="123a-d94f-df7c-fa59" name="Armaduras mágicas. Guerreros del Caos" hidden="false" collective="false" import="true" targetId="db18-b9da-be54-350c" type="selectionEntryGroup"/>
                     <entryLink id="5572-8ed0-ae8f-1454" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
                     <entryLink id="6c58-570e-0b8e-bd84" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="ab9a-c915-f669-d457" name="Talismanes mágicos. Guerreros del caos" hidden="false" collective="false" import="true" targetId="c87e-2ff5-a8cf-f075" type="selectionEntryGroup"/>
@@ -4020,7 +4020,6 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="98a1-7133-19d8-48d7" name="Armaduras mágicas. Guerreros del caos. Khorne" hidden="false" collective="false" import="true" targetId="7f1c-e31a-3c9b-d9dd" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5728,16 +5727,16 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="cde5-9d07-d53e-88a0" name="Recompensas del Caos - Solo Nurgle-" hidden="false" collective="false" import="true" targetId="036f-a715-77ac-a4cb" type="selectionEntryGroup">
+                    <entryLink id="cde5-9d07-d53e-88a0" name="Recompensas del Caos. Nurgle" hidden="false" collective="false" import="true" targetId="036f-a715-77ac-a4cb" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="7f8a-951f-cde2-7d96" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0927-547a-a9c7-67c2" type="equalTo"/>
+                            <condition field="selections" scope="7f8a-951f-cde2-7d96" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f223-1aa7-0d30-eabd" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="fc39-fea6-5a9e-6632" name="Recompensas del Caos - Solo Slaanesh-" hidden="false" collective="false" import="true" targetId="5fa0-5440-1f31-4603" type="selectionEntryGroup">
+                    <entryLink id="fc39-fea6-5a9e-6632" name="Recompensas del Caos. Slaanesh" hidden="false" collective="false" import="true" targetId="5fa0-5440-1f31-4603" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
@@ -5746,7 +5745,7 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="ff20-0933-cf9b-144f" name="Recompensas del Caos - Solo Tzeentch-" hidden="false" collective="false" import="true" targetId="8fff-3415-7144-d88c" type="selectionEntryGroup">
+                    <entryLink id="ff20-0933-cf9b-144f" name="Recompensas del Caos. Tzeentch" hidden="false" collective="false" import="true" targetId="8fff-3415-7144-d88c" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
@@ -12600,7 +12599,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9143-ed27-0de3-0af4" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="011d-ecac-f652-9fd9" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -12609,7 +12608,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ae2-4945-3131-cd70" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f223-1aa7-0d30-eabd" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -12629,34 +12628,34 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9143-ed27-0de3-0af4" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="011d-ecac-f652-9fd9" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
                         </entryLink>
-                        <entryLink id="3c64-0f94-daa8-7466" name="Armas mágicas. Guerreros del Caos. Nurgle. Arma de mano" hidden="false" collective="false" import="true" targetId="0a25-0287-3b9b-fc3f" type="selectionEntryGroup">
+                        <entryLink id="3c64-0f94-daa8-7466" name="Armas mágicas. Guerreros del Caos. Nurgle. Arma bruja" hidden="false" collective="false" import="true" targetId="0a25-0287-3b9b-fc3f" type="selectionEntryGroup">
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ae2-4945-3131-cd70" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f223-1aa7-0d30-eabd" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
                         </entryLink>
-                        <entryLink id="ed4c-1277-1d72-5147" name="Armas mágicas. Guerreros del Caos. Tzeentch. Arma de mano" hidden="false" collective="false" import="true" targetId="72f8-0021-5d85-9c02" type="selectionEntryGroup">
+                        <entryLink id="ed4c-1277-1d72-5147" name="Armas mágicas. Guerreros del Caos. Tzeentch. Arma bruja" hidden="false" collective="false" import="true" targetId="72f8-0021-5d85-9c02" type="selectionEntryGroup">
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7358-76fa-ca89-e4a0" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96fb-d019-8c83-aea3" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
                         </entryLink>
-                        <entryLink id="6ae0-06fe-3b34-6d0b" name="Armas mágicas. Guerreros del Caos. Khorne. Arma de mano" hidden="false" collective="false" import="true" targetId="277a-e3b2-e9a6-eec7" type="selectionEntryGroup">
+                        <entryLink id="6ae0-06fe-3b34-6d0b" name="Armas mágicas. Guerreros del Caos. Khorne. Arma bruja" hidden="false" collective="false" import="true" targetId="277a-e3b2-e9a6-eec7" type="selectionEntryGroup">
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="035e-6b1f-cc7a-b3fb" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e5-81a4-0637-f7b1" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -12668,7 +12667,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9143-ed27-0de3-0af4" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="011d-ecac-f652-9fd9" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -12678,7 +12677,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ae2-4945-3131-cd70" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f223-1aa7-0d30-eabd" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -12688,7 +12687,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="035e-6b1f-cc7a-b3fb" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e5-81a4-0637-f7b1" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -12697,7 +12696,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7358-76fa-ca89-e4a0" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96fb-d019-8c83-aea3" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -12705,8 +12704,24 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                         <entryLink id="10d9-07ca-4cfe-165f" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
                         <entryLink id="362c-c5c7-a473-a898" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                         <entryLink id="6987-8a5e-3cd2-4bdf" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
-                        <entryLink id="0ff1-a008-4d57-6057" name="Objetos hechizados. Guerreros del Caos. Khorne" hidden="false" collective="false" import="true" targetId="ac7a-2187-496c-6d39" type="selectionEntryGroup"/>
-                        <entryLink id="a943-93b8-3fed-4ee5" name="Objetos hechizados. Guerreros del Caos. Tzeentch" hidden="false" collective="false" import="true" targetId="e094-e0f6-cf60-f823" type="selectionEntryGroup"/>
+                        <entryLink id="0ff1-a008-4d57-6057" name="Objetos hechizados. Guerreros del Caos. Khorne" hidden="false" collective="false" import="true" targetId="ac7a-2187-496c-6d39" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e5-81a4-0637-f7b1" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="a943-93b8-3fed-4ee5" name="Objetos hechizados. Guerreros del Caos. Tzeentch" hidden="false" collective="false" import="true" targetId="e094-e0f6-cf60-f823" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96fb-d019-8c83-aea3" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
                       </entryLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
@@ -12722,7 +12737,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7358-76fa-ca89-e4a0" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96fb-d019-8c83-aea3" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -12731,7 +12746,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ae2-4945-3131-cd70" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f223-1aa7-0d30-eabd" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -12740,18 +12755,17 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9143-ed27-0de3-0af4" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="011d-ecac-f652-9fd9" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
                         </entryLink>
                         <entryLink id="6ea6-9080-d201-60a8" name="Recompensas del Caos" hidden="false" collective="false" import="true" targetId="9a9a-1f98-d3f0-ad78" type="selectionEntryGroup"/>
-                        <entryLink id="d3f7-2df7-9053-1f56" name="Recompensas del Caos. Infantería" hidden="false" collective="false" import="true" targetId="3dde-0d98-a42b-88e1" type="selectionEntryGroup"/>
                         <entryLink id="0f20-9ad1-e4a1-acad" name="Recompensas del Caos. Khorne" hidden="false" collective="false" import="true" targetId="2142-2dc6-002e-1b4b" type="selectionEntryGroup">
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
                               <conditions>
-                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="035e-6b1f-cc7a-b3fb" type="equalTo"/>
+                                <condition field="selections" scope="6a63-44af-d10d-797f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01e5-81a4-0637-f7b1" type="equalTo"/>
                               </conditions>
                             </modifier>
                           </modifiers>
@@ -15098,6 +15112,9 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
         <infoLink id="ba99-01cf-8579-3943" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
         <infoLink id="13b9-51cc-4964-ad4e" name="Inestable" hidden="false" targetId="2db9-1492-c047-1e08" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="91c1-9960-c9cc-7524" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="22f6-4e93-5cd5-6834" name="Maldito de la plaga pútrida" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -21657,13 +21674,13 @@ persecución.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba6b-060b-3539-7772" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cd99-e2d6-6bb8-8026" name="Arma de mano hechizada" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="cd99-e2d6-6bb8-8026" name="Arma bruja" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e43-ae52-93f9-4227" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="396a-362c-fc91-6d7e" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0f6d-c740-3d6b-ee13" name="Arma de mano hechizada" hidden="false" targetId="a895-4978-ca78-57f5" type="profile"/>
+                <infoLink id="0f6d-c740-3d6b-ee13" name="Arma bruja" hidden="false" targetId="a241-0157-b04a-0dcd" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -21824,7 +21841,7 @@ persecución.
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="6eb1-16c2-9b8d-5a1e" name="Armaduras mágicas. Guerreros del caos" hidden="false" collective="false" import="true" targetId="db18-b9da-be54-350c" type="selectionEntryGroup"/>
+                    <entryLink id="6eb1-16c2-9b8d-5a1e" name="Armaduras mágicas. Guerreros del Caos" hidden="false" collective="false" import="true" targetId="db18-b9da-be54-350c" type="selectionEntryGroup"/>
                     <entryLink id="2387-efd0-42a2-c158" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
                     <entryLink id="bfae-5d30-b459-74d6" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="4b0c-cf3b-dfba-9c2f" name="Talismanes mágicos. Guerreros del caos" hidden="false" collective="false" import="true" targetId="c87e-2ff5-a8cf-f075" type="selectionEntryGroup"/>
@@ -21893,7 +21910,6 @@ persecución.
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="0f48-6275-7a73-ca61" name="Armaduras mágicas. Guerreros del caos. Khorne" hidden="false" collective="false" import="true" targetId="7f1c-e31a-3c9b-d9dd" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -24965,6 +24981,9 @@ D6 	Resultado (Agarrar y...)
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3171-d1ba-bcb0-d9bf" type="max"/>
+      </constraints>
       <rules>
         <rule id="8d44-2dd8-2a0c-eb4e" name="Guerreros kul" hidden="false">
           <description>La unidad de Guerreros del Caos que acompañe a Crom puede repetir sus tiradas para impactar fallidas en cuerpo a cuerpo.</description>
@@ -27034,7 +27053,7 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0a61-f281-bb4c-8846" name="Marca del Caos absoluto. Pesonajes" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0a61-f281-bb4c-8846" name="Marca del Caos absoluto. Personajes" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="b1b4-fd61-0107-2c9b" value="1.0">
           <conditions>

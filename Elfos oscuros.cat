@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3216-304d-pubN65537" name="Elfos Oscuros Reforged"/>
   </publications>
@@ -5773,6 +5773,15 @@ unidad. A la hora de disparar contra un Caldero de Sangre, éste deberá conside
             <entryLink id="1138-5542-eb6d-a11f" name="Senda del Guerrero. No hechiceras" hidden="false" collective="false" import="true" targetId="20f4-b6a6-3cea-b78c" type="selectionEntryGroup"/>
             <entryLink id="e114-efc9-7294-14df" name="Senda oscura" hidden="false" collective="false" import="true" targetId="1061-0363-04cd-045d" type="selectionEntryGroup"/>
             <entryLink id="f1ff-54a3-9087-7871" name="Senda oscura. No Khainita" hidden="false" collective="false" import="true" targetId="262e-4a15-fe5d-bd41" type="selectionEntryGroup"/>
+            <entryLink id="b784-ead9-ce55-a4df" name="Senda del Guerrero. Infantería" hidden="false" collective="false" import="true" targetId="e809-a579-59d7-c2cd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="35e6-b9c3-3cc9-2a6d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e298-884d-481d-5a2e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -6148,7 +6157,7 @@ unidad. A la hora de disparar contra un Caldero de Sangre, éste deberá conside
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e298-884d-481d-5a2e" name="Montura" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e298-884d-481d-5a2e" name="Monturas" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f28-2cad-b0c3-2667" type="max"/>
           </constraints>
@@ -7378,6 +7387,15 @@ unidad. A la hora de disparar contra un Caldero de Sangre, éste deberá conside
             <entryLink id="3de1-bf0d-e8f1-ab78" name="Senda oscura. No hechiceras" hidden="false" collective="false" import="true" targetId="20f4-b6a6-3cea-b78c" type="selectionEntryGroup"/>
             <entryLink id="dee2-8c9c-7eeb-4cb8" name="Senda oscura" hidden="false" collective="false" import="true" targetId="1061-0363-04cd-045d" type="selectionEntryGroup"/>
             <entryLink id="e31b-6b52-285d-1969" name="Senda oscura. No khainita" hidden="false" collective="false" import="true" targetId="262e-4a15-fe5d-bd41" type="selectionEntryGroup"/>
+            <entryLink id="6180-11b7-2982-0a5a" name="Senda del Guerrero. Infantería" hidden="false" collective="false" import="true" targetId="e809-a579-59d7-c2cd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="bf9a-2d72-c666-a51c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d16e-2126-bf67-df2d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -7480,7 +7498,7 @@ unidad. A la hora de disparar contra un Caldero de Sangre, éste deberá conside
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d16e-2126-bf67-df2d" name="Montura" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d16e-2126-bf67-df2d" name="Monturas" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="504b-fb7b-2cba-fb4a" type="max"/>
           </constraints>
@@ -16663,90 +16681,6 @@ Apabullada durante ese turno; tan horrible es el morir a sus manos.</description
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a5ae-bb0c-391f-c74a" name="Espadachin consumado" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ad2-1283-b41a-7172" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc5d-8a42-48a2-8c84" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="1e6f-1a51-84ce-4fc2" name="Espadachin consumado" hidden="false" typeId="b55e-8314-c538-d767" typeName="Senda">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="81af-de2c-e762-8dd1">El personaje puede repetir todas sus tiradas fallidas para impactar en combate cuerpo a cuerpo, pero no puede elegir ninguna montura.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c6f5-cbfb-b18f-ab5d" name="Señor de los verdugos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3b5-dd6c-c974-f4cf" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd0f-d6f9-06bc-beb2" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c899-3021-c3e7-65a8" name="Señor de los verdugos" hidden="false" typeId="b55e-8314-c538-d767" typeName="Senda">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="81af-de2c-e762-8dd1">El personaje obtiene las reglas especiales Khainita, Furia asesina, Resistencia mágica (1) y Golpe letal. Tan sólo puede equiparse con un Arma a dos manos (mundana o mágica); no puede elegir otros tipos de arma. No puede elegir ninguna montura.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="4256-79e8-9e7b-f675" name="Khainitas" hidden="false" targetId="57ef-0601-26a7-fdac" type="rule"/>
-            <infoLink id="ad23-91f6-3800-4ba4" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
-            <infoLink id="6710-22ae-706b-47c0" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
-            <infoLink id="2e06-b03a-d40f-3aa4" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="dab8-0c5a-e938-b713" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="62f4-0cfc-d96a-93af" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa4-8ad8-55b4-4a73" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="4181-2303-485b-4619" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5ae-a3ea-7f19-467e" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17a6-5fda-6759-15a8" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="98c9-7b00-daec-3564" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9c2d-6676-cdfd-f279" name="Fanático del Rey Brujo" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e37-1e91-c4a7-0a1b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2bb-ba91-8a22-ec40" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3d91-0da9-90fa-1b75" name="Fanático del Rey Brujo" hidden="false" typeId="b55e-8314-c538-d767" typeName="Senda">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="81af-de2c-e762-8dd1">El personaje estará equipado con Armadura oscura de Naggarond y obtiene las reglas especiales Inmune a psicología, Resistencia mágica (1) y Odio (¡todos los enemigos!). Sin embargo, el personaje no puede tener ninguna montura y tan sólo puede unirse a unidades de Guardia Negra.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2655-938b-2343-454c" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
-            <infoLink id="ea73-5704-04ce-4ee6" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
-            <infoLink id="1a10-d690-cacc-5044" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="1061-0363-04cd-045d" name="Senda oscura" hidden="false" collective="false" import="true">
@@ -18556,6 +18490,97 @@ enemiga en contacto peana con peana con el portador, que sufrirá inmediatamente
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e809-a579-59d7-c2cd" name="Senda del Guerrero. Infantería" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95ac-2c97-c0cc-d830" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3ac7-fab8-ae3a-1480" name="Señor de los verdugos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be71-ab56-3db7-5232" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d020-1f41-d65f-1f35" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="09b7-6db5-5216-6a7e" name="Señor de los verdugos" hidden="false" typeId="b55e-8314-c538-d767" typeName="Senda">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="81af-de2c-e762-8dd1">El personaje obtiene las reglas especiales Khainita, Furia asesina, Resistencia mágica (1) y Golpe letal. Tan sólo puede equiparse con un Arma a dos manos (mundana o mágica); no puede elegir otros tipos de arma. No puede elegir ninguna montura.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e21d-3018-193d-7fe3" name="Khainitas" hidden="false" targetId="57ef-0601-26a7-fdac" type="rule"/>
+            <infoLink id="4584-962d-1bb2-df1e" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
+            <infoLink id="18df-82cc-cdf4-9956" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
+            <infoLink id="8a3c-e476-d0db-4be3" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="40e1-e1f1-5777-f163" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="038c-5de6-d7fb-6a36" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9281-dce7-edd6-3ce7" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="62d4-5c70-5314-fc6a" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8d-06b2-7995-77b0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e8a-8b43-0039-31f1" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="3505-e809-28bb-27ac" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5753-842c-a74a-f7cf" name="Espadachin consumado" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5467-18d2-f080-b502" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="18bf-3543-4c80-d734" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8117-6dbf-e1bd-92ff" name="Espadachin consumado" hidden="false" typeId="b55e-8314-c538-d767" typeName="Senda">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="81af-de2c-e762-8dd1">El personaje puede repetir todas sus tiradas fallidas para impactar en combate cuerpo a cuerpo, pero no puede elegir ninguna montura.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="30f9-f27e-0686-ba22" name="Fanático del Rey Brujo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95c2-66bc-119e-cfea" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7c9-1b29-a63e-2c6c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3edc-135a-db29-8432" name="Fanático del Rey Brujo" hidden="false" typeId="b55e-8314-c538-d767" typeName="Senda">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="81af-de2c-e762-8dd1">El personaje estará equipado con Armadura oscura de Naggarond y obtiene las reglas especiales Inmune a psicología, Resistencia mágica (1) y Odio (¡todos los enemigos!). Sin embargo, el personaje no puede tener ninguna montura y tan sólo puede unirse a unidades de Guardia Negra.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="32b8-8774-5569-7593" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
+            <infoLink id="ac85-727b-6988-838b" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
+            <infoLink id="8149-8681-f0ca-3641" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

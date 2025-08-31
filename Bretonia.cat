@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -5572,18 +5572,34 @@ Desafío).</description>
               </constraints>
               <entryLinks>
                 <entryLink id="4d50-9d55-41f8-e153" name="Virtudes" hidden="false" collective="false" import="true" targetId="b00c-6377-ec6b-4560" type="selectionEntryGroup"/>
-                <entryLink id="9ccd-81ed-6901-85b7" name="Virtudes. Voto de la busqueda" hidden="false" collective="false" import="true" targetId="7e72-77e4-e4cf-da99" type="selectionEntryGroup"/>
-                <entryLink id="60e8-97c9-2efb-67ab" name="Virtudes. Paladín" hidden="false" collective="false" import="true" targetId="3972-b7bf-af53-1516" type="selectionEntryGroup"/>
-                <entryLink id="e676-a93b-7b30-b4f2" name="Virtudes. Voto del Grial" hidden="false" collective="false" import="true" targetId="e500-6780-f29e-2a28" type="selectionEntryGroup">
+                <entryLink id="9ccd-81ed-6901-85b7" name="Virtudes. Voto de la busqueda" hidden="false" collective="false" import="true" targetId="7e72-77e4-e4cf-da99" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="b2f5-5922-ab84-5a07" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4c86-1b30-926a-1146" type="equalTo"/>
+                        <condition field="selections" scope="b2f5-5922-ab84-5a07" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink id="6af7-06b7-f314-ff68" name="Virtudes. Voto del caballero" hidden="false" collective="false" import="true" targetId="de13-dadd-4357-1610" type="selectionEntryGroup"/>
+                <entryLink id="60e8-97c9-2efb-67ab" name="Virtudes. Paladín No General" hidden="false" collective="false" import="true" targetId="3972-b7bf-af53-1516" type="selectionEntryGroup"/>
+                <entryLink id="e676-a93b-7b30-b4f2" name="Virtudes. Voto del Grial" hidden="false" collective="false" import="true" targetId="e500-6780-f29e-2a28" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="b2f5-5922-ab84-5a07" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b744-bc38-2463-dd92" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="6af7-06b7-f314-ff68" name="Virtudes. Voto del caballero" hidden="false" collective="false" import="true" targetId="de13-dadd-4357-1610" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="b2f5-5922-ab84-5a07" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a60-823a-cc38-caae" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -13020,7 +13036,7 @@ durante los Desafíos en los que participe.</characteristic>
             <infoLink id="842b-6197-8c29-e1f8" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fefe-5cce-9204-aaed" name="Armadura de Agilulf" hidden="false" collective="false" import="true" type="upgrade">
@@ -13214,29 +13230,6 @@ de salvación por armadura o especial o un chequeo de atributo.</characteristic>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e226-f96a-1aa5-bf71" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="760e-7fe7-a94f-d244" name="Sacramento de la dama" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="22b4-f474-349b-4eee" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f4b8-0079-9112-b1eb" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3fab-c712-db59-7701" name="Sacramento de la dama" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un solo uso. El personaje obtendrá un dado de Energía adicional durante esta fase de magia y cada una de las fases de magia posteriores y un dado de Dispersión adicional en cada fase de magia del oponente. A partir de ese momento, el personaje obtendrá por la regla especial Estupidez.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="96e5-418d-1ef4-8999" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule">
-              <modifiers>
-                <modifier type="append" field="name" value="(Sacramento de la dama)"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="fd89-69ac-0051-4809" name="Cáliz de Malfeur" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="86b5-c675-8a88-7aae" type="max"/>
@@ -13294,7 +13287,7 @@ El portador obtendrá un bonificador de +2 al lanzamiento de los hechizos del Sa
           <profiles>
             <profile id="b844-02aa-51e9-0ac6" name="Espejo de plata" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Otorga un +1 al lanzamiento de los hechizos de su portador. Adicionalmente, tras determinar sus hechizos, puede cambiar uno de sus hechizos por otro del mismo saber a su elección.</characteristic>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un solo uso. Puede utilizarse para dispersar automáticamente un hechizo enemigo. Tira 1D6 por cada dado de Energía que se empleó para lanzar el poder; por cada resultado natural de 6 obtenido, el lanzador sufrirá una herida que no podrá evitarse con tiradas de salvación por armadura. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13326,12 +13319,35 @@ El portador obtendrá un bonificador de +2 al lanzamiento de los hechizos del Sa
           <profiles>
             <profile id="5f17-ae38-f980-1fda" name="Báculo radiante" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Otorga un +1 al lanzamiento de los hechizos de su portadora. Adicionalmente, tras determinar sus hechizos, puede cambiar uno de sus hechizos por otro del mismo saber a su elección.</characteristic>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Otorga un +1 al lanzamiento de los hechizos de su portador. Adicionalmente, tras determinar sus hechizos, puede cambiar uno de sus hechizos por otro del mismo saber a su elección.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3480-2569-e2fd-85e9" name="Sacramento de la dama" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8fb1-d3b2-080c-7876" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa0e-a017-7127-359c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="85d9-65dc-9c8d-05f4" name="Sacramento de la dama" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un solo uso. El personaje obtendrá un dado de Energía adicional durante esta fase de magia y cada una de las fases de magia posteriores y un dado de Dispersión adicional en cada fase de magia del oponente. A partir de ese momento, el personaje obtendrá por la regla especial Estupidez.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="50c8-40b0-dcc2-1ca5" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule">
+              <modifiers>
+                <modifier type="append" field="name" value="(Sacramento de la dama)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

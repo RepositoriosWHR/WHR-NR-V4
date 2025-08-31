@@ -3353,6 +3353,15 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3e6b-071e-3b01-28aa" name="Clave: Rey" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed8-1ded-4eb9-4c35" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b17-fab8-2b4c-609f" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ce18-5154-29c0-927b" name="Estandartes mágicos. Reliquias" hidden="false" collective="false" import="true">

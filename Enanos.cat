@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="3" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="4" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4be9-2442-f655-1d41" name="Runa talismánica">
       <characteristicTypes>
@@ -2268,7 +2268,7 @@
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="f40f-df24-fb02-f3d5" name="Armadura pesada" hidden="false" collective="false" import="true" type="model">
+                <selectionEntry id="f40f-df24-fb02-f3d5" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e21f-d113-cd41-bf7e" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8550-dab4-136d-c87f" type="max"/>
@@ -6462,7 +6462,7 @@ como baja.
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="b139-87d7-871e-306a" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
+                <infoLink id="b139-87d7-871e-306a" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
                 <infoLink id="af1a-80a4-79f9-67de" name="Heridas múltiples (1D6)" hidden="false" targetId="e658-6033-5e1f-c1c4" type="rule"/>
               </infoLinks>
               <selectionEntries>
@@ -19355,7 +19355,7 @@ Resistencia; si lo falla, será retirado como baja.</characteristic>
       <description>Un Ingeniero que forme parte de la dotación de un Lanzavirotes podrá utilizar su Habilidad de proyectiles al disparar el Lanzavirotes. Si el ingeniero forma parte de la dotación de un Cañón, obtiene la regla especial Artillero veterano. En cualquier otra máquina de guerra, se podrá repetir la tirada en la tabla de Problemas.</description>
     </rule>
     <rule id="8701-9eaa-6523-4996" name="Odio (Pielesverdes y Skaven)" hidden="false">
-      <description>Una miniatura que Odie podrá repetir los resultados de 1 obtenidos en sus tiradas para impactar en combate cuerpo a cuerpo contra aquellos a quienes odie.</description>
+      <description>Esta regla especial va acompañada entre paréntesis de la clave del objetivo de ese odio: por ejemplo, Odio (enanos). En algunos casos puede incluir varios, por ejemplo Odio (Caos), que indica que se odia a todas las miniaturas de los ejércitos del Caos o incluso Odio (todos los enemigos). Una miniatura con esta regla especial podrá repetir los resultados de 1 obtenidos en sus tiradas para impactar en combate cuerpo a cuerpo contra aquellos a quienes odie.</description>
     </rule>
     <rule id="e323-54c9-ad83-7848" name="Diseño superior" hidden="false">
       <description>Las armas de proyectiles con esta regla especial no tienen el penalizador de -1 por disparar a larga distancia.</description>

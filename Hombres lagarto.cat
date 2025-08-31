@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9ec5-91ab-c1bc-3ae5" name="Desove">
       <characteristicTypes>
@@ -4125,6 +4125,33 @@
           </constraints>
           <profiles>
             <profile id="c471-b0ad-2650-1723" name="Mago-Sacerdote Slann" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="576172645361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="4d55-bde7-cd56-aa30" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b64-9d4f-4ce0-f786" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="5723232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="4d55-bde7-cd56-aa30" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b64-9d4f-4ce0-f786" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="5">
+                  <conditions>
+                    <condition field="selections" scope="4d55-bde7-cd56-aa30" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b64-9d4f-4ce0-f786" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="4">
+                  <conditions>
+                    <condition field="selections" scope="4d55-bde7-cd56-aa30" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="807d-130c-9244-27c0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="5723232344415441232323" value="3">
+                  <conditions>
+                    <condition field="selections" scope="4d55-bde7-cd56-aa30" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="807d-130c-9244-27c0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
@@ -4136,7 +4163,7 @@
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">9</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323">5</characteristic>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
             </profile>
@@ -4503,6 +4530,18 @@
           </constraints>
           <profiles>
             <profile id="1ffc-8681-cf26-afca" name="Saurio viejaestirpe" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="1263-a3d6-5959-5381" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e53-509b-4a74-fec8" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="1263-a3d6-5959-5381" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9da1-3710-1822-3a1f" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
@@ -5025,6 +5064,43 @@
           </constraints>
           <profiles>
             <profile id="15ef-566b-c814-f834" name="Cacique eslizón" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="baeb-7047-e57f-ebc0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="034b-7c08-8c9e-27a2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e43-32e2-6443-0592" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3229-4303-3ce8-2cf7" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d406-f316-ca89-abfc" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="61de-7e90-60af-93f9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5619-3192-99c5-3b83" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
@@ -5035,7 +5111,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">7</characteristic>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
@@ -5702,6 +5778,18 @@
           </constraints>
           <profiles>
             <profile id="be3b-e355-865f-c8b2" name="Saurio escamadura" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="0360-6370-6e3d-e58d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7df-0c93-cf03-8601" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="0360-6370-6e3d-e58d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1d48-06e0-42bf-ce3f" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
@@ -6102,6 +6190,23 @@
           </constraints>
           <profiles>
             <profile id="2f0a-0f57-4d78-bc6b" name="Chamán eslizón" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="5">
+                  <conditions>
+                    <condition field="selections" scope="a2c0-e158-c9b5-55fb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="baeb-7047-e57f-ebc0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="4">
+                  <conditions>
+                    <condition field="selections" scope="a2c0-e158-c9b5-55fb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49b6-ecf1-41cb-2e1a" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+                  <conditions>
+                    <condition field="selections" scope="a2c0-e158-c9b5-55fb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e02a-4d49-2966-bc39" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
@@ -11112,7 +11217,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
                 <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">2</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
@@ -11512,7 +11617,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
                 <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">6</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">3</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
@@ -11786,7 +11891,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
                 <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">2</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
@@ -12038,7 +12143,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
       </rules>
       <infoLinks>
         <infoLink id="35bc-b718-f0c6-bd0b" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
-        <infoLink id="efc2-be2b-b872-a078" name="Flotar (8)" hidden="false" targetId="bfb1-ac97-7d3e-9593" type="rule"/>
+        <infoLink id="efc2-be2b-b872-a078" name="Flotar" hidden="false" targetId="bfb1-ac97-7d3e-9593" type="rule"/>
         <infoLink id="2967-dca9-97d4-e7d1" name="Protección por montura (1)" hidden="false" targetId="1f9d-b34a-3d89-add6" type="rule"/>
       </infoLinks>
       <costs>
@@ -13628,13 +13733,12 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
           <profiles>
             <profile id="ddea-bed1-8e81-017c" name="Desove sagrado de Xhotl" hidden="false" typeId="9ec5-91ab-c1bc-3ae5" typeName="Desove">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0e88-2445-1583-881a">Las miniaturas pertenecientes a este desove obtienen una tirada de salvación especial de 6+ y la regla especial Ataques mágicos.</characteristic>
+                <characteristic name="Reglas especiales" typeId="0e88-2445-1583-881a">Las miniaturas pertenecientes a este desove obtienen una tirada de salvación especial de 6+ y la regla especial  Ataques mágicos.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="8055-14d2-8c8e-ad3a" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
-            <infoLink id="d48c-7718-0ab5-0f59" name="Aura demoníaca (6+)" hidden="false" targetId="0f99-ca63-39fd-c419" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
