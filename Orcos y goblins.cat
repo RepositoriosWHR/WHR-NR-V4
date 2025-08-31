@@ -30958,7 +30958,7 @@ armadura.
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ed4e-9d66-4268-b4b3" name="Kriztal de vizión" hidden="false" collective="false" import="true" type="upgrade">
