@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1902-3bc7-65bd-b65b" name="Recompensa del caos">
       <characteristicTypes>
@@ -14830,5 +14830,6 @@ D6 Poción del Caos
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="baac-94ec-5e34-c6a0" name="MercenariosLib" targetId="4652-5447-e10a-8eb0" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="65cf-6753-ac29-bd3b" name="Huestes del Caos" targetId="b45a-4cb1-e2e8-abd7" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

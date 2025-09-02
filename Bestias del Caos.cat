@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="4" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="5" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coccorota, Aswer y Gengis.</readme>
   <publications>
     <publication id="51fc-eb9b-pubN65537" name="Bestias del Caos Reforged"/>
@@ -4225,6 +4225,15 @@ la civilización.</description>
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink id="15df-1521-d349-864f" name="Recompensas menores - Bestias del Caos - Infantería" hidden="false" collective="false" import="true" targetId="df57-46c0-e5ac-2563" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="255b-1c8a-03a6-3b57" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7dae-d375-e1ab-f54e" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="d023-5df4-f8f4-3e6c" name="Recompensas mayores" hidden="false" collective="false" import="true">
@@ -4590,8 +4599,7 @@ la civilización.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9722-2943-e132-3dfb" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="640e-40f6-6665-254c" name="Armas Mágicas - Bestias del Caos" hidden="false" collective="false" import="true" targetId="81f3-02b3-7cc2-8a11" type="selectionEntryGroup"/>
-                    <entryLink id="1017-fb4d-4fb1-2d2d" name="Armas Mágicas - Reliquias - Bestias del Caos" hidden="false" collective="false" import="true" targetId="f0cc-47bf-aaca-78f3" type="selectionEntryGroup"/>
+                    <entryLink id="1017-fb4d-4fb1-2d2d" name="Armas Mágicas - Reliquias - Bestias del Caos - Arma a dos manos" hidden="false" collective="false" import="true" targetId="f0cc-47bf-aaca-78f3" type="selectionEntryGroup"/>
                     <entryLink id="c20a-f9c2-b198-8685" name="Armas mágicas. Reliquias. Arma a dos manos" hidden="false" collective="false" import="true" targetId="4b88-5eb8-4e24-cb72" type="selectionEntryGroup"/>
                     <entryLink id="7388-9d75-db86-808b" name="Armas mágicas. Reliquias. Arma de mano" hidden="false" collective="false" import="true" targetId="6ac5-e7fd-42b0-198b" type="selectionEntryGroup"/>
                   </entryLinks>
@@ -4655,6 +4663,48 @@ la civilización.</description>
           </constraints>
           <profiles>
             <profile id="0b62-7efc-8aac-f91a" name="Gran chamán del rebaño" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="170a-3d37-2b1a-d911" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06c7-5ae8-77a6-1bda" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="170a-3d37-2b1a-d911" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8eec-aab3-7dca-7fd6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="170a-3d37-2b1a-d911" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ace2-a35f-1605-3e23" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="170a-3d37-2b1a-d911" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f3bf-58ca-450f-98df" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="170a-3d37-2b1a-d911" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06c7-5ae8-77a6-1bda" type="equalTo"/>
+                        <condition field="selections" scope="170a-3d37-2b1a-d911" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c48b-0028-1339-9ee7" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="576172645361766523232344415441232323" value="6">
+                  <conditions>
+                    <condition field="selections" scope="170a-3d37-2b1a-d911" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d72-4fd2-3631-9d37" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="170a-3d37-2b1a-d911" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d317-d9f5-d8c2-e475" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
@@ -4665,7 +4715,7 @@ la civilización.</description>
                 <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">7</characteristic>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
@@ -5117,7 +5167,7 @@ la civilización.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ef-b7e2-a412-8ff4" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="49d4-d883-d6ce-26d8" name="Marca del Caos absoluto. Pesonajes" hidden="false" collective="false" import="true" targetId="c48b-0028-1339-9ee7" type="selectionEntry">
+            <entryLink id="49d4-d883-d6ce-26d8" name="Marca del Caos absoluto. Personajes" hidden="false" collective="false" import="true" targetId="c48b-0028-1339-9ee7" type="selectionEntry">
               <rules>
                 <rule id="e523-00ba-da0a-4fb8" name="Marca del Caos absoluto. Gran chamán del rebaño" hidden="false">
                   <description>Obtiene las reglas especiales Inmune a Pánico y Piel escamosa (6+); puede realizar una tirada en la tabla de Destruir la civilización antes del despliegue y puede repetir sus tiradas en la tabla de Destruir la civilización.</description>
@@ -5248,6 +5298,15 @@ la civilización.</description>
                   </modifiers>
                 </entryLink>
                 <entryLink id="3b5c-0ded-22c4-762b" name="Recompensas menores - Hechiceros - Bestias del Caos" hidden="false" collective="false" import="true" targetId="a48a-ddbe-62cc-bbdd" type="selectionEntryGroup"/>
+                <entryLink id="7441-2bc3-822d-3d56" name="Recompensas menores - Bestias del Caos - Infantería" hidden="false" collective="false" import="true" targetId="df57-46c0-e5ac-2563" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="170a-3d37-2b1a-d911" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06c7-5ae8-77a6-1bda" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="cc18-0e37-7e51-e9bd" name="Recompensas mayores" hidden="false" collective="false" import="true">
@@ -7393,6 +7452,15 @@ la civilización.</description>
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink id="24fa-49a7-dfe1-4e1b" name="Recompensas menores - Bestias del Caos - Infantería" hidden="false" collective="false" import="true" targetId="df57-46c0-e5ac-2563" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="9885-879f-53eb-79e1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="65bd-43b3-dc2b-94e7" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -8706,6 +8774,15 @@ la civilización.</description>
                   </modifiers>
                 </entryLink>
                 <entryLink id="de0c-3c22-5a0c-9014" name="Recompensas menores - Hechiceros - Bestias del Caos" hidden="false" collective="false" import="true" targetId="a48a-ddbe-62cc-bbdd" type="selectionEntryGroup"/>
+                <entryLink id="56d3-1a85-c300-96be" name="Recompensas menores - Bestias del Caos - Infantería" hidden="false" collective="false" import="true" targetId="df57-46c0-e5ac-2563" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="082c-c5e8-6aaa-bb05" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cd87-3f0c-1b12-bb18" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -10349,7 +10426,7 @@ Ten en cuenta que el disparo no lo realiza el propio Garralunar, por lo tanto pu
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8029-44de-90d0-4231" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4e32-e7fd-a524-362b" name="TAUROX, EL MINOTAURO DE BRONCE" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+        <profile id="4e32-e7fd-a524-362b" name="Taurox, el monitauro de bronce" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
           <characteristics>
             <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
             <characteristic name="HA" typeId="575323232344415441232323">7</characteristic>
@@ -11167,7 +11244,7 @@ Ninguno de los resultados afectará a miniaturas con las Reglas especiales Demon
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5e7-684b-a793-e61a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="0625-c504-b18d-f197" name="MALAGOR, EL PROFETA OSCURO" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="0625-c504-b18d-f197" name="Malagor, EL profeta Oscuro" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
@@ -16494,7 +16571,7 @@ la civilización.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a337-2d36-e035-42c3" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c9ee-4ec6-3ea6-a952" name="Carro de Tuskgors" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="c9ee-4ec6-3ea6-a952" name="Carro de Garragor" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <modifiers>
                 <modifier type="set" field="576172645361766523232344415441232323" value="6">
                   <conditions>
@@ -18152,7 +18229,7 @@ la civilización.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c48b-0028-1339-9ee7" name="Marca del Caos absoluto. Pesonajes" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c48b-0028-1339-9ee7" name="Marca del Caos absoluto. Personajes" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="bb13-78c5-5a88-1d4d" value="1.0">
           <conditions>
@@ -18233,7 +18310,7 @@ la civilización.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="584c-024d-3eee-b88d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="09cb-afe8-3bbd-f643" name="Carro de Tuskgors" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="09cb-afe8-3bbd-f643" name="Carro de Garragor" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <modifiers>
                 <modifier type="set" field="576172645361766523232344415441232323" value="6">
                   <conditions>
@@ -18251,7 +18328,7 @@ la civilización.</description>
                 <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">3</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
               </characteristics>
@@ -18410,7 +18487,7 @@ la civilización.</description>
                 <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
               </characteristics>
@@ -18546,7 +18623,7 @@ la civilización.</description>
             <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
             <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
-            <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">5</characteristic>
+            <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="TSE" typeId="576172645361766523232344415441232323">5</characteristic>
             <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
           </characteristics>
@@ -18672,7 +18749,7 @@ la civilización.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="22fe-0ea4-a4cf-9aa1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="69d5-1cf8-e91a-0708" name="Tuskgors" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="69d5-1cf8-e91a-0708" name="Tuskgors (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">7</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
@@ -19203,25 +19280,6 @@ la civilización.</description>
                 <modifier type="append" field="name" value="(F3, Ataques sólo flamígeros)"/>
               </modifiers>
             </infoLink>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8e60-35c2-371a-e86c" name="Alas (Sólo infantería)" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6110-4c35-4256-e41b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aaa2-d5b0-9eea-5524" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="fd55-3d10-38ad-b6ad" name="Alas" hidden="false" typeId="454f-9dda-874e-99b2" typeName="Recompensas de las Bestias del Caos">
-              <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="c061-8049-b24d-6e12">Sólo miniaturas de Infantería. El personaje obtiene la regla especial Volar (9). </characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="9d5a-8aad-f936-069a" name="Volar (9)" hidden="false" targetId="8bfa-11eb-3e8e-c083" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
@@ -21289,6 +21347,29 @@ realiza (no tires en la tabla de Problemas).</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="df57-46c0-e5ac-2563" name="Recompensas menores - Bestias del Caos - Infantería" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="7b8e-048d-124f-32ac" name="Alas (Sólo infantería)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4f1-2f9d-1d64-91a7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="816b-b8b6-7411-58a2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="22ba-9c62-7d4a-7c1f" name="Alas" hidden="false" typeId="454f-9dda-874e-99b2" typeName="Recompensas de las Bestias del Caos">
+              <characteristics>
+                <characteristic name="Propiedades mágicas" typeId="c061-8049-b24d-6e12">Sólo miniaturas de Infantería. El personaje obtiene la regla especial Volar (9). </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="662b-c824-fe42-6ed1" name="Volar (9)" hidden="false" targetId="8bfa-11eb-3e8e-c083" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="1704-1ed7-aa05-e521" name="Indisciplina" hidden="false">
@@ -21365,5 +21446,6 @@ Resultado en 2d6/ Destruir la civilización:
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="de2d-546e-0575-301c" name="MercenariosLib" targetId="4652-5447-e10a-8eb0" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="0e3f-5513-989f-6bfa" name="Huestes del Caos" targetId="b45a-4cb1-e2e8-abd7" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

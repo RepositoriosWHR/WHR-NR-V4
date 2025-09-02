@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -3037,14 +3037,6 @@ Desafío).</description>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
             </entryLink>
-            <entryLink id="fe1a-1072-38ab-b403" name="Unicornio" hidden="false" collective="false" import="true" targetId="554d-dfd7-292a-84bd" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5cc-6227-5b8e-e1b7" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="55.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="faf9-9568-8dad-20a7" name="Corcel bretoniano (Damiselas)" hidden="false" collective="false" import="true" targetId="6daa-3789-c473-4603" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e94-f7f3-1a74-0a7a" type="max"/>
@@ -4693,7 +4685,6 @@ Desafío).</description>
                     <entryLink id="9445-9c52-bbc2-c807" name="Armas mágicas. Mayal" hidden="false" collective="false" import="true" targetId="518c-5b40-e21f-57a0" type="selectionEntryGroup"/>
                     <entryLink id="81e1-9a40-b5f3-0196" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
                     <entryLink id="b137-a00c-bec4-88e1" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
-                    <entryLink id="a086-0a7c-a136-249d" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="9774-f09d-0779-960c" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -5412,6 +5403,71 @@ Desafío).</description>
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c598-a556-f57b-a740" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8212-9ed3-c88a-f7f1" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d462-49d3-3078-64ce" name="Objetos mágicos" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38dd-95e0-24e4-d235" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="15c5-aba7-dbfd-0f01" name="Armaduras mágicas" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9f92-b597-0301-a5d7" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="fdfa-495b-8f21-1feb" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
+                    <entryLink id="96a8-a933-336e-05c0" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
+                    <entryLink id="4fa3-0508-453c-d09a" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
+                    <entryLink id="767d-5b07-75f0-7a33" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="7802-af70-86ce-437c" name="Armas mágicas" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="911c-787d-fe13-f5cf" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="6bb4-0d3a-98a7-7218" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                    <entryLink id="5bcd-77da-06aa-0400" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink id="4d12-de65-5bca-8e4e" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="1dec-5020-18b9-7145" name="Objetos hechizados" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc75-072c-e1a9-a9f8" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="0cf4-60ee-799b-863f" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
+                    <entryLink id="e083-b072-3f1b-83f9" name="Objetos hechizados. Bretonia" hidden="false" collective="false" import="true" targetId="2a56-065a-0ca4-d6ee" type="selectionEntryGroup"/>
+                    <entryLink id="26f4-15e9-c2fd-d323" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="49a9-eb71-aff7-9d7a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9a12-5b45-455b-6e98" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="333d-37e7-f11f-d736" name="Talismanes mágicos" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6442-a0a3-d6ca-648a" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="59f5-97be-dd3d-5b5c" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink id="1300-afcc-ade2-2280" name="Talismanes mágicos. Bretonia" hidden="false" collective="false" import="true" targetId="3a32-5e39-414e-fef5" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>

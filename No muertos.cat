@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="79c7-cc45-fd7a-618d" name="No muertos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="79c7-cc45-fd7a-618d" name="No muertos" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d35-4e46-308c-cb63" name="Arcanos nigrománticos">
       <characteristicTypes>
@@ -2780,7 +2780,7 @@ unirse a una unidad de Espíritus.</description>
           <description>Las unidades enemigas en contacto con un Morghast no podrán aplicar los beneficios de las reglas especiales Presencia inspiradora y ¡Ni un paso atrás!</description>
         </rule>
         <rule id="a669-e210-6a36-fd4f" name="Voluntad de Nagash" hidden="false">
-          <description>Un Morghast puede marchar siempre y no se ve afectado por la muerte del General.</description>
+          <description>Un Morghast puede marchar sin importar si hay enemigos cerca o si está dentro del alcance de la regla Presencia inspiradora del General, y no se ve afectado por la muerte de éste</description>
         </rule>
         <rule id="0963-dc70-9e67-a4e7" name="Receptáculos de poder oscuro" hidden="false">
           <description>Cualquier unidad amiga con la regla especial  No muerto a 6” o 
@@ -6800,7 +6800,7 @@ encuentra combatiendo. Cualquier unidad que sufra al menos una baja a causa de l
                             <characteristic name="H" typeId="5723232344415441232323"/>
                             <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
                             <characteristic name="A" typeId="4123232344415441232323">1(4)</characteristic>
-                            <characteristic name="L" typeId="4c4423232344415441232323">3</characteristic>
+                            <characteristic name="L" typeId="4c4423232344415441232323">4</characteristic>
                             <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                             <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                             <characteristic name="Tipo" typeId="5479706523232344415441232323">Bestia</characteristic>
@@ -9260,7 +9260,7 @@ Se trata de un hechizo de Potenciación que no hace ningún objetivo. Si se resu
       </constraints>
       <rules>
         <rule id="abf7-e633-6725-59fe" name="Magia Heinrich Kemmler" hidden="false">
-          <description>Heinrich Kemmler es un hechicero de nivel 4 que puede elegir sus hechizos de los Saberes de la Muerte, las Sombras, Magia Oscura y/o Nigromancia. Debido a su poder y experiencia, su arcano Bibliotecario Oscuro le permite elegir dos de estos saberes de l magia, y obtener la regla especial Señor del Conocimiento en ambos.</description>
+          <description>Heinrich Kemmler es un hechicero de nivel 4 que puede elegir sus hechizos de los Saberes de la Muerte, las Sombras, Magia Oscura y/o Nigromancia. Debido a su poder y experiencia, su arcano Bibliotecario Oscuro le permite elegir dos de estos saberes de la magia, y obtener la regla especial Señor del Conocimiento en ambos.</description>
         </rule>
         <rule id="91a5-5361-6b1a-093b" name="Conjuros protectores" hidden="false">
           <description>Heinrich Kemmler tiene una tirada de salvación especial de 3+.</description>
@@ -9519,7 +9519,7 @@ Se trata de un hechizo de Potenciación que no hace ningún objetivo. Si se resu
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84eb-1515-76ee-5eb2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="fd7e-ada8-d391-3783" name="Esqueleto" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="fd7e-ada8-d391-3783" name="Arquero Esqueleto" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
@@ -9537,7 +9537,7 @@ Se trata de un hechizo de Potenciación que no hace ningún objetivo. Si se resu
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="4.5"/>
+            <cost name="pts" typeId="points" value="5.5"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a2e0-cbf0-f12d-851c" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -9670,7 +9670,7 @@ Se trata de un hechizo de Potenciación que no hace ningún objetivo. Si se resu
                 </selectionEntry>
                 <selectionEntry id="34fc-88ca-e042-51ee" name="Ballesta" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="set" field="points" value="2.0">
+                    <modifier type="increment" field="points" value="2.0">
                       <repeats>
                         <repeat field="selections" scope="ba5f-bc83-9dc2-ada6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3e89-c55f-e22b-4a02" repeats="1" roundUp="false"/>
                       </repeats>
@@ -9695,7 +9695,7 @@ Se trata de un hechizo de Potenciación que no hace ningún objetivo. Si se resu
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="5.5"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c442-610f-83c3-d217" name="Segadores Esqueletos" hidden="false" collective="false" import="true" type="unit">
@@ -11844,7 +11844,6 @@ contra Infantería, Bestias, Caballería y Enjambres.
         <infoLink id="163f-b926-2f16-4d3c" name="Terror" hidden="false" targetId="ca57-1f1f-8bc0-d9ab" type="rule"/>
         <infoLink id="cbe4-232a-a8df-b90d" name="Objetivo grande" hidden="false" targetId="71eb-6467-3a39-bdb6" type="rule"/>
         <infoLink id="5ed4-3646-5be5-be70" name="Protección por montura (1)" hidden="false" targetId="1f9d-b34a-3d89-add6" type="rule"/>
-        <infoLink id="a253-5137-5e8c-f3b3" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
         <infoLink id="dc63-5da3-860d-73fc" name="Ataques aleatorios" hidden="false" targetId="f4cc-528c-a54e-8e28" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="(Horda de espíritus, 2D6+2)"/>
@@ -12586,7 +12585,7 @@ un Dragón zombi anciano es de 12” en lugar de las 8” habituales.</descripti
       <modifiers>
         <modifier type="set" field="748b-61cb-cc9a-ce8a" value="2.0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>

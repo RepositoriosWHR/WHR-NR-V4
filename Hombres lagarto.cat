@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9ec5-91ab-c1bc-3ae5" name="Desove">
       <characteristicTypes>
@@ -4044,19 +4044,6 @@
                 <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="710f-580f-cbcc-7807" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="fc0f-f78e-1878-5978" name="Armaduras mágicas" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e13d-d85d-c38e-c41f" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="9a7e-c303-472e-913a" name="Armaduras mágicas. Hombres lagarto. Eslizones" hidden="false" collective="false" import="true" targetId="322e-2f33-3832-867e" type="selectionEntryGroup"/>
-                    <entryLink id="2a52-6f67-bbe2-b9e4" name="Armaduras mágicas. Hombres lagarto" hidden="false" collective="false" import="true" targetId="f0fb-a21d-37da-ada3" type="selectionEntryGroup"/>
-                    <entryLink id="854d-9221-2acf-e14d" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
-                    <entryLink id="a7b0-7b90-1ffc-b78b" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
-                    <entryLink id="c081-d218-215d-26ed" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
-                    <entryLink id="cab2-1313-e07a-7580" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </selectionEntryGroup>
                 <selectionEntryGroup id="7972-6058-54b8-d1d2" name="Objetos hechizados" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1ef-9480-0dc5-3e23" type="max"/>
@@ -12219,17 +12206,17 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
             <profile id="e60e-b72b-5dea-453d" name="Guardias del templo (4)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323"/>
                 <characteristic name="H" typeId="5723232344415441232323"/>
                 <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">2(8)</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
             </profile>
           </profiles>

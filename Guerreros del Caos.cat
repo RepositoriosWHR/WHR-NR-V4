@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -2907,6 +2907,13 @@
           </constraints>
           <profiles>
             <profile id="2bb7-23ce-3002-19ac" name="Guerrero del Caos" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="5a8b-b59e-fe7f-c727" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4843-1699-d2ce-6b93" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
@@ -3126,6 +3133,13 @@
               </constraints>
               <profiles>
                 <profile id="fd37-c271-8ac0-633d" name="Campeón del Caos " hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <modifiers>
+                    <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="5a8b-b59e-fe7f-c727" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4843-1699-d2ce-6b93" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
@@ -5341,7 +5355,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2459-f322-eba2-a381" type="max"/>
               </constraints>
               <profiles>
-                <profile id="51d7-158f-c886-2468" name="Corcel del caos (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="8fc2-0bac-c676-02ac" name="Corcel del caos (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">7</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
@@ -15190,317 +15204,6 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
             <infoLink id="798e-24b4-d5da-879d" name="Inmune al veneno" hidden="false" targetId="0338-1cb0-0dc1-2892" type="rule"/>
           </infoLinks>
         </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1a36-28ff-92ae-2c02" name="Señor de la plaga pútrida" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="a8ba-5ddd-da88-79bf" value="1.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b9-fd74-a208-3b97" type="atLeast"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8ba-5ddd-da88-79bf" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="f01f-8f34-59f1-27b6" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
-        <infoLink id="bbaa-3361-d040-6eda" name="El ojo de los dioses" hidden="false" targetId="3084-fb3a-ca09-5a55" type="rule"/>
-        <infoLink id="1314-dc0f-5b48-7673" name="Caballería monstruosa" hidden="false" targetId="a7be-2cd9-f3c6-b091" type="rule"/>
-        <infoLink id="84bc-7a9d-f081-d58d" name="La voluntad del caos" hidden="false" targetId="5970-627c-206c-d759" type="rule"/>
-        <infoLink id="5cc2-cfb0-e6e5-bcd6" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
-        <infoLink id="0bec-2eb4-d74e-6f83" name="Inmune al veneno" hidden="false" targetId="0338-1cb0-0dc1-2892" type="rule"/>
-        <infoLink id="01e1-4ab4-d5b2-3556" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="56e8-a6ad-3022-3d9b" name="New CategoryLink" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2459-fbac-2b5c-afb5" name="Señor de la plaga pútrida" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3dc-746c-9a4c-3158" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40b0-6f23-6a82-7a4a" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="f4e1-5466-ce9d-1530" name="Señor de la plaga pútrida" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">8</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
-                <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
-                <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
-                <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">9</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">2</characteristic>
-                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                <characteristic name="Tipo" typeId="5479706523232344415441232323">Caballería monstruosa</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="335.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="685a-dc5c-e78f-eecc" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2f0-fa59-52d5-690c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efde-2e21-59b8-5475" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="1f01-afec-92d6-86eb" name="Armadura del caos" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6cb-0400-a3b0-421a" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6789-0046-e033-76a3" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5d5e-e2ae-fa50-496c" name="Armadura del caos" hidden="false" targetId="2469-4d31-e151-8a60" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8766-4968-98e1-2585" name="Guadaña de plaga de pus sangriento" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c32-b3a4-a046-1093" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ffd-0faf-811d-e981" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="6c78-cf51-2637-c40f" name="Guadaña de plaga de pus sangriento" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Arma a dos manos. Tiene la regla especial Heridas múltiples (1D3). Cuando una miniatura muera a causa de ataques en combate cuerpo a cuerpo hechos con este arma, antes de retirarla como baja todas las miniaturas en contacto peana con peana con ella deberán superar un chequeo de Resistencia, y si lo fallan sufrirán una herida sin tirada de salvación por armadura; las miniaturas con la Marca de Nurgle, o la regla especial No muerto o Demonio, son inmunes a este efecto. Estas heridas no generan nuevos chequeos de Resistencia.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="aae5-9073-9dc3-572a" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
-                <infoLink id="aadc-35be-6d67-e84d" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="07ce-588b-2616-0cfe" name="Marca del caos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a338-83b3-d1e8-aad0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1749-dc2a-8f64-6659" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="72e0-f964-9839-8c27" name="Marca de Nurgle" hidden="false" collective="false" import="true" targetId="f223-1aa7-0d30-eabd" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9641-cc86-0736-c998" type="min"/>
-              </constraints>
-              <rules>
-                <rule id="9786-3395-ac12-b2d6" name="Marca de Nurgle de los elegidos" hidden="false">
-                  <description>Los enemigos tienen un penalizador de -1 para impactar con proyectiles al dispararlos, -1HA al enemigo en cuerpo a cuerpo (no afecta a tropas de Nurgle, demonios de Nurgle o tropas Pestilens skaven). Inmune a veneno y Ataques envenenados.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="545f-c520-f3b4-7577" name="Inmune al veneno" hidden="false" targetId="0338-1cb0-0dc1-2892" type="rule"/>
-                <infoLink id="b490-7d89-b9f8-5a07" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
-              </infoLinks>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="39b2-5009-c164-5878" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b227-4c1a-8659-ab5f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c891-a118-e740-48a8" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="90ef-ba5a-dac7-0376" name="Mosca de plaga" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d79-f673-37ce-30fd" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6b1-340c-9b72-f2ed" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="32e0-a20a-f14f-62c3" name="Mosca de plaga" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-                  <characteristics>
-                    <characteristic name="M" typeId="4d23232344415441232323">8</characteristic>
-                    <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
-                    <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
-                    <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
-                    <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
-                    <characteristic name="H" typeId="5723232344415441232323">3</characteristic>
-                    <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
-                    <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
-                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Bestia monstruosa</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="37b9-3f99-36a3-7942" name="Caparazón quitinoso" hidden="false">
-                  <description>+2 a la tirada de salvación del jinete en lugar del +1 habitual.</description>
-                </rule>
-                <rule id="b4c2-5408-5145-bf0f" name="Aguijón venenoso" hidden="false">
-                  <description>Uno de los ataques de la Mosca se resuelve con +1F y Heridas múltiples 1D3.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="23c9-ae79-5e3b-e98a" name="Bestia monstruosa" hidden="false" targetId="2e1e-da3a-8081-991c" type="rule"/>
-                <infoLink id="eba3-7d1a-57ef-59c5" name="Demonio" hidden="false" targetId="fc5c-7e1e-498d-ffb4" type="rule"/>
-                <infoLink id="304f-fcb9-871b-2a47" name="Flotar" hidden="false" targetId="bfb1-ac97-7d3e-9593" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9fb1-b10b-f1da-5e56" name="Recompensas del caos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="666e-99ef-00a1-0763" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="3877-2f50-8d0b-5ef0" name="Recompensas del caos" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5946-23b7-8964-2397" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="b8f3-12fe-cee4-46c4" name="Recompensas del Caos" hidden="false" collective="false" import="true" targetId="9a9a-1f98-d3f0-ad78" type="selectionEntryGroup"/>
-                <entryLink id="359d-5611-03ad-de9b" name="Recompensas del Caos - Solo Nurgle-" hidden="false" collective="false" import="true" targetId="036f-a715-77ac-a4cb" type="selectionEntryGroup"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="acce-1dc5-a7fa-1128" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbc1-1d11-32f9-897f" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1af8-ebf7-e1ae-982d" name="Objetos mágicos" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f093-17a0-e6ac-ab00" type="max"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="d5d0-f9f2-dd29-7fa7" name="Armaduras mágicas" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b33-1313-0779-f81f" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="5d6d-3655-7669-8714" name="Armaduras Mágicas - Bestias del Caos" hidden="false" collective="false" import="true" targetId="db18-b9da-be54-350c" type="selectionEntryGroup"/>
-                    <entryLink id="2cb3-486b-03aa-0e63" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
-                    <entryLink id="d4ca-b495-d70f-5cdb" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
-                    <entryLink id="8ddb-aeec-6764-0aa0" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
-                    <entryLink id="1ae5-8258-3d25-5312" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="a060-fa04-6138-6233" name="Objetos hechizados" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc0-ac2f-45e3-3690" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="0abb-5a68-6032-4331" name="Objetos Hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink id="b1d6-e9c7-3659-5876" name="Objetos Hechizados - Bestias del Caos" hidden="false" collective="false" import="true" targetId="e5c2-7b23-9998-606a" type="selectionEntryGroup"/>
-                    <entryLink id="6c12-49b0-0263-441a" name="Objetos hechizados. Guerreros del Caos. Nurgle" hidden="false" collective="false" import="true" targetId="50f6-8b3f-6b9a-9c44" type="selectionEntryGroup"/>
-                    <entryLink id="f459-7162-4d9c-dee8" name="Objetos hechizados. Guerreros del Caos. No Khorne" hidden="false" collective="false" import="true" targetId="4cae-bff8-ca3f-5fdb" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="3165-64b7-c68e-2359" name="Talismanes mágicos" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb81-1910-2667-2e31" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="0889-ad22-c8bf-4fb4" name="Talismanes Mágicos - Bestias del Caos" hidden="false" collective="false" import="true" targetId="c87e-2ff5-a8cf-f075" type="selectionEntryGroup"/>
-                    <entryLink id="c7a5-4bd2-9425-5308" name="Talismanes mágicos. Guerreros del Caos. Nurgle" hidden="false" collective="false" import="true" targetId="672a-3c16-807e-9ac2" type="selectionEntryGroup"/>
-                    <entryLink id="de12-d234-c7a4-7f2f" name="Talismanes Mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="54e7-1991-d938-059b" name="Artefactos arcanos" hidden="false" collective="false" import="true">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="1a36-28ff-92ae-2c02" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3296-af68-fec5-3d8c" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3483-415e-7500-0b15" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="8519-8969-a956-0fe5" name="Artefactos arcanos. Guerreros del caos" hidden="false" collective="false" import="true" targetId="bcf0-32d4-e2eb-9a8a" type="selectionEntryGroup"/>
-                    <entryLink id="7ce5-9f87-16be-dc5b" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0cf4-2b72-c6bd-f691" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="755e-a0f8-20b4-0238" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4db4-9fbb-319b-c085" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="cf03-b12f-2c4d-f7f1" name="Clave: Guerreros del Caos" hidden="false" collective="false" import="true" targetId="2d88-82a1-bd2b-b04e" type="selectionEntry"/>
-            <entryLink id="6128-1e75-202d-d6f5" name="Clave: Caos" hidden="false" collective="false" import="true" targetId="7859-8066-fb2b-c7c8" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3296-af68-fec5-3d8c" name="Nivel de magia" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4845-3460-0d98-a607" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="8810-395e-18ac-5273" name="Magia Señor de la plaga pútrida" hidden="false">
-              <description>Usa magia de Nurgle.</description>
-            </rule>
-          </rules>
-          <selectionEntries>
-            <selectionEntry id="7c5f-d110-3f95-cd45" name="Nivel de magia 2" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071a-c69a-98bc-1848" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="70.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9a88-7e36-fc40-bdee" name="Nivel de magia 1" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d8b-3c51-31ee-6afe" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="35.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="8197-497a-6142-dbc1" name="Plaga pútrida" hidden="false" collective="false" import="true" targetId="6c43-e6bf-1757-4b72" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -27482,7 +27185,7 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
     </selectionEntry>
     <selectionEntry id="39c2-c337-ef41-667c" name="Corcel demoníaco con barda" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4bab-bbb5-348a-1bce" name="Bestia demoníaca" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+        <profile id="4bab-bbb5-348a-1bce" name="Corcel demoníaco" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
           <modifiers>
             <modifier type="decrement" field="4d23232344415441232323" value="1">
               <conditions>
@@ -27977,7 +27680,7 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2fa8-7d17-c21f-9902" name="Corpulencia del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -28026,25 +27729,6 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
           </profiles>
           <infoLinks>
             <infoLink id="6dad-6668-eed4-e3ba" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="adbd-9463-43eb-4fe2" name="Alas" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd80-178e-e7ef-97c5" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9c68-3507-fb5f-dbfa" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0c47-8a5b-61a7-b5a0" name="Alas" hidden="false" typeId="454f-9dda-874e-99b2" typeName="Recompensa del caos">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="c061-8049-b24d-6e12">Sólo miniaturas de Infantería. El personaje obtiene la regla especial Volar (9).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="0520-93d7-75aa-5f7a" name="Volar (9)" hidden="false" targetId="8bfa-11eb-3e8e-c083" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
@@ -29191,7 +28875,7 @@ D6 Poción del Caos
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2505-5808-535c-3568" name="Reflejos sobrenaturales" hidden="false" collective="false" import="true" type="upgrade">
@@ -30026,7 +29710,7 @@ D6 Poción del Caos
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="a83e-7e4a-6932-2061" name="Volar" hidden="false" targetId="670e-1a23-b1e1-6e6f" type="rule"/>
+            <infoLink id="a83e-7e4a-6932-2061" name="Volar (9)" hidden="false" targetId="8bfa-11eb-3e8e-c083" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
@@ -30656,5 +30340,6 @@ resultados de 1 en sus tiradas para impactar y salvaciones por armadura.
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="ac1c-ffae-4ea1-2a00" name="MercenariosLib" targetId="4652-5447-e10a-8eb0" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="b7f9-73fe-2aad-6b78" name="Huestes del Caos" targetId="b45a-4cb1-e2e8-abd7" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
