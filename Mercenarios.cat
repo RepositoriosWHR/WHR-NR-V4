@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b824-aacc-6637-fa81" name="Renombre">
       <characteristicTypes>
@@ -43378,13 +43378,6 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
           </costs>
         </selectionEntry>
         <selectionEntry id="3339-e766-66e9-1b44" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f9d-624e-d6bc-8f78" type="max"/>
           </constraints>
@@ -43547,13 +43540,6 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
           </costs>
         </selectionEntry>
         <selectionEntry id="2f74-f04e-b79e-ccc2" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdf2-4011-6879-a514" type="max"/>
           </constraints>
@@ -43806,13 +43792,6 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
           </costs>
         </selectionEntry>
         <selectionEntry id="be8f-d5d0-c7b6-782e" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e08-595e-616b-6794" type="max"/>
           </constraints>
@@ -44196,13 +44175,6 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
           </costs>
         </selectionEntry>
         <selectionEntry id="1833-d137-ea0a-8f81" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7e8-cc11-f1c0-16bc" type="max"/>
           </constraints>
@@ -44398,13 +44370,6 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
           </costs>
         </selectionEntry>
         <selectionEntry id="e23a-de71-3da1-dc43" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="899d-b218-f42a-93d7" type="max"/>
           </constraints>

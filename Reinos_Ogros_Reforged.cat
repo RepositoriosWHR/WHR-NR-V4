@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="4" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="4" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coroccota Bada, Aswer y Gengis.</readme>
   <profileTypes>
     <profileType id="82a1-ea3c-b415-8a9a" name="Objeto">

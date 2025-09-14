@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4652-5447-e10a-8eb0" name="MercenariosLib" revision="6" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4652-5447-e10a-8eb0" name="MercenariosLib" revision="7" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="64fe-edc6-2095-98e6" name="[R] - Amazonas de Anakonda" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -17559,13 +17559,6 @@ esté incluido. Puede utilizarse para restaurar miniaturas retiradas como baja d
           </costs>
         </selectionEntry>
         <selectionEntry id="2843-7f3c-1ea0-f053" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2c6-38dc-bfaa-ff55" type="max"/>
           </constraints>
@@ -17729,13 +17722,6 @@ esté incluido. Puede utilizarse para restaurar miniaturas retiradas como baja d
           </costs>
         </selectionEntry>
         <selectionEntry id="fab7-c399-e564-13e4" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8915-bd97-9d18-1852" type="max"/>
           </constraints>
@@ -17956,13 +17942,6 @@ esté incluido. Puede utilizarse para restaurar miniaturas retiradas como baja d
           </costs>
         </selectionEntry>
         <selectionEntry id="23ca-7a36-177f-dd79" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d25-b99a-d22c-101f" type="max"/>
           </constraints>
@@ -18154,13 +18133,6 @@ esté incluido. Puede utilizarse para restaurar miniaturas retiradas como baja d
           </costs>
         </selectionEntry>
         <selectionEntry id="81ca-2951-416a-5b76" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f4-d413-e8b0-f5ae" type="max"/>
           </constraints>

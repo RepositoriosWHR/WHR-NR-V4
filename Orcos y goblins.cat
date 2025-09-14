@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d9e4-9c78-810c-d2fd" name="Goblins" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="9095-36e8-73c7-ad2d" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
           </conditions>
         </modifier>
@@ -259,13 +259,13 @@
       <modifiers>
         <modifier type="set" field="8288-6010-f115-fe95" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -570,13 +570,13 @@
       <modifiers>
         <modifier type="set" field="60eb-682b-c847-facb" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -837,7 +837,7 @@
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1034,13 +1034,13 @@
       <modifiers>
         <modifier type="set" field="9922-9237-d70a-95de" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1329,13 +1329,13 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="decrement" field="87dd-327b-17bc-c525" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="87dd-327b-17bc-c525" value="2.0">
@@ -1644,11 +1644,11 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c475-2887-e09d-ae17" name="Chikoz duroz jinetes de lobo" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c475-2887-e09d-ae17" name="Chikoz duroz jinetez de lobo" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="7388-b699-b196-d5a5" value="2.0">
@@ -1658,8 +1658,8 @@
         </modifier>
         <modifier type="decrement" field="7388-b699-b196-d5a5" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="7388-b699-b196-d5a5" value="1.0">
@@ -1694,13 +1694,13 @@
         <categoryLink id="c4fd-c042-3823-aea6" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f6ed-e3ab-fe5a-dd48" name="Chikoz duroz jinetes de lobo" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f6ed-e3ab-fe5a-dd48" name="Chikoz duroz jinetez de lobo" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd96-7756-b726-9f7a" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d0-0ab2-921e-895f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4e48-ebde-f91e-c7be" name="JInete chiko duro" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="4e48-ebde-f91e-c7be" name="Jinete chiko duro" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
@@ -1912,7 +1912,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="b783-45fd-9ba3-16a1" value="2.0">
@@ -1922,8 +1922,8 @@
         </modifier>
         <modifier type="decrement" field="b783-45fd-9ba3-16a1" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="b783-45fd-9ba3-16a1" value="1.0">
@@ -2260,7 +2260,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="abda-3a87-7bbc-9619" value="1.0">
@@ -2270,8 +2270,8 @@
         </modifier>
         <modifier type="decrement" field="abda-3a87-7bbc-9619" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="abda-3a87-7bbc-9619" value="2.0">
@@ -2525,7 +2525,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="57b3-c050-51bb-6867" value="4.0">
@@ -2694,7 +2694,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="39fd-0608-63d5-2b8d" value="1.0">
@@ -2709,8 +2709,8 @@
         </modifier>
         <modifier type="decrement" field="39fd-0608-63d5-2b8d" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2882,7 +2882,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="0b1e-0fb9-27d1-c0f5" value="2.0">
@@ -2897,8 +2897,8 @@
         </modifier>
         <modifier type="decrement" field="0b1e-0fb9-27d1-c0f5" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3543,15 +3543,15 @@ impactarles en combate cuerpo a cuerpo.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="decrement" field="77bc-3171-dc3a-60fe" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ccc5-7bd4-b7ac-7fa9" type="atLeast"/>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="77bc-3171-dc3a-60fe" value="1.0">
@@ -3657,7 +3657,7 @@ impactarles en combate cuerpo a cuerpo.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="7110-79ef-36dc-c6c6" value="2.0">
@@ -3667,8 +3667,8 @@ impactarles en combate cuerpo a cuerpo.</characteristic>
         </modifier>
         <modifier type="decrement" field="7110-79ef-36dc-c6c6" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="7110-79ef-36dc-c6c6" value="1.0">
@@ -3930,7 +3930,7 @@ impactarles en combate cuerpo a cuerpo.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="0048-9c2f-d6a8-0e08" value="2.0">
@@ -3940,8 +3940,8 @@ impactarles en combate cuerpo a cuerpo.</characteristic>
         </modifier>
         <modifier type="decrement" field="0048-9c2f-d6a8-0e08" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="0048-9c2f-d6a8-0e08" value="1.0">
@@ -4171,13 +4171,13 @@ impactarles en combate cuerpo a cuerpo.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="baad-fde6-909f-0bcc" value="1.0">
@@ -4553,13 +4553,13 @@ D6 Tabla de problemas de la Bombarda
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="ccb8-8fae-17fa-e81e" value="1.0">
@@ -4935,13 +4935,13 @@ D6 	Resultado (Agarrar y...)
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="c291-415b-0ccb-21e8" value="1.0">
@@ -5097,7 +5097,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="f92c-d1e6-e8c4-abdf" value="2.0">
@@ -5231,13 +5231,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="29d6-ecf4-3fb9-4280" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5264,7 +5264,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
             </modifier>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="notInstanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5567,7 +5567,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -5791,13 +5791,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="0197-3f5b-4784-3fe2" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6038,7 +6038,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6185,13 +6185,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="329c-cc9b-5e24-7259" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6218,7 +6218,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="notInstanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="hidden" value="true">
@@ -6528,7 +6528,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6775,13 +6775,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="6e0e-6ee4-cf9c-77d3" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7026,7 +7026,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7195,13 +7195,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="186d-f98e-e65d-5b34" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7230,7 +7230,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
             </modifier>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="notInstanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7482,7 +7482,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7705,13 +7705,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="788d-9c1b-2c09-b353" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7947,7 +7947,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -8132,18 +8132,22 @@ D6 Tabla de problemas de la katapulta de goblins voladores
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="6c5f-40c7-3ac9-600f" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9af1-83d0-058b-8a8b" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0b7-2f31-f257-2f1b" repeats="1" roundUp="false"/>
-          </repeats>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9af1-83d0-058b-8a8b" type="atLeast"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0b7-2f31-f257-2f1b" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -8388,13 +8392,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="bb66-b2d7-f08a-1fe5" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -8604,7 +8608,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -8817,13 +8821,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="3967-28b6-3923-fcba" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -8969,7 +8973,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9113,13 +9117,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="92bc-c71c-7b05-64b0" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -9354,7 +9358,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9559,13 +9563,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="4bcd-3bea-6b9d-5aa5" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -9638,7 +9642,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -9883,13 +9887,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="d839-c411-38a3-8bae" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -10077,7 +10081,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10262,13 +10266,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="a9d5-2f2c-985a-e36b" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -10424,7 +10428,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -10589,12 +10593,12 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="7c00-bf3f-bdba-f4d7" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
           </conditions>
         </modifier>
@@ -10852,7 +10856,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="73f3-0b87-9dd8-4e49" value="2.0">
@@ -10862,8 +10866,8 @@ D6 Tabla de problemas de la katapulta de goblins voladores
         </modifier>
         <modifier type="decrement" field="73f3-0b87-9dd8-4e49" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="73f3-0b87-9dd8-4e49" value="1.0">
@@ -11176,13 +11180,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="ca82-ac5e-2569-c676" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -11532,7 +11536,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="47f5-8fd5-6e70-db10" value="2.0">
@@ -11547,18 +11551,8 @@ D6 Tabla de problemas de la katapulta de goblins voladores
         </modifier>
         <modifier type="decrement" field="47f5-8fd5-6e70-db10" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="695e-a31f-5135-8e89" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -11832,13 +11826,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="d406-211b-0c14-f07b" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -12081,13 +12075,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="decrement" field="69b1-e6b5-d87e-90e9" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="69b1-e6b5-d87e-90e9" value="1.0">
@@ -12397,13 +12391,13 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="978e-fa61-f5c2-aa11" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -12679,7 +12673,7 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="d651-2f4d-f63d-91b9" value="2.0">
@@ -12694,8 +12688,8 @@ D6 Tabla de problemas de la katapulta de goblins voladores
         </modifier>
         <modifier type="decrement" field="d651-2f4d-f63d-91b9" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -12967,14 +12961,26 @@ D6 Tabla de problemas de la katapulta de goblins voladores
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="641a-300d-4267-6db3" value="1.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ef1c-0a8a-be53-044a" type="equalTo"/>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="equalTo"/>
-          </conditions>
+        <modifier type="set" field="641a-300d-4267-6db3" value="-1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b261-b8f5-a786-f27e" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="305a-4086-416d-266f" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a823-3ef2-5739-de2b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -13244,7 +13250,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="f4e8-024a-0d79-b4b3" value="2.0">
@@ -13259,8 +13265,8 @@ Inmortalez la regla especial Tozudez.</characteristic>
         </modifier>
         <modifier type="decrement" field="f4e8-024a-0d79-b4b3" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -13486,7 +13492,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="7901-3899-ca87-abbc" value="2.0">
@@ -13655,7 +13661,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="8144-8496-bce6-68b6" value="2.0">
@@ -13670,8 +13676,8 @@ Inmortalez la regla especial Tozudez.</characteristic>
         </modifier>
         <modifier type="decrement" field="8144-8496-bce6-68b6" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -13843,13 +13849,13 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="caee-8682-b468-d758" value="1.0">
@@ -14317,13 +14323,13 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="c408-6995-f1d0-db35" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -14538,7 +14544,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -14750,13 +14756,13 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="f8d0-581f-690c-b808" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -14940,7 +14946,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -15160,13 +15166,13 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="1c46-50da-21e8-1ee3" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -15433,7 +15439,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -15612,13 +15618,13 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="6ecf-fbfd-87a7-26ff" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -15814,7 +15820,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16041,13 +16047,13 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="63de-7898-1693-d2d4" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -16261,7 +16267,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16354,12 +16360,12 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="7d79-36d6-c78e-4d4f" value="1">
+        <modifier type="set" field="7d79-36d6-c78e-4d4f" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -16552,7 +16558,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16709,13 +16715,13 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="9309-35ff-0c63-dfd4" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -16813,7 +16819,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16999,12 +17005,12 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="30f8-2343-eac4-c467" value="1">
+        <modifier type="set" field="30f8-2343-eac4-c467" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -17163,7 +17169,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -17383,13 +17389,13 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="2b10-78bf-6778-d307" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -17499,7 +17505,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -17722,12 +17728,12 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="0abb-77b5-aa7d-ca0d" value="1">
+        <modifier type="set" field="0abb-77b5-aa7d-ca0d" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -17856,7 +17862,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -17973,12 +17979,12 @@ Inmortalez la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="3df6-bc80-22b4-6f38" value="1.0">
@@ -18146,7 +18152,7 @@ múltiples (1D6). </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -18207,7 +18213,7 @@ múltiples (1D6). </description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18346,7 +18352,7 @@ múltiples (1D6). </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="7869-3064-2d8e-a440" value="1.0">
@@ -18414,12 +18420,12 @@ múltiples (1D6). </description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18567,7 +18573,7 @@ múltiples (1D6). </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -18638,7 +18644,7 @@ múltiples (1D6). </description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -18758,7 +18764,7 @@ múltiples (1D6). </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="4a5d-3265-e34c-7166" value="1.0">
@@ -18849,12 +18855,7 @@ Odio (Humanos). </description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19002,7 +19003,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -19119,7 +19120,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19348,7 +19349,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -19491,7 +19492,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19610,7 +19611,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -19681,7 +19682,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19786,7 +19787,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -19838,7 +19839,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -20050,7 +20051,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="3408-65db-45ec-e307" value="1.0">
@@ -20115,7 +20116,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -20409,7 +20410,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -20438,7 +20439,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -20643,7 +20644,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="b4b9-ca3b-cd74-2e7a" value="1.0">
@@ -20713,7 +20714,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -20829,7 +20830,7 @@ mágica (1).</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -20902,7 +20903,7 @@ mágica (1).</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -21033,7 +21034,7 @@ mágica (1).</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -21071,7 +21072,7 @@ mágica (1).</characteristic>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -21181,7 +21182,7 @@ mágica (1).</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -21225,7 +21226,7 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -21618,17 +21619,17 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6453-851b-39e6-be5c" type="equalTo"/>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3e10-2d2c-db9a-46ac" type="equalTo"/>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ef1-5c48-7fc2-aafc" type="equalTo"/>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6fc-9535-b859-2439" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -21638,17 +21639,17 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a61-2a18-1e7d-e262" type="equalTo"/>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7d6c-7d59-9f2e-776d" type="equalTo"/>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
                           </conditions>
                         </modifier>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2ef1-5c48-7fc2-aafc" type="equalTo"/>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d6fc-9535-b859-2439" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -21671,36 +21672,25 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="7b92-7574-29d6-d3a7" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
-          <conditionGroups>
-            <conditionGroup type="and"/>
-          </conditionGroups>
         </modifier>
         <modifier type="set" field="7b92-7574-29d6-d3a7" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
-          <conditionGroups>
-            <conditionGroup type="and"/>
-          </conditionGroups>
         </modifier>
         <modifier type="set" field="7b92-7574-29d6-d3a7" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ef1-5c48-7fc2-aafc" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6fc-9535-b859-2439" type="equalTo"/>
           </conditions>
           <conditionGroups>
             <conditionGroup type="and"/>
@@ -21709,6 +21699,11 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -21911,13 +21906,13 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -22283,13 +22278,13 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -22424,7 +22419,7 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -22462,7 +22457,7 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -22624,7 +22619,7 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -22691,7 +22686,7 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -22775,7 +22770,7 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -22846,7 +22841,7 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -23041,7 +23036,7 @@ D6 	Garrapato dopado
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="1da1-7168-c04d-49fb" value="1.0">
@@ -23103,7 +23098,7 @@ D6 	Garrapato dopado
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -23333,7 +23328,7 @@ D6 	Garrapato dopado
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -23405,7 +23400,7 @@ D6 	Garrapato dopado
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -23686,7 +23681,7 @@ Además, Zizzik suma +1 a todas sus tiradas en la tabla de Disfunciones mágicas
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -24115,8 +24110,8 @@ Además, Zizzik suma +1 a todas sus tiradas en la tabla de Disfunciones mágicas
         </modifier>
         <modifier type="decrement" field="6df8-6d6e-471a-0710" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -24324,7 +24319,7 @@ orcoz tienen la regla especial Ataques flamígeros.</description>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6453-851b-39e6-be5c" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -24442,7 +24437,7 @@ orcoz tienen la regla especial Ataques flamígeros.</description>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e10-2d2c-db9a-46ac" type="instanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -24763,8 +24758,8 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="set" field="3bba-463f-3b3a-ba54" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
           <conditionGroups>
             <conditionGroup type="or">
@@ -24778,7 +24773,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -25029,14 +25024,14 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="increment" field="45f0-108b-e52e-6140" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8db0-0628-ee5c-b6b8" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -25344,7 +25339,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -25354,8 +25349,8 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         </modifier>
         <modifier type="decrement" field="8f8b-4854-0b90-0113" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="8f8b-4854-0b90-0113" value="1.0">
@@ -25620,8 +25615,8 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="set" field="a5af-7c67-2a03-9990" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
           <conditionGroups>
             <conditionGroup type="or">
@@ -25635,7 +25630,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -25906,7 +25901,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -25929,9 +25924,9 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         </modifier>
         <modifier type="increment" field="cb6f-6c7b-1210-5a66" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5be0-7bae-530b-dba5" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -26273,13 +26268,13 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="794f-31de-aa0f-26c4" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -26519,13 +26514,18 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6453-851b-39e6-be5c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a397-92a0-89c5-bcf6" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5f66-b04b-433b-e694" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b75e-04f5-1cc4-00e4" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -26821,17 +26821,22 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3453-90fa-7c28-a238" name="Chikoz duroz jinetes de lobo (Básica)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3453-90fa-7c28-a238" name="Chikoz duroz jinetez de lobo (Básica)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6453-851b-39e6-be5c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a397-92a0-89c5-bcf6" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5f66-b04b-433b-e694" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b75e-04f5-1cc4-00e4" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -26863,7 +26868,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0720-98ea-b591-9cca" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b256-f23a-aaf6-e410" name="JInete chiko duro" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="b256-f23a-aaf6-e410" name="Jinete chiko duro" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
@@ -27078,13 +27083,19 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6453-851b-39e6-be5c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e551-1a7f-1a2a-9cfd" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3cc2-7c2c-e226-e444" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d26d-a1e0-2229-4f4a" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="81de-15d6-883c-5eb3" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -27412,13 +27423,19 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
     <selectionEntry id="0076-9199-2624-83be" name="Chikoz duroz goblins silvanoz (Básica)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="edb6-b6e1-87be-e22f" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="18a6-126f-2a6c-86d5" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c3fe-0fd4-b488-a7d4" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="610c-6859-7ef8-5b32" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6453-851b-39e6-be5c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -27664,13 +27681,19 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
     <selectionEntry id="d887-751a-0804-c255" name="Paztorez de garrapatoz goblins nocturnos (Básica)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e551-1a7f-1a2a-9cfd" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3cc2-7c2c-e226-e444" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d26d-a1e0-2229-4f4a" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="81de-15d6-883c-5eb3" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6453-851b-39e6-be5c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8cfe-26b2-884a-ef26" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -27889,17 +27912,26 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb01-f4fb-95da-5790" name="Orcos grandotes (Básica)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cb01-f4fb-95da-5790" name="Orcos grandotes (Básica)" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4023-6242-72ab-cf52" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="equalTo"/>
-          </conditions>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d9d1-d686-52b0-039c" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4e40-d297-6f7e-9ae0" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1eff-6761-18a6-6cd0" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5bac-12f9-cae5-155e" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -28048,7 +28080,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="9d64-a28d-354d-fb66" name="Armaduras" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="9d64-a28d-354d-fb66" name="Armaduras" hidden="false" collective="false" import="true" defaultSelectionEntryId="8759-1514-b6ec-3a75">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e26-3d33-6740-6b9e" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d06b-d143-2932-c7d1" type="min"/>
@@ -28192,15 +28224,18 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="695e-a31f-5135-8e89" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="43ba-3d01-c912-e084" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e3e-e07d-5ae0-7519" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="4648-7854-c9e7-e438" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
         <infoLink id="5744-789c-3b9c-1bd6" name="Loz mejorez" hidden="false" targetId="4f68-48a7-9128-8501" type="rule"/>
@@ -29044,7 +29079,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a61-2a18-1e7d-e262" type="instanceOf"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
@@ -29059,8 +29094,8 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         </modifier>
         <modifier type="decrement" field="52c0-602f-192f-0584" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d6c-7d59-9f2e-776d" type="instanceOf"/>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="increment" field="52c0-602f-192f-0584" value="1.0">
@@ -29298,6 +29333,71 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd00-731a-6de6-bbd9" name="Dos Waaghs en uno" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87e1-0ebf-75c2-ec84" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ab0-e855-09e0-6515" type="min"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e236-9a7c-b558-73cc" name="Dos Waaghs en uno" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ef9-fb2a-916b-0fd4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0fcf-7992-3e9f-edd5" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3539-3016-16b4-5900" name="Waagh principal, Goblins" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3285-f68d-14a3-e70c" name="Waagh principal, Orcos" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8cfe-26b2-884a-ef26" name="Goblins (solo)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c7cc-151b-ac27-24c8" name="Orcos (solo)" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d6fc-9535-b859-2439" name="¡El gran Waaagh!" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>

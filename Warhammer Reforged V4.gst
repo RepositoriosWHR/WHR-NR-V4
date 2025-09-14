@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -93,11 +93,35 @@
     <forceEntry id="5374616e6461726423232344415441232323" name="Ejército estándar" hidden="false">
       <categoryLinks>
         <categoryLink id="5374616e6461726423232344415441232323-4c6f72647323232344415441232323" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
+          <modifiers>
+            <modifier type="set" field="maxPercentage" value="60.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2a0-ff97-4c0c-c6c5" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-4865726f657323232344415441232323" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
+          <modifiers>
+            <modifier type="set" field="maxPercentage" value="60.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2a0-ff97-4c0c-c6c5" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
           </constraints>
@@ -108,6 +132,11 @@
               <repeats>
                 <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b6bc-5ac6-8851-e26e" type="instanceOf"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
@@ -121,13 +150,38 @@
           </constraints>
         </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-5261726523232344415441232323" name="Unidades singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
+          <modifiers>
+            <modifier type="set" field="maxPercentage" value="35.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2a0-ff97-4c0c-c6c5" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="fbd7-0bbd-5dbc-8eb6" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
+          <modifiers>
+            <modifier type="set" field="448d-4a70-f042-8562" value="60.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="448d-4a70-f042-8562" value="100.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b6bc-5ac6-8851-e26e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0ab5-6383-dd78-ff2b" value="100.0">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b6bc-5ac6-8851-e26e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="448d-4a70-f042-8562" type="max"/>
+            <constraint field="limit::points" scope="roster" value="0.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="0ab5-6383-dd78-ff2b" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="8959-27ee-bbd0-0965" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
@@ -187,1071 +241,37 @@
             <constraint field="limit::points" scope="roster" value="0.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="2e53-15da-044f-3cbf" type="max"/>
           </constraints>
         </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="6453-851b-39e6-be5c" name="Orcos y goblins. SOLO goblins" hidden="false">
-      <categoryLinks>
-        <categoryLink id="7fd9-8487-beb5-b795" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="0585-ea83-f33c-0c82" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d0d1-27d0-bde1-cdf2" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="44e0-200f-697e-e7a8" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="db39-d0ec-0504-17ed" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
+        <categoryLink id="d063-a9f4-bd24-5f0a" name="Dragones" hidden="true" targetId="eaf4-2780-219b-851f" primary="false">
           <modifiers>
-            <modifier type="increment" field="4591-c9a5-0d88-ae2b" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="1346-057d-e2c0-6a94" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4591-c9a5-0d88-ae2b" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="552f-2f60-c9ba-6cd1" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="ef7c-0ed9-8d2d-b2db" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="216a-f89f-ee54-741e" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="4b4d-7932-8551-b70a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c7e8-4638-3900-172d" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="736e-4a09-a480-e7c2" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="f2d3-d1e5-5edf-5aac" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="cc55-dab4-fba3-41c3" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="cc55-dab4-fba3-41c3" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="3e10-2d2c-db9a-46ac" name="Orcos y goblins. Goblins, ejército principal" hidden="false">
-      <categoryLinks>
-        <categoryLink id="0a07-a198-66a7-023c" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="1f06-51f8-01dd-ce5b" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="838e-a8e1-4bc7-d857" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="09cb-ae9c-a24e-0ab2" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d698-9cff-b4d3-9e9e" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="99a1-e900-492f-dd26" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="1be4-5367-e6cf-fd2c" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="99a1-e900-492f-dd26" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5bd1-f6e0-43ef-8453" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="e05f-644b-1bbb-e419" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="bafe-5a21-a0ee-4f85" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="bc08-e810-146a-974e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="6c1e-03f3-92a4-d1cf" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5e62-7443-30aa-caa4" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d5a1-9051-244b-9f61" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="6d49-d1c7-840f-5538" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="6d49-d1c7-840f-5538" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="7a61-2a18-1e7d-e262" name="Orcos y goblins. SOLO orcos" hidden="false">
-      <categoryLinks>
-        <categoryLink id="033b-2580-6058-4e16" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="dfe9-b5e6-ec79-858d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3f89-6a4f-fc32-d20d" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="a2fa-73ae-bc3d-4461" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="0682-f201-974d-26e5" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="7ca9-019a-8898-4727" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="3cd5-011d-bd01-b01a" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7ca9-019a-8898-4727" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c66b-851b-5b2a-fb34" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="9ce8-65c9-bfab-2f51" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="18b7-534a-601c-cad2" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="a59d-6239-22b1-9744" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="6417-7d40-8b85-8a5e" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="d280-3842-c52c-52a5" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="9f59-17be-b229-16ae" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="89d0-b28a-1f93-049c" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="89d0-b28a-1f93-049c" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="7d6c-7d59-9f2e-776d" name="Orcos y goblins. Orcos, ejército principal" hidden="false">
-      <categoryLinks>
-        <categoryLink id="1d58-6c7c-dfcf-2ccc" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="ddee-be2b-3ee1-4041" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="aecc-59af-b6c8-530f" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="d8c5-a403-8d5c-6e34" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="2adc-99d9-f976-1e3a" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="d3d6-1a5b-9399-589f" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="a35e-d5cc-d826-bdbd" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d3d6-1a5b-9399-589f" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7d9a-59f7-eed2-b8e2" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="41dd-f23f-968f-8c48" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="af2b-d624-1bbe-0acd" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="f076-b10c-094a-1310" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="9a36-a4ab-4265-3357" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="4d9c-73e0-00de-9e7c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ee1f-8aa9-2494-f5aa" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="53c6-9dfd-9fcd-bf33" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="53c6-9dfd-9fcd-bf33" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="2ef1-5c48-7fc2-aafc" name="Orcos y goblins. Gran Waaagh!" hidden="false">
-      <categoryLinks>
-        <categoryLink id="0198-bae0-836f-2abd" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="47e2-5d45-ae19-3228" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="bbed-13eb-0c5c-b2e4" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="e0f2-38ee-cfd2-f495" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e32a-dd2d-bb27-ebce" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="5192-19d2-5435-acf2" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="215b-5d59-7552-83c6" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5192-19d2-5435-acf2" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c55f-1988-0200-3a90" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="bb1d-18a0-84e2-0913" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="38f6-1269-2996-3af2" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="6037-88df-8a95-3150" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5cdc-5176-db9b-1d60" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="2227-df7c-8485-7239" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1f7d-4464-f2c7-a838" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="82de-e77a-499f-9af1" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="82de-e77a-499f-9af1" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="42e6-7033-811b-c480" name="Enanos del caos. Post revuelta de los esclavos" hidden="false">
-      <categoryLinks>
-        <categoryLink id="2e34-d96f-652a-6cc0" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="ce45-4559-dde4-e3ae" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8e20-dea1-68c4-8949" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5b71-8ac2-b495-99fa" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3fe0-af0a-f090-044f" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="45b4-311b-0cfe-6f5e" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="9267-72b7-9d59-4b36" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="45b4-311b-0cfe-6f5e" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8e1b-fc77-9e5e-7a55" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="007f-2d7a-d14d-9a2f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="aa27-7dce-53e3-6ff9" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="2d51-ce89-83d8-856d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4592-1d62-6229-d7c7" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="fd7d-fc34-67e2-46f7" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="6717-2c85-bf83-5a96" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="dbc8-9305-06dc-d2ac" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="dbc8-9305-06dc-d2ac" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="9a81-e47d-a80f-1691" name="Enanos del caos. Pre revuelta de los esclavos" hidden="false">
-      <categoryLinks>
-        <categoryLink id="a714-f4d8-c593-f63b" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="7737-4392-5633-06a9" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="867b-bf61-a2a8-df99" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="603c-04f1-bfda-7285" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="55f7-af03-0489-c139" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="d2a2-cb97-5012-ee58" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="040a-6de5-39b3-3fab" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d2a2-cb97-5012-ee58" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="a550-bc3a-40a2-a12b" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="0a34-d093-8890-0aea" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="f230-9784-a4b0-bcf1" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="bf56-1710-cb70-4737" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="6d2a-c462-7e0c-26f9" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="3e59-9e75-1d71-08cc" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="dde0-259b-0219-b20a" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="06db-9a86-5b76-24b5" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="06db-9a86-5b76-24b5" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="d002-6e40-0798-d1af" name="Demonios del caos. Regalos demoníacos experimentales" hidden="false">
-      <categoryLinks>
-        <categoryLink id="2069-96ed-b1bd-abd4" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="990f-3cd0-e0cf-beba" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4b31-bef0-d059-c3ac" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="f52f-508d-d14f-8424" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d42f-6b81-3d1e-9ac2" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="839f-8dc4-c740-0cb8" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="07a8-c0b5-5b42-88b0" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="839f-8dc4-c740-0cb8" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ecb7-86e7-6d0a-1167" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="69a7-704c-4982-0940" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c3f9-f477-7abb-ab75" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="b810-94d8-8b85-ab90" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="123c-1a58-33be-6a10" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="b126-c106-bffe-6d1e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7f73-7c73-8e12-e80c" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="4be3-b33c-7bc4-578d" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="4be3-b33c-7bc4-578d" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="6518-e749-ef24-bb1b" name="Caledor" hidden="false">
-      <categoryLinks>
-        <categoryLink id="0c92-cf3b-493d-850f" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="60.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="a278-a2b5-72a4-b729" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3931-66dc-1e9a-8af3" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="60.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="793f-9b49-65cb-08b1" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e377-32b9-f796-2196" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="2218-6453-022b-8d7a" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="61f6-a15d-dba7-31cb" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2218-6453-022b-8d7a" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b75-0677-b1d3-9347" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="4ff2-2284-1dd7-48ce" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="adf6-0f30-202b-e947" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="bb75-3bc7-7ca1-0a08" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="2eb6-8d37-3742-9a47" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="60.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="20e4-4504-6055-4d6a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="dd80-9569-706c-2ca8" name="Dragones" hidden="true" targetId="eaf4-2780-219b-851f" primary="false">
-          <modifiers>
-            <modifier type="increment" field="cf16-a8bc-00c9-d821" value="1.0">
+            <modifier type="increment" field="2d42-e5a3-1e23-c355" value="1.0">
               <repeats>
                 <repeat field="limit::points" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
               </repeats>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="cf16-a8bc-00c9-d821" type="min"/>
+            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="2d42-e5a3-1e23-c355" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="091a-5583-4c64-4c28" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
+        <categoryLink id="011d-d048-848a-a8b8" name="Coatl" hidden="true" targetId="6ac5-4cd8-e378-fe13" primary="false">
           <modifiers>
-            <modifier type="increment" field="833c-edc2-f4b6-7a74" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2a0-ff97-4c0c-c6c5" type="instanceOf"/>
+              </conditions>
             </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="833c-edc2-f4b6-7a74" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="a472-310c-fe16-11bc" name="Valle de los dinosaurios" hidden="false">
-      <categoryLinks>
-        <categoryLink id="88c8-a9ee-486c-756a" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="8772-73eb-e0f3-b921" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="7748-912f-c2ec-5e8d" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="8772-73eb-e0f3-b921" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="fb88-7278-b1b1-8964" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="9fff-70b7-59b3-00e3" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="37c8-3332-ba05-f141" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="35.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="7a04-594a-b69c-c3b3" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7a4b-f940-0f8b-ef39" name="Coatl" hidden="false" targetId="6ac5-4cd8-e378-fe13" primary="false">
-          <modifiers>
-            <modifier type="set" field="46cf-53c3-53c9-757f" value="2.0">
+            <modifier type="set" field="3245-e99f-e0dc-8306" value="2.0">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="46cf-53c3-53c9-757f" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="5dd0-8f17-0447-332c" type="min"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="cc74-7e6e-03c6-e47e" name="Tren de artillería de Nuln" hidden="false">
-      <categoryLinks>
-        <categoryLink id="a746-ec8f-8813-2e1e" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="60.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="7816-2553-1fa7-2d1a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1abd-2603-c115-4ef4" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="60.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="eefd-b6a2-1bb0-2322" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e545-1b77-35f5-2819" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="b2a9-0d52-ba62-d908" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="d638-e7b6-c2a8-410d" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b2a9-0d52-ba62-d908" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d06b-15b4-065b-45d3" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="4332-fd0f-92eb-3a6e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4648-9158-c172-a806" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5c22-3964-c602-8de6" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="cadf-6361-e8cd-72b2" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="60.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5567-fa27-df1d-4c9a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="beab-ef1c-4135-8f1e" name="Maestro ingeniero de Nuln" hidden="true" targetId="f2fe-dc98-ce1d-76e2" primary="false">
-          <modifiers>
-            <modifier type="increment" field="0b24-efe6-99d6-7e85" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="0b24-efe6-99d6-7e85" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d299-6ca1-7206-da0f" name="Fusileros" hidden="true" targetId="b463-65a6-c5b2-1c17" primary="false">
-          <modifiers>
-            <modifier type="increment" field="7310-a695-a35b-3921" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="7310-a695-a35b-3921" type="min"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="c87e-01bb-bc76-5bdb" name="Caledor comandado por Rathiel, señor de Tor Morvel" hidden="false">
-      <categoryLinks>
-        <categoryLink id="fe87-7ae8-f7b1-cc4f" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false"/>
-        <categoryLink id="0de4-a4f3-2e0d-5773" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false"/>
-        <categoryLink id="aa45-a6a5-a4bf-4418" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
-        <categoryLink id="0d56-e033-bfc2-f925" name="Dragones" hidden="true" targetId="eaf4-2780-219b-851f" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="907b-9209-9378-d220" name="Ejército enano a la antigua usanza" hidden="false">
-      <categoryLinks>
-        <categoryLink id="6ebb-e6e7-b653-4b5e" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="548b-ea56-349f-bcd9" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="0ffd-5171-9c7f-e853" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="13d1-3d04-a11a-de94" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="f35b-2ead-0edd-8f27" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="b1bc-90a0-e907-051b" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="136a-40c2-dcb7-ccd5" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b1bc-90a0-e907-051b" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="9ab8-82ec-d466-8b9d" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="85a6-48be-305f-ed2f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="246f-1bee-10eb-cb76" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="set" field="ce69-ed72-82fc-5c5d" value="2.0">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="907b-9209-9378-d220" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="ce69-ed72-82fc-5c5d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e17c-9fcf-edab-f0d2" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="37a0-6df8-75d8-c0f8" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="a6b0-5cca-55cf-e364" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="460c-6e95-5040-8ad4" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="460c-6e95-5040-8ad4" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="90fb-c263-6173-c777" name="Mariemburgo" hidden="false">
-      <categoryLinks>
-        <categoryLink id="5e25-8030-e380-8fcc" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="15.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="1880-34f3-29c4-1088" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="364c-482c-2ec6-e644" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="15.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="2cb7-6dbf-8d21-c9c2" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c62d-58d4-c078-9798" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="52ce-a784-06c2-2334" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="cd58-0b48-8c44-3717" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="52ce-a784-06c2-2334" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="9faa-953b-3e7d-c526" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="b8ce-9454-d783-c79e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="13b0-d3a5-e576-7aa0" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="c038-d0a4-2be3-a2e5" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="14cd-f0be-1945-890f" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="e222-0317-eedc-a230" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5d3e-7bf5-3ca9-ebf3" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="892f-38d5-8fba-96b3" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="892f-38d5-8fba-96b3" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="2e8c-68d4-5394-76e1" name="Las aventuras de Gotrek y Félix" hidden="false">
-      <categoryLinks>
-        <categoryLink id="4afc-c2b0-fc96-5fca" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="100.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="eace-5892-097a-1860" type="max"/>
-            <constraint field="limit::points" scope="roster" value="100.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="96cc-685a-98e7-ef78" type="min"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="be63-48be-d054-9111" name="Norsca. Tribus nórdicas, ejército principal" hidden="false">
-      <categoryLinks>
-        <categoryLink id="c597-70ef-7797-c0ed" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="47f6-005f-7765-0712" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="a77b-e2ed-3de2-9902" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="7361-d1ae-32d2-3045" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="0938-a333-5d71-ef55" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="bda8-e5ca-75c7-9656" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="d7ef-a443-c38d-3907" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="bda8-e5ca-75c7-9656" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3be6-10f3-b3e6-c49e" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="04bb-622b-33de-111a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e4b5-1235-b5cb-e445" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="914e-6306-3a01-9a8a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="082c-2fd6-63a4-addf" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="2164-be2c-8537-97fa" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="c3db-5baa-2c91-6c4f" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="e7b8-536a-9bbf-cf37" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="e7b8-536a-9bbf-cf37" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="ad30-f933-c421-e1ba" name="Norsca. Enanos norses, ejército principal" hidden="false">
-      <categoryLinks>
-        <categoryLink id="46aa-f963-132d-da7c" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="21f4-1666-a4be-1a34" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="85f0-cfc1-6828-7ee5" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="fe31-b00e-135d-db99" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3d9f-c650-b4e6-bc4c" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="2a6c-c8d1-8ed1-a7ae" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="41b7-f873-9a42-d593" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2a6c-c8d1-8ed1-a7ae" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7cba-fb35-1fd9-5310" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="0030-6791-370c-6377" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="903c-a5a1-95f3-54b3" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="991d-052b-54a9-d357" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="6c4b-2ed7-bcee-a9ec" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="9130-89e7-a2d7-fb8f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="fb44-1788-9d98-d4d0" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="f6c1-5daf-5859-55c1" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="f6c1-5daf-5859-55c1" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="5690-7d2f-2bcf-42e8" name="Norsca. SOLO Tribus nórdicas" hidden="false">
-      <categoryLinks>
-        <categoryLink id="3a42-f183-9103-c7b7" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="b6a3-4908-fb29-ab79" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="f098-71df-ad18-52c2" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="4d2b-d724-0e3e-320b" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4c90-5395-6dbf-0485" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="6d65-4cee-90f0-2c63" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="5dae-0e5a-903e-4227" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6d65-4cee-90f0-2c63" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7613-85fe-b7ff-f7a2" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="c157-f526-d28c-5ad9" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="9dc8-429a-2ab7-4ce1" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="c4c4-b49a-837c-3a82" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="af8b-c70e-f3f2-36e5" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5749-e82b-5b14-e48c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d702-b3d6-8f96-4d1c" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="b9d5-1ac2-c214-ecd6" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="b9d5-1ac2-c214-ecd6" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="58a9-f262-91ec-993d" name="Norsca. SOLO Enanos norses" hidden="false">
-      <categoryLinks>
-        <categoryLink id="09c0-ffe3-99f5-0408" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5fc9-76aa-310f-b1ab" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="b63d-6ac9-6e74-b857" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="8b70-f582-523a-4f2a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="fecb-d579-127a-8fc4" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="0275-2bb7-e4d1-710d" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="58ad-8a52-c4c7-24dd" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0275-2bb7-e4d1-710d" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5581-2b26-03e4-dfd7" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="4905-75e7-5c50-12a1" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3d3e-f64d-2f4e-d9be" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="f874-b020-0666-f141" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="bc5e-d8f8-ea98-3847" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="1a4a-921f-d62b-222f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="9ef4-ca80-79c6-e97d" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="6da9-4ccc-7d6f-2f0f" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="6da9-4ccc-7d6f-2f0f" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="9213-fabb-7e59-014d" name="Norsca. Gran ejército" hidden="false">
-      <categoryLinks>
-        <categoryLink id="19c6-70db-8949-80b9" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="860a-7c70-a7d0-c809" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="0b06-290f-5aec-39ed" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="c7e8-a3b2-5cc4-cf73" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5c08-62e8-5cc6-46d0" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="b5df-b67d-ce90-0840" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="b3c0-6d90-8d0e-e97e" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b5df-b67d-ce90-0840" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3976-8f12-36db-2349" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="7340-dd9e-e43a-eca1" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4f14-7a33-32dd-d1fb" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="763e-c653-32bf-8b43" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="f435-f4e3-f9b6-ba91" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="f185-4144-0a28-0b7d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1daa-81ec-6d4d-68a7" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="75f5-94e7-6a21-e993" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="75f5-94e7-6a21-e993" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="8e41-5d03-9d9d-1887" name="Patrulla marina" hidden="false">
-      <categoryLinks>
-        <categoryLink id="6e5b-2d9c-7bf8-8d32" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="74f4-75c1-93df-52fa" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="d976-cdcc-528c-7b76" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="40.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="92f4-e12e-e5b1-e760" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="2168-0047-3c24-035a" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
-          <modifiers>
-            <modifier type="increment" field="7f05-1369-cb80-7934" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" id="a6c3-94c2-3c6c-7983" type="min"/>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f05-1369-cb80-7934" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5204-1821-d326-e14b" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="8926-c113-e160-8f41" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="8a04-7230-05cc-cd1c" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="25.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="5a19-5365-8eb4-fd39" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="ca1e-d779-4a24-5457" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
-          <constraints>
-            <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="c7a1-b8aa-1011-838e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="6aea-3ffd-f587-6bc6" name="Portaestandarte de batalla" hidden="false" targetId="f277-3fe2-22c5-0650" primary="false">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="1c7c-9662-7e3d-4eb3" type="min"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3b57-d80e-1628-dd0a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e0be-cc6e-b7e4-2218" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
-          <modifiers>
-            <modifier type="increment" field="3b0a-74d1-d32e-b947" value="1.0">
-              <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3b0a-74d1-d32e-b947" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3245-e99f-e0dc-8306" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="041c-c515-11ea-1eb5" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1274,13 +294,6 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="170b-06ad-215f-f891" name="Gran batalla (3.000 a 4999 puntos)" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="bcb1-e7b4-7db1-33f2" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2ef1-5c48-7fc2-aafc" type="instanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6314-0201-06db-cf1a" type="max"/>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcb1-e7b4-7db1-33f2" type="min"/>
