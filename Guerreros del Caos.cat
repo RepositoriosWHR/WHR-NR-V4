@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -6685,15 +6685,6 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink id="4adc-7e75-2c31-190d" name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="603f-9503-af47-f74d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
                 <entryLink id="88ad-5697-21d4-6529" name="Objetos hechizados. Guerreros del Caos. Khorne" hidden="false" collective="false" import="true" targetId="ac7a-2187-496c-6d39" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
@@ -6708,15 +6699,6 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
                         <condition field="selections" scope="603f-9503-af47-f74d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0227-474e-a38a-e11c" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-                <entryLink id="d5a7-b446-21cb-5649" name="Armas mágicas. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="603f-9503-af47-f74d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>

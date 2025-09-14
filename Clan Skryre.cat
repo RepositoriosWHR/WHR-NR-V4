@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="887a-65ec-749f-cd54" name="Clan Skryre" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="887a-65ec-749f-cd54" name="Clan Skryre" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e6b4-690d-917e-1a11" name="Ratas de Clan Skryre" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1300,6 +1300,7 @@
                     <entryLink id="ac8d-729d-54a1-f694" name="Armaduras mágicas. Clan Skryre. Armadura bruja" hidden="false" collective="false" import="true" targetId="6da0-0c70-c34d-c03a" type="selectionEntryGroup"/>
                     <entryLink id="c97f-ff23-5a90-1685" name="Armaduras mágicas. Clan Skryre. Ingeniero brujo" hidden="false" collective="false" import="true" targetId="ff08-09fa-d05e-6995" type="selectionEntryGroup"/>
                     <entryLink id="d0aa-91fc-18dd-ab43" name="Armaduras mágicas. Clan Skryre. Infantería. Brujo o Maestro brujo" hidden="false" collective="false" import="true" targetId="9d25-bbf5-404d-941a" type="selectionEntryGroup"/>
+                    <entryLink id="b93e-6bf8-8cfb-19ff" name="Armaduras mágicas. Clan Skryre" hidden="false" collective="false" import="true" targetId="861b-7237-04aa-741c" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -4813,6 +4814,7 @@ D6 Tabla de problemas del Proyector de fuego disforme
                   <entryLinks>
                     <entryLink id="4461-bef4-d267-8a33" name="Armaduras mágicas. Clan Skryre. Armadura bruja" hidden="false" collective="false" import="true" targetId="6da0-0c70-c34d-c03a" type="selectionEntryGroup"/>
                     <entryLink id="c84a-ebfa-92cf-745a" name="Armaduras mágicas. Clan Skryre. Infantería. Brujo o Maestro brujo" hidden="false" collective="false" import="true" targetId="9d25-bbf5-404d-941a" type="selectionEntryGroup"/>
+                    <entryLink id="98bc-326a-a4cb-5951" name="Armaduras mágicas. Clan Skryre" hidden="false" collective="false" import="true" targetId="861b-7237-04aa-741c" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -4838,6 +4840,7 @@ D6 Tabla de problemas del Proyector de fuego disforme
                   <entryLinks>
                     <entryLink id="6090-6c52-3dc5-5f46" name="Artefactos arcanos. Reliquias" hidden="false" collective="false" import="true" targetId="8c61-ba9b-87c0-eef1" type="selectionEntryGroup"/>
                     <entryLink id="3944-178f-e601-6401" name="Artefactos arcanos. Reliquias. Destrucción" hidden="false" collective="false" import="true" targetId="4b82-1f62-073f-aefa" type="selectionEntryGroup"/>
+                    <entryLink id="94f4-e00c-673b-756f" name="Artefactos arcanos. Reliquias. Clan Skryre" hidden="false" collective="false" import="true" targetId="03a2-a101-fc0f-1d08" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="1bc2-21dc-8d08-14b6" name="Objetos hechizados. Reliquias" hidden="false" collective="false" import="true">
@@ -9431,15 +9434,15 @@ con las reglas especiales Ataques solo flamígeros y Ataques mágicos. Retira la
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0780-c608-fa5f-46ee" name="Casco binocular" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0780-c608-fa5f-46ee" name="Casco bionicular" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0dbb-c6ea-f4d6-ad91" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b41c-93e2-4088-b332" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7af8-721f-9b7c-1796" name="Casco binocular" hidden="false" typeId="219b-aed3-c65c-d46d" typeName="Armadura mágica">
+            <profile id="7af8-721f-9b7c-1796" name="Casco bionicular" hidden="false" typeId="219b-aed3-c65c-d46d" typeName="Armadura mágica">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="e0ed-7366-4856-8f3d">Yelmo (proporciona un bonificador de +1 a la tirada de salvación por armadura). Otorga a su portador la regla especial Francotirador.</characteristic>
+                <characteristic name="Reglas especiales" typeId="e0ed-7366-4856-8f3d">Yelmo. Otorga a su portador la regla especial Francotirador.</characteristic>
               </characteristics>
             </profile>
           </profiles>

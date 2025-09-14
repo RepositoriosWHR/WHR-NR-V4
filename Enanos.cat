@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="4" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="6" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4be9-2442-f655-1d41" name="Runa talismánica">
       <characteristicTypes>
@@ -3030,6 +3030,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0d66-1f07-c74a-bac3" name="Ejercito a la antigua usanza" hidden="false" collective="false" import="true" targetId="71e1-4558-b3a5-c2c5" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -3238,6 +3241,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="39a8-2669-8b10-7e27" name="Ejercito a la antigua usanza" hidden="false" collective="false" import="true" targetId="71e1-4558-b3a5-c2c5" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -3444,6 +3450,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6ff5-9c09-0e49-34e0" name="Ejercito a la antigua usanza" hidden="false" collective="false" import="true" targetId="71e1-4558-b3a5-c2c5" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -3738,6 +3747,9 @@ como baja.
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0a77-09f8-1794-702d" name="Ejercito a la antigua usanza" hidden="false" collective="false" import="true" targetId="71e1-4558-b3a5-c2c5" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -8359,15 +8371,9 @@ con varias runas iguales).</characteristic>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e01b-aa63-8a17-da7d" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="04e0-d8f0-b053-b06d" value="1.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="907b-9209-9378-d220" type="instanceOf"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65e1-86af-5958-465e" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04e0-d8f0-b053-b06d" type="min"/>
       </constraints>
       <rules>
         <rule id="8103-d04b-0508-f39d" name="Escudo Real de Karak-Hirn" hidden="false">
@@ -8391,12 +8397,12 @@ con varias runas iguales).</characteristic>
       <selectionEntries>
         <selectionEntry id="f070-6fd6-6364-b19a" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="set" field="f22b-d7c1-b253-0c99" value="0">
+            <modifier type="set" field="f22b-d7c1-b253-0c99" value="0.0">
               <conditions>
                 <condition field="selections" scope="4c6f72647323232344415441232323" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8068-60a6-aa7d-29df" type="equalTo"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="9ffb-5b80-f772-16a6" value="0">
+            <modifier type="set" field="9ffb-5b80-f772-16a6" value="0.0">
               <conditions>
                 <condition field="selections" scope="4c6f72647323232344415441232323" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8068-60a6-aa7d-29df" type="equalTo"/>
               </conditions>
@@ -8406,17 +8412,6 @@ con varias runas iguales).</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ffb-5b80-f772-16a6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f22b-d7c1-b253-0c99" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="b440-0212-79e0-7448" name="Ejército a la antigua usanza" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6854-9716-64c3-0b1b" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd3d-13e3-bc7a-488b" type="min"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink id="b7ea-b118-6d82-0ab1" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry">
               <constraints>
@@ -8623,6 +8618,7 @@ todas las unidades aliadas de enanos a 12” o menos de él.</characteristic>
             <selectionEntry id="cc2f-8936-2341-b83c" name="Escudo real de Karak-Hirn" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73fa-4dc1-ccac-7cc3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f9f-c95e-30d3-e39c" type="min"/>
               </constraints>
               <profiles>
                 <profile id="ee28-78f4-89a6-9667" name="Porteador del escudo real (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -10532,13 +10528,16 @@ fase de magia.
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="8c9a-b0a8-b501-19c2" name="Ejercito a la antigua usanza" hidden="false" collective="false" import="true" targetId="71e1-4558-b3a5-c2c5" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3b9-36a0-0a9d-8157" name="[Ex] - Dragón de esquirlas" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
           </conditions>
@@ -13193,13 +13192,6 @@ Las unidades transportadas en la zona de carga o los héroes que estén en la ca
           </costs>
         </selectionEntry>
         <selectionEntry id="b29f-c004-b87c-f41f" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="451c-7123-6f4a-28b1" type="max"/>
           </constraints>
@@ -13468,6 +13460,9 @@ Las unidades transportadas en la zona de carga o los héroes que estén en la ca
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d72b-cefe-712a-6a39" name="Ejercito a la antigua usanza" hidden="false" collective="false" import="true" targetId="71e1-4558-b3a5-c2c5" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -16798,6 +16793,33 @@ como baja.
       <infoLinks>
         <infoLink id="9246-01a6-87d2-1be4" name="Saga" hidden="false" targetId="23b2-1ca0-547d-7bdf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="71e1-4558-b3a5-c2c5" name="Ejercito a la antigua usanza" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f070-6fd6-6364-b19a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="c904-ee20-840e-8dca" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f070-6fd6-6364-b19a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="567a-8a70-dfd6-b04d" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c904-ee20-840e-8dca" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="213a-cbf5-bceb-69ef" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="deec-bfc7-17ff-3865" name="Ejercito a la antigua usanza" hidden="false">
+          <description>Si Alrik es el General del ejército, tan sólo puedes incluir una única Unidad singular.</description>
+        </rule>
+      </rules>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>

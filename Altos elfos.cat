@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a20d-ec9e-719a-2f03" name="Senda">
       <characteristicTypes>
@@ -952,13 +952,6 @@
           </constraints>
           <profiles>
             <profile id="8b26-7878-e14b-7b2f" name="Yelmo plateado" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-              <modifiers>
-                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
-                  <conditions>
-                    <condition field="selections" scope="259e-7024-1823-606b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="414f-38e5-0986-0c58" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
@@ -969,7 +962,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">2</characteristic>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
@@ -1092,19 +1085,12 @@
                 <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0caf-97e2-d5e0-178c" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0caf-97e2-d5e0-178c" name="Alto yelmo" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b991-8969-adcf-7e26" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c134-534d-4805-a439" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-                  <modifiers>
-                    <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
-                      <conditions>
-                        <condition field="selections" scope="259e-7024-1823-606b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="414f-38e5-0986-0c58" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
+                <profile id="c134-534d-4805-a439" name="Alto yelmo" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
@@ -1115,7 +1101,7 @@
                     <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">2</characteristic>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
                   </characteristics>
@@ -12219,13 +12205,6 @@ elegir ninguna montura.</characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="7b78-e5e5-7794-56d9" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be63-48be-d054-9111" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f53-6a36-b5ea-5b66" type="max"/>
           </constraints>

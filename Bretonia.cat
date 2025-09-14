@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -13772,7 +13772,7 @@ El portador obtendrá un bonificador de +2 al lanzamiento de los hechizos del Sa
           <profiles>
             <profile id="8e37-9a3c-5bd3-3067" name="Crin del purasangre" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Solo Caballero. Puedes colocar una pequeña miniatura junto al personaje para representarlo. No se le puede atacar pero, si el personaje es retirado como baja o pierde este objeto por alguna razón, retira la miniatura de la mesa. El portador puede escoger qué arma usar de las que lleve equipadas en cada ronda de combate. Además, el portador obtiene la regla especial Poder de Penetración.</characteristic>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo Caballero. Un solo uso. Las monturas del portador y de la unidad de la que forme parte tendrán un +1 a impactar el turno en el que realizaron una carga exitosa.</characteristic>
               </characteristics>
             </profile>
           </profiles>

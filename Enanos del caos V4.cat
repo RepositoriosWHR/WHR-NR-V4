@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="7f15-8eb3-2094-c753" name="Guerreros enanos del caos" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -127,10 +127,17 @@
           <selectionEntryGroups>
             <selectionEntryGroup id="454b-bd7b-fff3-d357" name="Artillería demoníaca" hidden="false" collective="false" import="true">
               <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
-                  </conditions>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="7f15-8eb3-2094-c753" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96c0-9b98-4a92-f392" type="lessThan"/>
+                        <condition field="selections" scope="7f15-8eb3-2094-c753" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a530-c1a6-4baf-1e13" type="equalTo"/>
+                        <condition field="selections" scope="7f15-8eb3-2094-c753" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a4fe-8cb3-0d10-e3ba" type="equalTo"/>
+                        <condition field="selections" scope="7f15-8eb3-2094-c753" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45bf-8674-0fae-f232" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -847,7 +854,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="478a-5977-1a7a-9d6d" name="Objeto mágico" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="478a-5977-1a7a-9d6d" name="Objetos mágicos/Recompensa de Hashut" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e76c-3bb6-3c22-e1cb" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb5-5f3c-cbb3-5d32" type="max"/>
@@ -855,11 +862,11 @@
                   <entryLinks>
                     <entryLink id="c334-684d-7ee5-73c8" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="9f2b-a3e9-05c9-2097" name="Objetos hechizados. Enanos del caos. Desprecio" hidden="false" collective="false" import="true" targetId="9e6b-7c04-2293-d4d9" type="selectionEntryGroup"/>
-                    <entryLink id="caa9-99e5-d787-0ef6" name="Objetos Hechizados. Enanos del Caos" hidden="false" collective="false" import="true" targetId="914e-e886-df20-7742" type="selectionEntryGroup"/>
+                    <entryLink id="caa9-99e5-d787-0ef6" name="Objetos hechizados. Enanos del caos" hidden="false" collective="false" import="true" targetId="914e-e886-df20-7742" type="selectionEntryGroup"/>
                     <entryLink id="ab23-db29-102d-dd57" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink id="6d46-4995-13f4-b363" name="Armas mágicas. Enanos del caos. Desprecio. Arma de mano" hidden="false" collective="false" import="true" targetId="76ea-161f-84a1-ecf3" type="selectionEntryGroup"/>
                     <entryLink id="4278-3f67-d725-4357" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
-                    <entryLink id="ef59-f41f-fc5a-759a" name="Armaduras Mágicas. Enanos del Caos. Desprecio. Casco" hidden="false" collective="false" import="true" targetId="9f5d-98e3-17e1-f3ec" type="selectionEntryGroup"/>
+                    <entryLink id="ef59-f41f-fc5a-759a" name="Armaduras mágicas. Enanos del caos. Desprecio" hidden="false" collective="false" import="true" targetId="9f5d-98e3-17e1-f3ec" type="selectionEntryGroup"/>
                     <entryLink id="c654-0c08-cb41-969d" name="Armaduras mágicas. Enanos del caos" hidden="false" collective="false" import="true" targetId="2636-2867-027b-d02c" type="selectionEntryGroup"/>
                     <entryLink id="a1e1-60d0-ca7f-773f" name="Talismanes mágicos. Enanos del caos. Desprecio" hidden="false" collective="false" import="true" targetId="f29a-ab61-98fe-c140" type="selectionEntryGroup"/>
                     <entryLink id="1934-3446-6656-a92c" name="Talismanes mágicos. Enanos del caos" hidden="false" collective="false" import="true" targetId="65f9-7b59-d8a7-1aef" type="selectionEntryGroup"/>
@@ -867,7 +874,10 @@
                     <entryLink id="58e0-3538-0136-dec6" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                     <entryLink id="d0ce-6fda-d676-98f1" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
                     <entryLink id="e1dc-ea6e-a895-f97f" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
-                    <entryLink id="746c-ea5e-4c9f-8ab2" name="Recompensas de Hashut menores(25 puntos)" hidden="false" collective="false" import="true" targetId="5006-0660-e3d6-c50d" type="selectionEntryGroup"/>
+                    <entryLink id="746c-ea5e-4c9f-8ab2" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup"/>
+                    <entryLink id="7c76-ec2a-d1cc-7c68" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
+                    <entryLink id="8daf-ced8-49cb-0bed" name="Armas mágicas. Enanos del caos. Desprecio. Arma a dos manos" hidden="false" collective="false" import="true" targetId="f208-cba1-6892-f3b0" type="selectionEntryGroup"/>
+                    <entryLink id="4e6c-bd04-1dfe-7f6e" name="Armas mágicas. Enanos del caos. Desprecio. Guija de fuego" hidden="false" collective="false" import="true" targetId="3b2c-2225-b343-3497" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1346,7 +1356,7 @@
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="fe84-8e30-1899-2fe6" name="Objeto mágico" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="fe84-8e30-1899-2fe6" name="Objetos mágicos/Recompensa de Hashut" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ca-4f4c-1f09-d35b" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df7-3d26-29cc-c54e" type="max"/>
@@ -1356,21 +1366,22 @@
                     <entryLink id="e06e-aedd-82df-7cb8" name="Armaduras Mágicas. Enanos del Caos. Desprecio. Casco" hidden="false" collective="false" import="true" targetId="9f5d-98e3-17e1-f3ec" type="selectionEntryGroup"/>
                     <entryLink id="3290-b05b-44e2-cbe7" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
                     <entryLink id="e409-e45f-defd-2a9b" name="Objetos Hechizados. Enanos del Caos" hidden="false" collective="false" import="true" targetId="914e-e886-df20-7742" type="selectionEntryGroup"/>
-                    <entryLink id="8d82-bdca-9b6e-286e" name="Armas Mágicas. Enanos del Caos. Desprecio. Arma de mano" hidden="false" collective="false" import="true" targetId="76ea-161f-84a1-ecf3" type="selectionEntryGroup"/>
+                    <entryLink id="8d82-bdca-9b6e-286e" name="Armas mágicas. Enanos del caos. Desprecio. Arma de mano" hidden="false" collective="false" import="true" targetId="76ea-161f-84a1-ecf3" type="selectionEntryGroup"/>
                     <entryLink id="5c4d-d032-0f48-a24e" name="Objetos hechizados. Enanos del caos. Desprecio" hidden="false" collective="false" import="true" targetId="9e6b-7c04-2293-d4d9" type="selectionEntryGroup"/>
                     <entryLink id="7fef-3eae-ff5b-36dc" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink id="8f8f-2c5b-c230-5735" name="Armas mágicas. Lanza" hidden="false" collective="false" import="true" targetId="d8b7-876d-b68d-3fb1" type="selectionEntryGroup"/>
                     <entryLink id="3769-b295-64ce-8435" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
-                    <entryLink id="d73a-5870-f397-9d9f" name="Armas Mágicas. Enanos del Caos. Desprecio. Arma a manos" hidden="false" collective="false" import="true" targetId="f208-cba1-6892-f3b0" type="selectionEntryGroup"/>
-                    <entryLink id="fe22-64db-a123-dea0" name="Armas Mágicas. Enanos del Caos. Armas emparejadas" hidden="false" collective="false" import="true" targetId="57ec-850c-6b6e-756a" type="selectionEntryGroup"/>
+                    <entryLink id="d73a-5870-f397-9d9f" name="Armas mágicas. Enanos del caos. Desprecio. Arma a dos manos" hidden="false" collective="false" import="true" targetId="f208-cba1-6892-f3b0" type="selectionEntryGroup"/>
+                    <entryLink id="fe22-64db-a123-dea0" name="Armas mágicas. Enanos del caos. Armas emparejadas" hidden="false" collective="false" import="true" targetId="57ec-850c-6b6e-756a" type="selectionEntryGroup"/>
                     <entryLink id="b4eb-ee40-960d-33b8" name="Armas mágicas. Armas emparejadas" hidden="false" collective="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
                     <entryLink id="14cf-028b-a06a-9677" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink id="cb9d-6074-461f-b4f3" name="Talismanes Mágicos. Enanos del Caos. Desprecio" hidden="false" collective="false" import="true" targetId="f29a-ab61-98fe-c140" type="selectionEntryGroup"/>
-                    <entryLink id="761f-ea49-9518-5aa6" name="Talismanes Mágicos. Enanos del Caos" hidden="false" collective="false" import="true" targetId="65f9-7b59-d8a7-1aef" type="selectionEntryGroup"/>
+                    <entryLink id="761f-ea49-9518-5aa6" name="Talismanes mágicos. Enanos del caos" hidden="false" collective="false" import="true" targetId="65f9-7b59-d8a7-1aef" type="selectionEntryGroup"/>
                     <entryLink id="78e8-2d30-1590-9116" name="Armaduras Mágicas. Enanos del Caos" hidden="false" collective="false" import="true" targetId="2636-2867-027b-d02c" type="selectionEntryGroup"/>
                     <entryLink id="5705-1753-bd20-a1c3" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                     <entryLink id="601d-e9ee-5ec6-6b94" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
-                    <entryLink id="af2a-6635-ca61-db25" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="5006-0660-e3d6-c50d" type="selectionEntryGroup"/>
+                    <entryLink id="af2a-6635-ca61-db25" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup"/>
+                    <entryLink id="4b86-e0ab-fa53-76d3" name="Recompensas de Hashut menores. Centauros" hidden="false" collective="false" import="true" targetId="9c36-d9ca-1a04-a154" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2323,11 +2334,6 @@ punto. Si se desvía, resuelve el impacto sobre el punto designado.</description
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a81-e47d-a80f-1691" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="1965-4f1a-e713-6980" value="4.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
@@ -2584,7 +2590,7 @@ punto. Si se desvía, resuelve el impacto sobre el punto designado.</description
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="bbbd-e453-5ee0-58c3" name="Objeto mágico" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="bbbd-e453-5ee0-58c3" name="Objetos mágicos/Recompensa de Hashut)" hidden="false" collective="false" import="true">
                   <constraints>
                     <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b191-f260-5675-0368" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aab-8d5e-6a59-f9db" type="max"/>
@@ -2594,14 +2600,12 @@ punto. Si se desvía, resuelve el impacto sobre el punto designado.</description
                     <entryLink id="8059-b5e2-1310-ce0d" name="Objetos Hechizados. Enanos del Caos. Desprecio" hidden="false" collective="false" import="true" targetId="9e6b-7c04-2293-d4d9" type="selectionEntryGroup"/>
                     <entryLink id="0f82-ee89-76ef-a9b8" name="Objetos Hechizados. Enanos del Caos" hidden="false" collective="false" import="true" targetId="914e-e886-df20-7742" type="selectionEntryGroup"/>
                     <entryLink id="6e60-a9c2-50dc-8707" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink id="9f92-1679-ecef-6bc5" name="Armas Mágicas. Enanos del Caos. Desprecio. Arma de mano" hidden="false" collective="false" import="true" targetId="76ea-161f-84a1-ecf3" type="selectionEntryGroup"/>
-                    <entryLink id="4a47-0d79-a22a-ef6e" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink id="4162-290a-b79e-fb17" name="Armaduras Mágicas. Enanos del Caos. Desprecio. Casco" hidden="false" collective="false" import="true" targetId="9f5d-98e3-17e1-f3ec" type="selectionEntryGroup"/>
                     <entryLink id="f528-717b-9433-e101" name="Armaduras Mágicas. Enanos del Caos. Armadura negra" hidden="false" collective="false" import="true" targetId="2636-2867-027b-d02c" type="selectionEntryGroup"/>
                     <entryLink id="f3e8-5b88-1ac4-a5ff" name="Talismanes mágicos. Enanos del caos. Desprecio" hidden="false" collective="false" import="true" targetId="f29a-ab61-98fe-c140" type="selectionEntryGroup"/>
                     <entryLink id="cce5-d4cd-a808-de67" name="Talismanes mágicos. Enanos del caos" hidden="false" collective="false" import="true" targetId="65f9-7b59-d8a7-1aef" type="selectionEntryGroup"/>
                     <entryLink id="04af-da87-e5ea-144c" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
-                    <entryLink id="08e6-d692-14c3-3350" name="Recompensas de Hashut menores(25 puntos)" hidden="false" collective="false" import="true" targetId="5006-0660-e3d6-c50d" type="selectionEntryGroup"/>
+                    <entryLink id="08e6-d692-14c3-3350" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup"/>
                     <entryLink id="8ece-9a51-26ef-c5da" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                     <entryLink id="8374-3914-9ffc-013d" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
                     <entryLink id="f15c-a949-cff8-26e7" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
@@ -2701,11 +2705,6 @@ punto. Si se desvía, resuelve el impacto sobre el punto designado.</description
         <modifier type="set" field="c657-6f81-f1af-dc0a" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a81-e47d-a80f-1691" type="instanceOf"/>
           </conditions>
         </modifier>
         <modifier type="set" field="c657-6f81-f1af-dc0a" value="3.0">
@@ -2851,11 +2850,6 @@ punto. Si se desvía, resuelve el impacto sobre el punto designado.</description
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a81-e47d-a80f-1691" type="instanceOf"/>
-          </conditions>
-        </modifier>
         <modifier type="set" field="b59c-aa8c-9d11-5123" value="3.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
@@ -2993,14 +2987,9 @@ Dispara como una Catapulta de Fuerza 5 con la regla especial Ataques flamígeros
     </selectionEntry>
     <selectionEntry id="2795-6525-a38a-2c25" name="Demonio de hierro" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="9ee8-c8f8-e06d-8172" value="2">
+        <modifier type="set" field="9ee8-c8f8-e06d-8172" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a81-e47d-a80f-1691" type="instanceOf"/>
           </conditions>
         </modifier>
         <modifier type="set" field="9ee8-c8f8-e06d-8172" value="3.0">
@@ -3986,168 +3975,75 @@ asedio: esta sufrirá 1D6 impactos automáticos de Fuerza 8 distribuidos como si
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d2cf-57b1-57ea-970a" name="Recompensas de Hashut Mayores" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2a77-7671-5d9b-342a" name="Recompensas de Hashut" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="5c3e-0138-5b67-4d07" value="3.0">
+              <conditions>
+                <condition field="selections" scope="d232-038c-6441-f9f2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9179-bae3-fc3a-171f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="5c3e-0138-5b67-4d07" value="2.0">
+              <conditions>
+                <condition field="selections" scope="d232-038c-6441-f9f2" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f26e-90e0-8f1c-07e3" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d09c-7328-1adb-f144" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c3e-0138-5b67-4d07" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="55cd-8bbc-9ced-e6fb" name="Aura de Gloria infernal" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b091-ff26-51c8-d0e3" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5eb-d988-624b-cf88" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="e364-74b7-cab5-c69b" name="Aura de Gloria infernal" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje ha sido bendito por el Padre de la oscuridad con una
-resolución inquebrantable: los adoradores de Hashut lo reconocen como marcado para la gloria. Solo General del ejército.
-El portador obtiene la regla especial Tozudez.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="60.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8802-3f65-b2be-161f" name="Manto de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c34-0457-4564-bb3a" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c8ff-a746-ae66-9094" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="27a5-de33-68fe-30e6" name="Manto de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Una capa de oscuridad eterna se cierne sobre el portador como si
-alguien hubiera tapado el sol. Todos los resultados de 2-3 en las tiradas para herir contra el personaje se considerarán
-resultados de 1.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="35.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ca94-3fd9-c7f6-4882" name="Esplendor diabólico" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="48b0-3d52-545c-0712" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9565-0912-efbb-773e" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="569f-bf63-175e-6f5c" name="Esplendor diabólico" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Este siervo de Hashut dedica su existencia a someter las vidas de sus
-esclavos. Todas las unidades enemigas a 6” o menos del portador tendrán un penalizador de -1 a su Liderazgo</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="35.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="75c1-47c1-e1d5-9223" name="Sabiduría de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ec6-ba3f-651e-01b0" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="386f-ab51-d483-5f68" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="e6ba-a2ea-67fe-f18f" name="Sabiduría de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La mente del hechicero está conectada a la de su dios primigenio y
-este le otorga un conocimiento sin par. Sólo Brujos-Sacerdotes. El personaje obtiene la regla especial Señor del
-Conocimiento (Saber de Hashut).</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fd67-6c2b-bda5-18fc" name="Elegido de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4fec-891b-fedc-0796" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e82-4c59-68df-1831" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c9e7-4198-90e4-8b9d" name="Elegido de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La destreza y bravura en el combate de este campeón de Hashut no
-tiene parangón. El portador obtiene las reglas especiales Orgullo marcial, Furia asesina y Odio, y no perderá su Furia
-asesina tras ser derrotado en combate. Además, podrá repetir todas sus tiradas fallidas para impactar en combate cuerpo a
-cuerpo mientras esté combatiendo en un desafío.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="187c-2f5e-a1f2-620f" name="Mirada de sometimiento" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2498-18f4-13cc-bd03" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5cd0-f164-c930-b1b4" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="d055-cf66-d66c-d006" name="Mirada de sometimiento" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Este enano bendito por el dios toro es capaz de aterrar los
-corazones de todos aquellos sobre los cuales se posan sus ojos. Se trata de un ataque de disparo que tiene un alcance de
-18” y las reglas especiales Disparo rápido, Ataques mágicos y Francotirador: tiene un valor de Fuerza igual al valor del
-Liderazgo del portador, y tira para herir contra el atributo de Liderazgo del objetivo en lugar de su atributo de Resistencia.
-Las heridas causadas por este ataque no permiten tirada de salvación por armadura. Además, cada vez que una miniatura
-reciba una herida no salvada por la Mirada de sometimiento recibirá un penalizador de -1 a su atributo de Liderazgo
-durante el resto de la partida.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f349-412f-4237-4b11" name="Aura de obediencia" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d98-2de1-200e-a847" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a54-837d-4f47-f5dd" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="5aa0-bb9e-bada-b1c4" name="Aura de obediencia" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El temor y la duda atenazan los corazones de quienes se enfrentan a
-este Enano del Caos. Todas las unidades enemigas en contacto peana con peana con el portador verán su Iniciativa
-reducida a la mitad.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a568-31c0-15e1-fda7" name="Presencia pavorosa" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0165-faa9-0e37-4aef" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7112-b958-bb86-f949" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="4492-1944-841a-2bbd" name="Presencia pavorosa" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La imagen de Hashut se ve reflejada en su siervo. El personaje causa
-Terror.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2da3-fa7a-1053-8fa2" name="Leyenda" hidden="true" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="d232-038c-6441-f9f2" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f26e-90e0-8f1c-07e3" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry id="9179-bae3-fc3a-171f" name="Recompensas de Hashut de Leyenda" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="d1e1-752d-0605-9b7a" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1e1-752d-0605-9b7a" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="577d-ff2a-afc1-40c6" name="Recompensas de Hashut de Leyenda" hidden="false">
+                      <description>Puede elegir una segunda Recompensa mayor, en cuyo caso obtiene la regla especial Leyenda.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="896c-0b69-80f6-9f78" name="Leyenda" hidden="false" targetId="d331-afa2-533e-c273" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="9a0c-a4c7-5acf-ac33" name="Recompensasde Hashut Mayores. Brujo-Sacerdote" hidden="false" collective="false" import="true" targetId="3afc-9768-cba5-6c1f" type="selectionEntryGroup"/>
+            <entryLink id="6649-3a33-cbc6-c555" name="Recompensas de Hashut Mayores" hidden="false" collective="false" import="true" targetId="2897-457d-a269-0554" type="selectionEntryGroup"/>
+            <entryLink id="03b8-7bed-c0f5-f4b1" name="Recompensasde Hashut Mayores. General" hidden="false" collective="false" import="true" targetId="ddf0-650e-dd98-4891" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="d232-038c-6441-f9f2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1257-0cc7-76ae-1e54" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="8706-84ea-78fb-bebb" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup"/>
+            <entryLink id="9c7d-a25f-183d-afd4" name="Recompensas de hashut menores. Hechiceros" hidden="false" collective="false" import="true" targetId="9b16-8536-11e4-7317" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6483-9bb9-c3c1-6933" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbc-c8e4-7aa7-e3c5" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -4565,168 +4461,34 @@ Terror.</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3159-24aa-e89f-ea91" name="Recompensas de Hashut Mayores" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d22e-7efc-22c3-0518" name="Recompensas de Hashut" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ce3-8af5-82d9-1039" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c36-67e2-6ae3-34ca" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="fbd5-3a2e-ed91-db7a" name="Aura de Gloria infernal" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aadc-ed62-6aa7-bbd6" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a24f-9b39-f468-35ac" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="d8b1-249e-9194-3659" name="Aura de Gloria infernal" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje ha sido bendito por el Padre de la oscuridad con una
-resolución inquebrantable: los adoradores de Hashut lo reconocen como marcado para la gloria. Solo General del ejército.
-El portador obtiene la regla especial Tozudez.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="60.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3019-96a8-4805-8aa1" name="Manto de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f41e-6f78-3b80-c6e4" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="813e-da6f-7727-94bc" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="df0d-d5c3-245c-bbd8" name="Manto de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Una capa de oscuridad eterna se cierne sobre el portador como si
-alguien hubiera tapado el sol. Todos los resultados de 2-3 en las tiradas para herir contra el personaje se considerarán
-resultados de 1.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="35.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5935-89b5-1775-6dd0" name="Esplendor diabólico" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf63-5b84-d3e1-4365" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0725-fb15-8c8c-ee6f" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="33d9-8d5f-6c9c-33bf" name="Esplendor diabólico" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Este siervo de Hashut dedica su existencia a someter las vidas de sus
-esclavos. Todas las unidades enemigas a 6” o menos del portador tendrán un penalizador de -1 a su Liderazgo</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="35.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0cb3-5603-3e41-2d16" name="Sabiduría de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aff2-c3ea-93b7-d1b0" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="288d-5da3-0fb8-1d8d" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="0155-c6d1-991b-0192" name="Sabiduría de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La mente del hechicero está conectada a la de su dios primigenio y
-este le otorga un conocimiento sin par. Sólo Brujos-Sacerdotes. El personaje obtiene la regla especial Señor del
-Conocimiento (Saber de Hashut).</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5a27-76a4-d6ec-4219" name="Elegido de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3935-ebef-99d3-13d4" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f054-5cd8-0acf-3960" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="3479-69d0-f0c6-8b96" name="Elegido de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La destreza y bravura en el combate de este campeón de Hashut no
-tiene parangón. El portador obtiene las reglas especiales Orgullo marcial, Furia asesina y Odio, y no perderá su Furia
-asesina tras ser derrotado en combate. Además, podrá repetir todas sus tiradas fallidas para impactar en combate cuerpo a
-cuerpo mientras esté combatiendo en un desafío.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="78ac-0ca5-dc24-b506" name="Mirada de sometimiento" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c5d4-5840-ec42-d30e" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7206-1b8c-73b0-0e75" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="150e-c4ce-68d7-ceae" name="Mirada de sometimiento" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Este enano bendito por el dios toro es capaz de aterrar los
-corazones de todos aquellos sobre los cuales se posan sus ojos. Se trata de un ataque de disparo que tiene un alcance de
-18” y las reglas especiales Disparo rápido, Ataques mágicos y Francotirador: tiene un valor de Fuerza igual al valor del
-Liderazgo del portador, y tira para herir contra el atributo de Liderazgo del objetivo en lugar de su atributo de Resistencia.
-Las heridas causadas por este ataque no permiten tirada de salvación por armadura. Además, cada vez que una miniatura
-reciba una herida no salvada por la Mirada de sometimiento recibirá un penalizador de -1 a su atributo de Liderazgo
-durante el resto de la partida.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f854-1a56-1e6c-4059" name="Aura de obediencia" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f13-5472-a48a-a54e" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cb6-a2b1-c6d1-84ae" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="6299-26c8-5761-e0c8" name="Aura de obediencia" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El temor y la duda atenazan los corazones de quienes se enfrentan a
-este Enano del Caos. Todas las unidades enemigas en contacto peana con peana con el portador verán su Iniciativa
-reducida a la mitad.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="80a4-6144-386b-3880" name="Presencia pavorosa" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad7a-1271-e0c4-3fce" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="775d-c488-5142-efaa" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="aefd-dd9e-2343-2ee4" name="Presencia pavorosa" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La imagen de Hashut se ve reflejada en su siervo. El personaje causa
-Terror.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="d16a-09d1-0c59-da91" name="Recompensas de Hashut Mayores" hidden="false" collective="false" import="true" targetId="2897-457d-a269-0554" type="selectionEntryGroup"/>
+            <entryLink id="f150-119b-e666-2a62" name="Recompensasde Hashut Mayores. General" hidden="false" collective="false" import="true" targetId="ddf0-650e-dd98-4891" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="0330-72a4-ead7-0c84" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="78c9-85da-e259-956c" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="4559-fab4-54cb-7f5c" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup"/>
+            <entryLink id="ec79-cfc2-65d1-22e2" name="Recompensas de hashut menores. Hechiceros" hidden="false" collective="false" import="true" targetId="9b16-8536-11e4-7317" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="0330-72a4-ead7-0c84" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="651b-f7ec-72dc-d444" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fb6-7a0f-3acc-867c" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -5079,168 +4841,35 @@ Terror.</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup id="efe3-9dc5-127c-83aa" name="Recompensas de Hashut Mayores" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="273c-c397-8945-306b" name="Recompensas de Hashut" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98ab-ec1e-c926-b314" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="714f-d176-bc12-2a17" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="a4e4-758c-c565-9225" name="Aura de Gloria infernal" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a4ac-af9a-a13e-7fc0" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fef-9884-97e6-2397" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c948-8714-7f95-be1b" name="Aura de Gloria infernal" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje ha sido bendito por el Padre de la oscuridad con una
-resolución inquebrantable: los adoradores de Hashut lo reconocen como marcado para la gloria. Solo General del ejército.
-El portador obtiene la regla especial Tozudez.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="60.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d6c4-288b-d380-f370" name="Manto de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="153c-b5a9-55d4-8ef7" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="08ad-c596-c14e-8bba" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="ac73-0843-fc38-c12c" name="Manto de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Una capa de oscuridad eterna se cierne sobre el portador como si
-alguien hubiera tapado el sol. Todos los resultados de 2-3 en las tiradas para herir contra el personaje se considerarán
-resultados de 1.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="35.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="51ad-fda9-0571-20a6" name="Esplendor diabólico" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dce6-caef-0dce-c042" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e4a-254a-a6fd-a00e" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="c5c5-ebd4-d364-5886" name="Esplendor diabólico" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Este siervo de Hashut dedica su existencia a someter las vidas de sus
-esclavos. Todas las unidades enemigas a 6” o menos del portador tendrán un penalizador de -1 a su Liderazgo</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="35.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6e64-2888-e241-ba3e" name="Sabiduría de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a6a0-7489-171b-ef6e" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="160e-000c-fd94-565b" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="3087-11e0-38da-1065" name="Sabiduría de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La mente del hechicero está conectada a la de su dios primigenio y
-este le otorga un conocimiento sin par. Sólo Brujos-Sacerdotes. El personaje obtiene la regla especial Señor del
-Conocimiento (Saber de Hashut).</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="735f-b8ce-7afc-fa3d" name="Elegido de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf48-996e-e239-574f" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a09d-686d-2b5d-2ab3" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="3547-5b52-468f-d36e" name="Elegido de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La destreza y bravura en el combate de este campeón de Hashut no
-tiene parangón. El portador obtiene las reglas especiales Orgullo marcial, Furia asesina y Odio, y no perderá su Furia
-asesina tras ser derrotado en combate. Además, podrá repetir todas sus tiradas fallidas para impactar en combate cuerpo a
-cuerpo mientras esté combatiendo en un desafío.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="824a-fb41-da0f-ae57" name="Mirada de sometimiento" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="509f-9612-f22f-f675" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="70f4-849b-81f4-ea87" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="b477-9188-ca1c-04ea" name="Mirada de sometimiento" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Este enano bendito por el dios toro es capaz de aterrar los
-corazones de todos aquellos sobre los cuales se posan sus ojos. Se trata de un ataque de disparo que tiene un alcance de
-18” y las reglas especiales Disparo rápido, Ataques mágicos y Francotirador: tiene un valor de Fuerza igual al valor del
-Liderazgo del portador, y tira para herir contra el atributo de Liderazgo del objetivo en lugar de su atributo de Resistencia.
-Las heridas causadas por este ataque no permiten tirada de salvación por armadura. Además, cada vez que una miniatura
-reciba una herida no salvada por la Mirada de sometimiento recibirá un penalizador de -1 a su atributo de Liderazgo
-durante el resto de la partida.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="26c4-9cdb-3f84-472b" name="Aura de obediencia" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8dca-bd3c-03aa-c631" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d935-6447-7d57-a346" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="af08-ada0-89d1-e3d6" name="Aura de obediencia" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El temor y la duda atenazan los corazones de quienes se enfrentan a
-este Enano del Caos. Todas las unidades enemigas en contacto peana con peana con el portador verán su Iniciativa
-reducida a la mitad.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5f6f-f4cb-2b28-6991" name="Presencia pavorosa" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a4c-fb0f-7c42-00f3" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="062f-680b-295f-c195" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="7610-d47f-3268-13cb" name="Presencia pavorosa" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La imagen de Hashut se ve reflejada en su siervo. El personaje causa
-Terror.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink id="d984-0f71-6f89-815f" name="Recompensas de Hashut Mayores" hidden="false" collective="false" import="true" targetId="2897-457d-a269-0554" type="selectionEntryGroup"/>
+            <entryLink id="fc7d-657d-b1c2-a9e2" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup"/>
+            <entryLink id="3725-be8e-f6b4-1e0f" name="Recompensasde Hashut Mayores. General" hidden="false" collective="false" import="true" targetId="ddf0-650e-dd98-4891" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="07c4-5d77-e929-bb4b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04bf-51f6-3749-b726" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="fe23-e246-a7e6-d147" name="Recompensas de Hashut menores. Centauros" hidden="false" collective="false" import="true" targetId="9c36-d9ca-1a04-a154" type="selectionEntryGroup"/>
+            <entryLink id="b208-07c1-0278-5d03" name="Recompensas de hashut menores. Hechiceros" hidden="false" collective="false" import="true" targetId="9b16-8536-11e4-7317" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="07c4-5d77-e929-bb4b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="3a37-1a73-7592-aefb" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3494-8f4b-72e8-f4f7" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -8642,11 +8271,6 @@ impactos automáticos de Fuerza 4 que se resuelven con la regla especial Poder d
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a81-e47d-a80f-1691" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
           </conditions>
         </modifier>
@@ -9827,10 +9451,11 @@ realizar un chequeo de Liderazgo con Gorth. Si lo fallas, no ocurre nada y Ghort
                     <entryLink id="d7e7-3cab-76aa-081d" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink id="e316-a1db-b650-88b0" name="Talismanes Mágicos. Enanos del Caos. Desprecio" hidden="false" collective="false" import="true" targetId="f29a-ab61-98fe-c140" type="selectionEntryGroup"/>
                     <entryLink id="8676-c4c7-f2a1-9aa5" name="Talismanes Mágicos. Enanos del Caos" hidden="false" collective="false" import="true" targetId="65f9-7b59-d8a7-1aef" type="selectionEntryGroup"/>
-                    <entryLink id="e61f-0f82-6d1c-b960" name="Armaduras Mágicas. Enanos del Caos" hidden="false" collective="false" import="true" targetId="2636-2867-027b-d02c" type="selectionEntryGroup"/>
+                    <entryLink id="e61f-0f82-6d1c-b960" name="Armaduras mágicas. Enanos del caos" hidden="false" collective="false" import="true" targetId="2636-2867-027b-d02c" type="selectionEntryGroup"/>
                     <entryLink id="119b-c7a0-e6ea-85f3" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                     <entryLink id="758d-ff94-b14c-f30f" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
-                    <entryLink id="684f-a4e7-e37c-3c5a" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="5006-0660-e3d6-c50d" type="selectionEntryGroup"/>
+                    <entryLink id="684f-a4e7-e37c-3c5a" name="Recompensas de Hashut menores. Centauros" hidden="false" collective="false" import="true" targetId="9c36-d9ca-1a04-a154" type="selectionEntryGroup"/>
+                    <entryLink id="27fe-1412-8876-e63c" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -10533,6 +10158,15 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a58-b2ad-f1eb-c303" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4575-e5bc-96d5-2b9f" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f26e-90e0-8f1c-07e3" name="Recompensa Mayor" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="58f7-bbf0-89dd-7b41" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39d2-56a1-0fe7-b84e" type="min"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -11823,6 +11457,10 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="9fd4-3472-9db6-13d9" name="Ataques flamígeros" hidden="false" targetId="6985-722e-1ce4-b838" type="rule"/>
+            <infoLink id="13c1-1050-611f-8e7b" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
@@ -11839,6 +11477,13 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="c95f-9c17-7279-2685" name="Arma de aliento" hidden="false" targetId="3438-0c27-972c-d418" type="rule">
+              <modifiers>
+                <modifier type="append" field="name" value="(F3, Ataque solo flamígeros)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
@@ -11871,24 +11516,11 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="8d7b-6929-4f47-d976" name="Aura demoníaca (5+)" hidden="false" targetId="e5ed-5149-3d72-6aa4" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9cfa-5bc9-9494-4187" name="Secretos arcanos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="20d1-dea7-698d-b39f" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="47bc-b1d5-ac5f-6a5d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a7f0-7f79-3b45-13e9" name="Secretos arcanos" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Solo hechiceros. El portador conoce un hechizo adicional.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ef13-94cf-0fca-6077" name="Grandes Cuernos" hidden="false" collective="false" import="true" type="upgrade">
@@ -11899,10 +11531,13 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
           <profiles>
             <profile id="28ca-8fed-e0cc-834e" name="Grandes Cuernos" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La miniatura obtiene la regla especial Impactos por carga (1). Si ya poseía esa regla especial, pasará a tener impactos por carga (1D3).</characteristic>
+                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene la regla especial Impactos por carga (1). Si ya poseía esa regla especial, pasará a tener Impactos por carga (1D3).</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="a166-b3de-e04f-fa37" name="Impactos por carga (1)" hidden="false" targetId="8de0-8a91-edee-076e" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
@@ -11919,6 +11554,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="0549-9c27-4929-f494" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
           </costs>
@@ -11935,22 +11573,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d716-d59c-2540-23f0" name="Embestida furibunda" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aa4b-962d-2bbf-68bf" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d657-54e5-d7af-34c1" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="e38c-3807-270f-16bb" name="Embestida furibunda" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Solo centauros. El personaje obtiene un bonificador de +1 en sus tiradas para impactar en combate cuerpo a cuerpo durante los turnos en que realice una carga exitosa</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="d3bb-6558-e9a5-180a" name="Ataques de rayos" hidden="false" targetId="8628-6531-ed1d-f985" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
           </costs>
@@ -11967,6 +11592,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="e85f-0973-6382-0696" name="Resistencia mágica (2)" hidden="false" targetId="9718-2e66-193f-7dd6" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
@@ -11983,22 +11611,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fdba-90cb-ab8e-d0fc" name="Visión bruja" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b6c5-6a49-9b01-2747" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6edc-0f39-7061-429c" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9698-5599-b0d9-837e" name="Visión bruja" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Solo hechiceros. El personaje obtiene un bonificador de +2 en sus tiradas para canalizar dados de energía y/o dispersión.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <infoLinks>
+            <infoLink id="4d0f-89e8-4a65-208d" name="Piel escamosa (5+)" hidden="false" targetId="b1c5-6add-797c-2d07" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
@@ -12007,22 +11622,6 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
     </selectionEntryGroup>
     <selectionEntryGroup id="2897-457d-a269-0554" name="Recompensas de Hashut Mayores" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="bf2a-7137-bd43-f9a3" name="Aura de Gloria infernal" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ea1-91aa-ffb9-68ec" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5cb0-e6f0-c3ab-a223" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="1f91-a700-12d1-19f7" name="Aura de Gloria infernal" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Solo General del ejército. El personaje obtiene la regla especial Tozudez.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="60.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="8953-5bce-c307-9512" name="Manto de Hashut" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fd15-ca54-d5e3-7da7" type="max"/>
@@ -12035,6 +11634,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="fabe-d1c3-2482-dc9d" name="Recompensa Mayor" hidden="false" collective="false" import="true" targetId="f26e-90e0-8f1c-07e3" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
           </costs>
@@ -12051,24 +11653,11 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="94fd-334f-ae3e-86bd" name="Recompensa Mayor" hidden="false" collective="false" import="true" targetId="f26e-90e0-8f1c-07e3" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fe89-6c9a-ed5a-d7a1" name="Sabiduría de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c90a-07ec-5616-a355" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c8a-bdc3-60e4-e099" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="1c3a-0aea-b995-be0c" name="Sabiduría de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene la regla especial Señor delConocimiento (Saber de Hashut).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b368-1d02-3a84-f527" name="Elegido de Hashut" hidden="false" collective="false" import="true" type="upgrade">
@@ -12083,6 +11672,14 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="6a3f-26c5-c18b-0a46" name="Orgullo marcial" hidden="false" targetId="2707-4d2a-ddbd-e301" type="rule"/>
+            <infoLink id="945d-d0d9-606b-5b0f" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
+            <infoLink id="3742-db40-7624-013b" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="5935-e9d7-954e-2c21" name="Recompensa Mayor" hidden="false" collective="false" import="true" targetId="f26e-90e0-8f1c-07e3" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
@@ -12099,6 +11696,14 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="16f5-1593-2e44-3e30" name="Francotirador" hidden="false" targetId="8fa0-a4f6-e454-dbfe" type="rule"/>
+            <infoLink id="ba68-4c9f-315d-7b0a" name="Disparo rápido" hidden="false" targetId="e198-cb4f-6dfc-1dcc" type="rule"/>
+            <infoLink id="128e-8051-3ba6-ba29" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="e128-a1fc-cbe2-b2d9" name="Recompensa Mayor" hidden="false" collective="false" import="true" targetId="f26e-90e0-8f1c-07e3" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
@@ -12115,6 +11720,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="d7f9-c186-028a-84eb" name="Recompensa Mayor" hidden="false" collective="false" import="true" targetId="f26e-90e0-8f1c-07e3" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
@@ -12131,87 +11739,101 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="14e3-f46a-67a4-6c61" name="Terror" hidden="false" targetId="ca57-1f1f-8bc0-d9ab" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="d873-3c06-92d4-16f7" name="Recompensa Mayor" hidden="false" collective="false" import="true" targetId="f26e-90e0-8f1c-07e3" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5006-0660-e3d6-c50d" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ddf0-650e-dd98-4891" name="Recompensasde Hashut Mayores. General" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="23a1-4df2-9ca0-83b9" name="Musculos de acero" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9fcf-6654-0c9c-4844" name="Aura de Gloria infernal" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a89-5d88-85fd-7d2a" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e4ba-d52c-a21c-fc61" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7001-efad-3029-149c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f57b-4749-fba9-d621" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fb9f-cc4e-eaa8-b4cc" name="Musculos de acero" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
+            <profile id="2037-094e-99e0-2b4d" name="Aura de Gloria infernal" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene un bonificador de +1 a su atributo de Fuerza.</characteristic>
+                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Solo General del ejército. El personaje obtiene la regla especial Tozudez.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="02ca-9b23-0142-ba61" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="3b81-22ad-4307-2a90" name="Recompensa Mayor" hidden="false" collective="false" import="true" targetId="f26e-90e0-8f1c-07e3" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3afc-9768-cba5-6c1f" name="Recompensasde Hashut Mayores. Brujo-Sacerdote" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="ac09-99c1-0aea-eec1" name="Sabiduría de Hashut" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea38-df8e-b55a-fbd6" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b877-427b-e422-5cb1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="477c-f0d1-72f4-28f1" name="Sabiduría de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene la regla especial Señor del Conocimiento (Saber de Hashut).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="cac2-ea05-7e95-d8cd" name="Señor del conocimiento" hidden="false" targetId="38ca-408d-dbc3-4847" type="rule">
+              <modifiers>
+                <modifier type="append" field="name" value="(Hashut)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="4297-17c7-f241-9424" name="Recompensa Mayor" hidden="false" collective="false" import="true" targetId="f26e-90e0-8f1c-07e3" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9b16-8536-11e4-7317" name="Recompensas de hashut menores. Hechiceros" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="e81f-fd67-09a8-0b50" name="Secretos arcanos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9739-237f-adaa-97e9" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cbe5-bb5a-da1c-c084" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fce9-3ca6-8c15-b8d2" name="Secretos arcanos" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Solo hechiceros. El portador conoce un hechizo adicional.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8dea-f871-1cdb-e0d4" name="Hálito llameante" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3873-d05f-f0c4-a7cb" name="Visión bruja" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b910-256a-b0e3-fc55" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c6c-ea85-24f7-0a89" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="12ea-a7ba-9e8f-afde" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a65-ae4b-01c8-e248" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d257-f56d-8687-d27d" name="Hálito llameante" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
+            <profile id="d791-39b4-d20e-393a" name="Visión bruja" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene un arma de aliento de F3 con la regla especial Ataques solo flamígeros.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fea3-1f70-092d-5f3d" name="Dureza excepcional" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b0a-b158-a7e2-7c76" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb31-fa26-bf49-b313" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="efd1-e284-5bbc-e7ee" name="Dureza excepcional" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene una Herida adicional en su perfil de atributos.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e3aa-586f-77e6-d295" name="Esencia de la oscuridad" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d9d-9082-b455-2fd2" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c702-a841-8d49-511f" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="64d1-2f50-5cd6-11ec" name="Esencia de la oscuridad" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene la regla especial Aura demoniaca (5+).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9c4f-41ba-e150-492c" name="Grandes Cuernos" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ebf-e65d-df5f-83df" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df81-0a72-abb1-5174" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4ed0-05eb-2eb5-8322" name="Grandes Cuernos" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">La miniatura obtiene la regla especial Impactos por carga (1). Si ya poseía esa regla especial, pasará a tener impactos por carga (1D3).</characteristic>
+                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Solo hechiceros. El personaje obtiene un bonificador de +2 en sus tiradas para canalizar dados de energía y/o dispersión.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12219,45 +11841,17 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9d03-e9a2-e4ef-53a3" name="Voluntad férrea" hidden="false" collective="false" import="true" type="upgrade">
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9c36-d9ca-1a04-a154" name="Recompensas de Hashut menores. Centauros" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="39aa-a397-67d0-e313" name="Embestida furibunda" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2268-e714-639c-a2eb" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9a6d-9b7a-fd0e-376f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4562-d592-5ee4-b183" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b7e5-3364-32ab-b8c2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c5e0-c244-78de-07cb" name="Voluntad férrea" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene la regla especial Inmune a psicología.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0a47-02de-1721-6bda" name="Rencor de Hashut" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="588a-51c8-f70a-ce30" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0fca-713f-1f44-c496" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="cc59-c297-ac61-324b" name="Rencor de Hashut" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Cada vez que el personaje sea impactado en combate cuerpo a cuerpo con un resultado natural de 6, la miniatura que causó el impacto sufrirá inmediatamente un impacto de F5 con la regla especial Ataque de rayos.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8ad5-d2f2-5f90-7ed3" name="Embestida furibunda" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e6d-e49a-eff4-e34b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3c7-7621-1341-1bf4" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="e1e2-41c7-59e0-569c" name="Embestida furibunda" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
+            <profile id="7b2b-5edf-c3a1-a819" name="Embestida furibunda" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
               <characteristics>
                 <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Solo centauros. El personaje obtiene un bonificador de +1 en sus tiradas para impactar en combate cuerpo a cuerpo durante los turnos en que realice una carga exitosa</characteristic>
               </characteristics>
@@ -12265,38 +11859,6 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0c44-f6d5-56a2-4efa" name="Anatema aetírico" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a772-9baa-6dc2-2214" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f14-f6ce-5990-4f94" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c5d1-ef1f-6fdd-9e21" name="Anatema aetírico" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene la regla especial Resistencia a la magia (2).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d69b-ac09-e98c-841f" name="Roca viva" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="27d0-865a-8094-535e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46a1-fd40-3fb3-9a24" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="8eaf-d193-2522-013c" name="Roca viva" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene la regla especial Piel escamosa (5+) o +2 si ya poseía dicha regla especial.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -12363,7 +11925,6 @@ Chequeo de animosidad: Para realizar un chequeo de animosidad, tira 1D6. Si obti
       <description>Una máquina de guerra, un Cañón infernal o un Demonio de hierro que tenga a un personaje con esta regla a 6” o menos durante la fase de disparo podrá repetir una vez por turno el dado de artillería o el dado de dispersión. Ten en cuenta que puedes seleccionar la máquina tras haber tirado los dados con ella para repetir la tirada</description>
     </rule>
     <rule id="3760-90cb-3b86-e6fe" name="Vanguardia" hidden="false"/>
-    <rule id="ac6f-3563-aaa4-33eb" name="Disparo Rapido" hidden="false"/>
     <rule id="b98d-7439-554f-7a6d" name="Cuerpo Ardiente" hidden="false">
       <description>Una miniatura con esta regla especial tiene las reglas especiales Ataques flamígeros e Inmune a fuego. Al inicio de cualquier fase de combate cuerpo a cuerpo, cualquier miniatura en contacto peana con peana con una miniatura con esta regla especial sufre un impacto automático de Fuerza 3 con la regla especial Ataques sólo flamígeros. Por último, todos los ataques sin la regla especial Ataques mágicos tienen un penalizador de -1 en sus tiradas para herir contra una miniatura con esta regla especial</description>
     </rule>

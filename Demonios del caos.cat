@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9aa0-a435-0f3a-053a" name="Regalo demoníaco">
       <characteristicTypes>
@@ -1248,31 +1248,6 @@
                     <cost name="pts" typeId="points" value="25.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="2788-7b2f-9587-d480" name="Regalos demoníacos experimentales" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d002-6e40-0798-d1af" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a4-13c3-1beb-270e" type="max"/>
-                  </constraints>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="cf8a-9621-501a-f5ff" name="Regalos demoníacos menores de Khorne" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91f6-e3ce-ea2b-4a04" type="max"/>
-                      </constraints>
-                      <entryLinks>
-                        <entryLink id="1e84-db1c-0269-eaa0" name="Regalos demoníacos menores de Khorne" hidden="false" collective="false" import="true" targetId="fbad-598d-dae6-31d2" type="selectionEntryGroup"/>
-                      </entryLinks>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="12.0"/>
@@ -2169,31 +2144,6 @@
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="25.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="c2e6-3c12-1f4e-3d88" name="Regalos demoníacos experimentales" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d002-6e40-0798-d1af" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2757-24c2-d41b-62d2" type="max"/>
-                  </constraints>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="c6cf-cb00-a6cf-70ac" name="Regalos demoníacos menores de Nurgle" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9d4-e60c-b80b-4678" type="max"/>
-                      </constraints>
-                      <entryLinks>
-                        <entryLink id="81b6-e7da-f823-f065" name="Regalos demoníacos menores de Nurgle" hidden="false" collective="false" import="true" targetId="5223-73ce-23e5-5bc5" type="selectionEntryGroup"/>
-                      </entryLinks>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
