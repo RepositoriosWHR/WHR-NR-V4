@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f553-cb9b-b37d-4333" name="Goblins nocturnos" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -7101,7 +7101,7 @@ impactos de F6.
           <description>Ningún personaje puede unirse a una unidad de Jinetez de murciélago.</description>
         </rule>
         <rule id="45de-08d7-56b7-2e7c" name="Chillido espeluznante" hidden="false">
-          <description>Cuando los murciélagos vampiro realizan una carga exitosa, la unidad que recibe la carga debe superar un chequeo de Liderazgo o quedar Apabullada hasta el final del turno de jugador en curso.</description>
+          <description>Cuando los murciélagos gigantes realizan una carga exitosa, la unidad que recibe la carga debe superar un chequeo de Liderazgo o quedar Apabullada hasta el final del turno de jugador en curso.</description>
         </rule>
         <rule id="c00e-5124-c3fa-e009" name="Arrojar traztoz" hidden="false">
           <description>Si una unidad de Jinetez de murciélago se mueve durante la sub-fase de Resto de movimientos por encima de una o más unidades enemigas no trabadas en combate, elige una de ellas. La unidad elegida sufrirá un impacto automático de Fuerza 5 por cada Jinete de murciélago que forme parte de la unidad que efectuó el ataque de Arrojarv traztoz. Una unidad que sufra una o más bajas por este efecto deberá efectuar inmediatamente un chequeo de Pánico.</description>
@@ -7266,10 +7266,28 @@ impactos de F6.
       <selectionEntryGroups>
         <selectionEntryGroup id="0e38-9cb2-76b8-3606" name="Grupo de mando" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="0b71-5d05-7ec3-9bb5" name="Jefe" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0b71-5d05-7ec3-9bb5" name="Jefe Jinete de Murciélago" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e0-47c0-5a51-33c4" type="max"/>
               </constraints>
+              <profiles>
+                <profile id="cdbc-8810-19b8-e1b0" name="Jinete goblin nocturno" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">4</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">3</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Caballería</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <selectionEntryGroups>
                 <selectionEntryGroup id="632c-b806-fbad-a361" name="Objetos mágicos" hidden="false" collective="false" import="true">
                   <constraints>
@@ -7902,6 +7920,30 @@ D6 	Resultado (Agarrar y...)
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="757f-7e62-2a3e-ad34" name="Brebaje de Zetaz" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5624-a5c9-a786-db8b" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bdbd-94dd-81fd-eadf" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e4b-185f-6f2e-4c11" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7144-d8cc-bc61-8366" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule"/>
+                <infoLink id="12f7-7f6c-18a4-4752" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

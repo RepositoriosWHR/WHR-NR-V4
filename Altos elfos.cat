@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a20d-ec9e-719a-2f03" name="Senda">
       <characteristicTypes>
@@ -4039,6 +4039,19 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="8b9f-2c14-aca6-79a9" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="0281-99e7-8ee5-920f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62b8-65d0-5446-3c20" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="5645-02da-795b-34cf" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="c1ec-310e-cf22-e7ff" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4521,6 +4534,28 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="4b7f-3c7a-066e-4179" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="3d4e-4339-aa5d-de7a" name="Alta magia" hidden="false" collective="false" import="true" targetId="6a67-de12-5e4d-657a" type="selectionEntry"/>
+            <entryLink id="b8e7-071b-b9bd-0f37" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+            <entryLink id="ff17-baba-0c5a-d4ff" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+            <entryLink id="a992-15e5-5442-154d" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="7001-9390-fb50-904e" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+            <entryLink id="e57f-c96b-923d-d26d" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="c7f7-664f-bf04-29f5" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+            <entryLink id="aa9d-f2e1-7c80-4646" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="6cd5-7f6f-5123-bc88" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+            <entryLink id="561c-3763-e7e0-3a42" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="e17a-5735-9898-5271" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62b8-65d0-5446-3c20" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4797,13 +4832,13 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0f17-6aa1-d0aa-a014" name="Señor del conocimiento" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0f17-6aa1-d0aa-a014" name="Señor de los saberes" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d742-7734-ca80-bbe1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cc2-99f3-144b-2ef0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a7cb-5c9e-d817-8254" name="Señor del conocimiento" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="a7cb-5c9e-d817-8254" name="Señor de los saberes" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">7</characteristic>
@@ -4839,6 +4874,31 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9264-90bb-c6e4-d848" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="6cad-008f-450a-2616" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="44f9-29b2-5fb0-337f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62b8-65d0-5446-3c20" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="5d13-e6c0-0a47-0e8f" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="44f9-29b2-5fb0-337f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62b8-65d0-5446-3c20" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7f6b-f15a-fcee-1090" name="Los 8 identificativos" hidden="false" collective="false" import="true" targetId="b554-a33e-cca9-e084" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -5935,6 +5995,19 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="5bb2-0f07-0931-924f" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="475c-6c6f-a1e2-cbe3" name="Alta magia" hidden="false" collective="false" import="true" targetId="6a67-de12-5e4d-657a" type="selectionEntry"/>
+            <entryLink id="4dc7-aa51-d8db-618f" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+            <entryLink id="2083-2f2c-3f8a-47f5" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+            <entryLink id="f74b-c065-a8fd-e8ba" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="9864-4c77-a55f-9f48" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+            <entryLink id="7dd0-9202-58f5-7526" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="8f1f-e53c-eec2-736a" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+            <entryLink id="aae0-b259-bb2b-df12" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="768f-9f10-4cf0-8338" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6669,6 +6742,11 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="6ef2-1521-aad6-4e09" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="fff6-3478-0064-a904" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6935,6 +7013,14 @@ elegir ninguna montura.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aefb-2f9e-4eda-36e9" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9a7e-bf26-6434-97da" name="Alta magia" hidden="false" collective="false" import="true" targetId="6a67-de12-5e4d-657a" type="selectionEntry"/>
+            <entryLink id="6df1-a708-f033-8dd8" name="Los 8 identificativos" hidden="false" collective="false" import="true" targetId="b554-a33e-cca9-e084" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -7356,6 +7442,21 @@ elegir ninguna montura.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8100-39c5-cce1-e494" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="2e3a-5619-f083-786c" name="Alta magia" hidden="false" collective="false" import="true" targetId="6a67-de12-5e4d-657a" type="selectionEntry"/>
+            <entryLink id="46a3-61d8-f429-ae6f" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+            <entryLink id="4c94-6938-7cfe-70de" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+            <entryLink id="df7f-f775-5792-d334" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="c644-9334-9993-eb8b" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+            <entryLink id="8761-b79a-b38c-8fc6" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="9444-cc24-c4d1-c2d6" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+            <entryLink id="b9c2-fd7a-3613-f260" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="1e67-a94a-6923-dfd0" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b65e-06f8-6c70-cb12" name="Saga (Teclis)" hidden="false" collective="false" import="true" targetId="03e3-73fe-52c1-d837" type="selectionEntry"/>
       </entryLinks>
@@ -7646,6 +7747,23 @@ elegir ninguna montura.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f985-feba-30e8-9c92" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b57-ca0f-cbdb-e849" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9c2e-7fcc-68dd-30b2" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+            <entryLink id="664f-0394-9b80-92d7" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+            <entryLink id="e842-ce60-3a54-42e8" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="913a-58ba-98d2-3802" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+            <entryLink id="a3fa-06d2-dd6c-c618" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="02a6-9f97-3a42-1e6b" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+            <entryLink id="3c39-35ec-7fdb-6e13" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="d6a4-4e77-2bb1-1bdc" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="586c-d350-8384-5464" name="Saga (Eltharion)" hidden="false" collective="false" import="true" targetId="6651-191d-5206-bc00" type="selectionEntry"/>
       </entryLinks>
@@ -8612,6 +8730,23 @@ elegir ninguna montura.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="76b5-d5df-4abd-4652" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78ad-bc2b-f5da-4199" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c728-b8c1-0f48-fd5a" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+            <entryLink id="4be7-7a9a-b75a-67da" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+            <entryLink id="5774-479d-bd35-6dc2" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="c517-ddd9-ff66-2816" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+            <entryLink id="1372-9eaa-945f-3e87" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="177c-db81-410b-08af" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+            <entryLink id="49a9-5b51-9f91-f845" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="4956-574b-63f5-7477" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="cd3e-af32-ee2c-00ed" name="Saga (Eltharion)" hidden="false" collective="false" import="true" targetId="6651-191d-5206-bc00" type="selectionEntry"/>
       </entryLinks>
@@ -8840,6 +8975,13 @@ elegir ninguna montura.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b038-8428-c11a-e7ec" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8ebe-f08b-e36d-d4ab" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -9079,6 +9221,13 @@ elegir ninguna montura.</characteristic>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="298f-0620-0e88-e764" name="Saberes de la magia" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="8de1-3d3d-3987-c861" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -11162,6 +11311,13 @@ veneno.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4746-3e89-e078-0054" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="147e-a2ef-6d4f-48e5" name="Alta magia" hidden="false" collective="false" import="true" targetId="6a67-de12-5e4d-657a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -12676,6 +12832,13 @@ elegir ninguna montura.</characteristic>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d2aa-19ae-70e0-1e50" name="Saberes de la magia" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="2bdc-3fea-97a9-c79c" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -12696,6 +12859,21 @@ elegir ninguna montura.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="87ac-adbe-cec9-5984" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8beb-5c32-63cc-2dd0" name="Alta magia" hidden="false" collective="false" import="true" targetId="6a67-de12-5e4d-657a" type="selectionEntry"/>
+            <entryLink id="580d-f4c2-fdbd-f203" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+            <entryLink id="8fc4-775a-cbb2-07f1" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+            <entryLink id="cded-ad86-7064-74ba" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="5ad4-a848-6732-981e" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+            <entryLink id="b75e-7d52-55c3-24c4" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="b97b-f12d-2d6f-2399" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+            <entryLink id="b730-6e51-d3b7-9751" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="e518-4e7f-84df-0d44" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1a3e-2825-e6f1-7ad5" name="Saga (Teclis)" hidden="false" collective="false" import="true" targetId="03e3-73fe-52c1-d837" type="selectionEntry"/>
         <entryLink id="6aae-0e20-3bc0-e8df" name="Leyenda" hidden="false" collective="false" import="true" targetId="8f04-2596-2103-99ce" type="selectionEntry"/>
@@ -12903,6 +13081,24 @@ elegir ninguna montura.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8052-1b59-87f5-33de" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="94ee-403d-6f6d-6595" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f2c6-ad8a-c976-3afd" name="Alta magia" hidden="false" collective="false" import="true" targetId="6a67-de12-5e4d-657a" type="selectionEntry"/>
+            <entryLink id="5633-c4e9-d796-6129" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+            <entryLink id="cfd2-7703-27b7-d19b" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+            <entryLink id="f6b1-491f-a67a-a223" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="5baa-5221-165d-c8ec" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+            <entryLink id="5009-493b-c73d-778e" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="86ab-578d-94fe-eeaa" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+            <entryLink id="89a5-44a4-893e-03fb" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="9bbc-c29f-a93c-e01d" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -13660,6 +13856,13 @@ elegir ninguna montura.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7a07-c892-dafc-cfe4" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7c17-308d-7c1c-d96d" name="Alta magia" hidden="false" collective="false" import="true" targetId="6a67-de12-5e4d-657a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -15565,10 +15768,6 @@ elegir ninguna montura.</characteristic>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="32a7-92d0-3aed-2919" name="Artefactos arcanos. Reliquias. Altos elfos" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1681-3b73-44d7-666f" type="max"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9318-6467-c7dc-97ff" type="min"/>
-      </constraints>
       <selectionEntries>
         <selectionEntry id="578a-fd4a-ad32-965f" name="Libro de Hoeth" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -15631,10 +15830,6 @@ elegir ninguna montura.</characteristic>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="f7e9-4fdc-6988-bfac" name="Artefactos arcanos. Altos elfos" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f1-8259-ac0a-5b42" type="max"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="999b-4e11-ab31-edb4" type="min"/>
-      </constraints>
       <selectionEntries>
         <selectionEntry id="b23b-310b-06a8-4304" name="Cristal de los Annulii" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -15897,6 +16092,24 @@ elegir ninguna montura.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1dae-eda7-a1a2-afd6" name="Saberes de la magia" hidden="true" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7c7d-506d-b799-9c65" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="d8ee-9d87-37a9-ce71" name="Alta magia" hidden="false" collective="false" import="true" targetId="6a67-de12-5e4d-657a" type="selectionEntry"/>
+                <entryLink id="dcb4-c170-056a-9ee5" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+                <entryLink id="00cf-21c0-1f89-c01a" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+                <entryLink id="6f5f-b6ab-c789-b1ae" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+                <entryLink id="5e40-1558-8856-9d05" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+                <entryLink id="0118-d343-3b48-2849" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+                <entryLink id="404c-9cc6-2468-f7eb" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+                <entryLink id="397c-28e0-c5fe-c023" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+                <entryLink id="f42e-8f39-0327-e553" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="ca8c-9009-0909-7add" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
           </entryLinks>
@@ -17277,5 +17490,6 @@ elegir ninguna montura.</characteristic>
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="9cf2-8145-0b5b-98f7" name="MercenariosLib" targetId="4652-5447-e10a-8eb0" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a2c3-2d48-cb64-5a5a" name="Los saberes de la magia" targetId="8ca7-9cd1-c914-3d7c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

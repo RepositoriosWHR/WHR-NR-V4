@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -2602,7 +2602,6 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="6047-6e91-3b6c-4311" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink id="441f-c088-26dc-6304" name="Objetos hechizados. Bretonia. Sacerdotes o Sumos Sacerdotes de Taal" hidden="false" collective="false" import="true" targetId="b34c-21f7-a0b5-2400" type="selectionEntryGroup"/>
                     <entryLink id="c215-2cb3-0dda-85f3" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
@@ -3182,6 +3181,11 @@ Desafío).</description>
                             <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e51-3559-9dbb-ea5e" type="equalTo"/>
                           </conditions>
                         </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                     </entryLink>
                     <entryLink id="fb68-5cb4-4c1d-53cc" name="Armas mágicas. Bretonia. Caballeros. Mangual" hidden="false" collective="false" import="true" targetId="b1de-e29c-e8b4-aa1f" type="selectionEntryGroup"/>
@@ -3190,6 +3194,11 @@ Desafío).</description>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
                             <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e51-3559-9dbb-ea5e" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -3330,6 +3339,11 @@ Desafío).</description>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
                             <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e51-3559-9dbb-ea5e" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d730-051a-f1fe-25ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -3712,6 +3726,11 @@ Desafío).</description>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="d730-051a-f1fe-25ff" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e51-3559-9dbb-ea5e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="d730-051a-f1fe-25ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4357,6 +4376,11 @@ Desafío).</description>
                             <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="86d2-612d-2653-c2bd" type="equalTo"/>
                           </conditions>
                         </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="f722-86b1-d4c5-e39e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                     </entryLink>
                     <entryLink id="675f-6587-0a35-d7c3" name="Armas mágicas. Bretonia. Caballeros. Mangual" hidden="false" collective="false" import="true" targetId="b1de-e29c-e8b4-aa1f" type="selectionEntryGroup"/>
@@ -4365,6 +4389,11 @@ Desafío).</description>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
                             <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="86d2-612d-2653-c2bd" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="f722-86b1-d4c5-e39e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -4561,6 +4590,11 @@ Desafío).</description>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="f722-86b1-d4c5-e39e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="86d2-612d-2653-c2bd" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="f722-86b1-d4c5-e39e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5736,6 +5770,11 @@ Desafío).</description>
                             <condition field="selections" scope="b2f5-5922-ab84-5a07" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4c86-1b30-926a-1146" type="equalTo"/>
                           </conditions>
                         </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="b2f5-5922-ab84-5a07" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                     </entryLink>
                     <entryLink id="8f2f-a81f-3ff5-2086" name="Armas mágicas. Bretonia. Caballeros. Mangual" hidden="false" collective="false" import="true" targetId="b1de-e29c-e8b4-aa1f" type="selectionEntryGroup"/>
@@ -5744,6 +5783,11 @@ Desafío).</description>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
                             <condition field="selections" scope="b2f5-5922-ab84-5a07" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4c86-1b30-926a-1146" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="b2f5-5922-ab84-5a07" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -5947,6 +5991,11 @@ Desafío).</description>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="b2f5-5922-ab84-5a07" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4c86-1b30-926a-1146" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="b2f5-5922-ab84-5a07" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6594-461b-8f8a-43d9" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -13415,6 +13464,13 @@ El portador obtendrá un bonificador de +2 al lanzamiento de los hechizos del Sa
       </constraints>
       <selectionEntries>
         <selectionEntry id="8e13-cf00-99be-2c10" name="Pabellón de guerra de Gilles el Bretón" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c08a-c45f-c9a2-49d6" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="76d3-2c45-fb47-2472" type="max"/>
@@ -15141,7 +15197,7 @@ Destrucción).</characteristic>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de89-efe3-566f-a723" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="469a-a655-0dc7-9fd9" name="Insignia de la búsqueda" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="469a-a655-0dc7-9fd9" name="Insignia de la búsqueda" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8962-89bf-f053-1dfb" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6736-6d6e-19a5-3c61" type="max"/>

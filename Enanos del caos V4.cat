@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="7f15-8eb3-2094-c753" name="Guerreros enanos del caos" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -5160,14 +5160,16 @@ asedio: esta sufrirá 1D6 impactos automáticos de Fuerza 8 distribuidos como si
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="374e-2240-f65b-37f5" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup">
+        <selectionEntryGroup id="90a2-29aa-00bb-5603" name="Recompensas de hashut" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9be-23cb-e812-cb26" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e5a-c5da-35df-c1b6" type="max"/>
           </constraints>
-        </entryLink>
-      </entryLinks>
+          <entryLinks>
+            <entryLink id="d9ed-5b1a-24a9-44ab" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup"/>
+            <entryLink id="792d-2932-2bda-84af" name="Recompensas de hashut menores. Hechiceros" hidden="false" collective="false" import="true" targetId="9b16-8536-11e4-7317" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -11926,7 +11928,7 @@ Chequeo de animosidad: Para realizar un chequeo de animosidad, tira 1D6. Si obti
     </rule>
     <rule id="3760-90cb-3b86-e6fe" name="Vanguardia" hidden="false"/>
     <rule id="b98d-7439-554f-7a6d" name="Cuerpo Ardiente" hidden="false">
-      <description>Una miniatura con esta regla especial tiene las reglas especiales Ataques flamígeros e Inmune a fuego. Al inicio de cualquier fase de combate cuerpo a cuerpo, cualquier miniatura en contacto peana con peana con una miniatura con esta regla especial sufre un impacto automático de Fuerza 3 con la regla especial Ataques sólo flamígeros. Por último, todos los ataques sin la regla especial Ataques mágicos tienen un penalizador de -1 en sus tiradas para herir contra una miniatura con esta regla especial</description>
+      <description>Al inicio de cualquier fase de combate cuerpo a cuerpo, cualquier miniatura en contacto peana con peana con una miniatura con esta regla especial sufre un impacto automático de Fuerza 3 con la regla especial Ataques sólo flamígeros (ten en cuenta que ninguna miniatura sufrirá más de un impacto por esta regla especial si estos provienen de la misma unidad).</description>
     </rule>
     <rule id="ffea-2266-dea0-ec30" name="Maldicion de Brujo" hidden="false">
       <description>Los Herreros demoníacos y los Brujos-Sacerdote de los Enanos del Caos tienen la regla especial Piel escamosa (6+). Cada vez que un hechicero con esta regla especial sufra una Disfunción mágica, deberá realizar un chequeo de Resistencia después de resolver los efectos de la disfunción. Si falla el chequeo, sufrirá una herida que no podrá evitar con tiradas de salvación de ningún tipo. Sin embargo, la primera vez que sufra una herida de esta manera obtendrá un bonificador de +1 a su atributo de Resistencia permanentemente, ya que su cuerpo se habrá vuelto parcialmente de piedra. Posteriores heridas no volverán a incrementar el atributo de Resistencia del hechicero.</description>

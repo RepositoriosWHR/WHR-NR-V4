@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="924e-28e4-pubN65537" name="Elfos Silvanos. Libro de Ejércitos. Warhammer Reforged"/>
   </publications>
@@ -10577,7 +10577,7 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="99f1-3874-b590-b836" name="Jinetes de águila" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="99f1-3874-b590-b836" name="[Ex] - Jinetes de águila" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -10589,16 +10589,22 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="59f8-bc1b-6558-4f05" type="max"/>
       </constraints>
       <rules>
-        <rule id="8081-84c1-96a2-c3c8" name="Jinetes de águila" hidden="false">
+        <rule id="1e49-cd80-0577-ac17" name="Reclusivos" hidden="false">
           <description>El único personaje que se podrá unir a esta unidad es Thalandor, Cometa de Muerte.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="8df1-1261-2cc5-77b8" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
         <infoLink id="83fc-e14f-0825-a9ba" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
-        <infoLink id="0816-1f1a-c8d8-483e" name="Volar" hidden="false" targetId="670e-1a23-b1e1-6e6f" type="rule"/>
+        <infoLink id="0816-1f1a-c8d8-483e" name="Volar (11)" hidden="false" targetId="80a9-39e5-b1f1-d428" type="rule"/>
         <infoLink id="0fed-02ee-0596-812c" name="Caballería monstruosa" hidden="false" targetId="a7be-2cd9-f3c6-b091" type="rule"/>
         <infoLink id="7d28-edf1-8e03-436f" name="Caballería rápida" hidden="false" targetId="0b7e-2a08-2b5a-51d7" type="rule"/>
+        <infoLink id="df78-3b4b-3238-52df" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
+        <infoLink id="8aed-8bf3-53ba-ff22" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(Solo aguilas)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4ae5-ab28-d739-5ce1" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
@@ -10635,7 +10641,7 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="pts" typeId="points" value="75.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e6a3-9157-0a76-d22b" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -10710,6 +10716,7 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
           <entryLinks>
             <entryLink id="db29-ce34-b22a-47d5" name="Clave: Elfos" hidden="false" collective="false" import="true" targetId="413a-675c-7342-1956" type="selectionEntry"/>
             <entryLink id="2b17-aaa8-ff45-42cc" name="Clave: Elfos Silvanos" hidden="false" collective="false" import="true" targetId="8785-d5e4-2294-b2f9" type="selectionEntry"/>
+            <entryLink id="a5ec-5fae-798e-343e" name="Clave: Aguilas" hidden="false" collective="false" import="true" targetId="8609-02ef-3708-798b" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -10719,12 +10726,12 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
       <selectionEntryGroups>
         <selectionEntryGroup id="c9ed-2323-48b0-10a4" name="Grupo de mando" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="7c43-40ab-dd74-d693" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7c43-40ab-dd74-d693" name="Jinete de las cimas " hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="061f-d0b8-fa8c-ff9a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="71d8-34de-0e0f-c990" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="71d8-34de-0e0f-c990" name="Jinete de las cimas " hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <modifiers>
                     <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                       <conditions>
@@ -10785,9 +10792,26 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="79e2-e877-b429-5d9a" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7995-f5e7-d01c-9717" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5381-a0c2-432f-6596" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a870-fa0b-aaf2-e918" name="Gran águila" hidden="false" collective="false" import="true" targetId="21ba-07b8-46e8-ce93" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4241-c5b6-d518-50b2" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c8e-c05c-774c-bf66" type="min"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cd39-6d3e-febd-3a2d" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
@@ -10795,7 +10819,7 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f30-c8b6-89d2-78d1" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="12.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10869,9 +10893,33 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
               </constraints>
               <rules>
                 <rule id="afce-3768-9ccb-6bd1" name="Ataque en picado" hidden="false">
-                  <description>Si tus jinetes de águila tienen esta regla especial puedes elegir no desplegarlos de la manera habitual al inicio de batalla. Al inicio de tu segundo turno (en la sub-fase de Inicio del turno), tira 1D6, si obtienes un resultado de 4+ la unidad de jinetes de Águila, podrá entrar en ese mismo momento o al inicio de cualquiera de los turnos siguientes (a tu elección). Si obtienes un resultado de 1-3, podrás intentarlo de nuevo al inicio de tu tercer turno, teniendo que obtener esta vez un resultado de 3+ (y si fallas, en el cuarto turno y posteriores con un resultado de 2+). Ten en cuenta que no tiene por qué entrar en ese mismo turno: una vez superada la tirada, puedes hacer que la unidad entre en el campo de batalla al inicio de cualquiera de tus turnos. Cuando finalmente la unidad entra, designa un punto en el campo de batalla y tira los dados de artillería y dispersión. Si obtienes un resultado de impacto en el dado de dispersión, la unidad aparece en el punto designado encarado en la dirección que desees. Si sale un resultado de flecha,desvía el punto de entrada en la dirección indicada la distancia que marque el dado de artillería, y colócalos allí encarados en la dirección que desees. Si obtienes un resultado de Problemas, los jinetes de águila no podrán entrar en el campo de batalla hasta el inicio de tu siguiente turno (cuando deberás tirar de nuevo los dados de artillería y dispersión). Si los jinetes de águila cargan exitosamente durante el mismo turno en el que entran en el campo de batalla, tanto los jinetes como sus monturas obtienen las reglas especiales Ataque rápido y Carga devastadora hasta el final del turno de jugador en curso.</description>
+                  <description>Los jinetes de águila pueden elegir no desplegar de la manera habitual al inicio de batalla y hacerlo de la siguiente manera especial:
+Al inicio de tu segundo turno (en la sub-fase de Inicio del turno), tira 1D6, si obtienes un resultado de 4+ la unidad de jinetes de águila podrá entrar en ese mismo momento o al inicio de cualquiera de los turnos siguientes (a tu elección). Si obtienes un resultado de 1-3, podrás intentarlo de nuevo al inicio de tu tercer turno, teniendo que obtener esta vez un resultado de 3+ (y si fallas, en el cuarto turno y posteriores con un resultado de 2+). Ten en cuenta que no tiene por qué entrar en ese mismo turno ya que una vez superada la tirada, puedes hacer que la unidad entre en el campo de batalla al inicio de cualquiera de tus turnos. 
+Cuando finalmente la unidad entra, designa un punto en el campo de batalla y después tira los dados de artillería y dispersión. Si obtienes un resultado de impacto en el dado de dispersión, la unidad aparece en el punto designado (coloca la unidad de forma que el punto designado quede lo más cerca posible del centro de la unidad) y encarada en la dirección que desees. Si sale un resultado de flecha, desvía el punto de entrada en la dirección indicada la distancia que marque el dado de artillería y coloca la unidad del mismo modo que se ha indicado anteriormente. Si 
+obtienes un resultado de Problemas los jinetes no entrarán en ese turno y no podrán entrar en el campo de batalla hasta el inicio de tu siguiente turno, utilizando el mismo punto que designaste anteriormente, aunque deberás tirar de nuevo los dados de artillería y dispersión para ver el punto por donde salen con exactitud. 
+Si el marcador aparece sobre una unidad amiga, un Edificio, un Bosque o elemento de escenografía intransitable, deberás desplegar la unidad separada de estos 1” en el punto más cercano al marcador y encarada como desees. Si el marcador termina sobre una unidad enemiga, coloca la unidad de Jinetes de águila en contacto peana con peana con esa unidad (se considera carga) por la dirección en la que el marcador tocó la unidad o por el lado de la 
+unidad enemiga más cercano posible al marcador. Si el marcador acaba fuera del campo de batalla, la unidad puede entrar en tu siguiente turno por el punto por el que el marcador se salió del tablero (o lo más cerca posible a ese punto si estuviese ocupado por una unidad), en tu sub-fase de Resto de movimientos, como si hubiese salido del campo de batalla persiguiendo el turno anterior. 
+Si los jinetes de águila cargan exitosamente durante el mismo turno en el que entran en el campo de batalla, tanto los jinetes como sus monturas obtienen las reglas especiales Ataque rápido y Carga devastadora hasta el final del turno de jugador en curso.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="781c-5921-ed3c-df83" name="Flechas veloces" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="331d-e590-e125-8355" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4cf7-4bbb-8d53-9be9" name="Flechas veloces" hidden="false" targetId="fb97-c17e-864d-d073" type="profile"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -15092,6 +15140,37 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
       </constraints>
       <infoLinks>
         <infoLink id="f6d2-1544-8600-c546" name="Saga" hidden="false" targetId="23b2-1ca0-547d-7bdf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="21ba-07b8-46e8-ce93" name="Gran águila" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f90e-f9dc-46b9-eade" name="Gran águila" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">2</characteristic>
+            <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
+            <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
+            <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
+            <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
+            <characteristic name="H" typeId="5723232344415441232323">3</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
+            <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
+            <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="Tipo" typeId="5479706523232344415441232323">Bestia Monstruosa</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d7c6-f39b-8f47-3282" name="Bestia monstruosa" hidden="false" targetId="2e1e-da3a-8081-991c" type="rule"/>
+        <infoLink id="0eed-4feb-b44d-b437" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
+        <infoLink id="d906-8df8-0562-668b" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
+        <infoLink id="a48d-721c-efb7-81fc" name="Volar (11)" hidden="false" targetId="80a9-39e5-b1f1-d428" type="rule"/>
+        <infoLink id="cf32-b6b9-887c-0759" name="Caballería monstruosa" hidden="false" targetId="a7be-2cd9-f3c6-b091" type="rule"/>
+        <infoLink id="f38e-bdb0-1ef4-e1a5" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>

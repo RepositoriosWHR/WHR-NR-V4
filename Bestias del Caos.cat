@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="5" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="7" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coccorota, Aswer y Gengis.</readme>
   <publications>
     <publication id="51fc-eb9b-pubN65537" name="Bestias del Caos Reforged"/>
@@ -4397,6 +4397,19 @@ la civilización.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="1ef6-1068-5bdb-d785" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="255b-1c8a-03a6-3b57" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="fdbb-9544-98ef-1b41" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="51d1-c7b0-b4eb-aac7" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -5379,6 +5392,41 @@ la civilización.</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="5f9c-25ab-06bb-d36a" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="fc47-2792-4976-5ce3" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="87a0-1688-45a5-1dc4" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="5c86-6104-99f6-7f8f" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+            <entryLink id="b7bc-38a9-cbda-82cc" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="ee47-672c-d765-24a2" name="Saber de Tzeentch" hidden="false" collective="false" import="true" targetId="b20e-2adb-6db4-44be" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="170a-3d37-2b1a-d911" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d72-4fd2-3631-9d37" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="f1ce-0c1d-2b9d-1512" name="Saber de Slaanesh" hidden="false" collective="false" import="true" targetId="6f45-b771-55d8-cc14" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="170a-3d37-2b1a-d911" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="637a-8947-fb1a-55c0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="4245-57bc-db40-14be" name="Saber de Nurgle" hidden="false" collective="false" import="true" targetId="3352-4875-5820-8bbe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="170a-3d37-2b1a-d911" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6957-61b9-3179-47e8" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6156,6 +6204,19 @@ la civilización.</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="256c-a734-419e-a867" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="6b21-45e0-cd72-3f20" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="36a9-62eb-533d-ae81" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="5631-9de4-6c47-31f6" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6714,6 +6775,49 @@ la civilización.</description>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="dd88-95b2-08b5-7559" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="eb05-db35-d587-b1fb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="b405-888f-7cf7-5a26" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="446d-8251-bdd3-0e01" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="9338-c12c-7d6d-eed7" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+            <entryLink id="0418-38c6-9c61-6b6f" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="2792-1109-3ecc-8418" name="Saber de Tzeentch" hidden="false" collective="false" import="true" targetId="b20e-2adb-6db4-44be" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="eb05-db35-d587-b1fb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d72-4fd2-3631-9d37" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="43e6-233a-43f0-5176" name="Saber de Slaanesh" hidden="false" collective="false" import="true" targetId="6f45-b771-55d8-cc14" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="eb05-db35-d587-b1fb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="637a-8947-fb1a-55c0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="e2ad-9df9-3d70-b2be" name="Saber de Nurgle" hidden="false" collective="false" import="true" targetId="3352-4875-5820-8bbe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="eb05-db35-d587-b1fb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6957-61b9-3179-47e8" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="9236-9fde-577b-5e26" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -7532,6 +7636,48 @@ la civilización.</description>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
               </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="83cb-be0e-a4b8-51b8" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="9885-879f-53eb-79e1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="e440-4513-2013-cb0b" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+            <entryLink id="2fff-fb6a-3509-68e6" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="367a-32ec-81f5-bece" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+            <entryLink id="8978-0503-b3ac-fbff" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="25f6-2d17-0c17-6b66" name="Saber de Tzeentch" hidden="false" collective="false" import="true" targetId="b20e-2adb-6db4-44be" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="9885-879f-53eb-79e1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d72-4fd2-3631-9d37" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="b4fc-1f61-8799-8853" name="Saber de Slaanesh" hidden="false" collective="false" import="true" targetId="6f45-b771-55d8-cc14" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="9885-879f-53eb-79e1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="637a-8947-fb1a-55c0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="f950-91d7-6072-abaa" name="Saber de Nurgle" hidden="false" collective="false" import="true" targetId="3352-4875-5820-8bbe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="9885-879f-53eb-79e1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6957-61b9-3179-47e8" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -8843,6 +8989,41 @@ la civilización.</description>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8939-6470-fdcf-65dd" name="Saberes de la magia" hidden="true" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1a83-a088-5003-ead7" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="6a94-a2d4-89d7-7c13" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="5bab-533b-b279-dad8" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+            <entryLink id="4aaf-de49-e08c-5385" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="bbc0-1ea5-6203-aec7" name="Saber de Tzeentch" hidden="false" collective="false" import="true" targetId="b20e-2adb-6db4-44be" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="082c-c5e8-6aaa-bb05" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d72-4fd2-3631-9d37" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="402d-8ad1-e791-c91f" name="Saber de Slaanesh" hidden="false" collective="false" import="true" targetId="6f45-b771-55d8-cc14" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="082c-c5e8-6aaa-bb05" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="637a-8947-fb1a-55c0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="4830-1f7c-abc0-fe0a" name="Saber de Nurgle" hidden="false" collective="false" import="true" targetId="3352-4875-5820-8bbe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="082c-c5e8-6aaa-bb05" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6957-61b9-3179-47e8" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -21447,5 +21628,6 @@ Resultado en 2d6/ Destruir la civilización:
   <catalogueLinks>
     <catalogueLink id="de2d-546e-0575-301c" name="MercenariosLib" targetId="4652-5447-e10a-8eb0" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="0e3f-5513-989f-6bfa" name="Huestes del Caos" targetId="b45a-4cb1-e2e8-abd7" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a633-1157-a53f-2651" name="Los saberes de la magia" targetId="8ca7-9cd1-c914-3d7c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

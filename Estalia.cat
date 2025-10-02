@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f56e-da6a-d244-d8f9" name="Orden de caballería">
       <characteristicTypes>
@@ -995,7 +995,7 @@ Avance escalonado: la unidad podrá mover (pero no marchar) y en la fase de disp
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
-                    <condition field="selections" scope="4297-fc20-1143-ae5e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="146a-4190-d9c0-a860" type="equalTo"/>
+                    <condition field="selections" scope="4297-fc20-1143-ae5e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2474-1b68-321d-16f0" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
@@ -1140,19 +1140,6 @@ Avance escalonado: la unidad podrá mover (pero no marchar) y en la fase de disp
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="72e7-951c-00ad-40f5" name="Opciones" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="146a-4190-d9c0-a860" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8467-a931-2411-2d41" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="83c2-ec38-2b96-1086" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="4198-b3f4-ac2a-f2c6" name="Armas" hidden="false" collective="false" import="true">
               <constraints>
@@ -1401,6 +1388,35 @@ Avance escalonado: la unidad podrá mover (pero no marchar) y en la fase de disp
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2474-1b68-321d-16f0" name="Escudos" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="22a2-2fc6-b54b-9e0f" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="d4e3-697c-a7ae-f82e" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="775f-3fec-9f1f-58d2" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="9889-ee48-99dd-5ada" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="27b3-60e2-11f8-9652" name="Rodela" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a4e-583b-0516-6187" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="877c-ddc3-1f91-bbcc" name="Rodela" hidden="false" targetId="6422-f909-b429-4809" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="4.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -8426,7 +8442,7 @@ Lanza y Escudo.</characteristic>
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
-                    <condition field="selections" scope="c8e2-42e9-1a2d-ff2c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af15-4d7e-1456-462b" type="equalTo"/>
+                    <condition field="selections" scope="c8e2-42e9-1a2d-ff2c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d630-0a84-f011-6625" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
@@ -8600,19 +8616,6 @@ Lanza y Escudo.</characteristic>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="70cf-49b9-4820-1084" name="Opciones" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="af15-4d7e-1456-462b" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d37-3194-6b3b-4185" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="3eb9-522d-6ea2-9289" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="bdb2-4b93-548d-5042" name="Armas" hidden="false" collective="false" import="true">
               <constraints>
@@ -8859,6 +8862,35 @@ Lanza y Escudo.</characteristic>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d630-0a84-f011-6625" name="Escudos" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9447-4b73-6173-c9e5" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2344-8ffd-04cd-96b8" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edaa-97e3-1a76-55b9" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="54dc-3bea-ffdd-6d68" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f6df-8b71-3e81-dfcc" name="Rodela" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbec-cdc3-0f24-0ffa" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="7163-63e2-b139-0402" name="Rodela" hidden="false" targetId="6422-f909-b429-4809" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="4.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
