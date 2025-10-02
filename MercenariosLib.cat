@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4652-5447-e10a-8eb0" name="MercenariosLib" revision="7" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4652-5447-e10a-8eb0" name="MercenariosLib" revision="8" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="64fe-edc6-2095-98e6" name="[R] - Amazonas de Anakonda" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
@@ -4709,11 +4709,11 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="49c0-06de-54a7-6b78" type="max"/>
       </constraints>
       <rules>
-        <rule id="869a-d2bd-a12b-6af1" name="Montaraces" hidden="false">
-          <description>Los Cerveceros de Bugman tienen la regla especial Vanguardia. Además, ignoran la regla especial Mover o disparar de sus armas de proyectiles.</description>
-        </rule>
         <rule id="eda8-ec61-3652-74d3" name="Odio (Pielesverdes y Skavens)" hidden="false">
           <description>Una miniatura que Odie podrá repetir los resultados de 1 obtenidos en sus tiradas para impactar en combate cuerpo a cuerpo contra aquellos a quienes odie.</description>
+        </rule>
+        <rule id="3c91-c79a-00be-59c0" name="Montaraces" hidden="false">
+          <description>Los Montaraces ignoran la regla especial Mover o disparar de sus armas de proyectiles. Además, al inicio de la batalla, antes del despliegue, elige entre las reglas especiales Vanguardia o Exploradores: los Montaraces obtendrán esa regla especial.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4744,7 +4744,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
         <selectionEntry id="1a32-65a2-a6a5-9fca" name="Los cerveceros de Bugman" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6997-1114-57f1-6eb7" type="max"/>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c446-d692-b718-fc3a" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c446-d692-b718-fc3a" type="min"/>
           </constraints>
           <profiles>
             <profile id="d67b-8446-a123-faf6" name="Cervecero" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -4765,7 +4765,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="16.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c511-b560-4c5e-15a1" name="Equipo cerveceros" hidden="false" collective="false" import="true" type="upgrade">
@@ -4863,7 +4863,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="167.0"/>
+            <cost name="pts" typeId="points" value="230.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="85c4-4ec4-9fb1-0655" name="Equipo Jorj Ruddle" hidden="false" collective="false" import="true" type="upgrade">
@@ -5320,39 +5320,6 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="9d74-0d7e-f42e-08b0" name="Armas mágicas" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87f9-065d-439f-3450" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="cfdd-fb83-322d-c0b0" name="Armas mágicas. Armas emparejadas" hidden="false" collective="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
-                    <entryLink id="0882-7bde-c2ce-3147" name="Armas mágicas de la cámara del tesoro. Arma de mano" hidden="false" collective="false" import="true" targetId="4ea3-4297-757e-1224" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" field="hidden" value="true">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ccaf-28d7-9a3a-e6a9" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
-                    <entryLink id="cb39-441e-19df-ddb5" name="Armas mágicas. Mercenarios. Armas emparejadas" hidden="false" collective="false" import="true" targetId="689a-7828-647c-8563" type="selectionEntryGroup"/>
-                    <entryLink id="1cf9-3afe-9785-c6b6" name="Armas mágicas. Neutral. Arma de mano" hidden="false" collective="false" import="true" targetId="c446-9111-68ce-ff13" type="selectionEntryGroup"/>
-                    <entryLink id="3850-3861-5fa2-8645" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
-                    <entryLink id="728a-3bb8-55cf-4530" name="Armas mágicas. Mercenarios. Arma de mano" hidden="false" collective="false" import="true" targetId="9464-9538-6752-e302" type="selectionEntryGroup"/>
-                    <entryLink id="261c-da61-9be5-1781" name="Armas mágicas de la cámara del tesoro. Armas emparejadas" hidden="false" collective="false" import="true" targetId="a62d-ed75-6d7d-e016" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" field="hidden" value="true">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ccaf-28d7-9a3a-e6a9" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="493b-2d2f-7a5f-c71d" name="Objetos hechizados" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="005f-1eb6-31fe-ea2d" value="1.0">
@@ -5405,6 +5372,24 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                         </modifier>
                       </modifiers>
                     </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="cf96-5891-8dff-ba6b" name="Armas mágicas" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf2-ddd5-5f2f-f9bb" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="994d-0597-e94e-93ed" name="Armas mágicas. Armas emparejadas" hidden="false" collective="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
+                    <entryLink id="6147-72ae-5c55-7ffa" name="Armas mágicas. Neutral. Arma de mano" hidden="false" collective="false" import="true" targetId="c446-9111-68ce-ff13" type="selectionEntryGroup"/>
+                    <entryLink id="1646-ec1d-646a-c6c3" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                    <entryLink id="ffad-9f47-216b-e8d8" name="Armas mágicas. Alabarda" hidden="false" collective="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
+                    <entryLink id="02c9-743d-996f-02e1" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
+                    <entryLink id="df15-db64-5fc0-4022" name="Armas mágicas. Lanza" hidden="false" collective="false" import="true" targetId="d8b7-876d-b68d-3fb1" type="selectionEntryGroup"/>
+                    <entryLink id="465d-1318-dc25-a4de" name="Armas mágicas. Mangual" hidden="false" collective="false" import="true" targetId="a1a5-7361-b444-3054" type="selectionEntryGroup"/>
+                    <entryLink id="7d04-dcae-347b-e376" name="Armas mágicas. Mayal" hidden="false" collective="false" import="true" targetId="518c-5b40-e21f-57a0" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -5514,6 +5499,100 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
             <entryLink id="5ba6-3502-4393-4757" name="Clave: Ogros" hidden="false" collective="false" import="true" targetId="a3b4-8f2c-0598-1640" type="selectionEntry"/>
             <entryLink id="3f31-2e93-9d54-4793" name="Clave: Reinos Ogros" hidden="false" collective="false" import="true" targetId="d0b7-ad28-15a7-11d6" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="95d2-8bb8-1bcd-3696" name="Equipo de Golgfag" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7272-cc48-a76e-3635" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec57-84fd-5f94-a616" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4a19-8d0a-c666-8e2a" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1b9-5aa5-0af6-8b6f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23b8-f5a1-101b-7194" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c5ab-d2e1-8727-c5c3" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ebf-a776-4775-5f8a" name="Mazas ogras emparejadas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fbc-8afa-24d5-dc6a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c00f-039b-4712-4002" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="eb69-b3ac-66fe-9053" name="Mazas ogras emparejadas" hidden="false" targetId="5f89-83db-4c45-206e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1cdd-fce9-c93d-5974" name="Protegetripas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="565f-b0ac-777f-48be" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb45-bae7-2d2c-e2de" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9b42-0fb0-f841-44cf" name="Protegetripas" hidden="false" targetId="4434-af16-e0a0-4485" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5e8d-34ef-7105-d3d0" name="Equipo de Skaff" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e497-c382-172b-4df9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a51-a946-3f80-4a9b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3cac-cff3-a655-8159" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3504-d814-3f27-1ecd" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="808f-9bc6-fd08-a860" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b799-366f-c87f-fc8d" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b578-eddb-9193-836b" name="Maza ogra" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9539-e1ef-c7aa-b396" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c13e-3334-8f0a-5b3e" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bb47-f978-d546-3ace" name="Maza ogra" hidden="false" targetId="a333-607d-ca5a-c228" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3fae-0ba3-2567-286b" name="Protegetripas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="672f-242d-8191-47b8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfda-4331-f5ab-a215" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d4b4-7bc4-6427-3f54" name="Protegetripas" hidden="false" targetId="4434-af16-e0a0-4485" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -7266,31 +7345,38 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ecce-0495-23d9-1035" name="Pistola ballesta" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="00d8-75d6-03db-a700" name="Pistola ballesta" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f34-59ce-ca1b-288f" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a4-ef94-5077-12b2" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc1d-cb7a-bff4-afde" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d77-cf31-79e6-db6d" type="min"/>
               </constraints>
               <profiles>
-                <profile id="8f57-94df-cdbe-fe9e" name="Pistola ballesta (Disparo)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
+                <profile id="c261-2ffc-9abd-782b" name="Pistola ballesta (Disparo)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
                   <characteristics>
-                    <characteristic name="Rango" typeId="52616e676523232344415441232323">12&quot;</characteristic>
+                    <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
                     <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">3</characteristic>
-                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Disparos múltiples (3), Disparo rápido.</characteristic>
+                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Disparo Rápido, Disparos Múltiples (2), Descarga</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="68c5-51c9-aaa7-065b" name="Pistola ballesta (Combate)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
+                <profile id="9e3f-565e-c254-40df" name="Pistola ballesta (Combate)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
                   <characteristics>
                     <characteristic name="Rango" typeId="52616e676523232344415441232323">Combate</characteristic>
                     <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">3</characteristic>
-                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Arma de mano adicional</characteristic>
+                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Arma de mano adicional, Descarga, Arma improvisada</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <rules>
+                <rule id="85a5-70af-5997-1636" name="Arma improvisada" hidden="false">
+                  <description>No se puede realizar Parada al atacar en combate cuerpo a cuerpo con Arma de mano y Pistola 
+ballesta. </description>
+                </rule>
+              </rules>
               <infoLinks>
-                <infoLink id="ed03-2e1b-1f03-16ec" name="Disparos múltiples (3)" hidden="false" targetId="37f9-b9ff-09a3-3dba" type="rule"/>
-                <infoLink id="70e6-0b4f-b8f3-b2a3" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
-                <infoLink id="0fa0-5dad-aa30-9ffb" name="Disparo rápido" hidden="false" targetId="e198-cb4f-6dfc-1dcc" type="rule"/>
+                <infoLink id="5cb3-0e88-83bd-95b0" name="Disparos múltiples (2)" hidden="false" targetId="f150-3b7d-99ed-c809" type="rule"/>
+                <infoLink id="94a0-3ca3-8775-252f" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
+                <infoLink id="2fd0-7124-a71f-16a5" name="Disparo rápido" hidden="false" targetId="e198-cb4f-6dfc-1dcc" type="rule"/>
+                <infoLink id="7d4c-425f-60e4-1a48" name="Descarga" hidden="false" targetId="62ba-e386-90a3-26f0" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -9955,7 +10041,11 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
           </constraints>
           <entryLinks>
             <entryLink id="d40f-9601-f34d-1418" name="Clave: Caos" hidden="false" collective="false" import="true" targetId="7859-8066-fb2b-c7c8" type="selectionEntry"/>
-            <entryLink id="e07d-fbfb-bd10-e32c" name="Clave: Demonios" hidden="false" collective="false" import="true" targetId="4a61-1669-1a16-2354" type="selectionEntry"/>
+            <entryLink id="e07d-fbfb-bd10-e32c" name="Clave: Demonios" hidden="false" collective="false" import="true" targetId="4a61-1669-1a16-2354" type="selectionEntry">
+              <modifiers>
+                <modifier type="append" field="name" value="(Sólo gargolas)"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="8426-f8eb-3f65-4f61" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry">
               <modifiers>
                 <modifier type="append" field="name" value="(Sólo Barda)"/>

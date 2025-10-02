@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b824-aacc-6637-fa81" name="Renombre">
       <characteristicTypes>
@@ -13332,7 +13332,7 @@ D6	Resultado (Agarrar y...)
           <description>Una miniatura que Odie podrá repetir los resultados de 1 obtenidos en sus tiradas para impactar en combate cuerpo a cuerpo contra aquellos a quienes odie.</description>
         </rule>
         <rule id="7e56-6e15-7900-246b" name="Plegarias (sólo Chronus)" hidden="false">
-          <description>Puede lanzar una de las siguientes plegarias durante cada una de sus fases de magia con nivel de energía 3.
+          <description>Chronus Goodheart tiene la regla especial Sacerdote. Puede lanzar una de las siguientes plegarias durante cada una de sus fases de magia con nivel de energía 3.
 -Curación: Se trata de un hechizo de Potenciación que toma como objetivo a una única miniatura a 6” o menos del lanzador. La plegaria cura una herida al objetivo.
 -Coraje: Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos del lanzador y Permanece un turno. Por la duración de la plegaria, la unidad objetivo obtiene la regla especial Tozudez. 
 -Justicia: Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos del lanzador y Permanece un turno. Por la duración de la plegaria, la unidad objetivo obtiene un bonificador de +1 a su Fuerza y la regla especial Ataques mágicos.
@@ -13352,7 +13352,7 @@ D6	Resultado (Agarrar y...)
         </infoLink>
         <infoLink id="6ba8-5608-55c2-f5b1" name="¡Ni por todo el oro del mundo!" hidden="false" targetId="6da6-0f56-952b-fcf0" type="rule">
           <modifiers>
-            <modifier type="append" field="name" value="(Caos, No muertos, Demonios)"/>
+            <modifier type="append" field="name" value="(Caos, No muertos, Caos)"/>
           </modifiers>
         </infoLink>
         <infoLink id="397f-3b96-c09a-25d0" name="Sacerdote" hidden="false" targetId="1fc6-22eb-3dba-dae7" type="rule">
@@ -18717,23 +18717,30 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
               <profiles>
                 <profile id="7f18-3c57-a352-8fae" name="Pistola ballesta (Disparo)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
                   <characteristics>
-                    <characteristic name="Rango" typeId="52616e676523232344415441232323">12&quot;</characteristic>
+                    <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
                     <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">3</characteristic>
-                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Disparos múltiples (3), Disparo rápido.</characteristic>
+                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Disparo Rápido, Disparos Múltiples (2), Descarga</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="0cbd-4d6a-1dd9-343c" name="Pistola ballesta (Combate)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
                   <characteristics>
                     <characteristic name="Rango" typeId="52616e676523232344415441232323">Combate</characteristic>
                     <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">3</characteristic>
-                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Arma de mano adicional</characteristic>
+                    <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Arma de mano adicional, Descarga, Arma improvisada</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <rules>
+                <rule id="b3f6-db26-509e-4be9" name="Arma improvisada" hidden="false">
+                  <description>No se puede realizar Parada al atacar en combate cuerpo a cuerpo con Arma de mano y Pistola 
+ballesta. </description>
+                </rule>
+              </rules>
               <infoLinks>
-                <infoLink id="6eab-c760-f85b-37f6" name="Disparos múltiples (3)" hidden="false" targetId="37f9-b9ff-09a3-3dba" type="rule"/>
+                <infoLink id="6eab-c760-f85b-37f6" name="Disparos múltiples (2)" hidden="false" targetId="f150-3b7d-99ed-c809" type="rule"/>
                 <infoLink id="ce73-6cd1-d8d2-cf6f" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
                 <infoLink id="83d1-ab3e-ca25-a4ff" name="Disparo rápido" hidden="false" targetId="e198-cb4f-6dfc-1dcc" type="rule"/>
+                <infoLink id="40d9-0e39-cc89-e6c1" name="Descarga" hidden="false" targetId="62ba-e386-90a3-26f0" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -19628,7 +19635,11 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
           </constraints>
           <entryLinks>
             <entryLink id="9d32-4e3f-8d60-95fc" name="Clave: Caos" hidden="false" collective="false" import="true" targetId="7859-8066-fb2b-c7c8" type="selectionEntry"/>
-            <entryLink id="a832-4b23-b093-d805" name="Clave: Demonios" hidden="false" collective="false" import="true" targetId="4a61-1669-1a16-2354" type="selectionEntry"/>
+            <entryLink id="a832-4b23-b093-d805" name="Clave: Demonios" hidden="false" collective="false" import="true" targetId="4a61-1669-1a16-2354" type="selectionEntry">
+              <modifiers>
+                <modifier type="append" field="name" value="(Sólo gargolas)"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="61e1-ef59-f1c2-fcf5" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry">
               <modifiers>
                 <modifier type="append" field="name" value="(Sólo Barda)"/>
@@ -20028,7 +20039,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
       </constraints>
       <rules>
         <rule id="0201-98e5-86e4-8e29" name="Montaraces" hidden="false">
-          <description>Los Cerveceros de Bugman tienen la regla especial Vanguardia. Además, ignoran la regla especial Mover o disparar de sus armas de proyectiles.</description>
+          <description>Los Montaraces ignoran la regla especial Mover o disparar de sus armas de proyectiles. Además, al inicio de la batalla, antes del despliegue, elige entre las reglas especiales Vanguardia o Exploradores: los Montaraces obtendrán esa regla especial.</description>
         </rule>
         <rule id="5fbe-d078-8794-b0ab" name="Odio (Pielesverdes y Skavens)" hidden="false">
           <description>Una miniatura que Odie podrá repetir los resultados de 1 obtenidos en sus tiradas para impactar en combate cuerpo a cuerpo contra aquellos a quienes odie.</description>
@@ -20062,7 +20073,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
         <selectionEntry id="0fd2-c36f-e67f-eda2" name="Los cerveceros de Bugman" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48d6-cb93-17c1-c301" type="max"/>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f442-026d-11e0-7cbc" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f442-026d-11e0-7cbc" type="min"/>
           </constraints>
           <profiles>
             <profile id="be1d-f8e4-4ebb-8de0" name="Cervecero" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -20083,7 +20094,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="16.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c30a-7fe1-45d0-ada0" name="Equipo cerveceros" hidden="false" collective="false" import="true" type="upgrade">
@@ -20181,7 +20192,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="167.0"/>
+            <cost name="pts" typeId="points" value="230.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e2b3-feca-1ebd-1267" name="Equipo Jorj Ruddle" hidden="false" collective="false" import="true" type="upgrade">
@@ -20533,13 +20544,13 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a2-91cb-363a-6e67" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="2850-959b-afd2-92a7" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2850-959b-afd2-92a7" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa2-12ea-b495-b388" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30ac-b187-65b6-9393" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="854d-00ea-cfcf-53a2" name="Armadura ligera" hidden="false" targetId="44f2-32d5-23eb-62f5" type="profile"/>
+                <infoLink id="854d-00ea-cfcf-53a2" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -20557,13 +20568,13 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e31e-dd5e-1c99-8f55" name="Protegetripas" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1f5f-61be-e8dc-9792" name="Protegetripas" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fde-86ab-58bf-58a2" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3d2-d21d-4aa2-b830" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4bf-b334-f375-7e01" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d88b-0f0a-8d33-8431" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="da54-a69a-0b8d-04c8" name="Protegetripas" hidden="false" targetId="0716-5750-5439-839a" type="profile"/>
+                <infoLink id="fc59-9180-ff8f-6055" name="Protegetripas" hidden="false" targetId="0716-5750-5439-839a" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -20667,6 +20678,14 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
                     </entryLink>
                     <entryLink id="dd02-e635-c893-aa74" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink id="873e-cd41-5ae7-7e2e" name="Armas mágicas. Mercenarios. Arma de mano" hidden="false" collective="false" import="true" targetId="9b34-bc4c-18e7-6853" type="selectionEntryGroup"/>
+                    <entryLink id="bfcd-4a36-eeea-e2f4" name="Armas mágicas. Alabarda" hidden="false" collective="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
+                    <entryLink id="fa0e-6cc0-5fc7-eae5" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
+                    <entryLink id="f52c-a1c1-b424-e926" name="Armas mágicas. Lanza" hidden="false" collective="false" import="true" targetId="d8b7-876d-b68d-3fb1" type="selectionEntryGroup"/>
+                    <entryLink id="f8d2-87cb-0716-c7d8" name="Armas mágicas. Mangual" hidden="false" collective="false" import="true" targetId="a1a5-7361-b444-3054" type="selectionEntryGroup"/>
+                    <entryLink id="e5f7-c4ce-3752-d202" name="Armas mágicas. Mayal" hidden="false" collective="false" import="true" targetId="518c-5b40-e21f-57a0" type="selectionEntryGroup"/>
+                    <entryLink id="f9a2-756a-1bb5-76c0" name="Armas mágicas. Mercenarios. Pica" hidden="false" collective="false" import="true" targetId="301b-8ce9-6e6c-3a19" type="selectionEntryGroup"/>
+                    <entryLink id="db41-1798-fd73-ad10" name="Armas mágicas de la cámara del tesoro. Arma a dos manos" hidden="false" collective="false" import="true" targetId="3366-ad56-191a-f158" type="selectionEntryGroup"/>
+                    <entryLink id="e6e4-dbb2-3c74-1788" name="Armas mágicas de la cámara del tesoro. Lanza" hidden="false" collective="false" import="true" targetId="fd02-4484-1e5f-e9e5" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -20833,6 +20852,100 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
             <entryLink id="5e95-1dc8-57d8-d359" name="Clave: Ogros" hidden="false" collective="false" import="true" targetId="a3b4-8f2c-0598-1640" type="selectionEntry"/>
             <entryLink id="d585-1631-475f-f38c" name="Clave: Reinos Ogros" hidden="false" collective="false" import="true" targetId="d0b7-ad28-15a7-11d6" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e968-8307-ebf9-d6fd" name="Equipo de Skaff" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ada0-7101-4aa9-5fab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d46-62ad-6cb4-a57a" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3224-a0f4-e990-497a" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff2-d026-0f09-df77" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11c2-45e5-31c7-d435" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2d38-b011-8c52-ff43" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ad8-e3b9-da79-b8e9" name="Maza ogra" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="186f-a3c1-b660-914e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c038-baad-f63b-3259" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8039-abf1-8476-fdb6" name="Maza ogra" hidden="false" targetId="1730-68cf-e58f-658e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4c55-f3bb-eee3-c142" name="Protegetripas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca4a-d94f-e084-d43f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c85d-4f5e-d1e9-1e14" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0676-5ea2-ff7a-b834" name="Protegetripas" hidden="false" targetId="0716-5750-5439-839a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="58b2-b540-97d4-147f" name="Equipo de Golgfag" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f164-aa50-d3fd-6257" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f383-1b4c-cddc-4285" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d447-0a0c-1f66-674c" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ae-7283-a532-da3a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c354-f9c4-82f6-8413" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8b9a-fad5-0bb9-7c62" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="264a-c8ce-29b5-f753" name="Mazas ogras emparejadas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d373-4141-de03-05ff" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edc5-e675-27ac-5865" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c750-908a-9dd1-f2d6" name="Mazas ogras emparejadas" hidden="false" targetId="7ddc-d90f-0a3b-831f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b20c-7303-6539-b7d8" name="Protegetripas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f284-159c-55db-226e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45d4-db60-c25b-8da8" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6b4c-4f9f-d896-4131" name="Protegetripas" hidden="false" targetId="0716-5750-5439-839a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -24713,7 +24826,7 @@ D6 	Tabla de animosidad hobgoblin
         <infoLink id="2475-853f-c657-1b49" name="Mercenario" hidden="false" targetId="f693-0c5c-49bd-91e7" type="rule"/>
         <infoLink id="f2c3-dbfb-5263-583b" name="¡Ni por todo el oro del mundo!" hidden="false" targetId="6da6-0f56-952b-fcf0" type="rule">
           <modifiers>
-            <modifier type="append" field="name" value="(Elfos oscuros, No muertos y Demonios)"/>
+            <modifier type="append" field="name" value="(Elfos oscuros, No muertos y Caos)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -40366,7 +40479,8 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
           <description>La Sacerdotisa obtiene la regla Regeneración (4+), que no puede ser mejorada de ninguna forma. Adicionalmente, la unidad en la que se incluya obtendrá la regla especial Regeneración (6+).</description>
         </rule>
         <rule id="9afa-5b80-e725-7375" name="Icono de pureza" hidden="false">
-          <description>La Sacerdotisa de Shallya tiene la regla especial Resistencia Mágica (1) contra hechizos del viento de Magia Oscura.</description>
+          <description>La Sacerdotisa de Shallya tiene la regla especial Resistencia mágica (1) contra hechizos del Viento 
+de Magia Oscura.</description>
         </rule>
         <rule id="90e9-4b33-8a42-3a40" name="Sin ambición" hidden="false">
           <description>No puede ser el General del ejército.</description>

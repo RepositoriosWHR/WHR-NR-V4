@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12e6-0f80-9cd0-64b7" name="Tierras del Sur" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12e6-0f80-9cd0-64b7" name="Tierras del Sur" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a95c-4240-95e5-631c" name="Destino ancestral">
       <characteristicTypes>
@@ -205,26 +205,6 @@
           <selectionEntries>
             <selectionEntry id="9e1c-3823-85ce-beb1" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="0abb-09cf-81ef-dd95" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="832e-9fcb-4ea0-15a8" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="0abb-09cf-81ef-dd95" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="832e-9fcb-4ea0-15a8" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="0abb-09cf-81ef-dd95" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="832e-9fcb-4ea0-15a8" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="0abb-09cf-81ef-dd95" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="832e-9fcb-4ea0-15a8" type="atLeast"/>
-                  </conditions>
-                </modifier>
                 <modifier type="increment" field="points" value="0.5">
                   <repeats>
                     <repeat field="selections" scope="832e-9fcb-4ea0-15a8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fa64-beee-5a64-afdd" repeats="1" roundUp="false"/>
@@ -233,7 +213,6 @@
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1481-99c9-4258-f02c" type="max"/>
-                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0abb-09cf-81ef-dd95" type="max"/>
               </constraints>
               <rules>
                 <rule id="ef11-ea5c-c218-51f4" name="Desove sagrado de Sotek" hidden="false">
@@ -530,7 +509,6 @@
         <infoLink id="60f3-1209-69c2-3a30" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
         <infoLink id="db1f-6a73-2c33-ebed" name="Cruzar (elementos acuáticos)" hidden="false" targetId="69a7-ed40-a2f9-bea4" type="rule"/>
         <infoLink id="d816-fb54-f213-3354" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
-        <infoLink id="acbf-059b-2744-16ce" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="140b-970c-2959-85cd" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
@@ -699,6 +677,42 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
+            <selectionEntryGroup id="093c-4663-473f-d4ef" name="Especial" hidden="false" collective="false" import="true" defaultSelectionEntryId="7510-a884-f322-e331">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b18-20a1-d0e2-1551" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="7510-a884-f322-e331" name="Vanguardia" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="faa3-60ec-9808-6d9c" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="549a-6f0b-6939-ad3f" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ea06-3f9c-7554-fd7e" name="Exploradores" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="points" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="fe0d-e3f5-46b7-b3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a127-6a51-0d62-637e" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3c2-4e50-e49f-b790" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="45c1-d1a6-21e2-9ac7" name="Exploradores" hidden="false" targetId="462e-27b4-5c07-747d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
         <selectionEntryGroup id="3102-963e-4002-c20b" name="Desoves Sagrados" hidden="false" collective="false" import="true">
@@ -708,26 +722,6 @@
           <selectionEntries>
             <selectionEntry id="e572-cada-e694-38dc" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="8836-1484-665a-e35c" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe0d-e3f5-46b7-b3ef" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="8836-1484-665a-e35c" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe0d-e3f5-46b7-b3ef" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="8836-1484-665a-e35c" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe0d-e3f5-46b7-b3ef" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="8836-1484-665a-e35c" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe0d-e3f5-46b7-b3ef" type="atLeast"/>
-                  </conditions>
-                </modifier>
                 <modifier type="increment" field="points" value="0.5">
                   <repeats>
                     <repeat field="selections" scope="fe0d-e3f5-46b7-b3ef" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a127-6a51-0d62-637e" repeats="1" roundUp="false"/>
@@ -736,7 +730,6 @@
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e072-2891-607a-c744" type="max"/>
-                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8836-1484-665a-e35c" type="max"/>
               </constraints>
               <rules>
                 <rule id="d29f-e30d-6b1b-120b" name="Desove sagrado de Sotek" hidden="false">
@@ -1416,26 +1409,6 @@
           <selectionEntries>
             <selectionEntry id="8d42-93b7-9c37-af4f" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="2700-4e5e-e6b1-1281" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27f3-ef38-ab5b-dd69" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="2700-4e5e-e6b1-1281" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27f3-ef38-ab5b-dd69" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="2700-4e5e-e6b1-1281" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27f3-ef38-ab5b-dd69" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="2700-4e5e-e6b1-1281" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27f3-ef38-ab5b-dd69" type="atLeast"/>
-                  </conditions>
-                </modifier>
                 <modifier type="increment" field="points" value="0.5">
                   <repeats>
                     <repeat field="selections" scope="27f3-ef38-ab5b-dd69" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d334-ae09-7297-1f87" repeats="1" roundUp="false"/>
@@ -1444,7 +1417,6 @@
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1777-da2d-1deb-37f2" type="max"/>
-                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2700-4e5e-e6b1-1281" type="max"/>
               </constraints>
               <rules>
                 <rule id="af30-714d-a8f6-3160" name="Desove sagrado de Sotek" hidden="false">
@@ -2122,26 +2094,6 @@
           <selectionEntries>
             <selectionEntry id="41db-2142-2913-ace3" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="b840-1001-d8d3-5751" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a18d-3253-43bb-06b8" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="b840-1001-d8d3-5751" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a18d-3253-43bb-06b8" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="b840-1001-d8d3-5751" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a18d-3253-43bb-06b8" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="b840-1001-d8d3-5751" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a18d-3253-43bb-06b8" type="atLeast"/>
-                  </conditions>
-                </modifier>
                 <modifier type="increment" field="points" value="0.5">
                   <repeats>
                     <repeat field="selections" scope="a18d-3253-43bb-06b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96ee-b218-9b55-cc22" repeats="1" roundUp="false"/>
@@ -2150,7 +2102,6 @@
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6181-5579-9ce0-d962" type="max"/>
-                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b840-1001-d8d3-5751" type="max"/>
               </constraints>
               <rules>
                 <rule id="2cf7-0d3a-633c-4cde" name="Desove sagrado de Sotek" hidden="false">
@@ -3468,6 +3419,15 @@ salvación del Bastiodón. Su Potencia de unidad es de 10. </description>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="5c48-b8de-e277-0711" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" targetId="932a-fd7c-f9fe-57f0" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4458,21 +4418,8 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </constraints>
               <selectionEntries>
                 <selectionEntry id="cbbb-84e9-45af-bd2e" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="6716-e9c1-0fbf-bf5e" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4f51-a5a1-aedd-6d21" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="6716-e9c1-0fbf-bf5e" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4f51-a5a1-aedd-6d21" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d1d-23ed-7956-d786" type="max"/>
-                    <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6716-e9c1-0fbf-bf5e" type="max"/>
                   </constraints>
                   <rules>
                     <rule id="1a24-6260-2fe8-7697" name="Desove sagrado de Sotek" hidden="false">
@@ -4982,6 +4929,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                     <entryLink id="b177-7917-4b5a-25bc" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
                     <entryLink id="42ad-5e44-4134-ba9f" name="Artefactos arcanos. Orden" hidden="false" collective="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup"/>
                     <entryLink id="681e-8aa7-d099-262b" name="Artefactos arcanos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="55a1-4233-6114-a06f" type="selectionEntryGroup"/>
+                    <entryLink id="9d31-6da0-6530-012f" name="Artefactos arcanos. Las tierras del sur. Eslizones" hidden="false" collective="false" import="true" targetId="7f1a-f91c-a6c1-4682" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5008,6 +4956,8 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                   <entryLinks>
                     <entryLink id="06e7-b952-099e-1257" name="Armas mágicas. Reliquias. Arma de mano" hidden="false" collective="false" import="true" targetId="6ac5-e7fd-42b0-198b" type="selectionEntryGroup"/>
                     <entryLink id="0223-3315-7235-10fb" name="Armas mágicas. Reliquias. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="f1e5-3b95-cb7a-bb42" type="selectionEntryGroup"/>
+                    <entryLink id="e392-38d9-34b4-d1e0" name="Armas mágicas. Reliquias. Las tierras del sur. Armas emparejadas" hidden="false" collective="false" import="true" targetId="89aa-f7c0-cd05-4013" type="selectionEntryGroup"/>
+                    <entryLink id="8aae-4c30-84a3-e039" name="Armas mágicas. Reliquias. Las tierras del sur. Arma de mano. Eslizones" hidden="false" collective="false" import="true" targetId="f651-b54d-5a26-3904" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="6dde-7146-e23d-79f7" name="Objetos hechizados. Reliquias" hidden="false" collective="false" import="true">
@@ -5055,31 +5005,8 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </constraints>
               <selectionEntries>
                 <selectionEntry id="2232-af35-cbb6-cf03" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="f5ae-7d74-6980-eea9" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1f7-5008-2b14-a7b0" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="f5ae-7d74-6980-eea9" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1f7-5008-2b14-a7b0" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="f5ae-7d74-6980-eea9" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1f7-5008-2b14-a7b0" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="f5ae-7d74-6980-eea9" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1f7-5008-2b14-a7b0" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c15-58ce-9346-9a23" type="max"/>
-                    <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5ae-7d74-6980-eea9" type="max"/>
                   </constraints>
                   <rules>
                     <rule id="cf94-3ec0-7c02-bd2c" name="Desove sagrado de Sotek" hidden="false">
@@ -5388,20 +5315,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               <entryLinks>
                 <entryLink id="2f83-2e42-b379-5b34" name="Destinos ancestrales" hidden="false" collective="false" import="true" targetId="4424-3735-e486-02a7" type="selectionEntryGroup"/>
                 <entryLink id="ed4a-b50c-4f5d-9c2a" name="Destinos ancestrales. Cacique eslizón" hidden="false" collective="false" import="true" targetId="aaec-02fd-2323-2d49" type="selectionEntryGroup"/>
-                <entryLink id="bb58-c9bc-bd5b-bdf9" name="Destinos ancestrales. Comandante con desove Zlatlan" hidden="false" collective="false" import="true" targetId="0b15-8773-7ac8-972a" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="c1f7-5008-2b14-a7b0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2a85-a548-35c4-3165" type="equalTo"/>
-                            <condition field="selections" scope="c1f7-5008-2b14-a7b0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03ad-f9fa-9791-c9e1" type="equalTo"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
+                <entryLink id="bb58-c9bc-bd5b-bdf9" name="Destinos ancestrales. Jefes Eslizón y Caciques Eslizón" hidden="false" collective="false" import="true" targetId="0b15-8773-7ac8-972a" type="selectionEntryGroup"/>
                 <entryLink id="721e-3407-a52e-7cc0" name="Destinos ancestrales. Infantería" hidden="false" collective="false" import="true" targetId="ed61-1ab3-983d-ee56" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
@@ -6028,7 +5942,8 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                   <entryLinks>
                     <entryLink id="686a-f8a1-50fb-2009" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
                     <entryLink id="7a2e-a5eb-ca63-ef7d" name="Artefactos arcanos. Personajes del Orden" hidden="false" collective="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup"/>
-                    <entryLink id="e5d3-9918-bc31-6b35" name="Artefactos arcanos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="55a1-4233-6114-a06f" type="selectionEntryGroup"/>
+                    <entryLink id="e5d3-9918-bc31-6b35" name="Artefactos arcanos. Las tierras del sur. Eslizones" hidden="false" collective="false" import="true" targetId="7f1a-f91c-a6c1-4682" type="selectionEntryGroup"/>
+                    <entryLink id="3250-828a-552c-112c" name="Artefactos arcanos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="55a1-4233-6114-a06f" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="af0f-12df-1c78-f938" name="Armas mágicas" hidden="false" collective="false" import="true">
@@ -6130,7 +6045,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="fb68-b8a9-0cb9-aad3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03ad-f9fa-9791-c9e1" type="equalTo"/>
+                            <condition field="selections" scope="fb68-b8a9-0cb9-aad3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03ad-f9fa-9791-c9e1" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -6152,6 +6067,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                   <entryLinks>
                     <entryLink id="58db-173f-53e8-83af" name="Artefactos arcanos. Reliquias" hidden="false" collective="false" import="true" targetId="8c61-ba9b-87c0-eef1" type="selectionEntryGroup"/>
                     <entryLink id="28ae-410d-db46-ff4e" name="Artefactos arcanos. Reliquias. Las tierras del sur" hidden="false" collective="false" import="true" targetId="7332-6085-5d24-2ef9" type="selectionEntryGroup"/>
+                    <entryLink id="9bdc-2a78-fa92-c745" name="Artefactos arcanos. Reliquias. Las tierras del sur. Eslizones" hidden="false" collective="false" import="true" targetId="b0c7-4b2f-3761-d6fd" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="03f8-079d-0ae0-d919" name="Armas mágicas. Reliquias" hidden="false" collective="false" import="true">
@@ -6285,6 +6201,11 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </entryLink>
+                <entryLink id="a46b-da59-7d2d-f445" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" targetId="932a-fd7c-f9fe-57f0" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="3.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -6407,20 +6328,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               <entryLinks>
                 <entryLink id="bd81-d0c7-0f06-c6d1" name="Destinos ancestrales" hidden="false" collective="false" import="true" targetId="4424-3735-e486-02a7" type="selectionEntryGroup"/>
                 <entryLink id="d79b-8956-0d11-4e4d" name="Destinos ancestrales. Hechiceros" hidden="false" collective="false" import="true" targetId="b38e-82eb-8fb8-a269" type="selectionEntryGroup"/>
-                <entryLink id="51d1-b24b-2a4e-30b4" name="Destinos ancestrales. Comandante con desove Zlatlan" hidden="false" collective="false" import="true" targetId="0b15-8773-7ac8-972a" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="fb68-b8a9-0cb9-aad3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4fa3-ebce-14ed-9388" type="equalTo"/>
-                            <condition field="selections" scope="fb68-b8a9-0cb9-aad3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03ad-f9fa-9791-c9e1" type="equalTo"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
                 <entryLink id="60dc-5818-6626-20ca" name="Destinos ancestrales. Infantería" hidden="false" collective="false" import="true" targetId="ed61-1ab3-983d-ee56" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
@@ -6953,21 +6860,8 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </constraints>
               <selectionEntries>
                 <selectionEntry id="f075-ae22-2e71-79b4" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="6daf-d55b-43ce-7f0a" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="65e2-2ca4-7456-d8cf" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="6daf-d55b-43ce-7f0a" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="65e2-2ca4-7456-d8cf" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9613-59e3-e882-b09d" type="max"/>
-                    <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6daf-d55b-43ce-7f0a" type="max"/>
                   </constraints>
                   <rules>
                     <rule id="d0e8-9411-6695-7185" name="Desove sagrado de Sotek" hidden="false">
@@ -7403,48 +7297,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5afd-9fef-24b0-2458" name="Destinos ancestrales" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c22-554d-28b1-a2d1" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="a179-895b-ff4a-06a4" name="Destinos ancestrales" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf6-6fd2-6d8a-f2cb" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="7662-5c48-a273-2ecd" name="Destinos ancestrales" hidden="false" collective="false" import="true" targetId="4424-3735-e486-02a7" type="selectionEntryGroup"/>
-                <entryLink id="1137-1f2d-9e6a-b969" name="Destinos ancestrales. Hechiceros" hidden="false" collective="false" import="true" targetId="b38e-82eb-8fb8-a269" type="selectionEntryGroup"/>
-                <entryLink id="c742-38aa-009f-811c" name="Destinos ancestrales. Infantería" hidden="false" collective="false" import="true" targetId="ed61-1ab3-983d-ee56" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="d6ea-9efc-e28d-ddf7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7222-547c-e2f5-4022" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-                <entryLink id="c8a4-b42e-2033-50de" name="Destinos ancestrales. Comandante con desove Zlatlan" hidden="false" collective="false" import="true" targetId="0b15-8773-7ac8-972a" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="d6ea-9efc-e28d-ddf7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="683e-c248-6da9-c55c" type="equalTo"/>
-                            <condition field="selections" scope="d6ea-9efc-e28d-ddf7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03ad-f9fa-9791-c9e1" type="equalTo"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="a070-2d8d-22ab-ce4b" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1f-db60-7e73-7098" type="max"/>
@@ -7546,6 +7398,11 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                 <entryLink id="6437-2a0f-d20c-56c3" name="Desove sagrado de Xoloc" hidden="false" collective="false" import="true" targetId="caad-5a0b-9b51-70b7" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0d68-3384-8525-7f38" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" targetId="932a-fd7c-f9fe-57f0" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="3.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -8033,20 +7890,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink id="8f86-26ec-326d-ea1c" name="Destinos ancestrales. Comandante con desove Zlatlan" hidden="false" collective="false" import="true" targetId="0b15-8773-7ac8-972a" type="selectionEntryGroup">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="92ec-5164-47ba-9699" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="59d1-73fb-320c-f1e3" type="equalTo"/>
-                            <condition field="selections" scope="92ec-5164-47ba-9699" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03ad-f9fa-9791-c9e1" type="equalTo"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
-                </entryLink>
+                <entryLink id="8f86-26ec-326d-ea1c" name="Destinos ancestrales. Jefes Eslizón y Caciques Eslizón" hidden="false" collective="false" import="true" targetId="0b15-8773-7ac8-972a" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -8079,31 +7923,8 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </constraints>
               <selectionEntries>
                 <selectionEntry id="3df4-3b6b-fce2-587c" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="c169-47c8-9939-cffa" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="92ec-5164-47ba-9699" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="c169-47c8-9939-cffa" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="92ec-5164-47ba-9699" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="c169-47c8-9939-cffa" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="92ec-5164-47ba-9699" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="c169-47c8-9939-cffa" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="92ec-5164-47ba-9699" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c76-83f3-1756-b88e" type="max"/>
-                    <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c169-47c8-9939-cffa" type="max"/>
                   </constraints>
                   <rules>
                     <rule id="17af-0124-b626-ef84" name="Desove sagrado de Sotek" hidden="false">
@@ -8894,18 +8715,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="123b-28fe-1b80-4617" name="Guardianes gélidos" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="9b44-710e-9d52-717b" value="6.0">
-              <conditions>
-                <condition field="selections" scope="5601-d42a-3824-6891" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e85b-5c2f-05f7-d67d" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="8a48-5b9d-a380-320c" value="3.0">
-              <conditions>
-                <condition field="selections" scope="5601-d42a-3824-6891" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e85b-5c2f-05f7-d67d" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b44-710e-9d52-717b" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a48-5b9d-a380-320c" type="min"/>
@@ -9026,7 +8835,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <selectionEntries>
             <selectionEntry id="112a-7775-d863-e2da" name="Lanza" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="2.0">
+                <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="5601-d42a-3824-6891" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="123b-28fe-1b80-4617" repeats="1" roundUp="false"/>
                   </repeats>
@@ -9037,30 +8846,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </constraints>
               <infoLinks>
                 <infoLink id="2e02-29c6-ed87-7f07" name="Lanza (caballería)" hidden="false" targetId="e9f6-2800-5d9c-a7c4" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e85b-5c2f-05f7-d67d" name="Patrulleros de la jungla" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="2.0">
-                  <repeats>
-                    <repeat field="selections" scope="5601-d42a-3824-6891" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="123b-28fe-1b80-4617" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4338-8ce1-c647-8c21" type="max"/>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bcb9-f885-808b-1a70" type="max"/>
-              </constraints>
-              <rules>
-                <rule id="7521-4d5e-0e47-2bcd" name="Patrulleros de la jungla" hidden="false">
-                  <description>La unidad no podrá tener portaestandarte y verá reducido su tamaño de unidad a 3-6, aunque obtiene la regla especial Caballería rápida y la conservará pese a su elevada tirada de salvación por armadura. Un único personaje montado en Gélido que sea desplegado junto a la unidad al comienzo de la batalla obtendrá este beneficio, aunque no podrá abandonar la unidad. </description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="03ff-2af0-1261-2293" name="Caballería rápida" hidden="false" targetId="0b7e-2a08-2b5a-51d7" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -9086,7 +8871,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             </selectionEntry>
             <selectionEntry id="f34c-7b6f-2ac4-d139" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="2.0">
+                <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="5601-d42a-3824-6891" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="123b-28fe-1b80-4617" repeats="1" roundUp="false"/>
                   </repeats>
@@ -9104,7 +8889,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             </selectionEntry>
             <selectionEntry id="767e-f21a-593f-5c83" name="Jabalina" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="points" value="2.0">
+                <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="5601-d42a-3824-6891" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="123b-28fe-1b80-4617" repeats="1" roundUp="false"/>
                   </repeats>
@@ -9115,6 +8900,24 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </constraints>
               <infoLinks>
                 <infoLink id="f880-79a0-55c8-224b" name="Jabalina" hidden="false" targetId="a629-6d4b-3e74-7ff7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4db2-8670-c82d-7703" name="Lanza de caballería" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="2.0">
+                  <repeats>
+                    <repeat field="selections" scope="5601-d42a-3824-6891" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="123b-28fe-1b80-4617" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db2d-339e-32bf-0f55" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e523-2cf3-763b-37e1" name="Lanza de caballería" hidden="false" targetId="63b9-4a42-e114-14f5" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -9218,13 +9021,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </costs>
             </selectionEntry>
             <selectionEntry id="c8f4-e6dc-3e94-4032" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="5601-d42a-3824-6891" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e85b-5c2f-05f7-d67d" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c69-7fa1-d14f-74c5" type="max"/>
               </constraints>
@@ -9254,26 +9050,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <selectionEntries>
             <selectionEntry id="e66b-2a03-2f3e-a495" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="7114-a861-8e6d-e0bc" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5601-d42a-3824-6891" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="7114-a861-8e6d-e0bc" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5601-d42a-3824-6891" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="7114-a861-8e6d-e0bc" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5601-d42a-3824-6891" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="7114-a861-8e6d-e0bc" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5601-d42a-3824-6891" type="atLeast"/>
-                  </conditions>
-                </modifier>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="5601-d42a-3824-6891" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="123b-28fe-1b80-4617" repeats="1" roundUp="false"/>
@@ -9282,7 +9058,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e34-c349-104c-a7a4" type="max"/>
-                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7114-a861-8e6d-e0bc" type="max"/>
               </constraints>
               <rules>
                 <rule id="a06b-5751-14f2-b8e6" name="Desove sagrado de Sotek" hidden="false">
@@ -9766,7 +9541,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               <profiles>
                 <profile id="9f20-f382-28df-cff1" name="Hueso enorme" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Arma a dos manos. Proporciona a Thoaledapa un bonificador de +1F en los turnos en los que haya realizado una carga exitosa. Además le otorga +1 Ataque y la regla especial Furia asesina, y no la perderá aunque pierda un combate.</characteristic>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Arma a dos manos. Los ataques realizados por Thoaledapa en combate cuerpo a cuerpo se resuelven con un bonificador de +1 Fuerza durante los turnos en los que haya realizado una carga exitosa. Además le otorga +1 Ataque y la regla especial Furia asesina, la cual no perderá en el caso de perder un combate.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10027,12 +9802,10 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <description>Es un hechicero de nivel 2 que conoce el hechizo identificativo de los saberes de Cielos, Luz, Bestias y Vida. No conoce otros hechizos.</description>
         </rule>
         <rule id="c72b-299c-d2ca-77d1" name="Oráculo eslizón" hidden="false">
-          <description>El Troglodón va montado por un Oráculo eslizón, que se considera un Oficial a todos los efectos. Su Potencia de unidad conjunta es de 6. El Oráculo eslizón puede ser usado por un Mago-sacerdote slann con la regla especial Telepatía como si fuese un chamán eslizón. Además, puede Canalizar dados de Energía y Dispersión. Adicionalmente, tiene la regla especial ¡Ni un paso atrás!, que afecta a todos los eslizones (de cualquier tipo) a 18” o menos del Oráculo jinete de troglodón.</description>
+          <description>La Potencia de unidad conjunta de Rom&apos;carebn es de 6. Rom&apos;carebn puede ser usado por un Mago-sacerdote slann con la regla especial Telepatía como si fuese un chamán eslizón. Además, puede Canalizar dados de Energía y Dispersión. Adicionalmente, tiene la regla especial ¡Ni un paso atrás!, que afecta a todos los eslizones (de cualquier tipo) a 18” o menos de Rom&apos;carebn.</description>
         </rule>
         <rule id="d2e9-e138-2f5e-d641" name="Escupir veneno" hidden="false">
-          <description>El troglodón puede disparar como una Catapulta con un alcance de 0-24”, Fuerza 3 y la regla especial Ataques Flamígeros. Los impactos de este disparo no permiten 
-tirada de salvación por armadura. El impacto central se resolverá del mismo modo pero con Fuerza 5. Si obtienes un resultado de problemas, en lugar de tirar en la 
-tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir veneno si mueve, pero no si marcha.</description>
+          <description>El troglodón puede disparar como una Catapulta con un alcance de 0-24”, Fuerza 3 y la regla especial Ataques Flamígeros. Los impactos de este disparo no permiten tirada de salvación por armadura. El impacto central se resolverá del mismo modo pero con Fuerza 5. Si obtienes un resultado de problemas, en lugar de tirar en la tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir veneno si mueve, pero no si marcha.</description>
         </rule>
         <rule id="b034-f908-3612-9deb" name="Rugido primitivo" hidden="false">
           <description>Una vez por batalla, al inicio de uno de tus turnos, puedes declarar que el Troglodón ruge. Todos los eslizones (de cualquier tipo) a 18” o menos del Troglodón podrán repetir sus tiradas fallidas para impactar (tanto en combate cuerpo a cuerpo como con disparos) hasta el final de ese turno de jugador.</description>
@@ -10151,7 +9924,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               <profiles>
                 <profile id="1c92-7870-4b41-ed2c" name="Vara ocular" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Cetro oracular. Proporciona a Rom&apos;carebn un bonificador de +1F en los turnos en que realice una carga así como +2I en lugar del +1 habitual por cargar. Además, Rom&apos;carebn podrá realizar un ataque adicional hasta el final del turno por cada hechizo diferente que haya lanzado exitosamente en su fase de magia.</characteristic>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Cetro oracular. Proporciona a Rom&apos;carebn un bonificador de +1 a su Fuerza en los turnos en que realice una carga exitosa, así como un bonificador de +2 a su Iniciativa en lugar del +1 habitual por cargar. Además, Rom&apos;carebn podrá realizar un ataque adicional hasta el final del turno por cada hechizo diferente que haya lanzado exitosamente en su fase de magia.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11124,6 +10897,11 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="94f0-b979-fbb3-d98d" type="max"/>
               </constraints>
+              <rules>
+                <rule id="7386-a308-9e58-c344" name="Jinetes de Estegadón" hidden="false">
+                  <description>Puedes elegir convertir a los guerreros Eslizón de la tripulación en Jinetes Guardianes Eslizón (+3 puntos por cada Eslizón del castillo). Los Guardianes Eslizón obtienen un bonificador de +1 a sus atributos de HA, HP, I y L, y la regla especial Ataques envenenados. Deberás convertir a todos los Eslizones de la dotación o a ninguno.</description>
+                </rule>
+              </rules>
               <infoLinks>
                 <infoLink id="b0f0-af8f-3565-90fa" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
@@ -11151,7 +10929,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="bb08-06b1-72dc-89ab" name="Tambor de guerra" hidden="false" collective="false" import="true" targetId="79b6-6c35-0905-0927" type="selectionEntry">
+                <entryLink id="bb08-06b1-72dc-89ab" name="Tambores de guerra" hidden="false" collective="false" import="true" targetId="79b6-6c35-0905-0927" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="20.0"/>
                   </costs>
@@ -11239,6 +11017,23 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <entryLink id="96fc-3772-2d75-4ee8" name="Desove sagrado de Zlatlan" hidden="false" collective="false" import="true" targetId="03ad-f9fa-9791-c9e1" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ae6d-9c69-754e-0cf3" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" targetId="932a-fd7c-f9fe-57f0" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="points" value="0.5">
+                  <conditions>
+                    <condition field="selections" scope="3162-2102-d345-85dd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0dd-e945-eabe-940d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="points" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="3162-2102-d345-85dd" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0dd-e945-eabe-940d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -11530,6 +11325,11 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="08f4-07f4-10cd-4ab7" type="max"/>
               </constraints>
+              <rules>
+                <rule id="f605-12da-4eaa-b6f4" name="Jinetes de Estegadón" hidden="false">
+                  <description>Puedes elegir convertir a los guerreros Eslizón de la tripulación en Jinetes Guardianes Eslizón (+3 puntos por cada Eslizón del castillo). Los Guardianes Eslizón obtienen un bonificador de +1 a sus atributos de HA, HP, I y L, y la regla especial Ataques envenenados. Deberás convertir a todos los Eslizones de la dotación o a ninguno.</description>
+                </rule>
+              </rules>
               <infoLinks>
                 <infoLink id="3e8b-0892-3eed-22d0" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
@@ -11557,7 +11357,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="ed42-fdd2-5acb-b4cc" name="Tambor de guerra" hidden="false" collective="false" import="true" targetId="79b6-6c35-0905-0927" type="selectionEntry">
+                <entryLink id="ed42-fdd2-5acb-b4cc" name="Tambores de guerra" hidden="false" collective="false" import="true" targetId="79b6-6c35-0905-0927" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="20.0"/>
                   </costs>
@@ -11645,6 +11445,23 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <entryLink id="37ae-d2ee-3c4a-1546" name="Desove sagrado de Zlatlan" hidden="false" collective="false" import="true" targetId="03ad-f9fa-9791-c9e1" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5fd1-0696-a669-103a" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" targetId="932a-fd7c-f9fe-57f0" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="points" value="0.5">
+                  <conditions>
+                    <condition field="selections" scope="5145-1958-71a7-31ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b741-3553-3374-4be3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="points" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="5145-1958-71a7-31ff" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b741-3553-3374-4be3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -12180,7 +11997,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
     <selectionEntry id="c117-5ca2-f3fb-295c" name="Estegadón anciano" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="4306-1331-88fc-30ac" name="Dotación de castillo" hidden="false">
-          <description>El Estegadón anciano está tripulado por una dotación de al menos 4 Eslizones, aunque se consideran una única miniatura. En cuerpo a cuerpo, el Estegadón anciano y la dotación pueden atacar con normalidad a cualquier miniatura en contacto peana con peana. Todos los impactos se resuelven utilizando la Resistencia, Heridas y tirada de salvación del Estegadón anciano. Usa la HP de la dotación para resolver los ataques de disparo. Utiliza el valor de Liderazgo del Estegadón anciano en lugar del de los eslizones. Su Potencia de unidad es de 10, con un bonificador de +1 por cada eslizón adicional. </description>
+          <description>El Estegadón anciano está tripulado por una dotación de al menos 4 Guardianes eslizón, aunque se consideran una única miniatura. En cuerpo a cuerpo, el Estegadón anciano y la dotación pueden atacar con normalidad a cualquier miniatura en contacto peana con peana. Todos los impactos se resuelven utilizando la Resistencia, Heridas y tirada de salvación del Estegadón anciano. Usa la HP de la dotación para resolver los ataques de disparo. Utiliza el valor de Liderazgo del Estegadón anciano en lugar del de los eslizones. Su Potencia de unidad es de 10, con un bonificador de +1 por cada eslizón adicional. </description>
         </rule>
       </rules>
       <infoLinks>
@@ -12233,7 +12050,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="255.0"/>
+            <cost name="pts" typeId="points" value="265.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e872-1fc3-41e1-5c30" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
@@ -12258,7 +12075,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">-</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">-</characteristic>
@@ -12385,7 +12202,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6fd2-1b37-4c4d-1abe" name="Opciones" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6fd2-1b37-4c4d-1abe" name="Especial" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5a5-506c-19e5-d530" type="max"/>
               </constraints>
@@ -12498,6 +12315,23 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <entryLink id="5128-062e-232c-0873" name="Desove sagrado de Zlatlan" hidden="false" collective="false" import="true" targetId="03ad-f9fa-9791-c9e1" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="508c-a7c9-45e4-25d5" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" targetId="932a-fd7c-f9fe-57f0" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="c117-5ca2-f3fb-295c" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e12c-e4bb-03fd-561e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="points" value="0.5">
+                  <conditions>
+                    <condition field="selections" scope="c117-5ca2-f3fb-295c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e12c-e4bb-03fd-561e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -12926,26 +12760,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <selectionEntries>
             <selectionEntry id="4162-7872-dea3-0457" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="a67e-1ca5-7b81-808c" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a440-7ac0-3d6d-72b4" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="a67e-1ca5-7b81-808c" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a440-7ac0-3d6d-72b4" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="a67e-1ca5-7b81-808c" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a440-7ac0-3d6d-72b4" type="atLeast"/>
-                  </conditions>
-                </modifier>
-                <modifier type="increment" field="a67e-1ca5-7b81-808c" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a440-7ac0-3d6d-72b4" type="atLeast"/>
-                  </conditions>
-                </modifier>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="a440-7ac0-3d6d-72b4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cc5-ce15-9856-4abc" repeats="1" roundUp="false"/>
@@ -12954,7 +12768,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd9f-0f5c-76ae-557a" type="max"/>
-                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a67e-1ca5-7b81-808c" type="max"/>
               </constraints>
               <rules>
                 <rule id="e39a-2c0b-31f4-2373" name="Desove sagrado de Sotek" hidden="false">
@@ -13314,6 +13127,208 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               </costs>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b626-2699-a91f-4462" name="Jinetes camaleón" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="7b78-c0d5-eb26-5e55" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7b78-c0d5-eb26-5e55" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7b78-c0d5-eb26-5e55" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="76a4-d4c6-0c2d-b558" name="Atacantes furtivos" hidden="false">
+          <description>Los Jinetes Camaleón pertenecen al Desove sagrado de Conalxa. Sin embargo, cambian su regla especial Exploradores por Emboscada. Cualquier personaje eslizón perteneciente al Desove sagrado de Conalxa que sea desplegado en esta unidad puede equiparse con Boleadoras (pese a no ir 
+montado en Terradón). Sin embargo, no puede unirse a otras unidades.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c25a-0379-fa6b-2c8a" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
+        <infoLink id="f95d-da6a-470d-40c4" name="Cruzar (elementos acuáticos)" hidden="false" targetId="69a7-ed40-a2f9-bea4" type="rule"/>
+        <infoLink id="766c-929b-1fcf-cd27" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
+        <infoLink id="ccf1-324a-8c52-4825" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
+        <infoLink id="704a-ff2e-37fd-9fc4" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(Solo jinetes)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5572-b862-ec9e-7013" name="Impactos por carga (1)" hidden="false" targetId="8de0-8a91-edee-076e" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(Gélido cornudo)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e01b-087c-589d-d14a" name="Protección por montura (1)" hidden="false" targetId="1f9d-b34a-3d89-add6" type="rule"/>
+        <infoLink id="2efa-53e9-e87a-c33e" name="Emboscada" hidden="false" targetId="205a-c2c4-c48e-44c2" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4e1d-6f95-4b8b-8399" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a013-ece2-2fdb-99b9" name="Jinete camaleón" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad8e-f806-9d77-9c0f" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e3-3eba-ed78-2942" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2a1f-68b7-802c-219a" name="Jinete camaleón" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">4</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">2</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0b7f-c4f5-9f0e-1050" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a7-bdf4-6512-0a13" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2913-f815-97c0-6e47" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b53e-be82-c61d-3dcf" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="863a-0002-131e-48f6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9811-a321-59d2-a710" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="69c4-1ac8-3e8b-5983" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d03-7835-bbc3-c99c" name="Boleadoras" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="354a-76d0-97e3-e113" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="990e-48c5-5476-b893" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5352-01ed-c427-6a46" name="Boleadoras" hidden="false" targetId="cb79-61a8-bf13-80ed" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="69fa-ac3d-898e-1ea1" name="Lanza" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee9b-4869-a4d2-85e3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6dd-d7d6-db5c-a3f2" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9aad-e025-df15-59f8" name="Lanza (caballería)" hidden="false" targetId="e9f6-2800-5d9c-a7c4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8fb8-0862-d532-30d2" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31da-b8ec-de2a-10fd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a2a-9fb1-0d35-566f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5984-157b-826a-e628" name="Clave: Eslizones" hidden="false" collective="false" import="true" targetId="9b1b-29f5-0a60-1b2a" type="selectionEntry"/>
+            <entryLink id="f8a4-759e-3737-142f" name="Clave: Hombres Lagarto" hidden="false" collective="false" import="true" targetId="0106-9538-0dac-f566" type="selectionEntry"/>
+            <entryLink id="ccc3-5291-8aa3-4984" name="Clave: Tierras del Sur" hidden="false" collective="false" import="true" targetId="6006-0ad1-a687-682d" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="766c-4d71-1f56-63f9" name="Desoves Sagrado" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1db4-61bd-80c6-9f78" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f75-5859-aaba-d79c" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1492-95ef-4e58-9d91" name="Desove sagrado de Conalxa" hidden="false" collective="false" import="true" targetId="df53-6a29-b246-ae25" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2642-e716-5b99-9186" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="df6d-ef94-eafb-f912" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f16-6b60-0c69-8bd3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2da9-a432-dabd-cfb1" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a71e-0336-595c-b4ad" name="Gélido cornudo" hidden="false" collective="false" import="true" targetId="dcc4-354c-79c9-2d83" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be3d-9dc5-a27b-2697" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8076-1730-4cb2-5880" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="53ec-3ab0-926e-843a" name="Grupo de mando" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="efe7-3edd-656c-7d2b" name="Bravo de Conalxa " hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2301-88d9-55bf-00bc" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6b18-b2a4-c671-ff37" name="Bravo de Conalxa " hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">5</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">2</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -13682,7 +13697,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink id="ab16-fa69-2955-afba" name="Tambor de guerra" hidden="false" collective="false" import="true" targetId="79b6-6c35-0905-0927" type="selectionEntry">
+                <entryLink id="ab16-fa69-2955-afba" name="Tambores de guerra" hidden="false" collective="false" import="true" targetId="79b6-6c35-0905-0927" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="20.0"/>
                   </costs>
@@ -13768,7 +13783,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">4</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">-</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">-</characteristic>
@@ -13830,7 +13845,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eec4-f3ba-b45d-7450" type="min"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="266e-dbd3-b018-4e2e" name="Arco corto" hidden="false" collective="false" import="true" type="upgrade">
@@ -13957,7 +13972,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
       </profiles>
       <rules>
         <rule id="1a03-67ab-107e-b1a7" name="Escupir veneno" hidden="false">
-          <description>El Troglodón puede disparar como un Cañón que puede estimar 0-6 dados (más el dado de artillería) que se resuelve con Fuerza 4 y no permite realizar tirada de salvación por armadura. Coloca la plantilla redonda pequeña tras la distancia recorrida en el rebote: todas las miniaturas cubiertas por la plantilla (utiliza las reglas habituales para impactos parciales) sufrirán también un impacto del “cañón”. Un Troglodón puede disparar aunque mueva, pero no si marcha. Si obtienes un resultado de Problemas, en lugar de tirar en una tabla, el personaje sufrirá una herida sin posibilidad de tirada de salvación por armadura.</description>
+          <description>El troglodón puede disparar como una Catapulta con un alcance de 0-24”, Fuerza 3 y la regla especial Ataques Flamígeros. Los impactos de este disparo no permiten tirada de salvación por armadura. El impacto central se resolverá del mismo modo pero con Fuerza 5. Si obtienes un resultado de problemas, en lugar de tirar en la tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir veneno si mueve, pero no si marcha. </description>
         </rule>
         <rule id="51d7-6736-9bc3-826b" name="Rugido primitivo" hidden="false">
           <description>Una vez por batalla, al inicio de uno de tus turnos, puedes declarar que el Troglodón ruge. Todos los eslizones (de cualquier tipo) a 18” o menos del Troglodón podrán repetir sus tiradas fallidas para impactar (tanto en combate cuerpo a cuerpo como con disparos) hasta el final de ese turno de jugador.</description>
@@ -14595,27 +14610,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3667-bae6-9066-80c9" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="d877-0f38-437c-fef5" name="Báculo del Sol Perdido" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="371f-5e8b-8b3a-5648" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d534-bed6-f5ee-ca95" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="35ac-f7f7-f3d9-d3a8" name="Báculo del Sol Perdido" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
-              <characteristics>
-                <characteristic name="Rango" typeId="52616e676523232344415441232323">18&quot;</characteristic>
-                <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">5</characteristic>
-                <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Disparos Múltiples (3), Disparo Rápido, Ataques Flamígeros</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="2511-825a-8502-ef5b" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="4b8b-8a80-fa5d-0a7f" name="Espada Piraña" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="853e-9276-190b-2df6" type="max"/>
@@ -14702,13 +14696,13 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <profiles>
             <profile id="b36a-24e1-acda-4cb8" name="Dagas bífidas de Zlatlan" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Sólo Gran Oráculo Eslizón. Armas emparejadas. Los ataques con estas dagas se resuelven con las reglas especiales Poder de penetración y Ataques envenenados. Los resultados naturales de 5 también se considerarán Ataques envenenados y herirán automáticamente. Adicionalmente, el portador obtiene un bonificador de +1 Ataque por cada hechizo diferente que lance con éxito en su fase de magia (los hechizos cuentan aunque sean dispersados); este bonificador dura hasta el inicio de tu siguiente fase de magia. </characteristic>
+                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Sólo Gran Oráculo Eslizón. Armas emparejadas. Los ataques con estas dagas se resuelven con las reglas especiales Poder de penetración y Ataques envenenados. Los resultados naturales de 5 también se considerarán Ataques envenenados. Adicionalmente, el portador obtiene un bonificador de +1 Ataque por cada hechizo diferente que lance con éxito en su fase de magia (los hechizos cuentan aunque sean dispersados); este bonificador dura hasta el inicio de tu siguiente fase de magia. </characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="cd77-721b-53cf-2baf" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-            <infoLink id="423b-66f1-b8fa-e3b0" name="Arma de mano adicional" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+            <infoLink id="423b-66f1-b8fa-e3b0" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
             <infoLink id="9489-2b2b-30a2-24a2" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
             <infoLink id="c61c-0b9e-0427-d7b5" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
           </infoLinks>
@@ -14923,7 +14917,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <infoLink id="0a20-ae22-dabc-f1ba" name="Armadura ligera" hidden="false" targetId="44f2-32d5-23eb-62f5" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -14955,7 +14949,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2692-0650-7e8e-8182" name="Talismanes mágicos. Reliquias. Las tierras del sur. Gran oráculo eslizón con desove de Zlatlan" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="2692-0650-7e8e-8182" name="Talismanes mágicos. Reliquias. Las tierras del sur. Gran oráculo eslizón" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48b2-03d9-f561-6339" type="max"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6087-7cbe-16a6-eceb" type="min"/>
@@ -14969,12 +14963,12 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <profiles>
             <profile id="d3c5-cc65-3a08-39cf" name="Gema púrpura de Zlatlan" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Solo Gran Oráculo Eslizón con el desove sagrado de Zlatlan. El portador tendrá un bonificador de +1 en sus tiradas de lanzamiento y dispersión de hechizos. Además, conocerá el hechizo identificativo del saber del cual toma sus hechizos. Adicionalmente, le proporciona una tirada de salvación especial de 6+ (o aumentará en +1 si ya dispone de una). </characteristic>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo Gran Oráculo Eslizón. El portador tendrá un bonificador de +1 en sus tiradas de lanzamiento y dispersión de hechizos, el cual aumenta a +2 siempre que intente lanzar o dispersar un hechizo que afecte a unidades pertenecientes al Desove sagrado de Zlatlan. Además, puede guardar hasta un dado de magia para utilizarlo en una fase posterior. Adicionalmente, le proporciona una tirada de salvación especial de 6+ (o aumentará en +1 si ya dispone de una).</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="65.0"/>
+            <cost name="pts" typeId="points" value="70.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15020,7 +15014,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <profiles>
             <profile id="0a82-ad29-6fe9-12f3" name="Talismán de Zlatlan" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo personajes con el Desove Sagrado de Zlatlan. Otorga al portador una tirada de salvación especial de 5+ y la regla especial Resistencia a la magia (1). Los impactos naturales de 6 realizados en cuerpo a cuerpo con la regla especial Ataques envenenados sobre el portador deberán resolverse sobre la miniatura que causó el impacto.</characteristic>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo personajes con el Desove Sagrado de Zlatlan. Otorga al portador una tirada de salvación especial de 5+ y la regla especial Resistencia a la magia (1). Además, las heridas que sufra el portador en combate cuerpo a cuerpo por el efecto de la regla especial Ataques envenenados deberán resolverse sobre la miniatura que causó la herida (esto no tiene efecto alguno contra miniaturas con la regla especial Inmune a veneno). </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15028,7 +15022,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <infoLink id="039c-6ec2-d035-afb4" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15271,6 +15265,22 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6e64-0007-aec6-5718" name="Placa de dominio" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e165-d00e-ba1b-f406" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c0f-f69c-3822-4e4b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="efee-9cd4-658b-861a" name="Placa de dominio" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un solo uso. Objeto portahechizos. Nivel de energía 2D6. Contiene un hechizo de Maldición que puede lanzarse sobre una unidad enemiga a 24” o menos del portador y que Permanece un turno. Por la duración del hechizo, la unidad verá reducidos sus atributos de HA, HP, I, A y L a la mitad (redondeando hacia abajo).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="414b-15ea-ecb6-66d4" name="Artefactos arcanos. Reliquias. Las tierras del sur. Slaan" hidden="false" collective="false" import="true">
@@ -15279,22 +15289,6 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ca1-4384-89ba-0b4a" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="b35a-3ae7-2888-b875" name="Placa de dominio" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e0b5-5cde-2a9c-c959" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d13d-d8ea-8c86-1236" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="de90-d18b-03cc-d7ee" name="Placa de dominio" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Solo Slann. Un solo uso. Objeto Portahechizos. Nivel de Energía 2D6. Contiene un hechizo de maldición con alcance 24” que puede lanzarse sobre una unidad enemiga, reduciendo sus atributos de HA, HP, I, A y L a la mitad (redondeando hacia abajo). El hechizo dura un turno completo de juego. </characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="e289-2154-ed34-6904" name="Placa sagrada de Zlatlan" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6486-7f6b-5152-039e" type="max"/>
@@ -15316,7 +15310,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7f1a-f91c-a6c1-4682" name="Artefactos arcanos. Las tierras del sur. Chamán eslizón" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7f1a-f91c-a6c1-4682" name="Artefactos arcanos. Las tierras del sur. Eslizones" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a03-e90f-fd9c-d2cc" type="max"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e83-e884-c2a0-eef2" type="min"/>
@@ -15330,7 +15324,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <profiles>
             <profile id="b9b4-888b-0a17-ef7a" name="Cayado de gélido cornudo" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Solo Chamán Eslizón. Permite a quien lo empuña obtener un bonificador de +2 al valor total de lanzamiento de los hechizos del Saber de las Bestias que lanzase. </characteristic>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Solo Eslizónes. Permite a quien lo empuña obtener un bonificador de +2 al valor total de lanzamiento de los hechizos del Saber de las Bestias que lanzase. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15362,23 +15356,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <infoLink id="ace4-32b6-5de5-c7c9" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6122-f274-c581-6021" name="Amuleto de la maldición de Tepok" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9600-92f0-7713-821b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f82f-88c5-e489-e135" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5278-fd8b-eeb5-ce5b" name="Amuleto de la maldición de Tepok" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un solo uso. Puede utilizarse cuando un hechicero enemigo sufra una disfunción mágica, obligándole a repetir la tirada que obtuvo en esa tabla.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ac6c-96aa-70c8-ede7" name="Tablilla bendita de Tlaqua" hidden="false" collective="false" import="true" type="upgrade">
@@ -15413,7 +15391,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <profiles>
             <profile id="1bab-54b5-dc4b-182e" name="Gran confalón de Zlatlan" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Sólo miniaturas con el Desive sagrado de Zlatlan. El portador obtiene la regla especial Tozudez. Además, todas las unidades aliadas que formen parte del desove sagrado de Zlatlan a 18” o menos del portador del Gran Confalón obtendrán la regla especial Ataques envenenados; si ya disponían de esa regla especial, los resultados naturales de 5 también se considerarán Ataques envenenados y herirán automáticamente. </characteristic>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Sólo miniaturas con el Desive sagrado de Zlatlan. El portador obtiene la regla especial Tozudez. Además, todas las unidades aliadas que formen parte del desove sagrado de Zlatlan a 18” o menos del portador del Gran Confalón obtendrán la regla especial Ataques envenenados; si ya disponían de esa regla especial, los resultados naturales de 5 también se considerarán Ataques envenenados.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15521,6 +15499,41 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fe4e-cfe4-71e7-8ce2" name="Pabellón de piel de camaleón" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2fc6-36ac-5af8-1d90" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a7fd-7a44-43d7-feb8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a5cb-88c6-52eb-d40a" name="Pabellón de piel de camaleón" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Los disparos realizados contra la unidad portadora de este estandarte obtienen un penalizador de -1 en sus tiradas para impactar; los disparos que utilicen el dado de dispersión desviarán la mitad del resultado obtenido en el dado de artillería en caso de obtener un resultado de impacto.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b360-cc5e-edcb-95d8" name="Estandarte del pulso firme" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b3d9-820d-ee72-fb8e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99c9-e829-4a7f-e1ac" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3410-baf3-5e2b-b512" name="Estandarte del pulso firme" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">El portador de este estandarte y la unidad que lo acompañe obtienen la regla especial Disparo rápido.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="84e5-f4e6-2603-1bc1" name="Disparo rápido" hidden="false" targetId="e198-cb4f-6dfc-1dcc" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15656,32 +15669,19 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0b15-8773-7ac8-972a" name="Destinos ancestrales. Comandante con desove Zlatlan" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0b15-8773-7ac8-972a" name="Destinos ancestrales. Jefes Eslizón y Caciques Eslizón" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a1-bbe2-dbab-66ef" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="fcb5-a206-7e65-dbef" name="Destino de Zlatlan" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="27d3-b733-1884-e3df" value="3.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="27d3-b733-1884-e3df" value="2.0">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e8d-f01f-bdbb-987b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27d3-b733-1884-e3df" type="max"/>
           </constraints>
           <profiles>
             <profile id="7733-d236-20ab-a43d" name="Destino de Zlatlan" hidden="false" typeId="a95c-4240-95e5-631c" typeName="Destino ancestral">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="5ac7-0b59-456d-e70f">Sólo Comandantes con el Desove de Zlatlan. El personaje obtiene un bonificador de +2 a su atributo de Liderazgo.</characteristic>
+                <characteristic name="Reglas especiales" typeId="5ac7-0b59-456d-e70f">Sólo Jefes Eslizón y Caciques Eslizón con el Desove de Zlatlan. El personaje obtiene un bonificador de +1 a sus atributos de Habilidad de armas y Liderazgo.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15716,7 +15716,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <profiles>
             <profile id="8167-e183-d354-0292" name="Destino de Tlaqua" hidden="false" typeId="a95c-4240-95e5-631c" typeName="Destino ancestral">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="5ac7-0b59-456d-e70f">Sólo personajes de Infantería. El personaje obtiene la regla especial Avance subterráneo, y solo podrá ser desplegado en unidades de Hostigadores que sean Infantería.</characteristic>
+                <characteristic name="Reglas especiales" typeId="5ac7-0b59-456d-e70f">Sólo personajes de Infantería. El personaje obtiene la regla especial Avance subterráneo, y solo podrá ser desplegado en unidades de Hostigadores del tipo Infantería.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15923,7 +15923,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <infoLink id="2c98-b6b3-ed18-9484" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="75.0"/>
+            <cost name="pts" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -15977,6 +15977,66 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
           <infoLinks>
             <infoLink id="fb42-eec5-6138-a755" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule"/>
             <infoLink id="5ba9-a50d-8d6f-91ce" name="Presencia inspiradora" hidden="false" targetId="b950-0689-6573-779c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="45.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f651-b54d-5a26-3904" name="Armas mágicas. Reliquias. Las tierras del sur. Arma de mano. Eslizones" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70ab-1689-0fa5-aee0" type="max"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a33e-204c-f8c7-54d1" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="d357-e06d-9663-89a5" name="Colmillo de cobra venenosa" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd8c-1aeb-d159-6241" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a46-cf79-6fde-ddc1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c91d-3ae1-0fca-5eb7" name="Colmillo de cobra venenosa" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Sólo eslizones. Arma de mano. Los ataques realizados con esta arma se resuelven con la regla especial Ataques envenenados y niegan la tirada de salvación por armadura. Además, los impactos que se resuelvan mediante la regla especial Ataques envenenados tienen la regla especial Heridas múltiples (2).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5f92-8014-fe7a-0790" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
+            <infoLink id="3ea5-97d6-43e3-0a5f" name="Heridas múltiples (2)" hidden="false" targetId="be26-0d4a-0493-6c52" type="rule">
+              <modifiers>
+                <modifier type="append" field="name" value="(Ataques envenenados)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="3e16-3160-8924-71cb" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b0c7-4b2f-3761-d6fd" name="Artefactos arcanos. Reliquias. Las tierras del sur. Eslizones" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91a4-00d4-8962-edc5" type="max"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90fb-29a9-7051-d8fb" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4df7-d143-7b76-190b" name="Placa de sanación" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5d70-05b7-58ae-cc2e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9773-ede1-aa36-3b7b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6e5e-c200-4d54-12f5" name="Placa de sanación" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Sólo eslizones. Las unidades amigas que se encuentren a 12” o menos del portador obtienen la regla especial Resistencia mágica (1), que aumenta a 2 contra hechizos del Saber de Nurgle y el saber de Plaga Skaven. Además, el portador podrá repetir uno de los dados de sus intentos de dispersión contra hechizos del Saber de Nurgle y del saber de Plaga Skaven.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5142-5d62-0b3e-7a53" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>

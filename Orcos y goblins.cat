@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d9e4-9c78-810c-d2fd" name="Goblins" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -5782,6 +5782,22 @@ D6 Tabla de problemas de la katapulta de goblins voladores
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="1402-9092-962b-4f2d" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="9851-1a74-5fea-fc71" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e83-998e-e2c8-4b4a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="31c4-f41b-e3fe-041e" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="e645-f9c5-2236-3a87" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6175,6 +6191,14 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="07a4-e463-e8b5-54b1" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f370-3848-f160-f761" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="46eb-e8a7-f6e8-be37" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -6766,6 +6790,22 @@ D6 Tabla de problemas de la katapulta de goblins voladores
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7455-e491-e23e-ec79" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="79bc-a0dc-511a-3ae6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a17-644a-d6c0-1f33" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="09bd-9a94-2169-516f" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="01b0-d7b9-b5ae-5e51" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -7185,6 +7225,14 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8160-3ddf-3fe1-f929" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="849f-bf72-eb35-ed13" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5288-0870-2893-efb9" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -7696,6 +7744,22 @@ D6 Tabla de problemas de la katapulta de goblins voladores
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="92bf-022b-5286-d623" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="8c04-e446-b216-8a88" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc6d-b6a9-096a-ebd0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="525e-a365-4ee6-c3ce" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="f8b8-a52f-b72f-0d1f" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -8113,6 +8177,14 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8ac9-3f07-2db3-2085" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8788-92f5-c4b2-5334" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ffc5-4a6d-5dc4-c8c7" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -9108,6 +9180,14 @@ D6 Tabla de problemas de la katapulta de goblins voladores
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="ab86-a1cf-c89c-0904" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92f0-3029-7263-4d57" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="61d4-946e-830c-4c8a" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -9878,6 +9958,14 @@ D6 Tabla de problemas de la katapulta de goblins voladores
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
+        <selectionEntryGroup id="f55b-62c9-f484-e1df" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cab5-ee4a-6b42-6cd5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b931-b5b9-512a-ae83" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -10580,6 +10668,14 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c95e-032d-4cd2-c922" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2aa6-10c8-6f63-33b6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7b0b-a289-5577-6940" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -14747,6 +14843,22 @@ Inmortalez la regla especial Tozudez.</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="5d91-c766-16d3-954a" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="db02-a972-e452-3594" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c5a-7de7-c7e9-df35" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="62dd-9020-4677-7091" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="1703-05d3-5e2a-748d" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -15151,6 +15263,14 @@ Inmortalez la regla especial Tozudez.</characteristic>
                 <cost name="pts" typeId="points" value="165.0"/>
               </costs>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="55d9-2141-6b43-b6ee" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="903f-8603-aca2-5143" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a268-bbd7-ae20-2b99" name="Saber del gran ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="c10d-396c-a49a-4b7a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -15609,6 +15729,22 @@ Inmortalez la regla especial Tozudez.</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="87f8-080c-b9cd-977e" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="cec5-f0cc-4dcc-47a7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ff7-2205-8f94-066a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="92f4-e703-9aa7-f32e" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="c04c-2b7e-e368-a652" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -16034,6 +16170,14 @@ Inmortalez la regla especial Tozudez.</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="828e-f77b-c7a8-7a1c" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ab7-16c9-9b99-3a32" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d284-9b18-60b7-2b06" name="Saber del gran ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="c10d-396c-a49a-4b7a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="0a26-7617-8326-b800" name="Gran chamán" hidden="false" collective="false" import="true" targetId="6fa0-6deb-c238-df63" type="selectionEntry"/>
@@ -16352,6 +16496,24 @@ Inmortalez la regla especial Tozudez.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1eda-8d1b-5f8d-cada" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="b622-fa86-befa-475a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29b1-de9d-9664-9211" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="77d2-7407-cd9b-8a73" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="e6c7-d718-89cc-4c06" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -16991,6 +17153,14 @@ Inmortalez la regla especial Tozudez.</characteristic>
                 <cost name="pts" typeId="points" value="80.0"/>
               </costs>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fa10-bff7-b237-bd69" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="928c-8a44-d201-49db" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4a34-36dd-4dac-4ba8" name="Saber del gran ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="c10d-396c-a49a-4b7a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -17714,6 +17884,14 @@ Inmortalez la regla especial Tozudez.</characteristic>
                 <cost name="pts" typeId="points" value="85.0"/>
               </costs>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="84eb-f493-99c5-1ac0" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="adf9-5e9d-2fff-2968" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fc29-4bea-f71f-d1c2" name="Saber del gran ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="c10d-396c-a49a-4b7a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -18756,6 +18934,16 @@ múltiples (1D6). </description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="00b9-e809-eb31-1b2f" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="31fb-bd85-0b4e-1442" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fce2-f32b-9c4e-b546" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -20039,6 +20227,14 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="640a-9c37-5af6-5f75" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="639c-2ce3-76bf-3706" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="28b1-1273-1d4f-084a" name="Saber del gran ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="c10d-396c-a49a-4b7a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ef86-1445-2bd3-d192" name="Gran chamán" hidden="false" collective="false" import="true" targetId="6fa0-6deb-c238-df63" type="selectionEntry"/>
@@ -20636,6 +20832,17 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7d9a-d402-c5d1-56f2" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="85c6-0e88-7014-22f3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0590-aa44-4d80-e56e" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="5b7f-a2e5-a95e-f5b9" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -21174,6 +21381,16 @@ mágica (1).</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6210-094c-5707-99b1" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b8e-0e18-97d0-f6b9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="02ce-2516-8349-a734" name="Saber del gran ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="c10d-396c-a49a-4b7a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -22611,6 +22828,16 @@ grandotes (de cualquier tipo) como opción de Unidad básica. </description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d14-6af7-dcd4-3c8d" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c02f-ecbb-b9d9-2edb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1d0d-cb68-eea9-0a70" name="Saber del gran ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="c10d-396c-a49a-4b7a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -23028,6 +23255,16 @@ D6 	Garrapato dopado
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="88cb-e49d-b25d-898b" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4713-be0e-a25d-3d6e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1b37-8d75-30f7-8520" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -23320,6 +23557,16 @@ D6 	Garrapato dopado
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1855-42f3-5ce0-5824" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78a4-a920-a024-3089" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="72bc-9cd6-546e-7324" name="Saber del gran ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="c10d-396c-a49a-4b7a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -23673,6 +23920,16 @@ Además, Zizzik suma +1 a todas sus tiradas en la tabla de Disfunciones mágicas
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="160b-a5ca-7860-b6eb" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d9a-24f2-a661-ae79" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ac73-f26f-9138-2f1b" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -24586,6 +24843,16 @@ orcoz tienen la regla especial Ataques flamígeros.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9ffe-efea-1f5a-ab40" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f888-b17c-8aec-1a59" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1955-0543-978c-a6b1" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" targetId="9541-7e36-52a8-e502" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9523-35ed-44c1-8c91" name="Leyenda" hidden="false" collective="false" import="true" targetId="8f04-2596-2103-99ce" type="selectionEntry"/>
       </entryLinks>
@@ -32877,5 +33144,6 @@ como cualquier hechicero amigo a 12 “ o menos podrán tirar un dado adicional 
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="3f1a-d858-8b20-733c" name="MercenariosLib" targetId="4652-5447-e10a-8eb0" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="d90c-35e7-9506-10d9" name="Los saberes de la magia" targetId="8ca7-9cd1-c914-3d7c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

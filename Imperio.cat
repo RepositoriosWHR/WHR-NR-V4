@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="208e-cf58-eefc-06d2" name="Orden de caballería">
       <characteristicTypes>
@@ -2589,7 +2589,7 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="31.0"/>
+            <cost name="pts" typeId="points" value="33.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="df0f-4983-25f9-5fea" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -3768,6 +3768,22 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="ec36-33d2-7c44-baa7" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="6cba-3901-ae90-1454" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b311-a23b-12fc-2f6f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="36e0-7d04-c8b0-3f4b" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="a833-fade-dbca-7d49" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7afb-503a-1285-463c" name="Tropas condales (Comandante)" hidden="false" collective="false" import="true" targetId="3490-9756-218b-4b60" type="selectionEntry"/>
@@ -4613,6 +4629,22 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="bcb0-09bd-a928-ce3d" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="8410-5047-ed3e-fd99" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f77-06d6-e41d-f019" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8135-e5f4-4b10-6883" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="7e7e-174d-28cd-27e7" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -5012,6 +5044,21 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d503-0569-583a-b54f" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9516-5329-0aa9-1391" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a28a-4af4-dab9-1b73" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+            <entryLink id="e592-28a3-fdc3-fc12" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="c2ad-95b7-8251-1fb4" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+            <entryLink id="b704-b60c-e0d5-acc8" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="c59f-0953-309f-5343" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="349a-263a-e316-6dd6" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+            <entryLink id="2a47-2ea9-104e-fa0f" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+            <entryLink id="0a91-c330-a59a-2288" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -7287,6 +7334,21 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="c503-e4f7-31e6-79f6" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f29b-fe8f-a58b-2b70" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1630-60ba-5089-23ca" name="Saber de la Luz" hidden="false" collective="false" import="true" targetId="b0ef-3e63-c959-64d1" type="selectionEntry"/>
+            <entryLink id="642b-0511-ec05-d080" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="47f5-080f-6b8f-b673" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+            <entryLink id="88cf-91b5-adbe-e364" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+            <entryLink id="d770-0ca6-9485-8fb3" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="1586-e9c0-c7f1-7b17" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+            <entryLink id="f954-e2e9-1cb3-1545" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+            <entryLink id="62d7-73f1-90ed-ad68" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -8532,6 +8594,16 @@ impactar cuando disparan.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6402-ee4a-997d-67ce" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f7f9-d98b-dfe3-b903" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="35db-765e-6c38-7e7d" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="79a5-260f-fb17-6a8b" name="Saga (Balthasar Gelt)" hidden="false" collective="false" import="true" targetId="3eb5-4093-29a7-96c1" type="selectionEntry"/>
         <entryLink id="35f6-7123-640c-3b87" name="Rencoroso" hidden="false" collective="false" import="true" targetId="3788-0445-ae6f-fc8f" type="selectionEntry"/>
@@ -8726,6 +8798,16 @@ con anterioridad durante la batalla.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c1bc-c597-929b-e80a" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c800-9c72-8b32-2859" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="aaa3-cc13-5b7c-3733" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -8954,6 +9036,14 @@ con anterioridad durante la batalla.</characteristic>
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="da48-2442-1c33-abaa" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="21f2-55a8-e4f2-1a56" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a08b-300e-e843-8d8b" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -13906,6 +13996,16 @@ brujas.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b3c0-aec0-e376-5ef3" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4afb-603e-ff55-5e70" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="da8e-f84a-af5f-30ff" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -15063,6 +15163,16 @@ D6 	Resultado
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f5f4-f24a-1070-f367" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="353d-c85f-1f31-92eb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5a73-bfca-381f-493f" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -15727,6 +15837,16 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6a2d-8a8a-73c3-595c" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9717-c254-c6aa-d220" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2346-26c8-f914-2999" name="Saber del Metal" hidden="false" collective="false" import="true" targetId="ddf8-615b-68b4-3fe4" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -16634,6 +16754,14 @@ Incitar a la rabia: Hasta el inicio de tu siguiente turno, todas las unidades am
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="5490-2ac5-9384-0709" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="52be-6c5a-f388-b669" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="efd6-cd15-8fa3-52f4" name="Saber de las Bestias" hidden="false" collective="false" import="true" targetId="d333-4430-fb2b-4f60" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -17277,6 +17405,16 @@ Eterna.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7586-2976-814f-beba" name="Saberes de la magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6194-0f0f-39b0-eb0a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b2df-9be1-5a74-77f6" name="Saber de la Vida" hidden="false" collective="false" import="true" targetId="db69-4431-08db-6b45" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -29549,5 +29687,6 @@ impactos.
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="255a-825c-cdc3-6aff" name="MercenariosLib" targetId="4652-5447-e10a-8eb0" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a6be-1784-2d81-93cc" name="Los saberes de la magia" targetId="8ca7-9cd1-c914-3d7c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
