@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="d2ea-a0b8-pubN65537" name="Grey Infernal Reforged"/>
   </publications>
@@ -3777,27 +3777,16 @@ D6 	Resultado (Agarrar y...)
           </constraints>
           <entryLinks>
             <entryLink id="c136-ad49-718d-8556" name="Marca de Nurgle. Unidades" hidden="false" collective="false" import="true" targetId="aec5-1a32-6b7a-7a46" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="points" value="30.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
               <rules>
                 <rule id="7dbe-b3c1-7b8a-f893" name="Marca de Nurgle. Gigante del Caos" hidden="false">
                   <description>Los enemigos tienen un penalizador de -1 para impactarle con proyectiles y en cuerpo a cuerpo.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="30.0"/>
+              </costs>
             </entryLink>
             <entryLink id="1bb8-8a49-2bdd-bcce" name="Marca de Slaanesh. Unidades" hidden="false" collective="false" import="true" targetId="824f-aedf-0479-e653" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="points" value="15.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
               <rules>
                 <rule id="a956-39d3-cff8-16af" name="Marca de Slaanesh. Gigante del Caos" hidden="false">
                   <description>Obtiene la regla especial Poder de penetración en todos sus ataques y +1 Iniciativa.</description>
@@ -3806,15 +3795,11 @@ D6 	Resultado (Agarrar y...)
               <infoLinks>
                 <infoLink id="93ff-29bd-1b98-e87f" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
             </entryLink>
             <entryLink id="9862-2828-cec1-687a" name="Marca de Tzeentch. Unidades" hidden="false" collective="false" import="true" targetId="9a18-47e5-3b0d-7788" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="points" value="15.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
               <rules>
                 <rule id="c00c-2a60-c61b-bce2" name="Marca de Tzeentch. Gigante del Caos" hidden="false">
                   <description>Obtiene la regla especial Ataques flamígeros y una tirada de salvación especial de 6+ (o +1 si ya disponía de ella).</description>
@@ -3823,15 +3808,11 @@ D6 	Resultado (Agarrar y...)
               <infoLinks>
                 <infoLink id="daf0-e52d-8703-a8d2" name="Ataques flamígeros" hidden="false" targetId="6985-722e-1ce4-b838" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
             </entryLink>
             <entryLink id="58c9-b6f9-c5bc-dc77" name="Marca de Khorne. Unidades" hidden="false" collective="false" import="true" targetId="313c-f79a-8551-3f76" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="points" value="20.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
               <rules>
                 <rule id="5c6e-ae94-0bc0-5754" name="Marca de Khorne. Gigante del Caos" hidden="false">
                   <description>Obtiene la regla especial Resistencia mágica (1); además, suma +1 a todas las tiradas en la tablas de ataques especiales del gigante (los resultados superiores a 6 se consideran 6)</description>
@@ -3840,20 +3821,19 @@ D6 	Resultado (Agarrar y...)
               <infoLinks>
                 <infoLink id="6a7b-115f-4fd8-433c" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
             </entryLink>
             <entryLink id="e783-617d-38d9-f0dd" name="Marca de caos absoluto. Unidades" hidden="false" collective="false" import="true" targetId="0b5b-ba9a-9413-09a2" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="points" value="10.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
               <rules>
                 <rule id="b5ff-baac-9d25-22e2" name="Marca de caos absoluto. Gigante del Caos" hidden="false">
                   <description>Obtiene una tirada de salvación por armadura de 5+.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>

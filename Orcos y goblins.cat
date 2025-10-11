@@ -13677,7 +13677,7 @@ Inmortalez la regla especial Tozudez.</characteristic>
         <modifier type="decrement" field="8144-8496-bce6-68b6" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3539-3016-16b4-5900" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>

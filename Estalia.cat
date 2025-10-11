@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f56e-da6a-d244-d8f9" name="Orden de caballería">
       <characteristicTypes>
@@ -8879,7 +8879,7 @@ Lanza y Escudo.</characteristic>
                     <infoLink id="54dc-3bea-ffdd-6d68" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="3.0"/>
+                    <cost name="pts" typeId="points" value="2.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f6df-8b71-3e81-dfcc" name="Rodela" hidden="false" collective="false" import="true" type="upgrade">
@@ -8890,7 +8890,7 @@ Lanza y Escudo.</characteristic>
                     <infoLink id="7163-63e2-b139-0402" name="Rodela" hidden="false" targetId="6422-f909-b429-4809" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="4.0"/>
+                    <cost name="pts" typeId="points" value="3.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>

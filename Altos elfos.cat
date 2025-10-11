@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a20d-ec9e-719a-2f03" name="Senda">
       <characteristicTypes>
@@ -503,13 +503,6 @@
               </constraints>
               <profiles>
                 <profile id="06e9-57a7-8674-2d54" name="Corcel élfico" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-                  <modifiers>
-                    <modifier type="decrement" field="4d23232344415441232323" value="1">
-                      <conditions>
-                        <condition field="selections" scope="6939-36c2-22b3-94b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a60c-0279-1856-c42b" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">9</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
@@ -639,7 +632,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d27-c2d1-840c-ddc2" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0c7b-6760-2497-5edb" name="Barda" hidden="false" targetId="db28-fd76-b1b6-f251" type="profile"/>
+                <infoLink id="0c7b-6760-2497-5edb" name="Barda de Ithilmar" hidden="false" targetId="034a-47ec-8f6a-9c8a" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
