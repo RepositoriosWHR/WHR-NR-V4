@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18e6-a0ad-d123-70a6" name="Culto de matadores" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18e6-a0ad-d123-70a6" name="Culto de matadores" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1811-12ee-8ca2-f9ec" name="Habilidad de matador">
       <characteristicTypes>
@@ -552,10 +552,10 @@
       </constraints>
       <rules>
         <rule id="37a7-ea67-c6b7-d0ea" name="Choque de escudos" hidden="false">
-          <description>Estos enanos considerarán el Escudo de Gromril como Arma de mano adicional además de como Escudo. Además, tienen la regla especial Impactos por carga (1).</description>
+          <description>Los Rompescudos consideran el Escudo de Gromril como Arma de mano adicional además de como Escudo. Además, tienen la regla especial Impactos por carga (1).</description>
         </rule>
         <rule id="60a2-44bb-18c6-eaa3" name="Muro de escudos" hidden="false">
-          <description>Además, cada vez que una unidad de Rompescudos sufra Impactos por carga de un enemigo realizada hacia su frontal, la unidad que los causó sufrirá un impacto de F4 por cada miniatura en el frontal de los Escudos de guerra, el cual se resolverá con la regla especial Poder de penetración si los Escudos de la unidad llevan Púas.</description>
+          <description>Siempre pueden reformar al final de cada combate, aunque pierdan el combate. Además, cada vez que una unidad de Rompescudos sufra Impactos por carga de un enemigo realizada hacia su frontal, la unidad que los causó sufrirá un impacto de F4 por cada miniatura en el frontal de los Escudos de guerra, el cual se resolverá con la regla especial Poder de penetración si los Escudos de la unidad llevan Púas.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3847,7 +3847,7 @@ Hostigadores. Ten en cuenta que pueden lanzar y aceptar Desafíos, ya que ambos 
                   <profiles>
                     <profile id="6f58-d850-cecc-d065" name="Runa magistral del equilibrio" hidden="false" typeId="6196-246d-af80-3e34" typeName="Runa talismánica">
                       <characteristics>
-                        <characteristic name="Reglas especiales" typeId="a2c8-eec3-abbb-4fe1">Sólo Señor de las runas. Robas un dado de Energía al oponente al inicio de cada fase de magia enemiga, que añades a tu reserva de dados de Dispersión. </characteristic>
+                        <characteristic name="Reglas especiales" typeId="a2c8-eec3-abbb-4fe1">Robas un dado de Energía al oponente al inicio de cada fase de magia enemiga, que añades a tu reserva de dados de Dispersión. </characteristic>
                       </characteristics>
                     </profile>
                     <profile id="7bc5-f5c1-58fc-fef7" name="Runa rompehechizos" hidden="false" typeId="6196-246d-af80-3e34" typeName="Runa talismánica">
@@ -5009,6 +5009,176 @@ unidad impactada por el lanzarredes no podrá utilizar las reglas especiales Vol
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdc5-db87-3e4e-18a9" name="[E] - Juggo Joriksson" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e01b-aa63-8a17-da7d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ad8-7a32-d06e-79e8" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="7e5c-d016-3955-c63b" name="Incosciente" hidden="false">
+          <description>Juggo tiene una tirada de salvación especial de 5+ y la regla especial Furia asesina, la cual no perderá aunque pierda un combate.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1380-7d6d-9b22-e1da" name="Matadores" hidden="false" targetId="e0b7-dce4-8ec0-c6fc" type="rule"/>
+        <infoLink id="a0f6-75d6-f30f-c83e" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
+        <infoLink id="c7df-9892-411b-aac1" name="Avance imparable" hidden="false" targetId="17c8-6dc0-c460-dd75" type="rule"/>
+        <infoLink id="c9ae-5738-0d04-4247" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
+        <infoLink id="c757-0b63-2747-072d" name="Odio" hidden="false" targetId="a187-f92e-2178-84ff" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(Pielesverdes, Skaven y eslizones)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="04bf-0410-49b6-a8a8" name="Inmune al veneno" hidden="false" targetId="0338-1cb0-0dc1-2892" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="956a-2a5d-a407-13b4" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="4732-3cd5-2644-fcfc" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4b25-9e36-9e7b-9838" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7a8-78ef-b571-5c54" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1d8b-4e91-fb12-4935" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0343-d17e-0ba5-c874" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aee-6960-5025-74cd" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fe71-3832-b06c-e946" name="Juggo Joriksson" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d262-f095-bf8c-8823" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d7e-1fe3-a618-b72b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="67a5-df28-f5f3-5cc0" name="Juggo Joriksson" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">2</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">9</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323">5</characteristic>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="150.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="66c8-9a27-3f30-5e67" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a7b-b304-78ab-874e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e581-f092-588e-02ff" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7907-945a-842d-8f7b" name="Hacha certera" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a435-a938-f2fb-a909" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdfd-133a-18a4-532b" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="de12-c2e1-42bc-f54f" name="Hacha certera" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Hachas de matador. Tienen grabadas una Runa magistral del vuelo y una Runa de la agonía.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="86e3-bc01-c668-8b35" name="Hachas de matador" hidden="false" targetId="63f8-ac36-75ab-beb8" type="profile"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="23f6-f2b8-554d-7233" name="Runas Hacha certera" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e12-df09-eb49-e292" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f03-21d7-aa86-dc64" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="72ed-d66a-b9fb-31a0" name="Runa magistral del vuelo" hidden="false" typeId="d9f2-57ea-90f4-d594" typeName="Runa de armas">
+                      <characteristics>
+                        <characteristic name="Reglas especiales" typeId="6e6c-66a6-9d36-fb6d">El arma puede usarse como arma de disparo que retorna a la mano de su portador tras ser usada. Tiene un alcance de 10”, la Fuerza del usuario y las reglas especiales Ataques mágicos, Disparo rápido y Arrojadiza, así como las demás propiedades que confieran otras runas grabadas en el arma. </characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="0886-9af5-41bc-04c5" name="Runa de la agonía" hidden="false" typeId="d9f2-57ea-90f4-d594" typeName="Runa de armas">
+                      <characteristics>
+                        <characteristic name="Reglas especiales" typeId="6e6c-66a6-9d36-fb6d">Los ataques con el arma obtienen la regla especial Heridas múltiples (1D3).</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="98ad-e646-6e68-a642" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
+                    <infoLink id="a4d3-85ab-fb39-d2c0" name="Arrojadiza" hidden="false" targetId="f4e8-fb62-1495-6c04" type="rule"/>
+                    <infoLink id="bcbf-1320-0c39-2689" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
+                    <infoLink id="9232-0b76-b62e-c187" name="Disparo rápido" hidden="false" targetId="e198-cb4f-6dfc-1dcc" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5cce-fc7f-5543-395d" name="Tatuajes protectores" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e725-fe5a-5f10-33ab" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c71c-1760-ee39-4368" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="af20-c970-3833-4b21" name="Tatuajes protectores" hidden="false" targetId="b225-05db-eea3-e0ab" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c822-b532-5c7b-7d65" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b29-66d8-86e5-c549" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd6-dd41-61c7-c8f3" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8ff7-bd62-c154-7bbd" name="Clave: Mercenarios" hidden="false" collective="false" import="true" targetId="bbab-3c17-4a42-ee18" type="selectionEntry"/>
+            <entryLink id="88ed-86b2-9e91-7fbd" name="Clave: Enanos" hidden="false" collective="false" import="true" targetId="e25f-c65b-5b36-4a54" type="selectionEntry"/>
+            <entryLink id="d6f7-0a75-4941-1b8b" name="Clave: Norsca" hidden="false" collective="false" import="true" targetId="8257-44e7-6d6d-9f36" type="selectionEntry"/>
+            <entryLink id="7b8a-5abc-afc5-a12b" name="Clave: Culto de los Matadores" hidden="false" collective="false" import="true" targetId="b3b6-149b-dc18-ae06" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2e38-cf9d-7d8b-0bc9" name="Saga (Snorri)" hidden="false" collective="false" import="true" targetId="a9ea-f3cb-9f8e-a1fa" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
