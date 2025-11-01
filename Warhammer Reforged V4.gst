@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="14" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -2380,6 +2380,24 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed8-1ded-4eb9-4c35" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b17-fab8-2b4c-609f" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c08e-5a31-2a7f-6439" name="Clave: Rasetra" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6120-8421-f95c-ab21" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688e-83c0-967e-2141" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="55dd-6e77-d4c5-553f" name="Clave: Khainitas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa4-3dd0-5f20-66e1" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3065-6d72-5618-10fe" type="min"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6790,6 +6808,9 @@ En el instante en que una Encarnación Elemental sea retirada como baja del camp
     </rule>
     <rule id="aa38-f8cc-f423-efc2" name="Regeneración (2+)" hidden="false">
       <description>Esta regla especial siempre va acompañada de un número entre paréntesis; por ejemplo, Regeneración (5+), o Regeneración (2+). Cada vez que la miniatura sufra una o más heridas, tras realizar todas las tiradas de salvación pertinentes, tira 1D6 por cada herida: si el resultado es igual o superior al indicado por su Regeneración, la herida será cancelada. Algunos efectos aumentan las tiradas de Regeneración; el máximo al que se puede llegar apilando es de 3+ o, si la miniatura tiene una Potencia de unidad 5+, de 4+, salvo que se especifique lo contrario.</description>
+    </rule>
+    <rule id="467a-3f64-3c89-09ba" name="No Muerto (1)" hidden="false">
+      <description>Las miniaturas con esta regla especial tienen las siguientes reglas especiales: Inmune a psicología, Inestable, Inmune a veneno y causan Miedo. Además, no pueden efectuar movimientos de marcha a menos que tengan la regla especial Hostigadores, Caballería rápida o sean personajes individuales. Las tropas dentro del alcance de la regla especial Presencia inspiradora del General del ejército al inicio de la fase de movimiento podrán marchar siguiendo las reglas habituales. Las unidades con esta regla especial bajo el mando de un personaje con uno o más niveles de magia también podrán efectuar movimientos de marcha. Junto a la regla No muerto se indica una cantidad entre paréntesis, que indica cuántas heridas restaura en la unidad cada dado de invocación (usado en varios hechizos, reglas y objetos mágicos).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
