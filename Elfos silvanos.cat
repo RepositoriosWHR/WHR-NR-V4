@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="924e-28e4-pubN65537" name="Elfos Silvanos. Libro de Ejércitos. Warhammer Reforged"/>
   </publications>
@@ -3920,6 +3920,15 @@
                       </modifiers>
                     </entryLink>
                     <entryLink id="c28f-2503-97ca-6bc0" name="Armas mágicas. Elfos silvanos. Arma de mano" hidden="false" collective="false" import="true" targetId="a5c0-d06d-a6a4-209a" type="selectionEntryGroup"/>
+                    <entryLink id="92da-5476-4db2-b8ce" name="Armas mágicas. Elfos silvanos. Espadón de cacería" hidden="false" collective="false" import="true" targetId="c26f-d8ca-a95a-bc05" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f294-f85f-0d07-2bc4" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="7eed-68d9-c4a3-3593" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -6091,39 +6100,39 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bde5-1e44-3c15-a57b" name="Noble" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bde5-1e44-3c15-a57b" name="Noble silvano" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="name" value="Noble Bailarin de Loec">
+        <modifier type="set" field="name" value="Noble silvano Bailarin de Loec">
           <conditions>
             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58da-a8bb-8578-3da2" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="name" value="Noble Centinel de Cythral">
+        <modifier type="set" field="name" value="Noble silvano Centinel de Cythral">
           <conditions>
             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f294-f85f-0d07-2bc4" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="name" value="Noble Eterno">
+        <modifier type="set" field="name" value="Noble silvano Eterno">
           <conditions>
             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee65-9b8f-7b95-27b2" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="name" value="Noble Jinete de Kurnous">
+        <modifier type="set" field="name" value="Noble silvano Jinete de Kurnous">
           <conditions>
             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f460-5823-54ca-fbbf" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="name" value="Noble Forestal">
+        <modifier type="set" field="name" value="Noble silvano Forestal">
           <conditions>
             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e105-d7c2-4ca3-5115" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="name" value="Noble Señor de las Bestias">
+        <modifier type="set" field="name" value="Noble silvano Señor de las Bestias">
           <conditions>
             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="372e-c651-1a8c-f431" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="name" value="Noble Jinete del viento">
+        <modifier type="set" field="name" value="Noble silvano Jinete del viento">
           <conditions>
             <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8451-e1b2-2958-9152" type="equalTo"/>
           </conditions>
@@ -6254,11 +6263,11 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f7-1e97-7cdf-682b" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="c295-bd5a-39e4-328f" name="Armas Mágicas - Elfos Silvanos" hidden="false" collective="false" import="true" targetId="8c81-db0d-f722-f5d0" type="selectionEntryGroup"/>
+                    <entryLink id="c295-bd5a-39e4-328f" name="Armas mágicas. Elfos silvanos. Lanza" hidden="false" collective="false" import="true" targetId="8c81-db0d-f722-f5d0" type="selectionEntryGroup"/>
                     <entryLink id="8d73-b8d5-3d61-cfee" name="Armas mágicas. Lanza" hidden="false" collective="false" import="true" targetId="d8b7-876d-b68d-3fb1" type="selectionEntryGroup"/>
                     <entryLink id="675a-ef89-115f-f81d" name="Armas mágicas. Elfos silvanos. Lanza asrai" hidden="false" collective="false" import="true" targetId="e410-e1d3-a7bf-6bda" type="selectionEntryGroup"/>
                     <entryLink id="419d-2953-36f2-dcc4" name="Armas mágicas. Elfos silvanos. Armas emparejadas" hidden="false" collective="false" import="true" targetId="55c3-f6b7-8346-99a7" type="selectionEntryGroup"/>
-                    <entryLink id="01c9-8c64-e735-2a53" name="Armas mágicas. Elfos Silvanos. Arco largo élfico" hidden="false" collective="false" import="true" targetId="da45-0ecb-3239-8d59" type="selectionEntryGroup">
+                    <entryLink id="01c9-8c64-e735-2a53" name="Armas mágicas. Elfos silvanos. Arco" hidden="false" collective="false" import="true" targetId="da45-0ecb-3239-8d59" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
@@ -6272,6 +6281,15 @@
                     <entryLink id="b9b1-e6d2-1cd9-ec46" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink id="9a12-4a8c-06b9-9242" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
                     <entryLink id="2715-014e-a2f8-1e9c" name="Armas mágicas. Elfos silvanos. Arma de mano" hidden="false" collective="false" import="true" targetId="a5c0-d06d-a6a4-209a" type="selectionEntryGroup"/>
+                    <entryLink id="bf25-d85f-061a-c119" name="Armas mágicas. Elfos silvanos. Espadón de cacería" hidden="false" collective="false" import="true" targetId="c26f-d8ca-a95a-bc05" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f294-f85f-0d07-2bc4" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="ac6a-db18-b963-f48c" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -6308,7 +6326,7 @@
                   <entryLinks>
                     <entryLink id="6f42-efe6-a635-c4c7" name="Talismanes Mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="067a-dfd2-cc5c-4632" name="Talismanes Mágicos - Elfos Silvanos" hidden="false" collective="false" import="true" targetId="430c-1d7f-2bcd-4c72" type="selectionEntryGroup"/>
-                    <entryLink id="7df7-1fe9-623f-68ad" name="Talismanes mágicos. Elfos Silvanos. Infantería" hidden="false" collective="false" import="true" targetId="072c-1c93-684e-49b7" type="selectionEntryGroup">
+                    <entryLink id="7df7-1fe9-623f-68ad" name="Talismanes mágicos. Elfos silvanos. Infantería" hidden="false" collective="false" import="true" targetId="072c-1c93-684e-49b7" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>

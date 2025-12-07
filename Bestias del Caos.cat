@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="8" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="9" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coccorota, Aswer y Gengis.</readme>
   <publications>
     <publication id="51fc-eb9b-pubN65537" name="Bestias del Caos Reforged"/>
@@ -10723,26 +10723,32 @@ Ninguno de los resultados afectará a miniaturas con las Reglas especiales Demon
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d6c8-f194-4fdb-c793" name="Consagraciones del Caos" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d6c8-f194-4fdb-c793" name="Marca del Caos" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73c5-5abb-7204-c299" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="222e-729e-63a5-fc59" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="b136-f832-d633-4655" name="Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b136-f832-d633-4655" name="Marca de Nurgle" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bac9-5070-18fb-7a95" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28d3-cb5f-2447-a115" type="min"/>
               </constraints>
               <rules>
-                <rule id="ceb2-5bba-89d8-5caa" name="Marca de Nurgle" hidden="false">
-                  <description>Causa Terror. Además, los enemigos tienen un penalizador de -1 para impactarle con proyectiles y los enemigos en contacto peana con peana tendrán -1 a su Habilidad de Armas.</description>
+                <rule id="a306-955e-c76f-e522" name="Marca de Nurgle. Molokh, Lenguababosa" hidden="false">
+                  <description>Molokh porta la Marca de Nurgle, que hace que cause Terror. Además, los enemigos tienen un penalizador de -1 para impactarle con proyectiles y los enemigos en contacto peana con peana tendrán -1 a su Habilidad de Armas.</description>
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="5bb9-358e-d591-62c6" name="Marcas del Caos" hidden="false" targetId="bd9b-5f94-d55d-f6af" type="rule"/>
                 <infoLink id="1e6c-3d3e-4dc0-b694" name="Terror" hidden="false" targetId="ca57-1f1f-8bc0-d9ab" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="89b2-b785-133a-00a3" name="Marca de Nurgle. Personajes" hidden="false" collective="false" import="true" targetId="6957-61b9-3179-47e8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31b2-f74a-045b-95e1" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -10778,6 +10784,10 @@ Ninguno de los resultados afectará a miniaturas con las Reglas especiales Demon
           </constraints>
           <selectionEntries>
             <selectionEntry id="33a8-a2fd-e80c-9787" name="Portador de la descomposición" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4d2-191d-adb4-c641" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c0b-9434-18f2-cbd4" type="min"/>
+              </constraints>
               <rules>
                 <rule id="ba8f-f39e-8c4d-568a" name="Portador de la descomposición" hidden="false">
                   <description>Por cada herida causada por uno de los ataques de Lenguababosa, la miniatura herida deberá hacer un chequeo de Resistencia. Si lo falla, sufrirá 1D6 heridas automáticas adicionales sin tirada de salvación por armadura. Además, todos los lanzamientos de hechizos de los Saberes de la Muerte, la Plaga y/o Nurgle obtendrán un bonificador de +2 a su valor total de lanzamiento, mientras que los lanzamientos de hechizos de los Saberes de la Vida o Alta Magia sufrirán un penalizador de -2 a su valor total de lanzamiento.</description>

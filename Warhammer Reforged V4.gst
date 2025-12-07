@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="16" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -461,14 +461,14 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="5b77-bc4d-7c36-b2e2" name="Encarnación elemental amatista" hidden="false" collective="false" import="true" targetId="accb-f3ef-448c-2768" type="selectionEntry"/>
-    <entryLink id="d1e0-d5aa-f8ab-9243" name="Encarnación elemental brillante" hidden="false" collective="false" import="true" targetId="78eb-2cbf-361a-df49" type="selectionEntry"/>
-    <entryLink id="46bf-c11a-e21c-028c" name="Encarnación elemental celestial" hidden="false" collective="false" import="true" targetId="ddaf-296a-71b3-aaba" type="selectionEntry"/>
-    <entryLink id="1dc7-936b-1ef7-2ae9" name="Encarnación elemental dorada" hidden="false" collective="false" import="true" targetId="a01a-b6c4-5cc8-269a" type="selectionEntry"/>
-    <entryLink id="b6a0-71c3-d400-17ee" name="Encarnación elemental gris" hidden="false" collective="false" import="true" targetId="c9b1-4f18-c304-005f" type="selectionEntry"/>
-    <entryLink id="8e6d-26e5-8b25-17f8" name="Encarnación elemental jade" hidden="false" collective="false" import="true" targetId="c455-38a1-63d9-3b6d" type="selectionEntry"/>
-    <entryLink id="7c0f-7cc7-3f3d-d0ef" name="Encarnación elemental luminosa" hidden="false" collective="false" import="true" targetId="ba4f-8412-9cd4-9531" type="selectionEntry"/>
-    <entryLink id="7dac-bad8-e641-4063" name="Encarnación elemental ámbar" hidden="false" collective="false" import="true" targetId="decf-2681-56b7-6905" type="selectionEntry"/>
+    <entryLink id="5b77-bc4d-7c36-b2e2" name="Encarnación elemental amatista" hidden="true" collective="false" import="true" targetId="accb-f3ef-448c-2768" type="selectionEntry"/>
+    <entryLink id="d1e0-d5aa-f8ab-9243" name="Encarnación elemental brillante" hidden="true" collective="false" import="true" targetId="78eb-2cbf-361a-df49" type="selectionEntry"/>
+    <entryLink id="46bf-c11a-e21c-028c" name="Encarnación elemental celestial" hidden="true" collective="false" import="true" targetId="ddaf-296a-71b3-aaba" type="selectionEntry"/>
+    <entryLink id="1dc7-936b-1ef7-2ae9" name="Encarnación elemental dorada" hidden="true" collective="false" import="true" targetId="a01a-b6c4-5cc8-269a" type="selectionEntry"/>
+    <entryLink id="b6a0-71c3-d400-17ee" name="Encarnación elemental gris" hidden="true" collective="false" import="true" targetId="c9b1-4f18-c304-005f" type="selectionEntry"/>
+    <entryLink id="8e6d-26e5-8b25-17f8" name="Encarnación elemental jade" hidden="true" collective="false" import="true" targetId="c455-38a1-63d9-3b6d" type="selectionEntry"/>
+    <entryLink id="7c0f-7cc7-3f3d-d0ef" name="Encarnación elemental luminosa" hidden="true" collective="false" import="true" targetId="ba4f-8412-9cd4-9531" type="selectionEntry"/>
+    <entryLink id="7dac-bad8-e641-4063" name="Encarnación elemental ámbar" hidden="true" collective="false" import="true" targetId="decf-2681-56b7-6905" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="897e-1149-172a-b469" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" type="upgrade">

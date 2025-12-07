@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0838-843b-f148-7874" name="Skaven" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0838-843b-f148-7874" name="Skaven" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6e2e-eebb-846d-4520" name="Recompensa del caos">
       <characteristicTypes>
@@ -6041,6 +6041,19 @@ envenenados.</description>
                   <entryLinks>
                     <entryLink id="2b01-71c2-f57e-8d2f" name="Artefactos arcanos. Skaven" hidden="false" collective="false" import="true" targetId="68c1-cbd7-dc4c-b64a" type="selectionEntryGroup"/>
                     <entryLink id="ad07-e406-23aa-af6f" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="1511-51c4-db60-33cf" name="Armaduras mágicas" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e08c-6fd9-4d42-9753" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="4619-a37e-eeed-2c3c" name="Armaduras mágicas. Skaven" hidden="false" collective="false" import="true" targetId="f4cf-1e76-a8f4-0251" type="selectionEntryGroup"/>
+                    <entryLink id="5f70-9169-10f4-5439" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
+                    <entryLink id="eb3c-d806-eabb-7e68" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
+                    <entryLink id="a131-c81b-d09b-91db" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
+                    <entryLink id="1c7b-c28a-de44-5c34" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                    <entryLink id="d025-9888-9dda-5525" name="Armaduras mágicas. Skaven. Ingeniero brujo" hidden="false" collective="false" import="true" targetId="7d81-7dad-50a8-3224" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
