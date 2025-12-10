@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18e6-a0ad-d123-70a6" name="Culto de matadores" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18e6-a0ad-d123-70a6" name="Culto de matadores" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1811-12ee-8ca2-f9ec" name="Habilidad de matador">
       <characteristicTypes>
@@ -1853,7 +1853,7 @@ su Arcabuz de repetición enano en esa fase de disparo). Los impactos se resolve
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="f5ba-8e37-8a59-8e87" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27bc-c238-b7f1-d34b" type="equalTo"/>
+                            <condition field="selections" scope="f5ba-8e37-8a59-8e87" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="27bc-c238-b7f1-d34b" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -2516,7 +2516,7 @@ su Arcabuz de repetición enano en esa fase de disparo). Los impactos se resolve
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a955-5d57-ac95-c4b8" name="Objetos rúnicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -4336,6 +4336,22 @@ unidad impactada por el lanzarredes no podrá utilizar las reglas especiales Vol
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Máquina de guerra</characteristic>
               </characteristics>
             </profile>
+            <profile id="b93b-c874-2058-6872" name="Matatrolls (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">1(2)</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">1(2)</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">9</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
+              </characteristics>
+            </profile>
           </profiles>
           <infoLinks>
             <infoLink id="72f4-0bb0-8bc3-3fc2" name="Catapulta" hidden="false" targetId="1cd8-efcb-3e9f-eccd" type="profile"/>
@@ -4384,24 +4400,6 @@ unidad impactada por el lanzarredes no podrá utilizar las reglas especiales Vol
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dad-5bc0-32e7-a57b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a8-b60c-b505-63d7" type="min"/>
           </constraints>
-          <profiles>
-            <profile id="c2ca-7047-139e-da06" name="Matatrolls (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">3</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
-                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
-                <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
-                <characteristic name="H" typeId="5723232344415441232323">1(2)</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">1(2)</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">9</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -5323,7 +5321,7 @@ unidad impactada por el lanzarredes no podrá utilizar las reglas especiales Vol
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a7ce-0a85-f446-750a" name="Guerrero temible" hidden="false" collective="false" import="true" type="upgrade">
