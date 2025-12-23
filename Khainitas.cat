@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b1c0-dfa2-401c-8ec1" name="Senda">
       <characteristicTypes>
@@ -2966,6 +2966,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
               <infoLinks>
                 <infoLink id="620a-cb36-250e-d128" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -4213,9 +4216,6 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>

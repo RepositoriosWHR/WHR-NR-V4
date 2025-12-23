@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="9" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="10" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coccorota, Aswer y Gengis.</readme>
   <publications>
     <publication id="51fc-eb9b-pubN65537" name="Bestias del Caos Reforged"/>
@@ -18503,9 +18503,6 @@ la civilización.</description>
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="80.0"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="66d2-b1e1-f9bc-681e" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>

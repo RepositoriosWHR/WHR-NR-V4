@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="16" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="17" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -2398,6 +2398,15 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa4-3dd0-5f20-66e1" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3065-6d72-5618-10fe" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7332-4156-f384-9a96" name="Clave: Middenland" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e147-6eb1-8296-f0c3" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff0-763f-1760-5dfb" type="min"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>

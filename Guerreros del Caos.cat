@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -4751,6 +4751,7 @@
             <selectionEntry id="6383-c71c-d9db-861d" name="Paladín elegido" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5b8-1446-b319-71bf" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adbf-8370-c14a-843b" type="min"/>
               </constraints>
               <profiles>
                 <profile id="9e94-4d83-f5b9-2449" name="Paladín elegido" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -6059,7 +6060,8 @@
             </selectionEntry>
             <selectionEntry id="9f4f-6393-ab03-ff2a" name="Paladín elegido " hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a124-c968-569d-8858" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a124-c968-569d-8858" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79cb-01b4-6a91-e1a1" type="max"/>
               </constraints>
               <profiles>
                 <profile id="ec28-a69e-aa43-735e" name="Paladín elegido" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -12545,6 +12547,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
             <selectionEntry id="a1db-0692-a196-863a" name="Paladín elegido" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bba1-9049-bde0-3c35" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="785f-2c8a-ce0e-e2da" type="min"/>
               </constraints>
               <profiles>
                 <profile id="de05-9ad2-ef38-68bc" name="Paladín elegido" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -13083,6 +13086,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
             <selectionEntry id="21d3-b56c-5c24-4b0c" name="Paladín elegido" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5597-32a2-22f9-da8b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="762c-ee60-6d3d-483e" type="min"/>
               </constraints>
               <profiles>
                 <profile id="733c-1f6c-ac62-91d0" name="Paladín elegido" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -13423,6 +13427,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
             <selectionEntry id="ab95-ea82-ddda-dd71" name="Paladín elegido" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d750-36c1-8b00-9026" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9a8-2996-0df9-eb21" type="min"/>
               </constraints>
               <profiles>
                 <profile id="8d9e-f08c-19c0-d8c6" name="Paladín elegido" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -13717,6 +13722,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
             <selectionEntry id="6887-30fc-edaa-80d4" name="Paladín elegido" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beb9-bbc0-755f-511f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f52b-d566-6176-db70" type="min"/>
               </constraints>
               <profiles>
                 <profile id="17b3-ef60-c982-f74f" name="Paladín elegido" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -22085,6 +22091,7 @@ persecución.
             <selectionEntry id="d245-60ac-004d-3b58" name="Paladín elegido" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="635a-8eb3-5b02-a1e5" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7b2-e972-847e-4d69" type="min"/>
               </constraints>
               <profiles>
                 <profile id="894a-931a-69dd-603c" name="Paladín elegido" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
