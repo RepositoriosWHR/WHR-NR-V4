@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="6" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="8" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4be9-2442-f655-1d41" name="Runa talismánica">
       <characteristicTypes>
@@ -143,7 +143,7 @@
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="aa4c-6b95-ff3f-f506" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="aa4c-6b95-ff3f-f506" name="Arma a dos manos y Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
                     <modifier type="increment" field="points" value="2.0">
                       <repeats>
@@ -156,6 +156,7 @@
                   </constraints>
                   <infoLinks>
                     <infoLink id="26d7-a638-a3e9-e692" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
+                    <infoLink id="92f1-daa5-68b9-eeb2" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -791,29 +792,38 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7996-6e95-77cf-036b" type="max"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="2c76-e3ce-cb7e-86bf" name="Objetos rúnicos" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="3d70-d113-5843-d64d" name="Objetos rúnicos" hidden="false" collective="false" import="true">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67f4-1ac5-84ff-9cfa" type="max"/>
-                        <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f900-de29-e33a-bcbb" type="max"/>
+                        <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e48b-4e6f-070e-70bf" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbf6-8771-d020-70d6" type="max"/>
                       </constraints>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="534b-bbca-c909-df54" name="Arma rúnica" hidden="false" collective="false" import="true">
+                      <selectionEntries>
+                        <selectionEntry id="afeb-7037-07c8-56b1" name="Runas de armas" hidden="false" collective="false" import="true" type="upgrade">
                           <entryLinks>
-                            <entryLink id="c52b-5f5a-3079-3fdb" name="Runas de armas (armas de mano, ballestas o hachas de matador" hidden="false" collective="false" import="true" targetId="990a-43f0-ed4b-1788" type="selectionEntryGroup"/>
-                            <entryLink id="076c-ff36-b3ab-c783" name="Runa de armas (Armas de mano)" hidden="false" collective="false" import="true" targetId="3eaf-0058-979a-05b8" type="selectionEntryGroup"/>
+                            <entryLink id="6f74-7da3-cb1a-4e51" name="Runas de armas (armas de mano, ballestas o hachas de matador" hidden="false" collective="false" import="true" targetId="990a-43f0-ed4b-1788" type="selectionEntryGroup"/>
+                            <entryLink id="9101-b7f1-9f01-ab47" name="Runa de armas (Armas de mano)" hidden="false" collective="false" import="true" targetId="3eaf-0058-979a-05b8" type="selectionEntryGroup"/>
                           </entryLinks>
-                        </selectionEntryGroup>
-                        <selectionEntryGroup id="6a5d-9bbd-9837-f164" name="Armadura rúnica" hidden="false" collective="false" import="true">
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="2d80-929c-a2c6-d205" name="Runas de defensa" hidden="false" collective="false" import="true" type="upgrade">
                           <entryLinks>
-                            <entryLink id="9080-7676-76a4-ea56" name="Runas de defensa (Armaduras y escudos)" hidden="false" collective="false" import="true" targetId="2cd2-f100-5cf8-3f72" type="selectionEntryGroup"/>
+                            <entryLink id="6df5-0931-1f4f-bbc0" name="Runas de defensa (armaduras y escudos)" hidden="false" collective="false" import="true" targetId="2cd2-f100-5cf8-3f72" type="selectionEntryGroup"/>
                           </entryLinks>
-                        </selectionEntryGroup>
-                        <selectionEntryGroup id="bbe9-9a3a-ceae-0982" name="Talismán rúnico" hidden="false" collective="false" import="true">
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="efe5-8475-a791-739c" name="Runas talismánicas" hidden="false" collective="false" import="true" type="upgrade">
                           <entryLinks>
-                            <entryLink id="cc27-df16-6b8f-0c98" name="Runas talismánicas (Amuletos y talismanes)" hidden="false" collective="false" import="true" targetId="993b-6723-14f4-beff" type="selectionEntryGroup"/>
+                            <entryLink id="19f9-d62a-8ead-7431" name="Runas talismánicas (Amuletos y talismanes)" hidden="false" collective="false" import="true" targetId="993b-6723-14f4-beff" type="selectionEntryGroup"/>
                           </entryLinks>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
@@ -14967,29 +14977,38 @@ Las unidades transportadas en la zona de carga o los héroes que estén en la ca
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85cd-a07a-3a1d-df37" type="max"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="f508-3f2d-4784-94fa" name="Objetos rúnicos" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="645b-afce-8e8b-0073" name="Objetos rúnicos" hidden="false" collective="false" import="true">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb6d-e6d0-8e91-8f7c" type="max"/>
-                        <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f593-3114-25f2-e719" type="max"/>
+                        <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="439d-d04c-5d22-dc81" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01f4-69a5-090d-e638" type="max"/>
                       </constraints>
-                      <selectionEntryGroups>
-                        <selectionEntryGroup id="e229-34fe-ab18-ade7" name="Arma rúnica" hidden="false" collective="false" import="true">
+                      <selectionEntries>
+                        <selectionEntry id="7518-1105-1603-4c96" name="Runas de armas" hidden="false" collective="false" import="true" type="upgrade">
                           <entryLinks>
-                            <entryLink id="0284-88d8-68b0-8263" name="Runas de armas (armas de mano, ballestas o hachas de matador" hidden="false" collective="false" import="true" targetId="990a-43f0-ed4b-1788" type="selectionEntryGroup"/>
-                            <entryLink id="48e2-0295-baa4-249c" name="Runa de armas (Armas de mano)" hidden="false" collective="false" import="true" targetId="3eaf-0058-979a-05b8" type="selectionEntryGroup"/>
+                            <entryLink id="3fd3-bcd3-e929-ad08" name="Runas de armas (armas de mano, ballestas o hachas de matador" hidden="false" collective="false" import="true" targetId="990a-43f0-ed4b-1788" type="selectionEntryGroup"/>
+                            <entryLink id="893b-ac71-7abc-679a" name="Runa de armas (Armas de mano)" hidden="false" collective="false" import="true" targetId="3eaf-0058-979a-05b8" type="selectionEntryGroup"/>
                           </entryLinks>
-                        </selectionEntryGroup>
-                        <selectionEntryGroup id="1d7a-88c1-c654-0125" name="Armadura rúnica" hidden="false" collective="false" import="true">
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="a8f1-8f95-f000-9482" name="Runas de defensa" hidden="false" collective="false" import="true" type="upgrade">
                           <entryLinks>
-                            <entryLink id="25ae-efd9-b6b4-1ccf" name="Runas de defensa (Armaduras y escudos)" hidden="false" collective="false" import="true" targetId="2cd2-f100-5cf8-3f72" type="selectionEntryGroup"/>
+                            <entryLink id="dbfc-4f04-9469-4f6a" name="Runas de defensa (armaduras y escudos)" hidden="false" collective="false" import="true" targetId="2cd2-f100-5cf8-3f72" type="selectionEntryGroup"/>
                           </entryLinks>
-                        </selectionEntryGroup>
-                        <selectionEntryGroup id="6dc9-4386-c504-aada" name="Talismán rúnico" hidden="false" collective="false" import="true">
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="511b-98c7-2563-7c87" name="Runas talismánicas" hidden="false" collective="false" import="true" type="upgrade">
                           <entryLinks>
-                            <entryLink id="3159-e892-ce38-7ed9" name="Runas talismánicas (Amuletos y talismanes)" hidden="false" collective="false" import="true" targetId="993b-6723-14f4-beff" type="selectionEntryGroup"/>
+                            <entryLink id="a9cd-de76-efc5-ca92" name="Runas talismánicas (Amuletos y talismanes)" hidden="false" collective="false" import="true" targetId="993b-6723-14f4-beff" type="selectionEntryGroup"/>
                           </entryLinks>
-                        </selectionEntryGroup>
-                      </selectionEntryGroups>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>

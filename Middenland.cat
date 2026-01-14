@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="09c4-4a06-8b6c-530f" name="Middenland" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="09c4-4a06-8b6c-530f" name="Middenland" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a55d-2199-82f9-73d2" name="Talismán de Ulric">
       <characteristicTypes>
@@ -8112,6 +8112,9 @@ penetración. Si la unidad objetivo se  encuentra a distancia corta (12” o men
                   <infoLinks>
                     <infoLink id="6743-a19b-d126-90f7" name="Armadura ligera" hidden="false" targetId="44f2-32d5-23eb-62f5" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -12838,9 +12841,16 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="8b61-2eb4-d4c0-fb76" name="Capa del Lobo" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="32e5-03f7-88de-c1d2" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="08c9-f51b-c5a2-daf7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7ac-09a8-1b60-f97a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc50-0851-9842-2fc0" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32e5-03f7-88de-c1d2" type="min"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32e5-03f7-88de-c1d2" type="min"/>
                       </constraints>
                       <infoLinks>
                         <infoLink id="a2e4-0a74-0bb8-f31d" name="Capa del lobo" hidden="false" targetId="06a5-dc33-7c74-8079" type="profile"/>
@@ -12883,9 +12893,16 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
                       </selectionEntries>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="ad75-f8d8-6e83-e5af" name="Armaduras" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f92-aa19-85a9-6109">
+                      <modifiers>
+                        <modifier type="set" field="3e83-2697-acd8-41a7" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="08c9-f51b-c5a2-daf7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7ac-09a8-1b60-f97a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c58-4aeb-9d6e-e8d5" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e83-2697-acd8-41a7" type="min"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e83-2697-acd8-41a7" type="min"/>
                       </constraints>
                       <selectionEntries>
                         <selectionEntry id="9f92-aa19-85a9-6109" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -13304,9 +13321,16 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="3b09-eed5-e6b7-3e9f" name="Capa del Lobo" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="3354-080c-72c5-71f5" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="37f7-a340-4b6d-71e2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="85fb-c2f8-d860-62c1" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1ae-2143-4e6e-8bc8" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3354-080c-72c5-71f5" type="min"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3354-080c-72c5-71f5" type="min"/>
                       </constraints>
                       <infoLinks>
                         <infoLink id="31c0-8e1b-df56-60c9" name="Capa del lobo" hidden="false" targetId="06a5-dc33-7c74-8079" type="profile"/>
@@ -13348,9 +13372,16 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
                       </selectionEntries>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="95d0-ed01-f060-e778" name="Armaduras" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f9c-8468-8dde-a48e">
+                      <modifiers>
+                        <modifier type="set" field="7156-4fa6-b769-aa02" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="37f7-a340-4b6d-71e2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="85fb-c2f8-d860-62c1" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a066-983f-5a15-e4f1" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7156-4fa6-b769-aa02" type="min"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7156-4fa6-b769-aa02" type="min"/>
                       </constraints>
                       <selectionEntries>
                         <selectionEntry id="5f9c-8468-8dde-a48e" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -14911,9 +14942,16 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="aae6-086c-97a9-ad4f" name="Capa del Lobo" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="8a0f-7ad7-23f0-1ac5" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="d2c1-6553-ec4d-60aa" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62f7-6f23-e1fa-7351" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1869-7e7e-305d-d0cf" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a0f-7ad7-23f0-1ac5" type="min"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a0f-7ad7-23f0-1ac5" type="min"/>
                       </constraints>
                       <infoLinks>
                         <infoLink id="499e-f628-8ee1-09a8" name="Capa del lobo" hidden="false" targetId="06a5-dc33-7c74-8079" type="profile"/>
@@ -14955,9 +14993,16 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
                       </selectionEntries>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="54ea-ef5d-e5c7-6fdb" name="Armaduras" hidden="false" collective="false" import="true" defaultSelectionEntryId="8903-e47e-b338-1742">
+                      <modifiers>
+                        <modifier type="set" field="99cb-9050-b905-10c2" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="d2c1-6553-ec4d-60aa" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62f7-6f23-e1fa-7351" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8795-af85-7790-91b2" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99cb-9050-b905-10c2" type="min"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99cb-9050-b905-10c2" type="min"/>
                       </constraints>
                       <selectionEntries>
                         <selectionEntry id="8903-e47e-b338-1742" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -15365,9 +15410,16 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="e4f9-3a2f-c95c-6111" name="Capa del Lobo" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="3108-1bab-c254-a141" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="8db7-4363-e870-d5e5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a694-eba3-df14-8a25" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99ec-6860-1135-a529" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3108-1bab-c254-a141" type="min"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3108-1bab-c254-a141" type="min"/>
                       </constraints>
                       <infoLinks>
                         <infoLink id="57b8-8b4a-2900-0076" name="Capa del lobo" hidden="false" targetId="06a5-dc33-7c74-8079" type="profile"/>
@@ -15410,9 +15462,16 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
                       </selectionEntries>
                     </selectionEntryGroup>
                     <selectionEntryGroup id="625b-049c-7c72-8517" name="Armaduras" hidden="false" collective="false" import="true" defaultSelectionEntryId="d095-0c1f-9d30-6d08">
+                      <modifiers>
+                        <modifier type="set" field="4c79-e468-9114-a8ea" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="8db7-4363-e870-d5e5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a694-eba3-df14-8a25" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="afd0-e7b7-750d-4bd7" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c79-e468-9114-a8ea" type="min"/>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c79-e468-9114-a8ea" type="min"/>
                       </constraints>
                       <selectionEntries>
                         <selectionEntry id="d095-0c1f-9d30-6d08" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">

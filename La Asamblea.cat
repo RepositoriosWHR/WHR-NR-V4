@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5752-4a70-7461-a2aa" name="La Asamblea" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5752-4a70-7461-a2aa" name="La Asamblea" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="7828-c6dc-75df-a355" name="Remoquete">
       <characteristicTypes>
@@ -1912,7 +1912,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="65.0"/>
+            <cost name="pts" typeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eb63-3f86-e162-e5de" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -12147,7 +12147,7 @@ Sombras.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="99b6-325a-2a33-687b" name="Artefactos arcanos. Reliquias. La Asamblea. Hechiceros" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="99b6-325a-2a33-687b" name="Artefactos arcanos. La Asamblea. Hechiceros" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="535a-b337-be33-fd7b" type="max"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d855-4240-e63d-1d5c" type="min"/>
@@ -12190,7 +12190,7 @@ Sombras.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="47a2-045b-f132-8a79" name="Artefactos arcanos. Reliquias. La Asamblea. Cocineros" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="47a2-045b-f132-8a79" name="Artefactos arcanos. La Asamblea. Cocineros" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e101-998b-0c3e-10b2" type="max"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aec-2a5f-46e7-b71c" type="min"/>
@@ -12221,22 +12221,6 @@ Sombras.</description>
             <profile id="cd5b-3700-8649-8cb1" name="Gorro de chef" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
                 <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Solo Cocinero y Gran Cocinero. El hechicero conoce un hechizo adicional, y obtendrá un bonificador de +1 en sus tiradas de lanzamiento de hechizos.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d92d-3f4f-7dde-6e73" name="El recetario de Gambo Harstock" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7822-acab-6613-b191" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f67-45b1-d08c-cf01" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0026-f13e-6d1d-a373" name="El recetario de Gambo Harstock" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Solo Cocinero o Gran Cocinero. Solo tres usos. Puedes decidir usar el recetario después de realizar cualquier tirada de lanzamiento de hechizos para aumentar en +2 el valor de la tirada del lanzamiento del hechizo (lo cual puede convertir un fallo en un éxito.</characteristic>
               </characteristics>
             </profile>
           </profiles>
