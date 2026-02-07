@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="09c4-4a06-8b6c-530f" name="Middenland" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="09c4-4a06-8b6c-530f" name="Middenland" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a55d-2199-82f9-73d2" name="Talismán de Ulric">
       <characteristicTypes>
@@ -6340,6 +6340,9 @@ penetración. Si la unidad objetivo se  encuentra a distancia corta (12” o men
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74b8-1898-6ed8-3027" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="27e4-3cd1-1483-b97f" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7720,6 +7723,9 @@ penetración. Si la unidad objetivo se  encuentra a distancia corta (12” o men
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ef2-900e-91bb-ecef" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="cd50-a6dd-ac29-a20b" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7728,6 +7734,9 @@ penetración. Si la unidad objetivo se  encuentra a distancia corta (12” o men
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f46-8fd9-60b2-63de" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="1446-3c38-7b2c-2fc0" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -11068,7 +11077,7 @@ Mágica (1).</characteristic>
       </constraints>
       <rules>
         <rule id="23c9-f7e7-df30-fcc0" name="Experto en el oficio" hidden="false">
-          <description>Un Maestro Cazador ignora la regla Mover o disparar de sus armas de disparo. Además, suma +1 en la tirada de la Tabla de efecto de las Trampas de Caza. </description>
+          <description>Un Maestro Cazador no aplica penalizador en sus tiradas para impactar con proyectiles por Mover y disparar. Además, suma +1 en la tirada de la Tabla de efecto de las Trampas de Caza. </description>
         </rule>
       </rules>
       <infoLinks>
@@ -14374,6 +14383,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
       </modifiers>
       <infoLinks>
         <infoLink id="84e7-cc90-069c-5ad0" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
+        <infoLink id="96fa-27b8-ba4b-a562" name="Habitantes del Drakwald" hidden="false" targetId="b764-ec88-2172-5311" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="aaae-74c2-c2de-5f58" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
@@ -15732,7 +15742,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
       </constraints>
       <rules>
         <rule id="d005-6386-9a12-bc8a" name="Ímpetu de Ulric" hidden="false">
-          <description>Una miniatura con esta regla especial puede efectuar un único ataque adicional si consigue impactar exitosamente con al menos uno de sus ataques. Resuelve el impacto de ataque adicional en la misma iniciativa que los ataques que lo originan. Solamente los personajes con la regla especial Aplastar al débil pueden unirse a la Guardia Teutógena. Un personaje que se una a la Guardia Teutógena ganará la regla Ímpetu de Ulric mientras se encuentre unido a ella. </description>
+          <description>Una miniatura con esta regla especial puede efectuar un único ataque adicional si consigue impactar exitosamente con al menos uno de sus ataques. Resuelve el impacto de ataque adicional en la misma iniciativa que los ataques que lo originan. Solamente los personajes con la regla especial Aplastar al débil pueden unirse a la Guardia Teutógena. Un personaje que se una a la Guardia Teutógena ganará la regla Ímpetu de Ulric mientras se encuentre unido a ella.</description>
         </rule>
         <rule id="8346-538b-c32c-861a" name="Escolta personal" hidden="false">
           <description>Si el General del ejército es un Sumo Sacerdote de Ulric (o el Ar-Ulric) la Guardia Teutógena obtiene la regla especial Tozudez mientras se encuentre unido a ellos.</description>
@@ -16222,7 +16232,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
       <rules>
         <rule id="0c34-5f83-ec01-476f" name="Tanque a vapor imperial" hidden="false">
           <description>El Tanque a vapor imperial no puede cargar, perseguir ni arrasar pero puede reformar tras un combate sin gastar Puntos de vapor (ver más abajo). 
-El Comandante del tanque no puede luchar en combate cuerpo a cuerpo; el enemigo impactará automáticamente al Tanque a vapor imperial en combate cuerpo a cuerpo. Sin embargo, sí que podrá disparar su Pistola de repetición.
+El Comandante del tanque no puede luchar en combate cuerpo a cuerpo; el enemigo impactará automáticamente al Tanque a vapor imperial en combate cuerpo a cuerpo. Sin embargo, sí que podrá disparar su Pistola de repetición contra una unidad enemiga con la que esté trabado, sin repartir impactos. El Comandante del tanque sólo puede Aguantar y disparar si no se encuentra trabado en combate.
 Al inicio de cada turno, debes declarar cuántos Puntos de vapor vas a utilizar ese turno (entre 0 y 5). Cada Punto a vapor puede ser usado para una de las siguientes acciones:
 -Mover 3” hacia adelante o hacia atrás.
 -Girar hasta 90º.
@@ -20124,6 +20134,9 @@ haber tirado los dados con ella, para repetir la tirada. </description>
               </modifiers>
             </infoLink>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="267d-3495-0e2e-d1ee" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -20152,6 +20165,9 @@ haber tirado los dados con ella, para repetir la tirada. </description>
             <infoLink id="fee5-1a69-ba21-acda" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="1d84-d276-be37-63dd" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="53bb-c4cc-bf00-2e8a" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -20319,6 +20335,25 @@ haber tirado los dados con ella, para repetir la tirada. </description>
             <cost name="pts" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="8f75-157f-e5bf-dd98" name="Martillo matabestias" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5936-c068-6704-f5c3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3bd4-de6a-5fba-b2bc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cdc2-d2fe-2ec9-8cd4" name="Martillo matabestias" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Martillo del lobo blanco. Resuelve los ataques en combate cuerpo a cuerpo con la regla especial Heridas múltiples (2) contra miniaturas que causen Miedo o Terror. Cualquier miniatura herida por esta arma no podrá beneficiase de su salvación por Piel escamosa ni Protección por montura para salvar dicha herida.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d917-9cc7-4949-4f3a" name="Martillo del lobo blanco" hidden="false" targetId="f1f4-ab1d-eb1c-b954" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="f4ba-a130-65c9-b829" name="Armas mágicas. Middenland. Maestro templario. Lanza de caballería" hidden="false" collective="false" import="true">
@@ -20402,6 +20437,9 @@ haber tirado los dados con ella, para repetir la tirada. </description>
             <infoLink id="9d0e-ac92-834e-b50d" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
             <infoLink id="1987-4a3e-9006-1b81" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="6dfe-35df-3c91-09aa" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -20561,6 +20599,9 @@ haber tirado los dados con ella, para repetir la tirada. </description>
           <infoLinks>
             <infoLink id="36b1-7ab9-333a-365b" name="Resistencia mágica (2)" hidden="false" targetId="9718-2e66-193f-7dd6" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="0c06-45ab-1995-2adf" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -20829,6 +20870,9 @@ haber tirado los dados con ella, para repetir la tirada. </description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="7c18-b4c6-1875-55b9" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -20935,6 +20979,9 @@ haber tirado los dados con ella, para repetir la tirada. </description>
           <infoLinks>
             <infoLink id="e4d4-ff81-5c23-270d" name="Indesmoralizable" hidden="false" targetId="4362-3d7f-a24a-3309" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="d396-27c6-cfb8-00c3" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>

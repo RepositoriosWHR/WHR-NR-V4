@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -2689,6 +2689,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0287-3d1b-ad1f-8894" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="3c9e-94ad-6ba6-9a9b" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6891,6 +6894,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
               </constraints>
               <entryLinks>
                 <entryLink id="a496-0b3c-4c53-70be" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="1f9d-e295-0f8d-5e77" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="70.0"/>
@@ -6902,6 +6906,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
               </constraints>
               <entryLinks>
                 <entryLink id="e835-0ced-2574-b8f2" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="d908-3e8d-9003-5125" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="105.0"/>
@@ -6925,6 +6930,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
               </constraints>
               <entryLinks>
                 <entryLink id="5424-083d-9512-6b10" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="6eed-a171-dc0b-3584" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
@@ -8218,6 +8224,9 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7344-9ab0-8729-fbf7" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="c7c9-34a3-84f8-5538" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -8226,6 +8235,9 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c100-ca2e-fb22-81dd" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="e57a-dc93-63fb-6820" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -16099,6 +16111,18 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="e51a-7e9d-62a6-d63d" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e315-dfc3-2811-4900" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d797-9ef7-d90d-c3ac" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="de2e-accc-4e2c-bb9b" name="Armadura ligera" hidden="false" targetId="44f2-32d5-23eb-62f5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -18573,7 +18597,7 @@ enjambre de Seguidores nurgletes a la unidad. Recuerda que no puedes sobrepasar 
           <profiles>
             <profile id="dbfe-8f92-cfca-b31f" name="Skarr Irasangrienta" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+                <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">8</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
@@ -27652,6 +27676,9 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="1575-f7d7-7395-d8bc" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
@@ -28055,6 +28082,9 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
           <infoLinks>
             <infoLink id="7802-bffe-eacc-7a13" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="fca6-0e63-ad31-d0a4" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -28075,6 +28105,9 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
             <infoLink id="717c-7721-8a8a-f376" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="6698-d774-5b5e-e9d4" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="1564-e38e-1de9-879b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -28169,6 +28202,9 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
             <infoLink id="fab0-83ee-b7b6-9ea0" name="Armadura del Caos" hidden="false" targetId="2469-4d31-e151-8a60" type="profile"/>
             <infoLink id="450a-2cad-61b3-aef4" name="Resistencia a la magia (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="fd9f-d8d5-52e3-0fca" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -28188,6 +28224,9 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
           <infoLinks>
             <infoLink id="bc34-7843-c70f-fd5c" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="38c7-8dfa-3741-67cf" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -28239,6 +28278,9 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
           <infoLinks>
             <infoLink id="e57d-21ce-4e34-b33a" name="Inmune al veneno" hidden="false" targetId="0338-1cb0-0dc1-2892" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="b296-d9b9-c4ef-3204" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -28263,6 +28305,9 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="7329-30c0-0708-ac0c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="125.0"/>
           </costs>
@@ -28426,6 +28471,9 @@ D6 Poción del Caos
             <infoLink id="451a-49ea-3810-afc0" name="Indesmoralizable" hidden="false" targetId="4362-3d7f-a24a-3309" type="rule"/>
             <infoLink id="54b9-82c3-66da-d164" name="Terror" hidden="false" targetId="ca57-1f1f-8bc0-d9ab" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="17f0-bd07-d022-e381" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -29268,6 +29316,9 @@ D6 Poción del Caos
           <infoLinks>
             <infoLink id="6efc-b623-bd58-3c28" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2790-c5dd-d6b0-9263" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -29296,6 +29347,9 @@ D6 Poción del Caos
             <infoLink id="4764-4cef-d8e2-2c02" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="a221-9041-4496-152b" name="Apabullar" hidden="false" targetId="205f-210b-5422-1e61" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="b408-56cb-2f67-96a9" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -29324,6 +29378,9 @@ D6 Poción del Caos
             <infoLink id="2159-ab45-c887-546a" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
             <infoLink id="b459-93e4-7612-5b6b" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9505-6fa7-4095-00eb" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -29356,6 +29413,9 @@ D6 Poción del Caos
               </modifiers>
             </infoLink>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="4d0c-cfde-c08d-966d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -29953,6 +30013,9 @@ D6 Poción del Caos
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="3654-8a74-523c-ed7a" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>

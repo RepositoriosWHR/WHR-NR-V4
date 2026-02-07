@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b824-aacc-6637-fa81" name="Renombre">
       <characteristicTypes>
@@ -7237,6 +7237,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a40-a7b9-8baf-9aae" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="c354-0e27-1091-e714" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -8616,6 +8619,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="128c-23d0-c381-9d73" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="da10-ea44-286a-1e0b" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -8624,6 +8630,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="475c-1de2-70cd-bd45" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="8225-d72e-2fbb-28c2" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -17183,6 +17192,9 @@ o menos de Luthor sufren una herida menos como resultado de perder un combate cu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7187-d0ce-fd6c-f09a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aa9-cddd-c219-f3c0" type="min"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="3451-bbe4-4861-7fa5" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -17818,6 +17830,9 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f6-349a-6de0-148f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a6d-64db-97d6-483b" type="min"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="8767-7afa-03aa-3f73" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -19604,6 +19619,9 @@ ballesta. </description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a560-dcf6-b414-7f92" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc8-72ab-a7e5-634b" type="min"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="f3f8-6ca6-f66c-f35a" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -21655,6 +21673,9 @@ ballesta. </description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3945-f2d0-5a64-8df8" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c40d-3e52-aa5a-f0a4" type="min"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="d8cb-8a3d-5b82-b138" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -23266,6 +23287,9 @@ ballesta. </description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da2d-8307-6805-630b" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="2bb4-79a0-d245-930e" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -23274,6 +23298,9 @@ ballesta. </description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e361-c638-2c42-7f40" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ec35-f233-3f8e-5133" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -36615,6 +36642,9 @@ cuatro Peregrinos que huiránnjunto al resto de su unidad). El Relicario tiene u
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3b9-4e26-2fe0-530c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7311-64ef-ef16-ad1d" type="min"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="d2ed-e2f0-d54f-c293" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -44176,9 +44206,6 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
         <rule id="1817-d52b-c98f-7c85" name="Naturaleza de la jungla" hidden="false">
           <description>Karra tiene las reglas especiales Cruzar (Bosques) e Inmune a Miedo.</description>
         </rule>
-        <rule id="929a-264c-6b63-4668" name="Inmortales" hidden="false">
-          <description>Las miniaturas con esta regla especial tienen las reglas especiales Regeneración (5+) y Resistencia mágica (1).</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="831a-665c-5f55-63e2" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
@@ -44303,6 +44330,25 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
               </constraints>
               <infoLinks>
                 <infoLink id="0bd8-6947-515c-413f" name="Cuchillos/estrellas arrojadizas" hidden="false" targetId="2d13-b3f6-f40b-23fc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d31d-5160-3f73-6246" name="Manto de las Krak-Kalim" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f0-28d1-b6f7-28d7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d56-1dbf-1a9e-16db" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="d967-1ff8-9719-4505" name="Manto de las Krak-Kalim" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Otorga a Karra la regla especial Esquivar (5+). Además, podrá repetir sus tiradas fallidas de Esquivar.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="f64b-c851-4382-dd91" name="Esquivar (5+)" hidden="false" targetId="053b-3b96-b53b-6944" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -47999,6 +48045,9 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
           <infoLinks>
             <infoLink id="b03a-77da-9610-d967" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="01a2-2c21-9bcf-f92d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -48104,6 +48153,9 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="2490-d0fa-abe2-222d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
@@ -48131,6 +48183,9 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
           <infoLinks>
             <infoLink id="040d-3aea-5a81-ab2c" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="f358-0c1b-bebc-a961" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -48151,6 +48206,9 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
             <infoLink id="a0c2-e141-14fd-9c20" name="Inmune al veneno" hidden="false" targetId="0338-1cb0-0dc1-2892" type="rule"/>
             <infoLink id="a97c-8c23-3696-831a" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="0a07-6323-7e52-ac85" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -50488,6 +50546,9 @@ dejará de afectar también a esta unidad).</characteristic>
           <infoLinks>
             <infoLink id="46a7-40c3-28b2-405e" name="Resistencia mágica (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2dd9-3948-dd45-8233" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>

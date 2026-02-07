@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="208e-cf58-eefc-06d2" name="Orden de caballería">
       <characteristicTypes>
@@ -1292,7 +1292,8 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3020-9abf-49b9-99c9" type="min"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="478d-3cfa-5da8-166d" name="Pistola de repetición" hidden="false" targetId="8e46-f771-4400-20d2" type="profile"/>
+                    <infoLink id="478d-3cfa-5da8-166d" name="Pistola de repetición (Combate)" hidden="false" targetId="9aff-176d-af95-e69a" type="profile"/>
+                    <infoLink id="9ea0-841a-c7a8-06aa" name="Pistola de repetición (Disparo)" hidden="false" targetId="e9a2-2fdb-3434-447b" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -2423,7 +2424,8 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b67-50ec-b994-acb5" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="7a94-8d27-d67a-3e17" name="Pistola de repetición" hidden="false" targetId="8e46-f771-4400-20d2" type="profile"/>
+                    <infoLink id="7a94-8d27-d67a-3e17" name="Pistola de repetición (Combate)" hidden="false" targetId="9aff-176d-af95-e69a" type="profile"/>
+                    <infoLink id="c00b-22b8-bc2c-1d0e" name="Pistola de repetición (Disparo)" hidden="false" targetId="e9a2-2fdb-3434-447b" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
@@ -2456,7 +2458,8 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83f3-48f9-5366-103b" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="9eee-fb4f-425e-a898" name="Ristra de pistolas de repetición" hidden="false" targetId="078a-2201-7b80-fe51" type="profile"/>
+                    <infoLink id="9eee-fb4f-425e-a898" name="Ristra de pistolas de repetición (Disparo)" hidden="false" targetId="9c48-727e-b3f8-a7dd" type="profile"/>
+                    <infoLink id="a5a2-3548-7eec-d9bb" name="Ristra de pistolas de repetición (Combate)" hidden="false" targetId="982b-011a-8ebc-2b59" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="20.0"/>
@@ -3608,7 +3611,8 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a02-0ec3-650b-a572" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="171a-5de2-923c-0181" name="Pistola de repetición" hidden="false" targetId="8e46-f771-4400-20d2" type="profile"/>
+                    <infoLink id="171a-5de2-923c-0181" name="Pistola de repetición (Disparo)" hidden="false" targetId="e9a2-2fdb-3434-447b" type="profile"/>
+                    <infoLink id="5ba6-7903-3e02-ba8f" name="Pistola de repetición (Combate)" hidden="false" targetId="9aff-176d-af95-e69a" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
@@ -4146,6 +4150,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9c4-d3f9-6462-f921" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="e225-5c4d-8dec-1481" name="Reiksguard" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4158,6 +4165,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df07-d3d5-5627-7c6d" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="7266-f540-bca1-7dea" name="Caballeros del Corazón Llameante" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4170,6 +4180,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964a-f82a-9a52-6ee4" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="8f1a-a836-d5c6-9490" name="Caballeros Pantera" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4182,6 +4195,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="317d-e967-e869-b653" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="89ae-1816-15f1-c1f1" name="Caballeros del Sol Llameante" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4194,6 +4210,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="960b-f12b-6640-066a" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="0750-5567-4c3a-2ef3" name="Caballeros de la Sangre de Sigmar" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4206,6 +4225,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d1-51ca-8db3-871c" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="9798-14e9-64f6-4d19" name="Caballeros del Sudario de Morr" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4218,6 +4240,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd7c-7078-a5e5-ca01" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="43d1-ca5a-02a0-7db8" name="Caballeros del León Dorado" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4230,6 +4255,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a3-52ea-86cd-7f78" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="c6d2-acb7-d9b4-527f" name="Órdenes menores" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4257,6 +4285,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="746a-021e-ba24-bcda" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="db71-48d8-dd26-f4fd" name="Orden de la Guadaña Sagrada" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4269,6 +4300,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7792-24ef-3bbe-f3a9" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="b698-5806-2ad0-80b1" name="Caballeros Encarnados" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -4281,6 +4315,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ffa-8c6d-abc6-bb5a" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -5162,6 +5199,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fabd-0d0b-ce2c-666e" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="574b-dc53-6c03-a224" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6155,7 +6195,8 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f920-e8da-6473-da2a" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="4e9e-d669-ed19-fdd8" name="Pistola de repetición" hidden="false" targetId="8e46-f771-4400-20d2" type="profile"/>
+                    <infoLink id="4e9e-d669-ed19-fdd8" name="Pistola de repetición (Disparo)" hidden="false" targetId="e9a2-2fdb-3434-447b" type="profile"/>
+                    <infoLink id="2f99-2cc6-66d5-531d" name="Pistola de repetición (Combate)" hidden="false" targetId="9aff-176d-af95-e69a" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
@@ -7006,7 +7047,8 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d9-bc39-480b-addb" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="6be0-404c-3c96-cd0f" name="Pistola de repetición" hidden="false" targetId="8e46-f771-4400-20d2" type="profile"/>
+                    <infoLink id="6be0-404c-3c96-cd0f" name="Pistola de repetición (Disparo)" hidden="false" targetId="e9a2-2fdb-3434-447b" type="profile"/>
+                    <infoLink id="dd58-953c-952b-2c07" name="Pistola de repetición (Combate)" hidden="false" targetId="9aff-176d-af95-e69a" type="profile"/>
                   </infoLinks>
                   <entryLinks>
                     <entryLink id="1af7-fbad-3259-3e5a" name="Pistola" hidden="false" collective="false" import="true" targetId="cb52-a681-3aab-a50c" type="selectionEntry"/>
@@ -7439,6 +7481,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e21d-19fc-37ce-ea44" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="71f5-3770-eabf-e30f" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7447,6 +7492,9 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1985-38e9-e57a-2be3" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ff0c-948c-881e-9a48" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -8005,7 +8053,7 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             <profile id="b321-a725-c9bb-7e93" name="Boris Todbringer" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">7</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">1</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
@@ -14654,7 +14702,8 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc7-f4e2-7861-6847" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="2590-d0dd-87dc-4fe8" name="Pistola de repetición" hidden="false" targetId="8e46-f771-4400-20d2" type="profile"/>
+                        <infoLink id="2590-d0dd-87dc-4fe8" name="Pistola de repetición (Disparo)" hidden="false" targetId="e9a2-2fdb-3434-447b" type="profile"/>
+                        <infoLink id="2885-3839-c573-8a8d" name="Pistola de repetición (Combate)" hidden="false" targetId="9aff-176d-af95-e69a" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
@@ -14923,7 +14972,8 @@ D6 	Resultado
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1729-f944-cea4-dc6e" type="min"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="60c8-b2df-a972-b8c0" name="Pistola de repetición" hidden="false" targetId="8e46-f771-4400-20d2" type="profile"/>
+                    <infoLink id="60c8-b2df-a972-b8c0" name="Pistola de repetición (Combate)" hidden="false" targetId="9aff-176d-af95-e69a" type="profile"/>
+                    <infoLink id="f82b-2a15-07a2-13fe" name="Pistola de repetición (Disparo)" hidden="false" targetId="e9a2-2fdb-3434-447b" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -15249,6 +15299,11 @@ D6 	Resultado
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5411-dc92-f33d-45a1" type="max"/>
       </constraints>
+      <rules>
+        <rule id="1c41-2974-6e5a-1bf5" name="Barón de Norland" hidden="false">
+          <description>Puedes elegir una unidad de Espadachines, Lanceros, Alabarderos, o Grandes espaderos y convertirlos en Tropas de Nordland lo que les proporciona un bonificador de +1 a su atributo de Fuerza.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="9fa6-5b5f-d9e7-a4c6" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
           <modifiers>
@@ -15422,6 +15477,10 @@ D6 	Resultado
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="673b-ae66-ce0d-21ca" name="Tropas condales (Comandante)" hidden="false" collective="false" import="true" targetId="3490-9756-218b-4b60" type="selectionEntry"/>
+        <entryLink id="066d-1de2-6b84-44cf" name="Estandarte condal (Comandante)" hidden="false" collective="false" import="true" targetId="1c26-1149-28ad-1a94" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -15442,6 +15501,11 @@ D6 	Resultado
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ffd-7e5a-4941-a7ba" type="max"/>
       </constraints>
+      <rules>
+        <rule id="b0a7-9ac0-5516-604b" name="Gran duque de Middenland" hidden="false">
+          <description>Puedes elegir una unidad de Espadachines, Lanceros, Alabarderos, Arqueros, Ballesteros o Grandes espaderos y convertirlos en Tropas de Middenland, lo que les permite repetir sus tiradas para herir de 1 contra enemigos con su mismo Liderazgo o menor.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="260e-b532-8fa0-fe85" name="Caballería" hidden="false" targetId="276f-0034-6534-f691" type="rule"/>
         <infoLink id="2592-50ec-aedf-7f2c" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
@@ -15476,7 +15540,7 @@ D6 	Resultado
             <profile id="4c17-6b7a-3be0-f6bb" name="Lothar Metternich, conde elector de Middenheim" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">7</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
@@ -15613,6 +15677,8 @@ D6 	Resultado
       </selectionEntries>
       <entryLinks>
         <entryLink id="0582-befd-89eb-cf5d" name="Personaje. Tropas condales" hidden="false" collective="false" import="true" targetId="6d6e-821d-c90b-28bf" type="selectionEntry"/>
+        <entryLink id="d058-44bb-036d-2f6d" name="Tropas condales (Comandante)" hidden="false" collective="false" import="true" targetId="3490-9756-218b-4b60" type="selectionEntry"/>
+        <entryLink id="1b2d-a073-6e9d-b413" name="Estandarte condal (Comandante)" hidden="false" collective="false" import="true" targetId="1c26-1149-28ad-1a94" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -16213,7 +16279,8 @@ Incitar a la rabia: Hasta el inicio de tu siguiente turno, todas las unidades am
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30a7-f108-95d4-0b6c" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c5ff-1bc1-daeb-4372" name="Pistola de repetición" hidden="false" targetId="8e46-f771-4400-20d2" type="profile"/>
+                <infoLink id="c5ff-1bc1-daeb-4372" name="Pistola de repetición (Disparo)" hidden="false" targetId="e9a2-2fdb-3434-447b" type="profile"/>
+                <infoLink id="1fec-5ad3-1f6f-5834" name="Pistola de repetición (Combate)" hidden="false" targetId="9aff-176d-af95-e69a" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="77b8-3915-ee48-33d8" name="Pistola" hidden="false" collective="false" import="true" targetId="cb52-a681-3aab-a50c" type="selectionEntry"/>
@@ -17594,6 +17661,13 @@ Eterna.</description>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="f84f-5306-9e22-4096" name="Grupo de mando" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="64a5-6208-9760-be85" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="f257-6b52-c5fb-d6bd" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -18006,11 +18080,6 @@ Eterna.</description>
           <profiles>
             <profile id="8852-1641-8e23-3122" name="Arquero" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <modifiers>
-                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
-                  <conditions>
-                    <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="47ba-9d9c-bbc5-71f9" type="equalTo"/>
-                  </conditions>
-                </modifier>
                 <modifier type="increment" field="575323232344415441232323" value="1">
                   <conditions>
                     <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ba0-2f6d-c41d-06a4" type="equalTo"/>
@@ -18103,6 +18172,13 @@ Eterna.</description>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="f3c2-f3d2-6fda-7b97" name="Grupo de mando" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ad5-322a-0161-12ef" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="09f8-8487-cc62-fa00" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -18118,13 +18194,6 @@ Eterna.</description>
               </constraints>
               <profiles>
                 <profile id="9d42-4c64-99f0-e0b0" name="Sargento" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-                  <modifiers>
-                    <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
-                      <conditions>
-                        <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="47ba-9d9c-bbc5-71f9" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
@@ -18185,26 +18254,6 @@ Eterna.</description>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="5645-8b44-e16e-c5bc" name="Opciones" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="47ba-9d9c-bbc5-71f9" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ed-fb37-6db5-7a39" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="250f-088c-f091-eb6f" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="450a-70ad-bd80-2e76" name="Armas proyectiles" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a5a-f78d-9912-dee7">
               <constraints>
@@ -18468,7 +18517,6 @@ Eterna.</description>
       </modifiers>
       <infoLinks>
         <infoLink id="69e9-eabc-085d-0c0b" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
-        <infoLink id="4872-67de-ffa7-468d" name="Mercenario" hidden="false" targetId="f693-0c5c-49bd-91e7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="be3c-6990-bc24-8cad" name="Unidades Básicas" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
@@ -18598,6 +18646,13 @@ Eterna.</description>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="7074-b2ba-18f4-9d37" name="Grupo de mando" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="2c89-d68d-4f7e-d702" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e80-2d03-4930-a7ab" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="5100-f6aa-0230-4954" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -21925,6 +21980,13 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="19d2-5b0e-f953-0718" name="Grupo de mando" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="be30-3904-e871-28f6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0da0-7e92-18d3-ed41" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="c5ce-c532-998a-b8db" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -22457,6 +22519,13 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="08df-17f6-a57e-0cab" name="Grupo de mando" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="f233-4844-d0ec-5efe" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="95eb-6cf2-c034-44ad" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="8799-02b0-ecd0-fd43" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -22871,6 +22940,13 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="3a1f-3974-1ae4-4725" name="Grupo de mando" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="9cb8-fdfe-5f58-5a01" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="abb3-8e04-5382-47f2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="24f9-1bcd-bb8a-9d46" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -24334,6 +24410,18 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b623-f33b-f8ba-0a81" name="Lanceros" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="b437-6698-463f-5ac3" value="20.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df3a-fc0b-89c7-6674" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="35ee-3a95-05ab-c8e5" value="5.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df3a-fc0b-89c7-6674" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b437-6698-463f-5ac3" type="max"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35ee-3a95-05ab-c8e5" type="min"/>
@@ -24450,6 +24538,13 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2d7f-ecbf-21e0-f538" name="Grupo de mando" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="af4a-134f-dac2-7f79" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df3a-fc0b-89c7-6674" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="ce8f-a34a-a267-aed0" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -24665,6 +24760,18 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="67af-349d-15a6-9570" name="Tropas condales (Unidad)" hidden="false" collective="false" import="true" targetId="fcb7-738b-dfae-571a" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3490-9756-218b-4b60" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d6e-821d-c90b-28bf" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <selectionEntries>
             <selectionEntry id="4245-b0c8-6ae5-0704" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -24672,16 +24779,6 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
                   <repeats>
                     <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
-                </modifier>
-                <modifier type="set" field="hidden" value="true">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3490-9756-218b-4b60" type="equalTo"/>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d6e-821d-c90b-28bf" type="equalTo"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -27061,6 +27158,11 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="78e4-06bc-b23d-6723" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="increment" field="2595-302b-916a-4ba0" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8ba1-2c86-870e-a983" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2595-302b-916a-4ba0" type="max"/>
@@ -27078,6 +27180,11 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d028-197c-37d8-29b9" repeats="1" roundUp="false"/>
           </repeats>
+        </modifier>
+        <modifier type="increment" field="0d69-a2bd-323d-5b25" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0990-cc74-a3f4-6fee" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -27798,10 +27905,10 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
           <profiles>
             <profile id="fb28-c34b-4616-52cb" name="Acólito (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">8</characteristic>
+                <characteristic name="M" typeId="4d23232344415441232323"/>
                 <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
-                <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">2</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">-</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">-</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
@@ -28053,6 +28160,9 @@ Grandes espaderos y convertirlos en Tropas de Nordland lo que les proporciona un
             <infoLink id="1aaa-a9a0-0b0a-f6f2" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
             <infoLink id="262a-f802-fd71-82f2" name="Heridas múltiples (1D6)" hidden="false" targetId="e658-6033-5e1f-c1c4" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="f6b5-efc5-ebf4-4b39" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -28380,6 +28490,9 @@ Cualquier resultado de 1 en cualquiera de los dados proporcionados causará al u
           <infoLinks>
             <infoLink id="229d-f2e1-452b-41c3" name="Resistencia a la magia (2)" hidden="false" targetId="9718-2e66-193f-7dd6" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="8c1c-a722-2702-364e" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -28396,6 +28509,9 @@ Cualquier resultado de 1 en cualquiera de los dados proporcionados causará al u
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="a350-aec9-8d56-c09c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -28673,6 +28789,9 @@ Cualquier resultado de 1 en cualquiera de los dados proporcionados causará al u
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="eee5-841c-3594-1b27" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -28700,27 +28819,11 @@ Cualquier resultado de 1 en cualquiera de los dados proporcionados causará al u
           <infoLinks>
             <infoLink id="2056-1046-0238-811b" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="0f87-048c-e1ea-b3c1" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1fbc-abe7-c8f6-1915" name="Estandarte de Segismundo" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="accc-8a21-d8f1-a5d5" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e0e-4ec5-c1c7-a141" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="76fa-96a6-ea5a-8d22" name="Estandarte de Segismundo" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">El portador y la unidad en la que se encuentre obtendrán la regla especial Tozudez. </characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="ea6d-056a-678a-4134" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -28780,6 +28883,25 @@ Cualquier resultado de 1 en cualquiera de los dados proporcionados causará al u
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3457-692d-cab3-1255" name="Estandarte de Segismundo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1912-6037-38e8-bc94" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9495-0a41-3f6e-d75d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c1c1-b834-7674-792e" name="Estandarte de Segismundo" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">El portador y la unidad en la que se encuentre obtendrán la regla especial Tozudez. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="83cc-eea6-5737-2f3e" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -28945,6 +29067,9 @@ Cualquier resultado de 1 en cualquiera de los dados proporcionados causará al u
             </infoLink>
             <infoLink id="ab0d-a3f6-4547-171c" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9217-abd2-8806-3d9c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -30258,7 +30383,7 @@ Cualquier resultado de 1 en cualquiera de los dados proporcionados causará al u
           <profiles>
             <profile id="9552-132e-1d12-7922" name="Matasierpes" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Arma de mano. Requiere ambas manos. Los impactos con este arma se resolverán con un bonificador de +1 a la Fuerza. Los impactos de esta arma siempre herirán con un resultado de 4+ salvo que la Fuerza del ataque permita herir con un resultado menor. Cualquier miniatura herida por esta arma no podrá beneficiase de su salvación por Piel escamosa para salvar dicha herida. Por último, el portador obtiene la regla especial Inmune a veneno.</characteristic>
+                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Arma de mano. Requiere ambas manos. Los impactos con este arma se resolverán con un bonificador de +1 a la Fuerza. Los impactos de esta arma siempre herirán con un resultado de 4+ salvo que la Fuerza del ataque permita herir con un resultado menor. Cualquier miniatura herida por esta arma no podrá beneficiase de su salvación por Piel escamosa ni Protección por montura para salvar dicha herida. Por último, el portador obtiene la regla especial Inmune a veneno.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -30397,20 +30522,6 @@ Sigmar, la plegaria afecta a todas las unidades amigas a 12” o menos del lanza
         <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
         <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
         <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Disparo rápido, Combate, Poder de penetración, Disparos múltiples (2), Ristra.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8e46-f771-4400-20d2" name="Pistola de repetición" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
-      <characteristics>
-        <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
-        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Disparo rápido, Poder de penetración, Disparos múltiples (3), Combate: Una Pistola de repetición se considera un Arma de mano adicional en combate cuerpo a cuerpo; además,en la primera ronda de cada combate, tira un dado de color diferente para el ataque adicional de la Pistola de repetición: este se resolverá con Fuerza 4 y la regla especial Poder de penetración. En el caso de una Ristra de pistolas de repetición, se consideran Armas emparejadas y, al luchar con ambas en combate cuerpo a cuerpo, puede realizar todos sus ataques en la primera ronda de cada combate con Fuerza 4 y la regla especial Poder de penetración.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="078a-2201-7b80-fe51" name="Ristra de pistolas de repetición" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
-      <characteristics>
-        <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
-        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Disparo rápido, Poder de penetración, Disparos múltiples (4), Ristra, Combate: Una Pistola de repetición se considera un Arma de mano adicional en combate cuerpo a cuerpo; además,en la primera ronda de cada combate, tira un dado de color diferente para el ataque adicional de la Pistola de repetición: este se resolverá con Fuerza 4 y la regla especial Poder de penetración. En el caso de una Ristra de pistolas de repetición, se consideran Armas emparejadas y, al luchar con ambas en combate cuerpo a cuerpo, puede realizar todos sus ataques en la primera ronda de cada combate con Fuerza 4 y la regla especial Poder de penetración.</characteristic>
       </characteristics>
     </profile>
     <profile id="2d33-eb0e-cec6-e249" name="Arcabuz de repetición" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
@@ -30663,6 +30774,34 @@ impactos.
     <profile id="b8ee-a9c5-ac41-7b78" name="Gran Baronía de Hochland" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
       <characteristics>
         <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">El personaje obtiene +1 a su Habilidad de proyectiles. Por cada personaje de Hochland puedes elegir una unidad de Arqueros, Ballesteros, Fusileros o Cazadores y convertirlos en Tropas de Hochland, lo que les permite repetir los resultados de 1 en sus tiradas para impactar con proyectiles.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9aff-176d-af95-e69a" name="Pistola de repetición (Combate)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
+      <characteristics>
+        <characteristic name="Rango" typeId="52616e676523232344415441232323">Combate</characteristic>
+        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Arma de mano adicional, Descarga</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e9a2-2fdb-3434-447b" name="Pistola de repetición (Disparo)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
+      <characteristics>
+        <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
+        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Disparo rápido, Poder de penetración, Disparos múltiples (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9c48-727e-b3f8-a7dd" name="Ristra de pistolas de repetición (Disparo)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
+      <characteristics>
+        <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
+        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Disparo rápido, Poder de penetración, Disparos múltiples (4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="982b-011a-8ebc-2b59" name="Ristra de pistolas de repetición (Combate)" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
+      <characteristics>
+        <characteristic name="Rango" typeId="52616e676523232344415441232323">Combate</characteristic>
+        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Poder de penetración, Armas emparejadas, Descarga</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

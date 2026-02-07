@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d9e4-9c78-810c-d2fd" name="Goblins" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -6159,6 +6159,9 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="555b-4a35-96a2-4899" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="fec8-5bf3-792c-5f58" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7123,6 +7126,9 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00a5-12f8-9188-da7f" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="aacc-525d-4a1a-4201" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -8051,6 +8057,9 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e40-b2b6-09ed-5baf" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="e510-6701-e652-dfc2" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -9094,6 +9103,9 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="082d-46ea-1b48-cf93" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="99f7-48b0-2814-266d" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -9102,6 +9114,9 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb05-f2d4-2287-e881" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="f478-80e9-a403-784d" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -9818,6 +9833,9 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a5e-26f4-ad32-1f8b" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="a4ca-d886-ad26-72c2" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -9826,6 +9844,9 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd38-e187-399a-49c3" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="da49-7c7d-24fe-ab2a" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -10521,6 +10542,9 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d23d-a496-b5f5-e3a8" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="f4fb-a93f-a1f6-598d" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -10529,6 +10553,9 @@ D6 Tabla de problemas de la katapulta de goblins voladores
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9937-57bf-aa1a-e34e" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ba74-ce85-bd31-c9af" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -15105,6 +15132,9 @@ Inmortalez la regla especial Tozudez.</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7629-27be-9805-f1aa" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="6621-e574-4dcc-f959" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -15987,6 +16017,9 @@ Inmortalez la regla especial Tozudez.</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bfe-7a1d-745a-8fc2" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="047c-db9c-23ef-9e3e" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -16956,6 +16989,9 @@ Inmortalez la regla especial Tozudez.</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aadb-29de-7c6f-b414" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="216f-0d63-1162-49e8" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -16964,6 +17000,9 @@ Inmortalez la regla especial Tozudez.</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16c5-cd94-991d-3f87" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="febf-4888-049e-6839" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -17672,6 +17711,9 @@ Inmortalez la regla especial Tozudez.</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9a8-cc10-5b5e-72ec" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="58d5-9c86-fd95-36b0" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -17680,6 +17722,9 @@ Inmortalez la regla especial Tozudez.</characteristic>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a14-678c-e41e-ed86" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="bdc8-29ef-2e7c-bf97" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -18593,7 +18638,7 @@ múltiples (1D6). </description>
           <description>Oddgit tiene la regla especial Inmune a psicología y cualquier unidad de goblins nocturnos a la que se una no tendrá que chequear Animosidad. Sin embargo, Oddgit está sujeto a la regla especial Estupidez.</description>
         </rule>
         <rule id="2aa6-b3f1-c22a-c5a3" name="Habituado al Waaagh" hidden="false">
-          <description>Oddgit puede repetir los resultados de 1 que obtenga en sus dados de Zetaz mágikaz pero, si repite, cada dado de Zeta mágika tendrá problemas con un resultado de 1-2, en lugar del habitual 1.</description>
+          <description>Oddgit puede repetir los resultados de 1 que obtenga en sus dados de Zetaz mágikaz pero, si repite, cada dado de Zeta mágika tendrá problemas con un resultado de 1-2, en lugar del habitual 1. Oddgit puede consumir un máximo de seis Zetas mágikaz cada vez que lance un hechizo.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -30723,6 +30768,9 @@ aumenta en +4 su Potencia de unidad.</description>
             <infoLink id="ad55-dbb6-2690-0034" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
             <infoLink id="0c8b-3550-56ca-c088" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="1759-5442-614f-95ec" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -30814,6 +30862,9 @@ aumenta en +4 su Potencia de unidad.</description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="d51a-889e-aaa3-2912" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -31123,6 +31174,9 @@ armadura.
               </modifiers>
             </infoLink>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="d252-4189-4062-8601" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -31248,6 +31302,9 @@ armadura.
             <infoLink id="17f7-094b-3786-7d6e" name="Requiere ambas manos" hidden="false" targetId="41a9-6192-62dd-4867" type="rule"/>
             <infoLink id="a768-b02d-2cab-cef7" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9b5b-379f-c4e3-17ac" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="115.0"/>
           </costs>
@@ -31267,6 +31324,9 @@ armadura.
           <infoLinks>
             <infoLink id="b702-159d-0a8f-0b2d" name="Rebanadora" hidden="false" targetId="05bc-9cd8-8906-b545" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="716a-9bae-cbb6-9d33" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -31286,6 +31346,9 @@ armadura.
           <infoLinks>
             <infoLink id="e030-d90b-abbd-fbf1" name="Rebanadora" hidden="false" targetId="05bc-9cd8-8906-b545" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="b1a0-04ed-8afd-aa06" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -31441,6 +31504,9 @@ su tirada para impactar.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="e3a0-ff76-3f4f-3012" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -31670,6 +31736,9 @@ de 3 dados).  </characteristic>
           <infoLinks>
             <infoLink id="565b-0e36-02cd-17e7" name="Resistencia mágica (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="cbc3-1bb7-eebc-45d0" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -31686,6 +31755,9 @@ de 3 dados).  </characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="140a-48c2-c8d3-ee10" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -32578,6 +32650,9 @@ de 3 dados).  </characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="40de-322d-22fc-dac7" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>

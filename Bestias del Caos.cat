@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="10" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="10" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coccorota, Aswer y Gengis.</readme>
   <publications>
     <publication id="51fc-eb9b-pubN65537" name="Bestias del Caos Reforged"/>
@@ -4802,6 +4802,9 @@ la civilización.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1415-0ab9-784c-a4e6" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="52e9-539b-01ba-52b4" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="55.0"/>
               </costs>
@@ -4810,6 +4813,9 @@ la civilización.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0287-3d1b-ad1f-8894" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ebb7-1d3a-011e-15d3" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6419,6 +6425,7 @@ la civilización.</description>
               </constraints>
               <entryLinks>
                 <entryLink id="9091-596d-cf9e-4968" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="c324-e48f-8110-2cae" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="70.0"/>
@@ -6431,6 +6438,7 @@ la civilización.</description>
               </constraints>
               <entryLinks>
                 <entryLink id="ced1-34de-a522-7d16" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="705f-dc54-d614-7cbd" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
@@ -6442,6 +6450,7 @@ la civilización.</description>
               </constraints>
               <entryLinks>
                 <entryLink id="e410-da2b-9634-a912" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="1416-8965-df34-fae5" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="160.0"/>
@@ -6453,6 +6462,7 @@ la civilización.</description>
               </constraints>
               <entryLinks>
                 <entryLink id="0dae-d945-97d1-8686" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="19a5-ce2b-8a9f-36bb" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="105.0"/>
@@ -8358,6 +8368,9 @@ la civilización.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae75-0a34-ce13-9cd5" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="57c2-9314-489a-5ab3" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -8366,6 +8379,9 @@ la civilización.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b6c-150f-23a5-a1cd" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="8dd3-3ef6-15ff-feda" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -18503,6 +18519,9 @@ la civilización.</description>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="66d2-b1e1-f9bc-681e" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -19230,6 +19249,9 @@ la civilización.</description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="9980-2fac-886e-83fa" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
@@ -19570,6 +19592,7 @@ la civilización.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc56-ed23-47b9-acf8" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="6eba-755b-b86f-9cf1" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
@@ -19760,6 +19783,9 @@ la civilización.</description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="1d8c-4c01-bfc7-7cad" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -19860,6 +19886,9 @@ la civilización.</description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="9dfb-b9d6-4dd1-766f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -19978,6 +20007,9 @@ la civilización.</description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="a81b-463d-6ce2-d774" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
