@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="887a-65ec-749f-cd54" name="Clan Skryre" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="887a-65ec-749f-cd54" name="Clan Skryre" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e6b4-690d-917e-1a11" name="Ratas de Clan Skryre" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1461,6 +1461,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="64ce-091d-f113-719a" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="ff14-8102-e705-1d4e" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
@@ -1472,6 +1473,7 @@
               </constraints>
               <entryLinks>
                 <entryLink id="33c8-3fbc-e5d2-768a" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="4eac-6170-75ea-c8ee" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="70.0"/>
@@ -4530,6 +4532,9 @@ D6 Tabla de problemas del Proyector de fuego disforme
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dde-de51-f1ef-fc6e" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="484c-a811-9aae-3590" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4538,6 +4543,9 @@ D6 Tabla de problemas del Proyector de fuego disforme
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63a5-41e2-dcdf-6e63" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="a9d3-d384-d1d3-1e90" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -5021,6 +5029,9 @@ D6 Tabla de problemas del Proyector de fuego disforme
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f33-b176-6743-d0e5" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="96a4-4d99-47e1-cbb1" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5029,6 +5040,9 @@ D6 Tabla de problemas del Proyector de fuego disforme
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67ac-8a41-8f09-f535" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="cc82-e477-9ffa-9304" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -9234,6 +9248,9 @@ con las reglas especiales Ataques solo flamígeros y Ataques mágicos. Retira la
           <infoLinks>
             <infoLink id="7a0b-1594-78b7-e833" name="Guja disforme" hidden="false" targetId="9f70-e2c3-aed2-3aba" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="26f7-9596-53dc-3e76" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -9510,6 +9527,9 @@ con las reglas especiales Ataques solo flamígeros y Ataques mágicos. Retira la
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="91fe-4ade-5f6b-ec4d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -10065,6 +10085,9 @@ D6 Tabla de problemas del Cohete Aniquilador
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="b0d9-8944-b191-9788" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -10167,6 +10190,9 @@ D6 Tabla de problemas del Cohete Aniquilador
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="50c4-62ac-556f-581f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -10219,6 +10245,9 @@ D6 Combustible disforme
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="647a-5633-c1f0-71e6" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>

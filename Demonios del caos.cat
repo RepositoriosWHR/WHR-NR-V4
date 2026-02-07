@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9aa0-a435-0f3a-053a" name="Regalo demoníaco">
       <characteristicTypes>
@@ -1244,6 +1244,9 @@
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -4042,6 +4045,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c03b-5d56-97d9-c060" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="4df6-a3c2-3d9c-145e" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4050,6 +4056,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2f8-195f-38da-1136" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="dd27-763c-832a-932f" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="35.0"/>
               </costs>
@@ -4058,6 +4067,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98ea-a176-611a-4cfc" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="0c1e-7174-26ef-f8e8" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="90.0"/>
               </costs>
@@ -4257,6 +4269,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a594-3bb5-398c-6285" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ea12-4fc9-bebd-bb98" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4265,6 +4280,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efc6-5260-5179-6108" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="0ae7-ca81-f255-6252" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="35.0"/>
               </costs>
@@ -4273,6 +4291,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e9b-7955-4153-11f1" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="e0f6-0126-2357-bbe1" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="90.0"/>
               </costs>
@@ -4395,6 +4416,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0f4-7701-b8db-6bb5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="263c-40b4-e708-e5e7" type="min"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="9dfd-b1f5-e33a-f05f" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -4808,6 +4832,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
               </constraints>
               <entryLinks>
                 <entryLink id="0a56-bd08-210b-7678" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="6957-9733-2223-6161" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="70.0"/>
@@ -4819,6 +4844,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
               </constraints>
               <entryLinks>
                 <entryLink id="f9fc-0339-68d7-3dee" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="ac3e-91bb-b743-984a" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="105.0"/>
@@ -4842,6 +4868,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
               </constraints>
               <entryLinks>
                 <entryLink id="3565-515e-5029-c187" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="39f1-972b-68c8-793d" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
@@ -5492,6 +5519,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
               </constraints>
               <entryLinks>
                 <entryLink id="d028-7a16-dc19-70b1" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="8819-b4b5-047e-1a93" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
@@ -5503,6 +5531,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
               </constraints>
               <entryLinks>
                 <entryLink id="ab67-f630-1045-6810" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="bfdd-1392-1036-d675" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="70.0"/>
@@ -5792,6 +5821,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
               </constraints>
               <entryLinks>
                 <entryLink id="4e94-003b-8bfd-ffd8" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="49c1-eed2-857a-4906" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
@@ -5803,6 +5833,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
               </constraints>
               <entryLinks>
                 <entryLink id="4bc2-949c-d872-b696" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="a8ce-01cd-c6dc-12b4" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="70.0"/>
@@ -5912,6 +5943,9 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937b-f4cd-59f2-054f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f0-1b89-2188-a243" type="min"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="e02b-8a3e-f2b1-34b2" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -6586,6 +6620,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
               </constraints>
               <entryLinks>
                 <entryLink id="0011-e48b-0f17-61c8" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="1e4f-7bfb-37b3-4c45" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="70.0"/>
@@ -6597,6 +6632,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, del Fuego, de las S
               </constraints>
               <entryLinks>
                 <entryLink id="ff59-f742-d90f-0689" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="d5e6-1413-49c9-befe" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
@@ -9537,6 +9573,7 @@ Incluso aquellos efectos que hieran automáticamente necesitarán un resultado d
               </constraints>
               <entryLinks>
                 <entryLink id="af09-d845-c43e-ed57" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="65a3-9843-92c0-6ab6" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="70.0"/>
@@ -9548,6 +9585,7 @@ Incluso aquellos efectos que hieran automáticamente necesitarán un resultado d
               </constraints>
               <entryLinks>
                 <entryLink id="6455-9e9c-8ce1-4f81" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="6eef-9efb-8ade-147a" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>

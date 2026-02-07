@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b754-52bc-23f3-c7ca" name="Rasetra" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b754-52bc-23f3-c7ca" name="Rasetra" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="120f-900a-7dd9-4cdb" name="Gran papiro">
       <characteristicTypes>
@@ -3078,7 +3078,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
@@ -3289,6 +3289,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ba3-515f-4eba-40e2" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="9ff1-b115-ea56-772a" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="35.0"/>
               </costs>
@@ -3297,6 +3300,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b87e-0057-85d9-a3be" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ccaa-9f02-e83b-d419" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -3496,6 +3502,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="29e7-ee07-d1a8-e30a" name="Pergamino de invocación ultraterrena de Djedra" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3509,6 +3518,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -4680,8 +4692,8 @@
                 <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
-                <characteristic name="R" typeId="5423232344415441232323"></characteristic>
-                <characteristic name="H" typeId="5723232344415441232323"></characteristic>
+                <characteristic name="R" typeId="5423232344415441232323"/>
+                <characteristic name="H" typeId="5723232344415441232323"/>
                 <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1(2)</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">4</characteristic>
@@ -5815,7 +5827,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
@@ -6432,7 +6444,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">5</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
@@ -6499,7 +6511,7 @@
                     <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">6</characteristic>
-                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
                   </characteristics>
@@ -6535,6 +6547,9 @@
               <infoLinks>
                 <infoLink id="b187-3f2c-e8ad-d59b" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -6557,6 +6572,9 @@
                   <infoLinks>
                     <infoLink id="ced4-068e-a30f-fa93" name="Arco corto" hidden="false" targetId="bc9b-e19b-4f02-1726" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="088b-dbb6-926e-352e" name="Cerbatana" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -6575,6 +6593,9 @@
                     <infoLink id="0619-5f25-cc92-f46c" name="Disparos múltiples (2)" hidden="false" targetId="f150-3b7d-99ed-c809" type="rule"/>
                     <infoLink id="dde8-f89d-218f-eb3d" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="494a-0ef2-86b6-7596" name="Jabalinas" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
@@ -6590,6 +6611,9 @@
                   <infoLinks>
                     <infoLink id="54e9-8eef-2167-fd0d" name="Jabalina" hidden="false" targetId="a629-6d4b-3e74-7ff7" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -7337,7 +7361,7 @@
                 <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">9</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
               </characteristics>
@@ -7688,6 +7712,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe9f-7b43-67ad-220b" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b05-32e5-16ab-96f1" type="min"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="3dbd-ac81-b575-2c29" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7932,8 +7959,8 @@
                     <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
                     <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
                     <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
-                    <characteristic name="R" typeId="5423232344415441232323"></characteristic>
-                    <characteristic name="H" typeId="5723232344415441232323"></characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323"/>
+                    <characteristic name="H" typeId="5723232344415441232323"/>
                     <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">1(2)</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">4</characteristic>
@@ -8046,7 +8073,7 @@
             <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
             <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-            <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+            <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
             <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
           </characteristics>
@@ -8175,6 +8202,9 @@
           <description>La unidad de Jinetes del Rey que comanda Khenti debe mejorarse con un bonificador de +1 Ataque por +2 puntos por miniatura.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0ac9-2839-b2fa-ea03" name="Dragón esqueleto" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -8371,6 +8401,9 @@
           <infoLinks>
             <infoLink id="fa8f-c91d-f989-2fbc" name="Armadura lagarto de trueno" hidden="false" targetId="f7e1-973d-52fa-18e3" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="fdb9-68b3-8edf-664e" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -8483,6 +8516,9 @@
             <infoLink id="549a-73e6-ccfb-cb55" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
             <infoLink id="4f8a-9928-0fc9-466c" name="Heridas múltiples (1D6)" hidden="false" targetId="e658-6033-5e1f-c1c4" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="cba4-a320-2e5b-6307" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -8722,6 +8758,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="370d-5597-59e8-4d5b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -8910,6 +8949,9 @@
           <infoLinks>
             <infoLink id="15fd-47ed-aa48-0182" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="52ef-278f-49d0-d301" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -9085,6 +9127,9 @@
             <infoLink id="21f0-68fe-0abd-5c32" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
             <infoLink id="2704-a7be-c83b-195f" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="fc69-bca2-02e0-ca42" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -9190,6 +9235,9 @@
           <infoLinks>
             <infoLink id="16ec-8b28-f77c-f0f9" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="e3f8-fb1a-7bbe-c2ea" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -9318,7 +9366,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2dd6-2094-0a46-6f2c" name="Artefactos arcanos. Reliquia. Rasetra." hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="2dd6-2094-0a46-6f2c" name="Artefactos arcanos. Reliquias. Rasetra." hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4459-c194-fb4d-40dc" type="max"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7ff-9957-3244-701c" type="min"/>
@@ -9336,6 +9384,9 @@
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="955b-df50-0ccf-69e6" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>

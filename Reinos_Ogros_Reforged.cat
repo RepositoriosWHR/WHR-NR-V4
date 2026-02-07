@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="4" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="6" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coroccota Bada, Aswer y Gengis.</readme>
   <profileTypes>
     <profileType id="82a1-ea3c-b415-8a9a" name="Objeto">
@@ -3321,6 +3321,9 @@ D6 Resultado (Agarrar y...)
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0df-920c-b970-9f4f" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="b671-9ff5-e861-e33b" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4051,6 +4054,9 @@ D6 Resultado (Agarrar y...)
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13d1-935a-d93e-2e8b" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="fa20-72be-6f8f-75de" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4059,6 +4065,9 @@ D6 Resultado (Agarrar y...)
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5894-704f-8649-203e" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="d837-7614-1587-9cbf" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -4313,6 +4322,9 @@ D6 Resultado (Agarrar y...)
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b49-0180-22b0-6632" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="a8d0-6846-5f82-db61" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4321,6 +4333,9 @@ D6 Resultado (Agarrar y...)
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e7e-3bba-eb94-7392" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="e5f8-c438-6270-99da" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -10143,6 +10158,9 @@ Cuando esté luchando en un Desafío, el portador obtiene un ataque adicional po
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="4c4d-4a5d-009a-38e9" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -10177,6 +10195,9 @@ Cuando esté luchando en un Desafío, el portador obtiene un ataque adicional po
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="c7dc-fb7a-3f36-4f32" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="90.0"/>
           </costs>
@@ -10208,6 +10229,9 @@ Cuando esté luchando en un Desafío, el portador obtiene un ataque adicional po
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="5f60-d6f4-ad03-e059" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -10248,6 +10272,9 @@ Cuando esté luchando en un Desafío, el portador obtiene un ataque adicional po
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="3d61-db0b-512f-6234" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
@@ -10270,6 +10297,7 @@ Cuando esté luchando en un Desafío, el portador obtiene un ataque adicional po
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="175b-739d-3956-3aa9" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="5a16-048c-e4eb-4e16" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
@@ -10298,6 +10326,9 @@ dejará de afectar también a esta unidad).</characteristic>
           <infoLinks>
             <infoLink id="14eb-ad91-4dfc-cbf9" name="Resistencia mágica (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="226b-c295-e4a7-0691" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -10935,9 +10966,9 @@ dejará de afectar también a esta unidad).</characteristic>
         <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Un solo uso. El portador puede beberse el Destilado de lava al inicio de cualquiera de sus turnos, obtendrá un Arma de aliento de Fuerza 3 con la regla especial Ataques solo flamígeros.</characteristic>
       </characteristics>
     </profile>
-    <profile id="12d2-d42c-e346-e2dd" name="Buitre sangriento" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
+    <profile id="12d2-d42c-e346-e2dd" name="Buitre sangriento" hidden="false" typeId="82a1-ea3c-b415-8a9a" typeName="Objeto">
       <characteristics>
-        <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Otorga a su portador la regla especial Francotirador.</characteristic>
+        <characteristic name="Reglas" typeId="202e-dc4f-f71a-241e">Otorga a su portador la regla especial Francotirador.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8811-284e-f214-88b5" name="Kossars" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -1763,6 +1763,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
             <modifier type="append" field="name" value="(Caos, sólo jinetes)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="09a4-0433-f8a3-b7aa" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6d31-3d0b-0e33-72de" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
@@ -4416,6 +4417,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cba5-091f-f1f6-626c" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="75ab-fdd9-dfe1-d8cd" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4424,6 +4428,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebb1-6ff2-93ff-b815" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="1988-70e8-eb5d-6133" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -4938,6 +4945,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f49-4a7a-ea84-b00c" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="24e3-15b8-e606-8ec3" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5870,6 +5880,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d832-efcd-e51a-6f42" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="efa2-a501-0ef8-ed9b" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5878,6 +5891,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="744b-b294-d96c-2ca7" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="6475-54d1-041b-4a2c" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -6783,6 +6799,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4f8-3ffd-83d7-ea92" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="4b26-986c-0873-47cf" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6791,6 +6810,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a88-625f-09aa-7aaa" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ee42-ab89-09d1-c6a1" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -11857,6 +11879,9 @@ esté incluido. Puede utilizarse para restaurar miniaturas retiradas como baja d
             <infoLink id="e2b9-4206-fe1e-43e3" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="939d-e455-df4a-ebfe" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="ff9b-3fba-d739-ba8b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -11912,6 +11937,9 @@ Inmune a fuego y genera un dado de Energía o de Dispersión en cada fase de mag
           <infoLinks>
             <infoLink id="3006-3042-d14a-9847" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="b9a4-8676-df46-4ecf" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -12001,6 +12029,9 @@ Inmune a fuego y genera un dado de Energía o de Dispersión en cada fase de mag
           <infoLinks>
             <infoLink id="c598-ce0d-ac22-f90e" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="1458-300c-4661-a68c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -12186,6 +12217,9 @@ Además, la portadora tendrá la regla especial Inmune a psicología.</character
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="0805-3d2e-b6bd-d59b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -12560,6 +12594,9 @@ Heridas múltiples (1D3).</characteristic>
               </modifiers>
             </infoLink>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="5230-b45c-b463-0aaa" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -12584,6 +12621,9 @@ Heridas múltiples (1D3).</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="4e05-5dfe-c915-14b3" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>

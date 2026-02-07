@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="7f15-8eb3-2094-c753" name="Guerreros enanos del caos" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -2909,9 +2909,24 @@ Dispara como una Catapulta de Fuerza 5 con la regla especial Ataques flamígeros
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8a8-8ce0-229a-ac07" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad7c-13e9-ca20-e343" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="8257-4cf1-64ad-b33b" name="Catapulta" hidden="false" targetId="1cd8-efcb-3e9f-eccd" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="9377-6503-816c-dccd" name="Cañón infernal" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">4</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="points" value="225.0"/>
           </costs>
@@ -3840,6 +3855,9 @@ asedio: esta sufrirá 1D6 impactos automáticos de Fuerza 8 distribuidos como si
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="628e-f889-2e55-1a32" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="7e33-37c9-c5a4-e5ad" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5059,6 +5077,9 @@ asedio: esta sufrirá 1D6 impactos automáticos de Fuerza 8 distribuidos como si
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="750e-8d3a-d46f-e1a6" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="11ec-a7fd-4d6c-51f5" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5067,6 +5088,9 @@ asedio: esta sufrirá 1D6 impactos automáticos de Fuerza 8 distribuidos como si
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bf1-fec6-fa6b-d5fb" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="8d7c-6bee-29d0-77d5" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -10226,6 +10250,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
           <infoLinks>
             <infoLink id="0138-a867-a791-38f5" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="7e7a-6bdc-0070-dcc3" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -10245,6 +10272,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
           <infoLinks>
             <infoLink id="21d9-6ccf-094d-b560" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="f7b6-482d-a660-3170" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="110.0"/>
           </costs>
@@ -10273,6 +10303,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
             <infoLink id="cc71-7999-8789-548c" name="Armadura Negra" hidden="false" targetId="aa51-ac39-bd8c-beed" type="profile"/>
             <infoLink id="451a-0297-bb7f-fee7" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="80a1-1b55-e9bd-14f8" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -10325,6 +10358,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="b22f-d83d-a8b1-5f61" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -10346,6 +10382,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
             <infoLink id="5dad-35b8-feca-9eee" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
             <infoLink id="a9f9-da56-e102-16bf" name="Aura demoníaca (3+)" hidden="false" targetId="df2b-0ff4-bf34-28b8" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="a0ee-f7e1-1957-812c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -10383,6 +10422,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="266c-64cf-e1aa-54e0" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -10402,6 +10444,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
           <infoLinks>
             <infoLink id="33ff-25bb-adc8-3ba6" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="dde7-5f26-eb1a-f088" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -10542,6 +10587,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
             <infoLink id="fc5a-f463-c4df-8eee" name="Resistencia a la magia (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
             <infoLink id="6064-dfcb-b2e8-7ef6" name="Ataques flamígeros" hidden="false" targetId="6985-722e-1ce4-b838" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="e7ed-0f9f-a0ea-70fc" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
           </costs>
@@ -10558,6 +10606,9 @@ esta (siempre y cuando la unidad que cargue se encuentre dentro de su línea de 
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="9a49-c4ff-fd44-2f1d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -2827,6 +2827,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="337d-cf63-7ed5-4c30" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="46db-0b8e-1342-8840" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -3056,6 +3059,9 @@ Desafío).</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="329a-3b46-866a-cfa3" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="6f23-03f2-dea1-fc08" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -3064,6 +3070,9 @@ Desafío).</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2954-7834-a798-8c15" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="a847-0609-7d4c-1b93" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -13069,6 +13078,9 @@ durante los Desafíos en los que participe.</characteristic>
               </modifiers>
             </infoLink>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="28ef-d634-50d1-d316" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -13088,6 +13100,9 @@ durante los Desafíos en los que participe.</characteristic>
           <infoLinks>
             <infoLink id="ca29-bc7f-bae3-be2e" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="d255-8b9b-7a65-0f75" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -13113,6 +13128,9 @@ durante los Desafíos en los que participe.</characteristic>
             </infoLink>
             <infoLink id="a9b7-e89d-891c-c66f" name="Inmune a psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="330e-d08d-f8b5-e4a7" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -13226,6 +13244,7 @@ del portador por la regla especial Favor de la Dama en +1 y otorga la regla espe
           </infoLinks>
           <entryLinks>
             <entryLink id="08e4-dd67-64b2-1847" name="Leyenda" hidden="false" collective="false" import="true" targetId="8f04-2596-2103-99ce" type="selectionEntry"/>
+            <entryLink id="abd0-78b7-bc85-380b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
@@ -13295,6 +13314,9 @@ de salvación por armadura o especial o un chequeo de atributo.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="3eee-e4b1-3183-6de8" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
@@ -13352,6 +13374,9 @@ hubiese perdido durante la batalla.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="7d27-a50b-5617-d4b9" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
@@ -13489,6 +13514,7 @@ El portador obtendrá un bonificador de +2 al lanzamiento de los hechizos del Sa
           </infoLinks>
           <entryLinks>
             <entryLink id="22e1-7b0b-35f7-5d24" name="Leyenda" hidden="false" collective="false" import="true" targetId="8f04-2596-2103-99ce" type="selectionEntry"/>
+            <entryLink id="2003-7db6-52b7-60a1" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="125.0"/>
@@ -13509,6 +13535,9 @@ El portador obtendrá un bonificador de +2 al lanzamiento de los hechizos del Sa
           <infoLinks>
             <infoLink id="9274-9c0c-5c9c-a85c" name="Resistencia a la magia (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9ec2-4c02-1c80-321d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="90.0"/>
           </costs>

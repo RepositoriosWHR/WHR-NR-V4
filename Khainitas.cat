@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b1c0-dfa2-401c-8ec1" name="Senda">
       <characteristicTypes>
@@ -2265,7 +2265,7 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf80-83f6-25d2-c4d3" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="315.0"/>
+                <cost name="pts" typeId="points" value="330.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -4216,6 +4216,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -4824,237 +4827,6 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1273-118b-8c47-fba5" name="Dragón fuegobrujo" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ec2-5546-87a5-93a6" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="c620-8e77-9879-ebe5" name="Aura de fuegobrujo" hidden="false">
-          <description>Al principio de cada fase de combate cuerpo a cuerpo cada miniatura (amiga y enemiga) en contacto peana con peana con el dragón fuegobrujo deberá superar un chequeo de Fuerza o sufrirá una herida automática sin tirada de salvación por armadura. Un dragón fuegobrujo tiene una tirada de salvación especial de 4+ contra Ataques mágicos y, además, cada vez que un hechicero tome como objetivo a un dragón fuegobrujo con un hechizo, el hechicero sufrirá un Disfunción mágica si obtiene un resultado de doble 1 en su tirada de lanzamiento.</description>
-        </rule>
-        <rule id="c779-8628-cbc5-a3b8" name="Estertores explosivos" hidden="false">
-          <description>Cuando un dragón fuegobrujo pierde su última herida y vaya a ser retirado del campo de batalla, todas las miniaturas (amigas y enemigas) a 2D6” o menos de éste son atrapadas en una explosión de pura energía mágica. Tira 1D6 por cada miniatura dentro de dicho radio: si obtienes un resultado igual o superior al indicado entre paréntesis en la regla Estertores explosivos del dragón, dicha miniatura sufrirá un impacto automático que herirá siempre con un resultado de 4+, no permite tirada de salvación por armadura y se resolverá con la regla especial Ataques mágicos.</description>
-        </rule>
-        <rule id="6136-c950-0fc5-0255" name="Llamarada bruja" hidden="false">
-          <description>El Dragón Fuegobrujo no cuenta con un arma de aliento: en lugar de ello, su aliento se resuelve como si fuese un Lanzallamas, que puede utilizarse incluso aunque el dragón mueva o marche (e incluso puede utilizarse para Aguantar y disparar, en la posición inicial de la carga, o trabado en combate cuerpo a cuerpo). Puede estimar hasta 3 dados, y sus impactos se resuelven con las reglas especiales Ataques mágicos y Ataques sólo flamígero; y F4 (Dragón Fuegobrujo Joven), F5 (Dragón Fuegobrujo) o F6 y Heridas múltiples (1D3) (Gran Dragón Fuegobrujo). Un resultado de Problemas simplemen te indica que el disparo no se realiza. Cualquier unidad que sufra al menos una baja a causa de este ataque deberá realizar inmediatamente un chequeo de pánico.</description>
-        </rule>
-        <rule id="33c1-dddd-46d8-1e55" name="Hambre insaciable" hidden="false">
-          <description>Un dragón fuegobrujo puede repetir las tiradas para impactar en cuerpo a cuerpo contra cualquier miniatura que esté equipada con objetos mágicos, tenga niveles de magia o tenga la regla especial Demonio o No muerto.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="51fc-f100-1b47-c3bd" name="Monstruo" hidden="false" targetId="0518-1c98-54e1-371d" type="rule"/>
-        <infoLink id="658c-d13d-312b-27fd" name="Volar" hidden="false" targetId="670e-1a23-b1e1-6e6f" type="rule"/>
-        <infoLink id="f497-c617-495f-24a3" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="058a-fae2-74c7-6f7e" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1777-1cfe-ef4c-e63d" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="214f-c4be-0737-d490" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b333-af04-5516-326b" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="8a9a-8143-cb7d-4ca9" name="Garras y colmillos" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf11-3d37-f1ed-794c" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e990-030f-2c21-41f5" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="4693-c221-cc86-7773" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="40cf-9ed2-9b95-57d5" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2720-6133-ef34-d159" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="717e-2d9a-a8e0-080f" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="b143-5298-2f40-05d2" name="Clave: Elfos" hidden="false" collective="false" import="true" targetId="413a-675c-7342-1956" type="selectionEntry"/>
-            <entryLink id="1665-dd48-86d8-5c25" name="Clave: Elfos Oscuros" hidden="false" collective="false" import="true" targetId="3f44-cfc7-1b54-f02b" type="selectionEntry"/>
-            <entryLink id="130c-18aa-efc8-2008" name="Clave: Mercenarios" hidden="false" collective="false" import="true" targetId="bbab-3c17-4a42-ee18" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="42ec-e076-fe64-9076" name="Dragón fuegobrujo" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="47be-31ce-4828-77ea" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a6f-3651-8908-f5a0" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6cfc-11c4-4468-596d" name="Dragón fuegobrujo jóven" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d927-ebee-ba2e-3f05" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68cd-04c1-7ac5-9a97" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="8642-300a-b133-c4e5" name="Dragón fuegobrujo jóven" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-                  <characteristics>
-                    <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                    <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
-                    <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
-                    <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
-                    <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
-                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
-                    <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
-                    <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
-                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
-                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="94aa-406c-72ae-b4f6" name="Estertores explosivos (4+)" hidden="false"/>
-              </rules>
-              <infoLinks>
-                <infoLink id="b086-252f-c2a3-c5a8" name="Piel escamosa (4+)" hidden="false" targetId="478f-4519-03d3-5004" type="rule"/>
-                <infoLink id="77c3-c558-3996-5b2f" name="Regeneración (6+)" hidden="false" targetId="4aee-7485-a141-cd20" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="245.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bdb6-79e7-059b-07a7" name="Dragón fuegobrujo" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0589-1bf8-4a2a-c2a6" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f46a-f788-4b34-beca" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="b725-4b6b-b2ca-fd5f" name="Dragón fuegobrujo" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-                  <characteristics>
-                    <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                    <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
-                    <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
-                    <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
-                    <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
-                    <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
-                    <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
-                    <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
-                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="9c22-e8aa-19cf-13c9" name="Estertores explosivos (3+)" hidden="false"/>
-              </rules>
-              <infoLinks>
-                <infoLink id="1e54-b941-98d1-8d11" name="Piel escamosa (4+)" hidden="false" targetId="478f-4519-03d3-5004" type="rule"/>
-                <infoLink id="feab-9671-e767-d32e" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="315.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="333c-a394-ab5d-c488" name="Gran dragón fuegobrujo" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd0c-023f-572c-ba62" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a3a-f121-f590-40df" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="2998-6f8d-b01d-915d" name="Gran dragón fuegobrujo" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-                  <characteristics>
-                    <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                    <characteristic name="HA" typeId="575323232344415441232323">7</characteristic>
-                    <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
-                    <characteristic name="F" typeId="5323232344415441232323">7</characteristic>
-                    <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
-                    <characteristic name="H" typeId="5723232344415441232323">7</characteristic>
-                    <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">6</characteristic>
-                    <characteristic name="L" typeId="4c4423232344415441232323">9</characteristic>
-                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">3</characteristic>
-                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="91c8-253e-c58f-c037" name="Estertores explosivos (2+)" hidden="false"/>
-              </rules>
-              <infoLinks>
-                <infoLink id="3fe3-47e7-1b66-bfbe" name="Piel escamosa (3+)" hidden="false" targetId="f3fe-4c6e-197e-832f" type="rule"/>
-                <infoLink id="93e5-5fd1-0aae-dfdd" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
-                <infoLink id="62a9-6151-7aa3-546d" name="Unidad legendaria" hidden="false" targetId="729e-2ed5-79eb-8288" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="79ac-73a1-a27d-d819" name="Nivel de magia" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ef0-b599-cf68-8715" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="7b02-47b7-89cd-2011" name="Nivel de magia 1" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ea-274f-3e9b-92fa" type="max"/>
-                      </constraints>
-                      <rules>
-                        <rule id="7789-ea99-cbc0-0074" name="Magia Gran dragón fuegobrujo" hidden="false">
-                          <description>Elige sus hechizos del Saber de Magia Oscura.</description>
-                        </rule>
-                      </rules>
-                      <costs>
-                        <cost name="pts" typeId="points" value="40.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1e73-0777-b388-6b14" name="Nivel de magia 2" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f138-f893-567b-7fdc" type="max"/>
-                      </constraints>
-                      <rules>
-                        <rule id="3216-ad20-07ba-2f6d" name="Magia Gran dragón fuegobrujo" hidden="false">
-                          <description>Elige sus hechizos del Saber de Magia Oscura.</description>
-                        </rule>
-                      </rules>
-                      <costs>
-                        <cost name="pts" typeId="points" value="75.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="points" value="395.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -6364,6 +6136,8 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
             <modifier type="append" field="name" value="(F4, Ataques sólo flamígeros)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="1aa8-5dc2-06a2-143e" name="Ataques flamígeros" hidden="false" targetId="6985-722e-1ce4-b838" type="rule"/>
+        <infoLink id="8025-9c1a-357a-1ec9" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="2b59-1f55-8bee-e945" name="Dragón Rojo" hidden="false" collective="false" import="true" type="model">
@@ -6982,6 +6756,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
             <infoLink id="00e3-bd82-21fc-ee93" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
             <infoLink id="5c74-1557-1342-82fc" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="4c26-0c38-1791-d412" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -7003,6 +6780,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
             <infoLink id="7eb8-3963-649f-74c0" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
             <infoLink id="5dc5-c90f-5f32-10b3" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="6a5b-3c28-2bdd-7734" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -7031,6 +6811,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
             <infoLink id="b630-66e7-828d-2ce3" name="Golpe letal heróico" hidden="false" targetId="95ce-f21a-29e1-42a2" type="rule"/>
             <infoLink id="083d-e33c-be4e-d4f6" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="ad32-86a0-282c-f44c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -7059,6 +6842,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
             <infoLink id="1989-0f9f-514e-cff0" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
             <infoLink id="bd84-4a0a-616f-d0d5" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="25a6-3e41-6c3f-1f80" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -7080,6 +6866,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
             <infoLink id="394f-8dc7-2318-4411" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule"/>
             <infoLink id="a9fd-953b-d7a1-8832" name="Aura demoníaca (4+)" hidden="false" targetId="79f2-17bc-18d1-75e3" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="30e8-ce5c-2ae0-9ec0" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -7107,6 +6896,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
           <infoLinks>
             <infoLink id="01f7-42f8-2c5a-12e2" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="d114-f220-b838-5b4b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -7123,6 +6915,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="7193-0507-e63e-debc" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -7142,6 +6937,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
           <infoLinks>
             <infoLink id="b86d-507a-6b46-5c13" name="Resistencia mágica (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2e50-6888-a600-a4e6" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -7333,6 +7131,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="2f87-683e-1183-979c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -7349,6 +7150,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="7cf4-fb4c-c605-7953" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>

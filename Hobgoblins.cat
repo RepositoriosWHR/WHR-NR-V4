@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51b8-d71c-a2c1-23c4" name="Hobgoblins" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51b8-d71c-a2c1-23c4" name="Hobgoblins" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b491-b22c-9054-ca3f" name="Reputación infame">
       <characteristicTypes>
@@ -4176,6 +4176,7 @@ D6 Resultado (Agarrar y...)
               </constraints>
               <entryLinks>
                 <entryLink id="75ce-b311-ca5f-a82b" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
+                <entryLink id="095e-c3a1-7154-f647" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="55.0"/>
@@ -4185,6 +4186,9 @@ D6 Resultado (Agarrar y...)
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba81-64a0-1c0b-8c17" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ed6f-81a2-7d03-4e9d" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5010,6 +5014,9 @@ D6 Resultado (Agarrar y...)
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37e4-d355-1dc5-bbdf" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="c29b-4beb-4025-242e" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -5018,6 +5025,9 @@ D6 Resultado (Agarrar y...)
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b7-ac58-06e6-3b19" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="dcc3-d341-696d-011c" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -9771,6 +9781,9 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
             <infoLink id="680e-6873-36c6-705d" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="117a-7663-96ab-2a07" name="Heridas múltiples (2)" hidden="false" targetId="be26-0d4a-0493-6c52" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="5508-07a4-7fca-af90" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -9996,6 +10009,9 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
           <infoLinks>
             <infoLink id="dbc0-867e-de54-00f8" name="Yelmo" hidden="false" targetId="9607-7f57-879f-5c42" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="a05a-dc71-f116-7c35" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -10378,6 +10394,9 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
           <infoLinks>
             <infoLink id="59b4-8331-c767-c112" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="99a2-f07d-809f-389a" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -10526,6 +10545,9 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="176c-eea4-9e81-0c72" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>

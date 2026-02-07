@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="924e-28e4-pubN65537" name="Elfos Silvanos. Libro de Ejércitos. Warhammer Reforged"/>
   </publications>
@@ -5318,6 +5318,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6df-c679-ccbb-22ed" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="2c2c-e346-292a-26b1" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5467,6 +5470,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2b4-67da-86ee-711a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5adf-c0e4-5a07-855a" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="15b3-02b9-94d2-834d" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -5775,6 +5781,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce18-69ec-a253-307d" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="7fc0-269b-bbdb-fd83" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5783,6 +5792,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd01-7e2a-0a05-59f9" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="8a83-16b5-67f6-abb0" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -6081,6 +6093,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b467-48a0-5e38-8839" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="4c08-866f-5abb-43ac" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -6089,6 +6104,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff8-4a1f-041d-3ce5" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="b36f-54da-4258-8bbc" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7111,6 +7129,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="cd17-ccf3-2fe4-9344" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+            <entryLink id="25a8-8ab0-f929-99d1" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
@@ -15328,6 +15347,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
             <infoLink id="27ac-2ff5-ecd3-ff68" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
             <infoLink id="d082-f895-ff0b-676d" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="e328-e72c-890c-84ea" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -15348,6 +15370,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
             <infoLink id="8e3a-2b6e-75bf-ec3c" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
             <infoLink id="5097-df93-340f-7d14" name="Resistencia a la magia (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="cc40-8b77-15e5-98a7" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
           </costs>
@@ -15445,6 +15470,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           <infoLinks>
             <infoLink id="df03-3271-f85e-4048" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="21c3-8256-fa36-8e0b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -15474,6 +15502,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
             <infoLink id="06d1-eabf-0af4-7672" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
             <infoLink id="9219-4e1f-9153-5c44" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="5b92-91ca-49a2-8acc" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -15574,6 +15605,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="130d-0c4f-378b-8e06" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
           </costs>
@@ -15595,6 +15629,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <description>Confiere una tirada de salvación especial (normalmente de 5+, aunque pueden especificarse otros valores), que no puede realizarse frente a ataques mágicos.</description>
             </rule>
           </rules>
+          <entryLinks>
+            <entryLink id="17cf-e6e3-926d-150f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
           </costs>
@@ -15615,6 +15652,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
             <infoLink id="a717-1c67-f58a-207f" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
             <infoLink id="93bc-0435-270e-e01b" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="61c1-bdda-2283-3c5c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
@@ -15699,6 +15739,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="5c24-72ae-0d4b-334c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -15715,6 +15758,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="5d83-bb20-960a-3356" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -15798,6 +15844,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           <infoLinks>
             <infoLink id="6367-3047-d455-1c88" name="Esquivar(5+)" hidden="false" targetId="053b-3b96-b53b-6944" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="bc39-7647-c4af-ebaa" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -15814,6 +15863,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="aa7a-a316-160f-436d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -16090,6 +16142,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           <infoLinks>
             <infoLink id="eae1-5c11-8281-f3e0" name="Arco largo élfico" hidden="false" targetId="02fd-0c5b-1417-d6f2" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="282f-1bc3-2e10-4648" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -17019,7 +17074,7 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
             <infoLink id="8eff-9843-a8bc-110a" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1fae-0287-7554-e24c" name="Desconexión con el plano material" hidden="false" collective="false" import="true" type="upgrade">

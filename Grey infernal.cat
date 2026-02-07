@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="d2ea-a0b8-pubN65537" name="Grey Infernal Reforged"/>
   </publications>
@@ -1306,6 +1306,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0287-3d1b-ad1f-8894" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="d458-9a94-478b-155f" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -3610,7 +3613,7 @@
                 <infoLink id="786f-d94f-4d6f-3ed9" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6007,6 +6010,9 @@ ejército de, al menos, 3000 puntos).</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a303-8f0c-3add-2ca9" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="3a23-a9c5-6cb8-8dc8" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -6015,6 +6021,9 @@ ejército de, al menos, 3000 puntos).</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1db-bbc3-6681-a6ad" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="4417-211c-a503-1cd3" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -11199,6 +11208,9 @@ Crueldad resentida (personalidad del traidor): El bonificador a la resolución d
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f006-7ddf-0a03-57bd" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="1ef1-ee4d-724d-5682" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -11207,6 +11219,9 @@ Crueldad resentida (personalidad del traidor): El bonificador a la resolución d
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7460-888e-fdcd-7730" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="1ccc-0d84-13ef-7bd3" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -12113,9 +12128,9 @@ Crueldad resentida (personalidad del traidor): El bonificador a la resolución d
         <rule id="5f5c-f86c-1d22-21f9" name="El más anciano" hidden="false">
           <description>Un Ogro dragón shaggoth debe realizar al inicio de la batalla (antes del despliegue) una tirada en la tabla de El más anciano. Tira 1D6 y aplica el resultado:
 1 Llamar a la tormenta: El Ogro dragón shaggoth puede utilizar esta habilidad en cada una de tus fases de disparo. Selecciona una unidad enemiga a 30” del Shaggoth: este ataque causa a esa unidad 1D6 impactos de Fuerza 6 con la regla especial Ataque de rayos. 
-2 Horror primigenio:Todos los chequeos de Miedo y Terror provocados por el Ogro dragón shaggoth deben realizarse tirando 3D6 y descartando el resultado más bajo (esto se anula mutuamente con Sangre fría).
-3 Coloso ancestral: El Ogro dragón shaggoth obtiene la regla especial Impactos por carga (1D6). Si causa con sus impactos por carga a una unidad durante una fase de combate más bajas que filas tiene esa unidad, la unidad quedará Apabullada el resto de ese turno de jugador (de la misma manera que hacen los Carros). 
-4 Anatema aethírica: El Shaggoth proviene de un tiempo anterior a la irrupción de los vientos de la magia en el mundo, y éstos esquivan su presencia de forma natural. El Shaggoth obtiene las reglas especiales Ataques mágicos y Resistencia mágica (3).
+2 Horror primigenio:Todos los chequeos de Miedo y Terror provocados por el Ogro dragón shaggoth deben realizarse con un penalizador de -1 al Liderazgo.
+3 Coloso ancestral: Para determinar los Impactos por carga que causa tira 2D6 y elige el resultado mayor. Si causa con sus impactos por carga a una unidad durante una fase de combate más bajas que filas tiene esa unidad, la unidad quedará Apabullada el resto de ese turno de jugador (de la misma manera que hacen los Carros). 
+4 Anatema aethírica: El Ogro dragón shaggoth obtiene las reglas especiales Ataques mágicos y Resistencia mágica (3).
 5 Fortaleza inquebrantable: Los resultados de 1, 2 y 3 en las tiradas para herir contra el Shaggoth siempre se consideran un fallo, independientemente de la Fuerza del ataque.
 6 Eterno: Cuando el Ogro dragón shaggoth fuera a ser retirado como baja, tira 1D6: si obtienes un resultado de 1-3, retíralo como baja. Sin embargo, con un resultado de 4+, deja al Ogro dragón shaggoth en el campo de batalla, con sólo una herida restante.</description>
         </rule>
@@ -13327,6 +13342,7 @@ Golpe letal.</characteristic>
           </profiles>
           <entryLinks>
             <entryLink id="ead0-cb14-4d9b-6723" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+            <entryLink id="3eaf-4cf0-cd95-1a13" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
@@ -13628,6 +13644,9 @@ Golpe letal.</characteristic>
             <infoLink id="c3ca-c926-7f04-b266" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="0da3-b390-f086-fde3" name="Heridas múltiples (1D6)" hidden="false" targetId="e658-6033-5e1f-c1c4" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2cbd-a9d1-2fa5-3617" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -13701,6 +13720,9 @@ Golpe letal.</characteristic>
           <infoLinks>
             <infoLink id="ff79-29ca-2879-d439" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="1f6c-ddf5-2882-a365" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -13964,6 +13986,9 @@ amiga a 12” o menos del lanzador y Permanece un turno. Tira 1D6 para determina
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="ee9b-5b4a-05b9-197d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -14737,6 +14762,9 @@ especial Resistencia mágica (2).</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="32da-d44e-3e65-4088" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -15069,6 +15097,9 @@ especial Resistencia mágica (2).</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="13a1-7a25-7c1b-c5b4" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>

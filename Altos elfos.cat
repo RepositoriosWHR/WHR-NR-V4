@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a20d-ec9e-719a-2f03" name="Senda">
       <characteristicTypes>
@@ -110,13 +110,6 @@
         <selectionEntryGroup id="af21-d0f0-fd35-c9aa" name="Opciones" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="250e-2d88-7913-6acb" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1952-ad2d-39e7-1081" type="max"/>
               </constraints>
@@ -620,7 +613,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="3b50-413b-a852-0d14" name="Opciones" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="a60c-0279-1856-c42b" name="Barda" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a60c-0279-1856-c42b" name="Barda de Ithilmar" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
@@ -3358,7 +3351,7 @@
                 </selectionEntryGroup>
                 <selectionEntryGroup id="40b3-757c-4d31-5366" name="Armaduras mágicas" hidden="false" collective="false" import="true">
                   <modifiers>
-                    <modifier type="set" field="6150-3345-1527-fddc" value="1.0">
+                    <modifier type="set" field="6150-3345-1527-fddc" value="0.0">
                       <conditions>
                         <condition field="selections" scope="b1a8-dda1-6443-4edf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="535d-3dda-5ec4-941c" type="equalTo"/>
                       </conditions>
@@ -3919,9 +3912,6 @@
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="238d-be9b-a2aa-5b8f" name="Armas" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d71-42e5-8970-36d6" type="max"/>
-              </constraints>
               <selectionEntries>
                 <selectionEntry id="398e-80e6-8e9f-e7cd" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -4423,6 +4413,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9354-0b6e-376d-14aa" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="678b-08bc-c6c5-6bcd" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4560,6 +4553,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="974a-d877-bc38-d08e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cf8-bd92-d95f-1893" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="2874-9bce-e554-7f90" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -5441,9 +5437,6 @@
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="a6d5-00f0-668d-b299" name="Armas" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5382-1405-c780-2288" type="max"/>
-              </constraints>
               <selectionEntries>
                 <selectionEntry id="f756-68de-dd19-c3c5" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -5840,6 +5833,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c85-21e0-1f48-9bef" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="b11b-2ae3-1ddb-4d36" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5848,6 +5844,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2094-67d1-0a57-15c9" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="cc1a-4024-3433-c089" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -6591,6 +6590,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5e-3cd1-baec-7587" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="21e1-a3a2-b943-168a" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6599,6 +6601,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0624-8147-185f-e59a" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="cf91-357c-cc85-8c05" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -10640,7 +10645,7 @@ elegir ninguna montura.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0af9-9ae0-d9d5-ccff" name="Merwyrms" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0af9-9ae0-d9d5-ccff" name="[Ex] - Merwyrms" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -11542,7 +11547,7 @@ elegir ninguna montura.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e646-7e67-926c-7be9" name="Cuádriga de combate" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e646-7e67-926c-7be9" name="[Ex] - Cuádriga de combate" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="410b-a0bd-e329-206e" value="2.0">
           <conditions>
@@ -15535,6 +15540,9 @@ elegir ninguna montura.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="6302-e1cb-dbfc-e380" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -15551,6 +15559,9 @@ elegir ninguna montura.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="fbcc-1227-c35a-4fda" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -15581,6 +15592,9 @@ elegir ninguna montura.</characteristic>
           <infoLinks>
             <infoLink id="e13e-9653-2560-14b6" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="892b-1109-5d82-9d0f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="125.0"/>
           </costs>
@@ -15597,6 +15611,9 @@ elegir ninguna montura.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="46b7-e371-dc78-eec4" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -15613,6 +15630,9 @@ elegir ninguna montura.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="1608-0ef2-e75a-2a6e" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -15724,6 +15744,9 @@ elegir ninguna montura.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="692d-c581-9018-19f0" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="90.0"/>
           </costs>
@@ -15743,6 +15766,9 @@ elegir ninguna montura.</characteristic>
           <infoLinks>
             <infoLink id="ac0e-317c-028f-b8f5" name="Flotar" hidden="false" targetId="bfb1-ac97-7d3e-9593" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2d8b-985c-ae5b-faab" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -15884,6 +15910,7 @@ elegir ninguna montura.</characteristic>
           </profiles>
           <entryLinks>
             <entryLink id="ca8c-9009-0909-7add" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+            <entryLink id="69c2-b98f-c59b-ef55" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
@@ -15919,6 +15946,9 @@ elegir ninguna montura.</characteristic>
           <infoLinks>
             <infoLink id="8fa7-042a-b165-626a" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="983f-1c31-4c92-5fd3" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -15938,6 +15968,9 @@ elegir ninguna montura.</characteristic>
           <infoLinks>
             <infoLink id="e3d1-0852-d30a-5460" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="f3b9-0b02-b7ef-b72d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="90.0"/>
           </costs>
@@ -16248,6 +16281,9 @@ elegir ninguna montura.</characteristic>
             <infoLink id="2ea3-a2b9-28c5-584d" name="Armadura de Dragón" hidden="false" targetId="7225-5e68-f5f8-7905" type="profile"/>
             <infoLink id="c545-dbc9-1e3c-a1f9" name="Arma de aliento" hidden="false" targetId="3438-0c27-972c-d418" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="85d2-d3eb-1e2f-006e" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -16267,6 +16303,9 @@ elegir ninguna montura.</characteristic>
           <infoLinks>
             <infoLink id="1ef1-9301-8467-07c6" name="Armadura ligera" hidden="false" targetId="44f2-32d5-23eb-62f5" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9bfe-a82b-83e8-a9f2" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -16481,6 +16520,9 @@ elegir ninguna montura.</characteristic>
             <infoLink id="d0d9-c8a7-a975-8ea1" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
             <infoLink id="e1e5-524f-e8bc-51c0" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="557c-ebfa-0873-8070" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -16501,6 +16543,9 @@ elegir ninguna montura.</characteristic>
             <infoLink id="a7ec-3f5a-8b26-5bc1" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
             <infoLink id="e67b-e493-33ef-4511" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="3b86-71b8-b7b4-ab3b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -16528,6 +16573,9 @@ elegir ninguna montura.</characteristic>
           <infoLinks>
             <infoLink id="a4a2-ed34-dc5e-0299" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="f3fa-7d16-a695-b3be" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
           </costs>

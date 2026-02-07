@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f71e-06e9-0083-adc2" name="Poder vampírico">
       <characteristicTypes>
@@ -2185,23 +2185,6 @@
               </modifiers>
             </infoLink>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="dd47-cd5a-4f0c-6e5a" name="Voluntad de Khorne (1) (Senescal Sangriento)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9740-18a3-fe6a-c53f" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="6105-0418-b59c-4da5" name="Voluntad de Khorne" hidden="false" targetId="4a9c-a082-77b3-0e80" type="rule">
-                  <modifiers>
-                    <modifier type="append" field="name" value="(1) (Senescal Sangriento)"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -3036,7 +3019,6 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="ff5d-2a30-103c-ea26" name="Poderes vampírircos menores. Caballería" hidden="false" collective="false" import="true" targetId="7c8c-5621-ea68-98b6" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -3105,23 +3087,6 @@
               </modifiers>
             </infoLink>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="aaf9-4e6e-4b58-832e" name="Voluntad de Khorne (1) (Senescal Sangriento)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1990-d27a-6cd3-a117" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="ea63-23d4-1e5e-8185" name="Voluntad de Khorne" hidden="false" targetId="4a9c-a082-77b3-0e80" type="rule">
-                  <modifiers>
-                    <modifier type="append" field="name" value="(1) (Senescal Sangriento)"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -3981,23 +3946,6 @@ Poder TABLA DEL CARRUAJE NEGRO
               </modifiers>
             </infoLink>
           </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="380a-bd90-3257-fdc9" name="Voluntad de Khorne (1) (Senescal de la muerte)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3bc-9c6a-6787-dff1" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="697c-2c71-f72d-b45a" name="Voluntad de Khorne" hidden="false" targetId="4a9c-a082-77b3-0e80" type="rule">
-                  <modifiers>
-                    <modifier type="append" field="name" value="(1) (Senescal de la muerte)"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -4854,13 +4802,19 @@ Poder TABLA DEL CARRUAJE NEGRO
               <entryLinks>
                 <entryLink id="081d-c00d-0050-ad2c" name="Poderes vampírircos Mayores" hidden="false" collective="false" import="true" targetId="3a30-4722-f73d-ccb9" type="selectionEntryGroup">
                   <modifiers>
-                    <modifier type="increment" field="02fb-f997-7245-a9d2" value="2.0">
+                    <modifier type="increment" field="02fb-f997-7245-a9d2" value="1.0">
                       <conditions>
                         <condition field="selections" scope="22d6-a405-012c-6d08" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c170-0bc8-3320-f36a" type="equalTo"/>
                       </conditions>
                     </modifier>
                     <modifier type="decrement" field="02fb-f997-7245-a9d2" value="1.0">
                       <conditions>
+                        <condition field="selections" scope="22d6-a405-012c-6d08" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="109a-9841-1b66-3436" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="02fb-f997-7245-a9d2" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="22d6-a405-012c-6d08" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c170-0bc8-3320-f36a" type="equalTo"/>
                         <condition field="selections" scope="22d6-a405-012c-6d08" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="109a-9841-1b66-3436" type="atLeast"/>
                       </conditions>
                     </modifier>
@@ -5084,6 +5038,7 @@ Poder TABLA DEL CARRUAJE NEGRO
               </constraints>
               <entryLinks>
                 <entryLink id="4036-2f04-38fd-b45f" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="42e8-bf4f-0b96-9a15" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
@@ -5095,6 +5050,7 @@ Poder TABLA DEL CARRUAJE NEGRO
               </constraints>
               <entryLinks>
                 <entryLink id="a02c-7e9d-43fa-864f" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="caee-323f-d97f-9433" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -12584,7 +12540,7 @@ Ten en cuenta que aunque pueda tener efectos diferentes se sigue tratando del mi
           <profiles>
             <profile id="3acc-8fd4-a49c-62b2" name="Caballero imperial" hidden="false" typeId="f71e-06e9-0083-adc2" typeName="Poder vampírico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="fe48-4f75-7c89-9325">Este poder tan sólo puede ser elegido por un vampiro montado en una bestia (es decir, que tenga el tipo de tropa Caballería) que se una a una unidad de Caballería tumularia o Caballeros del Dragón sangriento (y no podrá abandonar voluntariamente esa unidad) que no haya escogido la regla especial Formaciones de batalla de Bretonia. Puedes elegir una de las órdenes de caballería del Imperio (ver el libro de ejército del Imperio) y aplicarle sus reglas especiales tanto al personaje como a la unidad durante toda la batalla (si se trata de Tumularios, sus armas serán Armas funerarias del mismo tipo). Si este poder es elegido por un Señor de los Vampiros cuenta como si fuese un Maestre Templario a la hora de determinar los efectos de la orden de caballería.</characteristic>
+                <characteristic name="Reglas especiales" typeId="fe48-4f75-7c89-9325">Sólo Señor de vampiros Dragón Sangriento y Conde Dragón Sangriento. Este poder tan sólo puede ser elegido por un vampiro montado en una bestia (es decir, que tenga el tipo de tropa Caballería) que se una a una unidad de Caballería tumularia o Caballeros del Dragón sangriento (y no podrá abandonar voluntariamente esa unidad) que no haya escogido la regla especial Formaciones de batalla de Bretonia. Puedes elegir una de las órdenes de caballería del Imperio (ver el libro de ejército del Imperio) y aplicarle sus reglas especiales tanto al personaje como a la unidad durante toda la batalla (si se trata de Tumularios, sus armas serán Armas funerarias del mismo tipo). Si este poder es elegido por un Señor de los Vampiros cuenta como si fuese un Maestre Templario a la hora de determinar los efectos de la orden de caballería.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13184,6 +13140,9 @@ Saber de la Nigromancia.</characteristic>
             <infoLink id="5fca-aff3-61bf-79a0" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
             <infoLink id="d1cb-c4cf-459e-66c6" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="58a3-66ab-349e-f4d2" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -13211,6 +13170,9 @@ Saber de la Nigromancia.</characteristic>
             <infoLink id="3490-df51-d8a5-1ab2" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="464c-0480-59c8-0a11" name="Golpe letal heróico" hidden="false" targetId="95ce-f21a-29e1-42a2" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9003-1dba-7c2b-9f20" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -13235,6 +13197,9 @@ Saber de la Nigromancia.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="3e58-145b-a7cf-91f4" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -13259,6 +13224,9 @@ Saber de la Nigromancia.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="5dfe-db6b-6ea2-edd8" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -13280,6 +13248,9 @@ Inestabilidad).</characteristic>
             <infoLink id="907b-9ded-4cc4-32ce" name="Indesmoralizable" hidden="false" targetId="4362-3d7f-a24a-3309" type="rule"/>
             <infoLink id="0429-a3f6-5a24-d520" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="27b2-c9ff-204c-0c42" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -13310,6 +13281,9 @@ Inestabilidad).</characteristic>
             <infoLink id="0b38-9a89-977e-78c5" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
             <infoLink id="490a-55cf-e171-ef23" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="7887-27d2-c139-0919" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="90.0"/>
           </costs>
@@ -13546,6 +13520,9 @@ Inestabilidad).</characteristic>
             <infoLink id="2f20-7b83-4581-8d97" name="Yelmo" hidden="false" targetId="9607-7f57-879f-5c42" type="profile"/>
             <infoLink id="7bec-93f5-e289-d353" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="78b9-4a9f-9e5a-af34" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -14021,7 +13998,7 @@ Inestabilidad).</characteristic>
       <description>El ejército no puede incluir miniaturas con niveles de magia ni miniaturas con objetos portahechizos o Artefactos arcanos de cualquier tipo. Sin embargo, algunos personajes sufren ciertas modificaciones.</description>
     </rule>
     <rule id="4a9c-a082-77b3-0e80" name="Voluntad de Khorne" hidden="false">
-      <description>Esta regla especial tiene un valor entre paréntesis, que indica el número de veces que el personaje puede utilizarla en cada fase de disparo propia. Para utilizar esta regla especial, elige una unidad amiga con la regla especial No muerto a 12” o menos del personaje, y elige uno de los efectos descritos a continuación. El personaje que utiliza la regla Voluntad de Khorne debe realizar un chequeo de Liderazgo, sin beneficiarse de las reglas especiales Presencia inspiradora o ¡Ni un paso atrás!. Si se supera el chequeo, aplica el efecto elegido; si obtienes un resultado de doble 6, el personaje sufre una herida automática sin posibilidad de salvación de ningún tipo. Una misma unidad no puede recibir el mismo efecto más de una vez por fase de disparo propia, excepto ¡Levantáos!.
+      <description>Esta regla especial tiene un valor entre paréntesis, que indica el número de veces que el personaje puede utilizarla en cada fase de disparo propia. Para utilizar esta regla especial, elige una unidad amiga con la regla especial No muerto a 12” o menos del personaje, y elige uno de los efectos descritos a continuación. El personaje que utiliza la regla Voluntad de Khorne debe realizar un chequeo de Liderazgo, sin beneficiarse de las reglas especiales Presencia inspiradora o ¡Ni un paso atrás!. Si se supera el chequeo, aplica el efecto elegido; si obtienes un resultado de doble 6, el personaje sufre una herida automática sin posibilidad de salvación de ningún tipo. Una misma unidad sólo puede recibir el efecto de la regla especial Voluntad de Khorne una única vez por turno, o hasta dos veces si al menos una de ellas utiliza el efecto ¡Levantáos!
 Levantáos! La unidad recupera inmediatamente heridas/miniaturas igual a la cantidad indicada junto a su regla especial No muerto. Lo personajes unidos a la unidad también recuperarán las heridas indicadas en su regla especial No muerto.
 -¡Caminad! Sólo puede usarse en unidades que no se encuentren trabadas en combate cuerpo a cuerpo. La unidad puede mover inmediatamente como si se encontrase en la sub-fase de Resto de movimientos (sujeta a las limitaciones habituales).
 -¡Cargad! Sólo puede usarse en unidades que no se encuentren trabadas en combate cuerpo a cuerpo. La unidad puede declarar una carga inmediatamente (el enemigo puede reaccionar siguiendo las reglas habituales).

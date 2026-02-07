@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9ec5-91ab-c1bc-3ae5" name="Desove">
       <characteristicTypes>
@@ -6500,6 +6500,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a018-107b-55e9-e1eb" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="c0dc-06ec-8432-7e3e" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6508,6 +6511,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d5c-8dea-1794-b113" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="f8f0-05d8-9591-582d" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="35.0"/>
               </costs>
@@ -8759,7 +8765,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
           <description>Tiene nivel de magia 5 y conoce un único hechizo, la Liberación de Itza, descrito mas adelante.</description>
         </rule>
         <rule id="1447-d48f-7eb2-4031" name="Guardia ancestral" hidden="false">
-          <description>Kroak deberá entrar en batalla unido a una unidad de Guardia del templo. Kroak no podrá abandonar esa unidad. La unidad obtendrá la clave no muertos y las reglas especiales Indesmoralizables, No Muerto y Ataques mágicos.</description>
+          <description>Kroak deberá entrar en batalla unido a una unidad de Guardia del templo. Kroak no podrá abandonar esa unidad. La unidad obtendrá la clave no muertos y las reglas especiales Indesmoralizables, No Muerto (1D6-1) y Ataques mágicos.</description>
         </rule>
         <rule id="3b30-069c-8c83-54ff" name="Espíritu" hidden="false">
           <description>A pesar de ser un personaje, Kroak no puede lanzar ni aceptar desafíos.</description>
@@ -8771,7 +8777,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <infoLink id="6b35-bf1e-d22a-defc" name="Leyenda" hidden="false" targetId="d331-afa2-533e-c273" type="rule"/>
         <infoLink id="785b-9412-3703-8adb" name="Indesmoralizable" hidden="false" targetId="4362-3d7f-a24a-3309" type="rule"/>
         <infoLink id="897c-532c-b323-4849" name="Resistencia a la magia (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
-        <infoLink id="aec3-f3a6-dc51-472d" name="No muerto" hidden="false" targetId="3d39-5d46-7335-225c" type="rule"/>
+        <infoLink id="aec3-f3a6-dc51-472d" name="No Muerto (1)" hidden="false" targetId="467a-3f64-3c89-09ba" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e8b0-6576-790a-5ebb" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
@@ -9789,6 +9795,11 @@ un dado de Dispersión adicional para ese intento de dispersión. Además, podr�
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1714-16cd-af0d-cad6" type="max"/>
       </constraints>
+      <rules>
+        <rule id="7907-9b43-343b-c4d6" name="Kroxigor ancestral" hidden="false">
+          <description>El personaje podrá situarse en segunda fila como excepción a las reglas generales en las unidades de Guerreros Eslizón (Unidad mixta).</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="b749-b636-f3dd-bead" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="c96c-5d25-2d63-c393" name="Infantería monstruosa" hidden="false" targetId="4958-70de-0b69-9825" type="rule"/>
@@ -12252,6 +12263,9 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
           <infoLinks>
             <infoLink id="aae1-0fa4-4b69-f143" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="dd9a-aab2-99f3-f838" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="135.0"/>
           </costs>
@@ -12308,6 +12322,9 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
             <infoLink id="621e-ba3b-b4a1-c535" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
             <infoLink id="78a3-d5d6-d0de-e2d1" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="da7e-01a9-3053-b36c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -12521,6 +12538,9 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
           <infoLinks>
             <infoLink id="ab4f-996c-ae1d-1e9a" name="Resistencia a la magia (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="05f0-90cd-57cd-78d1" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -12537,6 +12557,9 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="1f99-83f2-e36b-e612" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
@@ -12557,6 +12580,9 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="4417-63e6-86be-25f2" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -12576,6 +12602,9 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
           <infoLinks>
             <infoLink id="09d4-3732-b06f-fee7" name="Archienemigo" hidden="false" targetId="837a-4a9a-7d71-e8fe" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="a5b1-6782-ccc7-e19f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
@@ -12662,6 +12691,9 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
           <infoLinks>
             <infoLink id="f082-1d34-1637-7e2a" name="Inmune a psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="8195-33a5-7c50-aa99" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -12883,6 +12915,9 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
           <infoLinks>
             <infoLink id="7f15-501b-c408-1d05" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2ac4-e4bc-8635-683b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
           </costs>
@@ -13150,6 +13185,9 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="a836-9042-c93d-eae1" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -13166,6 +13204,9 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="5904-b1af-1a92-db57" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -13182,6 +13223,9 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="32b5-36a5-3652-8500" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -13198,6 +13242,9 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="c807-5566-4db7-b9de" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -13214,6 +13261,9 @@ un bonificador de +2 a sus tiradas de lanzamiento de hechizos.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="def7-8262-ac16-b623" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>

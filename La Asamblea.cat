@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5752-4a70-7461-a2aa" name="La Asamblea" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5752-4a70-7461-a2aa" name="La Asamblea" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="7828-c6dc-75df-a355" name="Remoquete">
       <characteristicTypes>
@@ -5626,6 +5626,9 @@ Total 		Tabla de problemas de la olla a presión
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9616-2d7c-56e9-6df9" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="02a1-9128-54de-0ce8" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5635,7 +5638,7 @@ Total 		Tabla de problemas de la olla a presión
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dfd-9fe7-9baf-a6d9" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="9359-acbd-6cea-13c9" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
+                <entryLink id="2f5d-c8ce-762c-0d3d" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="55.0"/>
@@ -6122,6 +6125,9 @@ Total 		Tabla de problemas de la olla a presión
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5943-7203-821c-bf89" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="33a4-a02b-9392-8e7c" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7329,6 +7335,9 @@ Total 		Tabla de problemas de la olla a presión
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18ee-c3d3-5b38-f050" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="c685-d27e-aa83-2070" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7337,6 +7346,9 @@ Total 		Tabla de problemas de la olla a presión
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bfd-2bfd-f1dd-c034" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="c075-78fc-4593-f53c" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -7713,6 +7725,9 @@ Total 		Tabla de problemas de la olla a presión
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8ab-6c3f-ef8a-6b7b" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="5c7d-e9d6-b032-07bf" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7721,6 +7736,9 @@ Total 		Tabla de problemas de la olla a presión
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01f8-2708-9a80-fd8d" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="5c15-b50e-3c4c-a0a4" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -11811,6 +11829,9 @@ Sombras.</description>
           <infoLinks>
             <infoLink id="90fe-a292-7cf7-8d4e" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="a3b3-7646-f038-5bf1" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -12046,6 +12067,9 @@ Sombras.</description>
           <infoLinks>
             <infoLink id="111d-f432-2c50-fc84" name="Inmune al veneno" hidden="false" targetId="0338-1cb0-0dc1-2892" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="be23-d09f-c4cc-62b1" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -12248,6 +12272,9 @@ Sombras.</description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="aa18-2c90-a04d-81ad" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -12264,6 +12291,9 @@ Sombras.</description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="b022-f5ae-633b-7725" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -12355,6 +12385,9 @@ Sombras.</description>
           <infoLinks>
             <infoLink id="fc50-3a63-2e56-f780" name="Resistencia mágica (2)" hidden="false" targetId="9718-2e66-193f-7dd6" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="f7f4-2e29-1cd5-822d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>

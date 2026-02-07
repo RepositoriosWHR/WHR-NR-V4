@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6daf-483a-4d59-83db" name="Poder vampírico">
       <characteristicTypes>
@@ -1388,9 +1388,15 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
                         <condition field="selections" scope="cf86-bf35-dc1a-7e0f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="608e-1dc0-58b8-ab11" type="atLeast"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="a39f-5f38-1858-11c7" value="2.0">
+                    <modifier type="increment" field="a39f-5f38-1858-11c7" value="1.0">
                       <conditions>
                         <condition field="selections" scope="8b35-7005-a8ad-560b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="449b-8664-5bd7-9db5" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="a39f-5f38-1858-11c7" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="8b35-7005-a8ad-560b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="449b-8664-5bd7-9db5" type="equalTo"/>
+                        <condition field="selections" scope="cf86-bf35-dc1a-7e0f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="608e-1dc0-58b8-ab11" type="atLeast"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -1572,6 +1578,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb07-4431-f4ca-373e" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="97d7-6aa1-2718-4d62" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -1580,6 +1589,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b45-5120-3beb-01b8" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="fe9c-8e96-bf6b-0c81" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -1964,9 +1976,15 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
                         <condition field="selections" scope="2af8-c65a-a021-c617" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a41-2131-3031-f24e" type="atLeast"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="05d1-57ef-88e0-f61f" value="2.0">
+                    <modifier type="increment" field="05d1-57ef-88e0-f61f" value="1.0">
                       <conditions>
                         <condition field="selections" scope="4dec-6ed2-9162-1e1c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="083e-1455-f433-42b1" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="05d1-57ef-88e0-f61f" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="4dec-6ed2-9162-1e1c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="083e-1455-f433-42b1" type="equalTo"/>
+                        <condition field="selections" scope="2af8-c65a-a021-c617" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2a41-2131-3031-f24e" type="atLeast"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -2145,6 +2163,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32d3-c379-0333-41e7" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="9664-e5f7-17eb-f59b" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -2153,6 +2174,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e0e-0095-dbde-e050" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="d3a7-e5b5-e8c0-8d4c" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -2547,9 +2571,15 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
                         <condition field="selections" scope="9ea3-83bd-b4c0-24e0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e03e-ae8a-d63a-cfa6" type="atLeast"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="12f7-a4c2-2154-a976" value="2.0">
+                    <modifier type="increment" field="12f7-a4c2-2154-a976" value="1.0">
                       <conditions>
                         <condition field="selections" scope="4922-f386-b0a1-0fe0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="44db-d95d-dc68-6c89" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="12f7-a4c2-2154-a976" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="4922-f386-b0a1-0fe0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="44db-d95d-dc68-6c89" type="equalTo"/>
+                        <condition field="selections" scope="9ea3-83bd-b4c0-24e0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e03e-ae8a-d63a-cfa6" type="atLeast"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -2740,6 +2770,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b08-2ead-645d-92da" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="f1af-bdab-6314-1795" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -3026,9 +3059,15 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
                         <condition field="selections" scope="81f5-174c-87d8-2baf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1b1b-f3cd-56aa-f372" type="atLeast"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="3a21-6539-cc28-24a4" value="2.0">
+                    <modifier type="increment" field="3a21-6539-cc28-24a4" value="1.0">
                       <conditions>
                         <condition field="selections" scope="1cf4-cb7e-69f1-eb91" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6637-6ad1-a125-96bf" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="3a21-6539-cc28-24a4" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="1cf4-cb7e-69f1-eb91" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6637-6ad1-a125-96bf" type="equalTo"/>
+                        <condition field="selections" scope="81f5-174c-87d8-2baf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1b1b-f3cd-56aa-f372" type="atLeast"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -3227,6 +3266,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e89-051b-1e33-5dd2" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="9908-0f8e-2b61-a34b" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -3235,6 +3277,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="492b-a73a-22cf-a7c0" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="a81a-0887-847b-081f" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -3477,7 +3522,13 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
                         <condition field="selections" scope="6dad-f754-4b1c-fb7f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2543-9126-cf73-580b" type="atLeast"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="8e4c-b362-523e-9c08" value="2.0">
+                    <modifier type="increment" field="8e4c-b362-523e-9c08" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="868f-ab6d-7174-ba37" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ada1-ea6c-9f73-a241" type="equalTo"/>
+                        <condition field="selections" scope="6dad-f754-4b1c-fb7f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2543-9126-cf73-580b" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="8e4c-b362-523e-9c08" value="1.0">
                       <conditions>
                         <condition field="selections" scope="868f-ab6d-7174-ba37" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ada1-ea6c-9f73-a241" type="equalTo"/>
                       </conditions>
@@ -3613,6 +3664,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96cb-86dc-e458-2ef4" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="9df1-34f2-7980-639c" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -3621,6 +3675,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e552-9878-af01-ee63" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="cdba-2d18-f017-d6b0" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -3954,6 +4011,7 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
           </constraints>
           <entryLinks>
             <entryLink id="5127-fff1-4487-984c" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+            <entryLink id="bc76-74cf-ad94-fdb6" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
@@ -4362,6 +4420,7 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
           </constraints>
           <entryLinks>
             <entryLink id="0cfe-ca41-ea07-7124" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+            <entryLink id="ee9d-f7fc-0ca9-9e2a" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
@@ -4718,6 +4777,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d427-326c-af32-201b" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="9531-3555-5f60-fb45" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4726,6 +4788,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edd0-8350-92bb-f1a2" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="d906-4219-1387-ac0f" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -5412,6 +5477,7 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
           </constraints>
           <entryLinks>
             <entryLink id="2ffb-ee40-1e98-7a61" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+            <entryLink id="ad04-48df-86f2-f922" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
@@ -5995,6 +6061,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e98-33c5-8179-4cbb" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="8e6d-bac3-bd88-337a" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6003,6 +6072,9 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c5d-0249-0a84-a352" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="92a8-1620-9e9c-03f2" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -7065,7 +7137,7 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
                 <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">3</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
@@ -7074,7 +7146,7 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="57.0"/>
+            <cost name="pts" typeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c461-ab20-ba81-263b" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -7132,7 +7204,7 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
                     <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
                     <characteristic name="H" typeId="5723232344415441232323">3</characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
@@ -13950,6 +14022,7 @@ contra Infantería, Bestias, Caballería y Enjambres.
               </profiles>
               <entryLinks>
                 <entryLink id="3f7b-c228-7729-0f8e" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="f6f3-3c6a-ee09-f2fc" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="70.0"/>
@@ -18350,6 +18423,9 @@ especial de 4+.</description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="668b-e2ce-df8b-4e36" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -18449,6 +18525,9 @@ especial de 4+.</description>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="456f-9174-ba0e-03f4" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -18530,6 +18609,9 @@ mágicas.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="97c3-28bb-3490-109e" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -18661,6 +18743,9 @@ mágicas.</characteristic>
           <infoLinks>
             <infoLink id="e326-9027-bf88-8f89" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="be18-5940-22a6-fa9f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="125.0"/>
           </costs>
@@ -18811,6 +18896,9 @@ mágicas.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="5666-dd48-b50f-962f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -18863,6 +18951,9 @@ mágicas.</characteristic>
             <infoLink id="eec6-69a6-09e1-0394" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="1a3e-834d-3d92-4a06" name="Golpe letal heróico" hidden="false" targetId="95ce-f21a-29e1-42a2" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="d691-768a-1220-64c7" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -18890,6 +18981,9 @@ mágicas.</characteristic>
           <infoLinks>
             <infoLink id="0de4-ed71-7aae-c6ca" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="b2af-8f85-9681-dc64" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -19130,6 +19224,9 @@ mágicas.</characteristic>
           <infoLinks>
             <infoLink id="d946-0afb-55b5-cfc6" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="a4ee-4e4c-daae-30a4" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="84e0-639b-248a-20ef" name="Clan Eshin" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="84e0-639b-248a-20ef" name="Clan Eshin" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="85cb-6f3c-0c94-e40f" name="Senda">
       <characteristicTypes>
@@ -1080,7 +1080,7 @@
                     <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf0e-ce91-c75e-4737" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="increment" field="points" value="2.0">
+                <modifier type="increment" field="points" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="6919-156d-f823-5596" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a98d-a237-6cee-2742" repeats="1" roundUp="false"/>
                   </repeats>
@@ -1493,7 +1493,7 @@ D6 Tabla de problemas de la Lengua de Dragón
                         <infoLink id="1b22-508c-4c66-2965" name="Ataques solo flamígeros" hidden="false" targetId="5587-433b-16c0-79d1" type="rule"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="20.0"/>
+                        <cost name="pts" typeId="points" value="15.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1618,7 +1618,7 @@ D6 Tabla de problemas de la Lengua de Dragón
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="21.0"/>
+            <cost name="pts" typeId="points" value="22.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="30fb-ab24-24d3-ffc7" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1734,9 +1734,10 @@ D6 Tabla de problemas de la Lengua de Dragón
         </selectionEntryGroup>
         <selectionEntryGroup id="6f25-7152-825f-57a0" name="Opciones" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
-            <selectionEntryGroup id="e11a-9b2b-b16d-92a9" name="Reglas" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e11a-9b2b-b16d-92a9" name="Reglas" hidden="false" collective="false" import="true" defaultSelectionEntryId="dbc5-32e0-7518-5317">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6952-b6ad-b77f-5226" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f7b-54d2-8683-aee5" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="c7a9-f79d-4161-d5fe" name="Exploradores" hidden="false" collective="false" import="true" type="upgrade">
@@ -1758,13 +1759,6 @@ D6 Tabla de problemas de la Lengua de Dragón
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="dbc5-32e0-7518-5317" name="Vanguardia" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="2.0">
-                      <repeats>
-                        <repeat field="selections" scope="5b4f-ace1-fcf2-6e16" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fe9a-e1e9-699f-35b0" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7985-44b5-404f-3ce4" type="max"/>
                   </constraints>
@@ -3036,11 +3030,7 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
       </constraints>
       <rules>
         <rule id="4775-a43b-0bca-c9e2" name="Lanzacohetes del clan Eshin" hidden="false">
-          <description>El lanzacohetes del clan Eshin dispara como si se tratase de una catapulta. Coloca la plantilla redonda pequeña al final de la distancia estimada. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de Fuerza 4 con la regla especial Poder de penetración. El impacto central se resolverá con F8 y la regla especial Heridas múltiples (1D6). Si en la tirada del dado de artillería obtienes un resultado de Problemas, realiza inmediatamente una tirada en la tabla de problemas del Lanzacohetes Eshin.
-1D6 Tabla de problemas del Lanzacohetes Eshin
-1-2 ¡Ka-Boom!: Retira la miniatura del campo de batalla como baja.
-3-5n¡Pérdida de control!: El oponente puede recolocar la plantilla sobre cualquier miniatura situada a 3D6” del objetivo original y dentro del alcance del lanzacohetes; tira de nuevo los dados de artillería y dispersión y resuelve el disparo de la forma habitual, repitiendo cualquier otro resultado de problemas en el dado de artillería.
-6 Pfffffff…: El Lanzacohetes no dispara este turno pero podrá disparar en el siguiente sin problemas. A eso se le llama tener suerte.</description>
+          <description>El lanzacohetes del clan Eshin dispara como si se tratase de una catapulta. Coloca la plantilla redonda pequeña al final de la distancia estimada. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de Fuerza 4 con la regla especial Poder de penetración. El impacto central se resolverá con Fuerza 8 y la regla especial Heridas múltiples (1D6). Si en la tirada del dado de artillería obtienes un resultado de Problemas, realiza inmediatamente una tirada en la tabla de problemas del Cañón.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3192,7 +3182,7 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
                 <characteristic name="HA" typeId="575323232344415441232323">-</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
-                <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">-</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
                 <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
@@ -3985,7 +3975,7 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="165.0"/>
+            <cost name="pts" typeId="points" value="180.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6023-7128-f2a7-ad0d" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -4332,24 +4322,19 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="97a6-3e8c-f334-ba0e" name="Niveles de magia" hidden="false" collective="false" import="true" defaultSelectionEntryId="e741-14ac-4b75-e1f4">
+        <selectionEntryGroup id="97a6-3e8c-f334-ba0e" name="Niveles de magia" hidden="false" collective="false" import="true" defaultSelectionEntryId="de3a-c975-7170-0c35">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c1a-bb25-64df-662e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1f1-2f2f-af7b-abf0" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e741-14ac-4b75-e1f4" name="Nivel de magia 2" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f55a-4f5a-4f9e-6b97" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="de3a-c975-7170-0c35" name="Nivel de magia 3" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e256-0eb1-bd1f-877a" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="5891-40ba-93fb-baf4" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -4370,7 +4355,7 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="da0d-a67e-3048-3009" name="Señor de la Guerra del clan Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="da0d-a67e-3048-3009" name="Señor de la Guerra Eshin" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="3c60-6d74-ec7e-85a0" name="El camino del guerrero" hidden="false">
           <description>Al luchar en combate cuerpo a cuerpo, el Señor de la guerra Eshin aplica un bonificador de +1 a su tirada de salvación por armadura.</description>
@@ -4680,10 +4665,14 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a69c-34b3-cfa3-98fd" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="fc44-2759-c188-7b46" name="Bomba cegadora" hidden="false" targetId="65ca-ba13-8c3c-5576" type="profile"/>
+                <infoLink id="fc44-2759-c188-7b46" name="Ungüentos Eshin" hidden="false" targetId="a5eb-b13a-1be4-dc59" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="name" value="(Cuerpo a cuerpo)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d61e-d1c3-6ddc-88fe" name="Veneno secreto de disformidad" hidden="false" collective="false" import="true" type="upgrade">
@@ -4691,10 +4680,14 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e03b-cd86-ed70-b059" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="fb64-6066-daba-27b8" name="Veneno secreto de disformidad" hidden="false" targetId="59d4-277f-c623-d30f" type="profile"/>
+                <infoLink id="fb64-6066-daba-27b8" name="Veneno secreto de disformidad" hidden="false" targetId="59d4-277f-c623-d30f" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="name" value="(Cuerpo a cuerpo)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0ea3-17f9-c1c9-73ae" name="Arma de cola" hidden="false" collective="false" import="true" type="upgrade">
@@ -4870,7 +4863,7 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
     <selectionEntry id="dfc9-85bc-f27c-6644" name="Señor de las Alimañas" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="6e93-e187-10a1-ef7b" name="Magia Señor de las Alimañas" hidden="false">
-          <description>El Señor de las Alimañas es un hechicero de nivel 2. Puede convertirse en hechicero de nivel 3 (+50 puntos) o de nivel 4 (+105 puntos, obtiene la regla especial Leyenda). Puede elegir sus hechizos de entre los saberes de Ruina y Sigilo de los Skaven. Su hechizo identificativo es Salto Fugaz o La Maldición de la Rata Cornuda (elige uno). Si tiene una habilidad de Señor del conocimiento, esto sustituirá sus hechizos habituales. Si tiene ambas, tendrá también la Maldición de la Rata Cornuda.</description>
+          <description>El Señor de las Alimañas es un hechicero de nivel 2. Puede convertirse en hechicero de nivel 3 (+50 puntos) o de nivel 4 (+105 puntos, obtiene la regla especial Leyenda). Puede elegir sus hechizos del Saber del Sigilo. Su hechizo identificativo es las Estrellas de disformidad o el Torbellino negro (elige uno). Si tiene una habilidad de Señor del conocimiento, esto sustituirá sus hechizos habituales. Si tiene ambas, tendrá también la Maldición de la Rata Cornuda.</description>
         </rule>
         <rule id="05a3-de52-ebc3-dc97" name="Avatar de la gran cornuda" hidden="false">
           <description>Todas las unidades Skaven amigas a 12” o menos de un Señor de las alimañas podrán utilizar el atributo de Liderazgo de éste para realizar sus chequeos (aunque no sea el General del ejército).</description>
@@ -5140,6 +5133,24 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
                 <cost name="pts" typeId="points" value="35.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="b23b-7d19-4a53-0297" name="Pozoñoso" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a22-d312-40dc-6d77" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d76c-433a-2a57-bbdc" name="Pozoñoso" hidden="false" typeId="3b66-fff1-df64-acc2" typeName="Recompensas del caos">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="226d-3795-51b3-1785">Obtiene la regla especial Ataques envenenados, la cual sobrepasa la Inmunidad a veneno que otorgan las reglas especiales Demonio y No muerto. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="705c-de17-23f1-2889" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="b772-11a1-dc6d-8124" name="Nivel de magia" hidden="false" collective="false" import="true" defaultSelectionEntryId="063b-b5ab-41e1-b7e1">
@@ -5152,6 +5163,9 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="add7-b29f-4385-b4b9" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="566d-0040-442c-a844" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -5160,6 +5174,9 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4daa-8d90-45fd-b2ae" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ff8b-6f5f-55c4-e77f" name="Nivel 2" hidden="false" collective="true" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5746,6 +5763,9 @@ alcance 18”, Fuerza usuario, Disparo rápido, Arrojadiza, Disparos múltiples 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9df3-061b-2084-7041" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="f790-6031-8107-88fa" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -5754,6 +5774,9 @@ alcance 18”, Fuerza usuario, Disparo rápido, Arrojadiza, Disparos múltiples 
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb31-4de9-95e6-5750" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="4762-83c4-b3f6-4b24" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6023,10 +6046,14 @@ alcance 18”, Fuerza usuario, Disparo rápido, Arrojadiza, Disparos múltiples 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f10-8b25-dee2-1762" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="b513-4bfd-dba4-8235" name="Bomba cegadora" hidden="false" targetId="65ca-ba13-8c3c-5576" type="profile"/>
+                <infoLink id="b513-4bfd-dba4-8235" name="Bomba cegadora" hidden="false" targetId="65ca-ba13-8c3c-5576" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="name" value="(Cuerpo a cuerpo)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3c14-6972-870d-80c7" name="Veneno secreto de disformidad" hidden="false" collective="false" import="true" type="upgrade">
@@ -6034,10 +6061,14 @@ alcance 18”, Fuerza usuario, Disparo rápido, Arrojadiza, Disparos múltiples 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3bb-7eff-ba61-03a7" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="ad96-3985-d984-e7fb" name="Veneno secreto de disformidad" hidden="false" targetId="59d4-277f-c623-d30f" type="profile"/>
+                <infoLink id="ad96-3985-d984-e7fb" name="Veneno secreto de disformidad" hidden="false" targetId="59d4-277f-c623-d30f" type="profile">
+                  <modifiers>
+                    <modifier type="append" field="name" value="(Cuerpo a cuerpo)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0e25-01c7-8c9e-9b82" name="Arma de cola" hidden="false" collective="false" import="true" type="upgrade">
@@ -6840,6 +6871,7 @@ una Armadura pesada) y una tirada de salvación especial de 5+. Además, otorga 
                     <modifier type="append" field="name" value="(Ataques de Darkh&apos;Dwel)"/>
                   </modifiers>
                 </infoLink>
+                <infoLink id="7312-d87f-b1f7-0078" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -8772,13 +8804,6 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2b90-d32f-8760-09e1" name="Emboscada" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="1.0">
-                      <repeats>
-                        <repeat field="selections" scope="8a0c-6a4d-5314-cdeb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="671c-6c20-5c82-8116" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e6bd-d83b-6297-194e" type="max"/>
                   </constraints>
@@ -9361,7 +9386,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
   <sharedSelectionEntries>
     <selectionEntry id="5464-5fa8-75f8-876d" name="Rata Ogro Sombría" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="adea-b21f-4e95-50fe" name="Rata ogro quebrantahuesos" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+        <profile id="adea-b21f-4e95-50fe" name="Rata Ogro Sombría" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
           <characteristics>
             <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
             <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
@@ -9369,8 +9394,8 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
             <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
             <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
             <characteristic name="H" typeId="5723232344415441232323">4</characteristic>
-            <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
-            <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
             <characteristic name="L" typeId="4c4423232344415441232323">5</characteristic>
             <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
@@ -9387,6 +9412,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
         <infoLink id="3154-a3f0-ed5d-5225" name="Bestia monstruosa" hidden="false" targetId="2e1e-da3a-8081-991c" type="rule"/>
         <infoLink id="d4a1-c974-5738-e5fa" name="Caballería monstruosa" hidden="false" targetId="a7be-2cd9-f3c6-b091" type="rule"/>
         <infoLink id="d72c-50f1-cbf9-b50c" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
+        <infoLink id="6f4b-17ab-80cf-6987" name="Esquivar (6+)" hidden="false" targetId="c905-72a4-c706-6a16" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -9735,7 +9761,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8234-b140-a8d1-930a" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="296e-d70a-d2c9-5cfb" name="El arte del envenenamiento" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="296e-d70a-d2c9-5cfb" name="Mentalidad calculadora" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="8da5-316d-ec0f-0180" value="2.0">
               <conditions>
@@ -9753,14 +9779,14 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8da5-316d-ec0f-0180" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b8b5-12f2-2d95-7fdc" name="El arte del envenenamiento" hidden="false" typeId="85cb-6f3c-0c94-e40f" typeName="Senda">
+            <profile id="b8b5-12f2-2d95-7fdc" name="Mentalidad calculadora" hidden="false" typeId="85cb-6f3c-0c94-e40f" typeName="Senda">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0c16-3a24-16d1-9543">Los Ataques envenenados del personaje tendrán éxito con resultados de 4+; este efecto no puede mejorarse por el efecto del hechizo Ponzoña letal del Saber del Sigilo.</characteristic>
+                <characteristic name="Reglas especiales" typeId="0c16-3a24-16d1-9543">El personaje obtiene las reglas especiales Inmune a Miedo e Inmune a Pánico.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ab7b-532b-bfed-e175" name="Ju-ratsu" hidden="false" collective="false" import="true" type="upgrade">
@@ -9783,7 +9809,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
           <profiles>
             <profile id="7cb0-be4c-d941-41ec" name="Ju-ratsu" hidden="false" typeId="85cb-6f3c-0c94-e40f" typeName="Senda">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0c16-3a24-16d1-9543">Las miniaturas que dirijan uno o más Ataques contra el personaje verán reducido en 1 su atributo de Ataques (hasta un mínimo de 1). En combate cuerpo a cuerpo, cualquier miniatura enemiga que obtenga un resultado natural de 1 para impactar recibirá un impacto automático con la fuerza con la que hizo el ataque y sus reglas especiales si las tuviese. </characteristic>
+                <characteristic name="Reglas especiales" typeId="0c16-3a24-16d1-9543">Por cada herida que el personaje logre cancelar por la regla especial Esquivar, la miniatura que causó la herida recibirá un impacto automático con la fuerza con la que hizo el ataque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9845,6 +9871,9 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
           <infoLinks>
             <infoLink id="7906-2b5b-9ed3-bced" name="Garras de rata" hidden="false" targetId="b497-8f86-2dee-0800" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="fe77-761a-ec22-5a6a" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -9873,6 +9902,9 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
             <infoLink id="9e44-6843-2aea-0033" name="Katana (a dos manos)" hidden="false" targetId="79f9-fdf7-234b-f7c0" type="profile"/>
             <infoLink id="6243-0070-b5ac-75de" name="Katana (con Wakizashi)" hidden="false" targetId="f74d-b4c1-477d-7338" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="a6b6-175a-c775-d3b3" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -10238,6 +10270,9 @@ considera esta extremidad equipada con un tercer Colmillo de rata.</characterist
           <infoLinks>
             <infoLink id="9499-6e12-bd2e-5c4a" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="59d0-6636-1305-f366" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -10301,55 +10336,42 @@ considera esta extremidad equipada con un tercer Colmillo de rata.</characterist
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="daee-dbe3-5713-95f0" name="Talismán de disformidad" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a41-42d4-38d1-a71a" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="708d-d192-71f2-fee8" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="81b2-c228-4670-6fbd" name="Talismán de disformidad" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Cualquier miniatura que dirija uno o más de sus ataques en cuerpo a cuerpo sobre el portador deberá superar un chequeo de Liderazgo con su atributo básico. Si falla el chequeo, efectuará sus ataques con un penalizador de -2 a su atributo de Fuerza y a sus tiradas para impactar hasta el final de la fase.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3c61-af9f-1b45-c469" name="Capa tenebrosa" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7a2f-f83c-b9ee-ad3f" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="510f-602e-fb7b-488d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0d15-884f-df16-4292" name="Capa tenebrosa" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Su portador obtiene una tirada de salvación especial de 3+ contra proyectiles y proyectiles mágicos.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1718-2532-6c4c-2625" name="El tercer ojo" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1718-2532-6c4c-2625" name="Mortaja del acecho" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87cf-fa39-2e00-c675" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fc2-1f42-2372-8031" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d1dc-2a7c-90bd-9fa2" name="El tercer ojo" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
+            <profile id="d1dc-2a7c-90bd-9fa2" name="Mortaja del acecho" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Otorga a su portador la regla especial Esquivar (5+), o aumentará en un punto si ya la tenía (hasta un máximo de 3+).</characteristic>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">El personaje causa Miedo. Además, cualquier arma de proyectiles o hechizo que tome como objetivo al portador verá su alcance reducido a 12”. Todos los impactos con plantilla sobre el portador se consideran impactos parciales. Sin embargo, el personaje no podrá unirse a unidades. </characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="21fd-6db4-61a9-c2a7" name="Esquivar (5+)" hidden="false" targetId="053b-3b96-b53b-6944" type="rule"/>
+            <infoLink id="21fd-6db4-61a9-c2a7" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="22c9-ac11-acbd-d1d3" name="El tercer ojo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b4e-7c25-1ea0-fa49" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6600-e4b9-7620-47fa" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2098-6e2f-b50d-657f" name="El tercer ojo" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">El portador podrá repetir los resultados de 1 en sus tiradas para Esquivar en combate cuerpo a cuerpo.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="506b-675b-7d09-e2d7" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10376,31 +10398,31 @@ considera esta extremidad equipada con un tercer Colmillo de rata.</characterist
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1857-e4a3-22bc-add1" name="El Ojo de la Gran Cornuda" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1857-e4a3-22bc-add1" name="Libro de Ulgu" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e34a-8f19-45fb-9bc0" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4dc2-7d68-9762-3fea" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0c83-b077-fbde-75e2" name="El Ojo de la Gran Cornuda" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
+            <profile id="0c83-b077-fbde-75e2" name="Libro de Ulgu" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Al inicio de cada fase de magia propia, tira 1D6: si obtienes un resultado de 2+, generas un dado adicional de energía esa fase; sin embargo, si obtienes un resultado de 1, perderás uno de los dados que te hayan concedido los vientos de la magia.</characteristic>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">El portador podrá tomar sus hechizos del Saber de las Sombras, aparte del saber que conozca. Además, el portador conoce un hechizo adicional.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0ee6-1274-cb2e-a89e" name="Familiar rátido" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0ee6-1274-cb2e-a89e" name="Abazón de Aethyr" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="135e-3bf3-a79b-c0d4" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cde6-c797-4d55-807f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="d696-193b-bc34-e757" name="Familiar rátido" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
+            <profile id="d696-193b-bc34-e757" name="Abazón de Aethyr" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un solo uso. El hechicero podrá aumentar en 1D3 la tirada de lanzamiento de uno de sus hechizos.</characteristic>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">El portador puede guardar un dado de magia. Además, mientras tenga un dado guardado, obtiene un bonificador de +1 a su Fuerza.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10408,20 +10430,20 @@ considera esta extremidad equipada con un tercer Colmillo de rata.</characterist
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f4b2-6d8e-01fe-35d8" name="Pergamino de tormenta de disformidad" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f4b2-6d8e-01fe-35d8" name="Pergamino de desvinculacion mágica" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e961-6c46-769e-e5f5" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="64e1-3c91-febe-ba0e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="56a8-b266-4775-10cd" name="Pergamino de tormenta de disformidad" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
+            <profile id="56a8-b266-4775-10cd" name="Pergamino de desvinculacion mágica" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un solo uso. Objeto portahechizos de nivel de energía 5. Todas las unidades con la regla especial Volar o Flotar que estén haciendo uso de dichas reglas sufrirán 1D6 impactos automáticos de Fuerza 5 distribuidos como disparos con la regla especial Ataque de rayos.</characteristic>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Un sólo uso. Puedes utilizar el pergamino en lugar de realizar un intento de dispersión de hechizo con el portador. Dispersa automáticamente el hechizo. Tras esto, tira 1D6: Si obtienes un resultado de 6, el hechicero que lanzó el hechizo sufrirá una herida sin salvación por armadura. Sin embargo, si obtienes un resultado de 1, el portador sufrirá una herida sin tirada de salvación por armadura. Ten en cuenta que no puede utilizarse contra un hechizo lanzado con Fuerza irresistible ni contra un hechizo que Permanece en efecto y no fue lanzado ese turno.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10444,6 +10466,9 @@ considera esta extremidad equipada con un tercer Colmillo de rata.</characterist
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="d1f2-eaba-f2dc-4762" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="90.0"/>
           </costs>
@@ -10504,22 +10529,6 @@ considera esta extremidad equipada con un tercer Colmillo de rata.</characterist
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="330d-3acb-4e55-10ec" name="Portentos del destino funesto" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f9eb-e6e0-ff15-1c32" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1300-cdb8-1e5c-f323" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ba12-fad9-15e9-74b6" name="Portentos del destino funesto" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Cualquier unidad enemiga en contacto peana con peana con el portador obtendrá un penalizador de -1 a su Liderazgo. </characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="9e17-e63e-3702-a4ee" name="Capucha de sombras" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9900-fc0a-5f98-be4b" type="max"/>
@@ -10536,7 +10545,7 @@ considera esta extremidad equipada con un tercer Colmillo de rata.</characterist
             <infoLink id="582d-d402-95ad-820d" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="45.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6246-ac60-54b9-b30f" name="Lengua de dragón" hidden="false" collective="false" import="true" type="upgrade">
@@ -10559,7 +10568,7 @@ D6 Tabla de problemas de la Lengua de Dragón
             <infoLink id="9e1a-7eef-7456-6eb5" name="Ataques solo flamígeros" hidden="false" targetId="5587-433b-16c0-79d1" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7092-0f92-1cec-908b" name="Potaje skaven" hidden="false" collective="false" import="true" type="upgrade">
@@ -10575,7 +10584,7 @@ D6 Potaje skaven
 1 Indigestión: La unidad sufre 1D6 impactos de Fuerza 3 sin posibilidad de salvación por armadura.
 2-3 Inspirar Odio: La unidad obtiene la regla especial Odio (¡todos los enemigos!). 
 4-5 Furia Asesina: La unidad obtiene la regla especial Furia asesina.
-6 Locura Asesina: La unidad se considera durante toda la batalla bajo los efectos del hechizo Locura asesina. Ten en cuenta que no es un hechizo y por tanto no puede dispersarse.</characteristic>
+6 Locura Asesina: La unidad la unidad obtendrá la regla especial Furia Asesina, pero obtendrán +2 ataques en lugar del +1 habitual (si la unidad ya tenía Furia asesina, obtendrá un ataque adicional); al final de cada turno Skaven, la unidad sufrirá 1D6 heridas automáticas (distribuidas como si fueran impactos de proyectiles) si conservan su Furia Asesina. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10623,7 +10632,7 @@ D6 Potaje skaven
           <profiles>
             <profile id="5d17-81be-456b-1ee8" name="Pergamino de la multiplicación de cuerpos" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Se trata de un Objeto portahechizos de nivel de energía 5. Contiene un hechizo de potenciación que puede lanzarse sobre una unidad amiga a 12” del portador y permanece un turno. Por la duración del hechizo, las bajas que sufra la unidad no contarán para la resolución de los combates en los que participen. Además, cuando este hechizo se resuelve con éxito, restaura 1D3 heridas que la unidad hubiera sufrido previamente durante la batalla (ten en cuenta que este hechizo no restaura a los Oficiales de las unidades). </characteristic>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Se trata de un Objeto portahechizos de nivel de energía 5. Contiene un hechizo de potenciación que puede lanzarse sobre una unidad amiga a 12” o menos del portador y permanece un turno. Por la duración del hechizo, las heridas que sufra la unidad no contarán para la resolución de los combates en los que participen. Además, cuando este hechizo se resuelve con éxito, restaura 1D3 heridas que la unidad hubiera sufrido previamente durante la batalla (ten en cuenta que este hechizo no restaura a los Oficiales de las unidades). </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10647,8 +10656,7 @@ D6 Potaje skaven
           <profiles>
             <profile id="8232-9649-aa38-f145" name="Bomba infernal" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Solo Asesinos del Clan Eshin. Un solo uso. A excepción de los turnos en los que realice una carga, un Asesino podrá colocar la Bomba Infernal en cualquier punto del recorrido que haga durante su fase de movimiento o, si está incluido en una unidad, en cualquier punto del recorrido hecho por la unidad. El asesino puede soltar la Bomba Infernal durante un movimiento de marcha. Anuncia tu intención de soltar la Bomba Infernal e indica el 
-lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el asesino en cualquier momento del juego posterior (excepto en el turno en el que fue colocada). Para detonar la bomba tira 1D6; si obtienes un resultado de 1, ésta está defectuosa y no estalla. Con un resultado de 2-6, coloca la plantilla redonda grande centrada en el marcador. Cualquier miniatura bajo el centro de la plantilla sufrirá un impacto de F10 con la regla especial Heridas Múltiples (1D6). El resto de miniaturas bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de F3 con la regla especial Poder de Penetración.</characteristic>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Solo Líder asesino. Un solo uso. A excepción de los turnos en los que realice una carga, un Asesino podrá colocar la Bomba Infernal en cualquier punto del recorrido que haga durante su fase de movimiento o, si está incluido en una unidad, en cualquier punto del recorrido hecho por la unidad. El asesino puede soltar la Bomba Infernal durante un movimiento de marcha. Anuncia tu intención de soltar la Bomba Infernal e indica el lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el asesino en cualquier momento del juego posterior (excepto en el turno en el que fue colocada). Para detonar la bomba tira 1D6; si obtienes un resultado de 1, ésta está defectuosa y no estalla. Con un resultado de 2-6, coloca la plantilla redonda grande centrada en el marcador. Cualquier miniatura bajo el centro de la plantilla sufrirá un impacto de F10 con la regla especial Heridas múltiples (1D6). El resto de miniaturas bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de F4 con la regla especial Poder de Penetración.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10667,7 +10675,23 @@ lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el ases
           <profiles>
             <profile id="d8f8-4463-329e-c5f0" name="Capa de la noche" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Solo personajes Eshin. Aumenta en un la tirada de Esquiva del portador en un punto (hasta un máximo de 4+). </characteristic>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Aumenta en un la tirada de Esquiva del portador en un punto. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3d09-b092-9b3b-4ce3" name="Informe de asesino" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="937a-5aeb-9cee-47a2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="245f-2024-3ed5-38dc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7eb4-6d8c-5fc1-1433" name="Informe de asesino" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo Líder asesino. Al inicio de la batalla, tras el despliegue, selecciona un personaje enemigo y anota su nombre en la lista de ejército. El portador podrá repetir los resultados de 1 en sus tiradas para impactar y para herir contra el personaje. Adicionalmente, puedes obligar al personaje a repetir un ataque que haya impactado contra el portador en cada fase de combate cuerpo a cuerpo.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10695,6 +10719,9 @@ lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el ases
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="7b08-d3c8-ecfe-01a0" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -10707,22 +10734,6 @@ lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el ases
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="671e-db76-0057-58b9" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="3ff5-e8d5-060a-c53b" name="Estandarte de la Tempestad" page="0" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e73-af3b-8a75-b248" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0880-0a80-c81b-232e" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="cac2-1572-11f9-b7da" name="Estandarte de la Tempestad" page="0" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Un solo uso. Puedes activar el estandarte al comienzo del turno de cualquier jugador. Las miniaturas con la regla especial Volar o Flotar no podrán hacer uso de esa regla y se verán obligadas a utilizar su atributo de movimiento. Adicionalmente, todos los ataques de disparo tendrán un penalizador de -2 en sus tiradas para impactar. Todos los ataques de disparo que no utilicen la HP deberán sacar un resultado de 4+ en 1D6 para poder disparar. Al comienzo del turno del jugador propietario del estandarte (salvo el turno en que fue activado), tira 1D6; con un resultado de 4-6, el estandarte pierde su poder y deja de tener efecto.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="3e7b-60fc-19a8-b18b" name="Pendones de Tinieblas" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ccec-3000-a22e-1a4e" type="max"/>
@@ -10777,15 +10788,15 @@ lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el ases
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b287-0429-fed6-ba42" name="Estandarte del Imperio Subterráneo" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b287-0429-fed6-ba42" name="Estandarte del Imperio Sombrío" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dbfd-a7c1-a3c3-8e34" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="33ed-b6b6-37e5-67a1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dd15-cae8-d650-e894" name="Estandarte del Imperio Subterráneo" page="0" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
+            <profile id="dd15-cae8-d650-e894" name="Estandarte del Imperio Sombrío" page="0" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Todas las unidades en contacto peana con peana con el portador del estandarte o la unidad que lo acompañe sufrirán 2D6 impactos automáticos de F2 al principio de todas las rondas de combate, distribuidos como si fueran disparos.</characteristic>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Las unidades amigas con la regla especial Hostigadores podrán utilizar el bonificador por filas de la unidad portadora de este estandarte a 18” para realizar sus chequeos de desmoralización, efectos psicológicos (Miedo, Terror y Pánico) y de reagrupamiento.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10793,20 +10804,36 @@ lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el ases
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="009e-0cde-f990-a7d7" name="Estandarte de la Huida de Rata" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="009e-0cde-f990-a7d7" name="Estandarte de la unidad de clan" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ed52-8a6b-9112-c8bc" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2863-d0ce-1738-9ed1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="452d-1c29-fc1e-76a4" name="Estandarte de la Huida de Rata" page="0" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
+            <profile id="452d-1c29-fc1e-76a4" name="Estandarte de la unidad de clan" page="0" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Un solo uso. Al inicio de cualquier turno aliado a excepción del primero puedes activar el estandarte. Si la unidad portadora puede realizar un movimiento de marcha, podrá realizarlo al triple de su velocidad. Sin embargo, después de realizar el movimiento, la unidad portadora sufrirá 2D6 impactos de F3 (sin posibilidad de salvación por armadura) distribuidos como proyectiles.</characteristic>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Siempre que la unidad portadora de este estandarte sea declarada como objetivo de una carga, puedes seleccionar una unidad amiga a 6” o menos de la unidad portadora que no sea declarada como objetivo de una carga. Esa unidad podrá Aguantar y disparar sobre el enemigo que declaró la carga (siempre y cuando tenga línea de visión); en este caso caso no se tiene en cuenta la distancia a la que el enemigo inicia la carga.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d0b9-7abc-076b-6e37" name="Estandarte de la ráfaga disforme" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c17e-4e08-2347-abae" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9668-8c4b-9255-db2c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="34e1-69d8-ecb6-5bc7" name="Estandarte de la ráfaga disforme" page="0" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Se trata de un Objeto portahechizos de nivel de energía 3. Contiene un hechizo de Potenciación que afecta a todas las unidades amigas a 12” o menos del portador del estandarte y Permanece un turno. Por la duración del hechizo, todos los disparos realizados por las unidades afectadas no aplicarán el penalizador por larga distancia y obtienen la regla especial Disparos múltiples (2), o aumentarán en 1 si ya disponían de Disparos múltiples.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10838,6 +10865,9 @@ lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el ases
             </infoLink>
             <infoLink id="e960-06d3-6fd2-a107" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="5a2c-1626-ecc0-ae09" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -10922,6 +10952,9 @@ lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el ases
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="eda4-3e3a-b3da-01ac" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
@@ -11157,7 +11190,7 @@ lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el ases
             <infoLink id="3e1c-7d09-e30e-21b1" name="Ataques solo flamígeros" hidden="false" targetId="5587-433b-16c0-79d1" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dea0-ff09-8efd-9aa4" name="Instinto animal" hidden="false" collective="false" import="true" type="upgrade">
@@ -11411,7 +11444,7 @@ lugar con un marcador. La Bomba Infernal puede detonarse remotamente por el ases
   <sharedProfiles>
     <profile id="9a77-c4a4-9814-a2ce" name="Abrojos" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
       <characteristics>
-        <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Puedes utilizar los abrojos tras fallar un chequeo de Desmoralización. Causan 1D6 impactos de F1, más 1D3 impactos adicionales por cada cinco puntos de Potencia de unidad o fracción de las unidades que la persigan. Las heridas causadas por los abrojos niegan la tirada de salvación por armadura. Además, los enemigos no podrán hacer uso de la regla especial Veloz (en caso de tenerla) durante dicha persecución. Sin embargo, no tendrán ningún efecto contra miniaturas con las reglas especiales Volar, Flotar y/o Etéreo.</characteristic>
+        <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Puedes utilizar los abrojos tras fallar un chequeo de Desmoralización, al Huir o Disparar y huir. Causan 1D6 impactos de F1, más 1D3 impactos adicionales por cada cinco puntos de Potencia de unidad o fracción de las unidades que la persigan. Las heridas causadas por los abrojos niegan la tirada de salvación por armadura. Además, los enemigos no podrán hacer uso de la regla especial Veloz (en caso de tenerla) durante dicha persecución. Sin embargo, no tendrán ningún efecto contra miniaturas con las reglas especiales Volar, Flotar y/o Etéreo.</characteristic>
       </characteristics>
     </profile>
     <profile id="c284-d2c3-061b-9a23" name="Arma de cola" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">

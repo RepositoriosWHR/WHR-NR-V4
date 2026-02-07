@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0a0-99d0-d4e2-c1f3" name="Nehekhara" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0a0-99d0-d4e2-c1f3" name="Nehekhara" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6649-0126-38ec-4e3b" name="Gran papiro">
       <characteristicTypes>
@@ -437,6 +437,19 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77b6-80fd-9c16-f3e8" type="max"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="52dc-6e3f-d338-a7b6" name="Estandarte mágico" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa97-5e5f-00d7-9195" type="max"/>
+                    <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69a9-df03-15ef-b71b" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="1b15-b6ab-9146-2eaf" name="Estandartes mágicos. Nehekhara" hidden="false" collective="false" import="true" targetId="7013-f91e-5600-9a59" type="selectionEntryGroup"/>
+                    <entryLink id="01d5-e977-8c79-8c27" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
+                    <entryLink id="cfa9-4e6b-8200-54eb" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
               </costs>
@@ -2896,7 +2909,7 @@
                 <infoLink id="9b19-0fbb-c76a-d2cd" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6771-d961-de5c-463e" name="Exhalación sortílega" hidden="false" collective="false" import="true" type="upgrade">
@@ -3937,6 +3950,9 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af9f-3d59-f3e2-376f" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="402a-50da-36ac-e2f4" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -5054,6 +5070,9 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="614a-bea4-a8e1-40a7" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="e3f9-4114-5973-e658" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -5062,6 +5081,9 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90e8-8180-d0db-3587" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="119c-08df-0db4-2895" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -9687,7 +9709,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
                 <infoLink id="fda8-620e-7a59-647d" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10208,6 +10230,9 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
             <infoLink id="2967-cd4b-47a2-9c44" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
             <infoLink id="5343-689f-56c5-5b97" name="Golpe letal heróico" hidden="false" targetId="95ce-f21a-29e1-42a2" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2ff9-29de-34cc-36e9" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -10235,6 +10260,9 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           <infoLinks>
             <infoLink id="3e1a-f02d-1853-4c7c" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="dc55-f752-9cc5-b935" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -10263,6 +10291,9 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
             <infoLink id="11fe-7120-ce9e-9fba" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
             <infoLink id="f42a-a9f4-bc57-f98f" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="4177-b294-9ba9-48cb" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -10365,6 +10396,9 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           <infoLinks>
             <infoLink id="880f-fc55-c1b0-237f" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9f6b-ebf0-726e-d717" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -10429,6 +10463,9 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="e013-b35b-3d57-ef3b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -10446,6 +10483,9 @@ Energía o Dispersión.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="4c16-d250-5648-4458" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -10543,6 +10583,9 @@ chequeo de Pánico.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="6f09-160d-66af-f984" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -10559,6 +10602,9 @@ chequeo de Pánico.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="8543-8757-1416-c91f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -11075,6 +11121,9 @@ en +1.</characteristic>
           <infoLinks>
             <infoLink id="71f6-d8ff-bccb-db78" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="da1c-63ba-5e45-d9f7" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -11254,6 +11303,9 @@ en +1.</characteristic>
             <infoLink id="de0a-f434-c1d2-a1cc" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
             <infoLink id="826b-7247-625b-7205" name="Yelmo" hidden="false" targetId="9607-7f57-879f-5c42" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2266-ced6-b19b-9896" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -11628,6 +11680,9 @@ en +1.</characteristic>
             <infoLink id="598f-f94c-42a6-a227" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="e246-a3b0-e202-4b80" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2dc4-c466-5018-11f0" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>

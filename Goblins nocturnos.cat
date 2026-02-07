@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f553-cb9b-b37d-4333" name="Goblins nocturnos" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3380,6 +3380,9 @@ sufrirán un impacto de Fuerza 7 con la regla especial Heridas múltiples (1D3).
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17a7-b978-0955-cd05" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="420c-ac5b-f661-ec2d" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4096,6 +4099,9 @@ sufrirán un impacto de Fuerza 7 con la regla especial Heridas múltiples (1D3).
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e2-f171-557b-a9bf" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="9a2d-53ec-1bc4-f31c" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4104,6 +4110,9 @@ sufrirán un impacto de Fuerza 7 con la regla especial Heridas múltiples (1D3).
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b170-327e-ab92-4262" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="af9f-fef9-7a93-0c6d" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -5809,7 +5818,7 @@ Cebo Efecto
           <description>Oddgit tiene la regla especial Inmune a psicología y cualquier unidad de goblins nocturnos a la que se una no tendrá que chequear Animosidad. Sin embargo, Oddgit está sujeto a la regla especial Estupidez.</description>
         </rule>
         <rule id="7941-0416-3f72-3f71" name="Habituado al Waaagh" hidden="false">
-          <description>Oddgit puede repetir los resultados de 1 que obtenga en sus dados de Zetaz mágikaz pero, si repite, cada dado de Zeta mágika tendrá problemas con un resultado de 1-2, en lugar del habitual 1.</description>
+          <description>Oddgit puede repetir los resultados de 1 que obtenga en sus dados de Zetaz mágikaz pero, si repite, cada dado de Zeta mágika tendrá problemas con un resultado de 1-2, en lugar del habitual 1. Oddgit puede consumir un máximo de seis Zetas mágikaz cada vez que lance un hechizo.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -8506,6 +8515,9 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
             <infoLink id="fe44-dc42-ca79-e9ac" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="760c-69f3-4c0b-6066" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9dc6-bbb5-8089-c45b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -8971,6 +8983,9 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="b97b-622c-e769-70b2" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -9061,6 +9076,9 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
               </modifiers>
             </infoLink>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="d7a4-e8a2-c756-c4c5" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -9077,6 +9095,9 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="e6a8-3f41-dd1e-dd9b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
@@ -9328,7 +9349,7 @@ D6 Pózima de Hongoz
             <infoLink id="d528-8076-71d8-5bf1" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0b71-522e-c027-ddcb" name="Kachivache Trukulento" hidden="false" collective="false" import="true" type="upgrade">
@@ -9472,6 +9493,9 @@ D6 Pózima de Hongoz
               </modifiers>
             </infoLink>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="413d-0a8f-21f9-44d6" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0e00-0d9a-c79e-fcfa" name="Nippón" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0e00-0d9a-c79e-fcfa" name="Nippón" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9d65-8d22-8710-8cea" name="Trasfondo ronin">
       <characteristicTypes>
@@ -3459,6 +3459,7 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
               </rules>
               <entryLinks>
                 <entryLink id="59c6-6603-9c0f-05c6" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+                <entryLink id="2e3c-c080-0c69-7e5f" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40.0"/>
@@ -4036,7 +4037,7 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="100.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5943,6 +5944,9 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ec-0437-c7d4-e98d" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="5897-22ed-44df-d86c" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="55.0"/>
               </costs>
@@ -5951,6 +5955,9 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3508-db27-204e-4477" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="b44b-17dc-6d2b-d905" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6612,6 +6619,9 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6b5-0edf-e552-3037" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="a919-815b-2b61-9d47" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -6620,6 +6630,9 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="772b-3a02-4d24-89f6" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="2718-a780-2b42-7dd0" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -9409,6 +9422,9 @@ El faisán: No se pueden desplegar Exploradores ni podrán hacerse emboscadas a 
             <infoLink id="b1ed-05f6-60c9-7782" name="Katana (dos armas)" hidden="false" targetId="e51d-9030-4276-2ebc" type="profile"/>
             <infoLink id="34b8-2211-be20-26ab" name="Katana (dos manos)" hidden="false" targetId="9390-af2d-4208-9d2a" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="8266-7a6a-43f5-eb44" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -9430,6 +9446,9 @@ El faisán: No se pueden desplegar Exploradores ni podrán hacerse emboscadas a 
             <infoLink id="0575-ba6a-0d11-0778" name="Katana (dos manos)" hidden="false" targetId="9390-af2d-4208-9d2a" type="profile"/>
             <infoLink id="23c9-d9f3-8266-cafb" name="Esquivar (4+)" hidden="false" targetId="89b2-357c-6f88-920c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="5493-58cd-fc1d-01e1" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -9623,6 +9642,9 @@ El faisán: No se pueden desplegar Exploradores ni podrán hacerse emboscadas a 
           <infoLinks>
             <infoLink id="075c-21c8-8979-2603" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="c1be-2c04-7a5d-9de8" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -9741,6 +9763,9 @@ a su portador una tirada de salvación especial de 5+. </characteristic>
           <infoLinks>
             <infoLink id="d288-b24b-1f46-c141" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="0eb2-68da-5de2-8c01" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -9831,6 +9856,9 @@ permanece oculto. </characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="1885-2544-eacf-16e8" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
@@ -9854,6 +9882,9 @@ permanece oculto. </characteristic>
               </modifiers>
             </infoLink>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="c734-84c6-b454-414d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -9937,6 +9968,9 @@ permanece oculto. </characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="109d-7c58-d50b-2a6f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -10008,6 +10042,9 @@ a la magia (1). </characteristic>
           <infoLinks>
             <infoLink id="becc-00a2-f287-f12e" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="2d96-b43a-2f30-b68c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -10028,6 +10065,9 @@ a la magia (1). </characteristic>
             <infoLink id="f484-3dd6-d16f-7f43" name="Katana (a dos manos)" hidden="false" targetId="e51d-9030-4276-2ebc" type="profile"/>
             <infoLink id="15ee-a5ec-7de8-398f" name="Katana (con Wakizashi)" hidden="false" targetId="9390-af2d-4208-9d2a" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="bc48-39cf-7a0e-8c55" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>

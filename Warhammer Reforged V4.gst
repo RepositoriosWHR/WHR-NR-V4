@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="18" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="25" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -104,7 +104,7 @@
       <categoryLinks>
         <categoryLink id="5374616e6461726423232344415441232323-4c6f72647323232344415441232323" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
           <modifiers>
-            <modifier type="set" field="maxPercentage" value="60.0">
+            <modifier type="set" field="maxPercentage" value="30.0">
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
               </conditions>
@@ -121,7 +121,7 @@
         </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-4865726f657323232344415441232323" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
           <modifiers>
-            <modifier type="set" field="maxPercentage" value="60.0">
+            <modifier type="set" field="maxPercentage" value="50.0">
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
               </conditions>
@@ -255,7 +255,7 @@
           <modifiers>
             <modifier type="increment" field="2d42-e5a3-1e23-c355" value="1.0">
               <repeats>
-                <repeat field="limit::points" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
@@ -447,6 +447,155 @@
             <selectionEntry id="89ae-f60b-80b0-8549" name="No" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b1-1d03-79b5-f494" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efc1-1681-dc35-eaaa" name="Niveles de restricción" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f29b-9558-9af0-8e29" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="78be-bbdc-f1e7-6ad9" name="Niveles de restricción" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b07-f56e-8785-856b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="eaa6-4dce-1547-d75c" name="Nivel 1 (Warhammer Recorted) (En proceso)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dca-8504-c1c4-ba51" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fbb7-2fef-7e85-a6df" name="Nivel 3 (FullHammer)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec00-cf8d-fe5a-d841" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="21ef-2b07-168a-7af0" name="Nivel 2 (Restricciones de torneo)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05d3-9eda-3478-d3b5" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="5dae-a9a6-6278-eebf" name="Reliquias" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="c348-4750-d073-bad7" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a485-24d0-42b1-23c7" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6ddb-7cb1-27df-6e47" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c348-4750-d073-bad7" type="min"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="a269-a040-3caf-d9bc" name="Niveles de magia" hidden="false" collective="false" import="true" targetId="3366-d461-9db9-35c3" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6930-ec9b-4df6-24c5" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="4.0">
+                      <repeats>
+                        <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0f9b-ac0b-5037-59a0" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="3.0">
+                      <repeats>
+                        <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="931c-74bb-cd5a-f6ab" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="2.0">
+                      <repeats>
+                        <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9097-e430-ddd7-df03" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
+                      <conditions>
+                        <condition field="limit::points" scope="roster" value="1499.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
+                      <conditions>
+                        <condition field="limit::points" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
+                      <conditions>
+                        <condition field="limit::points" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
+                      <conditions>
+                        <condition field="limit::points" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
+                      <conditions>
+                        <condition field="limit::points" scope="roster" value="2499.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
+                      <conditions>
+                        <condition field="limit::points" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d762-51c2-aec9-f692" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3ec2-665d-ef0c-0c5a" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b499-44cf-3109-82c4" name="Contador de Reliquias" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9084-27a8-08ec-b337" name="Reliquias" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="df14-90ee-7c1a-55ea" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a485-24d0-42b1-23c7" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="8e1e-fb43-d066-20bf" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a485-24d0-42b1-23c7" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="78be-bbdc-f1e7-6ad9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df14-90ee-7c1a-55ea" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e1e-fb43-d066-20bf" type="min"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -2412,6 +2561,74 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7220-7025-a932-01e6" name="Clave: Caledor" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5004-3c3e-6a84-a359" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ab-1145-9a6f-e8fc" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="160f-6c52-78e6-7db8" name="Clave: Von Carstein" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6560-09dc-ef24-7f4e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27fb-3832-d269-8029" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f57c-d838-f019-f567" name="Clave: Elementales" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9304-fb8a-96c3-a323" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa16-8244-6764-29e4" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a485-24d0-42b1-23c7" name="Reliquia" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="842b-c367-e69f-4bfd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25c9-48a7-4364-5f6e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="931c-74bb-cd5a-f6ab" name="Nivel 3" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99a4-3d06-1928-3879" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dda2-8603-9207-8d87" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9097-e430-ddd7-df03" name="Nivel 2" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b370-76a1-3cea-f82f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a8-f02f-1f62-b534" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6930-ec9b-4df6-24c5" name="Nivel 1" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c6-f81c-ba40-fd57" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c197-2802-2b47-56b7" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3366-d461-9db9-35c3" name="Niveles de magia" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ce18-5154-29c0-927b" name="Estandartes mágicos. Reliquias" hidden="false" collective="false" import="true">
@@ -2432,6 +2649,9 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="22e9-5e7b-ee8a-5162" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -2451,6 +2671,9 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           <infoLinks>
             <infoLink id="5ea0-6f6f-9e9f-ef29" name="Resistencia mágica (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="7478-d506-9e72-26cc" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -2467,6 +2690,9 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="d5e5-2708-8ea4-4169" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -3116,6 +3342,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <entryLinks>
             <entryLink id="b178-20f5-9ad4-0b2c" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+            <entryLink id="0cea-891b-786c-0406" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
@@ -3133,6 +3360,9 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="6436-0d63-6e81-c234" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
@@ -4081,6 +4311,9 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           <infoLinks>
             <infoLink id="3fc9-f003-759d-d4c1" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="07d5-8068-94bc-c7a4" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -4116,6 +4349,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
             <infoLink id="894e-d670-3577-ee51" name="Inmune al terror" hidden="false" targetId="10a9-ca49-bf8b-08ff" type="rule"/>
             <infoLink id="d634-aa79-bd48-fbad" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="d27c-fc32-6312-2153" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
           </costs>
@@ -4136,6 +4372,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
             <infoLink id="71a0-49f0-c328-9d14" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
             <infoLink id="0ede-6ce2-200c-e128" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="f57d-f533-df61-f6c9" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -4156,6 +4395,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
             <infoLink id="2b67-5bc7-8093-f9b7" name="Heridas múltiples (1D6)" hidden="false" targetId="e658-6033-5e1f-c1c4" type="rule"/>
             <infoLink id="0b21-6829-b3e4-c07d" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="b8f2-4ea6-6edf-4d54" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -4179,6 +4421,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
             <infoLink id="7a8e-4ca3-6eb8-0e39" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="8e95-3885-4fa1-6006" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="acd1-a75e-5275-db0b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -4199,6 +4444,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
             <infoLink id="825f-da6b-88d2-78bc" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="6b09-d3f1-7bac-9346" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="6ea1-cfe0-51b0-7bab" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="90.0"/>
           </costs>
@@ -4218,6 +4466,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           <infoLinks>
             <infoLink id="75fe-ab68-9b49-b74f" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="f8d8-f164-281c-d63b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -4237,6 +4488,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           <infoLinks>
             <infoLink id="0134-ea3b-11cf-308c" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="7360-71b4-fd04-b7e7" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -4257,6 +4511,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
             <infoLink id="169c-8d57-1dc7-9358" name="Heridas múltiples (1D6)" hidden="false" targetId="e658-6033-5e1f-c1c4" type="rule"/>
             <infoLink id="329d-221b-e2df-a86f" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="5977-0afe-da4b-f501" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -4276,6 +4533,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           <infoLinks>
             <infoLink id="559e-ae98-da9e-4d19" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="b1e2-af4f-297c-a12a" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -4295,6 +4555,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           <infoLinks>
             <infoLink id="eb3d-2934-2262-bd4e" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="28e5-593f-7a2a-5f6d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -4651,6 +4914,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           <infoLinks>
             <infoLink id="d4e7-21e6-846f-7cfd" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="832c-1940-ed7d-d873" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -4670,6 +4936,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           <infoLinks>
             <infoLink id="0b22-36a8-2256-ce46" name="Señor del Conocimiento" hidden="false" targetId="38ca-408d-dbc3-4847" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="fff6-087b-1f00-a718" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
@@ -4697,6 +4966,9 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           <infoLinks>
             <infoLink id="4270-7717-0bb3-7066" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="70ca-9af9-9997-2a9f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="125.0"/>
           </costs>
@@ -5151,6 +5423,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="2bde-d4b5-e361-324d" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -5167,6 +5442,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="3b67-f823-15b7-7e77" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -5183,6 +5461,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="3c68-a40f-3e00-e834" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -5207,6 +5488,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="1fbe-ed3d-ccf4-023f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -5388,6 +5672,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
             <infoLink id="e0be-a152-cf7e-3c8a" name="Flotar (8)" hidden="false" targetId="7465-4e8e-6ec8-2a0f" type="rule"/>
             <infoLink id="f64d-8375-ca09-49bb" name="Etéreo" hidden="false" targetId="34c4-9e60-1a62-eda5" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="5254-6d24-103c-f6d0" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -5774,6 +6061,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
             <infoLink id="32a8-afe2-1ffe-7341" name="Escudo" hidden="false" targetId="c028-354e-9169-7463" type="profile"/>
             <infoLink id="6388-2dff-0ede-35d2" name="Resistencia mágica (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="6877-cc45-c792-3ca6" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -5801,6 +6091,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           <infoLinks>
             <infoLink id="94af-c65d-d17a-9b94" name="Yelmo" hidden="false" targetId="9607-7f57-879f-5c42" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="4fe9-9734-974d-de32" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -5828,6 +6121,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           <infoLinks>
             <infoLink id="5c18-3f97-3fcc-84b9" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="a549-8c8e-8660-9942" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -5847,6 +6143,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           <infoLinks>
             <infoLink id="1ce2-b9e1-5836-d0cc" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="53b4-3cc5-e0c4-9f53" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
@@ -5963,6 +6262,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           <infoLinks>
             <infoLink id="639c-41e9-d5b4-266a" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="4d69-8249-213f-9e53" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="150.0"/>
           </costs>
@@ -5990,6 +6292,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           <infoLinks>
             <infoLink id="1879-0dc6-8e53-8531" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="c3c0-eea7-e2c5-52d7" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
           </costs>
@@ -6042,6 +6347,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
             <infoLink id="24fc-0da4-b515-0f08" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
             <infoLink id="2f3b-f3bc-9c13-01e6" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="5347-09b5-8fbc-909f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -6061,6 +6369,9 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           <infoLinks>
             <infoLink id="4a72-94fa-1647-5fa8" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="e9bc-fbd1-0231-0391" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -7005,7 +7316,7 @@ En el instante en que una Encarnación Elemental sea retirada como baja del camp
       <characteristics>
         <characteristic name="Rango" typeId="52616e676523232344415441232323">12-60&quot;</characteristic>
         <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4 (8)</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Plantilla redonda pequeña, Mover o disparar, (Heridas múltiples 1D6) (Niega tirada de salvación por armadura)</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Plantilla redonda pequeña, Mover o disparar, Impacto central: (Heridas múltiples 1D6 y Niega tirada de salvación por armadura)</characteristic>
       </characteristics>
     </profile>
     <profile id="126e-8186-1926-061e" name="Cañón" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">

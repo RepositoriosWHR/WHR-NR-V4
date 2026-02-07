@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3216-304d-pubN65537" name="Elfos Oscuros Reforged"/>
   </publications>
@@ -2752,7 +2752,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae3b-cb9a-3de2-c52d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a1d7-d65d-748e-8065" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="a1d7-d65d-748e-8065" name="Doncella acuchilladora" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
@@ -2762,7 +2762,7 @@
                     <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">6</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
-                    <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">9</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">6</characteristic>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
@@ -6805,6 +6805,9 @@ unidad. A la hora de disparar contra un Caldero de Sangre, éste deberá conside
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aaa-ddc2-2504-0451" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="ad7c-82a6-0681-8305" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7965,6 +7968,9 @@ unidad. A la hora de disparar contra un Caldero de Sangre, éste deberá conside
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="159d-8d5f-0404-b943" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="2240-7a90-ad61-9317" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -7973,6 +7979,9 @@ unidad. A la hora de disparar contra un Caldero de Sangre, éste deberá conside
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b02a-2973-2eb0-e203" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="a039-dea5-c457-5641" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -16847,6 +16856,9 @@ enemigos!).</characteristic>
             <infoLink id="54a1-c5cb-2196-dfac" name="Golpe letal heróico" hidden="false" targetId="95ce-f21a-29e1-42a2" type="rule"/>
             <infoLink id="2c4c-6e68-783d-f961" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="a58a-fdf1-b276-0bd5" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -16928,6 +16940,9 @@ enemigos!).</characteristic>
           <infoLinks>
             <infoLink id="0fa7-4757-7f82-a09f" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="c353-11f1-b12f-8ece" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -16944,6 +16959,9 @@ enemigos!).</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="8137-4059-fe60-06a4" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -17109,6 +17127,9 @@ Adicionalmente, si el portador de la corona no forma parte de ninguna unidad, lo
           <infoLinks>
             <infoLink id="c961-4b8a-5e4a-ced6" name="Carga devastadora" hidden="false" targetId="dbe6-c910-7f37-aeac" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="f83d-2d2b-182e-45be" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -17125,6 +17146,9 @@ Adicionalmente, si el portador de la corona no forma parte de ninguna unidad, lo
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="928e-1040-18df-108c" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -17421,6 +17445,9 @@ Adicionalmente, si el portador de la corona no forma parte de ninguna unidad, lo
           <infoLinks>
             <infoLink id="1ebe-0000-4292-b942" name="Indesmoralizable" hidden="false" targetId="4362-3d7f-a24a-3309" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="157a-7cf8-b5e0-dbbd" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="125.0"/>
           </costs>
@@ -17437,6 +17464,9 @@ Adicionalmente, si el portador de la corona no forma parte de ninguna unidad, lo
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="ce1d-0911-a56b-7d5a" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -17542,6 +17572,9 @@ Adicionalmente, si el portador de la corona no forma parte de ninguna unidad, lo
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="e6c3-ac2c-8a98-98a2" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -17656,6 +17689,9 @@ Adicionalmente, si el portador de la corona no forma parte de ninguna unidad, lo
             <infoLink id="9050-83f8-f648-dadf" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
             <infoLink id="8402-a945-a5cd-520c" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="7afb-ab86-c644-c883" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
@@ -17677,6 +17713,9 @@ Adicionalmente, si el portador de la corona no forma parte de ninguna unidad, lo
             <infoLink id="15f0-7f30-8869-f6b5" name="Aura demoníaca (4+)" hidden="false" targetId="79f2-17bc-18d1-75e3" type="rule"/>
             <infoLink id="ab59-673f-5e56-eb2b" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="60a3-e640-cdcc-5961" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -17905,6 +17944,9 @@ enemiga en contacto peana con peana con el portador, que sufrirá inmediatamente
             <infoLink id="88ac-4a26-f6ee-7e87" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
             <infoLink id="c66f-debf-9cf9-1652" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="b496-931b-c25f-17e3" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
@@ -17926,6 +17968,9 @@ enemiga en contacto peana con peana con el portador, que sufrirá inmediatamente
             <infoLink id="9ce7-c436-249d-2fac" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
             <infoLink id="3fab-a753-0055-5122" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="9a87-4693-66ca-ae84" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
@@ -18181,7 +18226,7 @@ enemiga en contacto peana con peana con el portador, que sufrirá inmediatamente
           <profiles>
             <profile id="ba04-7b12-9632-4602" name="Perdición de Caledor" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Lanza de caballería. Los ataques efectuados con esta lanza negarán las tiradas de salvación por Piel escamosa del enemigo. </characteristic>
+                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Lanza de caballería. los ataques efectuados con esta lanza negarán las tiradas de salvación por Piel escamosa y Protección por montura del enemigo.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1902-3bc7-65bd-b65b" name="Recompensa del caos">
       <characteristicTypes>
@@ -1362,7 +1362,7 @@
       </constraints>
       <rules>
         <rule id="f515-a6f6-cd69-2274" name="Señor de las bestias" hidden="false">
-          <description>Un Señor de las bestias se considera oficial, aunque puede colocarse en la segunda fila, y desde allí realizar todos sus ataques en combate. Mientras continúe con vida, los Mastines obtienen Luchar con filas adicionales durante el turno en el que realizan exitosamente una carga (o durante el siguiente turno si arrasaron y se trabaron en combate).</description>
+          <description>Un Señor de las bestias se considera oficial, aunque puede colocarse en la segunda fila, y desde allí realizar todos sus ataques en combate. Mientras continúe con vida, los Mastines obtienen Luchar con filas adicionales (1) durante el turno en el que realizan exitosamente una carga (o durante el siguiente turno si arrasaron y se trabaron en combate).</description>
         </rule>
         <rule id="ba89-200f-755a-c2d9" name="Aullido de guerra" hidden="false">
           <description>Una vez por batalla, al inicio de cualquiera de tus turnos, un Señor de de las Bestias puede usar su Aullido de guerra. Hasta el final de ese turno de jugador, todos los mastines de su unidad obtienen la regla especial Carga devastadora.</description>
@@ -5537,6 +5537,9 @@ resultados de 2 como 3).</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="052a-ed76-34de-3fa1" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="b7eb-3c40-eb0a-fccd" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6768,6 +6771,9 @@ resultados de 2 como 3).</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1929-b9c7-fced-1809" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="5de9-a7b6-c1e4-43c7" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -6776,6 +6782,9 @@ resultados de 2 como 3).</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f9-b084-78ac-d83a" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="b688-d921-e286-1771" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -13261,6 +13270,9 @@ D6 	Resultado (Agarrar y...)
           <infoLinks>
             <infoLink id="cfa0-d5c6-44ad-0ffe" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="828d-fba8-ae94-633b" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -13282,6 +13294,9 @@ D6 	Resultado (Agarrar y...)
             <infoLink id="c580-911a-e9f3-fc45" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
             <infoLink id="41cf-9ac4-6a79-be38" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="25e6-4117-079e-8b47" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -13531,6 +13546,9 @@ D6 	Resultado (Agarrar y...)
             <infoLink id="1c35-e6da-d449-81ce" name="Piel escamosa (5+)" hidden="false" targetId="b1c5-6add-797c-2d07" type="rule"/>
             <infoLink id="6d40-9805-7876-bf07" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="4cc9-8bd3-5678-4a04" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -13740,7 +13758,7 @@ salvación especial de 4+ contra todos los Ataques mágicos y las heridas causad
           <profiles>
             <profile id="dc86-e502-95a0-0101" name="Talismán bendito de Plaga" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Proporciona a su portador la regla especial Regeneración (6+), o un +1 a su Regeneración si ya disponía de ella. Además, al inicio de cada uno de tus turnos, el portador recupera una herida que hubiese sufrido previamente durante la batalla.</characteristic>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo miniaturas con la marca de Nurgle. Proporciona a su portador la regla especial Regeneración (6+), o un +1 a su Regeneración si ya disponía de ella. Además, al inicio de cada uno de tus turnos, el portador recupera una herida que hubiese sufrido previamente durante la batalla.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14080,6 +14098,9 @@ D6 Poción del Caos
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="bc57-f32e-dc95-f63f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -14436,6 +14457,9 @@ D6 Poción del Caos
             <infoLink id="f5fd-d84c-404b-bb55" name="Resistencia mágica (2)" hidden="false" targetId="9718-2e66-193f-7dd6" type="rule"/>
             <infoLink id="64dc-c826-e142-006d" name="Yelmo" hidden="false" targetId="9607-7f57-879f-5c42" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="395f-7542-9840-17c4" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>

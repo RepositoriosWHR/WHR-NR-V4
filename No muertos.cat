@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="79c7-cc45-fd7a-618d" name="No muertos" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="79c7-cc45-fd7a-618d" name="No muertos" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d35-4e46-308c-cb63" name="Arcanos nigrománticos">
       <characteristicTypes>
@@ -4241,6 +4241,9 @@ menos de un Morghast que sea objetivo de un lanzamiento exitoso del hechizo Invo
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fe7-6b90-e477-6186" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="b8ad-05f4-949c-058f" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -4530,6 +4533,9 @@ menos de un Morghast que sea objetivo de un lanzamiento exitoso del hechizo Invo
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58fd-e5e6-ee21-2c91" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="5a9f-1806-3b78-e981" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
@@ -4538,6 +4544,9 @@ menos de un Morghast que sea objetivo de un lanzamiento exitoso del hechizo Invo
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51b7-b670-7eed-249a" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="6b69-c986-d4c1-c3b6" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -13065,6 +13074,9 @@ un Dragón zombi anciano es de 12” en lugar de las 8” habituales.</descripti
             <infoLink id="b29e-d0a2-ec85-58d0" name="Golpe letal heróico" hidden="false" targetId="95ce-f21a-29e1-42a2" type="rule"/>
             <infoLink id="747f-e3b5-0f10-8dfa" name="Arma a dos manos funerarias" hidden="false" targetId="1731-80af-06e2-8f83" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="53ec-71bd-1447-6002" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -13120,6 +13132,9 @@ un Dragón zombi anciano es de 12” en lugar de las 8” habituales.</descripti
           <infoLinks>
             <infoLink id="9bec-fac2-ccda-ede2" name="Armadura de placas" hidden="false" targetId="1b9f-44b8-30ac-a6aa" type="profile"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink id="d904-3fde-4c4d-1bdd" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -13210,6 +13225,9 @@ un Dragón zombi anciano es de 12” en lugar de las 8” habituales.</descripti
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="9903-ddb4-ab3f-c970" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -13309,6 +13327,9 @@ un Dragón zombi anciano es de 12” en lugar de las 8” habituales.</descripti
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="ca33-e269-a33a-7a58" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
           </costs>
@@ -13325,6 +13346,9 @@ un Dragón zombi anciano es de 12” en lugar de las 8” habituales.</descripti
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="a6ad-2c2b-41d6-8541" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
@@ -13477,6 +13501,9 @@ potenciada) del Saber de Nigromancia.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="4de1-c6d8-a82c-c23f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
@@ -13493,6 +13520,9 @@ potenciada) del Saber de Nigromancia.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="dda1-ad65-cb27-adea" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
@@ -13605,6 +13635,9 @@ potenciada) del Saber de Nigromancia.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="6a06-12c7-7d59-4efc" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
@@ -13621,6 +13654,9 @@ potenciada) del Saber de Nigromancia.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink id="b76e-196c-0393-352f" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
           </costs>
