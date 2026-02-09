@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="25" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="26" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -251,11 +251,11 @@
             <constraint field="limit::points" scope="roster" value="0.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="2e53-15da-044f-3cbf" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="d063-a9f4-bd24-5f0a" name="Dragones" hidden="true" targetId="eaf4-2780-219b-851f" primary="false">
+        <categoryLink id="d063-a9f4-bd24-5f0a" name="Dragones" hidden="false" targetId="eaf4-2780-219b-851f" primary="false">
           <modifiers>
-            <modifier type="increment" field="2d42-e5a3-1e23-c355" value="1.0">
+            <modifier type="increment" field="67c9-d818-4992-0369" value="1.0">
               <repeats>
-                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
@@ -263,7 +263,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="2d42-e5a3-1e23-c355" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="67c9-d818-4992-0369" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="011d-d048-848a-a8b8" name="Coatl" hidden="true" targetId="6ac5-4cd8-e378-fe13" primary="false">
