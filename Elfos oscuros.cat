@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3216-304d-pubN65537" name="Elfos Oscuros Reforged"/>
   </publications>
@@ -8949,7 +8949,7 @@ empezar la partida oculto en una unidad de entre las siguientes: Guerreros druch
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d58-cda2-b2d4-6f6f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5ab3-57fd-79cf-c59e" name="Senda del guerrero" hidden="false" collective="false" import="true" targetId="788b-d665-794f-057a" type="selectionEntryGroup"/>
+            <entryLink id="5ab3-57fd-79cf-c59e" name="Senda Khainitas" hidden="false" collective="false" import="true" targetId="5fb1-d011-e9c4-29ad" type="selectionEntryGroup"/>
             <entryLink id="9b67-736a-905a-29e7" name="Senda oscura" hidden="false" collective="false" import="true" targetId="1061-0363-04cd-045d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
@@ -11705,7 +11705,6 @@ pasará a considerarse parte del ejército elfo oscuro por el resto de la batall
         <selectionEntryGroup id="57d7-9eb0-2288-1878" name="Montura" hidden="false" collective="false" import="true" defaultSelectionEntryId="0c2a-eed6-3a86-840c">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11d5-d3f9-018c-d62d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b06e-6267-9646-0d5f" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="0c2a-eed6-3a86-840c" name="Carro de guerra real" hidden="false" collective="false" import="true" type="upgrade">

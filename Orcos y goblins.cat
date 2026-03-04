@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d9e4-9c78-810c-d2fd" name="Goblins" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -24801,20 +24801,10 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
     </selectionEntry>
     <selectionEntry id="8db0-0628-ee5c-b6b8" name="[Ex] - Kobolds de fuego" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="3bba-463f-3b3a-ba54" value="1.0">
+        <modifier type="set" field="eb45-bac0-45fb-3a3c" value="-1.0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
           </conditions>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d9e4-9c78-810c-d2fd" type="atLeast"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9af1-83d0-058b-8a8b" type="atLeast"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c34c-b8ef-51df-db2d" type="atLeast"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -24832,18 +24822,11 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c34c-b8ef-51df-db2d" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9af1-83d0-058b-8a8b" repeats="1" roundUp="false"/>
           </repeats>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3bba-463f-3b3a-ba54" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb45-bac0-45fb-3a3c" type="max"/>
       </constraints>
       <rules>
         <rule id="dd98-9d35-0519-8220" name="Animosidad Kobolds de fuego" hidden="false">
@@ -25658,21 +25641,6 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
     </selectionEntry>
     <selectionEntry id="5be0-7bae-530b-dba5" name="[Ex] - Goblins de las colinas" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="a5af-7c67-2a03-9990" value="1.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
-          </conditions>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d9e4-9c78-810c-d2fd" type="atLeast"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9af1-83d0-058b-8a8b" type="atLeast"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c34c-b8ef-51df-db2d" type="atLeast"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7cc-151b-ac27-24c8" type="equalTo"/>
@@ -25689,18 +25657,16 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c34c-b8ef-51df-db2d" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9af1-83d0-058b-8a8b" repeats="1" roundUp="false"/>
           </repeats>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="0c6e-5daa-1cc6-2540" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3285-f68d-14a3-e70c" type="equalTo"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5af-7c67-2a03-9990" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c6e-5daa-1cc6-2540" type="max"/>
       </constraints>
       <rules>
         <rule id="4fbb-b902-52a1-3148" name="Pequeñoz abuzonez" hidden="false">

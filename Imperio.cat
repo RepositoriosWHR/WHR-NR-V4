@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="16" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="208e-cf58-eefc-06d2" name="Orden de caballería">
       <characteristicTypes>
@@ -5928,9 +5928,18 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
               <entryLinks>
                 <entryLink id="68f5-a4ea-e84c-35f6" name="Estandartes mágicos. Reliquias" hidden="false" collective="false" import="true" targetId="ce18-5154-29c0-927b" type="selectionEntryGroup"/>
                 <entryLink id="f195-d013-a9ad-8f6f" name="Estandartes Mágicos - Reliquias - Imperio" hidden="false" collective="false" import="true" targetId="ada9-7cd6-89a8-5b8a" type="selectionEntryGroup"/>
-                <entryLink id="8494-29f5-c1fd-6804" name="Estandartes Mágicos - Imperio" hidden="false" collective="false" import="true" targetId="92c0-a16d-4ecb-0783" type="selectionEntryGroup"/>
+                <entryLink id="8494-29f5-c1fd-6804" name="Estandartes mágicos. Imperio" hidden="false" collective="false" import="true" targetId="92c0-a16d-4ecb-0783" type="selectionEntryGroup"/>
                 <entryLink id="8e08-6a2e-504b-2d88" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                 <entryLink id="fb6d-ec35-730c-f6fa" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup"/>
+                <entryLink id="3be6-4b6e-17fe-9a84" name="Estandartes mágicos. Imperio. Unidades de infantería" hidden="false" collective="false" import="true" targetId="2a23-2c36-e2d1-9de2" type="selectionEntryGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="4b02-9105-9f2b-4098" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ac68-b602-90bc-28f6" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
