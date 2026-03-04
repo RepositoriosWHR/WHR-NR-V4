@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="84e0-639b-248a-20ef" name="Clan Eshin" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="84e0-639b-248a-20ef" name="Clan Eshin" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="85cb-6f3c-0c94-e40f" name="Senda">
       <characteristicTypes>
@@ -455,32 +455,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="6bc7-fcd5-20c9-0e31" name="Opciones" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="05db-0898-354e-01f8" name="Ratas explosivas" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="points" value="5.0">
-                  <repeats>
-                    <repeat field="selections" scope="65ad-0633-56bc-54e2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="822a-e3ee-cde0-fbe2" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4d0-620d-9d5b-e9ef" type="max"/>
-              </constraints>
-              <rules>
-                <rule id="338e-012d-b92c-c370" name="Ratas explosivas" hidden="false">
-                  <description>Cuando una peana horda de ratas sea retirada en combate cuerpo a cuerpo la unidad que provocó la baja recibirá 1D6 impactos de F3 con la regla especial Poder de penetración.</description>
-                </rule>
-              </rules>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -4226,58 +4200,6 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="c1f1-118a-a72b-ea24" name="Armas" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1fa-e0d2-1e55-4c2b" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="cb8e-4bdc-a99f-268a" name="Katana" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d87-fe95-fcd9-de84" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="46db-7e36-3137-67e9" name="Katana" hidden="false" targetId="79f9-fdf7-234b-f7c0" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="4.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2143-6e36-0be9-0c1e" name="Fukiya" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e337-c48d-1d45-9650" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="7e48-e42b-9aee-0ea9" name="Fukiya" hidden="false" targetId="b79a-2d7c-7560-8664" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2ac7-fef2-1c11-e82a" name="Garras de rata" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3594-a506-a753-136a" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="adde-bb9b-dc18-3fcf" name="Garras de rata" hidden="false" targetId="b497-8f86-2dee-0800" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2df3-2f38-cea5-5a96" name="Kusarigama" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b404-1d06-d6ba-aa38" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="db45-44dd-5cd1-194b" name="Kusarigama (Combate)" hidden="false" targetId="d1ac-6fe4-20ad-2db6" type="profile"/>
-                    <infoLink id="f435-1aeb-f305-41ed" name="Kusarigama (Disparo)" hidden="false" targetId="9be7-e518-d56d-338d" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="4.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
             <selectionEntryGroup id="7412-a06e-189c-8d8d" name="Venenos" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a20-6d76-d227-fc52">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bc9-f46b-f98e-53b3" type="min"/>

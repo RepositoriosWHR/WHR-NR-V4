@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1902-3bc7-65bd-b65b" name="Recompensa del caos">
       <characteristicTypes>
@@ -4283,6 +4283,7 @@ resultados de 2 como 3).</description>
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink id="08df-160e-71c1-5e56" name="Armas mágicas. Kurgan. Armas emparejadas" hidden="false" collective="false" import="true" targetId="cf12-bb88-3dd3-a4df" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="e487-a279-de3c-c627" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -5139,6 +5140,7 @@ resultados de 2 como 3).</description>
                     <entryLink id="2b9b-b4c6-40ad-2065" name="Armas mágicas. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup"/>
                     <entryLink id="6a59-5250-c942-a66c" name="Armas mágicas. Hechiceros. Armas emparejadas" hidden="false" collective="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup"/>
                     <entryLink id="7f8a-9c59-54dc-23af" name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup"/>
+                    <entryLink id="ef8d-c99f-3c5e-7b43" name="Armas mágicas. Kurgan. Armas emparejadas" hidden="false" collective="false" import="true" targetId="cf12-bb88-3dd3-a4df" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="c046-4186-307e-2f29" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -5789,6 +5791,7 @@ resultados de 2 como 3).</description>
                       </modifiers>
                     </entryLink>
                     <entryLink id="3ec2-ba50-f921-cea3" name="Armas mágicas. Kurgan. Lanza" hidden="false" collective="false" import="true" targetId="5403-ffa9-736d-43af" type="selectionEntryGroup"/>
+                    <entryLink id="2f54-b99b-7d69-fdcb" name="Armas mágicas. Kurgan. Armas emparejadas" hidden="false" collective="false" import="true" targetId="cf12-bb88-3dd3-a4df" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="3100-c626-1ae7-25a7" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -6505,6 +6508,7 @@ resultados de 2 como 3).</description>
                     <entryLink id="a48c-f268-38d8-3be6" name="Armas mágicas. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup"/>
                     <entryLink id="9a88-6d04-0c22-959b" name="Armas mágicas. Hechiceros. Armas emparejadas" hidden="false" collective="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup"/>
                     <entryLink id="755f-3b05-65ae-a7b5" name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup"/>
+                    <entryLink id="15c8-25f1-0a57-2c48" name="Armas mágicas. Kurgan. Armas emparejadas" hidden="false" collective="false" import="true" targetId="cf12-bb88-3dd3-a4df" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="4bf0-f6ab-9e26-59c0" name="Objetos hechizados" hidden="false" collective="false" import="true">

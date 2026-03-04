@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1408-1786-52bb-a9f8" name="Clan Von Carstein" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1408-1786-52bb-a9f8" name="Clan Von Carstein" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="e483-859c-97c8-fa19" name="Poder vampírico">
       <characteristicTypes>
@@ -6968,9 +6968,8 @@ salvación especial de 4+.</characteristic>
         <infoLink id="d0ce-7385-897c-e263" name="Clan Von Carstein" hidden="false" targetId="79db-177b-ccfe-b6ad" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ee48-7ec2-cce1-5c4e" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false"/>
+        <categoryLink id="ee48-7ec2-cce1-5c4e" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
         <categoryLink id="711c-38d4-4b42-1527" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
-        <categoryLink id="2f31-cecb-336c-0fb8" name="New CategoryLink" hidden="false" targetId="6645-bf03-34e3-e081" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="05a1-64bb-0934-e4bc" name="Poderes vampíricos" hidden="false" collective="false" import="true" type="upgrade">
