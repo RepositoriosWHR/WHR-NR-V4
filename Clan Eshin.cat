@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="84e0-639b-248a-20ef" name="Clan Eshin" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="84e0-639b-248a-20ef" name="Clan Eshin" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="85cb-6f3c-0c94-e40f" name="Senda">
       <characteristicTypes>
@@ -2420,7 +2420,8 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
           <description>Las sombras Eshin tienen la regla especial Ataques envenenados en sus disparos con cerbatana, con la diferencia de que los resultados naturales de 5 también herirán automáticamente. Adicionalmente, todas las heridas causadas por las cerbatanas de las Sombras Eshin impondrán un penalizador de -1 a la tirada de salvación por armadura.</description>
         </rule>
         <rule id="812c-2f8e-cda9-3a10" name="Trampas de lazo" hidden="false">
-          <description>Al inicio de la batalla, tras el despliegue, selecciona en secreto un elemento de escenografía no acuático de entre los siguientes: Bosque, Obstáculos, Terreno difícil, Terreno muy difícil o Edificio, de tamaño no superior a 10” de diámetro. La primera unidad enemiga que entre en contacto durante cualquier movimiento en el elemento de escenografía seleccionado deberá detener dicho movimiento inmediatamente. Si la unidad enemiga estuviese realizando una carga, la carga fallará automáticamente. Las miniaturas con la regla especial Etéreo o que moviesen usando las reglas especiales Flotar o Volar no activan la trampa.</description>
+          <description>En los momentos previos a la batalla, las Sombras Eshin realizan labores de reconocimiento sobre el terreno y preparan trampas que ralentizan el avance enemigo. Al inicio de la batalla, tras el despliegue, selecciona en secreto un elemento de escenografía no acuático de entre los siguientes: Bosque, Obstáculos, Terreno difícil, Terreno muy difícil o Edificio, de tamaño no superior a 10” de diámetro y fuera del área de despliegue del oponente. La primera unidad enemiga que entre en contacto durante cualquier movimiento en el elemento de escenografía seleccionado deberá detener dicho movimiento inmediatamente. Si la unidad enemiga estuviese realizando una carga, la carga fallará automáticamente. Las miniaturas con la regla especial Etéreo o que moviesen usando las reglas especiales Flotar o Volar no 
+activan la trampa.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -8557,6 +8558,18 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="3b38-bd8a-bffd-246c" name="Arma de cola" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f367-398a-60fb-894b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd7a-882f-2638-0a26" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9f72-1091-4348-3629" name="Arma de cola" hidden="false" targetId="c284-d2c3-061b-9a23" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -11357,7 +11370,7 @@ D6 Potaje skaven
       <description>Los hechiceros del clan Eshin tienen especificado cuál es su hechizo identificativo del Saber del Sigilo. En el momento de determinar aleatoriamente sus hechizos, se considerará un resultado doble obtener dicho hechizo en la tirada siempre y cuando tomen sus hechizos de un único saber (ya que conocerán su hechizo identificativo inicialmente).</description>
     </rule>
     <rule id="84d5-05b3-ae63-88e4" name="Tácticas de guerrilla" hidden="false">
-      <description>Todas las tropas del ejército con la regla especial Hostigadores y que cuenten con un personaje con la regla especial Asesino y/o Grupo de mando completo obtendrán un bonificador de +1 en sus chequeos de reagrupamiento. Además, pueden utilizar el bonificador por filas de cualquier unidad del Clan Eshin a 8” o menos de ellos para realizar sus chequeos de desmoralización, efectos psicológicos (Miedo, Terror y Pánico) y de reagrupamiento. Adicionalmente, todos los disparos realizados por unidades enemigas dirigidos contra unidades con la clave clan Eshin de Infantería o Bestia monstruosa realizados a más de 18” obtendrán un penalizador de -1 en sus tiradas para impactar.</description>
+      <description>Todas las tropas del ejército con la regla especial Hostigadores con Potencia de unidad 10 o más obtendrán un bonificador de +1 a su atributo de Liderazgo para realizar sus chequeos de desmoralización, efectos psicológicos (Miedo, Terror y Pánico) y de reagrupamiento. Además, obtendrán un bonificador de +1 adicional a sus chequeos de reagrupamiento en caso de contar con un personaje con la regla especial Asesino y/o Grupo de mando completo. Adicionalmente, todos los disparos realizados por unidades enemigas dirigidos contra unidades con la clave clan Eshin de Infantería o Bestia monstruosa realizados a más de 18” obtendrán un penalizador de -1 en sus tiradas para impactar.</description>
     </rule>
     <rule id="0596-f54c-fd60-8ace" name="Líder asesino" hidden="false">
       <description>Los personajes con esta regla tienen las reglas especiales Asesino y La fuerza del número. Además, puedes elegir que no sea el General del ejército en caso de que sea el personaje con mayor atributo de Liderazgo del ejército. No obstante, en el caso de que sea el general, las demás unidades solo pueden emplear su atributo de Liderazgo si no está oculto y si tienen la clave clan Eshin. </description>
@@ -11388,7 +11401,7 @@ D6 Potaje skaven
     </profile>
     <profile id="37a0-d92a-ab4e-f3f3" name="Bomba de humo" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">
       <characteristics>
-        <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Puedes utilizar las bombas de humo tras fallar un chequeo de Desmoralización, al Huir o Disparar y huir. Todas las unidades que persiguen a la unidad verán su movimiento reducido a la mitad (redondeando hacia arriba) durante esa persecución.</characteristic>
+        <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Puedes utilizar las bombas de humo tras fallar un chequeo de Desmoralización, al Huir o Disparar y huir. Todas las unidades que persiguen a la unidad verán su atributo de Movimiento reducido a la mitad (redondeando hacia arriba) durante esa persecución.</characteristic>
       </characteristics>
     </profile>
     <profile id="d4d3-1637-d84d-d61f" name="Fragmento de piedra bruja" hidden="false" typeId="322d-2622-d325-8e5a" typeName="Objeto">

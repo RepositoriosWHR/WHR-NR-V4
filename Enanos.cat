@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="8" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="9" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4be9-2442-f655-1d41" name="Runa talismánica">
       <characteristicTypes>
@@ -5053,7 +5053,6 @@ como baja.
                           </constraints>
                           <entryLinks>
                             <entryLink id="aec4-5268-812c-4cd1" name="Runas talismánicas magistrales (Amuletos y talismanes)" hidden="false" collective="false" import="true" targetId="ad57-2789-240a-f04c" type="selectionEntryGroup"/>
-                            <entryLink id="a5e2-be6e-a843-21a5" name="Runas talismánicas magistrales. Señor de los enanos (Amuletos y talismanes)" hidden="false" collective="false" import="true" targetId="a588-8b7a-5944-9532" type="selectionEntryGroup"/>
                           </entryLinks>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
@@ -5767,7 +5766,7 @@ como baja.
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aec-1f21-2984-39cc" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="9849-b9b0-6436-d4a3" name="Arcabuz" hidden="false" targetId="b4a0-b411-6500-1510" type="profile"/>
+                    <infoLink id="9849-b9b0-6436-d4a3" name="Arcabuz enano" hidden="false" targetId="feed-806b-3311-c2bb" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="6.0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -4216,20 +4216,6 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="eed4-df68-f4c4-3f83" name="Los espadas del caos" hidden="false" collective="false" import="true" targetId="5ec3-fbee-23b6-13c8" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1249-ff18-bb58-c506" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b145-12b9-f58f-0d0b" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -11907,7 +11893,7 @@ de él obtienen la regla especial Tozudez.</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a36-b5ff-b9d0-abd3" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38a9-b1e6-1644-7b94" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -21695,7 +21681,7 @@ persecución.
           <modifiers>
             <modifier type="set" field="4a95-1859-9c85-63ea" value="4.0">
               <conditions>
-                <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f820-c30e-c9c9-903a" type="equalTo"/>
+                <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ec3-fbee-23b6-13c8" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -21704,12 +21690,17 @@ persecución.
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6486-ced8-5067-dd9d" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1db5-f3b2-c20c-4740" name="Marca del caos absoluto. Unidades" hidden="false" collective="false" import="true" targetId="bc49-6882-c66c-bc26" type="selectionEntry">
+            <entryLink id="1db5-f3b2-c20c-4740" name="Marca del Caos absoluto. Unidades" hidden="false" collective="false" import="true" targetId="bc49-6882-c66c-bc26" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="points" value="2.0">
                   <repeats>
                     <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ec3-fbee-23b6-13c8" type="equalTo"/>
+                  </conditions>
                 </modifier>
               </modifiers>
               <rules>
@@ -21730,7 +21721,7 @@ persecución.
                 </modifier>
                 <modifier type="set" field="eac8-06d8-ca53-bcfc" value="1.0">
                   <conditions>
-                    <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f820-c30e-c9c9-903a" type="equalTo"/>
+                    <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ec3-fbee-23b6-13c8" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -21759,7 +21750,7 @@ persecución.
                 </modifier>
                 <modifier type="set" field="7868-21bb-6302-c50c" value="1.0">
                   <conditions>
-                    <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f820-c30e-c9c9-903a" type="equalTo"/>
+                    <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ec3-fbee-23b6-13c8" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -21780,7 +21771,7 @@ persecución.
                 </modifier>
                 <modifier type="set" field="cfb9-4fee-7151-27ec" value="1.0">
                   <conditions>
-                    <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f820-c30e-c9c9-903a" type="equalTo"/>
+                    <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ec3-fbee-23b6-13c8" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -21802,7 +21793,7 @@ persecución.
                 </modifier>
                 <modifier type="set" field="8429-efe8-c72e-2ad1" value="1.0">
                   <conditions>
-                    <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f820-c30e-c9c9-903a" type="equalTo"/>
+                    <condition field="selections" scope="9e7e-a101-93e0-e120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ec3-fbee-23b6-13c8" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -21844,7 +21835,7 @@ persecución.
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f820-c30e-c9c9-903a" name="Los espadas del Caos" hidden="false" collective="false" import="true" targetId="5ec3-fbee-23b6-13c8" type="selectionEntry">
+        <entryLink id="f820-c30e-c9c9-903a" name="Los Espadas del Caos" hidden="false" collective="false" import="true" targetId="5ec3-fbee-23b6-13c8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -24959,7 +24950,7 @@ D6 	Resultado (Agarrar y...)
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a36-b5ff-b9d0-abd3" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a24-4a91-ca6a-63b7" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>

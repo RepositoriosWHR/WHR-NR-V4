@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1408-1786-52bb-a9f8" name="Clan Von Carstein" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1408-1786-52bb-a9f8" name="Clan Von Carstein" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="e483-859c-97c8-fa19" name="Poder vampírico">
       <characteristicTypes>
@@ -486,7 +486,7 @@
                     <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">0</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
-                    <characteristic name="L" typeId="4c4423232344415441232323">5</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">3</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">5</characteristic>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                     <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
@@ -2906,7 +2906,7 @@ Poder Tabla del Carruaje negro
       <rules>
         <rule id="0897-b947-9566-806f" name="Potencia de unidad 4" hidden="false"/>
         <rule id="0fde-1faa-1f65-a5b6" name="Horda de zombis" hidden="false">
-          <description>El Carro de cadáveres es tirado por una Horda de zombis con las reglas especiales No muerto, Ataques aleatorios (2D6) y Ataques envenenados. Gracias a los zombis, el Carro de cadáveres puede marchar pese a ser un Carro; sin embargo, no es Veloz.</description>
+          <description>El Carro de cadáveres es tirado por una Horda de zombis con las reglas especiales, Ataques aleatorios (2D6) y Ataques envenenados. Gracias a los zombis, el Carro de cadáveres puede marchar pese a ser un Carro; sin embargo, no es Veloz.</description>
         </rule>
         <rule id="b91f-1b9f-c7b1-df90" name="Aprendiz de nigromante" hidden="false">
           <description>El Aprendiz de nigromante no cuenta como hechicero, pero puede utilizar como objeto portahechizos de nivel de energía 2 el hechizo Invocación de Nehek (Nigromancia) una vez en cada una de sus fases de magia propia. </description>
@@ -6527,7 +6527,7 @@ salvación especial de 4+.</characteristic>
               <profiles>
                 <profile id="f19a-d7a7-14fb-7c6b" name="Forma lupina" hidden="false" typeId="e483-859c-97c8-fa19" typeName="Poder vampírico">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="86cf-6257-bcc7-d4f6">Cuando Ariette sea retirada como baja, sustitúyela por una miniatura de Lobo (bestia-personaje, 25x50mm); si se encontraba dentro de una unidad o trabada en combate cuerpo a cuerpo, coloca el Lobo en cualquier punto de tu elección, a como máximo 6” de donde se encontraba Ariette, y a más de 1” de cualquier otra miniatura (si no puedes, retira al Lobo como baja). En forma de lobo, Ariette tiene las reglas especiales No muerto (1), Vampiro y Piel escamosa (4+). Aunque conserva sus poderes vampíricos, no dispondrá de sus elementos de equipo ni objetos mágicos (aunque sí podrá utilizar su nivel de magia y hechizo). Ten en cuenta que Ariette no otorga puntos de victoria si no es eliminada en sus dos formas.</characteristic>
+                    <characteristic name="Reglas especiales" typeId="86cf-6257-bcc7-d4f6">Al inicio de cada uno de tus turnos, Ariette puede cambiar a Forma lupina; si se encuentra en Forma lupina, puede cambiar a forma humanoide. En Forma lupina, su tipo de tropa cambia a Bestia (personaje, 25x50mm); en forma de lobo, Ariette tiene las reglas especiales No muerto (1), Vampiro y Piel escamosa (4+). Aunque conserva sus poderes vampíricos, no dispondrá de sus elementos de equipo ni objetos mágicos (aunque sí podrá utilizar su nivel de magia y hechizo). Si se encontraba dentro de una unidad o trabada en combate cuerpo a cuerpo, coloca el Lobo en cualquier punto de tu elección, a como máximo 6” de donde se encontraba Ariette, y a más de 1” de cualquier otra miniatura (si no puedes, retira al Lobo como baja). Al cambiar de forma, Ariette recupera todas las heridas que hubiese sufrido previamente durante la batalla. Si Ariette es retirada como baja estando en forma humanoide, se transformará inmediatamente en su forma de lobo, aunque no podrá cambiar más a su forma humanoide durante la batalla. Ten en cuenta que Ariette no otorga puntos de victoria si es eliminada en forma humanoide y se transforma.</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="ce4e-2f07-0886-4d40" name="Forma lupina" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -6539,7 +6539,7 @@ salvación especial de 4+.</characteristic>
                     <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
                     <characteristic name="H" typeId="5723232344415441232323">3</characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
@@ -6666,33 +6666,6 @@ salvación especial de 4+.</characteristic>
           <entryLinks>
             <entryLink id="0db5-fbef-95c2-78f0" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry"/>
           </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d382-0b62-a0bd-3c4e" name="Forma de lobo" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48bf-d235-c2bc-7acc" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e98-3efc-7427-dc60" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="5f82-600b-532d-9014" name="Forma de lobo" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
-              <characteristics>
-                <characteristic name="M" typeId="4d23232344415441232323">10</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
-                <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
-                <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
-                <characteristic name="H" typeId="5723232344415441232323">3</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
-                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                <characteristic name="Tipo" typeId="5479706523232344415441232323">Bestia</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -7546,6 +7519,22 @@ salvación especial de 4+.</characteristic>
                 <cost name="pts" typeId="points" value="30.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="3194-711c-d03f-cd34" name="Nobleza antigua de Sylvania" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="94ec-e7ae-acce-59e2" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9c2d-45d0-6983-13d0" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="65d0-2c92-273c-3687" name="Nobleza antigua de Sylvania" hidden="false" typeId="e483-859c-97c8-fa19" typeName="Poder vampírico">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="86cf-6257-bcc7-d4f6">Tu ejército puede incluir hasta 2 unidades del libro de ejército del Imperio de entre las siguientes: Espadachines, Lanceros, Alabarderos, Arqueros, Ballesteros, Compañías libres, Fusileros. Contarán como opciones de Unidad básica. Obtienen las reglas especiales ¡Están vivos! e Inmunes a Miedo, y elegirán sus estandartes mágicos del Reglamento o de este libro de ejército. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -7889,7 +7878,9 @@ colócalo en cualquier punto a 12” o menos del lugar donde murió (puedes unir
               <profiles>
                 <profile id="70f6-7f97-4e62-a721" name="Despertar la tempestad" hidden="false" typeId="e483-859c-97c8-fa19" typeName="Poder vampírico">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="86cf-6257-bcc7-d4f6">Al inicio de tu fase de movimiento, si el personaje no está trabado en combate cuerpo a cuerpo, el vampiro puede invocar una tormenta. La tormenta tiene un radio de 12&quot; centrada en el vampiro. Cualquier unidad que dispare hacia, desde o a través el interior de la tormenta sufrirá un penalizador de -2 para impactar; los efectos de Tormenta de proyectiles que disparen hacia, desde o a través reducirán sus impactos a la mitad; las catapultas o efectos que se dispersen de forma similar se dispersarán el doble dentro de la tormenta; los cañones sólo podrán disparar hacia, desde y a través si antes obtienen un resultado de 4+ en 1D6 y no se puede hacer uso de las reglas especiales Volar o Flotar hacia, a través y desde el interior. Si el vampiro se traba en combate o muere, la tormenta cesará inmediatamente. </characteristic>
+                    <characteristic name="Reglas especiales" typeId="86cf-6257-bcc7-d4f6">Al inicio de tu fase de movimiento, si Vlad no está trabado en combate cuerpo a cuerpo, puede invocar una tormenta. La tormenta tiene un radio de 12&quot; centrada en Vlad. Cualquier unidad que dispare hacia, desde o a través el interior de la tormenta sufrirá un penalizador de -2 para impactar; los efectos de Tormenta de proyectiles que disparen hacia, desde o a través reducirán sus impactos a la mitad; las catapultas o efectos que se dispersen de forma similar se dispersarán el doble dentro de la tormenta; los cañones sólo podrán disparar hacia, desde y a través si antes obtienen un resultado de 4+ en 1D6 y no se puede 
+hacer uso de las reglas especiales Volar o Flotar hacia, a través y desde el interior. Si Vlad se traba en combate o muere, la 
+tormenta cesará inmediatamente.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7915,6 +7906,22 @@ colócalo en cualquier punto a 12” o menos del lugar donde murió (puedes unir
               <entryLinks>
                 <entryLink id="9d79-f5fd-ad93-1d51" name="Leyenda" hidden="false" collective="false" import="true" targetId="8f04-2596-2103-99ce" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="88f4-62d6-239d-7d7d" name="Nobleza antigua de Sylvania" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="47bc-ea24-830d-1c73" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="99e0-9c93-df65-f318" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="0357-1368-77f6-b920" name="Nobleza antigua de Sylvania" hidden="false" typeId="e483-859c-97c8-fa19" typeName="Poder vampírico">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="86cf-6257-bcc7-d4f6">Tu ejército puede incluir hasta 2 unidades del libro de ejército del Imperio de entre las siguientes: Espadachines, Lanceros, Alabarderos, Arqueros, Ballesteros, Compañías libres, Fusileros. Contarán como opciones de Unidad básica. Obtienen las reglas especiales ¡Están vivos! e Inmunes a Miedo, y elegirán sus estandartes mágicos del Reglamento o de este libro de ejército. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -8592,7 +8599,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
       </rules>
       <infoLinks>
         <infoLink id="10ec-b104-8ae0-a813" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
-        <infoLink id="0a48-794c-c728-3ee5" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
+        <infoLink id="0a48-794c-c728-3ee5" name="Terror" hidden="false" targetId="ca57-1f1f-8bc0-d9ab" type="rule"/>
         <infoLink id="232f-9db8-2044-9ef4" name="No Muerto (1)" hidden="false" targetId="467a-3f64-3c89-09ba" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="(Nigromancia)"/>
@@ -9637,7 +9644,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
           <selectionEntryGroups>
             <selectionEntryGroup id="0977-0a36-7640-6c8a" name="Poderes vampíricos" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edce-764d-c318-c733" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edce-764d-c318-c733" type="max"/>
               </constraints>
               <entryLinks>
                 <entryLink id="58ed-f712-4849-a07f" name="Poderes vampíricos Von Carstein. Poderes menores. Infantería" hidden="false" collective="false" import="true" targetId="01a3-05c4-6cdd-75ff" type="selectionEntryGroup">
@@ -12357,7 +12364,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="210.0"/>
+            <cost name="pts" typeId="points" value="235.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="500f-8fd7-cd26-06c4" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -12414,7 +12421,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b5e-e2e5-18b1-91cf" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="18.0"/>
+                <cost name="pts" typeId="points" value="13.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -12673,7 +12680,6 @@ el radio de alcance de este hechizo es de 18”, en lugar de las 12” habituale
             <modifier type="append" field="name" value="(2D6)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="d5e3-c61b-a619-2cff" name="Objetivo grande" hidden="false" targetId="71eb-6467-3a39-bdb6" type="rule"/>
         <infoLink id="a473-e1df-5232-13c9" name="No Muerto (1)" hidden="false" targetId="467a-3f64-3c89-09ba" type="rule"/>
         <infoLink id="3cd0-90ad-136b-a11e" name="Terror" hidden="false" targetId="ca57-1f1f-8bc0-d9ab" type="rule"/>
         <infoLink id="05ed-ab7e-363b-15bb" name="Flotar (10)" hidden="false" targetId="ab20-210e-1aec-5a72" type="rule"/>
@@ -13621,7 +13627,7 @@ el radio de alcance de este hechizo es de 18”, en lugar de las 12” habituale
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6ae4-29ad-448d-c5f5" name="Estirpe de Sylvania" hidden="false" collective="false" import="true" type="upgrade">
@@ -14682,7 +14688,7 @@ unirlo a una unidad); esto sólo funciona la primera vez que el portador muera e
           <profiles>
             <profile id="6f89-74cd-ee91-69a0" name="Estandarte de los túmulos" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Sólo tumularios, grandes espaderos tumularios y caballería tumularia. Todos los tumularios de la unidad (incluye señores tumularios) obtienen un bonificador de +1 en sus tiradas para impactar en combate cuerpo a cuerpo. </characteristic>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Sólo miniaturas con la clave tumulario. Todas las miniaturas con la clave tumulario de la unidad obtienen un bonificador de +1 en sus tiradas para impactar en combate cuerpo a cuerpo.</characteristic>
               </characteristics>
             </profile>
           </profiles>

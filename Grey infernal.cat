@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="d2ea-a0b8-pubN65537" name="Grey Infernal Reforged"/>
   </publications>
@@ -8009,16 +8009,11 @@ Vomitona. La miniatura objetivo sufrirá 1D6 impactos de Fuerza 6 sin posibilida
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d91-8c84-9a15-6a0c" name="[E] - Kholek comesoles, el dios de la tormenta" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9d91-8c84-9a15-6a0c" name="[E] - Kholek comesoles" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e01b-aa63-8a17-da7d" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -8042,7 +8037,6 @@ Vomitona. La miniatura objetivo sufrirá 1D6 impactos de Fuerza 6 sin posibilida
         <infoLink id="2358-7345-f402-1363" name="Cólera de la tormenta" hidden="false" targetId="3c8a-7dd2-ec67-87bd" type="rule"/>
         <infoLink id="152f-097d-7f2a-f501" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
         <infoLink id="48a7-f48c-8cc1-341f" name="Cruzar (obstáculos)" hidden="false" targetId="5dfd-3f02-cece-1e02" type="rule"/>
-        <infoLink id="c906-834f-1071-b445" name="Leyenda" hidden="false" targetId="d331-afa2-533e-c273" type="rule"/>
         <infoLink id="4998-5ea1-5566-3b74" name="Impactos por carga (1D6)" hidden="false" targetId="bdc4-4c8b-a303-ec51" type="rule"/>
         <infoLink id="8247-2184-ecce-e7f0" name="Ni un paso atrás" hidden="false" targetId="f76e-5a01-1c6b-ef76" type="rule"/>
         <infoLink id="b93f-01ff-8cbd-cd71" name="La vida es sueño" hidden="false" targetId="7cad-24fc-d28b-2d56" type="rule"/>
@@ -8164,7 +8158,7 @@ Vomitona. La miniatura objetivo sufrirá 1D6 impactos de Fuerza 6 sin posibilida
       </selectionEntries>
       <entryLinks>
         <entryLink id="0925-7992-6729-9857" name="General no engendro" hidden="false" collective="false" import="true" targetId="ad35-f170-fcd1-781b" type="selectionEntry"/>
-        <entryLink id="370a-cae6-c5a2-8b0f" name="Marca de caos absoluto. Personajes" hidden="false" collective="false" import="true" targetId="f6f4-ba5d-ee7d-1e7f" type="selectionEntry">
+        <entryLink id="370a-cae6-c5a2-8b0f" name="Marca de Caos absoluto. Personajes" hidden="false" collective="false" import="true" targetId="f6f4-ba5d-ee7d-1e7f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e6d-e2a3-c554-7e6c" type="min"/>
           </constraints>
@@ -12684,7 +12678,7 @@ Crueldad resentida (personalidad del traidor): El bonificador a la resolución d
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0b5b-ba9a-9413-09a2" name="Marca de caos absoluto. Unidades" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0b5b-ba9a-9413-09a2" name="Marca de Caos absoluto. Unidades" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="61ec-4527-e981-6f7e" value="1.0">
           <conditions>
@@ -12729,7 +12723,7 @@ Crueldad resentida (personalidad del traidor): El bonificador a la resolución d
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f6f4-ba5d-ee7d-1e7f" name="Marca de caos absoluto. Personajes" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f6f4-ba5d-ee7d-1e7f" name="Marca de Caos absoluto. Personajes" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="fc4d-6019-f9a9-d470" value="1.0">
           <conditions>

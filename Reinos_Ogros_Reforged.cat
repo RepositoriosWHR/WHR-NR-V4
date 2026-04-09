@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="6" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="8" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coroccota Bada, Aswer y Gengis.</readme>
   <profileTypes>
     <profileType id="82a1-ea3c-b415-8a9a" name="Objeto">
@@ -4187,7 +4187,7 @@ D6 Resultado (Agarrar y...)
                 <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">4</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323">6</characteristic>
@@ -6614,7 +6614,7 @@ Bajas: (Mejora para Skrag) / (Mejora para los gargantuas)
         <infoLink id="2d29-bc93-f101-9dd6" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="677f-672c-055a-57a6" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
+        <categoryLink id="d81f-b3b4-85ca-a2fd" name="New CategoryLink" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2c35-8536-3354-2a23" name="Colmillo de las Grandes Fauces (Artefacto arcano-Reliquia)" hidden="false" collective="false" import="true" type="upgrade">

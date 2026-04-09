@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9aa0-a435-0f3a-053a" name="Regalo demoníaco">
       <characteristicTypes>
@@ -16565,22 +16565,6 @@ Las miniaturas con la regla especial Demonio (Khorne) situadas a 6&quot; o menos
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1419-10e4-51c4-a049" name="Aura de energía" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9633-3bf2-b4dc-631b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6f4d-a2b5-54db-e70c" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="80cc-f2c5-0342-e058" name="Aura de energía" hidden="false" typeId="9aa0-a435-0f3a-053a" typeName="Regalo demoníaco">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="a0ac-d89f-70e8-096e">El aura demoníaca del demonio mejora hasta 4+ y puede usarse contra ataques mágicos.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bb68-b3a8-1cfa-5721" name="Esencia maldita" hidden="false" collective="false" import="true" type="upgrade">

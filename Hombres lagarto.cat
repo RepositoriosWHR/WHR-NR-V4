@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9ec5-91ab-c1bc-3ae5" name="Desove">
       <characteristicTypes>
@@ -2601,7 +2601,7 @@
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">5</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">2</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
@@ -9173,6 +9173,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <infoLink id="5ec6-1b44-ca7f-3a1a" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
         <infoLink id="2f65-f5bf-704c-8cf1" name="Heridas múltiples (1D6)" hidden="false" targetId="e658-6033-5e1f-c1c4" type="rule"/>
         <infoLink id="ec26-a225-c508-58ca" name="Monstruosamente grande" hidden="false" targetId="38d4-1707-be50-7d0f" type="rule"/>
+        <infoLink id="fb15-0f62-f191-89f7" name="Cruzar (elementos acuáticos)" hidden="false" targetId="b7d4-b324-49ee-71ae" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a7dc-1871-3bcf-86e8" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
@@ -9180,7 +9181,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
       <selectionEntries>
         <selectionEntry id="f4c0-6c71-c5fb-ceb0" name="Terrosaurio" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43bb-0078-94b5-cc03" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43bb-0078-94b5-cc03" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="265e-17d6-74d8-8532" type="min"/>
           </constraints>
           <profiles>
@@ -9413,7 +9414,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
                 <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">4</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">3</characteristic>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
@@ -9422,7 +9423,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="64.0"/>
+            <cost name="pts" typeId="points" value="70.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="acb2-2abd-e935-005c" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -9485,7 +9486,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
                     <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
                     <characteristic name="H" typeId="5723232344415441232323">4</characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
-                    <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">3</characteristic>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
@@ -11126,18 +11127,6 @@ dispersión de hechizos. Además, Kremlo conocerá los tres hechizos identifica
       </costs>
     </selectionEntry>
     <selectionEntry id="49b6-ecf1-41cb-2e1a" name="Estegadón anciano con artefacto de los dioses" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="increment" field="points" value="5">
-          <conditions>
-            <condition field="selections" scope="49b6-ecf1-41cb-2e1a" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6263-72a5-104c-4c18" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="points" value="10">
-          <conditions>
-            <condition field="selections" scope="49b6-ecf1-41cb-2e1a" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6263-72a5-104c-4c18" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <rules>
         <rule id="a0f9-885c-d072-f51a" name="Estegadón anciano (montura)" hidden="false">
           <description>Los Eslizones que montan el castillo del Estegadón anciano obtienen de forma gratuita el Desove sagrado 
@@ -11269,7 +11258,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
             <selectionEntry id="6263-72a5-104c-4c18" name="Dotación eslizones" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bc8-c40a-54c2-9eee" type="min"/>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92ee-efb0-2cc5-46bb" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92ee-efb0-2cc5-46bb" type="max"/>
               </constraints>
               <profiles>
                 <profile id="b24d-7cde-03af-bc2c" name="Eslizón" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -11294,48 +11283,6 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1101-61bf-323a-649f" name="Opciones" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="08fb-a880-fbce-99e9" name="Ataques envenenados" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="1">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6263-72a5-104c-4c18" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb5-a7ab-bb4c-23ba" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="9be4-55d4-9c68-86aa" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d8b1-9219-81aa-8c1d" name="Arco corto" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="1">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6263-72a5-104c-4c18" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c68-95d7-1cd7-fad9" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="4db1-042b-63db-75fe" name="Arco corto" hidden="false" targetId="bc9b-e19b-4f02-1726" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -11345,6 +11292,13 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
         <selectionEntryGroup id="6012-7d17-44d0-c4f2" name="Opciones Dotación" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="f308-2628-d52f-7a60" name="Ataques envenenados" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="49b6-ecf1-41cb-2e1a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="797c-3b88-ec48-6194" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f024-4b91-34e6-36ca" type="max"/>
               </constraints>
@@ -11352,10 +11306,17 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
                 <infoLink id="3a87-c5ff-ab37-54b8" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name="pts" typeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9ead-255c-35ed-18ee" name="Arco corto" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="49b6-ecf1-41cb-2e1a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="797c-3b88-ec48-6194" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb17-01db-b8c9-4575" type="max"/>
               </constraints>
@@ -11363,7 +11324,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
                 <infoLink id="db06-c8ab-eb6b-fa68" name="Arco corto" hidden="false" targetId="bc9b-e19b-4f02-1726" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name="pts" typeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="797c-3b88-ec48-6194" name="Eslizones adicionales" hidden="false" collective="false" import="true" type="upgrade">
@@ -11563,18 +11524,6 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
       </costs>
     </selectionEntry>
     <selectionEntry id="5619-3192-99c5-3b83" name="Estegadón " hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="points" value="5">
-          <conditions>
-            <condition field="selections" scope="5619-3192-99c5-3b83" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0186-362a-22c0-2eb4" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="points" value="10">
-          <conditions>
-            <condition field="selections" scope="5619-3192-99c5-3b83" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0186-362a-22c0-2eb4" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <rules>
         <rule id="2ee3-f029-622f-7db1" name="Potencia de unidad 9" hidden="false">
           <description>Potencia de unidad 9 (+1 por cada Eslizón adicional).</description>
@@ -11704,7 +11653,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
             <selectionEntry id="0186-362a-22c0-2eb4" name="Dotación eslizones" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b80-f612-0d87-50c3" type="min"/>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0320-26d0-8a4c-ced7" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0320-26d0-8a4c-ced7" type="max"/>
               </constraints>
               <profiles>
                 <profile id="26de-86f5-a758-52f6" name="Eslizón" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -11729,48 +11678,6 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="67ed-22bf-eb3a-8c48" name="Opciones" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="c1bf-929c-0a9d-e555" name="Ataques envenenados" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="1">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0186-362a-22c0-2eb4" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8be-854d-1d45-2f07" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="d35d-1fce-703f-555c" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a4ec-ec3b-be7f-5f97" name="Arco corto" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="1">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0186-362a-22c0-2eb4" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0c5-80bd-e8c5-f32f" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="0a87-1fa3-9180-379a" name="Arco corto" hidden="false" targetId="bc9b-e19b-4f02-1726" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -11780,6 +11687,13 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
         <selectionEntryGroup id="d7a1-dc00-be4b-08f8" name="Opciones Dotación" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="3b61-c45e-4252-2901" name="Arco corto" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="5619-3192-99c5-3b83" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="287f-ea00-5506-a542" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e372-52a7-be45-95e7" type="max"/>
               </constraints>
@@ -11787,10 +11701,17 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
                 <infoLink id="fe5b-7f46-5799-2185" name="Arco corto" hidden="false" targetId="bc9b-e19b-4f02-1726" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea3c-1d4d-35f1-fc87" name="Ataques envenenados" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="5619-3192-99c5-3b83" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="287f-ea00-5506-a542" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a9-b36a-fc9c-f673" type="max"/>
               </constraints>
@@ -11798,7 +11719,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
                 <infoLink id="5351-81fa-5953-3674" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts" typeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="287f-ea00-5506-a542" name="Eslizones adicionales" hidden="false" collective="false" import="true" type="upgrade">
@@ -11833,18 +11754,6 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
       </costs>
     </selectionEntry>
     <selectionEntry id="034b-7c08-8c9e-27a2" name="Estegadón anciano" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="points" value="5">
-          <conditions>
-            <condition field="selections" scope="034b-7c08-8c9e-27a2" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1182-d5b2-52e1-61dd" type="equalTo"/>
-          </conditions>
-        </modifier>
-        <modifier type="increment" field="points" value="10">
-          <conditions>
-            <condition field="selections" scope="034b-7c08-8c9e-27a2" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1182-d5b2-52e1-61dd" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <rules>
         <rule id="ab03-e44a-ff61-93a7" name="Estegadón anciano (montura)" hidden="false">
           <description>Los Eslizones que montan el castillo del Estegadón anciano obtienen de forma gratuita el Desove sagrado 
@@ -11978,7 +11887,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
             <selectionEntry id="1182-d5b2-52e1-61dd" name="Dotación eslizones" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f53-563c-d716-5640" type="min"/>
-                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7052-74b2-78d1-5b7c" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7052-74b2-78d1-5b7c" type="max"/>
               </constraints>
               <profiles>
                 <profile id="03f5-1f80-ba80-9c86" name="Eslizón" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -12003,48 +11912,6 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="5644-fc6a-f2a5-1a8a" name="Opciones" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="4846-7b2b-1dfc-42e8" name="Ataques envenenados" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="1">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1182-d5b2-52e1-61dd" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23b4-7ba1-585f-c814" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="db5e-4e53-d16c-3f8a" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="683e-0a4b-be4b-f06a" name="Arco corto" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="1">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1182-d5b2-52e1-61dd" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9600-6512-3ca4-747e" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="b0ec-6da1-5b1b-78d3" name="Arco corto" hidden="false" targetId="bc9b-e19b-4f02-1726" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
@@ -12054,6 +11921,13 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
         <selectionEntryGroup id="8922-0e57-a75b-1edd" name="Opciones Dotación" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="edf0-7cc6-919a-1328" name="Ataques envenenados" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="034b-7c08-8c9e-27a2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="47fe-c251-de15-ea12" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8504-4028-b5fc-2d30" type="max"/>
               </constraints>
@@ -12061,10 +11935,17 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
                 <infoLink id="c537-abac-90f6-3dd5" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name="pts" typeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="31b4-6613-71ab-bb67" name="Arco corto" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="034b-7c08-8c9e-27a2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="47fe-c251-de15-ea12" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5673-bb63-4032-79da" type="max"/>
               </constraints>
@@ -12072,7 +11953,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
                 <infoLink id="9fb5-a90f-bb20-4b74" name="Arco corto" hidden="false" targetId="bc9b-e19b-4f02-1726" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="1.0"/>
+                <cost name="pts" typeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="47fe-c251-de15-ea12" name="Eslizones adicionales" hidden="false" collective="false" import="true" type="upgrade">

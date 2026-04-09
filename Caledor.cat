@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4bff-f57e-cbdd-cdbc" name="Caledor" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4bff-f57e-cbdd-cdbc" name="Caledor" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="d5f3-8d72-7f36-e06c" name="Senda">
       <characteristicTypes>
@@ -7023,12 +7023,12 @@ tanto al jinete como al dragón.</characteristic>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">10</characteristic>
-                <characteristic name="HP" typeId="425323232344415441232323">5</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">7</characteristic>
                 <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">3</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">3</characteristic>
-                <characteristic name="I" typeId="4923232344415441232323">7</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">10</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">1</characteristic>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323">5</characteristic>
@@ -9808,6 +9808,11 @@ tanto al jinete como al dragón.</characteristic>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6866-364c-11a2-d21d" type="max"/>
       </constraints>
+      <rules>
+        <rule id="5ddf-6af7-cd0b-76ea" name="Unidad de jinetes de leyenda" hidden="false">
+          <description>Se colocan en formación dispersa pero separadas 3” y usarán las mismas reglas que hostigadores para cómo mover, retirar bajas y en lo referente a las cargas. Su ángulo de visión en lugar de 180º será de 90º desde el frontal, que estará definido por la miniatura de referencia (la más adelantada) y acotado en cada lado hasta la huella que ocuparían el resto de miniaturas de la unidad si estuviesen alineadas con ese frontal. Podrán girar y reformar de forma gratuita las veces que deseen durante su movimiento aplicando las reglas generales, pero no aplicaran ningún otro beneficio más que tengan los hostigadores ni en lo referente a maniobras y movimiento ni en disparo.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="dfc8-922b-8b88-91c5" name="Monstruo" hidden="false" targetId="0518-1c98-54e1-371d" type="rule"/>
         <infoLink id="92c3-bb8f-9d4a-16d8" name="Valor familiar" hidden="false" targetId="2882-fac9-f267-b8e7" type="rule"/>
@@ -9818,7 +9823,6 @@ tanto al jinete como al dragón.</characteristic>
         <infoLink id="5577-1b7d-e924-a14e" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
         <infoLink id="8f04-90b9-afe1-b6cb" name="Opulencia desmesurada" hidden="false" targetId="09ba-21d0-b58b-8b12" type="rule"/>
         <infoLink id="445f-e406-a039-20b0" name="Unidad legendaria" hidden="false" targetId="729e-2ed5-79eb-8288" type="rule"/>
-        <infoLink id="1cb5-deca-f6e0-c53a" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
         <infoLink id="99fb-d3a9-b839-868b" name="Arma de aliento" hidden="false" targetId="3438-0c27-972c-d418" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="(F3, Ataques sólo flamígeros)"/>
@@ -13979,7 +13983,7 @@ de energía y aumentar en 1 tus dados de dispersión.</characteristic>
           <profiles>
             <profile id="e65a-b5b4-e280-f394" name="Martillo de rayos" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo Sacerdotes de Vaul. Otorga a su portador una tirada de salvación especial contra proyectiles de 4+ y la regla especial inmune a rayos. En la fase de disparo, puede realizar un ataque a distancia con alcance 30”, impactará siempre con un resultado igual a la tirada de salvación por armadura del objetivo, se resolverá con F5 y las reglas especiales Impactos múltiples (1D3), Ataques de rayos y Ataques mágicos.</characteristic>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo Sacerdotes de Vaul. Otorga a su portador una tirada de salvación especial de 4+ contra proyectiles y la regla especial Inmune a rayos. En la fase de disparo, puede realizar un ataque a distancia con alcance 30”, impactará siempre con un resultado igual a la tirada de salvación por armadura del objetivo, se resolverá con F5 y las reglas especiales Impactos múltiples (1D3), Ataques de rayos y Ataques mágicos.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14182,7 +14186,7 @@ de energía y aumentar en 1 tus dados de dispersión.</characteristic>
           <profiles>
             <profile id="61f6-8c53-4e7d-ba32" name="Estandarte Real de Caledor" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Duplica la Potencia de unidad que porte este estandarte. Además, la unidad que porta este estandarte obtendrá un bonificador extraordinario de +1D6 al resultado de los combates en los que participe.</characteristic>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Sólo miniaturas con Potencia de unidad 4 o inferior. Duplica la Potencia de unidad del portador de este estandarte y de la unidad que lo acompañe. Además, la unidad que porta este estandarte obtendrá un bonificador extraordinario de +1D6 al resultado de los combates en los que participe.</characteristic>
               </characteristics>
             </profile>
           </profiles>
