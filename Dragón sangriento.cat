@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f71e-06e9-0083-adc2" name="Poder vampírico">
       <characteristicTypes>
@@ -6592,6 +6592,7 @@ Poder TABLA DEL CARRUAJE NEGRO
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink id="99de-e042-8b40-552f" name="Objetos hechizados. Clan dragón sangriento. Bardo no muerto" hidden="false" collective="false" import="true" targetId="4481-3957-3faf-5b8c" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="de65-f969-2eba-34a2" name="Armaduras mágicas" hidden="false" collective="false" import="true">

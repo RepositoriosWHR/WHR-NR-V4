@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4bff-f57e-cbdd-cdbc" name="Caledor" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4bff-f57e-cbdd-cdbc" name="Caledor" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="d5f3-8d72-7f36-e06c" name="Senda">
       <characteristicTypes>
@@ -4885,7 +4885,7 @@ al inicio de cada ronda de combate cuerpo a cuerpo, todas las miniaturas en cont
                 <entryLink id="8988-5b24-9960-6925" name="Nivel 3" hidden="false" collective="false" import="true" targetId="931c-74bb-cd5a-f6ab" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="35.0"/>
+                <cost name="pts" typeId="points" value="50.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a379-e072-002f-1c3d" name="Nivel de magia 2" hidden="false" collective="false" import="true" type="upgrade">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9ec5-91ab-c1bc-3ae5" name="Desove">
       <characteristicTypes>
@@ -4743,6 +4743,15 @@
                       </modifiers>
                     </entryLink>
                     <entryLink id="0b01-fe21-47f7-2484" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink id="479d-fbd8-e9f1-cda9" name="Talismanes mágicos. Hombres lagarto. Desove sgrado de Quetzl" hidden="false" collective="false" import="true" targetId="64dc-03b0-46e5-89ac" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="1263-a3d6-5959-5381" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17fe-906f-ce7f-1bcc" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5328,6 +5337,15 @@
                       </modifiers>
                     </entryLink>
                     <entryLink id="6639-4560-bf53-0867" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink id="939c-c64c-2944-3703" name="Talismanes mágicos. Hombres lagarto. Desove sgrado de Quetzl" hidden="false" collective="false" import="true" targetId="64dc-03b0-46e5-89ac" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="a2e5-5035-64c5-bb1d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17fe-906f-ce7f-1bcc" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5896,6 +5914,15 @@
                       </modifiers>
                     </entryLink>
                     <entryLink id="6075-afaf-546f-ab96" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink id="d9af-b294-8ac2-3385" name="Talismanes mágicos. Hombres lagarto. Desove sgrado de Quetzl" hidden="false" collective="false" import="true" targetId="64dc-03b0-46e5-89ac" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="0360-6370-6e3d-e58d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17fe-906f-ce7f-1bcc" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="397c-b131-4101-170c" name="Armas mágicas" hidden="false" collective="false" import="true">
@@ -6352,6 +6379,15 @@
                       </modifiers>
                     </entryLink>
                     <entryLink id="d67c-9da3-d46c-a8cd" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink id="f594-03cb-20a4-f9ff" name="Talismanes mágicos. Hombres lagarto. Desove sgrado de Quetzl" hidden="false" collective="false" import="true" targetId="64dc-03b0-46e5-89ac" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="a2c0-e158-c9b5-55fb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17fe-906f-ce7f-1bcc" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -6820,6 +6856,15 @@
                       </modifiers>
                     </entryLink>
                     <entryLink id="8fe3-80d4-5b9e-98bb" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink id="a195-181c-b91a-c9cb" name="Talismanes mágicos. Hombres lagarto. Desove sgrado de Quetzl" hidden="false" collective="false" import="true" targetId="64dc-03b0-46e5-89ac" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="6450-fade-376d-56e8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17fe-906f-ce7f-1bcc" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -9943,6 +9988,15 @@ un dado de Dispersión adicional para ese intento de dispersión. Además, podr�
                     <entryLink id="8fc0-f863-e17b-018c" name="Talismanes mágicos. Hombres lagarto. Eslizones" hidden="false" collective="false" import="true" targetId="3ba4-0222-6c4e-d406" type="selectionEntryGroup"/>
                     <entryLink id="87df-f920-386e-2a9e" name="Talismanes mágicos. Hombres lagarto" hidden="false" collective="false" import="true" targetId="16c6-aa5c-b8a7-f77e" type="selectionEntryGroup"/>
                     <entryLink id="b998-f766-6cf1-2c3c" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink id="be65-102d-2b7e-6272" name="Talismanes mágicos. Hombres lagarto. Desove sgrado de Quetzl" hidden="false" collective="false" import="true" targetId="64dc-03b0-46e5-89ac" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="938a-9cdd-8c50-6bd6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17fe-906f-ce7f-1bcc" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -12237,29 +12291,6 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
             <cost name="pts" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6a77-cfcd-7ba5-26fb" name="Aura de Quetzl" hidden="true" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17fe-906f-ce7f-1bcc" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5745-75af-c585-da5b" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e0d-c85a-eb5d-d307" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="1d68-99a4-555d-96ae" name="Aura de Quetzl" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
-              <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo miniaturas con el Desove sagrado de Quetzl. El portador de este objeto tiene una tirada de salvación especial de 4+ contra los ataques de Fuerza 5 o mayor. Este objeto no confiere protección alguna contra otras formas de daño o ataques sin valor de Fuerza.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="e103-2f22-0afd-4f9b" name="Objetos hechizados. Hombres lagarto" hidden="false" collective="false" import="true">
@@ -13720,6 +13751,30 @@ regla especial Veloz.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="64dc-03b0-46e5-89ac" name="Talismanes mágicos. Hombres lagarto. Desove sgrado de Quetzl" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dac-2372-f0a7-2cb7" type="max"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c99-6b2e-7550-4d15" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="ab88-df9f-ef7c-3022" name="Aura de Quetzl" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d9a-ffc5-1a00-be3a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a355-f69a-0d55-6362" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a8d0-029d-d298-7814" name="Aura de Quetzl" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo miniaturas con el Desove sagrado de Quetzl. El portador de este objeto tiene una tirada de salvación especial de 4+ contra los ataques de Fuerza 5 o mayor. Este objeto no confiere protección alguna contra otras formas de daño o ataques sin valor de Fuerza.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

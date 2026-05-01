@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="8" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="8" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coroccota Bada, Aswer y Gengis.</readme>
   <profileTypes>
     <profileType id="82a1-ea3c-b415-8a9a" name="Objeto">
@@ -4841,15 +4841,11 @@ Bajas: (Mejora para Skrag) / (Mejora para los gargantuas)
         <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9a7-baf6-9c3b-69cb" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a497-0f71-2b29-3421" type="max"/>
       </constraints>
-      <rules>
-        <rule id="8540-2cc9-cfcf-ae9e" name="Arremetida" hidden="false">
-          <description>Si una unidad con esta regla especial obtiene algún resultado de 6 en su tirada de carga, cada uno de sus componentes obtendrá hasta el final del turno la regla especial Impactos por carga (1).</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="f127-9fa2-a7f6-a140" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
         <infoLink id="ebaa-7250-c10d-9e2e" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
         <infoLink id="c1d9-0013-d21e-9b11" name="Infantería monstruosa" hidden="false" targetId="4958-70de-0b69-9825" type="rule"/>
+        <infoLink id="3e97-4a98-1e4b-31c7" name="Arremetida" hidden="false" targetId="bf68-9d87-3db2-0434" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a0d6-f51f-0a65-4be2" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>

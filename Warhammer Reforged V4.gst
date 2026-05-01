@@ -2660,6 +2660,15 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9f59-cecc-f723-2b28" name="Clave: Culto del placer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac6e-b25b-ca5e-ce7c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8931-8e80-c394-5a03" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ce18-5154-29c0-927b" name="Estandartes mágicos. Reliquias" hidden="false" collective="false" import="true">

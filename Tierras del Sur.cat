@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12e6-0f80-9cd0-64b7" name="Tierras del Sur" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12e6-0f80-9cd0-64b7" name="Tierras del Sur" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a95c-4240-95e5-631c" name="Destino ancestral">
       <characteristicTypes>
@@ -4315,7 +4315,19 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b60a-6133-48af-48df" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="201d-6452-de16-ec0c" name="Talismanes mágicos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup"/>
+                    <entryLink id="201d-6452-de16-ec0c" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="f56b-3a8b-8d29-fbe7" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="4f51-a5a1-aedd-6d21" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fb1d-1fd9-107d-d434" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                     <entryLink id="d576-48bb-83f3-eb9f" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="aae2-a0d8-9804-f268" name="Talismanes mágicos. Las tierras del sur. No exploradores" hidden="false" collective="false" import="true" targetId="bb92-6870-a2f9-55a8" type="selectionEntryGroup"/>
                     <entryLink id="8d7d-bf3c-3af1-285f" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Zlatlan" hidden="false" collective="false" import="true" targetId="4f93-979d-5df9-c956" type="selectionEntryGroup">
@@ -4901,7 +4913,15 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                   <entryLinks>
                     <entryLink id="1e06-bd7e-7cbe-6348" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="c0ae-cd84-1e55-066e" name="Talismanes mágicos. Las tierras del sur. No exploradores" hidden="false" collective="false" import="true" targetId="bb92-6870-a2f9-55a8" type="selectionEntryGroup"/>
-                    <entryLink id="9ec1-0c81-a4e1-959e" name="Talismanes mágicos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup"/>
+                    <entryLink id="9ec1-0c81-a4e1-959e" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="c1f7-5008-2b14-a7b0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fb1d-1fd9-107d-d434" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink id="8ffd-0a9f-48b5-2bf7" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Zlatlan" hidden="false" collective="false" import="true" targetId="4f93-979d-5df9-c956" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
@@ -6040,7 +6060,19 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                   <entryLinks>
                     <entryLink id="fc4e-b753-1f29-8f8f" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="f0cf-927e-b313-589b" name="Talismanes mágicos. Las tierras del sur. No exploradores" hidden="false" collective="false" import="true" targetId="bb92-6870-a2f9-55a8" type="selectionEntryGroup"/>
-                    <entryLink id="b89e-aa79-5415-43eb" name="Talismanes mágicos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup"/>
+                    <entryLink id="b89e-aa79-5415-43eb" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="29c2-cd25-9dc5-bef7" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="fb68-b8a9-0cb9-aad3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fb1d-1fd9-107d-d434" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                     <entryLink id="a7fd-6925-9bcf-870c" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Zlatlan" hidden="false" collective="false" import="true" targetId="4f93-979d-5df9-c956" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
@@ -6683,7 +6715,19 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38c3-7b33-ef66-d111" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="b409-fea0-2e9a-06ab" name="Talismanes mágicos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup"/>
+                    <entryLink id="b409-fea0-2e9a-06ab" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="fe83-46ca-639c-d31b" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="65e2-2ca4-7456-d8cf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fb1d-1fd9-107d-d434" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                     <entryLink id="e61b-0d0c-6a4b-11a4" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="12e4-fa81-597c-0153" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Zlatlan" hidden="false" collective="false" import="true" targetId="4f93-979d-5df9-c956" type="selectionEntryGroup">
                       <modifiers>
@@ -7180,7 +7224,19 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                   <entryLinks>
                     <entryLink id="d79d-6692-67f6-67b9" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="0058-53c7-9106-e171" name="Talismanes mágicos. Las tierras del sur. No exploradores" hidden="false" collective="false" import="true" targetId="bb92-6870-a2f9-55a8" type="selectionEntryGroup"/>
-                    <entryLink id="ea9d-640f-62bc-e709" name="Talismanes mágicos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup"/>
+                    <entryLink id="ea9d-640f-62bc-e709" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="4b35-3011-fbdc-25b1" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="d6ea-9efc-e28d-ddf7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fb1d-1fd9-107d-d434" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                     <entryLink id="86b1-42e2-364f-fad4" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Zlatlan" hidden="false" collective="false" import="true" targetId="4f93-979d-5df9-c956" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
@@ -7718,7 +7774,19 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                   <entryLinks>
                     <entryLink id="0cb7-5f35-56ba-2cae" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink id="6494-2e9a-891a-dcad" name="Talismanes mágicos. Las tierras del sur. No exploradores" hidden="false" collective="false" import="true" targetId="bb92-6870-a2f9-55a8" type="selectionEntryGroup"/>
-                    <entryLink id="1928-8e03-fd63-c736" name="Talismanes mágicos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup"/>
+                    <entryLink id="1928-8e03-fd63-c736" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="9962-e5c8-1a30-49d0" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="92ec-5164-47ba-9699" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fb1d-1fd9-107d-d434" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                     <entryLink id="660e-d711-08eb-697c" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Zlatlan" hidden="false" collective="false" import="true" targetId="4f93-979d-5df9-c956" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
@@ -10356,7 +10424,19 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
                   </constraints>
                   <entryLinks>
                     <entryLink id="0a57-9417-9aca-0431" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
-                    <entryLink id="5ebd-c509-def7-d4bf" name="Talismanes mágicos. Las tierras del sur" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup"/>
+                    <entryLink id="5ebd-c509-def7-d4bf" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                      <entryLinks>
+                        <entryLink id="5d04-1b9d-abb3-0868" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true" targetId="af3c-1c80-b954-5da7" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="f572-4cc2-7299-c022" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fb1d-1fd9-107d-d434" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </entryLink>
                     <entryLink id="052b-9996-82fa-bb26" name="Talismanes mágicos. Las tierras del sur. No exploradores" hidden="false" collective="false" import="true" targetId="bb92-6870-a2f9-55a8" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -15075,7 +15155,7 @@ montado en Terradón). Sin embargo, no puede unirse a otras unidades.</descripti
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="af3c-1c80-b954-5da7" name="Talismanes mágicos. Las tierras del sur" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="af3c-1c80-b954-5da7" name="Talismanes mágicos. Las tierras del sur. Desove sagrado de Quetzl" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f616-f514-11c9-3102" type="max"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1427-d398-bd5c-71ab" type="min"/>
@@ -15089,7 +15169,7 @@ montado en Terradón). Sin embargo, no puede unirse a otras unidades.</descripti
           <profiles>
             <profile id="4c10-9b9d-00dc-f2d2" name="Aura de Quetzl" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">El portador de este objeto tiene una tirada de salvación especial de 4+ contra los ataques de Fuerza 5 o mayor. Este objeto no confiere protección alguna contra otras formas de daño o ataques sin valor de Fuerza. </characteristic>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo miniaturas con el Desove sagrado de Quetzl. El portador de este objeto tiene una tirada de salvación especial de 4+ contra los ataques de Fuerza 5 o mayor. Este objeto no confiere protección alguna contra otras formas de daño o ataques sin valor de Fuerza. </characteristic>
               </characteristics>
             </profile>
           </profiles>

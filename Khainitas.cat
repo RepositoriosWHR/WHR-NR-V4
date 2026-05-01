@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b1c0-dfa2-401c-8ec1" name="Senda">
       <characteristicTypes>
@@ -20,7 +20,7 @@
   <selectionEntries>
     <selectionEntry id="d519-413f-c824-f70b" name="Elfas brujas" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e0b-c24b-ff1f-1830" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e0b-c24b-ff1f-1830" type="min"/>
       </constraints>
       <infoLinks>
         <infoLink id="fedc-bf4e-5599-72a2" name="Destreza marcial" hidden="false" targetId="1d18-7d1d-d362-79d6" type="rule"/>
@@ -5036,6 +5036,9 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
         <rule id="9ea1-5f3d-32d7-10d9" name="Asesino, no Líder" hidden="false">
           <description>Ninguna unidad de los Elfos oscuros puede beneficiarse del liderazgo de un Asesino. </description>
         </rule>
+        <rule id="72f0-06a5-1640-659e" name="Despliegue oculto" hidden="false">
+          <description>Pese a ser Khainita, Caldath puede unirse a unidades que no sean Khainitas. Puede elegir empezar la partida oculto en una unidad de entre las siguientes: Elfas brujas, Espadachines khainitas, Cazadoras, Verdugos de Har Ganeth y Damas de Khaine. Anota en la lista de ejército en qué unidad va oculto Caldath.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="0495-75b8-2825-8fdc" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
@@ -5725,6 +5728,124 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="898d-297d-8bbd-a3da" name="Hidra consagrada" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="7f85-fd43-6737-b365" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7f85-fd43-6737-b365" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f85-fd43-6737-b365" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c28c-3483-a0b4-69a2" name="Crecimiento mutante" hidden="false">
+          <description>Al final de cualquier fase en la que la hidra haya regenerado exitosamente dos o más heridas, tira 1D6: con un resultado de 4+, a la hidra le brotará una nueva cabeza, y obtendrá un modificador permanente de +1 a sus atributos de Heridas y Ataques. </description>
+        </rule>
+        <rule id="3d05-3663-5c1a-c5bf" name="Aliento de Hidra" hidden="false">
+          <description>Suma +1 a la Fuerza del arma de aliento de la Hidra por cada dos 
+cabezas nuevas que broten (debido a la regla Crecimiento mutante).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f770-248e-d112-de76" name="Arma de aliento" hidden="false" targetId="3438-0c27-972c-d418" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(F4, Ataques sólo flamígeros)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5dd0-fb93-41e7-c6d5" name="Cruzar" hidden="false" targetId="7ea4-f7e1-7e21-9266" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(Elementos acuáticos)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0329-fe4d-f030-122a" name="Piel escamosa (4+)" hidden="false" targetId="478f-4519-03d3-5004" type="rule"/>
+        <infoLink id="cd99-c421-a22b-d6d7" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
+        <infoLink id="b0af-cc34-1520-531a" name="Monstruo" hidden="false" targetId="0518-1c98-54e1-371d" type="rule"/>
+        <infoLink id="9b14-c059-7743-712f" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2ba6-f56c-ede8-3872" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f725-8405-93db-788d" name="Hidra consagrada" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba7f-f06f-77ac-b56f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0559-693a-06d0-49d0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="593f-3648-e321-7e9a" name="Hidra de guerra" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">2</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">6</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">6</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">4</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="235.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4500-cfb7-9c08-d737" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2ec-190b-1b05-a55d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b91-bf45-e777-8d67" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ab17-8385-7f60-fa53" name="Clave: Elfos Oscuros" hidden="false" collective="false" import="true" targetId="3f44-cfc7-1b54-f02b" type="selectionEntry"/>
+            <entryLink id="929f-8e8b-3478-c2a7" name="Clave: Khainitas" hidden="false" collective="false" import="true" targetId="55dd-6e77-d4c5-553f" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d544-1772-af62-a39f" name="Opciones" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="45de-02b6-a0bf-1fca" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2250-6c0b-99cf-7c6a" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5c45-5f5f-31fb-0e45" name="Armadura ligera" hidden="false" targetId="44f2-32d5-23eb-62f5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2fc2-ce73-2443-1ee6" name="Collares de Khaine" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c75a-f72c-e205-8dc1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1b62-a72a-fb7b-6594" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7065,20 +7186,20 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
             <cost name="pts" typeId="points" value="45.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ef08-dc43-c06c-cde1" name="Estandarte del asesinato" page="0" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ef08-dc43-c06c-cde1" name="Estandarte de la Mano Ensangrentada" page="0" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9252-13d3-cd8e-511c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb3d-b1cd-138c-32fd" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e420-1c8f-2c7f-51eb" name="Estandarte del asesinato" page="0" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
+            <profile id="e420-1c8f-2c7f-51eb" name="Estandarte de la Mano Ensangrentada" page="0" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">La unidad que lo porte obtendrá la regla Furia asesina y si ya disponía de esta regla no perderá su Furia asesina aunque sea derrotada en combate.</characteristic>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">La unidad obtendrá Odio (¡todos los enemigos!).</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="3e19-706a-1414-6e32" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
+            <infoLink id="3e19-706a-1414-6e32" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
@@ -7109,6 +7230,34 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b40b-213f-6105-4c4b" name="Pabellón de Maibd de Sangre Ardiente" page="0" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fe0d-fb03-f8b4-c5a3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e0b-760f-9ff1-ee2a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6cc1-2054-b13c-a4cb" name="Pabellón de Maibd de Sangre Ardiente" page="0" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Sólo Elfas Brujas o Reina bruja. Los impactos causados por la unidad que porte este estandarte y que hieran automáticamente a causa de la regla especial Ataques envenenados se resolverán con las reglas especiales Ataques flamígeros y Poder de penetración.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7843-ed9a-e271-bc64" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule">
+              <modifiers>
+                <modifier type="append" field="name" value="(Ataques envenenados)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="d7fd-76a5-8845-70e6" name="Ataques flamígeros" hidden="false" targetId="6985-722e-1ce4-b838" type="rule">
+              <modifiers>
+                <modifier type="append" field="name" value="(Ataques envenenados)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7246,7 +7395,8 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
           <profiles>
             <profile id="2697-8140-412c-44cc" name="Corona de la furia" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo Ungida de Khaine o Reina bruja. La portadora y todas las unidades de Khainitas a 12” o menos de ésta podrán repetir los resultados de 1 en sus tiradas para herir.</characteristic>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Sólo Ungida de Khaine o Reina bruja. La portadora y todas las unidades de Khainitas a 12” o menos de ésta podrán repetir los resultados de 1 en sus tiradas para herir. Además, si la portadora tiene como montura un 
+Caldero de Sangre tanto ella como todas las unidades unidades de Khainitas a 12” o menos de ésta podrán repetir los resultados fallidos de 1 en sus tiradas de regeneración.</characteristic>
               </characteristics>
             </profile>
           </profiles>
