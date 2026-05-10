@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -12275,7 +12275,7 @@ cuatro Peregrinos que huiránnjunto al resto de su unidad). El Relicario tiene u
         <infoLink id="0a51-2956-4e9f-71a8" name="Caballería" hidden="false" targetId="276f-0034-6534-f691" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="c2f6-e93b-db65-c7a0" name="Barda" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c2f6-e93b-db65-c7a0" name="Barda" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4308-d136-7b0a-aacf" type="max"/>
           </constraints>
