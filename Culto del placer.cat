@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a5d3-0db8-9903-f390" name="Culto del placer" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a5d3-0db8-9903-f390" name="Culto del placer" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9846-934f-6342-2762" name="Senda">
       <characteristicTypes>
@@ -4893,8 +4893,8 @@
       <selectionEntries>
         <selectionEntry id="85fe-f4d9-d0c2-91fd" name="Juramentados de Slaanesh" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7d7-d53c-5406-c67d" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3f7-6033-b6df-4fd7" type="min"/>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7d7-d53c-5406-c67d" type="max"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3f7-6033-b6df-4fd7" type="min"/>
           </constraints>
           <profiles>
             <profile id="0ec6-3aaf-1877-0695" name="Juramentado" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -5106,9 +5106,6 @@
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="6b28-28d6-fb80-03c1" name="Opciones" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c7c-7fe1-9472-f848" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="559d-0a41-9d99-64d6" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>

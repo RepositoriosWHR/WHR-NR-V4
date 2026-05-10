@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="2" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bff8-8e34-eb37-f67a" name="Saber del Fuego" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -639,6 +639,30 @@
           </constraints>
           <infoLinks>
             <infoLink id="a19a-9b0e-8eae-147d" name="Cánticos de guerra" hidden="false" targetId="87ba-d55f-658b-61e6" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b06c-7ae1-839b-dbd6" name="Plegarias a la Serpiente" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="309d-1ed2-bed9-86dd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7b4d-fdc4-2d6c-c59a" name="Plegarias a la Serpiente" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="d038-97be-ba66-0339" name="Mostrar plegarias" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e183-5d68-241d-d6c8" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="83fb-efcf-e6b4-2675" name="Plegaria a la Serpiente" hidden="false" targetId="e1dd-0fc9-8741-e6c5" type="infoGroup"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -3169,6 +3193,64 @@ Reglas especiales: Volar (8), Piel escamosa (3+), Arma de aliento (Fuerza 4 y At
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber del Fuego tiene las reglas especiales Ataques flamígeros e Inmune a fuego.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="e1dd-0fc9-8741-e6c5" name="Plegaria a la Serpiente" hidden="false">
+      <profiles>
+        <profile id="158e-2378-6aa6-1f42" name="Fuerza de serpiente" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos de la lanzadora y que Permanece un turno. Por la duración del hechizo, la unidad obtiene la regla especial Ataques mágicos y un bonificador de +1 en sus tiradas para herir en combate cuerpo a cuerpo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bd90-d4f2-07f7-53da" name="Canto hipnótico" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos de la lanzadora y que Permanece un turno. Por la duración del hechizo, las unidades enemigas que ataquen a la unidad afectada en combate cuerpo a cuerpo tendrán un penalizador de -1 en sus tiradas para impactar.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bb0a-43c8-8b59-80bb" name="Escudo de colmillos" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos de la lanzadora y que Permanece un turno. Por la duración del hechizo, al inicio de cada fase de combate, las miniaturas enemigas en contacto peana con peana con la unidad afectada sufrirán un impacto de F3 con la regla especial Poder de Penetración. Las heridas causadas por este efecto cuentan para la resolución del combate.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cda2-5895-ba1f-ecff" name="Viento cortante" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una unidad enemiga a 24” o menos de la Sacerdotisa. La unidad sufrirá 3D6 impactos de F2, que aumenta a F3 si la sacerdotisa se encuentra a 12” o menos de la unidad designada. Los resultados naturales de 6 para herir niegan la tirada de salvación por armadura.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6b16-af9a-156b-cb0a" name="Torbellino de Wendala" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos de la lanzadora y que Permanece un turno. Por la duración del hechizo, los disparos dirigidos contra la sacerdotisa y/o la unidad que la acompañe tendrán un penalizador de -1 en sus tiradas para impactar. Las armas de Tormenta de proyectiles y las miniaturas del tipo Máquina de guerra deberán obtener un resultado de 4+ en 1D6 antes de disparar contra la unidad o deberán seleccionar otro objetivo. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b923-e10e-b171-2c31" name="Aura de Shaekal" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos de la lanzadora y que Permanece un turno. Por la duración del hechizo, la unidad obtiene la regla especial Inmune a fuego.</characteristic>
           </characteristics>
         </profile>
       </profiles>
