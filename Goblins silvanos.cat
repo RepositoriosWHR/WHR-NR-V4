@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2abc-21bd-490b-8e80" name="Goblins silvanos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2abc-21bd-490b-8e80" name="Goblins silvanos" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="cff3-8c5a-f6b1-332b" name="Zendero">
       <characteristicTypes>
@@ -620,7 +620,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts" typeId="points" value="9.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2b5d-25a1-c50e-a41d" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1016,7 +1016,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts" typeId="points" value="16.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5800-79c0-2d4b-8c9a" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -6256,7 +6256,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
                 <infoLink id="7b1f-7b8e-b812-6be8" name="Emboscada" hidden="false" targetId="205a-c2c4-c48e-44c2" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6707,7 +6707,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       </constraints>
       <rules>
         <rule id="397c-d58d-c7a4-8bbd" name="Dezkaztadoz" hidden="false">
-          <description>Ningún personaje puede unirse a esta unidad salvo que tenga el Zendero del Danzante.</description>
+          <description>Ningún personaje puede unirse a esta unidad salvo que tenga el Zendero del Danzante. Además, si esta unidad falla un chequeo de Animozidad, considerará los resultadosde 4 y 5 en la tabla como si fueran resultados de 6.</description>
         </rule>
         <rule id="bcd2-1381-1a52-a121" name="Danzaz de guerra de la Araña" hidden="false">
           <description>Al inicio de cada fase de combate cuerpo a cuerpo, debes elegir una de las Danzaz listadas a continuación para la unidad. No pueden usar la misma danza en dos fases de combate consecutivas. Los efectos de las Danzaz durarán hasta el inicio de la siguiente Fase de Combate. 
@@ -6727,6 +6727,8 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         <infoLink id="abb5-ea44-7b5f-5a79" name="Miedo a loz orejotaz" hidden="false" targetId="45ff-044b-b650-84f8" type="rule"/>
         <infoLink id="0408-9703-f7dd-7597" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
         <infoLink id="a5bf-9de5-7bbd-1ff7" name="Esquivar (5+)" hidden="false" targetId="053b-3b96-b53b-6944" type="rule"/>
+        <infoLink id="5fdf-6861-3d5d-126f" name="Animosidad" hidden="false" targetId="131b-0bae-0b47-95fe" type="rule"/>
+        <infoLink id="3c35-537e-a270-bc43" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="918f-687d-5502-cb8b" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
@@ -7767,7 +7769,7 @@ D6 	Resultado (Agarrar y...)
           <profiles>
             <profile id="1557-8e8a-8bf9-e1ab" name="Ezkudo quitinoso" hidden="false" typeId="219b-aed3-c65c-d46d" typeName="Armadura mágica">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="e0ed-7366-4856-8f3d">Escudo. La tirada de salvación por armadura del portador se incrementa en +1, y nunca se ve reducida por la Fuerza del oponente (sin embargo, Poder de penetración sí afectará, y no protegerá contra efectos que no permitan tirad de salvación por armadura).</characteristic>
+                <characteristic name="Reglas especiales" typeId="e0ed-7366-4856-8f3d">Escudo. Sólo miniaturas con Potencia de unidad 4 o inferior. La tirada de salvación por armadura del portador se incrementa en +1, y nunca se ve reducida por la Fuerza del oponente (sin embargo, Poder de penetración sí afectará, y no protegerá contra efectos que no permitan tirad de salvación por armadura).</characteristic>
               </characteristics>
             </profile>
           </profiles>
