@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a5d3-0db8-9903-f390" name="Culto del placer" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a5d3-0db8-9903-f390" name="Culto del placer" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9846-934f-6342-2762" name="Senda">
       <characteristicTypes>
@@ -5265,7 +5265,7 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="49d3-1551-6643-0e92" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
+        <categoryLink id="a319-6768-c0ff-f6d8" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8bcb-1ff8-ae69-230a" name="Jinetes Juramentados" hidden="false" collective="false" import="true" type="model">
@@ -5299,7 +5299,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="44.0"/>
+            <cost name="pts" typeId="points" value="36.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="18c1-84d6-aec9-85dd" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -7458,8 +7458,8 @@
         <infoLink id="d911-8781-9149-65b5" name="Odio (Altos elfos)" hidden="false" targetId="54ab-9e52-1a7a-8fb2" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e823-f299-83c8-b7a6" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
         <categoryLink id="55e0-b052-cba5-ceca" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
+        <categoryLink id="b63d-71a1-d3b2-715d" name="New CategoryLink" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="de4b-ab35-5d12-9a79" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -11602,6 +11602,9 @@ etéreos. </description>
         <rule id="4084-bbd3-a6f4-65d6" name="Imbuir frenesí (Súcubu)" hidden="false">
           <description>Se trata de un Objeto portahechizos con nivel de energía 2 que contiene el hechizo Frenesí histérico del Saber de Slaanesh.</description>
         </rule>
+        <rule id="1503-2aa6-4a8e-19cc" name="Marca de Slaanesh. Trono del Príncipe Negro" hidden="false">
+          <description>Porta la Marca de Slaanesh, que le otorga la regla especial Sangre fría.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="e96a-9290-3f8b-daf9" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
@@ -11618,6 +11621,7 @@ etéreos. </description>
             <modifier type="append" field="name" value="(Guardianas)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="3e2f-fd17-0ffe-fcce" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="567b-1b70-cfdb-9248" name="Trono del Príncipe Negro" hidden="false" collective="false" import="true" type="upgrade">
@@ -11758,18 +11762,6 @@ etéreos. </description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="0814-22a4-27bc-3bcb" name="Marca de Slaanesh" hidden="false" collective="false" import="true" targetId="eae0-8851-1a50-1bd5" type="selectionEntry">
-          <rules>
-            <rule id="8c08-c4be-b879-c64d" name="Marca de Slaanesh. Trono del Príncipe Negro" hidden="false">
-              <description>Porta la Marca de Slaanesh, que le otorga la regla especial Sangre fría.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="ac01-f128-e28d-fc35" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
-          </infoLinks>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>

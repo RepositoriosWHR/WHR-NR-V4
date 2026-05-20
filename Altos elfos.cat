@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a20d-ec9e-719a-2f03" name="Senda">
       <characteristicTypes>
@@ -132,12 +132,12 @@
                 <cost name="pts" typeId="points" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7db0-941a-3b0c-c0e9" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7db0-941a-3b0c-c0e9" name="Ojo de halcón" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ec4-0c41-ddb8-30a1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a8f2-6e6b-a1b2-db51" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="a8f2-6e6b-a1b2-db51" name="Ojo de halcón" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <modifiers>
                     <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
                       <conditions>
@@ -300,12 +300,12 @@
                 <cost name="pts" typeId="points" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="638b-5d5d-65f6-913c" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="638b-5d5d-65f6-913c" name="Centinela " hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8a-1f62-3580-aba3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7bb8-0aec-28b3-758e" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="7bb8-0aec-28b3-758e" name="Centinela " hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <modifiers>
                     <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                       <conditions>
@@ -550,12 +550,12 @@
                 <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="07ea-f546-ccca-9a41" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="07ea-f546-ccca-9a41" name="Heraldo de Ellyrion" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="948b-84bc-bd45-571d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="d9d9-f294-6f65-ac9d" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="d9d9-f294-6f65-ac9d" name="Heraldo de Ellyrion" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <modifiers>
                     <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                       <conditions>
@@ -823,12 +823,12 @@
                 <cost name="pts" typeId="points" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3e56-9190-2de0-9a38" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3e56-9190-2de0-9a38" name="Señor del mar " hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a3c-8534-d69b-893e" type="max"/>
               </constraints>
               <profiles>
-                <profile id="cb39-3f1c-c0af-76ec" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="cb39-3f1c-c0af-76ec" name="Señor del mar " hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <modifiers>
                     <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                       <conditions>
@@ -1238,12 +1238,12 @@
                 <cost name="pts" typeId="points" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ceaf-2153-1623-81e8" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ceaf-2153-1623-81e8" name="Señor de la espada" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0be-9722-7743-c4ad" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7aa5-bc92-81a6-8d2d" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="7aa5-bc92-81a6-8d2d" name="Señor de la espada" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
@@ -1446,12 +1446,12 @@
                 <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9bd8-d9a8-4004-0ea7" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9bd8-d9a8-4004-0ea7" name="Guardián de Cracia" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36c1-dc7a-0e1b-e10b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1847-e5a8-7c74-c58e" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="1847-e5a8-7c74-c58e" name="Guardián de Cracia" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
@@ -1640,12 +1640,12 @@
                 <cost name="pts" typeId="points" value="6.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3aeb-5ed8-e49b-7f84" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3aeb-5ed8-e49b-7f84" name="Protector de la llama" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa89-e6cb-c7ee-bb64" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ae4a-564c-b901-4fc3" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="ae4a-564c-b901-4fc3" name="Protector de la llama" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
@@ -1894,12 +1894,12 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="ae9a-afab-cbe2-0aca" name="Grupo de mando" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="a3b8-5411-7bc9-243b" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a3b8-5411-7bc9-243b" name="Maestro sombrío" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2f7-2e8f-cf31-0f7c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7233-2c27-9791-f5f4" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="7233-2c27-9791-f5f4" name="Maestro sombrío" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
@@ -2558,12 +2558,12 @@
                 <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="768d-0cb3-a3bb-24c0" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="768d-0cb3-a3bb-24c0" name="Gran príncipe dragón " hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b8c-f72e-f143-d91b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f1e3-4518-46f3-743d" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="f1e3-4518-46f3-743d" name="Gran príncipe dragón " hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
@@ -3085,12 +3085,12 @@
                 <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="edb3-3d8b-047b-e95d" name="Oficial" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="edb3-3d8b-047b-e95d" name="Alta hermana" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b612-973a-7180-ba0d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="26cd-6788-1875-390f" name="Oficial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                <profile id="26cd-6788-1875-390f" name="Alta hermana" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">5</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>

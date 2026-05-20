@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f56e-da6a-d244-d8f9" name="Orden de caballería">
       <characteristicTypes>
@@ -675,7 +675,7 @@ Avance escalonado: la unidad podrá mover (pero no marchar) y en la fase de disp
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="4297-fc20-1143-ae5e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f282-1e01-1a63-f779" type="equalTo"/>
+                            <condition field="selections" scope="4297-fc20-1143-ae5e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f282-1e01-1a63-f779" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1230,17 +1230,6 @@ Avance escalonado: la unidad podrá mover (pero no marchar) y en la fase de disp
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="c334-ff59-7f59-ac65" name="Mosquete" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb5-ce83-73c9-241f" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="0d83-34df-12ef-769b" name="Mosquete" hidden="false" targetId="3701-eabf-00c3-5a11" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1a5b-61b0-9d99-9a65" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
@@ -5787,7 +5776,7 @@ atrás! ni Presencia inspiradora.</description>
         </modifier>
         <modifier type="set" field="234c-8674-9a81-57a8" value="3.0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5927,7 +5916,7 @@ atrás! ni Presencia inspiradora.</description>
         </modifier>
         <modifier type="set" field="f41e-3cb6-983d-eeca" value="3.0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -6902,6 +6891,11 @@ atrás! ni Presencia inspiradora.</description>
         <modifier type="set" field="8cf3-7315-940e-5613" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="8cf3-7315-940e-5613" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -8225,7 +8219,7 @@ Lanza y Escudo.</characteristic>
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
-                            <condition field="selections" scope="c8e2-42e9-1a2d-ff2c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1bf4-4534-5633-c6c0" type="equalTo"/>
+                            <condition field="selections" scope="c8e2-42e9-1a2d-ff2c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1bf4-4534-5633-c6c0" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -12448,7 +12442,7 @@ flamígeros y Heridas múltiples (2).</characteristic>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="89ae-f60b-80b0-8549" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -13933,6 +13927,123 @@ flamígeros y Heridas múltiples (2).</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e8c-f988-20eb-27c8" name="[Ex] - La Tarasca" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="90a6-47a0-72ab-d9b4" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="31a8-efd1-5746-654b" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90a6-47a0-72ab-d9b4" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="9848-704e-cc06-48ec" name="Embestida poderosa" hidden="false">
+          <description>Para determinar los Impactos por carga de la Tarasca, tira 2D6 y elige el resultado mayor. Sus impactos por carga se resuelven con la regla especial Golpe letal heroico.</description>
+        </rule>
+        <rule id="543c-137b-ddbf-d673" name="Impermeable a la magia" hidden="false">
+          <description>La Tarasca tiene la regla especial Resistencia mágica (3). En una excepción a las reglas habituales, esta regla especial puede ser utilizada también por el oponente si la Tarasca recibe un hechizo de Potenciación. Además, cualquier hechicero (amigo o enemigo) que tome como objetivo a la Tarasca con uno de sus hechizos debe obtener un resultado igual o inferior a su nivel de magia en una tirada de 1D6 o sufrirá una herida sin tirada de salvación por armadura (esto se realiza antes de la tirada de lanzamiento del hechizo).</description>
+        </rule>
+        <rule id="3e06-05c2-c8c5-bac2" name="Metabolismo monstruoso" hidden="false">
+          <description>La Tarasca tiene la regla especial Regeneración (5+). Además, al inicio de cada uno de tus turnos, la Tarasca recupera una herida que hubiese sufrido con anterioridad durante la batalla.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="61e7-ed22-a574-17ed" name="Monstruosamente grande" hidden="false" targetId="38d4-1707-be50-7d0f" type="rule"/>
+        <infoLink id="3a8d-268c-72ee-ead3" name="Monstruo" hidden="false" targetId="0518-1c98-54e1-371d" type="rule"/>
+        <infoLink id="c8a1-588b-045b-7854" name="Unidad legendaria" hidden="false" targetId="729e-2ed5-79eb-8288" type="rule"/>
+        <infoLink id="6b55-fddb-d6fa-8627" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
+        <infoLink id="fa73-a112-4749-ad65" name="Piel escamosa (1+)" hidden="false" targetId="5e2e-d24c-0c35-66d9" type="rule"/>
+        <infoLink id="7453-7b48-75f8-bc3c" name="Golpe letal heróico" hidden="false" targetId="95ce-f21a-29e1-42a2" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(Impactos por carga)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f032-fea8-0817-e918" name="Resistencia mágica (3)" hidden="false" targetId="c9ab-a12d-0ce9-430c" type="rule"/>
+        <infoLink id="0aac-1951-b7a5-34f6" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4a9d-4d5e-a028-fcff" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="575c-d362-bfa0-2fb1" name="La Tarasca" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="073a-8ddf-fd87-a787" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e9d-f430-7f54-7f1d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e80d-ba47-ab64-d196" name="La Tarasca" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">8</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">8</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">8</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">7</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">1</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="450.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e52c-97a4-1e19-0682" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b961-96bf-5a94-b560" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a81-a0df-56bf-8180" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="12cd-1519-05fe-c85c" name="Garras, dientes y cuernos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a8ba-41cd-8a99-6e11" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77bc-fa03-8fd3-5226" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3aed-3454-3cbf-dfd8" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="00e0-b827-ff8c-8b6d" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cebc-fd1e-4704-bc48" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b5-f995-3efa-2a26" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0c5c-91a4-3dc4-667d" name="Clave: Estalia" hidden="false" collective="false" import="true" targetId="10d1-756a-68ff-c681" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
