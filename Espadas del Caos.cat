@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36e9-44aa-523d-fdf6" name="Espadas del Caos" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36e9-44aa-523d-fdf6" name="Espadas del Caos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="cf08-e228-80d6-f0ee" name="Recompensa del caos">
       <characteristicTypes>
@@ -4846,7 +4846,7 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="325.0"/>
+            <cost name="pts" typeId="points" value="375.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7353-95b4-75c1-dcc6" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -4876,7 +4876,6 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
             </rule>
           </rules>
         </entryLink>
-        <entryLink id="7670-a84a-afaf-6aa0" name="Saga (Crom)" hidden="false" collective="false" import="true" targetId="28fd-1c1d-79cb-c23c" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4913,12 +4912,12 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
       </rules>
       <infoLinks>
         <infoLink id="d203-222c-f197-99f8" name="Caballería monstruosa" hidden="false" targetId="a7be-2cd9-f3c6-b091" type="rule"/>
-        <infoLink id="cfc7-c7ec-0bcc-cefe" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
         <infoLink id="3fb8-970b-e0d7-5faa" name="Leyenda" hidden="false" targetId="d331-afa2-533e-c273" type="rule"/>
         <infoLink id="ca80-6ff2-04f9-bc34" name="Presencia inspiradora" hidden="false" targetId="b950-0689-6573-779c" type="rule"/>
         <infoLink id="2285-255e-990f-9fc4" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
         <infoLink id="72a3-5acf-e1c4-5761" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
         <infoLink id="cd02-f218-1ceb-0a21" name="Ojo de los dioses" hidden="false" targetId="0799-cc58-3276-4a94" type="rule"/>
+        <infoLink id="01f1-e080-614b-efe4" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6a29-7d35-dd7a-c6a4" name="New CategoryLink" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
@@ -5489,7 +5488,7 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
 
 D6+turno	 Efecto en Syrkaar
 2-4 Delirios demoníacos: Obtiene la regla especial Estupidez (debes chequear inmediatamente).
-5 Protección demoníaca: La regla especial Esquivar de Styrkaar (y de su montura) aumenta a 4+.
+5 Protección demoníaca: Styrkaar y su montura pueden repetir los resultados de 1 en sus tiradas de salvación por armadura y Esquivar.
 6 Terror demoníaco: Styrkaar causa Terror y se duplica el radio de efecto de su Recompensa del CaosmEsplendor diabólico.
 7 Guía demoníaca: Styrkaar puede repetir sus tiradas fallidas para impactar.
 8 Foco de Slaanesh: Styrkaar y todas las unidades amigas con la Marca de Slaanesh o la regla especial Demonio (Slaanesh) a 12” obtienen +1 Ataque.
@@ -5501,6 +5500,7 @@ D6+turno	 Efecto en Syrkaar
         <infoLink id="41db-af4f-e24e-ea36" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
         <infoLink id="fa5a-19f9-6348-ef94" name="Orgullo marcial" hidden="false" targetId="2707-4d2a-ddbd-e301" type="rule"/>
         <infoLink id="08b8-06de-a579-9610" name="Esquivar (4+)" hidden="false" targetId="89b2-357c-6f88-920c" type="rule"/>
+        <infoLink id="cd72-8d2f-f388-98c1" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5624-d4f1-72b3-5458" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
@@ -5718,6 +5718,7 @@ D6+turno	 Efecto en Syrkaar
         <infoLink id="01cb-7768-c1ab-f1bd" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
         <infoLink id="4915-c956-9dd2-8f28" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
         <infoLink id="eb7f-f563-e14b-d7ca" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
+        <infoLink id="f46d-f339-1bb7-f7a7" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="04aa-0c0a-c353-40a4" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
@@ -5950,6 +5951,7 @@ D6+turno	 Efecto en Syrkaar
         </infoLink>
         <infoLink id="cb6c-c036-9ad5-74ce" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
         <infoLink id="251c-1a19-6e8c-100c" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
+        <infoLink id="3865-645a-edf8-b87e" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="183e-7ec5-8e06-caa4" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="2" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="3" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bff8-8e34-eb37-f67a" name="Saber del Fuego" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -672,6 +672,27 @@
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="2a66-c511-029d-f60a" name="Plegarias a Sotek" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51d0-9536-0ef7-0092" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9de3-c22f-8592-41c8" name="Plegarias a Sotek" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="9f98-bf60-ebd1-9b2f" name="Mostrar plegarias" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="201f-4780-dc77-6d2f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b213-dc55-bb99-f220" name="Plegarias a Sotek" hidden="false" targetId="a869-e19f-5a53-dfa9" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedInfoGroups>
@@ -3251,6 +3272,58 @@ Reglas especiales: Volar (8), Piel escamosa (3+), Arma de aliento (Fuerza 4 y At
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos de la lanzadora y que Permanece un turno. Por la duración del hechizo, la unidad obtiene la regla especial Inmune a fuego.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="a869-e19f-5a53-dfa9" name="Plegarias a Sotek" hidden="false">
+      <profiles>
+        <profile id="b7f4-2b75-3d0d-37c6" name="Frenesí reptil" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciacion</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos del lanzador y Permanece un turno. Por la duración de la plegaria, la unidad obtiene un bonificador de +1 a su Iniciativa y la regla especial Ataque rápido.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="357a-8ad3-f4c9-1c2e" name="Furor ferviente" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos del lanzador y Permanece un turno. Por la duración de la plegaria, los ataques que reciba la unidad en combate cuerpo a cuerpo obtendrán un penalizador de -1 en sus tiradas para herir</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="614e-b2ad-d0e7-0d03" name="Colmillos de Sotek" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos del lanzador y Permanece un turno. Por la duración de la plegaria, la unidad obtiene las reglas especiales Poder de penetración y Ataques envenenados en sus ataques en cuerpo a cuerpo; si ya disponían de esta regla especial, herirán automáticamente con resultados de 5+ en lugar de
+sólo con 6.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5ca4-8127-ac8c-ff00" name="Sangre ritual" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una
+unidad amiga a 6” o menos del lanzador y Permanece un turno. Por la duración de la plegaria, la unidad obtiene la regla especial Regeneración (6+). Además, mientras dure este efecto, la unidad podrá restablecer una herida por cada tres
+heridas que logre causar en combate cuerpo a cuerpo (no puede restablecer personajes, oficiales ni portaestandartes con este efecto).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="374a-e2df-8100-b71b" name="Ojos de serpiente" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos del lanzador y Permanece un turno. Por la duración de la plegaria, la unidad causará Miedo; si ya causaba Miedo, causará Terror.</characteristic>
           </characteristics>
         </profile>
       </profiles>

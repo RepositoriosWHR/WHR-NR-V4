@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="308b-f135-dcd0-c1ff" name="Hueste Roja" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="308b-f135-dcd0-c1ff" name="Hueste Roja" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b4fe-0f5d-c558-9ec9" name="Desove">
       <characteristicTypes>
@@ -33,7 +33,7 @@
           <description>Tehenhauin tiene la regla especial Indesmoralizable; pese a ello, podrá ser desplegado junto a una unidad de Guerreros eslizón, de Eslizones de Cresta Roja o Cohorte de Sotek, la cual obtendrá la regla especial Indesmoralizable hasta que Tehenhauin sea retirado como baja. En tal caso, Tehenhauin deberá ser desplegado en dicha unidad y no podrá abandonarla.</description>
         </rule>
         <rule id="8a10-92a2-cd0e-3ab0" name="Azote de alimnañas" hidden="false">
-          <description>Tehenhauin causará Terror a las unidades de skavens.</description>
+          <description>Tehenhauin causa Terror a las unidades de skavens.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -671,6 +671,22 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a75f-5fc5-5578-9a04" name="Devoción por Sotek" hidden="false" collective="false" import="true" targetId="7a96-9bb6-09be-5f93" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="cea0-6c7e-1f2a-93d5" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d06f-1833-5f32-ca04" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="17de-3f4c-36b9-0e50" value="1.0">
+              <conditions>
+                <condition field="selections" scope="cea0-6c7e-1f2a-93d5" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aed7-dc54-4c35-3095" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -4174,30 +4190,6 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="eb91-2385-406a-6487" name="Opciones" hidden="false" collective="false" import="true">
-          <selectionEntries>
-            <selectionEntry id="e455-85e3-ccac-4d7b" name="Jabalina" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8534-92aa-297b-c42a" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="7666-71e1-31a9-8a58" name="Jabalina" hidden="false" targetId="a629-6d4b-3e74-7ff7" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e2b5-2a95-af82-43c6" name="Cerbatana" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1f8-663b-eb80-b271" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1689-b477-a2b2-0983" name="Cerbatana" hidden="false" targetId="e08b-4c5b-5c51-7b24" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="1897-15ad-bb38-4451" name="Armas de combate" hidden="false" collective="false" import="true">
               <constraints>
@@ -5466,6 +5458,17 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b321-ef5f-f82c-153c" name="Devoción por Sotek" hidden="false" collective="false" import="true" targetId="7a96-9bb6-09be-5f93" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="17de-3f4c-36b9-0e50" value="1.0">
+              <conditions>
+                <condition field="selections" scope="1cae-9744-731f-b26a" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4c05-d609-0dc3-6c57" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -6552,7 +6555,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts" typeId="points" value="6.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f9d5-893e-5330-9ad1" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
@@ -6728,6 +6731,17 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="22e7-54fb-1b75-269a" name="Devoción por Sotek" hidden="false" collective="false" import="true" targetId="7a96-9bb6-09be-5f93" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="17de-3f4c-36b9-0e50" value="1.0">
+              <conditions>
+                <condition field="selections" scope="ea38-e075-63d5-0a9a" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="516b-dc78-bf9a-5900" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -9493,6 +9507,440 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c79c-c8f8-161f-5303" name="Sacerdote de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="265e-93fb-6c26-3479" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a96-9bb6-09be-5f93" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="265e-93fb-6c26-3479" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="3519-9005-e727-3cb6" name="Magia de Sacerdote de Sotek" hidden="false">
+          <description>Puede tener Nivel de magia 1 (+40 puntos). Puede elegir sus hechizos del Saber de los Cielos, Luz, Bestias o Vida.</description>
+        </rule>
+        <rule id="4a4f-d5fc-53fe-d007" name="La ofrenda a Sotek" hidden="false">
+          <description>El Sacerdote de Sotek obtendrá un bonificador de +1 al nivel de lanzamiento de su plegaria si la unidad que lo acompaña logró causar cuatro heridas en la fase de combate anterior al lanzamiento de la plegaria, o de +2 si logró causar ocho o más heridas. Además, si consiguió causar más de doce heridas en la anterior fase de combate, podrá lanzar una plegaria adicional.</description>
+        </rule>
+        <rule id="9927-744a-8d71-3a80" name="Plegarias de Sacerdote de Sotek" hidden="false">
+          <description>Un Sacerdote de Sotek conoce todas las Plegarias de Sotek y puede lanzar una de ellas por fase de magia propia con nivel de energía 3.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="31de-919c-87b2-7ba8" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
+        <infoLink id="4343-ccf8-0bdd-ead6" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="c79c-c8f8-161f-5303" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dbf-0007-2ab8-19c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="04a2-eb35-6a75-d699" name="Cruzar (Elementos acuáticos)" hidden="false" targetId="3043-3cbd-459e-ab48" type="rule"/>
+        <infoLink id="f478-b04b-36c6-8231" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
+        <infoLink id="e7de-ef79-1489-34ef" name="Sacerdote" hidden="false" targetId="1fc6-22eb-3dba-dae7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="144a-bea6-f0ab-8e59" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
+        <categoryLink id="9ecb-48aa-61f3-8256" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0a9b-167a-c3fb-30a4" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4691-e6d4-c424-fbed" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1528-5581-a35c-187d" name="Objetos mágicos" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4b-6b41-214d-063c" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="4204-0064-4023-6778" name="Armas mágicas" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e82-86a1-1f9a-8dee" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5ec0-5e8f-b65d-217a" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
+                    <entryLink id="8f23-f3a6-64d1-ef6e" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                    <entryLink id="e50b-bcdf-a5c7-8e20" name="Armas mágicas. Armas emparejadas" hidden="false" collective="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
+                    <entryLink id="5f5c-5aae-3ce8-2330" name="Armas mágicas. Hechiceros. Arma de mano" hidden="false" collective="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="c79c-c8f8-161f-5303" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="df73-2ada-81ff-5b76" name="Armas mágicas. Hechiceros. Armas emparejadas" hidden="false" collective="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="c79c-c8f8-161f-5303" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="0e17-422c-f022-de9d" name="Armas mágicas. Hueste roja. Arma a dos manos" hidden="false" collective="false" import="true" targetId="188e-161e-8d8e-19e7" type="selectionEntryGroup"/>
+                    <entryLink id="b814-217e-29c4-1dc1" name="Armas mágicas. Hueste roja. Arma de mano" hidden="false" collective="false" import="true" targetId="2ff0-7c67-b06d-0869" type="selectionEntryGroup"/>
+                    <entryLink id="d87d-2906-bc23-f0a8" name="Armas mágicas. Hueste roja. Armas emparejadas" hidden="false" collective="false" import="true" targetId="d0e4-a9d0-9041-1069" type="selectionEntryGroup"/>
+                    <entryLink id="1b3a-aa2e-98b7-4d1f" name="Armas mágicas. Lanza" hidden="false" collective="false" import="true" targetId="d8b7-876d-b68d-3fb1" type="selectionEntryGroup"/>
+                    <entryLink id="0656-5331-8e3f-ae44" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink id="1ee8-98fd-7299-a1dc" name="Armas mágicas. Hueste roja. Arma de mano. Eslizón" hidden="false" collective="false" import="true" targetId="97e9-6354-0db4-85d7" type="selectionEntryGroup"/>
+                    <entryLink id="39da-a990-690e-7052" name="Armas mágicas. Hueste roja. Arma de mano. Eslizón Desove sagrado de Sotek" hidden="false" collective="false" import="true" targetId="ed2e-5dcb-ea79-1ef6" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="7f33-10f6-26ed-fcac" name="Artefactos arcanos" hidden="false" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c79c-c8f8-161f-5303" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="614d-bf3c-8921-4b1d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccae-b508-021f-4ee8" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="26e1-7a9d-b905-92f0" name="Artefactos arcanos" hidden="false" collective="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
+                    <entryLink id="4250-472b-2ae9-f881" name="Artefactos arcanos. Hueste roja" hidden="false" collective="false" import="true" targetId="2ead-fda9-b17e-b4c6" type="selectionEntryGroup"/>
+                    <entryLink id="327f-877b-578e-97f0" name="Artefactos arcanos. Personajes del Orden" hidden="false" collective="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup"/>
+                    <entryLink id="1f54-22f0-8746-007c" name="Artefactos arcanos. Hueste roja. Gran oráculo o Chamán eslizón" hidden="false" collective="false" import="true" targetId="1dbb-15c5-3cf5-0b34" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="d3df-8ad6-df58-57ee" name="Objetos hechizados" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fd7-1915-45a6-9450" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="66a8-c737-cbdf-7842" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
+                    <entryLink id="8e4a-2878-b313-7cf6" name="Objetos hechizados. Hueste roja. Eslizones" hidden="false" collective="false" import="true" targetId="3b5b-f7f3-29db-7b25" type="selectionEntryGroup"/>
+                    <entryLink id="dc47-b3cf-1daa-61a6" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="c79c-c8f8-161f-5303" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dbf-0007-2ab8-19c2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="37d5-255d-e3cf-6edb" name="Objetos hechizados. Hueste roja" hidden="false" collective="false" import="true" targetId="4732-1b03-9185-c897" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="6a58-e856-559b-f567" name="Talismanes mágicos" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a5-1be1-636e-22af" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5ecd-835b-61db-b51f" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink id="8725-3ed0-ab08-2012" name="Talismanes mágicos. Hueste roja" hidden="false" collective="false" import="true" targetId="c157-d46a-17f4-b355" type="selectionEntryGroup"/>
+                    <entryLink id="8755-85f8-2abf-def2" name="Talismanes mágicos. Hueste roja. Eslizones" hidden="false" collective="false" import="true" targetId="2cef-f76f-ca65-3dfe" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dfb3-8783-f69d-3282" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b64c-0e32-d5f0-5ab6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6a60-ea1d-5a71-e4cb" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d7c-4439-250d-a711" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a25a-a792-1441-d0a5" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bde5-8b84-80f0-5410" name="Sacerdote de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3624-cef6-e3ba-2dfc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69c6-609c-524c-4f83" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6933-3d34-cda5-39ec" name="Sacerdote de Sotek" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="c79c-c8f8-161f-5303" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c226-4a11-77f9-7ee3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="c79c-c8f8-161f-5303" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dbf-0007-2ab8-19c2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4c4423232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="c79c-c8f8-161f-5303" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dfb3-8783-f69d-3282" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">2</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">2</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">7</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="55.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="466e-6978-c9ac-5808" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f81-ab4d-f07f-d3d2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e4c-7c0c-420a-8e0b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a3f5-15ac-fffb-3d6f" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="153b-1555-9821-dbe3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4247-18ea-0953-f62c" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="085b-015b-39c9-3e4c" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="784d-4aa1-df3f-be15" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81fc-c2f8-0205-0ee2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15db-073c-b1e3-291e" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f16a-a04f-2f85-5259" name="Clave: Eslizones" hidden="false" collective="false" import="true" targetId="9b1b-29f5-0a60-1b2a" type="selectionEntry"/>
+            <entryLink id="9d9e-a7d9-e41f-cfbd" name="Clave: Hombres Lagarto" hidden="false" collective="false" import="true" targetId="0106-9538-0dac-f566" type="selectionEntry"/>
+            <entryLink id="c5a3-1754-e4d9-b49a" name="Clave: Hueste roja" hidden="false" collective="false" import="true" targetId="b910-0ad5-97ce-ed09" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9aa9-fa10-86c1-e76a" name="Desove sagrado de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5fc6-2ea7-497b-f40f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="48f2-d432-fcea-da37" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b793-4e7a-25bf-0d03" name="Desove sagrado de Sotek" hidden="false" typeId="b4fe-0f5d-c558-9ec9" typeName="Desove">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="776f-590a-f508-e275">Las miniaturas pertenecientes a este desove obtienen la regla especial Odio (¡todos los enemigos!).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c972-744f-6f29-d4dd" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9dbf-0007-2ab8-19c2" name="Montura" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acdd-5fd0-1044-1f71" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b2ba-706f-ecf4-dd46" name="Gélido cornudo" hidden="false" collective="false" import="true" targetId="c226-4a11-77f9-7ee3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de24-515d-6d3f-7c67" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="24.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="af3e-86cc-fc9d-4815" name="Terradón" hidden="false" collective="false" import="true" targetId="d1ee-0847-485f-8a38" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5242-c603-f26d-f096" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="35.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0c22-5a36-0110-caa7" name="Nivel de magia" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c67a-f3bb-0864-626e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a2da-9bd5-9d5f-3e01" name="Nivel de magia 1" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eef-5b20-edc3-de8e" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1446-ebbd-e228-d25f" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+                <entryLink id="ff76-fa14-1661-2892" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0860-9a88-1177-4b13" name="Opciones" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b210-a55e-3d2f-5c19" name="Armas de combate" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55c8-96ce-0574-281a" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="ab32-c32a-eafa-d855" name="Lanza" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e273-177b-3154-054a" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="9d4e-0f56-5c44-64ff" name="Lanza (infantería)" hidden="false" targetId="ea63-f860-d8f5-b7db" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="c79c-c8f8-161f-5303" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dbf-0007-2ab8-19c2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="bde0-9b57-030a-dfc5" name="Lanza (caballería)" hidden="false" targetId="e9f6-2800-5d9c-a7c4" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="c79c-c8f8-161f-5303" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dbf-0007-2ab8-19c2" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="82a4-91f6-4886-273c" name="Arma de mano adicional" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb89-bdd6-d598-fc9d" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f3ba-6bc3-6724-db6a" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="82a3-a7c7-0fb2-5b52" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da7e-8ebb-38af-9a39" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="ef40-2d10-012f-2bd6" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="af73-8385-71fa-246e" name="Armas disparo" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78e0-ff22-95bb-cf3d" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="302a-7efd-a1a9-eac4" name="Cerbatana" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2db-c4b2-3118-82e3" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="de1d-9234-d5ab-a9f5" name="Cerbatana" hidden="false" targetId="e08b-4c5b-5c51-7b24" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="bcfa-12fd-6c6f-a42e" name="Jabalina" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4654-b5e8-5e60-5291" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="a08b-aa70-1eb2-521f" name="Jabalina" hidden="false" targetId="a629-6d4b-3e74-7ff7" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b5df-85d2-5b86-dfbd" name="Arco corto" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="646c-8d15-c3c8-eeed" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="b662-0638-6844-501e" name="Arco corto" hidden="false" targetId="bc9b-e19b-4f02-1726" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2e20-2f5d-537d-5812" name="Boleadoras" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="c79c-c8f8-161f-5303" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d1ee-0847-485f-8a38" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d4a-dc8a-4cef-4c96" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="58fb-b633-fe73-4780" name="Boleadoras" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
+                      <characteristics>
+                        <characteristic name="Rango" typeId="52616e676523232344415441232323">12&quot;</characteristic>
+                        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
+                        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Arrojadiza, Disparo rápido, Ataques flamígeros.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1343-54cc-d227-9c10" name="Plegarias a Sotek" hidden="false" collective="false" import="true" targetId="2a66-c511-029d-f60a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="efeb-e4c7-f4fd-0ab2" name="Destripadáctilo" hidden="false" collective="false" import="true" type="upgrade">
@@ -9646,7 +10094,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
           <description>Una vez por batalla, al inicio de uno de tus turnos, puedes declarar que el Troglodón ruge. Todos los eslizones (de cualquier tipo) a 18” o menos del Troglodón podrán repetir sus tiradas fallidas para impactar (tanto en combate cuerpo a cuerpo como con disparos) hasta el final de ese turno de jugador.</description>
         </rule>
         <rule id="c35a-9ea3-2e68-c8c6" name="Escupir veneno" hidden="false">
-          <description>El Troglodón puede disparar como un Cañón que puede estimar 0-6 dados (más el dado de artillería) que se resuelve con Fuerza 4 y no permite realizar tirada de salvación por armadura. Coloca la plantilla redonda pequeña tras la distancia recorrida en el rebote: todas las miniaturas cubiertas por la plantilla (utiliza las reglas habituales para impactos parciales) sufrirán también un impacto del “cañón”. Un Troglodón puede disparar aunque mueva, pero no si marcha. Si obtienes un resultado de Problemas, en lugar de tirar en una tabla, el personaje sufrirá una herida sin posibilidad de tirada de salvación por armadura.</description>
+          <description>El troglodón puede disparar como una Catapulta con un alcance de 0-24”, Fuerza 3 y la regla especial Ataques flamígeros. Los impactos de este disparo no permiten tirada de salvación por armadura. El impacto central se resolverá del mismo modo pero con Fuerza 5. Si obtienes un resultado de problemas, en lugar de tirar en la tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir veneno si mueve, pero no si marcha.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -10484,6 +10932,19 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7a96-9bb6-09be-5f93" name="Devoción por Sotek (+1 Sacerdote de Sotek)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="17de-3f4c-36b9-0e50" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="fe44-68af-c0c3-8058" name="Devoción por Sotek" hidden="false">
+          <description>Puedes incluir un Sacerdote de Sotek por cada unidad perteneciente al Desove sagrado de Sotek con Potencia de unidad 20 o más de tu ejército.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e914-4436-2af3-ff2d" name="Armas mágicas. Reliquia. Hueste roja. Arma a dos manos. Eslizón Desove sagrado de Sotek" hidden="false" collective="false" import="true">
@@ -10530,7 +10991,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
           <profiles>
             <profile id="a5c5-50c1-2c0f-4c33" name="Desolladora" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Arma de mano. Proporciona a su portador un bonificador de +1 a su Habilidad de Armas. Además, las heridas causadas niegan por esta arma niegan las tiradas de Regeneración.</characteristic>
+                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Arma de mano. Proporciona a su portador un bonificador de +1 a su Habilidad de Armas. Además, las heridas causadas por esta arma niegan las tiradas de Regeneración.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12104,5 +12565,6 @@ intransitable.</description>
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="98e8-bbbe-f61f-5c55" name="MercenariosLib" targetId="4652-5447-e10a-8eb0" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="8eb0-1d37-b556-af18" name="Los saberes de la magia" targetId="8ca7-9cd1-c914-3d7c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
