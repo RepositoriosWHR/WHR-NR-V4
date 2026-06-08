@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -3242,6 +3242,7 @@ Desafío).</description>
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink id="7113-81cd-ca99-978f" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="9741-b02e-8f41-7440" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -3872,6 +3873,7 @@ Desafío).</description>
                     <entryLink id="2904-cbf9-ecd3-90c3" name="Armas mágicas. Bretonia. Sacerdotes y Sumos Sacerdotes. Arma de mano" hidden="false" collective="false" import="true" targetId="e5e3-e297-ca84-0da3" type="selectionEntryGroup"/>
                     <entryLink id="3ae7-1b6b-6222-1e51" name="Armas mágicas. Lanza" hidden="false" collective="false" import="true" targetId="d8b7-876d-b68d-3fb1" type="selectionEntryGroup"/>
                     <entryLink id="4b87-5963-8f8b-5cee" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink id="c1f1-b148-72ec-464d" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="0985-3b52-5994-7ec8" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -4419,6 +4421,7 @@ Desafío).</description>
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink id="c21f-caa7-b114-37bf" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="f7b4-800e-7732-4fed" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -4677,6 +4680,11 @@ Desafío).</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="402b-12a0-0f9c-055d" name="Castellano" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="a6b0-d850-ff1c-c795" name="Jefe de armas" hidden="false">
+          <description>Si una unidad de Hombres de armas, Monteros u Hombres de armas a caballo incluye un Castellano, la unidad podrá repetir los chequeos fallidos de Pánico.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="b026-7737-25ec-deda" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
           <modifiers>
@@ -4727,7 +4735,7 @@ Desafío).</description>
                     <entryLink id="e4d2-53d1-1fac-68c9" name="Armas mágicas. Mangual" hidden="false" collective="false" import="true" targetId="a1a5-7361-b444-3054" type="selectionEntryGroup"/>
                     <entryLink id="9445-9c52-bbc2-c807" name="Armas mágicas. Mayal" hidden="false" collective="false" import="true" targetId="518c-5b40-e21f-57a0" type="selectionEntryGroup"/>
                     <entryLink id="81e1-9a40-b5f3-0196" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
-                    <entryLink id="b137-a00c-bec4-88e1" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
+                    <entryLink id="f1e8-e14d-ac3c-55f2" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="9774-f09d-0779-960c" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -5075,6 +5083,7 @@ Desafío).</description>
                     <entryLink id="4795-7577-1bdf-471d" name="Armas mágicas. Bretonia. Sacerdotes y Sumos Sacerdotes. Arma de mano" hidden="false" collective="false" import="true" targetId="e5e3-e297-ca84-0da3" type="selectionEntryGroup"/>
                     <entryLink id="d115-af5d-51ad-3aa3" name="Armas mágicas. Lanza" hidden="false" collective="false" import="true" targetId="d8b7-876d-b68d-3fb1" type="selectionEntryGroup"/>
                     <entryLink id="292d-7b24-f2f4-c59b" name="Armas mágicas. Orden. Arma de mano" hidden="false" collective="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink id="eaf1-5acb-66b6-c1f9" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="5ce5-6a98-e6d1-1995" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -5813,6 +5822,7 @@ Desafío).</description>
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink id="baa2-9c7f-7ba7-bf1d" name="Armas mágicas. Bretonia. Arma de mano" hidden="false" collective="false" import="true" targetId="b564-eb8e-12eb-dea4" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="01cb-0cca-fb99-8c0e" name="Objetos hechizados" hidden="false" collective="false" import="true">
@@ -12221,7 +12231,7 @@ cuatro Peregrinos que huiránnjunto al resto de su unidad). El Relicario tiene u
               <modifiers>
                 <modifier type="increment" field="points" value="1.0">
                   <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="46fc-df4d-ba9a-b6cd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e62e-f3f1-4e60-5739" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>

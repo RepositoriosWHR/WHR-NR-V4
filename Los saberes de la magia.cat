@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="3" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="4" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bff8-8e34-eb37-f67a" name="Saber del Fuego" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -693,6 +693,33 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b1e5-4bf4-e459-4710" name="Cánticos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e55e-9e1e-2ac4-bec2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cec4-e4b8-9bdd-24b6" name="Cánticos" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="e72a-59e0-358a-6bb3" name="Mostrar cánticos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0906-361d-0ca1-729a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="03de-9784-0ed7-2455" name="Cánticos" hidden="false" targetId="0193-750e-e54e-13b9" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedInfoGroups>
@@ -3324,6 +3351,46 @@ heridas que logre causar en combate cuerpo a cuerpo (no puede restablecer person
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">6&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 6” o menos del lanzador y Permanece un turno. Por la duración de la plegaria, la unidad causará Miedo; si ya causaba Miedo, causará Terror.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="0193-750e-e54e-13b9" name="Cánticos" hidden="false">
+      <profiles>
+        <profile id="85f8-bdb2-24d4-4324" name="Canción sanadora" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad tiene la regla especial Regeneración (5+).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b688-fbc8-4e8e-4e0e" name="Letanía de la eternidad" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad tiene un bonificador de +1 a la Resistencia.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5905-3cb1-a64b-ed82" name="Convocar a las brumas" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio lanzador y Permanece un turno. Mientras dure el hechizo, todos los disparos que se efectúen contra unidades (amigas o enemigas) a 12” o menos del lanzador tendrán un penalizador de -2 a su tirada para impactar con proyectiles; los efectos causados por plantillas de área considerarán cualquier resultado de impacto como si fuese de flecha, que se dispersará la mitad del resultado obtenido; los efectos de Tormenta de proyectiles deberán dividir a la mitad el número de impactos causados y los Cañones y Lanzallamas deberán tirar 1D6 antes de dispara: si no sacan un resultado de 4+, no podrán disparar.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0541-40f1-dc8a-cddc" name="Cántico a los árboles" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación/Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de efecto variable que toma como objetivo a un Bosque a 18” o menos del lanzador. Si no hay unidades en el bosque (amigas o enemigas), es un hechizo de Potenciación que mueve el Bosque una distancia de 1D6+1” en una dirección a tu elección. El Bosque no podrá mover a menos de 1” de unidades ni otros elementos de escenografía. Por otra parte, si en el Bosque hay al menos una unidad (amiga o enemiga), aunque sea de manera parcial, el hechizo pasa a ser un hechizo de Daño directo. Cada unidad enemiga dentro del Bosque (aunque sea de manera parcial) sufrirá 1D6 impactos de Fuerza 5. Un mismo Bosque no puede verse afectado por este hechizo en cualquiera de sus dos versiones más de una vez por fase de magia.</characteristic>
           </characteristics>
         </profile>
       </profiles>

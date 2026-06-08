@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f553-cb9b-b37d-4333" name="Goblins nocturnos" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -5264,7 +5264,7 @@ Cebo Efecto
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
-                    <condition field="selections" scope="3462-adf7-f08d-5f46" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df7d-d845-1116-15f9" type="equalTo"/>
+                    <condition field="selections" scope="3462-adf7-f08d-5f46" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2829-824e-0e06-fa5c" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5456,19 +5456,9 @@ Cebo Efecto
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9eb-5e5c-72ad-b8c7" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="04df-7cc7-5384-7c09" name="Barda" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1145-17b1-2567-c49e" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="e5a2-d6aa-6f19-982b" name="Barda" hidden="false" targetId="db28-fd76-b1b6-f251" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+              <entryLinks>
+                <entryLink id="cee3-7db1-c411-1b09" name="Barda del kriador" hidden="false" collective="false" import="true" targetId="2829-824e-0e06-fa5c" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -8489,6 +8479,17 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2829-824e-0e06-fa5c" name="Barda del kriador" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9bce-7e02-6982-4475" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1d87-3773-7446-8cc9" name="Barda" hidden="false" targetId="db28-fd76-b1b6-f251" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
