@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f553-cb9b-b37d-4333" name="Goblins nocturnos" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -876,7 +876,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bc2e-0134-85ba-00b4" name="Lanzapiedroz goblin nocturno" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bc2e-0134-85ba-00b4" name="Lanzapiedroz goblin nocturno" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0cc-e3f5-1b45-8080" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98cb-9c1a-2df2-dadc" type="min"/>
@@ -1745,7 +1745,7 @@ especial Poder de penetración.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8c3a-5296-2526-2b45" name="Vagoneta de ataque snotling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8c3a-5296-2526-2b45" name="Vagoneta de ataque snotling" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e663-ac02-3fff-ffa4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccaf-c2bf-2862-558a" type="min"/>
@@ -1854,7 +1854,7 @@ especial Poder de penetración.
         <categoryLink id="ff2f-597f-7348-461b" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="670a-1265-f214-f7ae" name="Ogros" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="670a-1265-f214-f7ae" name="Ogros" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62a5-19e8-d805-eeda" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34aa-4527-85b9-2375" type="min"/>
@@ -2396,7 +2396,7 @@ sufrirán un impacto de Fuerza 7 con la regla especial Heridas múltiples (1D3).
         <categoryLink id="44b5-1b74-cf5a-f6e8" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="45ef-cf35-5a2c-a3af" name="Garrapato gargantua" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="45ef-cf35-5a2c-a3af" name="Garrapato gargantua" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4c-b2ac-482f-b30b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7675-3c5e-6c54-a38f" type="min"/>
@@ -4645,7 +4645,7 @@ los últimos estertores de vida de los garrapatos a los que han pisoteado. Retir
         <categoryLink id="652f-8936-68b7-2e4e" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b356-1dca-c4f4-99c6" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="b356-1dca-c4f4-99c6" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4244-9d91-2545-7025" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82ad-5dfb-04a6-2819" type="min"/>
@@ -4751,7 +4751,7 @@ los últimos estertores de vida de los garrapatos a los que han pisoteado. Retir
             <cost name="pts" typeId="points" value="140.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a17a-b95b-aadc-e03f" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a17a-b95b-aadc-e03f" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fc5-31df-6b00-eb6c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b04-0b10-fb36-d65f" type="min"/>
@@ -7719,7 +7719,7 @@ múltiples (1D3), además de atravesar filas.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="21c1-178b-8c4a-e4a9" name="Lanzapinchoz goblin nocturno" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="21c1-178b-8c4a-e4a9" name="Lanzapinchoz goblin nocturno" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ba7-e706-6d61-1223" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2cc-b009-bde7-d881" type="min"/>
@@ -8122,7 +8122,7 @@ D6 	Resultado (Agarrar y...)
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2498-ee9b-9b4e-be0f" name="Garrapato gargantúa" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2498-ee9b-9b4e-be0f" name="Garrapato gargantúa" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="b056-98a0-5e9d-5a84" name="Dotación del castillo" hidden="false">
           <description>El Garrapato gargantúa está tripulado por una dotación de seis Goblins nocturnos, aunque se consideran una única miniatura. En cuerpo a cuerpo, el Garrapato gargantúa y la dotación pueden atacar con normalidad a cualquier miniatura en contacto peana con peana. Todos los impactos contra el garrapato se resuelven 

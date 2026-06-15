@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="887a-65ec-749f-cd54" name="Clan Skryre" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="887a-65ec-749f-cd54" name="Clan Skryre" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e6b4-690d-917e-1a11" name="Ratas de Clan Skryre" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3198,7 +3198,7 @@
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5149-111e-a153-f472" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="5149-111e-a153-f472" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af52-2fe7-0d31-1ece" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0ab-6d8e-46bb-dec8" type="min"/>
@@ -3349,7 +3349,7 @@
             <cost name="pts" typeId="points" value="190.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8741-5b9b-6238-b1a7" name="Ingeniero y Dotación " hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8741-5b9b-6238-b1a7" name="Ingeniero y Dotación " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d706-cb55-a146-47fc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e2e-bcf6-3418-1c1d" type="min"/>
@@ -3543,7 +3543,7 @@
             <cost name="pts" typeId="points" value="120.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a1ac-af5e-c9c4-2180" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a1ac-af5e-c9c4-2180" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7201-fbca-d06e-361b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f822-13c0-a5fe-bf78" type="min"/>
@@ -3752,7 +3752,7 @@
             <cost name="pts" typeId="points" value="350.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ac77-c589-c94b-fe69" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ac77-c589-c94b-fe69" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1716-a46a-4ec3-4226" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6307-9577-8275-a997" type="min"/>
@@ -3940,7 +3940,7 @@ D6 Tabla de problemas del Quema-quema-lejos
             <cost name="pts" typeId="points" value="110.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1682-3f00-8eca-0dbb" name="Dotación (3) " hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1682-3f00-8eca-0dbb" name="Dotación (3) " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b4c-c59a-bb27-72d9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="650b-95ba-0507-d770" type="min"/>
@@ -6604,7 +6604,7 @@ resultado de 1, la miniatura sufrirá 1D3 impactos automáticos que hieren siemp
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1336-01d1-7833-18dc" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1336-01d1-7833-18dc" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f8-59ac-8cb6-b814" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d32-58c5-eee5-89b6" type="min"/>
@@ -6747,7 +6747,7 @@ resultado de 1, la miniatura sufrirá 1D3 impactos automáticos que hieren siemp
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="08e7-f99a-c7cf-efdb" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="08e7-f99a-c7cf-efdb" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d8b-be22-9b48-ce15" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fa7-d926-ea94-41bb" type="min"/>
@@ -7018,7 +7018,7 @@ resultado de 1, la miniatura sufrirá 1D3 impactos automáticos que hieren siemp
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3903-cb3f-18cd-67f8" name="Rueda de la muerte" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3903-cb3f-18cd-67f8" name="Rueda de la muerte" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="626e-e6d2-9b7c-23ed" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc29-7b6f-707e-3864" type="max"/>
@@ -7244,7 +7244,7 @@ resultado de 1, la miniatura sufrirá 1D3 impactos automáticos que hieren siemp
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cfe9-1f87-d2d5-82f3" name="Rueda de la muerte" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cfe9-1f87-d2d5-82f3" name="Rueda de la muerte" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b0c-7844-27df-dad6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b050-9925-02ba-438d" type="max"/>
@@ -7472,7 +7472,7 @@ resultado de 1, la miniatura sufrirá 1D3 impactos automáticos que hieren siemp
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b2fd-4d65-c3c0-fd02" name="Rueda de la muerte" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b2fd-4d65-c3c0-fd02" name="Rueda de la muerte" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adb6-31f8-6042-ee36" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a95-ec16-a41c-e467" type="max"/>
@@ -7579,7 +7579,7 @@ resultado de 1, la miniatura sufrirá 1D3 impactos automáticos que hieren siemp
             <cost name="pts" typeId="points" value="120.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="262c-44ad-20e2-f6c1" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="262c-44ad-20e2-f6c1" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="041d-10bc-ed60-24a4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c39b-f3df-c75e-16cf" type="min"/>
@@ -7728,7 +7728,7 @@ resultado de 1, la miniatura sufrirá 1D3 impactos automáticos que hieren siemp
             <cost name="pts" typeId="points" value="190.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5919-99d5-8342-5fbc" name="Ingeniero y Dotación " hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="5919-99d5-8342-5fbc" name="Ingeniero y Dotación " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6c4-c0ff-1118-1d9e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd7c-a045-5a24-1b73" type="min"/>
@@ -7922,7 +7922,7 @@ D6 Tabla de problemas del Quema-quema-lejos
             <cost name="pts" typeId="points" value="110.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bd15-4f1b-6222-603c" name="Dotación (3) " hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="bd15-4f1b-6222-603c" name="Dotación (3) " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ab-3b43-f78a-2020" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e309-8680-73d4-26e0" type="min"/>
@@ -8158,7 +8158,7 @@ peana con la Picadora de Condenación (incluyendo a ésta) reciben un único imp
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a55e-16ef-722f-0c03" name="Rueda de la muerte (Montura)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a55e-16ef-722f-0c03" name="Rueda de la muerte (Montura)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="357c-4a4c-46f6-91d3" name="Potencia de unidad 6" hidden="false"/>
         <rule id="8f8f-202c-dc16-90c1" name="Machacar al enemigo" hidden="false">
@@ -9124,7 +9124,7 @@ con las reglas especiales Ataques solo flamígeros y Ataques mágicos. Retira la
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9e6-a591-6edf-34dd" name="Equipo jezzail" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a9e6-a591-6edf-34dd" name="Equipo jezzail" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="df31-353e-2ea8-62d3" name="Asistente skaven" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
           <characteristics>

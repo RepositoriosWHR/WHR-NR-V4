@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="8" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5ecb-ba09-1673-b6c9" name="Reinos_Ogros_Reforged" revision="10" battleScribeVersion="2.03" authorName="Viltraidor" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coroccota Bada, Aswer y Gengis.</readme>
   <profileTypes>
     <profileType id="82a1-ea3c-b415-8a9a" name="Objeto">
@@ -2097,7 +2097,7 @@
         <categoryLink id="48b9-8a3d-fd06-9dff-5261726523232344415441232323" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2b2f-1abe-b4de-88da" name="Cuernos Pétreos" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2b2f-1abe-b4de-88da" name="Jinetes ogros" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9476-fd42-e500-9050" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40cc-adb3-d89c-c72d" type="min"/>
@@ -2168,7 +2168,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="240.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5b1e-4f5f-5671-39d5" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2184,7 +2184,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f6cb-95db-5c7d-3883" name="Cuernos pétreos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f6cb-95db-5c7d-3883" name="Cuernos pétreos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="70f0-fa57-0631-da0b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fdc7-b583-a7e4-8e79" type="min"/>
@@ -2208,7 +2208,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="240.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2280,7 +2280,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c26e-1ce5-1054-ec9e" name="Colmillos de trueno" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c26e-1ce5-1054-ec9e" name="Colmillos de trueno" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c23d-a972-732b-a776" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="492d-6179-8233-bb7a" type="min"/>
@@ -6015,7 +6015,9 @@ Bajas: (Mejora para Skrag) / (Mejora para los gargantuas)
                     <entryLink id="28bc-9720-0688-a692" name="Armas mágicas. Armas emparejadas" hidden="false" collective="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
                     <entryLink id="7fc4-4a58-4577-faaa" name="Armas mágicas. Neutral. Arma de mano" hidden="false" collective="false" import="true" targetId="c446-9111-68ce-ff13" type="selectionEntryGroup"/>
                     <entryLink id="d4b1-d8ec-5eda-107e" name="Armas mágicas. Reliquias. Arma de mano" hidden="false" collective="false" import="true" targetId="6ac5-e7fd-42b0-198b" type="selectionEntryGroup"/>
-                    <entryLink id="283a-4b85-98a4-6173" name="Reliquias Ogras - Armas" hidden="false" collective="false" import="true" targetId="1bf1-38b1-54d9-3a85" type="selectionEntryGroup"/>
+                    <entryLink id="283a-4b85-98a4-6173" name="Armas mágicas. Reliquias. Ogros. Arma a dos manos" hidden="false" collective="false" import="true" targetId="1bf1-38b1-54d9-3a85" type="selectionEntryGroup"/>
+                    <entryLink id="0376-c8f8-73fe-fc14" name="Armas mágicas. Reliquias. Arma de mano" hidden="false" collective="false" import="true" targetId="6ac5-e7fd-42b0-198b" type="selectionEntryGroup"/>
+                    <entryLink id="825f-a160-2aff-7ee1" name="Armas mágicas. Reliquias. Arma a dos manos" hidden="false" collective="false" import="true" targetId="4b88-5eb8-4e24-cb72" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -6026,7 +6028,7 @@ Bajas: (Mejora para Skrag) / (Mejora para los gargantuas)
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66aa-3a8e-eee2-b54f" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="8a4f-784c-0c23-ea51" name="Armaduras mágicas ogras" hidden="false" collective="false" import="true" targetId="6ff8-ee3e-a790-54bf" type="selectionEntryGroup"/>
+                    <entryLink id="8a4f-784c-0c23-ea51" name="Armaduras mágicas. Ogros" hidden="false" collective="false" import="true" targetId="6ff8-ee3e-a790-54bf" type="selectionEntryGroup"/>
                     <entryLink id="1b8d-4702-ff01-afd0" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
                     <entryLink id="9204-0da2-2d96-8530" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
                     <entryLink id="f842-6431-c672-fb85" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
@@ -6035,6 +6037,7 @@ Bajas: (Mejora para Skrag) / (Mejora para los gargantuas)
                     <entryLink id="179b-bc07-b4cc-ac8a" name="Armaduras mágicas. Reliquias. Escudo" hidden="false" collective="false" import="true" targetId="5120-2f9f-febc-dcce" type="selectionEntryGroup"/>
                     <entryLink id="6bbe-0f45-b7a5-2463" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
                     <entryLink id="3027-2134-33e8-ce35" name="Armaduras mágicas. Reliquias. Yelmo" hidden="false" collective="false" import="true" targetId="4644-a77e-94cc-121d" type="selectionEntryGroup"/>
+                    <entryLink id="6a02-8e1a-3b33-2950" name="Armaduras mágicas. Reliquias. Ogros" hidden="false" collective="false" import="true" targetId="9625-ec89-4e7e-9869" type="selectionEntryGroup"/>
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
@@ -10745,7 +10748,7 @@ dejará de afectar también a esta unidad).</characteristic>
           <profiles>
             <profile id="c59c-cc3a-e3f9-7639" name="Comehermanos" hidden="false" typeId="3951-960b-fcbf-67a2" typeName="Sobrenombre">
               <characteristics>
-                <characteristic name="Reglas" typeId="8142-649f-c02b-80ac"/>
+                <characteristic name="Reglas" typeId="8142-649f-c02b-80ac">Sólo Déspota. El personaje obtiene las reglas especiales Orgullo marcial e Inmune a psicología. Todas las unidades amigas a 12” o menos del personaje podrán repetir sus chequeos de Pánico fallidos.</characteristic>
               </characteristics>
             </profile>
           </profiles>

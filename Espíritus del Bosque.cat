@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b508-ebab-a618-47ac" name="Espíritus del Bosque" revision="1" battleScribeVersion="2.03" authorName="Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b508-ebab-a618-47ac" name="Espíritus del Bosque" revision="2" battleScribeVersion="2.03" authorName="Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="31db-7b3b-839f-a176" name="Rasgos, Duendes y Hadas">
       <characteristicTypes>
@@ -2245,7 +2245,7 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5526-e89b-9158-057b" name="Dragón forestal" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5526-e89b-9158-057b" name="Dragón forestal" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="d99f-cfcd-4809-f48a" value="2.0">
           <conditions>
@@ -2702,6 +2702,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <entryLinks>
                 <entryLink id="8067-5caa-4ffd-1b6d" name="Nivel 2" hidden="false" collective="false" import="true" targetId="9097-e430-ddd7-df03" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="57f5-b9f2-46f4-6130" name="Nivel de magia 3" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2887,6 +2890,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3209,6 +3215,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <entryLinks>
                 <entryLink id="09c7-a004-8c98-6ec4" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d941-199b-3a4c-a819" name="Nivel de magia 2" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3393,6 +3402,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <infoLinks>
                 <infoLink id="2f46-5e37-d2dd-5aa9" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="efe5-4a67-df60-1c41" name="Cuerpo embrujado" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3428,6 +3440,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <infoLinks>
                 <infoLink id="261f-0142-7a93-2967" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3573,6 +3588,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <infoLinks>
                 <infoLink id="b910-a696-e602-1e0d" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="bf4e-4278-4bc3-e5ed" name="Metamorfosis" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3591,6 +3609,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="659d-b0ec-1226-67c5" name="Liquen del eterno rencor" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3611,6 +3632,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3964,6 +3988,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <infoLinks>
                 <infoLink id="171e-0274-80fb-ea0a" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="35d2-1c3c-40dd-9ed5" name="Ramaje punzante" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3980,6 +4007,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <infoLinks>
                 <infoLink id="bdf7-eacf-2f7c-e46a" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9c5b-688c-3cbd-5385" name="Manada de trasgos" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3993,6 +4023,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3d35-e31e-9d31-2a50" name="Guía del Sendero Oculto" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4006,6 +4039,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4174,6 +4210,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <infoLinks>
                 <infoLink id="b2c5-d0b2-1d05-313c" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ea89-f250-a643-aeac" name="Colonia de ujanos" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4187,6 +4226,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="833f-f53e-f6c5-30f3" name="Protección de las hadas" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4200,6 +4242,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4354,6 +4399,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
               <infoLinks>
                 <infoLink id="bee9-d7f1-4b11-fd98" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="dffa-f99f-9179-3276" name="Corteza nudosa" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -4394,6 +4442,9 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                 </infoLink>
                 <infoLink id="b3c4-4632-f151-3ef5" name="Regeneración (6+)" hidden="false" targetId="4aee-7485-a141-cd20" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>

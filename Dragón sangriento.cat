@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3d03-3105-00ed-9739" name="Dragón sangriento" revision="14" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f71e-06e9-0083-adc2" name="Poder vampírico">
       <characteristicTypes>
@@ -2423,7 +2423,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ea81-e955-cf98-82c9" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ea81-e955-cf98-82c9" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c587-551a-6801-c504" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a83-46f6-99b2-a4fb" type="min"/>
@@ -3460,7 +3460,7 @@ Poder TABLA DEL CARRUAJE NEGRO
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ed6c-1c5c-fc16-afe6" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ed6c-1c5c-fc16-afe6" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ee0-0d4c-ca5d-e0d2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b41d-969a-5938-dd3a" type="min"/>
@@ -9994,7 +9994,7 @@ inferior</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff21-7838-14bb-3502" name="Carro de guerra Tumulario" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ff21-7838-14bb-3502" name="Carro de guerra Tumulario" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="654e-a724-417d-e447" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
         <infoLink id="fc1e-8079-29aa-746f" name="No muerto" hidden="false" targetId="3d39-5d46-7335-225c" type="rule">

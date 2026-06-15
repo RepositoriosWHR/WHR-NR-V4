@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5752-4a70-7461-a2aa" name="La Asamblea" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5752-4a70-7461-a2aa" name="La Asamblea" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="7828-c6dc-75df-a355" name="Remoquete">
       <characteristicTypes>
@@ -8,7 +8,7 @@
     </profileType>
   </profileTypes>
   <selectionEntries>
-    <selectionEntry id="902a-4c67-eab0-0590" name="Milicia halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="902a-4c67-eab0-0590" name="Milicia halfling" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="append" field="name" value="(Destacamento)">
           <conditions>
@@ -26,7 +26,7 @@
         <categoryLink id="d7be-0654-daa7-4b64" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="286b-bb82-308b-0aa8" name="Milicia halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="286b-bb82-308b-0aa8" name="Milicia halfling" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="a691-131e-be6e-4e10" value="20.0">
               <conditions>
@@ -271,7 +271,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4c02-9002-ac41-c5de" name="Arqueros Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4c02-9002-ac41-c5de" name="Arqueros Halfling" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="append" field="name" value="(Destacamento)">
           <conditions>
@@ -289,7 +289,7 @@
         <categoryLink id="0974-ddb2-c52d-1eb1" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0266-3504-a318-c19e" name="Arqueros Halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0266-3504-a318-c19e" name="Arqueros Halfling" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="9fec-3b69-d498-81ae" value="20.0">
               <conditions>
@@ -533,7 +533,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac40-e63a-592d-5691" name="Honderos Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ac40-e63a-592d-5691" name="Honderos Halfling" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="append" field="name" value="(Destacamento)">
           <conditions>
@@ -551,7 +551,7 @@
         <categoryLink id="e7a0-7026-393f-9de3" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="233d-2940-6aa1-fea6" name="Honderos Halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="233d-2940-6aa1-fea6" name="Honderos Halfling" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="38c3-ba18-3737-540b" value="20.0">
               <conditions>
@@ -795,7 +795,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c7e5-12b9-ead4-b4f3" name="Batidores Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c7e5-12b9-ead4-b4f3" name="Batidores Halfling" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="append" field="name" value="(Destacamento)">
           <conditions>
@@ -818,7 +818,7 @@
         <categoryLink id="7201-fc3a-9af6-af09" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d26b-268b-5fe9-de62" name="Batidores Halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d26b-268b-5fe9-de62" name="Batidores Halfling" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d119-db9b-1378-c35b" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="214d-5410-663b-b57c" type="min"/>
@@ -1040,7 +1040,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8353-7aed-9f53-4b8b" name="Caballería de batalla Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8353-7aed-9f53-4b8b" name="Caballería de batalla Halfling" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="7164-1602-f661-60ac" value="1.0">
           <repeats>
@@ -1064,7 +1064,7 @@
         <categoryLink id="94f7-e953-1e81-b293" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2a9b-d287-f135-7f2c" name="Caballería de batalla Halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2a9b-d287-f135-7f2c" name="Caballería de batalla Halfling" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f676-f637-1d35-5f9b" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1a0-6541-9a33-8135" type="min"/>
@@ -1295,7 +1295,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dee1-0f43-5662-ae72" name="Enjambres de corral" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dee1-0f43-5662-ae72" name="Enjambres de corral" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="e934-22f0-d540-ab7d" value="3.0">
           <conditions>
@@ -1320,7 +1320,7 @@
         <categoryLink id="eca4-83c2-5702-6f58" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ffe8-40d1-0a16-fb46" name="Enjambres de corral" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ffe8-40d1-0a16-fb46" name="Enjambres de corral" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d073-4167-6af6-5272" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4d7-b547-7cb8-30d9" type="min"/>
@@ -1390,7 +1390,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b6d2-2646-4901-c100" name="Jinetes de Gallos gigantes" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b6d2-2646-4901-c100" name="Jinetes de Gallos gigantes" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="59bc-d99d-49af-f3be" value="4.0">
           <conditions>
@@ -1426,7 +1426,7 @@
         <categoryLink id="81dc-e6a4-8851-5947" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8935-cf22-5550-db1b" name="Jinetes de Gallos gigantes" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8935-cf22-5550-db1b" name="Jinetes de Gallos gigantes" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e1-6fed-3818-2ed8" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d70e-1cf1-ceff-bb28" type="min"/>
@@ -1681,7 +1681,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c5fd-b04f-cf4c-e5d6" name="Embrochetador" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c5fd-b04f-cf4c-e5d6" name="Embrochetador" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="d175-60bb-f581-eac7" value="6.0">
           <conditions>
@@ -1715,7 +1715,7 @@
         <categoryLink id="b1d4-41c9-3f2e-2ac0" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8182-2114-7b18-4507" name="Embrochetador" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8182-2114-7b18-4507" name="Embrochetador" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc29-001c-4026-23de" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6cc-dfd2-bde9-4820" type="min"/>
@@ -1860,7 +1860,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7ca-065f-2def-3373" name="Carro de ponis" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e7ca-065f-2def-3373" name="Carro de ponis" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="b972-3824-e588-c8cc" value="3.0">
           <conditions>
@@ -1888,7 +1888,7 @@
         <categoryLink id="47e5-25da-7237-4aa4" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3e0f-ceed-bff0-b235" name="Carro de ponis" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3e0f-ceed-bff0-b235" name="Carro de ponis" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d30f-db71-79f0-7c95" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb4f-db9e-fe13-d2f0" type="min"/>
@@ -2086,7 +2086,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6986-4dea-9e59-2489" name="Olla caliente Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6986-4dea-9e59-2489" name="Olla caliente Halfling" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="984f-b516-8cc8-a095" value="3.0">
           <conditions>
@@ -2120,7 +2120,7 @@
         <categoryLink id="9934-5208-d0d0-d4c1" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="56e1-af6f-a96c-dfeb" name="Olla caliente Halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="56e1-af6f-a96c-dfeb" name="Olla caliente Halfling" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4115-6f1c-2258-31d7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75f4-e03e-fa0e-0dc1" type="min"/>
@@ -2309,7 +2309,7 @@ elegida (elige cada vez que vayas a disparar). Tu ejército no puede tener dos O
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a678-7036-6070-a2b9" name="Leñadores Halflings" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a678-7036-6070-a2b9" name="Leñadores Halflings" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="bacf-9aa7-2c51-c7a8" value="3.0">
           <conditions>
@@ -2335,7 +2335,7 @@ elegida (elige cada vez que vayas a disparar). Tu ejército no puede tener dos O
         <categoryLink id="e199-f8a3-b82b-d55e" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="294a-3e4b-63b6-33b8" name="Leñadores Halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="294a-3e4b-63b6-33b8" name="Leñadores Halfling" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ab-e362-0934-ec8c" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9fd-1939-a76e-c771" type="min"/>
@@ -2499,7 +2499,7 @@ elegida (elige cada vez que vayas a disparar). Tu ejército no puede tener dos O
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c38-336b-fba0-e5d1" name="Jinetes de Asalto Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9c38-336b-fba0-e5d1" name="Jinetes de Asalto Halfling" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="bb7d-5838-8204-db79" value="3.0">
           <conditions>
@@ -2562,7 +2562,7 @@ elegida (elige cada vez que vayas a disparar). Tu ejército no puede tener dos O
         <categoryLink id="8818-00af-ce1f-5a93" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d469-3903-26a2-4306" name="Jinetes de Asalto Halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d469-3903-26a2-4306" name="Jinetes de Asalto Halfling" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0822-1324-91be-eda7" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0109-dc80-d1d6-4cb4" type="min"/>
@@ -2908,7 +2908,7 @@ elegida (elige cada vez que vayas a disparar). Tu ejército no puede tener dos O
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6f57-0165-83a2-5715" name="Pequeños espaderos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6f57-0165-83a2-5715" name="Pequeños espaderos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="0f87-2f7a-1c53-15a3" value="3.0">
           <conditions>
@@ -2946,7 +2946,7 @@ salvación por armadura en combate cuerpo a cuerpo.</description>
         <categoryLink id="02f2-68f0-d829-c5b7" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a4cd-2cfa-d7bc-413e" name="Pequeños espaderos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a4cd-2cfa-d7bc-413e" name="Pequeños espaderos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="502f-197b-5316-c972" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0633-c86f-e1d0-d48a" type="min"/>
@@ -3100,7 +3100,7 @@ salvación por armadura en combate cuerpo a cuerpo.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8218-8ab8-d997-2d01" name="Patrulla sylvana" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8218-8ab8-d997-2d01" name="Patrulla sylvana" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="eba5-1424-20dd-2283" value="3.0">
           <conditions>
@@ -3137,7 +3137,7 @@ salvación por armadura en combate cuerpo a cuerpo.</description>
         <categoryLink id="7c4f-f618-3b71-2caa" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="04ea-d5a3-cceb-7591" name="Patrulla sylvana" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="04ea-d5a3-cceb-7591" name="Patrulla sylvana" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa0-76dc-f278-6857" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="867e-ee5c-a99f-a9e1" type="min"/>
@@ -3396,7 +3396,7 @@ salvación por armadura en combate cuerpo a cuerpo.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93b9-16a0-24f8-cfad" name="Incursores del Sotobosque" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="93b9-16a0-24f8-cfad" name="Incursores del Sotobosque" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="0309-aeb8-aa79-7278" value="2.0">
           <conditions>
@@ -3438,7 +3438,7 @@ penetración.</description>
         <categoryLink id="60ac-ef45-9d5a-da80" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8108-9be7-da23-eadf" name="Incursores del Sotobosque" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8108-9be7-da23-eadf" name="Incursores del Sotobosque" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31f1-b781-55d8-9e24" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65aa-b03b-bd0c-1050" type="min"/>
@@ -3590,7 +3590,7 @@ penetración.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d0b5-3d42-2045-e107" name="Tanque sopero &quot;Kathleen&quot;" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d0b5-3d42-2045-e107" name="Tanque sopero &quot;Kathleen&quot;" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1196-a1b3-e2ba-214a" type="max"/>
       </constraints>
@@ -3621,7 +3621,7 @@ El Tanque sopero puede disparar sus armas incluso si está trabado en combate.</
         <categoryLink id="fa1b-9b98-d5a2-77db" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7696-f7b1-8ae9-f351" name="Tanque sopero &quot;Kathleen&quot;" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7696-f7b1-8ae9-f351" name="Tanque sopero &quot;Kathleen&quot;" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a2-2c0b-4540-a747" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f1d-4649-ba71-61e0" type="min"/>
@@ -3775,7 +3775,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="250d-686b-eae6-f21c" name="Hombre árbol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="250d-686b-eae6-f21c" name="Hombre árbol" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="649b-856a-54fc-c275" value="2.0">
           <conditions>
@@ -3818,7 +3818,7 @@ Total 		Tabla de problemas de la olla a presión
         <categoryLink id="acaf-5e62-dbb7-5257" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7a2f-a407-99f9-7417" name="Hombre árbol" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7a2f-a407-99f9-7417" name="Hombre árbol" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8784-162d-b173-f5be" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b80c-de4a-4c92-f3f1" type="min"/>
@@ -3994,7 +3994,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0689-a8c1-28d9-f4eb" name="Ogros de la Asamblea" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0689-a8c1-28d9-f4eb" name="Ogros de la Asamblea" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5be5-92e0-478a-ee6a" type="max"/>
       </constraints>
@@ -4020,7 +4020,7 @@ Total 		Tabla de problemas de la olla a presión
         <categoryLink id="95da-9ba3-3067-b608" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f43b-5459-0491-aa8a" name="Ogros de la Asamblea" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f43b-5459-0491-aa8a" name="Ogros de la Asamblea" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04c3-c2b9-facd-3e74" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9267-f725-b259-102d" type="min"/>
@@ -4298,7 +4298,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e862-af55-e7f9-bb7b" name="Jinetes de águilas gigantes" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e862-af55-e7f9-bb7b" name="Jinetes de águilas gigantes" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="dbf0-ce8a-926d-ad62" value="2.0">
           <conditions>
@@ -4333,7 +4333,7 @@ Total 		Tabla de problemas de la olla a presión
         <categoryLink id="2227-1994-d33c-44e4" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9e8c-a379-0d93-62c7" name="Jinetes de águilas" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9e8c-a379-0d93-62c7" name="Jinetes de águilas" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e18-8c3b-8c4d-7ded" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a338-9413-8f8b-fcb6" type="min"/>
@@ -4550,7 +4550,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2847-ee0f-ee50-25d5" name="Gran Capitán Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2847-ee0f-ee50-25d5" name="Gran Capitán Halfling" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="d398-9e2b-087f-ac3d" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
           <modifiers>
@@ -5147,7 +5147,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0fd7-dc03-4eba-f40f" name="Gran cocinero Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0fd7-dc03-4eba-f40f" name="Gran cocinero Halfling" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="187f-fdd9-b0d6-66b4" name="Magia Gran cocinero halfling" hidden="false">
           <description>Nivel de magia 3. Puede aumentarse a 4 por +55 puntos. Puede elegir hechizos del saber de Zampamagia.</description>
@@ -5654,7 +5654,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="433f-367a-0646-8b2d" name="Gran hechicero Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="433f-367a-0646-8b2d" name="Gran hechicero Halfling" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="e942-e393-3195-0bd0" name="Magia Gran hechicero halfling" hidden="false">
           <description>Nivel de magia 3. Puede aumentarse a 4 por +55 puntos. Debe elegir solo un saber de la magia de entre los siguientes: Fuego, Vida, Sombras, Cielos o Luz.</description>
@@ -6153,7 +6153,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69fd-2a18-acbd-bbf5" name="Aventurero Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="69fd-2a18-acbd-bbf5" name="Aventurero Halfling" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e75c-19b5-7391-1fc4" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
           <modifiers>
@@ -6699,7 +6699,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2940-c4da-75f0-ed5c" name="Ladrón Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2940-c4da-75f0-ed5c" name="Ladrón Halfling" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="b00d-b167-f711-7ecb" name="Dedicación libre" hidden="false">
           <description>Ninguna unidad aliada puede beneficiarse del Liderazgo de un Ladrón Halfling. </description>
@@ -6720,7 +6720,7 @@ Total 		Tabla de problemas de la olla a presión
         <categoryLink id="75a5-68eb-343b-6d71" name="New CategoryLink" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6b03-78e5-4c4e-c2c3" name="Ladrón Halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6b03-78e5-4c4e-c2c3" name="Ladrón Halfling" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3eb-abc5-0220-bddd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="317c-f4a2-2a98-2481" type="min"/>
@@ -6950,7 +6950,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9878-030e-76a1-b8cf" name="Cocinero Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9878-030e-76a1-b8cf" name="Cocinero Halfling" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="dd9e-8bc5-951b-8ca6" name="Magia Cocinero halfling" hidden="false">
           <description>Nivel de magia 1. Puede aumentarse a 2 por +30 puntos. Puede elegir hechizos del saber de Zampamagia.</description>
@@ -7363,7 +7363,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="106c-0069-1506-3f02" name="Hechicero Halfling" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="106c-0069-1506-3f02" name="Hechicero Halfling" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="622a-5fb3-28f1-7fe4" name="Magia Hechicero halfling" hidden="false">
           <description>Nivel de magia 1. Puede aumentarse a 2 por +30 puntos. Debe elegir solo un saber de la magia de entre los siguientes: Fuego, Vida, Sombras, Cielos o Luz.</description>
@@ -7753,7 +7753,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ed3-b92e-2c78-66d4" name="[E] - Clempo Buttleburr" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9ed3-b92e-2c78-66d4" name="[E] - Clempo Buttleburr" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7914,7 +7914,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e18d-667c-4077-0748" name="[E] - Fassbinder, el fuerte" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e18d-667c-4077-0748" name="[E] - Fassbinder, el fuerte" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8083,7 +8083,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f64c-07ba-1caa-214d" name="[E] - Clegg, Líder Revolucionario" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f64c-07ba-1caa-214d" name="[E] - Clegg, Líder Revolucionario" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8244,7 +8244,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dfd2-42ee-4d1e-4480" name="[E] - Duros de roer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dfd2-42ee-4d1e-4480" name="[E] - Duros de roer" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8431,7 +8431,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d355-d9b6-6dcc-3cba" name="[E] - Ned Puñojamón y los gallos de pelea" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d355-d9b6-6dcc-3cba" name="[E] - Ned Puñojamón y los gallos de pelea" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8595,7 +8595,7 @@ Total 		Tabla de problemas de la olla a presión
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f970-d511-e26c-8e28" name="[E] - Marta Candela, Gran Hechicera de la Orden Gris de Altdorf" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f970-d511-e26c-8e28" name="[E] - Marta Candela, Gran Hechicera de la Orden Gris de Altdorf" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8760,7 +8760,7 @@ Sombras.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6032-6db6-9644-4a07" name="[E] - Hisme Audaz y Zorarth Mascapiernas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6032-6db6-9644-4a07" name="[E] - Hisme Audaz y Zorarth Mascapiernas" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9196,7 +9196,7 @@ Sombras.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1dc9-feae-cc4e-b9e7" name="[E] - Samuel Panzabaja, Guardia de Campo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1dc9-feae-cc4e-b9e7" name="[E] - Samuel Panzabaja, Guardia de Campo" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9370,7 +9370,7 @@ Sombras.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e38a-a36b-4734-c77d" name="[E] - Guardia de campo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e38a-a36b-4734-c77d" name="[E] - Guardia de campo" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9533,7 +9533,7 @@ Sombras.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eece-062e-b94a-bcd1" name="[E] - Gambo Hartstock, Gran Chef de La Asamblea" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="eece-062e-b94a-bcd1" name="[E] - Gambo Hartstock, Gran Chef de La Asamblea" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -10886,6 +10886,9 @@ Sombras.</description>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0ac3-fdda-56b7-c8e7" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -11084,7 +11087,7 @@ Sombras.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abc1-188a-72f1-52ca" name="Huracanum celestial" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="abc1-188a-72f1-52ca" name="Huracanum celestial" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="28fd-71a3-ed66-3031" value="0.0">
           <conditions>

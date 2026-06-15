@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="17" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="18" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="208e-cf58-eefc-06d2" name="Orden de caballería">
       <characteristicTypes>
@@ -949,7 +949,7 @@
         <categoryLink id="0535-5f81-3d6a-b8d1" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b256-286b-cd96-0a5a" name="Cañón de salvas Hellblaster" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b256-286b-cd96-0a5a" name="Cañón de salvas Hellblaster" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c140-9908-e60f-22a5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03fd-8460-f82c-6ed5" type="min"/>
@@ -1127,7 +1127,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ea4f-f9f7-fa64-37eb" name="Bateria de cohetes" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ea4f-f9f7-fa64-37eb" name="Bateria de cohetes" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c362-f13b-e9d1-bbcb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5470-5dc8-577e-2be5" type="min"/>
@@ -1342,7 +1342,7 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f28-5940-609c-42a8" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a9c9-6cb3-8974-7fd0" name="Tanque a vapor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a9c9-6cb3-8974-7fd0" name="Tanque a vapor" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ff-ed09-ce83-d9e7" type="max"/>
               </constraints>
@@ -1422,7 +1422,7 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
                 <cost name="pts" typeId="points" value="330.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="48fe-5636-0d86-643d" name="Tanque a vapor modular" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="48fe-5636-0d86-643d" name="Tanque a vapor modular" hidden="false" collective="false" import="true" type="model">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -2980,7 +2980,7 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d4b6-c031-4eda-5bb0" name="Olla caliente halfling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d4b6-c031-4eda-5bb0" name="Olla caliente halfling" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c9a-1dbf-31ba-3f9e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03db-5375-6018-ce9a" type="min"/>
@@ -6553,7 +6553,7 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f978-71c8-6064-fc9f" name="Sacerdote guerrero de Sigmar" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f978-71c8-6064-fc9f" name="Sacerdote guerrero de Sigmar" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb8d-7103-ca30-f0a3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a9f-75b7-ac58-313d" type="min"/>
@@ -13120,7 +13120,7 @@ Tiradores de Hochland pueden repetir los resultados naturales de 1 obtenidos en 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f096-aca4-cec0-c8a3" name="Luminarca de Hysh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f096-aca4-cec0-c8a3" name="Luminarca de Hysh" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a86f-ab43-965d-80cb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="551c-6b07-fd77-9741" type="min"/>
@@ -14212,7 +14212,7 @@ Energía y Dispersión como si fuera un hechicero.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a14c-b040-f512-503d" name="Huracanum celestial" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a14c-b040-f512-503d" name="Huracanum celestial" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2012-df48-ddd2-c050" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9653-55e1-7ff1-e0a9" type="min"/>
@@ -21544,7 +21544,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b71b-c23c-63c1-36f4" name="Carro de guerra Imperial" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b71b-c23c-63c1-36f4" name="Carro de guerra Imperial" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c31-e345-dee7-30fe" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e0d-3f75-261d-75b2" type="min"/>
@@ -23343,7 +23343,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1d95-0c00-90df-b4dc" name="Gran cañón imperial" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1d95-0c00-90df-b4dc" name="Gran cañón imperial" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e29d-7339-f5bd-7c64" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f2-6bb1-1c3e-23f4" type="min"/>
@@ -24909,7 +24909,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1ca3-a0ea-5542-9e2c" name="Mortero" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1ca3-a0ea-5542-9e2c" name="Mortero" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b6-fef4-7a60-f880" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7773-ba44-cd8f-9eed" type="min"/>
@@ -27481,7 +27481,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dce2-936d-4a73-5c2e" name="Gran brasero de Aqshy (Saber del Fuego)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dce2-936d-4a73-5c2e" name="Gran brasero de Aqshy (Saber del Fuego)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -27738,7 +27738,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8122-e8ac-452e-5c53" name="Huracanum celestial (Montura)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8122-e8ac-452e-5c53" name="Huracanum celestial (Montura)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="1d91-4c32-9be9-b583" name="Potencia de unidad 6" hidden="false"/>
         <rule id="b067-a170-1a30-ba04" name="Foco de Azyr" hidden="false">
@@ -27884,7 +27884,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8df6-1797-d3e0-d90a" name="Luminarca de Hysh (Montura)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8df6-1797-d3e0-d90a" name="Luminarca de Hysh (Montura)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="a866-da06-947b-86ca" name="Potencia de unidad 6" hidden="false"/>
         <rule id="50e2-4c31-87c7-6424" name="Halo refulgente" hidden="false">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a20d-ec9e-719a-2f03" name="Senda">
       <characteristicTypes>
@@ -2046,7 +2046,7 @@
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2615-8b0a-f53a-fdae" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2615-8b0a-f53a-fdae" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="065d-d033-39b4-def1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50de-02b7-2948-2531" type="min"/>
@@ -2122,7 +2122,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="01e0-c9bf-f715-2948" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="01e0-c9bf-f715-2948" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="164a-1c52-ed12-71dd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a50d-ff79-ca4f-cf3a" type="min"/>
@@ -2251,7 +2251,7 @@
             <cost name="pts" typeId="points" value="105.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="66d2-5189-13c5-5e30" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="66d2-5189-13c5-5e30" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96c3-c1c7-bebd-91db" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36c0-9a4d-ab50-7497" type="min"/>
@@ -2303,7 +2303,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9255-3846-de50-13a8" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9255-3846-de50-13a8" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9379-d64d-e835-00d3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2fd-47f9-2dab-e76c" type="min"/>
@@ -2696,7 +2696,7 @@
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7a9d-5b2e-4a71-92f5" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7a9d-5b2e-4a71-92f5" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e70-49d8-5c91-cebb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4728-c680-68dd-197a" type="min"/>
@@ -5724,7 +5724,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d473-1d82-8c13-82a5" name="Mago alto elfo" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d473-1d82-8c13-82a5" name="Mago alto elfo" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37c7-fb81-ca93-9175" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0de-b0fe-1c63-2be9" type="max"/>
@@ -6519,7 +6519,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ff50-af84-e5f1-772c" name="Mago dragón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ff50-af84-e5f1-772c" name="Mago dragón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f9a-7e53-5295-8398" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fde6-3c4a-2193-5537" type="max"/>
@@ -9502,7 +9502,7 @@ elegir ninguna montura.</characteristic>
             <cost name="pts" typeId="points" value="110.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0079-4a0e-4abf-4acc" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0079-4a0e-4abf-4acc" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf34-037b-bf45-ebdf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9105-fc02-8576-1b01" type="min"/>
@@ -9597,7 +9597,7 @@ elegir ninguna montura.</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2625-d54d-3e67-4cdd" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2625-d54d-3e67-4cdd" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11fa-30c9-c0b1-9c3f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb57-7c97-6dd7-5ff0" type="min"/>
@@ -14162,7 +14162,7 @@ elegir ninguna montura.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1f0-3613-afb4-b6e5" name="Carro de Tiranoc (montura)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c1f0-3613-afb4-b6e5" name="Carro de Tiranoc (montura)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="70f8-bee7-6a32-cd36" name="Potencia de unidad 3" hidden="false"/>
       </rules>
@@ -14325,7 +14325,7 @@ elegir ninguna montura.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f33-02c3-e2a7-497d" name="Carro de leones de Cracia (montura)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4f33-02c3-e2a7-497d" name="Carro de leones de Cracia (montura)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="0b18-669d-0e59-fd31" name="Protección por montura (2) (Contra proyectiles)" hidden="false"/>
         <rule id="57f9-b0cd-b189-d114" name="Potencia de unidad 4" hidden="false"/>
@@ -14516,7 +14516,7 @@ elegir ninguna montura.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8082-dc84-ba57-8ead" name="Escolta celeste (montura)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8082-dc84-ba57-8ead" name="Escolta celeste (montura)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="3d62-bfd1-8250-35a7" name="Jinetes del viento" hidden="false">
           <description>El Escolta celeste puede marchar (aunque sea un Carro), disparar (con un penalizador de -1 a su tirada para impactar por haber movido) y puede efectuar la reacción a la carga Disparar y Huir.</description>
@@ -14848,7 +14848,7 @@ elegir ninguna montura.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3498-b387-c6fd-6a86" name="Cuádriga de combate" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3498-b387-c6fd-6a86" name="Cuádriga de combate" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -15235,7 +15235,7 @@ elegir ninguna montura.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b972-e1d3-83d7-8b66" name="Ave pico llameante (montura)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b972-e1d3-83d7-8b66" name="Ave pico llameante (montura)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="0862-87a5-1f09-a361" name="Picotazo igneo" hidden="false">
           <description>El ataque adicional del Ave pico llameante se resuelve con un bonificador de +1 a la Fuerza y la regla especial Heridas múltiples (2).</description>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a5d3-0db8-9903-f390" name="Culto del placer" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a5d3-0db8-9903-f390" name="Culto del placer" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9846-934f-6342-2762" name="Senda">
       <characteristicTypes>
@@ -1304,7 +1304,7 @@
         <categoryLink id="d635-bec2-ba81-2ec0" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2a3d-4683-80a6-a5bd" name="Carro de Gélidos Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2a3d-4683-80a6-a5bd" name="Carro de Gélidos Slaanesh" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec2b-a4e2-19ec-fe8a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee4-29c5-cc6c-89ef" type="min"/>
@@ -1838,7 +1838,7 @@
               <modifiers>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6858-ae97-a558-4341" type="equalTo"/>
+                    <condition field="selections" scope="9877-5275-4683-fb9a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="93d4-0efc-9fc2-879f" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1924,6 +1924,18 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="0fa5-0a8e-4c61-affc" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b48-5e7e-7132-ed7d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c996-fe9e-127d-8f9b" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bad1-85d6-3a65-30e2" name="Armadura ligera" hidden="false" targetId="44f2-32d5-23eb-62f5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -1937,21 +1949,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad66-90a5-e3e9-eb70" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="de34-0bf9-f599-ff05" name="Flauta de la sirena" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b47-f313-b6ab-cc9c" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="147d-607f-7df0-3ae3" name="Flauta de la sirena" hidden="false">
-                      <description>Los enemigos no podrán aguantar y disparar como reacción a la carga de las diablillas.</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
               </costs>
@@ -1986,7 +1983,7 @@
                   <modifiers>
                     <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                       <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6858-ae97-a558-4341" type="equalTo"/>
+                        <condition field="selections" scope="9877-5275-4683-fb9a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="93d4-0efc-9fc2-879f" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -2051,45 +2048,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="2457-0f21-1bd0-2805" name="Armaduras" hidden="false" collective="false" import="true" defaultSelectionEntryId="5c9b-f9dd-25b1-9df2">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f967-cf58-237f-2d97" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3227-ec74-b848-753b" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="5c9b-f9dd-25b1-9df2" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="781d-5582-39ea-9d7a" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="cf72-b237-23d2-88d7" name="Armadura ligera" hidden="false" targetId="44f2-32d5-23eb-62f5" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="6858-ae97-a558-4341" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="points" value="1.0">
-                      <repeats>
-                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c998-3dde-61ce-5550" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="f148-6b69-855f-87be" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -4664,21 +4622,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="173a-0283-9312-0888" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="2110-d7a7-1ff4-a4d8" name="Flauta de la sirena" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1087-4d53-d778-5c98" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="ab72-c225-c70d-de10" name="Flauta de la sirena" hidden="false">
-                      <description>Los enemigos no podrán aguantar y disparar como reacción a la carga de las diablillas.</description>
-                    </rule>
-                  </rules>
-                  <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
               </costs>
@@ -5510,7 +5453,6 @@
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b3-5caa-7dac-3314" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edb7-2de8-1b7d-46f4" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="c27d-8ac2-80f6-252d" name="Lanza de caballería" hidden="false" targetId="63b9-4a42-e114-14f5" type="profile"/>
@@ -6799,7 +6741,7 @@
         <categoryLink id="017a-0dce-f982-2e11" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="04db-6ceb-9ffb-ce0b" name="Carro fustigador de Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="04db-6ceb-9ffb-ce0b" name="Carro fustigador de Slaanesh" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1639-ed0f-4a4d-b307" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd17-4494-acd6-03b9" type="min"/>
@@ -7128,7 +7070,7 @@
         <categoryLink id="a4b9-d436-dbe3-f3ed" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3823-d205-dcf3-b522" name="Trono del Príncipe Negro" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3823-d205-dcf3-b522" name="Trono del Príncipe Negro" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="103e-5159-cd4e-d8b7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a735-043e-48ed-8e04" type="min"/>
@@ -11010,7 +10952,7 @@ etéreos. </description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="edc1-2fac-4c8f-9367" name="Carro de gélidos del culto" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="edc1-2fac-4c8f-9367" name="Carro de gélidos del culto" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="ea7f-215a-3ff1-3de6" name="Potencia de unidad 4" hidden="false"/>
       </rules>
@@ -11267,7 +11209,7 @@ etéreos. </description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1501-f7c0-ebf6-8e7f" name="Carro fustigador del culto" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1501-f7c0-ebf6-8e7f" name="Carro fustigador del culto" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="259a-7a45-9c07-2b44" name="Potencia de unidad 4" hidden="false"/>
         <rule id="025e-31ca-deb3-4459" name="Tormenta de cuchillas" hidden="false">
@@ -11588,7 +11530,7 @@ etéreos. </description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4cdd-8e2f-3cb2-e838" name="Trono del Príncipe Negro" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4cdd-8e2f-3cb2-e838" name="Trono del Príncipe Negro" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="ae04-3eb3-cdf9-30c6" name="Potencia de unidad 4" hidden="false"/>
         <rule id="d162-3a7b-eba8-0ae8" name="Trono del Príncipe Negro" hidden="false">

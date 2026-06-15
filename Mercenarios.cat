@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b824-aacc-6637-fa81" name="Renombre">
       <characteristicTypes>
@@ -2708,7 +2708,7 @@
         <categoryLink id="4b16-61b5-40be-6652" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2240-3285-39b3-6a67" name="Onagro" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2240-3285-39b3-6a67" name="Onagro" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-28db-3222-b9b1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c06-5c5d-56ad-e2c5" type="min"/>
@@ -4696,7 +4696,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e565-e1d7-8de3-aa60" name="Cañón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e565-e1d7-8de3-aa60" name="Cañón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e1-ee27-b2c0-eabf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3750-f245-01d4-13e5" type="min"/>
@@ -4746,18 +4746,18 @@
     </selectionEntry>
     <selectionEntry id="a82b-9c36-3f30-20a3" name="Comehombres" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="7665-1707-b1f5-d6b7" value="2">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
-          </conditions>
+        <modifier type="increment" field="7665-1707-b1f5-d6b7" value="1.0">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7665-1707-b1f5-d6b7" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7665-1707-b1f5-d6b7" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="ece4-204e-aa23-7ef6" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
-        <infoLink id="df01-5760-ffba-cc1f" name="New InfoLink" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
+        <infoLink id="df01-5760-ffba-cc1f" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
         <infoLink id="90a0-0010-8a66-3367" name="Infantería monstruosa" hidden="false" targetId="4958-70de-0b69-9825" type="rule"/>
         <infoLink id="ec7f-6ab2-677d-f5f0" name="Mercenario" hidden="false" targetId="f693-0c5c-49bd-91e7" type="rule"/>
         <infoLink id="ce1d-b613-5b30-e1ae" name="Arremetida" hidden="false" targetId="22fd-3ecb-bd1d-011b" type="rule"/>
@@ -19905,7 +19905,7 @@ ballesta. </description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="pts" typeId="points" value="72.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f1db-529a-486a-1283" name="Colibrí" hidden="false" collective="false" import="true" type="model">
@@ -19932,7 +19932,7 @@ ballesta. </description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="00af-9fe7-0138-46dd" name="Pirrana" hidden="false" collective="false" import="true" type="model">
@@ -19959,7 +19959,7 @@ ballesta. </description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="8.0"/>
+            <cost name="pts" typeId="points" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d996-0589-ef7c-0d92" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -21476,7 +21476,7 @@ ballesta. </description>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="196.0"/>
+            <cost name="pts" typeId="points" value="182.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8e93-7e39-4607-1e2b" name="Glam, el bailarín guerrero" hidden="false" collective="false" import="true" type="model">
@@ -21888,7 +21888,7 @@ ballesta. </description>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="14.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a5a5-1ec3-6cd7-9654" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -50235,6 +50235,9 @@ regla especial Veloz.</characteristic>
       </constraints>
       <selectionEntries>
         <selectionEntry id="9115-f1a0-1507-474c" name="Antiguo caballero" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4d4-5253-8b54-cc20" type="max"/>
+          </constraints>
           <profiles>
             <profile id="c3ed-d5d3-40aa-b751" name="Antiguo caballero" hidden="false" typeId="b824-aacc-6637-fa81" typeName="Renombre">
               <characteristics>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="14" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="924e-28e4-pubN65537" name="Elfos Silvanos. Libro de Ejércitos. Warhammer Reforged"/>
   </publications>
@@ -2319,7 +2319,7 @@
             <cost name="pts" typeId="points" value="70.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b0e3-1835-dac1-7be7" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="b0e3-1835-dac1-7be7" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efc0-0535-2740-3b2b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e44-d0b1-3ec2-3171" type="min"/>
@@ -2383,7 +2383,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bb29-07b1-2bc5-0ff4" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="bb29-07b1-2bc5-0ff4" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6fb-2811-479e-1dd3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fe1-7f52-ace7-9ed1" type="min"/>
@@ -8196,6 +8196,9 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
               <infoLinks>
                 <infoLink id="b747-aea7-9fc6-281a" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f7b6-c4ec-d45f-a1b5" name="Cuerpo embrujado" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -8231,6 +8234,9 @@ de atributo que debiese efectuar (incluyendo los chequeos de Liderazgo, excepto 
               <infoLinks>
                 <infoLink id="d66a-24f8-098d-2727" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -14978,7 +14984,7 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c683-6774-a19d-8636" name="Carro de guerra" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c683-6774-a19d-8636" name="Carro de guerra" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a9c2-2bc5-af55-c2e9" name="Cruzar (bosques)" hidden="false" targetId="9d01-387d-269d-5a44" type="rule"/>
         <infoLink id="9b66-4ed0-c599-074c" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>

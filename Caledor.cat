@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4bff-f57e-cbdd-cdbc" name="Caledor" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4bff-f57e-cbdd-cdbc" name="Caledor" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="d5f3-8d72-7f36-e06c" name="Senda">
       <characteristicTypes>
@@ -1339,7 +1339,7 @@
             <cost name="pts" typeId="points" value="90.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b671-3aae-7050-179d" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="b671-3aae-7050-179d" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4775-b22e-f981-b555" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f498-5472-44d3-7af0" type="min"/>
@@ -1403,7 +1403,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1b1e-f16a-adb6-30ea" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1b1e-f16a-adb6-30ea" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51bd-50ac-9147-7d8d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8571-29a1-31b5-1bd8" type="min"/>
@@ -2030,7 +2030,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f96b-e09d-9385-fb0d" name="Sacerdote de Vaul" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f96b-e09d-9385-fb0d" name="Sacerdote de Vaul" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -2624,7 +2624,7 @@ pequeños tienen Fuerza 4, la regla especial Poder de penetración y no Atravies
             <cost name="pts" typeId="points" value="65.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cb08-5ad8-5581-9607" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="cb08-5ad8-5581-9607" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed87-6177-bb9a-857b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b860-4869-6535-bc4a" type="min"/>
@@ -3076,7 +3076,7 @@ al inicio de cada ronda de combate cuerpo a cuerpo, todas las miniaturas en cont
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e74a-28ee-d2a0-8d75" name="Sacerdote Dragón" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e74a-28ee-d2a0-8d75" name="Sacerdote Dragón" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e7a-8088-e893-4fe6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d467-fced-9ad1-3970" type="min"/>
@@ -3122,7 +3122,7 @@ al inicio de cada ronda de combate cuerpo a cuerpo, todas las miniaturas en cont
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d18b-7dc9-155b-2ead" name="Príncipe de Caledor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d18b-7dc9-155b-2ead" name="Príncipe de Caledor" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9e19-3741-274f-449f" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
           <modifiers>
@@ -3855,7 +3855,7 @@ al inicio de cada ronda de combate cuerpo a cuerpo, todas las miniaturas en cont
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f5c9-9d89-4af6-ca26" name="Archimago de Caledor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f5c9-9d89-4af6-ca26" name="Archimago de Caledor" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="d2cf-aa4b-1ff7-fb89" name="Magia Archimago de Caledor" hidden="false">
           <description>Nivel de magia 3, puede aumentarse a 4 por +55 puntos. Puede elegir hechizos de Alta Magia y/o de cualquiera de los 8 saberes de la magia básicos.</description>
@@ -4443,7 +4443,7 @@ al inicio de cada ronda de combate cuerpo a cuerpo, todas las miniaturas en cont
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7022-d754-9538-8e6e" name="Señor de los cielos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7022-d754-9538-8e6e" name="Señor de los cielos" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="a87f-450b-e3d9-fdc8" name="Magia Señor de los cielos" hidden="false">
           <description>Nivel de magia 2. Puede aumentarse a nivel 3 por +50 puntos. Toma sus hechizos del Saber de los Cielos.</description>
@@ -4906,7 +4906,7 @@ al inicio de cada ronda de combate cuerpo a cuerpo, todas las miniaturas en cont
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0cf9-b03e-d9d5-81dc" name="Noble de Caledor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0cf9-b03e-d9d5-81dc" name="Noble de Caledor" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="95d2-867a-46b7-d57d" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
           <modifiers>
@@ -5570,7 +5570,7 @@ al inicio de cada ronda de combate cuerpo a cuerpo, todas las miniaturas en cont
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b75f-40c9-06b6-36a9" name="Mago de Caledor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b75f-40c9-06b6-36a9" name="Mago de Caledor" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -5969,7 +5969,7 @@ al inicio de cada ronda de combate cuerpo a cuerpo, todas las miniaturas en cont
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce62-d162-7bb3-1d5b" name="Mago dragón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ce62-d162-7bb3-1d5b" name="Mago dragón" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="1064-1414-88b2-8900" name="Magia Mago dragón" hidden="false">
           <description>Nivel de magia 1. Puede aumentarse a nivel 2 por +30 puntos. Puede elegir hechizos del Saber del Fuego.</description>
@@ -5989,7 +5989,7 @@ al inicio de cada ronda de combate cuerpo a cuerpo, todas las miniaturas en cont
         <categoryLink id="87fe-9771-c492-51b4" name="New CategoryLink" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fe66-3d28-ec76-b195" name="Mago dragón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fe66-3d28-ec76-b195" name="Mago dragón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29dc-cdf9-d3ae-ebc3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cca-12ba-39c1-f2d6" type="min"/>
@@ -6321,7 +6321,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b547-1f61-e2cc-d233" name="Paladín dragón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b547-1f61-e2cc-d233" name="Paladín dragón" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="5a34-c7af-9e58-db11" value="1.0">
           <repeats>
@@ -6355,7 +6355,7 @@ tanto al jinete como al dragón.</characteristic>
         <categoryLink id="c3ac-7adb-e302-38f5" name="New CategoryLink" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="884e-53be-e845-e5dc" name="Paladín dragón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="884e-53be-e845-e5dc" name="Paladín dragón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cdc-0447-8cde-6bdf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea91-d29b-6ad1-2361" type="min"/>
@@ -6708,7 +6708,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5cb6-ab1e-229c-b20f" name="[E] - Aethis portador del fuego, príncipe dragón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5cb6-ab1e-229c-b20f" name="[E] - Aethis portador del fuego, príncipe dragón" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -6972,7 +6972,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5fbb-67f9-fd6d-038a" name="[E] - Hallar de Caledor, Jinete de dragón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5fbb-67f9-fd6d-038a" name="[E] - Hallar de Caledor, Jinete de dragón" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7216,7 +7216,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="29ab-d2e9-5986-0174" name="[E] - Rathien, señor de Tor Morven" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="29ab-d2e9-5986-0174" name="[E] - Rathien, señor de Tor Morven" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7500,7 +7500,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a84f-77d3-1ba6-1dbb" name="[E] - Thaindon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a84f-77d3-1ba6-1dbb" name="[E] - Thaindon" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7732,7 +7732,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="137e-c54f-5f03-3cdc" name="[E] - Capitán Bellaeir" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="137e-c54f-5f03-3cdc" name="[E] - Capitán Bellaeir" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="f48d-507f-ab48-2d95" value="1.0">
           <conditions>
@@ -7935,7 +7935,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d4f-554e-be50-1b65" name="[E] - Tishriel, luz del alba" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8d4f-554e-be50-1b65" name="[E] - Tishriel, luz del alba" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="5a7d-3fb3-c770-c744" value="1.0">
           <conditions>
@@ -8210,7 +8210,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a49f-380f-9e6a-e6c2" name="[E] - Daramas, maestro estratega" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a49f-380f-9e6a-e6c2" name="[E] - Daramas, maestro estratega" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8438,7 +8438,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="524e-f5cb-b234-ad00" name="Maestros de la espada de Hoeth (Guardia personal de Daramas)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="524e-f5cb-b234-ad00" name="[E] - Maestros de la espada de Hoeth (Guardia personal de Daramas)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9360,7 +9360,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e8f-9509-a2a9-bbc7" name="Dragón de Caledor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8e8f-9509-a2a9-bbc7" name="Dragón de Caledor" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="0a62-bd0c-c61c-7913" value="2.0">
           <conditions>
@@ -10426,7 +10426,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d63c-87d6-fb8b-b29e" name="Dragón de Caledor (Especial)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d63c-87d6-fb8b-b29e" name="Dragón de Caledor (Especial)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="98e9-8873-66a7-410b" value="3.0">
           <conditions>
@@ -10846,7 +10846,7 @@ tanto al jinete como al dragón.</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0fb1-aeca-79e4-2a51" name="Igneonatos (Tishriel)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0fb1-aeca-79e4-2a51" name="[E] - Igneonatos (Tishriel)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -12031,7 +12031,7 @@ Se trata de un hechizo de potenciación que puede lanzarse sobre una unidad amig
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="de0f-03f4-b5b4-eff8" name="[Ex] - Bestia del cieno" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="de0f-03f4-b5b4-eff8" name="[Ex] - Bestia del cieno" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="cadf-bd0e-8e84-558e" value="1.0">
           <conditions>

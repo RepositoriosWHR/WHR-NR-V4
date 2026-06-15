@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="7f15-8eb3-2094-c753" name="Guerreros enanos del caos" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -1018,7 +1018,7 @@
         <categoryLink id="3c19-0a98-deea-7b81" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="badc-b27d-fd83-f346" name="Cañón de magma" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="badc-b27d-fd83-f346" name="Cañón de magma" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cdf-179d-e9be-e7b0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a806-7eca-f867-922d" type="min"/>
@@ -1554,7 +1554,7 @@ punto. Si se desvía, resuelve el impacto sobre el punto designado.</description
         <categoryLink id="12ce-7eb0-2a16-9a2f" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8208-cfe7-4713-25b2" name="Lanzacohetes grito de muerte" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8208-cfe7-4713-25b2" name="Lanzacohetes grito de muerte" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a13-19b4-0147-411a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c9a-5b27-443b-9625" type="min"/>
@@ -2767,7 +2767,7 @@ punto. Si se desvía, resuelve el impacto sobre el punto designado.</description
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1760-a254-4168-acf7" name="Destructor K´daai" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1760-a254-4168-acf7" name="Destructor K´daai" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f36-8610-dc89-99be" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="470a-2d94-66e0-df9b" type="min"/>
@@ -2904,7 +2904,7 @@ Dispara como una Catapulta de Fuerza 5 con la regla especial Ataques flamígeros
         <categoryLink id="2f45-593a-021e-5335" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0aac-0e40-6008-60bb" name="Cañón infernal" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0aac-0e40-6008-60bb" name="Cañón infernal" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8a8-8ce0-229a-ac07" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad7c-13e9-ca20-e343" type="max"/>
@@ -3041,7 +3041,7 @@ Dispara como una Catapulta de Fuerza 5 con la regla especial Ataques flamígeros
         <categoryLink id="b28e-6573-39fb-ba39" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9acc-499b-98be-0605" name="Demonio de hierro" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9acc-499b-98be-0605" name="Demonio de hierro" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d978-e998-ab9c-b0d8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d08a-6b44-5901-c375" type="min"/>
@@ -6214,7 +6214,7 @@ asedio: esta sufrirá 1D6 impactos automáticos de Fuerza 8 distribuidos como si
         <categoryLink id="c90a-d9b4-f8d8-ec63" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5990-2a0e-448c-b248" name="Cañón estremecedor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5990-2a0e-448c-b248" name="Cañón estremecedor" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e50a-60b5-bd91-da30" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b4-2f2d-78e0-b450" type="min"/>

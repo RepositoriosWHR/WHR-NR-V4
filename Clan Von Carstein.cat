@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1408-1786-52bb-a9f8" name="Clan Von Carstein" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1408-1786-52bb-a9f8" name="Clan Von Carstein" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="e483-859c-97c8-fa19" name="Poder vampírico">
       <characteristicTypes>
@@ -1887,7 +1887,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0952-a508-010b-907b" name="Montura" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0952-a508-010b-907b" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b741-0d9b-df8f-9adb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8810-d947-48a0-ee51" type="min"/>
@@ -2772,7 +2772,7 @@ Poder Tabla del Carruaje negro
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="afe6-b8cb-2128-c698" name="Carruaje negro" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="afe6-b8cb-2128-c698" name="Carruaje negro" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad9-fc5d-9778-c458" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b35a-fd7b-8cba-b718" type="min"/>
@@ -3022,7 +3022,7 @@ Poder Tabla del Carruaje negro
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e16a-8da6-d38c-075c" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e16a-8da6-d38c-075c" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4272-4075-cdba-47aa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8212-043a-ac44-4096" type="min"/>
@@ -8466,7 +8466,7 @@ Se trata de un hechizo de Maldición que afecta a todas las unidades enemigas en
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0b32-74ae-8b4e-d59c" name="Bestia del cieno" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0b32-74ae-8b4e-d59c" name="[Ex] - Bestia del cieno" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9199,7 +9199,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
             <cost name="pts" typeId="points" value="100.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="28d0-79a9-f732-dcc7" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="28d0-79a9-f732-dcc7" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="195c-d5cd-2e16-715e" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8ba-a94f-0c0a-00a9" type="min"/>
@@ -9342,7 +9342,7 @@ Se trata de un hechizo de potenciación que toma como objetivo a una bestia del 
             <cost name="pts" typeId="points" value="90.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="47e1-6595-1bfd-d359" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="47e1-6595-1bfd-d359" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13dc-6cb8-b519-d8ff" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11cb-287a-7023-f9c4" type="min"/>
@@ -12909,7 +12909,7 @@ el radio de alcance de este hechizo es de 18”, en lugar de las 12” habituale
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5abc-a748-8f2f-1181" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5abc-a748-8f2f-1181" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="8531-a034-1250-f394" name="Potencia de unidad 4" hidden="false"/>
         <rule id="e8bb-ecfc-86ab-70f1" name="Horda de zombis" hidden="false">
@@ -13228,7 +13228,7 @@ el radio de alcance de este hechizo es de 18”, en lugar de las 12” habituale
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="31a2-2d4d-878c-2ea4" name="Carro de plaga" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="31a2-2d4d-878c-2ea4" name="Carro de plaga" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="7d67-c12a-f742-38cc" name="Potencia de unidad 3" hidden="false"/>
         <rule id="150a-d1c5-5427-6f4b" name="La sombra de la muerte" hidden="false">

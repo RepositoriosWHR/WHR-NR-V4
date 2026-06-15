@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12e6-0f80-9cd0-64b7" name="Tierras del Sur" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12e6-0f80-9cd0-64b7" name="Tierras del Sur" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a95c-4240-95e5-631c" name="Destino ancestral">
       <characteristicTypes>
@@ -8,7 +8,7 @@
     </profileType>
   </profileTypes>
   <selectionEntries>
-    <selectionEntry id="832e-9fcb-4ea0-15a8" name="Guerreros eslizones" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="832e-9fcb-4ea0-15a8" name="Guerreros eslizones" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="7fbc-57cf-7454-b799" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="abfe-7a43-74d2-4a03" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
@@ -18,7 +18,7 @@
         <categoryLink id="5758-7795-f9ad-8a9e" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fa64-beee-5a64-afdd" name="Guerreros eslizones" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fa64-beee-5a64-afdd" name="Guerreros eslizones" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a1b-0bd7-5fed-049a" type="max"/>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9919-8e30-9797-94ad" type="min"/>
@@ -503,7 +503,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe0d-e3f5-46b7-b3ef" name="Hostigadores eslizones" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fe0d-e3f5-46b7-b3ef" name="Hostigadores eslizones" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9f0d-69a8-fd2f-1d44" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="60f3-1209-69c2-3a30" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
@@ -889,7 +889,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6500-c9e6-d60f-6f98" name="Enjambres de la jungla" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6500-c9e6-d60f-6f98" name="Enjambres de la jungla" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="942a-eb76-164a-f6bc" type="max"/>
       </constraints>
@@ -904,7 +904,7 @@
         <categoryLink id="e695-aa3b-78ba-4f46" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9908-f6cb-5db0-8723" name="Enjambres de la jungla" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9908-f6cb-5db0-8723" name="Enjambres de la jungla" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b740-cd21-4c59-a3d6" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="256f-d96b-30a9-87f0" type="min"/>
@@ -973,7 +973,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="27f3-ef38-ab5b-dd69" name="Guardianes eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="27f3-ef38-ab5b-dd69" name="Guardianes eslizón" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="a8ab-f2ab-075a-7722" value="1.0">
           <repeats>
@@ -994,7 +994,7 @@
         <categoryLink id="13f2-cd57-91b3-6bef" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d334-ae09-7297-1f87" name="Guardianes eslizón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d334-ae09-7297-1f87" name="Guardianes eslizón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d19-7077-6504-9d3c" type="max"/>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e896-4d94-2cd9-ff28" type="min"/>
@@ -1808,7 +1808,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a18d-3253-43bb-06b8" name="Acechantes eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a18d-3253-43bb-06b8" name="Acechantes eslizón" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="1b6b-b0c2-52b6-157f" value="3.0">
           <conditions>
@@ -1836,7 +1836,7 @@
         <categoryLink id="1c41-40ee-8f1e-02a1" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="96ee-b218-9b55-cc22" name="Acechantes eslizón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="96ee-b218-9b55-cc22" name="Acechantes eslizón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de6-a8ef-75ec-162d" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a925-8f10-b7b6-2128" type="min"/>
@@ -2844,7 +2844,7 @@ salvación del Bastiodón. Su Potencia de unidad es de 10. </description>
         <categoryLink id="28be-1d30-fc3a-1335" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d472-0bba-5e52-ea50" name="Bastiodón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d472-0bba-5e52-ea50" name="Bastiodón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d88-6e0c-6fa0-0b76" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9c6-1689-bedd-d1ba" type="min"/>
@@ -4159,7 +4159,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f51-a5a1-aedd-6d21" name="Saurio viejaestirpe" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4f51-a5a1-aedd-6d21" name="Saurio viejaestirpe" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="d0b6-47f6-d893-0bd3" value="3.0">
           <conditions>
@@ -4741,7 +4741,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1f7-5008-2b14-a7b0" name="Cacique eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c1f7-5008-2b14-a7b0" name="Cacique eslizón" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="7d0a-0470-4c54-62fd" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="807c-0652-2d1d-7e08" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
@@ -5901,7 +5901,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fb68-b8a9-0cb9-aad3" name="Gran oráculo eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fb68-b8a9-0cb9-aad3" name="Gran oráculo eslizón" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="7397-58c7-79a3-cfe4" name="Magia Gran oráculo eslizón" hidden="false">
           <description>Nivel de magia 2. Puede mejorarse a nivel de magia 3 por +50 puntos. Puede elegir sus hechizos de entre los saberes de los Cielos, Luz, Bestias o Vida.</description>
@@ -6608,7 +6608,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65e2-2ca4-7456-d8cf" name="Saurio escamadura" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="65e2-2ca4-7456-d8cf" name="Saurio escamadura" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="f60e-9678-f26c-c5dd" value="3.0">
           <conditions>
@@ -7108,7 +7108,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6ea-9efc-e28d-ddf7" name="Chamán eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d6ea-9efc-e28d-ddf7" name="Chamán eslizón" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="e4eb-055a-b057-8e2a" name="Magia Chamán eslizón" hidden="false">
           <description>Nivel de magia 1. Puede mejorarse a nivel de magia 2 por +30 puntos. Puede elegir sus hechizos del Saber de los Cielos, Luz, Bestias o Vida.</description>
@@ -7680,7 +7680,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="92ec-5164-47ba-9699" name="Jefe eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="92ec-5164-47ba-9699" name="Jefe eslizón" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="bd3d-c998-90f6-854f" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="eb3b-8ead-20de-2241" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
@@ -9259,7 +9259,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="07fa-ca74-c759-2120" name="[E] - Cacique Ynimirhi, el Estratega" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="07fa-ca74-c759-2120" name="[E] - Cacique Ynimirhi, el Estratega" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9500,7 +9500,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e96-6f5b-e13b-1fed" name="[E] - Thoaledapa, el Diablo Verde" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7e96-6f5b-e13b-1fed" name="[E] - Thoaledapa, el Diablo Verde" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9866,7 +9866,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="840f-1753-5e08-e67e" name="[E] - Rom´Carebn, Oráculo de guerra" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="840f-1753-5e08-e67e" name="[E] - Rom´Carebn, Oráculo de guerra" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -10099,7 +10099,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d2ac-b6ee-80d0-5e0b" name="[E] - Tenehuini, Azote de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d2ac-b6ee-80d0-5e0b" name="[E] - Tenehuini, Azote de Sotek" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -10703,7 +10703,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3162-2102-d345-85dd" name="Estegadón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3162-2102-d345-85dd" name="Estegadón" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="ff09-d7c5-4dbd-9507" value="3.0">
           <conditions>
@@ -10874,7 +10874,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6a06-8547-ef90-fd0e" name="Estegadón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6a06-8547-ef90-fd0e" name="Estegadón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b407-d6a2-1368-ee36" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ef8-187d-70f9-8a0c" type="min"/>
@@ -11135,7 +11135,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5145-1958-71a7-31ff" name="Estegadón (Básica)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5145-1958-71a7-31ff" name="Estegadón (Básica)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="6f0d-69af-228d-e1c9" value="1.0">
           <repeats>
@@ -11301,7 +11301,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8a26-2723-f69e-17fd" name="Estegadón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8a26-2723-f69e-17fd" name="Estegadón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd35-365f-dd55-22f0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2299-3666-ccc6-a0e7" type="min"/>
@@ -12086,7 +12086,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c117-5ca2-f3fb-295c" name="Estegadón anciano" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c117-5ca2-f3fb-295c" name="Estegadón anciano" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="4306-1331-88fc-30ac" name="Dotación de castillo" hidden="false">
           <description>El Estegadón anciano está tripulado por una dotación de al menos 4 Guardianes eslizón, aunque se consideran una única miniatura. En cuerpo a cuerpo, el Estegadón anciano y la dotación pueden atacar con normalidad a cualquier miniatura en contacto peana con peana. Todos los impactos se resuelven utilizando la Resistencia, Heridas y tirada de salvación del Estegadón anciano. Usa la HP de la dotación para resolver los ataques de disparo. Utiliza el valor de Liderazgo del Estegadón anciano en lugar del de los eslizones. Su Potencia de unidad es de 10, con un bonificador de +1 por cada eslizón adicional. </description>
@@ -12118,7 +12118,7 @@ tabla, simplemente el disparo no tendrá efecto. El Troglodón puede escupir ven
         <categoryLink id="10a6-de71-413f-d4c5" name="Unidades especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="06fd-70c3-44ce-ba98" name="Estegadón anciano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="06fd-70c3-44ce-ba98" name="Estegadón anciano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be98-1a7b-0d78-5d39" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a0a-f184-7143-4b99" type="min"/>

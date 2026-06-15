@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="619e-e9da-a8e8-4f6f" name="Kurgan" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1902-3bc7-65bd-b65b" name="Recompensa del caos">
       <characteristicTypes>
@@ -2910,7 +2910,7 @@
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="315f-2f3b-8f47-b1a5" name="Tripulaición" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="315f-2f3b-8f47-b1a5" name="Tripulaición" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb23-8699-51f6-733a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96c6-0683-9921-e2b9" type="min"/>
@@ -3847,7 +3847,7 @@ resultados de 2 como 3).</description>
             <cost name="pts" typeId="points" value="145.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8a9d-baa7-eff0-688a" name="Tripulaición" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8a9d-baa7-eff0-688a" name="Tripulaición" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d08a-3d77-0612-2a47" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e6-f6f9-623c-007f" type="min"/>
@@ -8587,7 +8587,7 @@ de Wulfrik.</characteristic>
             <cost name="pts" typeId="points" value="80.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6894-a3e4-34ba-dfed" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6894-a3e4-34ba-dfed" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c907-4989-366c-4e40" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc86-767e-c809-d239" type="min"/>
@@ -10459,7 +10459,7 @@ D6 	Resultado (Agarrar y...)
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ffc1-be29-617f-4687" name="Mamut del Caos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ffc1-be29-617f-4687" name="Mamut del Caos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="3542-4efe-682d-3bbb" value="2.0">
           <conditions>
@@ -10559,7 +10559,7 @@ D6 	Resultado (Agarrar y...)
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="16e6-f8aa-5cce-780e" name="Mamut del Caos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="16e6-f8aa-5cce-780e" name="Mamut del Caos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e009-b068-e907-ca31" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5494-b5a9-33f6-108b" type="min"/>
@@ -11276,7 +11276,7 @@ D6 	Resultado (Agarrar y...)
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4444-ff21-2052-72d0" name="Carro de guerra" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4444-ff21-2052-72d0" name="Carro de guerra" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e1da-59d6-e522-0e44" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
         <infoLink id="e15d-d55b-d97b-e840" name="Caballería rápida" hidden="false" targetId="0b7e-2a08-2b5a-51d7" type="rule"/>

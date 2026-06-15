@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="49dd-6404-b794-06e7" name="Hombres lagarto" revision="14" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9ec5-91ab-c1bc-3ae5" name="Desove">
       <characteristicTypes>
@@ -2758,7 +2758,7 @@
         <categoryLink id="bb61-e1dd-cdac-b15b" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="134d-ef87-424d-040d" name="Estegadón anciano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="134d-ef87-424d-040d" name="Estegadón anciano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ce3-f03d-4580-b402" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24db-2285-b897-0dee" type="min"/>
@@ -3046,7 +3046,7 @@
         <categoryLink id="b5fd-d5d0-e9fc-e768" name="Unidades especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d851-fc51-b080-185b" name="Bastiodón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d851-fc51-b080-185b" name="Bastiodón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60f1-1cd4-b4e8-11ac" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e2a-87e2-c473-16d9" type="min"/>
@@ -3305,7 +3305,7 @@
         <categoryLink id="fd0b-8ab0-6244-1d49" name="Unidades especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e12e-8f9d-e6f1-bd6f" name="Estegadón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e12e-8f9d-e6f1-bd6f" name="Estegadón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82b3-25ca-51c4-bc40" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c546-baca-4274-afaf" type="min"/>
@@ -3958,7 +3958,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="862b-6c77-cf35-585f" name="Oráculo eslizón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="862b-6c77-cf35-585f" name="Oráculo eslizón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbb2-03a2-8515-89c0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f60-53e3-b56a-f806" type="min"/>
@@ -4105,7 +4105,7 @@
         <categoryLink id="067b-ba31-cc45-4cf7" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="09e9-da09-89f8-386e" name="Mago-Sacerdote Slann" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="09e9-da09-89f8-386e" name="Mago-Sacerdote Slann" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8422-ceef-695b-13bd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8560-2335-decd-3023" type="min"/>
@@ -4490,7 +4490,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1263-a3d6-5959-5381" name="Saurio viejaestirpe" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1263-a3d6-5959-5381" name="Saurio viejaestirpe" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="2ca8-bb00-0624-a81c" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="a50a-4c28-15ab-6c1f" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
@@ -4510,7 +4510,7 @@
         <categoryLink id="b09e-f09f-9077-dd6e" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="110a-2fd4-dc55-1034" name="Saurio viejaestirpe" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="110a-2fd4-dc55-1034" name="Saurio viejaestirpe" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e40-acda-b152-fff4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4489-6f9b-62c5-bd69" type="min"/>
@@ -5033,7 +5033,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2e5-5035-64c5-bb1d" name="Cacique eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a2e5-5035-64c5-bb1d" name="Cacique eslizón" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b401-68d9-4060-279d" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="e120-043f-5f10-1e4e" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
@@ -5053,7 +5053,7 @@
         <categoryLink id="ce9f-ca6c-a0d1-44f8" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="eee1-6fcb-2944-2f8a" name="Cacique eslizón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="eee1-6fcb-2944-2f8a" name="Cacique eslizón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1303-1960-af1d-e781" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="988c-7f09-4899-a499" type="min"/>
@@ -5756,7 +5756,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0360-6370-6e3d-e58d" name="Saurio escamadura" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0360-6370-6e3d-e58d" name="Saurio escamadura" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b724-f357-a6e5-e2e6" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="2505-a7f0-6d7e-de5e" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
@@ -5776,7 +5776,7 @@
         <categoryLink id="366e-d8bc-570e-fd35" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9e76-1afb-c0b5-0dc3" name="Saurio escamadura" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9e76-1afb-c0b5-0dc3" name="Saurio escamadura" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2fd-c0d3-b112-ea7c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba16-1b63-20a2-4be8" type="min"/>
@@ -6172,7 +6172,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2c0-e158-c9b5-55fb" name="Chamán eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a2c0-e158-c9b5-55fb" name="Chamán eslizón" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="5be3-2e53-ee0f-1f29" name="Magia chamán eslizón" hidden="false">
           <description>Nivel de magia 1. Puede mejorarse a nivel de magia 2 por +35 puntos. Puede elegir sus hechizos de uno solo de entre los saberes de los Cielos, la Luz, las Bestias o de la Vida.</description>
@@ -6197,7 +6197,7 @@
         <categoryLink id="f006-1679-c024-af49" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9c36-cb6a-e839-6b72" name="Chamán eslizón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9c36-cb6a-e839-6b72" name="Chamán eslizón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edc7-1fe4-0444-b89a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77ee-4224-4d44-c68b" type="min"/>
@@ -6681,7 +6681,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6450-fade-376d-56e8" name="Jefe eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6450-fade-376d-56e8" name="Jefe eslizón" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="945a-82b2-54ea-f120" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="771c-8207-ea41-fac8" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
@@ -6701,7 +6701,7 @@
         <categoryLink id="b7e6-6f68-2285-4726" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a37d-7d5c-646c-fafc" name="Jefe eslizón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a37d-7d5c-646c-fafc" name="Jefe eslizón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b15-8b3b-62d8-bd55" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ea-a2e7-8556-67ba" type="min"/>
@@ -7162,7 +7162,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="520a-c805-dc24-9e20" name="[E] - Chakax, guardián de la eternidad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="520a-c805-dc24-9e20" name="[E] - Chakax, guardián de la eternidad" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7195,7 +7195,7 @@
         <categoryLink id="9eb9-a53d-bbad-4e97" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6198-0497-3b20-2351" name="Chakax" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6198-0497-3b20-2351" name="Chakax" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a158-596d-b1a7-f2b6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbbc-302b-cf68-cadd" type="min"/>
@@ -7360,7 +7360,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6385-c4db-351e-9c8a" name="[E] - Tehenhauin, heraldo de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6385-c4db-351e-9c8a" name="[E] - Tehenhauin, heraldo de Sotek" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7415,7 +7415,7 @@
         <categoryLink id="d0cf-2864-a163-728f" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4ae7-1a6d-0767-47d8" name="Tehenhauin, heraldo de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4ae7-1a6d-0767-47d8" name="Tehenhauin, heraldo de Sotek" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40b1-809e-ef6f-6267" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3bb-dfc1-0da0-492f" type="min"/>
@@ -7570,7 +7570,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afcf-4a66-4630-6651" name="[E] - Oxyotl, superviviente de Pahuax" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="afcf-4a66-4630-6651" name="[E] - Oxyotl, superviviente de Pahuax" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7615,7 +7615,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <categoryLink id="c678-8fc7-be35-7e22" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c8ac-7620-faa1-3a43" name="Oxyotl, superviviente de Pahuax" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c8ac-7620-faa1-3a43" name="Oxyotl, superviviente de Pahuax" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b9e-547c-7ce1-3b07" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d09a-088f-fca0-efe5" type="min"/>
@@ -7739,7 +7739,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eb03-bd15-df7f-d2b1" name="[E] - Nakai el Errabundo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="eb03-bd15-df7f-d2b1" name="[E] - Nakai el Errabundo" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7769,7 +7769,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <categoryLink id="a691-3f72-6a7a-c0e0" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5006-4fab-1c75-4e3c" name="Nakai el Errabundo" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5006-4fab-1c75-4e3c" name="Nakai el Errabundo" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae38-961e-f811-e69c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a12-ba55-2a71-17ad" type="min"/>
@@ -7887,7 +7887,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="279d-580d-e48b-9a18" name="[E] - Kroq-Gar, úktimo guardián de Xhotl" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="279d-580d-e48b-9a18" name="[E] - Kroq-Gar, úktimo guardián de Xhotl" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7913,7 +7913,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <categoryLink id="d97b-9036-3eff-f570" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4b8f-b9ce-2e8b-1ba6" name="Kroq-Gar" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4b8f-b9ce-2e8b-1ba6" name="Kroq-Gar" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff0c-7ec1-2f18-dce2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5b6-23a2-f17b-9582" type="min"/>
@@ -8141,7 +8141,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4444-15c1-a803-cb2d" name="[E] - Tiktaq&apos;to, el ojo de los ancestrales" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4444-15c1-a803-cb2d" name="[E] - Tiktaq&apos;to, el ojo de los ancestrales" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8172,7 +8172,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <categoryLink id="c94a-1f06-fa73-2b21" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3dfa-f180-841d-890b" name="Tiktaq´to, el ojo de los ancestrales" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3dfa-f180-841d-890b" name="Tiktaq´to, el ojo de los ancestrales" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24fc-a423-b9bb-dd0a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2367-17c6-cb18-5705" type="min"/>
@@ -8343,7 +8343,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="889b-b9a6-4982-af3c" name="[E] - Tetto&apos;eko, astromante del templo del eclipse" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="889b-b9a6-4982-af3c" name="[E] - Tetto&apos;eko, astromante del templo del eclipse" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8384,7 +8384,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <categoryLink id="331b-bae5-1eef-6cab" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4058-91af-71a2-a7e8" name="Tetto´eko" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4058-91af-71a2-a7e8" name="Tetto´eko" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6aa-a93b-6530-2b5a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="079f-9653-844d-0e17" type="min"/>
@@ -8583,7 +8583,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <categoryLink id="6969-e9d2-fb94-fa0f" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="87bc-8fe4-b5c7-5839" name="Mazdamundi" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="87bc-8fe4-b5c7-5839" name="Mazdamundi" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4817-ba8b-a84f-3605" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2253-94ae-9e26-d46d" type="min"/>
@@ -8829,7 +8829,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <categoryLink id="7411-098d-2cf9-f7cd" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="728e-4393-ee83-11e8" name="El venerable Cacique-Kroak" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="728e-4393-ee83-11e8" name="El venerable Cacique-Kroak" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24e6-30d8-7cfd-3a33" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c7d-661e-0dc4-b724" type="min"/>
@@ -9649,7 +9649,7 @@ Veneno Carmesí. Los disparos efectuados usando este veneno se resuelven con la
         <categoryLink id="5363-a5a5-7778-328b" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c2d1-145c-c4a4-ed7f" name="Lord Kroak de la primera generación" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c2d1-145c-c4a4-ed7f" name="Lord Kroak de la primera generación" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a6a-3302-3c59-d53b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f946-7074-3950-5ab9" type="min"/>
@@ -9837,7 +9837,7 @@ un dado de Dispersión adicional para ese intento de dispersión. Además, podr�
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="938a-9cdd-8c50-6bd6" name="Kroxigor ancestral" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="938a-9cdd-8c50-6bd6" name="Kroxigor ancestral" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1714-16cd-af0d-cad6" type="max"/>
       </constraints>
@@ -9858,7 +9858,7 @@ un dado de Dispersión adicional para ese intento de dispersión. Además, podr�
         <categoryLink id="680b-21d8-ecbd-1f75" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7946-8a86-8189-24b6" name="Kroxigor ancestral" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7946-8a86-8189-24b6" name="Kroxigor ancestral" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a6a-9b37-4a53-9627" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701c-3856-3237-11e4" type="min"/>
@@ -10089,7 +10089,7 @@ un dado de Dispersión adicional para ese intento de dispersión. Además, podr�
         <categoryLink id="bb85-e69b-6df8-56a7" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="40c2-1bb4-120c-7d72" name="Gurggl Estelaverde" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="40c2-1bb4-120c-7d72" name="Gurggl Estelaverde" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c25f-ab7d-5e64-3e3d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f4-d5d1-1e30-a64d" type="min"/>
@@ -10278,7 +10278,7 @@ un dado de Dispersión adicional para ese intento de dispersión. Además, podr�
         <categoryLink id="5e6d-0130-9c7c-42c4" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3057-e29d-5783-07dd" name="Kremlo, el &quot;Slann&quot;" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3057-e29d-5783-07dd" name="Kremlo, el &quot;Slann&quot;" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5225-c8e5-0fa9-49dd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49b1-d6ab-10b6-aa71" type="min"/>
@@ -10682,7 +10682,7 @@ dispersión de hechizos. Además, Kremlo conocerá los tres hechizos identifica
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9858-8c93-1e00-9437" name="[E] - Conqualtza" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9858-8c93-1e00-9437" name="[E] - Conqualtza" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -10721,7 +10721,7 @@ dispersión de hechizos. Además, Kremlo conocerá los tres hechizos identifica
         <categoryLink id="914f-7ce0-113c-d37b" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="58f2-61d5-06ee-989e" name="Conqualtza" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="58f2-61d5-06ee-989e" name="Conqualtza" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e9a-e551-5c3e-a55c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f6-d485-1933-d5ef" type="min"/>
@@ -10901,7 +10901,7 @@ dispersión de hechizos. Además, Kremlo conocerá los tres hechizos identifica
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b696-3339-a626-cbe9" name="[E] - Gor-Rok, el gran saurio albino" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b696-3339-a626-cbe9" name="[E] - Gor-Rok, el gran saurio albino" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -10929,7 +10929,7 @@ dispersión de hechizos. Además, Kremlo conocerá los tres hechizos identifica
         <categoryLink id="85e6-3052-eafc-6449" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6758-1361-9ec6-0f84" name="Gor-Rok, el gran saurio albino" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6758-1361-9ec6-0f84" name="Gor-Rok, el gran saurio albino" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="926b-def6-93b3-f9bc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62e1-b976-8704-8c1d" type="min"/>
@@ -11577,7 +11577,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5619-3192-99c5-3b83" name="Estegadón " hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5619-3192-99c5-3b83" name="Estegadón " hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="2ee3-f029-622f-7db1" name="Potencia de unidad 9" hidden="false">
           <description>Potencia de unidad 9 (+1 por cada Eslizón adicional).</description>
@@ -11807,7 +11807,7 @@ de su portador (si los Eslizones de la Unidad Singular Estegadón anciano pueden
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="034b-7c08-8c9e-27a2" name="Estegadón anciano" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="034b-7c08-8c9e-27a2" name="Estegadón anciano" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="ab03-e44a-ff61-93a7" name="Estegadón anciano (montura)" hidden="false">
           <description>Los Eslizones que montan el castillo del Estegadón anciano obtienen de forma gratuita el Desove sagrado 

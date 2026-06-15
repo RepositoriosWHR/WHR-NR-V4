@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="986c-053c-69d2-61fe" name="Estalia" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="f56e-da6a-d244-d8f9" name="Orden de caballería">
       <characteristicTypes>
@@ -4802,7 +4802,7 @@ Marchar).</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2742-a880-2259-4f56" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2742-a880-2259-4f56" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="593d-20b2-66bd-af60" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8193-6a22-7d4e-7944" type="min"/>
@@ -6278,7 +6278,7 @@ atrás! ni Presencia inspiradora.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="792e-2731-015d-b459" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="792e-2731-015d-b459" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1b-ae7d-5f4e-9eb8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d443-75a7-03b1-2286" type="min"/>
@@ -12089,7 +12089,7 @@ flamígeros y Heridas múltiples (2).</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5630-ec5e-db19-8c53" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="5630-ec5e-db19-8c53" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="effa-86b9-0d97-3745" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b979-c289-1270-733d" type="min"/>
@@ -13981,7 +13981,7 @@ flamígeros y Heridas múltiples (2).</characteristic>
         <categoryLink id="4a9d-4d5e-a028-fcff" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="575c-d362-bfa0-2fb1" name="La Tarasca" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="575c-d362-bfa0-2fb1" name="La Tarasca" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="073a-8ddf-fd87-a787" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e9d-f430-7f54-7f1d" type="max"/>
@@ -14474,7 +14474,7 @@ flamígeros y Heridas múltiples (2).</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0fa7-54c2-4a0a-8e6b" name="Carro de toros de guerra" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0fa7-54c2-4a0a-8e6b" name="Carro de toros de guerra" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="62ef-1514-a198-7bf7" name="Potencia de unidad 5" hidden="false"/>
         <rule id="49cc-209a-6771-e64c" name="Furia asesina (toro de guerra)" hidden="false"/>

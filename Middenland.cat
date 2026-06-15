@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="09c4-4a06-8b6c-530f" name="Middenland" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="09c4-4a06-8b6c-530f" name="Middenland" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a55d-2199-82f9-73d2" name="Talismán de Ulric">
       <characteristicTypes>
@@ -3512,7 +3512,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="953e-6bf6-f7a0-c0be" name="Gran cañón imperial" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="953e-6bf6-f7a0-c0be" name="Gran cañón imperial" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f097-da15-e772-c6cc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e4-32bc-2c43-9d20" type="min"/>
@@ -3667,7 +3667,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f8bb-f778-d6dc-f0ba" name="Mortero" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f8bb-f778-d6dc-f0ba" name="Mortero" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="811c-3a4f-2e61-fec7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0194-898e-45ee-479c" type="min"/>
@@ -3752,7 +3752,7 @@ penetración. Si la unidad objetivo se  encuentra a distancia corta (12” o men
         <categoryLink id="7649-52b1-0c06-6cb4" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="da6f-0d4b-2cb0-a27a" name="Cañón de salvas Hellblaster" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="da6f-0d4b-2cb0-a27a" name="Cañón de salvas Hellblaster" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84ba-f8ec-9ed8-22db" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdec-a075-28ef-c93a" type="min"/>
@@ -10775,7 +10775,7 @@ Mágica (1).</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b976-9489-7cbc-fa69" name="Huracanum celestial" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b976-9489-7cbc-fa69" name="Huracanum celestial" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aee-6416-f053-9992" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a99d-3d54-37c3-62f6" type="min"/>
@@ -12494,7 +12494,7 @@ Se trata de un hechizo de potenciación que puede lanzarse sobre una unidad amig
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6fc7-445e-7541-03ea" name="[Ex] - Bestia del cieno" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6fc7-445e-7541-03ea" name="[Ex] - Bestia del cieno" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="c769-9916-d7db-f6d2" value="1.0">
           <conditions>
@@ -17991,7 +17991,7 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="730f-d675-4bb8-d96f" name="Gran cañón imperial" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="730f-d675-4bb8-d96f" name="Gran cañón imperial" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adf6-6f8a-ea9c-91e9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d354-91c1-185f-2688" type="min"/>
@@ -18141,7 +18141,7 @@ El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y 
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="36ad-9ab4-4fde-1023" name="Mortero" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="36ad-9ab4-4fde-1023" name="Mortero" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43fa-3014-802c-8a0a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ac-62f3-6130-ca84" type="min"/>
@@ -20115,7 +20115,7 @@ haber tirado los dados con ella, para repetir la tirada. </description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f020-f5f4-a865-2bdc" name="Luminarca de Hysh (Montura)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f020-f5f4-a865-2bdc" name="Luminarca de Hysh (Montura)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="87b6-bd8b-0301-df30" name="Potencia de unidad 6" hidden="false"/>
         <rule id="e8e7-062b-ee37-5e48" name="Halo refulgente" hidden="false">
@@ -20261,7 +20261,7 @@ haber tirado los dados con ella, para repetir la tirada. </description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0753-ff2a-5d53-802f" name="Huracanum celestial (Montura)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0753-ff2a-5d53-802f" name="Huracanum celestial (Montura)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="3dce-00f1-396a-9f72" name="Potencia de unidad 6" hidden="false"/>
         <rule id="07c4-17d4-0f30-8c56" name="Foco de Azyr" hidden="false">

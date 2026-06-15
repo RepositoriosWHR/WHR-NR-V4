@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36e9-44aa-523d-fdf6" name="Espadas del Caos" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36e9-44aa-523d-fdf6" name="Espadas del Caos" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="cf08-e228-80d6-f0ee" name="Recompensa del caos">
       <characteristicTypes>
@@ -2913,7 +2913,7 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
             <cost name="pts" typeId="points" value="205.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="31e7-d03e-8e73-cff2" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="31e7-d03e-8e73-cff2" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a811-fab8-aaeb-f0c5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b4-3c31-b6c1-955b" type="min"/>

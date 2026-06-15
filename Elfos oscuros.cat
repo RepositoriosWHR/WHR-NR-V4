@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3216-304d-pubN65537" name="Elfos Oscuros Reforged"/>
   </publications>
@@ -2197,7 +2197,7 @@
         <categoryLink id="3261-57d2-a79b-b1bc" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dd1a-2207-2094-f385" name="Carro de gélidos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="dd1a-2207-2094-f385" name="Carro de gélidos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b9c-475f-5e21-f37b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f08e-fb19-cc7d-2271" type="min"/>
@@ -5494,7 +5494,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="81e5-4588-081b-ae41" name="Trono" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="81e5-4588-081b-ae41" name="Trono" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de4-ac60-565c-a092" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c28d-3286-be87-a9b7" type="min"/>
@@ -5612,7 +5612,7 @@ unidad. A la hora de disparar contra un Caldero de Sangre, éste deberá conside
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="bc03-5c4c-1876-c819" name="Caldero de sangre" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bc03-5c4c-1876-c819" name="Caldero de sangre" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8909-445a-c6c1-e0f9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab82-2294-6b6e-2ca0" type="min"/>
@@ -15283,7 +15283,7 @@ Apabullada durante ese turno; tan horrible es el morir a sus manos.</description
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="70e5-5b18-953c-aefc" name="Caldero de sangre" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="70e5-5b18-953c-aefc" name="Caldero de sangre" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="93dc-a9e6-4e15-e426" value="3.0">
           <conditions>
@@ -15705,7 +15705,7 @@ Apabullada durante ese turno; tan horrible es el morir a sus manos.</description
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cdac-4401-68f4-7057" name="Carro de gélidos" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cdac-4401-68f4-7057" name="Carro de gélidos" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="5733-5bd2-6569-b8fd" name="Potencia de unidad 4" hidden="false"/>
       </rules>
@@ -15983,7 +15983,7 @@ Apabullada durante ese turno; tan horrible es el morir a sus manos.</description
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b51-4a9e-35d4-3514" name="Carro fustigador" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1b51-4a9e-35d4-3514" name="Carro fustigador" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="1446-4d3e-56de-f473" name="Potencia de unidad 4" hidden="false"/>
       </rules>

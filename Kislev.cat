@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8811-284e-f214-88b5" name="Kossars" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2870,7 +2870,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="15c9-3720-a26d-711a" name="Mortero" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="15c9-3720-a26d-711a" name="Mortero" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db9-d8ec-dfd9-82db" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9945-da88-43c0-f935" type="min"/>
@@ -6351,7 +6351,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="47be-7c85-9e65-e6a2" name="Atamán" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="47be-7c85-9e65-e6a2" name="Atamán" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4119-aeca-fa28-4339" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03aa-fb99-952c-e51a" type="min"/>
@@ -8293,7 +8293,7 @@ Ywrr. Además, podrá incluir hasta dos unidades de Guardia de hielo en su ejér
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="17dd-3b67-866e-798c" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="17dd-3b67-866e-798c" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e138-3be9-685f-c1fb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bead-4fb3-85b6-03f0" type="min"/>
@@ -9722,7 +9722,7 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7b23-85c4-e8b9-a67f" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7b23-85c4-e8b9-a67f" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1835-aebd-83fc-4c7b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b1-5c75-b2a8-0ff3" type="min"/>
@@ -9749,7 +9749,7 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="04f0-03a9-3744-2000" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="04f0-03a9-3744-2000" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3656-d89c-906e-9afd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d387-34a8-9d6c-e91c" type="min"/>
@@ -9892,7 +9892,7 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="941c-74ec-2847-e650" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="941c-74ec-2847-e650" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9be-2313-d2e0-229a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed7-5e24-9eb7-66df" type="min"/>
@@ -9919,7 +9919,7 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="17cc-586f-3476-6641" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="17cc-586f-3476-6641" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be66-16ec-dea8-4632" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35c4-49f1-f031-3667" type="min"/>

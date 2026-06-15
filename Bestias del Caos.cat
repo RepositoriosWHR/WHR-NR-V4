@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="13" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51fc-eb9b-4cd8-7ac0" name="Bestias del Caos" revision="15" battleScribeVersion="2.03" authorName="Vil" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Agradecimientos a Coccorota, Aswer y Gengis.</readme>
   <publications>
     <publication id="51fc-eb9b-pubN65537" name="Bestias del Caos Reforged"/>
@@ -2535,7 +2535,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2348-1075-e891-0585" name="Gorgon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2348-1075-e891-0585" name="Gorgon" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b419-71a2-9b82-be11" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="14e1-69a8-368a-c4d0" type="min"/>
@@ -2738,7 +2738,7 @@ la civilización.</description>
         <categoryLink id="4b63-f1db-80d3-1bcb" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c088-604b-114d-6563" name="Cigor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c088-604b-114d-6563" name="Cigor" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f36-a2a3-e1e0-51e7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea7a-3f84-5e25-8a69" type="min"/>
@@ -2961,7 +2961,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="be55-ec72-3200-2985" name="Escuerzo alado" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="be55-ec72-3200-2985" name="Escuerzo alado" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba54-7d3b-6cb8-bfe8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d01-a0cb-7d8a-d369" type="min"/>
@@ -3110,7 +3110,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="aa6f-a62f-c514-8038" name="Carro de tuskgors" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="aa6f-a62f-c514-8038" name="Carro de tuskgors" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41f0-3819-3ed5-ed79" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4482-4cdb-f22b-8258" type="min"/>
@@ -3425,7 +3425,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8483-6d86-5761-554a" name="Bestia maldita" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8483-6d86-5761-554a" name="Bestia maldita" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d65-8ec4-bfbe-84de" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9ae-3991-f7cd-4d3d" type="min"/>
@@ -4678,7 +4678,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5242-22b9-64a9-4178" name="Gran chamán del rebaño" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5242-22b9-64a9-4178" name="Gran chamán del rebaño" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90e6-d3b6-e139-8d18" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1a2-bf0e-299f-56a2" type="min"/>
@@ -5465,7 +5465,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="42d9-0af5-0b7f-7de6" name="Minotauro de condenación" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="42d9-0af5-0b7f-7de6" name="Minotauro de condenación" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1a8-b212-e2dd-58a8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2bc1-8b96-d377-4dfe" type="min"/>
@@ -6220,7 +6220,7 @@ la civilización.</description>
         <categoryLink id="da3d-ce7c-514b-57d2" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d694-013b-cfa1-297f" name="Gran bestia ungida" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d694-013b-cfa1-297f" name="Gran bestia ungida" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38bb-a6c1-ca0a-326e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a7-dace-afb0-7db8" type="max"/>
@@ -6810,7 +6810,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7aa9-8821-01ec-908c" name="Beligor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7aa9-8821-01ec-908c" name="Beligor" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a20b-0038-08f1-6928" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b20c-6da8-933e-0b8e" type="max"/>
@@ -7633,7 +7633,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7451-d31f-57d3-e3cf" name="Minotauro destripador" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7451-d31f-57d3-e3cf" name="Minotauro destripador" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62ee-31ab-0477-7d7d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b007-81b1-5fe3-ea4f" type="max"/>
@@ -8160,7 +8160,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="848b-dd30-7cf5-15a6" name="Chamán del rebaño" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="848b-dd30-7cf5-15a6" name="Chamán del rebaño" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="221e-111c-b079-2c1d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="417d-48ec-a5ac-a609" type="max"/>
@@ -8948,7 +8948,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="15f5-47b2-e594-664c" name="Semental centigor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="15f5-47b2-e594-664c" name="Semental centigor" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f4-8397-16fe-8a21" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f0-88d1-d1c2-a244" type="max"/>
@@ -10741,7 +10741,7 @@ la civilización.</description>
         <categoryLink id="c44f-0d80-2087-b88c" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2967-bb59-ee9d-c375" name="Ungrol Cuatrocuernos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2967-bb59-ee9d-c375" name="Ungrol Cuatrocuernos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecdb-0a15-0055-37f1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45c7-b14e-cfd4-6072" type="min"/>
@@ -12511,7 +12511,7 @@ enemigos en contacto peana con peana tendrán -1 a su Habilidad de Armas</descri
         <categoryLink id="26e4-abfe-035a-32f4" name="Unidades singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d5af-b87b-4d65-2c2a" name="Preyton" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d5af-b87b-4d65-2c2a" name="Preyton" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0873-0b66-b36b-9068" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7672-5200-a171-21b4" type="min"/>
@@ -12920,7 +12920,7 @@ D6 Agarrar y...
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="041f-0e1a-efaf-f0a6" name="Ungor Oscuro" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="041f-0e1a-efaf-f0a6" name="Ungor Oscuro" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ba-e5c1-f52d-efd6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8a7-3a75-af54-d32b" type="max"/>
@@ -15828,7 +15828,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0fba-e504-2970-77d9" name="Carro de garragor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0fba-e504-2970-77d9" name="Carro de garragor" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2af4-6d95-1a36-b329" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a337-2d36-e035-42c3" type="min"/>
@@ -16662,7 +16662,7 @@ la civilización.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a5eb-d276-0c05-cdb9" name="Merwyrms" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a5eb-d276-0c05-cdb9" name="Merwyrms" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd8f-92b1-7ec0-c0a0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47a8-6328-1480-94ee" type="min"/>
@@ -17200,7 +17200,7 @@ la civilización.</description>
         <categoryLink id="db8d-3a93-cc80-e4f6" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="62d8-1d14-8e10-b604" name="Basilisco" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="62d8-1d14-8e10-b604" name="Basilisco" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0959-df3c-65d7-3c39" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8836-2585-7429-2d9b" type="min"/>

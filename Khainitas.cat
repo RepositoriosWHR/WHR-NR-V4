@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b1c0-dfa2-401c-8ec1" name="Senda">
       <characteristicTypes>
@@ -501,7 +501,7 @@
         <categoryLink id="d0d9-18d3-6d24-044b" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="492e-7a1f-39ff-b9c3" name="Caldero de sangre" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="492e-7a1f-39ff-b9c3" name="Caldero de sangre" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51fc-5668-2695-6892" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0c1-c135-60fc-a032" type="min"/>
@@ -671,7 +671,7 @@
         <categoryLink id="627d-2018-9124-e524" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="aab0-a971-a38d-f65c" name="Avatar de Khaine" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="aab0-a971-a38d-f65c" name="Avatar de Khaine" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e490-c794-aba5-b7ae" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6eb-43dd-92db-a14c" type="min"/>
@@ -1549,7 +1549,7 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="25ef-8bc7-a896-ff6f" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="25ef-8bc7-a896-ff6f" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbe5-cb39-e4bf-350f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6027-656d-d5d4-36cb" type="min"/>
@@ -5736,7 +5736,7 @@ Decapitación sangrienta: la unidad obtiene la regla especial Golpe letal. Si ya
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="898d-297d-8bbd-a3da" name="Hidra consagrada" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="898d-297d-8bbd-a3da" name="Hidra consagrada" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="7f85-fd43-6737-b365" value="3.0">
           <conditions>
@@ -5781,7 +5781,7 @@ cabezas nuevas que broten (debido a la regla Crecimiento mutante).</description>
         <categoryLink id="2ba6-f56c-ede8-3872" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f725-8405-93db-788d" name="Hidra consagrada" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f725-8405-93db-788d" name="Hidra consagrada" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba7f-f06f-77ac-b56f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0559-693a-06d0-49d0" type="min"/>
@@ -5948,7 +5948,7 @@ cabezas nuevas que broten (debido a la regla Crecimiento mutante).</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3057-b74a-418f-acb2" name="Mantícora consagrada" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3057-b74a-418f-acb2" name="Mantícora consagrada" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="991a-f8f6-0ce0-1a0e" name="Terror" hidden="false" targetId="ca57-1f1f-8bc0-d9ab" type="rule"/>
         <infoLink id="6262-d34d-98de-c165" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
@@ -6066,7 +6066,7 @@ cabezas nuevas que broten (debido a la regla Crecimiento mutante).</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf2e-9884-2ffb-8b14" name="Caldero de sangre" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bf2e-9884-2ffb-8b14" name="Caldero de sangre" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="66ac-a10c-cd9a-d226" name="Potencia de unidad 5" hidden="false"/>
         <rule id="f53c-93df-34ca-c8e9" name="Foco de Khaine" hidden="false">
@@ -6202,7 +6202,7 @@ cabezas nuevas que broten (debido a la regla Crecimiento mutante).</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f1b8-b3f1-b0e9-264b" name="Gélido" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f1b8-b3f1-b0e9-264b" name="Gélido" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6591-ea0a-fe47-d6d3" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
         <infoLink id="9c3b-0bfd-4e8f-b8a8" name="Protección por montura (1)" hidden="false" targetId="1f9d-b34a-3d89-add6" type="rule"/>
@@ -6244,7 +6244,7 @@ cabezas nuevas que broten (debido a la regla Crecimiento mutante).</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="453c-43c9-6708-4bf6" name="Dragón Rojo" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="453c-43c9-6708-4bf6" name="Dragón Rojo" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c251-7f7d-ff3a-d934" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
         <infoLink id="ec55-6d16-bcf0-74d9" name="Volar (8)" hidden="false" targetId="4976-4d2f-fd36-1a17" type="rule"/>

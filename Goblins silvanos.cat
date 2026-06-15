@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2abc-21bd-490b-8e80" name="Goblins silvanos" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2abc-21bd-490b-8e80" name="Goblins silvanos" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="cff3-8c5a-f6b1-332b" name="Zendero">
       <characteristicTypes>
@@ -8,7 +8,7 @@
     </profileType>
   </profileTypes>
   <selectionEntries>
-    <selectionEntry id="0e1b-153c-e02d-9ea8" name="Guerreroz goblins silvanos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0e1b-153c-e02d-9ea8" name="Guerreroz goblins silvanos" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="313f-ca79-3a20-2065" name="Animosidad" hidden="false" targetId="131b-0bae-0b47-95fe" type="rule"/>
         <infoLink id="a6d1-9f8d-8a2d-b295" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
@@ -20,7 +20,7 @@
         <categoryLink id="e7f4-3e21-905f-4168" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5b84-fa58-759a-b31b" name="Guerreros goblins silvanos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5b84-fa58-759a-b31b" name="Guerreros goblins silvanos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06f7-0280-a211-1422" type="max"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4692-3ba0-9fa4-b529" type="min"/>
@@ -282,7 +282,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="003e-13d7-095d-698a" name="Batidorez goblins silvanos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="003e-13d7-095d-698a" name="Batidorez goblins silvanos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="f2f7-1287-9d58-39d0" value="1.0">
           <repeats>
@@ -305,7 +305,7 @@
         <categoryLink id="76e8-7b4d-7573-1757" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="979a-b009-c27d-40f9" name="Batidorez goblins silvanos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="979a-b009-c27d-40f9" name="Batidorez goblins silvanos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb12-d058-75e7-f1c7" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6132-0ed1-6cd4-2b2f" type="min"/>
@@ -554,7 +554,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8414-f3f2-09e0-1670" name="Jinetez de araña goblins silvanos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8414-f3f2-09e0-1670" name="Jinetez de araña goblins silvanos" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="55e7-1333-40ff-7cc1" name="Animosidad" hidden="false" targetId="131b-0bae-0b47-95fe" type="rule"/>
         <infoLink id="a1cb-a749-d3cc-e9d9" name="Caballería rápida" hidden="false" targetId="0b7e-2a08-2b5a-51d7" type="rule"/>
@@ -584,7 +584,7 @@
         <categoryLink id="6b67-151f-4874-0dc3" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8a2a-beaf-9637-93c9" name="Jinetez de araña goblins silvanos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8a2a-beaf-9637-93c9" name="Jinetez de araña goblins silvanos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40da-d98a-e979-0d66" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62ba-d02e-8c6f-be30" type="min"/>
@@ -857,7 +857,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a51-e23b-e772-59ed" name="Enjambres de arañas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4a51-e23b-e772-59ed" name="Enjambres de arañas" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="a7b6-c6a1-4e2c-ffce" value="1.0">
           <repeats>
@@ -880,7 +880,7 @@
         <categoryLink id="18ee-13de-bd39-d2c2" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="77f0-167a-7578-0d73" name="Enjambres de arañas" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="77f0-167a-7578-0d73" name="Enjambres de arañas" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c75-3f1d-e66c-0165" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc1-f243-c0e0-7359" type="min"/>
@@ -949,7 +949,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60db-de99-2bd2-e41c" name="Chikoz duroz goblins silvanos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="60db-de99-2bd2-e41c" name="Chikoz duroz goblins silvanos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="e8e0-3a7b-7cc1-9e47" value="3.0">
           <conditions>
@@ -992,7 +992,7 @@
         <categoryLink id="e776-2eb3-d9f3-6b98" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e684-f9c0-353d-218d" name="Chicoz duroz goblins silvanos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e684-f9c0-353d-218d" name="Chicoz duroz goblins silvanos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d90-69b3-9609-cf12" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c84-1764-a47f-dcc0" type="min"/>
@@ -1232,7 +1232,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b892-a9d4-d57c-a535" name="Lanzapinchoz goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b892-a9d4-d57c-a535" name="Lanzapinchoz goblin silvano" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="0279-86e6-42f0-5dd2" value="4.0">
           <conditions>
@@ -1263,7 +1263,7 @@
         <categoryLink id="6841-f3d4-537b-e20f" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5e4f-20e4-d7aa-ce2b" name="Lanzapinchoz goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5e4f-20e4-d7aa-ce2b" name="Lanzapinchoz goblin silvano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f31-ae01-c2e5-1291" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df5c-6bba-40eb-9912" type="min"/>
@@ -1401,7 +1401,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c7ab-9dd1-3def-0578" name="Katapulta lanzaredes" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c7ab-9dd1-3def-0578" name="Katapulta lanzaredes" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="20a4-cc7c-0f34-2d8a" value="3.0">
           <conditions>
@@ -1432,7 +1432,7 @@
         <categoryLink id="0961-e1f2-a34e-78b4" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f931-b9ae-c87a-969c" name="Katapulta lanzaredes" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f931-b9ae-c87a-969c" name="Katapulta lanzaredes" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ff5-10ce-3e3f-4299" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee14-b921-bf47-f7b4" type="min"/>
@@ -1540,7 +1540,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0330-b32f-ac32-fcf1" name="Trolls de río" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0330-b32f-ac32-fcf1" name="Trolls de río" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="5886-8458-3779-8420" value="3.0">
           <conditions>
@@ -1580,7 +1580,7 @@
         <categoryLink id="365c-16e2-8a18-5398" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2ec3-9a51-7be6-e4a6" name="Trolls" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2ec3-9a51-7be6-e4a6" name="Trolls" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ae-4adb-5ac0-6e0b" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e23c-df43-6e2f-6608" type="min"/>
@@ -1698,7 +1698,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1544-d13c-60a3-8df2" name="Kulto de la araña" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1544-d13c-60a3-8df2" name="Kulto de la araña" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="8e02-895d-3c21-8be5" value="4.0">
           <conditions>
@@ -1733,7 +1733,7 @@
         <categoryLink id="695f-536f-3b37-bb27" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="06a7-42f5-d991-5409" name="Kulto de la araña" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="06a7-42f5-d991-5409" name="Kulto de la araña" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e445-a829-3219-a26c" type="max"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="274f-6328-af00-71ab" type="min"/>
@@ -2051,7 +2051,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c25b-1061-8bfa-1afe" name="Snotlings" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c25b-1061-8bfa-1afe" name="Snotlings" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="7421-ac4c-7d11-5ed4" value="3.0">
           <conditions>
@@ -2080,7 +2080,7 @@
         <categoryLink id="f7c1-0c5f-f37a-5b6f" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6004-d034-abf9-a4bb" name="Snotlings" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6004-d034-abf9-a4bb" name="Snotlings" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a44-afee-6517-7090" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a0-50be-5a18-9992" type="min"/>
@@ -2187,7 +2187,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b3ba-dca8-3b80-80e2" name="Ezploradorez" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b3ba-dca8-3b80-80e2" name="Ezploradorez" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="4813-27b7-3ec5-fce7" value="3.0">
           <conditions>
@@ -2232,7 +2232,7 @@
         <categoryLink id="8743-1194-6c37-088f" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ac70-9fa0-503e-1d4a" name="Ezploradorez" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ac70-9fa0-503e-1d4a" name="Ezploradorez" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fe1-d021-a27e-7c14" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="919e-47cc-2af4-0bf9" type="min"/>
@@ -2377,7 +2377,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6b80-c70c-7758-a606" name="Guerreroz zagradoz" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6b80-c70c-7758-a606" name="Guerreroz zagradoz" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="af02-20de-851c-a38a" value="2.0">
           <conditions>
@@ -2424,7 +2424,7 @@
         <categoryLink id="b803-efb7-0f5e-71f6" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6976-d129-bba8-088a" name="Guerreroz zagradoz" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6976-d129-bba8-088a" name="Guerreroz zagradoz" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3334-e95e-f00c-01d1" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36c5-a33d-0e74-c035" type="min"/>
@@ -2674,7 +2674,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb83-2404-3108-a48d" name="Aracnarock" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cb83-2404-3108-a48d" name="Aracnarock" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="4224-d7f9-9aa1-caa4" value="2.0">
           <conditions>
@@ -2873,7 +2873,7 @@ los impactos se resuelven utilizando la Resistencia, Heridas y Tirada de salvaci
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9a14-580a-188d-d634" name="Vagoneta de ataque snotling" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9a14-580a-188d-d634" name="Vagoneta de ataque snotling" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dde-c44f-fd0b-bda2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a864-fbf6-e612-6566" type="min"/>
@@ -2963,7 +2963,7 @@ los impactos se resuelven utilizando la Resistencia, Heridas y Tirada de salvaci
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e39e-d6b9-592d-3786" name="Kaudillo goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e39e-d6b9-592d-3786" name="Kaudillo goblin silvano" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="7909-1399-1240-8296" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
           <modifiers>
@@ -2983,7 +2983,7 @@ los impactos se resuelven utilizando la Resistencia, Heridas y Tirada de salvaci
         <categoryLink id="4a24-83f9-41d2-e134" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="36d1-eef9-7edd-f3c9" name="Kaudillo goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="36d1-eef9-7edd-f3c9" name="Kaudillo goblin silvano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aabc-e438-dbb6-6f0e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6da-71ee-47f8-9ae6" type="min"/>
@@ -3558,7 +3558,7 @@ los impactos se resuelven utilizando la Resistencia, Heridas y Tirada de salvaci
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="468e-b71e-c9c5-f223" name="Gran chamán goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="468e-b71e-c9c5-f223" name="Gran chamán goblin silvano" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="b140-8955-dd59-b1b5" name="Magia Gran chamán goblin silvano" hidden="false">
           <description>Nivel de magia 3, puede aumentarse a 4 por +55 puntos. Puede elegir hechizos del Pequeño Waaagh!</description>
@@ -3584,7 +3584,7 @@ los impactos se resuelven utilizando la Resistencia, Heridas y Tirada de salvaci
         <categoryLink id="c49b-d0d1-fd1b-08ec" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2e92-e5fa-e298-96c8" name="Gran chamán goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2e92-e5fa-e298-96c8" name="Gran chamán goblin silvano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67eb-7a22-0f22-4d49" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d766-9ca9-44e3-9e67" type="min"/>
@@ -4026,7 +4026,7 @@ los impactos se resuelven utilizando la Resistencia, Heridas y Tirada de salvaci
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6633-11b9-a676-141e" name="Gran jefe goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6633-11b9-a676-141e" name="Gran jefe goblin silvano" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="1bf3-9150-0807-4246" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
           <modifiers>
@@ -4046,7 +4046,7 @@ los impactos se resuelven utilizando la Resistencia, Heridas y Tirada de salvaci
         <categoryLink id="4bcb-593c-9706-5792" name="New CategoryLink" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4a61-e0b9-2dd0-70e0" name="Gran jefe goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4a61-e0b9-2dd0-70e0" name="Gran jefe goblin silvano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dafb-3158-f7f5-572d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4501-fce4-cab9-7b4d" type="min"/>
@@ -4506,7 +4506,7 @@ los impactos se resuelven utilizando la Resistencia, Heridas y Tirada de salvaci
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48bb-c821-ef53-d0b6" name="Chamán goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="48bb-c821-ef53-d0b6" name="Chamán goblin silvano" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="29a5-850c-a60f-a778" name="Magia Chamán goblin silvano" hidden="false">
           <description>Nivel de magia 1, puede aumentarse a 2 por +30 puntos. Puede elegir hechizos del Pequeño Waaagh!</description>
@@ -4532,7 +4532,7 @@ los impactos se resuelven utilizando la Resistencia, Heridas y Tirada de salvaci
         <categoryLink id="b95b-bfac-a679-1cfa" name="New CategoryLink" hidden="false" targetId="4865726f657323232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4977-c81e-c58b-d7c1" name="Chamán goblin silvano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4977-c81e-c58b-d7c1" name="Chamán goblin silvano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="525f-26a6-2dde-2c8e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb6-e85d-c099-9ea3" type="min"/>
@@ -6016,7 +6016,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c5c4-02fa-0638-c126" name="Carruaje de arañas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c5c4-02fa-0638-c126" name="Carruaje de arañas" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="3128-10fb-8c9a-3f4d" value="3.0">
           <conditions>
@@ -6057,7 +6057,7 @@ reglas especiales Poder de penetración y Heridas múltiples (2).</characteristi
         <categoryLink id="9804-fb1c-f785-68e5" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ee5e-6b6a-9ce3-4e2a" name="Carruaje de arañas" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ee5e-6b6a-9ce3-4e2a" name="Carruaje de arañas" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edbc-e16e-4a50-478f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b11f-3249-8f30-35dd" type="min"/>
@@ -6689,7 +6689,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b058-439e-5464-3163" name="Danzantez del Árbol de la Telaraña" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b058-439e-5464-3163" name="Danzantez del Árbol de la Telaraña" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="751b-a926-8a92-994a" value="2.0">
           <conditions>
@@ -6734,7 +6734,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
         <categoryLink id="918f-687d-5502-cb8b" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d3bb-f25f-2d6a-a19b" name="Danzantez del Árbol de la Telaraña" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d3bb-f25f-2d6a-a19b" name="Danzantez del Árbol de la Telaraña" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad40-7fdb-3910-c394" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="165a-5333-35b2-1cfc" type="min"/>
@@ -6956,7 +6956,7 @@ D6 	Resultado (Agarrar y...)
         <categoryLink id="41e0-4b34-cdf5-ae39" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="05a3-080e-91d4-5940" name="Gigante" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="05a3-080e-91d4-5940" name="Gigante" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eea-d08a-4aaa-a844" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e7c-1baa-4af1-f4c4" type="min"/>
@@ -7235,7 +7235,7 @@ D6 	Resultado (Agarrar y...)
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d739-d61e-1662-1fbd" name="Araña aracnarock" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d739-d61e-1662-1fbd" name="Araña aracnarock" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="6a85-c693-85e1-a783" name="Araña aracnarock" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
           <characteristics>

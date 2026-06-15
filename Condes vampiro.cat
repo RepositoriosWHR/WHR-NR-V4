@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6daf-483a-4d59-83db" name="Poder vampírico">
       <characteristicTypes>
@@ -8964,7 +8964,7 @@ unirse a una unidad de Jinetes espectrales.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7006-3dc2-a67f-a44a" name="Carruaje negro" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7006-3dc2-a67f-a44a" name="Carruaje negro" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef49-e966-728e-4cec" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62a4-1401-440d-e832" type="min"/>
@@ -9078,7 +9078,7 @@ unirse a una unidad de Jinetes espectrales.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="21a9-7950-9c0e-ad34" name="Engendro del terror (Strigoi)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="21a9-7950-9c0e-ad34" name="Engendro del terror (Strigoi)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="f6a2-42c7-bd1e-bab7" value="1">
           <conditions>
@@ -9420,7 +9420,7 @@ con la Danza macabra de Vanhel.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9e39-4c98-5bc8-a477" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9e39-4c98-5bc8-a477" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b64d-7e37-15ec-def8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="feaa-161b-18a1-9b83" type="min"/>
@@ -9675,7 +9675,7 @@ potenciada.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="448a-2e4e-a580-256d" name="Ingenio mortis" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="448a-2e4e-a580-256d" name="Ingenio mortis" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="639d-3688-6a5c-372d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="506a-f554-d47b-5176" type="min"/>
@@ -14299,7 +14299,7 @@ contra Infantería, Bestias, Caballería y Enjambres.
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0a16-f395-0c14-ffbb" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0a16-f395-0c14-ffbb" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62db-bb4e-922a-e359" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5398-1f2d-a23e-19db" type="min"/>
@@ -16620,7 +16620,7 @@ especial de 4+.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="760e-19fe-5ed6-50e0" name="Ingenio mortis (Necrarca)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="760e-19fe-5ed6-50e0" name="Ingenio mortis (Necrarca)" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="0b23-23f7-e14c-4441" name="Potencia de unidad 5" hidden="false"/>
         <rule id="6208-17bc-a23d-2dd3" name="Foco de poder nigromántico" hidden="false">
@@ -16852,7 +16852,7 @@ especial de 4+.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="846a-eee1-50d1-0e90" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="846a-eee1-50d1-0e90" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="531d-59ef-67de-94d0" name="Potencia de unidad 4" hidden="false"/>
         <rule id="1a3b-7466-40b7-535c" name="Horda de zombis" hidden="false">
@@ -17212,7 +17212,7 @@ especial de 4+.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea6e-7fe0-c072-1f97" name="Carro de la plaga" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ea6e-7fe0-c072-1f97" name="Carro de la plaga" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>

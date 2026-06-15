@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="308b-f135-dcd0-c1ff" name="Hueste Roja" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="308b-f135-dcd0-c1ff" name="Hueste Roja" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b4fe-0f5d-c558-9ec9" name="Desove">
       <characteristicTypes>
@@ -8,7 +8,7 @@
     </profileType>
   </profileTypes>
   <selectionEntries>
-    <selectionEntry id="043e-15a9-4e29-2e57" name="[E] - Tehenhauin, Heraldo de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="043e-15a9-4e29-2e57" name="[E] - Tehenhauin, Heraldo de Sotek" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1786,7 +1786,7 @@
         <categoryLink id="c43d-f584-2694-0b2e" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="162f-572a-9e5a-f7b2" name="Bastiodón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="162f-572a-9e5a-f7b2" name="Bastiodón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb8-43c2-cee4-c3bd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9053-5490-b178-41b5" type="min"/>
@@ -2040,7 +2040,7 @@ Estegadón. Usa la HP de la dotación para resolver los ataques de disparo. Su P
         <categoryLink id="934d-1d39-a9c3-1abf" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2ad5-4036-f94c-86d3" name="Estegadón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2ad5-4036-f94c-86d3" name="Estegadón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="562b-2425-8077-098b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0df-d7a7-bb95-3bcc" type="min"/>
@@ -2704,7 +2704,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="82f4-02fc-4ee3-427d" name="Oráculo eslizón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="82f4-02fc-4ee3-427d" name="Oráculo eslizón" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07cf-0972-cde5-cc50" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b2a-4ae2-2aa3-002a" type="min"/>
@@ -2838,7 +2838,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ae9-268d-f182-1e9c" name="Cacique eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4ae9-268d-f182-1e9c" name="Cacique eslizón" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="5a42-a341-4168-f62a" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="aae7-da1e-aaf0-9141" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
@@ -3731,7 +3731,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="765e-1962-ac89-3c04" name="Chamán eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="765e-1962-ac89-3c04" name="Chamán eslizón" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="d86b-a600-7d44-75cc" name="Magia de Chamán eslizón" hidden="false">
           <description>Nivel de magia 1. Puede mejorarse a nivel de magia 2 por +30 puntos. Puede elegir sus hechizos del Saber de los Cielos, Luz, Bestias o Vida.</description>
@@ -4344,7 +4344,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e971-af3a-12a8-5a0b" name="Jefe eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e971-af3a-12a8-5a0b" name="Jefe eslizón" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="4fa8-c70c-4e66-7694" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="5e5f-59ff-7712-667e" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule">
@@ -5115,7 +5115,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
             <cost name="pts" typeId="points" value="5.5"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e449-7add-df61-5b71" name="Kroxigores" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e449-7add-df61-5b71" name="Kroxigores" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f458-3112-c5d9-5265" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e27d-3d26-efa6-6e8f" type="min"/>
@@ -5569,7 +5569,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c8e6-957d-7d8d-2343" name="Gran oráculo eslizón" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c8e6-957d-7d8d-2343" name="Gran oráculo eslizón" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="788b-cd95-f0a6-b9e9" name="Magia de Gran oráculo eslizón" hidden="false">
           <description>Nivel de magia 2. Puede mejorarse a nivel de magia 3 por +50 puntos. Puede elegir sus hechizos de entre los saberes de los Cielos, Luz, Bestias o Vida.</description>
@@ -6372,7 +6372,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
             <cost name="pts" typeId="points" value="9.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c067-6f5c-c7cf-2708" name="Kroxigores" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c067-6f5c-c7cf-2708" name="Kroxigores" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9092-ff53-9504-04ed" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf5-c806-caf8-f315" type="min"/>
@@ -6957,7 +6957,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <categoryLink id="e5f7-1090-17a3-aae8" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4b86-d6ce-8a5c-2075" name="Avatar de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4b86-d6ce-8a5c-2075" name="Avatar de Sotek" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a556-558e-048c-6a27" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ae-a129-6e64-f175" type="min"/>
@@ -7053,7 +7053,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <categoryLink id="c64c-bfef-a80f-8166" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="39aa-bb16-d4df-4588" name="Kroxigores" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="39aa-bb16-d4df-4588" name="Kroxigores" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc52-4f12-6459-53f2" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3632-2b4c-3c55-42fb" type="min"/>
@@ -7244,7 +7244,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <categoryLink id="e9ae-331c-a3c0-5e08" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3903-f082-c4ec-be44" name="Estegadón anciano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3903-f082-c4ec-be44" name="Estegadón anciano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd97-be1d-bac0-ec8f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb8f-50a7-15e1-0590" type="min"/>
@@ -7430,7 +7430,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c69d-3060-a5a4-d172" name="[E] - Itzi-Bitzi, el Guerrero Piraña" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c69d-3060-a5a4-d172" name="[E] - Itzi-Bitzi, el Guerrero Piraña" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7640,7 +7640,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7bd-05c2-5e9a-f67b" name="[E] - Xiuhcoatl, Profeta de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f7bd-05c2-5e9a-f67b" name="[E] - Xiuhcoatl, Profeta de Sotek" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7812,7 +7812,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6b53-d8c3-22df-31bc" name="[E] - Kupa&apos;ti y Pa&apos;qa, Intendentes de Tlaxtlan" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6b53-d8c3-22df-31bc" name="[E] - Kupa&apos;ti y Pa&apos;qa, Intendentes de Tlaxtlan" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -8192,7 +8192,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
             <cost name="pts" typeId="points" value="5.5"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9f0c-8ede-b95c-fbe6" name="Kroxigores" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9f0c-8ede-b95c-fbe6" name="Kroxigores" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c602-1cf8-fcbf-dafd" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f017-d0db-1a93-4f62" type="min"/>
@@ -9507,7 +9507,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c79c-c8f8-161f-5303" name="Sacerdote de Sotek" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c79c-c8f8-161f-5303" name="Sacerdote de Sotek" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="265e-93fb-6c26-3479" value="1.0">
           <repeats>
@@ -10230,7 +10230,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6aad-6ce1-0766-a9d6" name="Estegadón " hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6aad-6ce1-0766-a9d6" name="Estegadón " hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="df9e-e126-5a6a-2482" name="Potencia de unidad 9" hidden="false">
           <description>Potencia de unidad 9 (+1 por cada Eslizón adicional).</description>
@@ -10463,7 +10463,7 @@ hacer una tirada en la tabla de reacción de Monstruos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="31ba-356b-510e-eba8" name="Estegadón anciano" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="31ba-356b-510e-eba8" name="Estegadón anciano" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="c2d1-b971-b570-d159" name="Estegadón anciano (montura)" hidden="false">
           <description>Los Eslizones que montan el castillo del Estegadón anciano obtienen de forma gratuita el Desove sagrado 

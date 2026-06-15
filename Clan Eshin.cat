@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="84e0-639b-248a-20ef" name="Clan Eshin" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="84e0-639b-248a-20ef" name="Clan Eshin" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="85cb-6f3c-0c94-e40f" name="Senda">
       <characteristicTypes>
@@ -20,7 +20,7 @@
     </profileType>
   </profileTypes>
   <selectionEntries>
-    <selectionEntry id="3560-bf02-0fb6-453f" name="Corredores de las sombras" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3560-bf02-0fb6-453f" name="Corredores de las sombras" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b3c-67e5-6994-eb52" type="min"/>
       </constraints>
@@ -42,7 +42,7 @@
         <categoryLink id="26cb-45ec-174b-9a69" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c4e5-c724-c72f-dc6d" name="Corredores de las sombras" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c4e5-c724-c72f-dc6d" name="Corredores de las sombras" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="8740-02cb-f6c9-97aa" value="5.0">
               <conditions>
@@ -372,7 +372,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65ad-0633-56bc-54e2" name="Hordas de ratas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="65ad-0633-56bc-54e2" name="Hordas de ratas" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06fd-61c2-8b71-1b21" type="max"/>
       </constraints>
@@ -390,7 +390,7 @@
         <categoryLink id="6912-bf52-b0a4-0963" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="822a-e3ee-cde0-fbe2" name="Hordas de ratas" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="822a-e3ee-cde0-fbe2" name="Hordas de ratas" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="258e-2a62-dc6d-e88c" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b6-481a-37cb-7103" type="min"/>
@@ -459,7 +459,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f0a6-67a4-c357-ca95" name="Acechantes nocturnos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f0a6-67a4-c357-ca95" name="Acechantes nocturnos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="c4f6-2b9d-aad3-ff41" value="3.0">
           <conditions>
@@ -489,7 +489,7 @@
         <categoryLink id="34e1-2250-4b7f-9402" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f80d-c797-d004-2013" name="Acechantes nocturnos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f80d-c797-d004-2013" name="Acechantes nocturnos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="696f-f7bd-01d5-a40d" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a88-ab37-c415-e16e" type="min"/>
@@ -818,7 +818,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6919-156d-f823-5596" name="Ratas de Clan Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6919-156d-f823-5596" name="Ratas de Clan Eshin" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="81c9-3db5-ea16-4f50" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
         <infoLink id="1e8d-d27d-1be3-78f0" name="La fuerza del número" hidden="false" targetId="0fc2-9bf9-b684-e980" type="rule"/>
@@ -832,7 +832,7 @@
         <categoryLink id="9f1f-b836-c204-ec98" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a98d-a237-6cee-2742" name="Ratas de Clan Eshin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a98d-a237-6cee-2742" name="Ratas de Clan Eshin" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb8-9f2c-7680-482f" type="max"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8289-5c49-1b09-3424" type="min"/>
@@ -1116,7 +1116,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="11b1-2823-d783-a03b" name="Esclavos skaven" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="11b1-2823-d783-a03b" name="Esclavos skaven" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="cc15-522b-04d7-c329" name="Sacrificables (Esclavos skaven)" hidden="false">
           <description>Las unidades de Esclavos Skaven no provocan chequeos de Pánico si huyen o son destruidos (excepto en otros Esclavos Skaven).</description>
@@ -1135,7 +1135,7 @@
         <categoryLink id="0e2c-9066-9c63-004b" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cb54-9d24-3ffb-cc32" name="Esclavos skaven" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cb54-9d24-3ffb-cc32" name="Esclavos skaven" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="976f-ce9a-be05-a40d" type="max"/>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5712-8d42-22c5-1c7a" type="min"/>
@@ -1306,7 +1306,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="87a1-75e8-7fff-95e6" name="Bombarderos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="87a1-75e8-7fff-95e6" name="Bombarderos" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="2819-e154-0a3b-53f4" value="3.0">
           <conditions>
@@ -1331,7 +1331,7 @@
         <categoryLink id="7484-edbc-dc3a-6e84" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3d70-534d-0eec-cd9f" name="Bombarderos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3d70-534d-0eec-cd9f" name="Bombarderos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3344-fe2f-629d-e844" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f38-97bd-46b2-bd20" type="min"/>
@@ -1527,7 +1527,7 @@ D6 Tabla de problemas de la Lengua de Dragón
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b4f-ace1-fcf2-6e16" name="Truenos Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5b4f-ace1-fcf2-6e16" name="Truenos Eshin" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="9647-07cd-bc31-f185" value="2.0">
           <conditions>
@@ -1568,7 +1568,7 @@ D6 Tabla de problemas de la Lengua de Dragón
         <categoryLink id="59e9-e141-abec-9cf6" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fe9a-e1e9-699f-35b0" name="Truenos Eshin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fe9a-e1e9-699f-35b0" name="Truenos Eshin" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b22-8ab8-fcbc-9f1d" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="717c-a62f-9892-b8ce" type="min"/>
@@ -1752,7 +1752,7 @@ D6 Tabla de problemas de la Lengua de Dragón
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc40-2c32-5d45-eda2" name="Triada Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dc40-2c32-5d45-eda2" name="Triada Eshin" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="f616-f3b2-923d-3cd0" value="3.0">
           <conditions>
@@ -1788,7 +1788,7 @@ D6 Tabla de problemas de la Lengua de Dragón
         <categoryLink id="32cc-25fa-3ec2-6326" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8c32-217c-ab75-d14b" name="Triada Eshin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8c32-217c-ab75-d14b" name="Triada Eshin" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb0b-423f-ec7f-a7d9" type="max"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7460-925a-d6dc-1292" type="min"/>
@@ -2032,7 +2032,7 @@ penetración, Ataques mágicos</characteristic>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6014-2a33-c669-0273" name="Alimañas Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6014-2a33-c669-0273" name="Alimañas Eshin" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="b46a-27b2-f5b3-f087" value="3.0">
           <conditions>
@@ -2067,7 +2067,7 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
         <categoryLink id="9445-8b7f-b4df-a166" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="bbec-1cff-e449-a367" name="Alimañas Eshin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bbec-1cff-e449-a367" name="Alimañas Eshin" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="676f-b263-0815-b718" type="max"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d220-79fb-ad2c-1a6b" type="min"/>
@@ -2399,7 +2399,7 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2c93-62c2-fc9a-f418" name="Sombras Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2c93-62c2-fc9a-f418" name="Sombras Eshin" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="44a7-c03e-84d8-1fca" value="3.0">
           <conditions>
@@ -2444,7 +2444,7 @@ activan la trampa.</description>
         <categoryLink id="ebf0-808f-d240-8d6d" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="bcc2-42b6-7241-c5a2" name="Sombras Eshin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bcc2-42b6-7241-c5a2" name="Sombras Eshin" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d606-be36-298c-0c59" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea3f-3fdf-e04b-827a" type="min"/>
@@ -2594,7 +2594,7 @@ activan la trampa.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="20fc-bc58-a0b6-36c9" name="Ratas Ogro Ninja" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="20fc-bc58-a0b6-36c9" name="Ratas Ogro Ninja" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="9c5b-53a6-1f38-9731" value="3.0">
           <conditions>
@@ -2639,7 +2639,7 @@ activan la trampa.</description>
         <categoryLink id="37f9-0527-e122-0069" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e809-49bb-17ac-294e" name="Ratas Ogro Ninja" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e809-49bb-17ac-294e" name="Ratas Ogro Ninja" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="842c-a757-d8f1-bf2c" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0939-11aa-59f8-5764" type="max"/>
@@ -2690,7 +2690,7 @@ activan la trampa.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cf9a-dafd-6063-2cc3" name="Acechante nocturno" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cf9a-dafd-6063-2cc3" name="Acechante nocturno" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="5e16-5978-27a7-d3d5" value="6.0">
               <conditions>
@@ -2835,7 +2835,7 @@ activan la trampa.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5bd8-263a-9426-9f0b" name="Ratamonjes guerreras" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5bd8-263a-9426-9f0b" name="Ratamonjes guerreras" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="10db-d0d6-d5f7-f351" value="2.0">
           <conditions>
@@ -2868,7 +2868,7 @@ activan la trampa.</description>
         <categoryLink id="238e-e0fa-3d77-caba" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1710-fcd9-2436-6f8d" name="Ratamonjes guerreras" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1710-fcd9-2436-6f8d" name="Ratamonjes guerreras" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05cd-de84-83fd-52cf" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5478-8293-67ef-2ff7" type="min"/>
@@ -2987,7 +2987,7 @@ activan la trampa.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="81ff-71e9-c9bb-d645" name="Lanzacohetes Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="81ff-71e9-c9bb-d645" name="Lanzacohetes Eshin" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="33db-1105-36a4-4343" value="2.0">
           <conditions>
@@ -3018,7 +3018,7 @@ activan la trampa.</description>
         <categoryLink id="0539-5dc1-9cff-8da8" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6e8f-ec6f-78be-e555" name="Lanzacohetes del clan Eshin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6e8f-ec6f-78be-e555" name="Lanzacohetes del clan Eshin" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9043-7526-82a1-575c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce9b-3d63-d7b3-6038" type="min"/>
@@ -3125,7 +3125,7 @@ activan la trampa.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5990-a1c0-aa2c-b43f" name="Cañón de Bronce" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5990-a1c0-aa2c-b43f" name="Cañón de Bronce" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="202e-68d8-4036-d8e5" value="2.0">
           <conditions>
@@ -3145,7 +3145,7 @@ activan la trampa.</description>
         <categoryLink id="ce57-e6ef-7699-021c" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="cb31-72a9-d66c-1125" name="Cañón de Bronce" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cb31-72a9-d66c-1125" name="Cañón de Bronce" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9ed-57af-aa27-cdbe" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5050-8e74-7833-e048" type="min"/>
@@ -3297,7 +3297,7 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c6a4-4eb2-63a7-5459" name="[Ex] - Alas negras" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c6a4-4eb2-63a7-5459" name="[Ex] - Alas negras" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="97f1-46ec-596e-1d6d" value="2.0">
           <conditions>
@@ -3524,7 +3524,7 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed83-d3d0-3541-c997" name="Maestro Asesino" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ed83-d3d0-3541-c997" name="Maestro Asesino" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="437d-d35e-e282-768d" name="Despliegue oculto" hidden="false">
           <description>El Maestro Asesino puede elegir empezar la partida oculto en una unidad de entre las siguientes: Corredores de las sombras, Esclavos Skaven, Ratas de Clan Eshin, Acechantes nocturnos, Alimañas Eshin, Bombarderos, Sombras Eshin, Ratas Ogro Ninja (sólo con la Senda del instinto animal), Acechantes mortales o Ratamonjes guerreras (sólo con la senda Maestro del arte de la muerte silenciosa). Anota en la lista de ejército en qué unidad va oculto el Maestro Asesino. Adicionalmente, sólo puede aportar su valor de Liderazgo a su unidad si ha sido revelado.</description>
@@ -3901,7 +3901,7 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d88d-1dd0-6c88-ad6a" name="Gran Hechicero Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d88d-1dd0-6c88-ad6a" name="Gran Hechicero Eshin" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="fac0-12dd-ccc2-aa45" name="Magia Gran Hechicero Eshin" hidden="false">
           <description>Un Gran Hechicero del Clan Eshin es un hechicero de nivel 2, que puede aumentarse a nivel 3 (+50 puntos). Puede elegir sus hechizos del Saber del Sigilo. Tiene como hechizo identificativo el hechizo Estrellas de disformidad.</description>
@@ -4278,7 +4278,7 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="da0d-a67e-3048-3009" name="Señor de la Guerra Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="da0d-a67e-3048-3009" name="Señor de la Guerra Eshin" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="3c60-6d74-ec7e-85a0" name="El camino del guerrero" hidden="false">
           <description>Al luchar en combate cuerpo a cuerpo, el Señor de la guerra Eshin aplica un bonificador de +1 a su tirada de salvación por armadura.</description>
@@ -4783,7 +4783,7 @@ resultado de Problemas en el dado de artillería, utiliza la tabla de problemas 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dfc9-85bc-f27c-6644" name="Señor de las Alimañas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dfc9-85bc-f27c-6644" name="Señor de las Alimañas" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="6e93-e187-10a1-ef7b" name="Magia Señor de las Alimañas" hidden="false">
           <description>El Señor de las Alimañas es un hechicero de nivel 2. Puede convertirse en hechicero de nivel 3 (+50 puntos) o de nivel 4 (+105 puntos, obtiene la regla especial Leyenda). Puede elegir sus hechizos del Saber del Sigilo. Su hechizo identificativo es las Estrellas de disformidad o el Torbellino negro (elige uno). Si tiene una habilidad de Señor del conocimiento, esto sustituirá sus hechizos habituales. Si tiene ambas, tendrá también la Maldición de la Rata Cornuda.</description>
@@ -5183,7 +5183,7 @@ alcance 18”, Fuerza usuario, Disparo rápido, Arrojadiza, Disparos múltiples 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5a5d-9e9f-a49a-5c8a" name="Asesino Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5a5d-9e9f-a49a-5c8a" name="Asesino Eshin" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="eae3-b124-48ec-88da" name="Despliegue oculto" hidden="false">
           <description>El Asesino Eshin puede elegir empezar la partida oculto en una unidad de entre las siguientes: Corredores de las sombras, Esclavos Skaven, Ratas de Clan Eshin, Acechantes nocturnos, Alimañas Eshin, Bombarderos, Sombras Eshin, Ratas Ogro Ninja (sólo con la Senda del instinto animal), Acechantes mortales o Ratamonjes guerreras (sólo con la senda Maestro del arte de la muerte silenciosa). Anota en la lista de ejército en qué unidad va oculto el Asesino Eshin. Adicionalmente, sólo puede aportar su valor de Liderazgo a su unidad si el Asesino Eshin ha sido ya revelado.</description>
@@ -5432,7 +5432,7 @@ alcance 18”, Fuerza usuario, Disparo rápido, Arrojadiza, Disparos múltiples 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7178-1b4d-a105-3d8a" name="Hechicero Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7178-1b4d-a105-3d8a" name="Hechicero Eshin" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="473d-3785-a302-bd2a" name="Magia Hechicero del clan Eshin" hidden="false">
           <description>Un Hechicero Eshin es un hechicero de nivel 1, que puede aumentarse a nivel 2 (+30 puntos). Puede elegir sus hechizos del Saber del Sigilo. Tiene como hechizo identificativo el hechizo Estrellas de disformidad.</description>
@@ -5720,7 +5720,7 @@ alcance 18”, Fuerza usuario, Disparo rápido, Arrojadiza, Disparos múltiples 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f434-6367-d7ba-6243" name="Caudillo Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f434-6367-d7ba-6243" name="Caudillo Eshin" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="ed91-d7b3-24b3-019c" name="El camino del guerrero" hidden="false">
           <description>Al luchar en combate cuerpo a cuerpo, el Caudillo Eshin aplica un bonificador de +1 a su tirada de salvación por armadura.</description>
@@ -7739,7 +7739,7 @@ Aurora de disformidad: Los ataques dirigidos contra Lord Sneek sufrirán un pena
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8494-2816-dee5-5528" name="Acechantes nocturnos (Básicas)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8494-2816-dee5-5528" name="Acechantes nocturnos (Básicas)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="2378-e8d6-43f4-d0de" value="2.0">
           <conditions>
@@ -7774,7 +7774,7 @@ Aurora de disformidad: Los ataques dirigidos contra Lord Sneek sufrirán un pena
         <categoryLink id="01f8-aa0a-9c74-15fa" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f5cf-0ede-89d6-c79e" name="Acechantes nocturnos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f5cf-0ede-89d6-c79e" name="Acechantes nocturnos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8af-acc9-e6fb-25d6" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="059c-950c-f96c-5b8e" type="min"/>
@@ -8103,7 +8103,7 @@ Aurora de disformidad: Los ataques dirigidos contra Lord Sneek sufrirán un pena
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ace-4784-fb7a-bf63" name="Alimañas Eshin (Básicas)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3ace-4784-fb7a-bf63" name="Alimañas Eshin (Básicas)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="5947-bb14-ad02-7ac3" value="3.0">
           <conditions>
@@ -8143,7 +8143,7 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
         <categoryLink id="b4bf-a94e-b9e7-9ad4" name="New CategoryLink" hidden="false" targetId="436f726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e9ea-66aa-6439-aedb" name="Alimañas Eshin" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e9ea-66aa-6439-aedb" name="Alimañas Eshin" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bce3-6204-60c8-ddf8" type="max"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3fe-1bf4-01f9-9df6" type="min"/>
@@ -8475,7 +8475,7 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a0c-6a4d-5314-cdeb" name="Acechantes mortales" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8a0c-6a4d-5314-cdeb" name="Acechantes mortales" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="ab40-b530-4b21-15dc" value="2.0">
           <conditions>
@@ -8500,7 +8500,7 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
         <categoryLink id="ca1d-7658-27fe-6c16" name="Unidades singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="671c-6c20-5c82-8116" name="Acechantes mortales" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="671c-6c20-5c82-8116" name="Acechantes mortales" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfee-a11c-4c4b-3df5" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="addb-0876-2b97-2d91" type="min"/>
@@ -8776,7 +8776,7 @@ bonificador de +1 a su tirada de salvación por armadura.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a432-2a2c-2b65-8fb3" name="[E] - Heechigar Eshin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a432-2a2c-2b65-8fb3" name="[E] - Heechigar Eshin" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -9169,7 +9169,7 @@ Se trata de un hechizo de Maldición que afecta a todas las unidades enemigas en
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a12-b350-4a30-1170" name="[Ex] - Bestia del cieno" hidden="true" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4a12-b350-4a30-1170" name="[Ex] - Bestia del cieno" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="f180-c8c6-4d08-ce64" value="1.0">
           <conditions>

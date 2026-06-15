@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="79c7-cc45-fd7a-618d" name="No muertos" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="79c7-cc45-fd7a-618d" name="No muertos" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d35-4e46-308c-cb63" name="Arcanos nigrománticos">
       <characteristicTypes>
@@ -434,7 +434,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1908-c1f8-f92a-c4eb" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6bc9-5699-6451-ae7e" name="Corcel esquelético" hidden="false" collective="false" import="true" targetId="b6c9-3110-52a0-5491" type="selectionEntry">
+            <entryLink id="6bc9-5699-6451-ae7e" name="Corcel esquelético (Sin barda)" hidden="false" collective="false" import="true" targetId="1865-1d9a-fcb5-d567" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d06-38be-d854-bedf" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54a0-8796-01f3-7d40" type="min"/>
@@ -2015,7 +2015,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f085-53a2-240f-e3a0" name="Montura" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f085-53a2-240f-e3a0" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a0f-69f4-57b1-4450" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9be-d00e-af26-145a" type="min"/>
@@ -2061,7 +2061,7 @@
           <selectionEntries>
             <selectionEntry id="447a-854c-07bc-716e" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="points" value="2.0">
+                <modifier type="increment" field="points" value="2.0">
                   <repeats>
                     <repeat field="selections" scope="bee4-ea3f-da3a-95df" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6465-c4c7-19fc-8afe" repeats="1" roundUp="false"/>
                   </repeats>
@@ -2711,7 +2711,7 @@ unirse a una unidad de Espíritus.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c3f3-8414-8910-1845" name="Catapulta lanzacráneos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c3f3-8414-8910-1845" name="Catapulta lanzacráneos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb5-0fac-1787-ead5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="664e-f2e6-0dcf-b8db" type="min"/>
@@ -5450,7 +5450,7 @@ menos de un Morghast que sea objetivo de un lanzamiento exitoso del hechizo Invo
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4050-30dc-6312-9f7e" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="4050-30dc-6312-9f7e" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49c8-b6d4-60f7-d641" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1db-e2d4-a794-2c06" type="min"/>
@@ -5926,7 +5926,7 @@ mágicos y Ataques flamígeros.</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1f19-e4fb-266c-155e" name="Tirado por" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1f19-e4fb-266c-155e" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8651-948d-ac8b-ee44" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0304-62f1-1f4a-cf29" type="min"/>
@@ -11824,7 +11824,7 @@ contra Infantería, Bestias, Caballería y Enjambres.
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d50-9c95-6dad-0557" name="Ingenio mortis" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0d50-9c95-6dad-0557" name="Ingenio mortis" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="8840-9411-fd9b-fc7d" name="Potencia de unidad 5" hidden="false"/>
         <rule id="84d6-ad53-1b77-2fdb" name="Foco de poder nigromántico" hidden="false">
@@ -11966,7 +11966,7 @@ contra Infantería, Bestias, Caballería y Enjambres.
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7520-2c98-86e0-b8ee" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7520-2c98-86e0-b8ee" name="Carro de cadáveres" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="1b42-9bfe-c7f5-9905" name="Potencia de unidad 4" hidden="false"/>
         <rule id="d292-69b2-3f65-6144" name="Horda de zombis" hidden="false">
@@ -12089,7 +12089,7 @@ contra Infantería, Bestias, Caballería y Enjambres.
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="59c1-ce63-2e06-3b26" name="Carruaje de huesos" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="59c1-ce63-2e06-3b26" name="Carruaje de huesos" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="a787-ecb2-d558-9e53" name="Potencia de unidad 3" hidden="false"/>
       </rules>
@@ -12491,7 +12491,7 @@ un Dragón zombi anciano es de 12” en lugar de las 8” habituales.</descripti
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f607-80cc-6ba6-3553" name="Carro de la plaga" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f607-80cc-6ba6-3553" name="Carro de la plaga" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -12771,6 +12771,39 @@ un Dragón zombi anciano es de 12” en lugar de las 8” habituales.</descripti
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1865-1d9a-fcb5-d567" name="Corcel esquelético (Sin barda)" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0fdb-af2e-7a0d-65f0" name="Corcel esquelético" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">8</characteristic>
+            <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
+            <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
+            <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
+            <characteristic name="R" typeId="5423232344415441232323">3</characteristic>
+            <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+            <characteristic name="L" typeId="4c4423232344415441232323">3</characteristic>
+            <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="Tipo" typeId="5479706523232344415441232323">Bestia</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9719-0c65-3745-5bfa" name="Bestia" hidden="false" targetId="0300-ed31-06b9-0c49" type="rule"/>
+        <infoLink id="e8a7-dff8-9c42-016a" name="Caballería" hidden="false" targetId="276f-0034-6534-f691" type="rule"/>
+        <infoLink id="c2c4-16e0-4d09-50c5" name="Corceles insustanciales" hidden="false" targetId="ce7d-6e6c-f9fc-e213" type="rule"/>
+        <infoLink id="b390-a428-c89c-265f" name="No muerto" hidden="false" targetId="3d39-5d46-7335-225c" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="(1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>

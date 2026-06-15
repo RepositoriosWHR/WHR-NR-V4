@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0d0b-60b1-02c5-b914" name="Mariemburgo" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0d0b-60b1-02c5-b914" name="Mariemburgo" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="98cd-bd8b-f52a-6fd7" name="Renombre">
       <characteristicTypes>
@@ -6151,7 +6151,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fc64-e2b5-085a-6454" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="fc64-e2b5-085a-6454" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd61-c857-b95d-bc12" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccdd-d43e-ad16-e431" type="min"/>
@@ -6292,7 +6292,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e5d0-65f3-84a9-ee90" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e5d0-65f3-84a9-ee90" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17b0-cef3-0a95-bdd5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9d8-3840-31c8-f51c" type="min"/>
@@ -7143,7 +7143,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e235-7cf1-2116-e854" name="Tripulación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e235-7cf1-2116-e854" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b651-5a00-2e47-f34c" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9928-3420-ecb1-cf43" type="min"/>

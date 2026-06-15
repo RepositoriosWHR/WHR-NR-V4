@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9aa0-a435-0f3a-053a" name="Regalo demoníaco">
       <characteristicTypes>
@@ -1135,7 +1135,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="aba1-480d-2aef-82c3" name="Montura" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="aba1-480d-2aef-82c3" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="314a-a4f3-2841-bd10" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a9-d3d0-a75d-8500" type="min"/>
@@ -2536,7 +2536,7 @@
         <categoryLink id="a21f-59f4-556d-87f5" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="55f9-3fc5-7b6e-d0b3" name="Carro de la demencia de Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="55f9-3fc5-7b6e-d0b3" name="Carro de la demencia de Slaanesh" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79f9-2ff8-c008-2864" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba19-57e3-8207-7597" type="min"/>
@@ -2794,7 +2794,7 @@
         <categoryLink id="38a6-c5f8-55c3-9bc0" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a6a5-00a0-3bad-0c1e" name="Faetón desollador de Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a6a5-00a0-3bad-0c1e" name="Faetón desollador de Slaanesh" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c27e-b2e8-b315-8863" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b370-7671-eacb-c8a2" type="min"/>
@@ -3043,7 +3043,7 @@
         <categoryLink id="352f-68c6-d320-5635" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8bbc-adbd-6e74-03fc" name="Carruaje de plaga de Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8bbc-adbd-6e74-03fc" name="Carruaje de plaga de Nurgle" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b7c-936a-a0c1-2f00" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="578f-0f0d-bf67-6932" type="min"/>
@@ -3266,7 +3266,7 @@
         <categoryLink id="9f8a-d9d3-e023-80ce" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="197f-ceda-25ef-f75e" name="Carruaje de guerra de Khorne" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="197f-ceda-25ef-f75e" name="Carruaje de guerra de Khorne" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="152f-73bb-84c6-cf6f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24bd-1b0c-acaa-7ebf" type="min"/>
@@ -3514,7 +3514,7 @@
         <categoryLink id="6422-3df9-ddd5-32d0" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f226-42f8-3064-40c0" name="Carruaje flamígero de Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f226-42f8-3064-40c0" name="Carruaje flamígero de Tzeentch" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a8a-7828-8e3e-da33" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e706-b06a-6a26-9a6f" type="min"/>
@@ -14410,7 +14410,7 @@ Las miniaturas con la regla especial Demonio (Khorne) situadas a 6&quot; o menos
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d20f-a919-9648-8a62" name="Carruaje de guerra de Khorne" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d20f-a919-9648-8a62" name="Carruaje de guerra de Khorne" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="1982-cde7-9ccf-4737" name="Potencia de unidad 5" hidden="false"/>
         <rule id="8f4b-7069-802a-a37f" name="Relicario de furia insensata" hidden="false">
@@ -14591,7 +14591,7 @@ Las miniaturas con la regla especial Demonio (Khorne) situadas a 6&quot; o menos
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e533-f8c8-76ad-ffec" name="Carro de la demencia de Slaanesh" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e533-f8c8-76ad-ffec" name="Carro de la demencia de Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="54d1-38f1-7d4b-12de" name="Potencia de unidad 4" hidden="false"/>
         <rule id="3dba-cb88-1a73-3e8f" name="Demencia" hidden="false">
@@ -14770,7 +14770,7 @@ Las miniaturas con la regla especial Demonio (Khorne) situadas a 6&quot; o menos
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2e45-d32a-0cae-5859" name="Carruaje de plaga de Nurgle" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2e45-d32a-0cae-5859" name="Carruaje de plaga de Nurgle" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="95f6-b48b-ed97-e68c" name="Potencia de unidad 5" hidden="false">
           <modifiers>
@@ -14955,7 +14955,7 @@ Las miniaturas con la regla especial Demonio (Khorne) situadas a 6&quot; o menos
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8123-7de4-3830-8ec8" name="Carruaje flamígero de Tzeentch" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8123-7de4-3830-8ec8" name="Carruaje flamígero de Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="d31f-1de0-bc6b-e4df" name="Potencia de unidad 4" hidden="false"/>
         <rule id="1803-639f-b540-0efa" name="Ataque rasante" hidden="false">

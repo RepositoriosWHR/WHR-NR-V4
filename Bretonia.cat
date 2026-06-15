@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -1947,7 +1947,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9478-e4c5-a121-315f" name="Trebuchet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9478-e4c5-a121-315f" name="Trebuchet" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91cf-f904-90e3-3d6a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7236-7ee8-e7ed-6f03" type="min"/>
@@ -2133,7 +2133,7 @@
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2a9e-9e9d-a49e-358e" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2a9e-9e9d-a49e-358e" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e83-95ac-6f37-dbe5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d98-b2b8-22e4-36ae" type="min"/>
@@ -2717,7 +2717,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b9cc-3ef6-e57e-d04e" name="Profetisa de la dama" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b9cc-3ef6-e57e-d04e" name="Profetisa de la dama" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a28-a398-a96a-6bc9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d91e-a497-1281-d616" type="min"/>
@@ -3010,7 +3010,7 @@ Desafío).</description>
             <cost name="pts" typeId="points" value="55.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8ad6-81f1-8734-de17" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8ad6-81f1-8734-de17" name="Claves" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89f3-115d-7a95-f202" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d38-f300-789b-bd48" type="min"/>
@@ -3612,7 +3612,7 @@ Desafío).</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="eb16-df9a-9340-a70c" name="Señor bretoniano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="eb16-df9a-9340-a70c" name="Señor bretoniano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e4-63c4-2f55-bcbf" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8071-df40-9150-2da5" type="min"/>
@@ -3946,7 +3946,7 @@ Desafío).</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="687d-9298-0411-05de" name="Sumo sacerdote de Taal" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="687d-9298-0411-05de" name="Sumo sacerdote de Taal" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c21-bd20-1cd6-75b7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb27-e154-b5c3-c2ed" type="min"/>
@@ -4252,7 +4252,7 @@ Desafío).</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d412-460a-cb29-8638" name="Paladín" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d412-460a-cb29-8638" name="Paladín" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fad3-89b3-047f-0003" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18fd-cc38-8c79-b2a5" type="min"/>
@@ -4811,7 +4811,7 @@ Desafío).</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d9cf-078c-1dc7-8605" name="Castellano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d9cf-078c-1dc7-8605" name="Castellano" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64bb-e5c8-c6a5-0b48" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4358-f2a5-56e9-bbe9" type="min"/>
@@ -5156,7 +5156,7 @@ Desafío).</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e443-7260-cf23-abdf" name="Sacerdote de Taal" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e443-7260-cf23-abdf" name="Sacerdote de Taal" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c318-f11c-2d80-3661" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b28-6e6a-2c6f-0581" type="min"/>
@@ -5340,7 +5340,7 @@ Desafío).</description>
         <categoryLink id="fa22-7e7e-6469-054e" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9ed4-0881-c4ac-7526" name="Bardo" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9ed4-0881-c4ac-7526" name="Bardo" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b8-687e-f414-1831" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0bb-d021-1e57-5501" type="min"/>
@@ -5629,7 +5629,7 @@ Desafío).</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9a1a-8b57-9503-5387" name="Paladín" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9a1a-8b57-9503-5387" name="Paladín" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d20f-732a-52fa-f3c5" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77ff-2a55-4b7d-ddfa" type="min"/>
@@ -11911,7 +11911,7 @@ esté incluido. Puede utilizarse para restaurar miniaturas retiradas como baja d
         <categoryLink id="de05-5daa-0728-29d1" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5363-38ff-3be3-54f7" name="Sacerdotisa de Shallya" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5363-38ff-3be3-54f7" name="Sacerdotisa de Shallya" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d92f-c48a-e29f-0ec2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23e9-686e-6a09-3c6a" type="min"/>
@@ -12131,7 +12131,7 @@ cuatro Peregrinos que huiránnjunto al resto de su unidad). El Relicario tiene u
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8221-c3a7-138a-bcea" name="Relicario" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8221-c3a7-138a-bcea" name="Relicario" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f4-f5a7-ed65-cdac" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d93-de4a-c4b9-85ab" type="min"/>

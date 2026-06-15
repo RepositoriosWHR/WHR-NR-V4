@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b754-52bc-23f3-c7ca" name="Rasetra" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b754-52bc-23f3-c7ca" name="Rasetra" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="120f-900a-7dd9-4cdb" name="Gran papiro">
       <characteristicTypes>
@@ -802,7 +802,7 @@
         <categoryLink id="d4c6-3e9a-0f98-cb56" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c57b-e3c5-2db7-9c6a" name="Lanzacráneos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c57b-e3c5-2db7-9c6a" name="Lanzacráneos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="742c-30b8-bc51-be4b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7f2-b763-a20b-a8bb" type="min"/>
@@ -7875,7 +7875,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc66-566a-403b-ff2e" name="Carro del trueno" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bc66-566a-403b-ff2e" name="Carro del trueno" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="4af2-32af-60db-ce02" name="Impactos por carga Carro del trueno" hidden="false">
           <description>Un Carro del trueno causa un total de 1D6+2 impactos por carga (1D6+3 si va equipado con cuchillas).</description>
