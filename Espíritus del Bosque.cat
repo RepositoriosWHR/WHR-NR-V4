@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b508-ebab-a618-47ac" name="Espíritus del Bosque" revision="2" battleScribeVersion="2.03" authorName="Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b508-ebab-a618-47ac" name="Espíritus del Bosque" revision="3" battleScribeVersion="2.03" authorName="Aswer" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="31db-7b3b-839f-a176" name="Rasgos, Duendes y Hadas">
       <characteristicTypes>
@@ -1482,6 +1482,7 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
         <selectionEntry id="86c3-b349-1f64-865d" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e154-4409-eb38-257a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83cd-ec8b-7750-0a25" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="Ser alado faérico" name="Ser alado faérico" hidden="false" collective="false" import="true" type="upgrade">
@@ -1508,7 +1509,7 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2517,7 +2518,15 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
             <entryLink id="ffab-0478-5dc2-c5a9" name="Rasgos, Duendes y Hadas Especiales" hidden="false" collective="false" import="true" targetId="8e0b-e52d-56ea-ff90" type="selectionEntryGroup"/>
             <entryLink id="c6c8-e596-4091-a6d5" name="Rasgos, Duendes y Hadas de los Ancianos" hidden="false" collective="false" import="true" targetId="3f6f-5c7c-50ff-cd9f" type="selectionEntryGroup"/>
             <entryLink id="20e3-991f-0dc3-d22f" name="Rasgos, Duendes y Hadas de los Ancianos. Milenario" hidden="false" collective="false" import="true" targetId="36cb-b70c-1f51-9b57" type="selectionEntryGroup"/>
-            <entryLink id="9e1d-8c1b-501b-dc25" name="Rasgos, Duendes y Hadas Arcanos" hidden="false" collective="false" import="true" targetId="0c25-d4c3-9a6e-6102" type="selectionEntryGroup"/>
+            <entryLink id="9e1d-8c1b-501b-dc25" name="Rasgos, Duendes y Hadas Arcanos" hidden="false" collective="false" import="true" targetId="0c25-d4c3-9a6e-6102" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink id="75af-5975-8e75-2cc9" name="Esencia del Roble Eterno" hidden="false" collective="false" import="true" targetId="6c9f-055c-2b29-ac16" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="45.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2686,7 +2695,15 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           <entryLinks>
             <entryLink id="3481-9385-e427-3d13" name="Rasgos, Duendes y Hadas Especiales" hidden="false" collective="false" import="true" targetId="8e0b-e52d-56ea-ff90" type="selectionEntryGroup"/>
             <entryLink id="e2ac-828a-b1de-cae4" name="Rasgos, Duendes y Hadas de los Espectros" hidden="false" collective="false" import="true" targetId="bb22-7686-0e1f-0986" type="selectionEntryGroup"/>
-            <entryLink id="6e19-cfe8-0faf-cfe1" name="Rasgos, Duendes y Hadas Arcanos" hidden="false" collective="false" import="true" targetId="0c25-d4c3-9a6e-6102" type="selectionEntryGroup"/>
+            <entryLink id="6e19-cfe8-0faf-cfe1" name="Rasgos, Duendes y Hadas Arcanos" hidden="false" collective="false" import="true" targetId="0c25-d4c3-9a6e-6102" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink id="c5de-ffc0-55f7-d436" name="Esencia del Roble Eterno" hidden="false" collective="false" import="true" targetId="6c9f-055c-2b29-ac16" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="50.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="25cc-af10-dcab-728b" name="Nivel de magia" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e82-171c-8772-ffdc">
@@ -2932,6 +2949,13 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
                   </conditions>
                 </modifier>
               </modifiers>
+              <entryLinks>
+                <entryLink id="a09c-f0d5-369b-a11e" name="Esencia del Roble Eterno" hidden="false" collective="false" import="true" targetId="6c9f-055c-2b29-ac16" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -5487,6 +5511,18 @@ Sombras.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c9f-055c-2b29-ac16" name="Esencia del Roble Eterno" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="3637-6741-fa74-43e1" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="3637-6741-fa74-43e1" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3daf-1c8a-fef8-d4c4" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3637-6741-fa74-43e1" type="max"/>
@@ -5553,6 +5589,18 @@ Sombras.</description>
       </constraints>
       <selectionEntries>
         <selectionEntry id="e6dd-0116-b6d4-bf56" name="Desfile de duendes traviesos" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="45b8-51c6-7ee6-3313" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="45b8-51c6-7ee6-3313" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a32-3f9f-6571-54a5" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45b8-51c6-7ee6-3313" type="max"/>
@@ -5572,6 +5620,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="4c69-bd73-4700-6e54" name="Astilla sagrada" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="155f-9f2e-8b47-526b" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="155f-9f2e-8b47-526b" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a92d-99f6-276a-ca5b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="155f-9f2e-8b47-526b" type="max"/>
@@ -5591,6 +5651,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="baf2-30d6-75e5-5355" name="Luminescentes" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="5342-10c4-31c8-1d46" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="5342-10c4-31c8-1d46" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ff-fee0-9fc0-3a4d" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5342-10c4-31c8-1d46" type="max"/>
@@ -5607,6 +5679,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="9c7a-3808-d3aa-8596" name="Gusano antropófago" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="bfd5-70eb-20cd-4009" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="bfd5-70eb-20cd-4009" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="836c-3912-fbc2-3aef" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bfd5-70eb-20cd-4009" type="max"/>
@@ -5626,6 +5710,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="de31-1e06-b4cb-9394" name="Liquen del eterno rencor" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="d9c8-e31f-77b3-deef" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d9c8-e31f-77b3-deef" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45e5-daac-f0c0-1fbb" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d9c8-e31f-77b3-deef" type="max"/>
@@ -5649,6 +5745,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="956b-bd84-b06e-9995" name="Raíces estranguladoras" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="391b-7959-0347-a688" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="391b-7959-0347-a688" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2706-b994-9b43-7f57" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="391b-7959-0347-a688" type="max"/>
@@ -5665,6 +5773,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="dd5e-af6c-6cbc-1445" name="Armonía de loto" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8fbd-1eb6-680b-a839" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8fbd-1eb6-680b-a839" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96b2-7428-db09-0dff" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fbd-1eb6-680b-a839" type="max"/>
@@ -5688,6 +5808,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="79e4-dd34-1782-d717" name="Colonia de ujanos" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="79be-e022-2c80-394a" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="79be-e022-2c80-394a" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f9b-2be3-4b55-14bc" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="79be-e022-2c80-394a" type="max"/>
@@ -5704,6 +5836,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="0073-099b-f961-b816" name="Cuerpo embrujado" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="beb6-d422-c0b1-8247" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="beb6-d422-c0b1-8247" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa5a-03fa-ac6a-df3d" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="beb6-d422-c0b1-8247" type="max"/>
@@ -5723,6 +5867,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="e402-df6e-64ec-5d45" name="Ramas enredaderas" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="10f5-f8b9-22a8-9abf" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="10f5-f8b9-22a8-9abf" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a28-527f-cd55-895a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10f5-f8b9-22a8-9abf" type="max"/>
@@ -5739,6 +5895,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="2e34-6626-6be6-f945" name="Enjambre de duendes" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="0efe-bf30-a674-5388" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0efe-bf30-a674-5388" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a000-418d-db33-68b1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0efe-bf30-a674-5388" type="max"/>
@@ -5759,6 +5927,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="fab0-083e-0482-35f6" name="Los molestos geniecillos" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="55c4-16c3-f5b5-c7f8" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="55c4-16c3-f5b5-c7f8" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4a8-8f84-f13d-7784" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="55c4-16c3-f5b5-c7f8" type="max"/>
@@ -5775,6 +5955,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="7b76-c4ca-8063-f7b9" name="Protección de las hadas" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="c193-db34-2110-39ab" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="c193-db34-2110-39ab" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d8f-21bb-579a-cd55" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c193-db34-2110-39ab" type="max"/>
@@ -5791,6 +5983,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="8bbf-c785-6d0e-66dd" name="El atolondramiento de los diablillos" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="7400-9124-2e32-93f1" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="7400-9124-2e32-93f1" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57f3-b2e6-f603-7dab" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7400-9124-2e32-93f1" type="max"/>
@@ -5807,6 +6011,18 @@ Sombras.</description>
           </costs>
         </selectionEntry>
         <selectionEntry id="c776-a0eb-3681-ca94" name="Nido de geniecillos" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="b011-dad3-32b5-ba73" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="b011-dad3-32b5-ba73" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cb4-3170-05fe-beca" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b011-dad3-32b5-ba73" type="max"/>
@@ -5983,7 +6199,7 @@ Sombras.</description>
           <profiles>
             <profile id="c5a2-a25a-ccac-381f" name="Brote de las Eras Olvidadas" hidden="false" typeId="8b02-3ef3-2ac5-04a7" typeName="Brote ancestral">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="edd7-1c9a-1536-6195">Las miniaturas de unidad que lo porten obtendrán la regla especial Furia asesina y si ya disponían de esta regla no perderán su Furia asesina aunque sea derrotada en combate.</characteristic>
+                <characteristic name="Reglas especiales" typeId="edd7-1c9a-1536-6195">Las unidades enemigas tendrán un penalizador de -1 para impactar en combate cuerpo a cuerpo contra el portador y su unidad.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6078,6 +6294,18 @@ ya tenían esta regla especial.</characteristic>
       </constraints>
       <selectionEntries>
         <selectionEntry id="e10f-8c9f-b857-5386" name="Metamorfosis" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="ad4d-7ce8-8221-c795" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="ad4d-7ce8-8221-c795" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6480-06e4-4521-b805" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad4d-7ce8-8221-c795" type="max"/>
@@ -6099,6 +6327,18 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           </costs>
         </selectionEntry>
         <selectionEntry id="d2ad-af0f-3cc9-2dbb" name="Luz de hada" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="da5b-c0fd-228c-1407" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="da5b-c0fd-228c-1407" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9162-4849-7c79-6837" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da5b-c0fd-228c-1407" type="max"/>
@@ -6118,6 +6358,18 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           </costs>
         </selectionEntry>
         <selectionEntry id="896c-e58f-0dc4-9eed" name="Guía del Sendero Oculto" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="459e-7cee-695c-484a" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="459e-7cee-695c-484a" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0d9d-7a8e-89a5-2c9c" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="459e-7cee-695c-484a" type="max"/>
@@ -6134,6 +6386,18 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           </costs>
         </selectionEntry>
         <selectionEntry id="acd9-7fdb-89b3-80fc" name="Desconexión con el plano material" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="f00a-b2ba-e361-3a35" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f00a-b2ba-e361-3a35" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="594c-8201-79a8-ec7a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f00a-b2ba-e361-3a35" type="max"/>
@@ -6153,6 +6417,18 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           </costs>
         </selectionEntry>
         <selectionEntry id="a56e-2223-dfe6-e0cc" name="Ciclón de Corteza Espectral" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="0faa-faa9-66ea-bee8" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0faa-faa9-66ea-bee8" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78d3-a6f7-7a9b-5d80" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0faa-faa9-66ea-bee8" type="max"/>
@@ -6169,6 +6445,18 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           </costs>
         </selectionEntry>
         <selectionEntry id="556e-c277-055d-2892" name="Custodio Supremo de las Bóvedas del invierno" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="9ac9-96e7-9761-7046" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="9ac9-96e7-9761-7046" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e34-a061-09a1-1629" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ac9-96e7-9761-7046" type="max"/>
@@ -6204,6 +6492,18 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
       </constraints>
       <selectionEntries>
         <selectionEntry id="dbf1-bfa3-142a-fc6d" name="Tamaño descomunal" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="ca9b-90a9-2141-cd0c" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="ca9b-90a9-2141-cd0c" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fd3a-27d3-347e-6051" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ca9b-90a9-2141-cd0c" type="max"/>
@@ -6220,6 +6520,18 @@ Forma de sauce Las miniaturas que dirijan uno o más ataques en combate cuerpo a
           </costs>
         </selectionEntry>
         <selectionEntry id="03d2-ce82-0519-5f75" name="Gran zancada" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="8da9-5018-3daf-646b" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="8da9-5018-3daf-646b" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e835-316b-3088-a563" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8da9-5018-3daf-646b" type="max"/>
@@ -6237,6 +6549,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="42bf-7131-0d79-3ab0" name="Ataque de raíces" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="95ad-e23c-fa9f-dcea" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="95ad-e23c-fa9f-dcea" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff44-c4c2-ebc8-4a72" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95ad-e23c-fa9f-dcea" type="max"/>
@@ -6253,6 +6577,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="7f67-e8a6-3803-cb51" name="Miríada de ramas" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="cb1e-3f68-2044-db07" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="cb1e-3f68-2044-db07" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7423-33af-8293-bb53" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb1e-3f68-2044-db07" type="max"/>
@@ -6272,6 +6608,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="43be-7169-37b3-81f4" name="Grito del bosque" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="3f02-8952-2290-5936" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="3f02-8952-2290-5936" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1147-f0fe-06d1-a216" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f02-8952-2290-5936" type="max"/>
@@ -6295,6 +6643,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="6cdd-132a-cdb2-9e10" name="Corteza de alcornoque" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="f3f9-204c-15c1-5cb8" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f3f9-204c-15c1-5cb8" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e89-55a4-2bf2-c03b" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3f9-204c-15c1-5cb8" type="max"/>
@@ -6319,6 +6679,18 @@ Movimiento. </characteristic>
       </constraints>
       <selectionEntries>
         <selectionEntry id="c0e1-ce88-fbaa-d48f" name="Manada de trasgos" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="bfc7-7d9f-3834-d131" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="bfc7-7d9f-3834-d131" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d90f-265c-64d4-823f" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bfc7-7d9f-3834-d131" type="max"/>
@@ -6335,6 +6707,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="7cff-b179-0b6a-7291" name="Pastor de árboles" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="e126-6fba-d5db-7122" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="e126-6fba-d5db-7122" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cfd3-57f5-e7cb-1016" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e126-6fba-d5db-7122" type="max"/>
@@ -6351,6 +6735,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="60a0-3497-41d2-2591" name="Receptáculo de energía arcana" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="9760-f0b8-b07e-86d0" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="9760-f0b8-b07e-86d0" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c407-2f0d-3be1-d8a3" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9760-f0b8-b07e-86d0" type="max"/>
@@ -6367,6 +6763,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="5e03-e4fd-8f32-22d0" name="Encarnación de la primavera" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="9166-e1de-dbd4-3736" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="9166-e1de-dbd4-3736" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f85b-2f75-88b1-eebd" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9166-e1de-dbd4-3736" type="max"/>
@@ -6389,6 +6797,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="7cac-7b7b-1b77-138b" name="Encarnación del otoño" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="496a-a294-742f-0ab1" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="496a-a294-742f-0ab1" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c6e7-2694-f4c0-e0af" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="496a-a294-742f-0ab1" type="max"/>
@@ -6412,6 +6832,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="6053-883f-4656-8cf5" name="Encarnación del verano" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="48bb-de32-37ea-3f55" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="48bb-de32-37ea-3f55" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a91-b9ac-8293-421a" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="48bb-de32-37ea-3f55" type="max"/>
@@ -6435,6 +6867,42 @@ Movimiento. </characteristic>
             <cost name="pts" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7956-87af-baad-6172" name="Encarnación del invierno" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4e26-b3e7-6752-e857" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="4e26-b3e7-6752-e857" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bcfa-8bd0-f869-657c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e26-b3e7-6752-e857" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="732c-206c-e571-f84e" name="Encarnación del invierno" hidden="false" typeId="31db-7b3b-839f-a176" typeName="Rasgos, Duendes y Hadas">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="bb6f-2db2-c116-79a5">El espíritu del bosque obtiene las reglas especiales Inmune a fuego, Aura de frío y Sangre Fría. Incompatible con las otras tres encarnaciones de estaciones.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bf59-96f4-6c63-e3d3" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
+            <infoLink id="241f-8130-b18a-2c8e" name="Aura de frio" hidden="false" targetId="a75b-8c16-3718-ea3c" type="rule"/>
+            <infoLink id="93fc-d8ea-14d0-b96e" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="00b7-fc5f-ac8a-6670" name="Encarnación estacional" hidden="false" collective="false" import="true" targetId="5514-02cf-e1cc-5c3f" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="0c25-d4c3-9a6e-6102" name="Rasgos, Duendes y Hadas Arcanos" hidden="false" collective="false" import="true">
@@ -6444,6 +6912,18 @@ Movimiento. </characteristic>
       </constraints>
       <selectionEntries>
         <selectionEntry id="3373-a617-9883-9f14" name="Familiar faérico" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="99bb-a153-aaa3-60cc" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="99bb-a153-aaa3-60cc" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1995-c9a0-d364-bfb1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99bb-a153-aaa3-60cc" type="max"/>
@@ -6467,6 +6947,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="53c1-2548-d779-cdbd" name="Racimo de fuegos fatuos" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="9095-9544-1973-747d" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="9095-9544-1973-747d" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4e2a-bddc-2d15-1356" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9095-9544-1973-747d" type="max"/>
@@ -6483,6 +6975,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="190c-20d5-a048-33b5" name="El lamento de las Aldaboneras" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="1ca3-f46d-db9a-a8cd" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="1ca3-f46d-db9a-a8cd" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41d4-925d-544d-b084" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ca3-f46d-db9a-a8cd" type="max"/>
@@ -6499,6 +7003,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="fefe-1e7f-d32b-7a7b" name="Avatar de Ghyran" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="3185-3097-be78-7be9" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="3185-3097-be78-7be9" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="da20-cedc-93c5-8cca" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3185-3097-be78-7be9" type="max"/>
@@ -6523,6 +7039,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="d652-4808-5956-7977" name="Dominio de los Vientos de la Magia" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="f7ed-e744-3a35-4cf1" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f7ed-e744-3a35-4cf1" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e65-3154-457a-3ed3" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f7ed-e744-3a35-4cf1" type="max"/>
@@ -6539,6 +7067,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="4303-3b13-7da5-5f22" name="Resentido con los intrusos" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="08c6-5f8b-fc5f-ca74" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="08c6-5f8b-fc5f-ca74" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e8c9-c745-8c99-d9da" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="08c6-5f8b-fc5f-ca74" type="max"/>
@@ -6562,6 +7102,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="076c-4894-06cc-cc64" name="Bendición ancestral del bosque" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="361d-177b-567d-3900" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="361d-177b-567d-3900" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a92-14ad-46d3-b487" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="361d-177b-567d-3900" type="max"/>
@@ -6581,6 +7133,18 @@ Movimiento. </characteristic>
           </costs>
         </selectionEntry>
         <selectionEntry id="c50d-2ecb-3d92-b3c1" name="Protección de los Uleishi" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="7a4c-dc0d-5cda-ced8" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="7a4c-dc0d-5cda-ced8" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eef2-8669-b8bb-a0cb" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a4c-dc0d-5cda-ced8" type="max"/>

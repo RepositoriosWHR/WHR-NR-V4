@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3216-304d-pubN65537" name="Elfos Oscuros Reforged"/>
   </publications>
@@ -10927,7 +10927,7 @@ pasará a considerarse parte del ejército elfo oscuro por el resto de la batall
                 <infoLink id="9758-ea89-6a5d-f2af" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10941,25 +10941,6 @@ pasará a considerarse parte del ejército elfo oscuro por el resto de la batall
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4595-c588-77d5-65f8" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="03c2-f4aa-9ddf-c1a5" name="Espadas de hierro negro de Ghrond" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e48f-f966-ed0f-f4d9" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c14-ad16-48e1-a15e" type="min"/>
-              </constraints>
-              <profiles>
-                <profile id="93ce-c993-8da7-f3a3" name="Espadas de hierro negro de Ghrond" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
-                  <characteristics>
-                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Armas emparejadas (Kouran efectúa con ellas un total de 5 Ataques). Kouran puede repetir sus tiradas para impactar fallidas en combate cuerpo a cuerpo. Los impactos con estas espadas se resuelven con un bonificador de +1F.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="4671-5ce7-8ef1-9c69" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="6639-65cf-de38-3123" name="Armadura del dolor" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa76-9ea7-86c3-6486" type="max"/>
@@ -11025,6 +11006,79 @@ pasará a considerarse parte del ejército elfo oscuro por el resto de la batall
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c768-6d3e-c0a7-31b9" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="e4bc-8f7f-aa46-988f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c06-7211-3e04-4d6e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="55a5-88ea-4589-e581" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e4bc-8f7f-aa46-988f" name="Espadas de hierro negro de Ghrond" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb6f-d083-a6f4-a882" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f7-23fa-fac6-9ee4" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="2488-a4b0-bed8-fce4" name="Espadas de hierro negro de Ghrond" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Armas emparejadas (Kouran efectúa con ellas un total de 5 Ataques). Kouran puede repetir sus tiradas para impactar fallidas en combate cuerpo a cuerpo. Los impactos con estas espadas se resuelven con un bonificador de +1F.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0b5f-5729-ec4b-68fc" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f1da-ade7-9213-c808" name="Muerte carmesí y Espadas de hierro negro de Ghrond" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7740-1a8f-b66c-75dd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d059-1cfd-284a-9fab" name="Muerte carmesí" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Alabarda. Los ataques efectuados con esta alabarda obtendrán un bonificador adicional de +1 a la Fuerza de su usuario. Además, podrá repetir las tiradas para herir efectuadas contra miniaturas pertenecientes a un Ejército del 
+Orden.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="2cb5-bab4-42f9-239e" name="Espadas de hierro negro de Ghrond" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Armas emparejadas (Kouran efectúa con ellas un total de 5 Ataques). Kouran puede repetir sus tiradas para impactar fallidas en combate cuerpo a cuerpo. Los impactos con estas espadas se resuelven con un bonificador de +1F.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8687-8307-46c4-a82b" name="Alabarda" hidden="false" targetId="8dd0-8d9d-2436-cbf1" type="profile"/>
+                <infoLink id="4d5a-5cd4-edf0-84fd" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aae2-2e8b-653e-888b" name="Muerte carmesí" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efb6-1cc9-0075-93bf" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5b1d-52e9-dc67-0c4d" name="Muerte carmesí" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Alabarda. Los ataques efectuados con esta alabarda obtendrán un bonificador adicional de +1 a la Fuerza de su usuario. Además, podrá repetir las tiradas para herir efectuadas contra miniaturas pertenecientes a un Ejército del 
+Orden.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="9169-a5ca-3bef-5bf8" name="Alabarda" hidden="false" targetId="8dd0-8d9d-2436-cbf1" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -13175,7 +13229,6 @@ etéreos. </description>
           </constraints>
           <entryLinks>
             <entryLink id="1618-443d-0482-8d72" name="Clave: Elfos Oscuros" hidden="false" collective="false" import="true" targetId="3f44-cfc7-1b54-f02b" type="selectionEntry"/>
-            <entryLink id="5e83-4e9a-e8b3-0247" name="Clave: Elfos" hidden="false" collective="false" import="true" targetId="413a-675c-7342-1956" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>

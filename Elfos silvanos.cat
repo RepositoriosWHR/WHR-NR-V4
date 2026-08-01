@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="14" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="924e-28e4-3972-c476" name="Elfos silvanos" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="41" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="924e-28e4-pubN65537" name="Elfos Silvanos. Libro de Ejércitos. Warhammer Reforged"/>
   </publications>
@@ -4412,7 +4412,6 @@
                       <conditions>
                         <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bd2c-0768-0842-a244" type="equalTo"/>
                         <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a9c0-3840-e704-11ba" type="equalTo"/>
-                        <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee65-9b8f-7b95-27b2" type="equalTo"/>
                         <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f460-5823-54ca-fbbf" type="equalTo"/>
                         <condition field="selections" scope="7f47-d917-eee9-90ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8451-e1b2-2958-9152" type="equalTo"/>
                       </conditions>
@@ -6819,7 +6818,6 @@
                       <conditions>
                         <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bd2c-0768-0842-a244" type="equalTo"/>
                         <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a9c0-3840-e704-11ba" type="equalTo"/>
-                        <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee65-9b8f-7b95-27b2" type="equalTo"/>
                         <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f460-5823-54ca-fbbf" type="equalTo"/>
                         <condition field="selections" scope="bde5-1e44-3c15-a57b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8451-e1b2-2958-9152" type="equalTo"/>
                       </conditions>
