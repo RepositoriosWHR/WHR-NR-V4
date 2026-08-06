@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="5" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="6" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bff8-8e34-eb37-f67a" name="Saber del Fuego" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3510,16 +3510,16 @@ en su regla especial Constructo, devolviendo bajas al campo de batalla si fuese 
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+/19+</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/12&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga con la regla especial No muerto a 18” o menos del lanzador. La unidad podrá realizar inmediatamente un movimiento como si se encontrase en la sub-fase de Resto de movimientos de su fase de movimiento, una carga como si se encontrase en la sub-fase de declaración de cargas de su fase de movimiento o disparar como si se encontrase en la fase de disparo. Puede potenciarse para que afecte a todas las unidades amigas con la regla especial No muerto a 12” o menos del lanzador, en cuyo caso la dificultad será de 19+.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador. Esta unidad podrá realizar inmediatamente una de las siguientes acciones: De carga: la unidad puede cargar, como si se encontrase en la sub-fase de declaración de cargas de su fase de movimiento, aunque con su atributo de Movimiento reducido a la mitad. La unidad que recibe la carga puede reaccionar con normalidad, y la carga en sí está sujeta a todas las reglas habituales, excepto porque ocurre durante la fase de magia. Movimiento: la unidad puede mover como si se encontrase en la sub-fase de Resto de movimientos de su fase de movimiento, aunque con su atributo de Movimiento reducido a la mitad. Este movimiento está sujeto a las reglas habituales. Puede potenciarse este hechizo para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad será de 19+.</characteristic>
           </characteristics>
         </profile>
         <profile id="6f40-bd92-f2c4-6436" name="[1] - Encantamiento protector de Neru" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
           <characteristics>
             <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
-            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/17+</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/16+</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/12&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga con la regla especial No muerto a 18” o menos del lanzador y Pertenece un turno. Mientras dure el hechizo, la unidad tiene la regla especial Regeneración (5+). Puede potenciarse para que afecte a todas las unidades amigas con la regla especial No muerto a 12” o menos del lanzador, en cuyo caso la dificultad será de 17+.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que permanece un turno y puede lanzarse sobre una unidad amiga a 18” o menos del hechicero. La unidad obtiene la regla especial Regeneración (5+) por la duración del conjuro. Puede potenciarse este hechizo para que afecte a todas las unidades amigas a 12” o menos del hechicero, en cuyo caso la dificultad aumenta a 16+.</characteristic>
           </characteristics>
         </profile>
         <profile id="4067-5ae2-6984-df6d" name="[2] - Encantamiento del justo castigo de Ptra" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
@@ -3528,7 +3528,7 @@ en su regla especial Constructo, devolviendo bajas al campo de batalla si fuese 
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">9+/18+</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/12&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga con la regla especial No muerto a 12” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, el atributo de Ataques de las miniaturas de la unidad se incrementa en +1 y si están equipada con arcos (de cualquier tipo), obtienen la regla especial Disparos múltiples (2). Puede potenciarse para que afecte a todas las unidades amigas con la regla especial No muerto a 12” o menos del lanzador, en cuyo caso la dificultad será de 18+.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que toma como objetivo a una unidad amiga a 12” o menos del lanzador y permanece un turno. Por la duración del conjuro, el atributo de ataques de todas las miniaturas de la unidad (eso incluye las monturas) se incrementa en uno. Además, si la unidad está equipada con arcos (de cualquier tipo), obtiene también la regla especial Disparos múltiples (2) para sus arcos por la duración del conjuro. Puedes potenciar este hechizo para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad será de 18+.</characteristic>
           </characteristics>
         </profile>
         <profile id="58b9-2907-9935-480a" name="[3a] - Encantamiento de la venganza de Sokht" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
@@ -3537,7 +3537,7 @@ en su regla especial Constructo, devolviendo bajas al campo de batalla si fuese 
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">9+</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Proyectil mágico con un alcance de 24”. Causa 2D6 impactos de Fuerza 4 con la regla especial Poder de penetración. Una unidad que sufra al menos una baja como resultado de este hechizo deberá efectuar inmediatamente un chequeo de Pánico.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de proyectil mágico con un alcance de 24”. El objetivo sufre 2D6 impactos de F4 con la regla especial Poder de penetración. Cualquier unidad que sufra al menos una baja como resultado de este hechizo deberá efectuar inmediatamente un chequeo de pánico.</characteristic>
           </characteristics>
         </profile>
         <profile id="fc5a-22a7-d3ee-f77f" name="[3b] - Encantamiento de la fuerza de Geheb" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
@@ -3546,7 +3546,7 @@ en su regla especial Constructo, devolviendo bajas al campo de batalla si fuese 
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad tiene un bonificador de +1 a la Fuerza.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que puede lanzarse sobre una unidad amiga a 18” o menos del lanzador y permanece un turno. Por la duración del conjuro, la unidad afectada tendrá un bonificador de +1F.</characteristic>
           </characteristics>
         </profile>
         <profile id="37e2-2110-b6a4-ed41" name="[4] - Encantamiento de las espadas malditas de Djaf" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
@@ -3555,7 +3555,7 @@ en su regla especial Constructo, devolviendo bajas al campo de batalla si fuese 
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga con la regla especial No muerto a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad tiene la regla especial Golpe letal en sus ataques en combate cuerpo a cuerpo. Si ya disponían de la regla especial Golpe letal, estos tendrán éxito con un resultado de 5+ en lugar del habitual 6+ en combate cuerpo a cuerpo.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y permanece un turno. Por la duración del conjuro, la unidad obtendrá la regla especial Golpe letal en sus ataques en combate cuerpo a cuerpo. Si ya disponían de la regla especial Golpe letal, éstos tendrán éxito con un resultado de 5+ en lugar del habitual 6+.</characteristic>
           </characteristics>
         </profile>
         <profile id="dc02-f1db-1a3d-792f" name="[5] - Encantamiento marchitador de Sakhmet" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
@@ -3564,16 +3564,16 @@ en su regla especial Constructo, devolviendo bajas al campo de batalla si fuese 
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">12+/17+</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad tiene un penalizador de -1 a sus atributos de Fuerza y Resistencia. Puede potenciarse para que tengan un penalizador de -1D3 a la Fuerza y Resistencia en vez del -1, en cuyo caso la dificultad será de 17+.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de maldición que toma como objetivo a una unidad enemiga a 18” o menos del lanzador y permanece un turno. Por la duración del conjuro, la unidad tendrá un penalizador de -1 a sus atributos de Fuerza y Resistencia (hasta un mínimo de 1). Puedes potenciar este hechizo para que imponga un penalizador de -2 a la F y R de la unidad objetivo en vez del -1 habitual (hasta un mínimo de 1), en cuyo caso la dificultad será de 17+.</characteristic>
           </characteristics>
         </profile>
         <profile id="87f3-c3b8-06d5-9585" name="[6] - Encantamiento de la tormenta de cráneos de Usirian" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
           <characteristics>
             <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Vórtice</characteristic>
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">14+/19+</characteristic>
-            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">3D6</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">3D6&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Vórtice. Coloca la plantilla redonda pequeña en contacto con el lanzador y tira 3D6: desplaza la plantilla la distancia indicada en los dados en la dirección que desees. Cualquier miniatura sobre la que se mueva la plantilla sufrirá un impacto de Fuerza 4 con la regla especial Golpe letal. Una unidad que sufra al menos una baja como consecuencia de este hechizo debe realizar inmediatamente un chequeo de Pánico. Puede potenciarse para utilizar la plantilla redonda grande, en cuyo caso su dificultad será de 19+.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de vórtice que utiliza la plantilla redonda pequeña. Coloca la plantilla en contacto con el sacerdote y muévela en la dirección que desees 3D6”. Cualquier miniatura tocada por la plantilla sufrirá un impacto de Fuerza 4 con la regla especial Golpe letal. Cualquier unidad que sufra al menos una baja como consecuencia de este hechizo deberá realizar inmediatamente un chequeo de pánico. Puedes potenciar este hechizo, en cuyo caso utilizará la plantilla redonda grande. La dificultad en ese caso será de 19+.</characteristic>
           </characteristics>
         </profile>
       </profiles>

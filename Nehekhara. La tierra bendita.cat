@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9cd5-1cbb-a09f-032e" name="Nehekhara. La tierra bendita" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswerw" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9cd5-1cbb-a09f-032e" name="Nehekhara. La tierra bendita" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswerw" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4525-b294-003e-3ce5" name="Pergamino arcano">
       <characteristicTypes>
@@ -1330,10 +1330,10 @@
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">8</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
-                    <characteristic name="HP" typeId="425323232344415441232323"></characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323"/>
                     <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
-                    <characteristic name="R" typeId="5423232344415441232323"></characteristic>
-                    <characteristic name="H" typeId="5723232344415441232323"></characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323"/>
+                    <characteristic name="H" typeId="5723232344415441232323"/>
                     <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">5</characteristic>
@@ -1417,9 +1417,9 @@
                     <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
                     <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
-                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"></characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                     <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
-                    <characteristic name="Tipo" typeId="5479706523232344415441232323"></characteristic>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8006,6 +8006,9 @@ Alcadizaar). El hechizo será lanzado con Fuerza irresistible (aunque no provoca
                       </characteristics>
                     </profile>
                   </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="23dc-22d5-91d2-a686" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
@@ -8052,8 +8055,8 @@ Alcadizaar). El hechizo será lanzado con Fuerza irresistible (aunque no provoca
                             <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
                             <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
                             <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
-                            <characteristic name="R" typeId="5423232344415441232323"></characteristic>
-                            <characteristic name="H" typeId="5723232344415441232323"></characteristic>
+                            <characteristic name="R" typeId="5423232344415441232323"/>
+                            <characteristic name="H" typeId="5723232344415441232323"/>
                             <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
                             <characteristic name="A" typeId="4123232344415441232323">1 (2)</characteristic>
                             <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
@@ -9275,6 +9278,9 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
         <infoLink id="e1a6-1e9b-986c-cabd" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
         <infoLink id="d180-f39e-48f7-6f4d" name="Protección por montura (2)" hidden="false" targetId="e265-bb6c-2315-231a" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d9d2-f2d7-8167-e512" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2f76-9351-c6da-ec2b" name="Carro del Trueno Rasetrano" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -11314,6 +11320,13 @@ enemiga. La unidad recién aparecida puede actuar durante el turno en el que apa
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="233c-c630-8346-91cc" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="004b-b6c5-2f7c-b98d" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="cc1b-8475-5780-9660" name="Gran papiro de la vitalidad de Menkaure" hidden="false" typeId="4525-b294-003e-3ce5" typeName="Pergamino arcano">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="d2a6-afc9-3f29-244b">Un sólo uso. Objeto portahechizos, nivel de energía 1D6. Contiene la versión potenciada del hechizo Encantamiento del viento desértico de Khsar, del saber de la Antigua Nehekhara.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
@@ -11323,6 +11336,13 @@ enemiga. La unidad recién aparecida puede actuar durante el turno en el que apa
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f98-49e5-a95a-fc86" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0bb5-3db1-41ed-88b0" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="26ba-79cb-97d8-ce13" name="Gran papiro de la furia sagrada de Khorekhab" hidden="false" typeId="4525-b294-003e-3ce5" typeName="Pergamino arcano">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="d2a6-afc9-3f29-244b">Un sólo uso. Objeto portahechizos, nivel de energía 1D6. Contiene la versión potenciada del hechizo Encantamiento del justo castigo de Ptra, del saber de la Antigua Nehekhara.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
@@ -11332,6 +11352,13 @@ enemiga. La unidad recién aparecida puede actuar durante el turno en el que apa
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef11-c1ac-1348-44e3" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f75b-0e6c-49e7-79d0" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="c5d1-13d3-57be-edb8" name="Gran Papiro de Protección de Nebunefer" hidden="false" typeId="4525-b294-003e-3ce5" typeName="Pergamino arcano">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="d2a6-afc9-3f29-244b">Objeto portahechizos, nivel de energía 1D6. Contiene la versión potenciada del hechizo Encantamiento protector de Neru, del saber de la Antigua Nehekhara.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
