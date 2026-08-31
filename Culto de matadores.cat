@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18e6-a0ad-d123-70a6" name="Culto de matadores" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18e6-a0ad-d123-70a6" name="Culto de matadores" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="1811-12ee-8ca2-f9ec" name="Habilidad de matador">
       <characteristicTypes>
@@ -1731,11 +1731,18 @@ su Arcabuz de repetición enano en esa fase de disparo). Los impactos se resolve
                 </modifier>
                 <modifier type="decrement" field="9ecd-e061-fb0c-b14e" value="3.0">
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="f5ba-8e37-8a59-8e87" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5af8-7b0a-95d1-571e" type="atLeast"/>
-                        <condition field="selections" scope="f5ba-8e37-8a59-8e87" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d1c-133e-c2fb-5074" type="atLeast"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="f5ba-8e37-8a59-8e87" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d1c-133e-c2fb-5074" type="atLeast"/>
+                            <condition field="selections" scope="f5ba-8e37-8a59-8e87" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a7a-659a-3150-03c2" type="atLeast"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
@@ -4408,7 +4415,7 @@ unidad impactada por el lanzarredes no podrá utilizar las reglas especiales Vol
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0cbe-27c5-9ea9-c924" name="Dotación" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0cbe-27c5-9ea9-c924" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dad-5bc0-32e7-a57b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a8-b60c-b505-63d7" type="min"/>
@@ -6946,6 +6953,13 @@ cuerpo a cuerpo. Adicionalmente, obtiene la opción de equiparse con una Pistola
       </constraints>
       <selectionEntries>
         <selectionEntry id="18a4-1430-6f45-6966" name="Cuerno rúnico de Karak Kadrin" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f41-1832-d4a7-9563" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="52cb-3064-0152-413f" type="max"/>
@@ -6957,6 +6971,9 @@ cuerpo a cuerpo. Adicionalmente, obtiene la opción de equiparse con una Pistola
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="62b2-6c9d-38d6-7c8b" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="8c23-6798-1abc-ace5" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
           </entryLinks>

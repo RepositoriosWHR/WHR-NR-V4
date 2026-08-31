@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="14" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -22287,7 +22287,7 @@ D6 Tabla de cosas pequeñas
 
 Gritar y vocear: Ni el Gigante del Caos ni ninguna miniatura enemiga en contacto peana con peana con él atacan este turno (a no ser que ya lo hayan hecho). El bando del Gigante del Caos gana el combate automáticamente por dos puntos.
 Golpear con el garrote: El Gigante del Caos elige una única miniatura enemiga en contacto peana con peana: la víctima debe superar un chequeo de Iniciativa o sufrirá 2D6 heridas sin tirada de salvación por armadura. Si se obtiene un doble, el garrote se incrustará y el Gigante del Caos no podrá atacar durante la siguiente fase de combate cuerpo a cuerpo del mismo combate mientras lo recupera.
-Cabezazo: El Gigante del Caos elige a una única miniatura en contacto con él, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, perderá los ataques durante su próxima fase de combate cuerpo a cuerpo).
+Cabezazo: El Gigante del Caos elige a una única miniatura en contacto con él, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, no podrá realizar ninguna acción voluntaria ni usar objetos o habilidades durante el siguiente turno).
 Saltar arriba y abajo: El Gigante del Caos comienza a saltar sobre sus enemigos, Antes de efectuar el ataque, el Gigante del Caos deberá chequear para ver si se cae (como se describe más arriba). Causa a la unidad pisoteada 2D6 impactos de Fuerza 6 distribuidos como si fueran proyectiles. Una vez un Gigante del Caos ha empezado a Saltar arriba y abajo, en las subsiguientes rondas del mismo combate cuerpo a cuerpo continuará Saltando arriba y abajo hasta que el combate finalice (no tires en la tabla).
 Barrido con el garrote:El Gigante del Caos causa a su unidad objetivo 1D6 impactos de Fuerza 7 distribuidos como si fueran proyectiles.
 Crujir huesos: El Gigante del Caos elige una única miniatura en contacto peana con peana: esa miniatura debe tirar 1D6 y sumar su atributo de Fuerza. El Gigante del Caos tira 2D6 y suma su atributo de Fuerza. Si el objetivo obtiene un resultado superior o si empatan, no ocurre nada; sin embargo, si el Gigante del Caos gana la tirada, el objetivo sufrirá una herida automática sin tirada de salvación por armadura por cada punto por el que su tirada supere a la del objetivo.
@@ -27628,7 +27628,7 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
           <profiles>
             <profile id="0a7b-06ff-1a9c-6a74" name="Pinchos de hierro" hidden="false" typeId="454f-9dda-874e-99b2" typeName="Recompensa del caos">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="c061-8049-b24d-6e12">Cualquier enemigo que ataque al personaje perderá todos los bonos por carga de sus armas, objetos mágicos y/o reglas especiales (incluyendo el +1 Iniciativa). Los Impactos por carga tampoco serán causados al personaje (aunque sí a su unidad si está en una).</characteristic>
+                <characteristic name="Reglas especiales" typeId="c061-8049-b24d-6e12">Cualquier enemigo que cargue exitosamente al personaje perderá todos los bonos por carga de sus armas, objetos mágicos y/o reglas especiales (incluyendo el +1 Iniciativa). Los Impactos por carga tampoco serán causados al personaje (aunque sí a su unidad si está en una)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -28088,7 +28088,7 @@ beneficios: Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 pa
           <profiles>
             <profile id="8bba-2bd8-a03b-fce9" name="Padre de las espadas" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Arma de mano. Al luchar con este arma, todos los resultados de 1 en las tiradas para impactar en combate cuerpo a cuerpo con este arma se consideran resultados naturales de 6 y todos los enemigos que ataquen en combate cuerpo a cuerpo al portador consideran todos los resultados de 6 en sus tiradas para impactar como resultados naturales de 1.</characteristic>
+                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Arma de mano. Al luchar con este arma, todos los resultados de 1 en las tiradas para impactar en combate cuerpo a cuerpo con este arma se consideran resultados naturales de 6 y todos los enemigos que ataquen en combate cuerpo a cuerpo al portador consideran todos los resultados de 6 en sus tiradas para impactar como resultados naturales de 1 (a no ser que la miniatura atacante solo pueda impactar con resultados de 6; en ese caso no se considerarán resultados de 1).</characteristic>
               </characteristics>
             </profile>
           </profiles>

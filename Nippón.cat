@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0e00-0d9a-c79e-fcfa" name="Nippón" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0e00-0d9a-c79e-fcfa" name="Nippón" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9d65-8d22-8710-8cea" name="Trasfondo ronin">
       <characteristicTypes>
@@ -2426,6 +2426,11 @@
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="f154-7256-3647-d965" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f154-7256-3647-d965" type="max"/>
@@ -3047,6 +3052,11 @@
         <modifier type="set" field="9f55-9b2d-a808-9e3f" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="9f55-9b2d-a808-9e3f" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4899,6 +4909,11 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="c087-8b81-ab6c-6089" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c087-8b81-ab6c-6089" type="max"/>
@@ -4996,6 +5011,18 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
       </costs>
     </selectionEntry>
     <selectionEntry id="1d7f-333f-574e-97f8" name="Kitsune" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="71eb-e0ca-7d4f-99f9" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="71eb-e0ca-7d4f-99f9" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71eb-e0ca-7d4f-99f9" type="max"/>
       </constraints>
@@ -10475,7 +10502,7 @@ a la magia (1). </characteristic>
             <infoLink id="7cda-f533-3797-6f9d" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="07f5-f148-a5ed-b988" name="Armadura del sol divino" hidden="false" collective="false" import="true" type="upgrade">

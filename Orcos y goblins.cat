@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="14" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d9e4-9c78-810c-d2fd" name="Goblins" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -4785,7 +4785,7 @@ D6 Tabla de cosas pequeñas
 
 Gritar y vocear: Ni el Gigante ni ninguna miniatura enemiga en contacto peana con peana con él atacan este turno (a no ser que ya lo hayan hecho). El bando del Gigante gana el combate automáticamente por dos puntos.
 Golpear con el garrote: El Gigante elige una única miniatura enemiga con la que esté en contacto peana con peana y la golpea con su garrote. La víctima debe superar un chequeo de Iniciativa o sufrirá 2D6 heridas sin tirada de salvación por armadura. Si el Gigante obtiene un doble, el garrote se habrá quedado atascado en el suelo y el Gigante no podrá atacar durante la siguiente fase de combate cuerpo a cuerpo del mismo combate mientras recupera su garrote. 
-Cabezazo: El Gigante golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, perderá los ataques durante su próxima fase de combate cuerpo a cuerpo).
+Cabezazo: El Gigante golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo ((si ya había atacado, no podrá realizar ninguna acción voluntaria ni usar objetos o habilidades durante el siguiente turno).
 Saltar arriba y abajo: Antes de efectuar el ataque, el Gigante deberá chequear para ver si se cae (como se describe más arriba). Causa a la unidad pisoteada 2D6 impactos de Fuerza 6 distribuidos como si fueran proyectiles. Una vez un Gigante ha empezado a saltar arriba y abajo es muy difícil que pare, por lo que en las subsiguientes rondas del mismo combate cuerpo a cuerpo no será necesario tirar en la tabla para determinar el ataque del Gigante, sino que continuará saltando arriba y abajo hasta que el combate finalice.
 Barrido con el garrote: El Gigante causa a su unidad objetivo 1D6 impactos de Fuerza 7 distribuidos como si fueran proyectiles.
 Aplastado por el garrote: Elige una miniatura enemiga en contacto con el Gigante, esta sufrirá un impacto automático de Fuerza 8. Si este ataque consigue retirar como baja al enemigo, repite el proceso pero con un -1 a la Fuerza acumulable.
@@ -32794,7 +32794,7 @@ Para realizar un chequeo de animosidad, tira 1D6. Si obtienes un resultado de 2 
       <description>Si el personaje con esta regla especial está al mando de una unidad que falla un chequeo de Animosidad, en vez de aplicar el fallo causa a su unidad 1D6 impactos de Fuerza 5 distribuidos como si fueran disparos y la unidad podrá actuar con normalidad, como si no hubiese fallado su chequeo de Animosidad.</description>
     </rule>
     <rule id="42fa-09ad-2d5c-8b96" name="Armadoz hazta loz piñoz" hidden="false">
-      <description>Las unidades con esta regla especial eligen en cada ronda de combate si luchar con Rebanadora y Escudo, con Dos rebanadoras o con Rebanadora a dos manos.</description>
+      <description>Las unidades con esta regla especial eligen en cada ronda de combate si luchar con Rebanadora y Escudo, con Rebanadoras emparejadas o con Rebanadora a dos manos. Las miniaturas con esta regla especial que lleven montura podrán elegir luchar con Pinchapuerkoz y Escudo además de sus otras combinaciones.</description>
     </rule>
     <rule id="0e69-77d7-148f-b34d" name="Zeñor de la guerra goblin" hidden="false">
       <description>1 Artero: Antes del despliegue, elige una unidad de tu ejército de Infantería o Caballería. Esa unidad obtiene la regla especial Emboscada.

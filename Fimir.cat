@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fbd6-4fb9-50eb-2fcd" name="Fimir" revision="1" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fbd6-4fb9-50eb-2fcd" name="Fimir" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="585e-0a14-d225-9f9f" name="Don de Fímul">
       <characteristicTypes>
@@ -9,6 +9,9 @@
   </profileTypes>
   <selectionEntries>
     <selectionEntry id="6980-81e7-6819-75dd" name="Guerreros Fimir" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0650-158b-24a9-f2a0" type="min"/>
+      </constraints>
       <infoLinks>
         <infoLink id="4b74-3552-20b2-b2dd" name="Infantería monstruosa" hidden="false" targetId="4958-70de-0b69-9825" type="rule"/>
         <infoLink id="4a6d-f3ba-d3a2-72b2" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
@@ -843,6 +846,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
                     <entryLink id="3635-fad8-c123-5258" name="Objetos Hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink id="2254-c613-5c57-5a0c" name="Objetos hechizados. Fimir" hidden="false" collective="false" import="true" targetId="5573-5226-4d62-2c47" type="selectionEntryGroup"/>
                     <entryLink id="2be2-19c8-678c-3b81" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup"/>
+                    <entryLink id="7441-ee2b-0e39-1712" name="Objetos hechizados. Fimir. Hechiceros" hidden="false" collective="false" import="true" targetId="e9e5-5f29-b210-44bb" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="2bf2-d0d6-9821-a298" name="Talismanes mágicos" hidden="false" collective="false" import="true">
@@ -1171,6 +1175,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
                     <entryLink id="5d86-e94c-7795-12c6" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink id="4a77-4f7e-3135-f937" name="Objetos hechizados. Fimir" hidden="false" collective="false" import="true" targetId="5573-5226-4d62-2c47" type="selectionEntryGroup"/>
                     <entryLink id="b265-d836-d042-8936" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup"/>
+                    <entryLink id="5df4-42b7-6933-2713" name="Objetos hechizados. Fimir. Hechiceros" hidden="false" collective="false" import="true" targetId="e9e5-5f29-b210-44bb" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="d3ec-757a-8ffb-b33f" name="Talismanes mágicos" hidden="false" collective="false" import="true">
@@ -1501,7 +1506,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts" typeId="points" value="11.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="deca-d792-5249-4b42" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1697,7 +1702,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="85d9-f659-536d-739e" name="Fianna Fimn" hidden="false" collective="false" import="true" type="unit">
@@ -1716,6 +1721,11 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ba8-0f9a-ebd6-0eb5" type="max"/>
       </constraints>
+      <rules>
+        <rule id="02a6-8935-6b27-69d7" name="Guardianes de la hueste" hidden="false">
+          <description>Tan sólo una Meargh o Joven Meargh que sea la general del ejército puede unirse a una unidad de Fianna Fimm.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="1ca1-fe2f-11cb-c900" name="Miedo" hidden="false" targetId="e1b7-26dc-52c2-c3a7" type="rule"/>
         <infoLink id="b075-ef3f-36ce-2125" name="Infantería monstruosa" hidden="false" targetId="4958-70de-0b69-9825" type="rule"/>
@@ -1754,7 +1764,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts" typeId="points" value="64.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0a45-7019-d532-5e95" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1905,37 +1915,44 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="4bba-ab16-f8cb-ad80" name="Objetos mágicos" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="ece8-36fc-bf8f-99c8" name="Objeto mágico o Don de Fímul" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1693-fd6f-b03a-a4da" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e6-4987-b49f-9f87" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b30-a5b5-1108-a701" type="max"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="5b8f-d1e1-0f74-4bec" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
-                    <entryLink id="6ad8-c35f-a431-1479" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
-                    <entryLink id="6d0f-6cd0-5d04-a76f" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
-                    <entryLink id="481b-e7eb-5486-00c8" name="Armaduras mágicas. Fimir" hidden="false" collective="false" import="true" targetId="3672-9839-0fa4-e9a7" type="selectionEntryGroup"/>
-                    <entryLink id="bbb2-f203-0033-cf7e" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
-                    <entryLink id="4204-3b79-38a5-e303" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
-                    <entryLink id="5802-d329-bded-830a" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
-                    <entryLink id="c6bb-cc35-7be2-11e1" name="Armas mágicas. Armas emparejadas" hidden="false" collective="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
-                    <entryLink id="e82a-29a0-dc58-3c23" name="Armas mágicas. Fimir. Arma a dos manos" hidden="false" collective="false" import="true" targetId="3461-8ca3-af1f-3dc9" type="selectionEntryGroup"/>
-                    <entryLink id="a50e-29c6-27f2-ce4e" name="Armas mágicas. Fimir. Arma de mano" hidden="false" collective="false" import="true" targetId="8e99-3f0a-f234-ad2b" type="selectionEntryGroup"/>
-                    <entryLink id="8cea-7cb4-9a47-5577" name="Armas mágicas. Fimir. Armas emparejadas" hidden="false" collective="false" import="true" targetId="0c21-dc0c-df08-6829" type="selectionEntryGroup"/>
-                    <entryLink id="0f81-d962-eeea-2abe" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink id="8e3e-efab-dbcd-dd00" name="Objetos hechizados. Fimir" hidden="false" collective="false" import="true" targetId="5573-5226-4d62-2c47" type="selectionEntryGroup"/>
-                    <entryLink id="de23-5d57-fda8-f85a" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
-                    <entryLink id="7687-243a-0587-8301" name="Talismanes mágicos. Fimir" hidden="false" collective="false" import="true" targetId="8912-e634-7a46-47ff" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="2027-0c48-9758-b1c9" name="Dones de Fímul" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="884b-8188-deff-caa1" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="e01c-5ed8-0857-ed93" name="Dones de Fímul" hidden="false" collective="false" import="true" targetId="279d-85fd-4c7c-427b" type="selectionEntryGroup"/>
-                    <entryLink id="c17a-6562-2040-e1d0" name="Dones de Fímul. Ataques de cola" hidden="false" collective="false" import="true" targetId="d4a5-f791-e934-1be7" type="selectionEntryGroup"/>
-                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="44dc-7cf3-e7ea-c733" name="Dones de Fímul" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8e2-8071-aa7f-52eb" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="1dc2-8738-8799-469a" name="Dones de Fímul" hidden="false" collective="false" import="true" targetId="279d-85fd-4c7c-427b" type="selectionEntryGroup"/>
+                        <entryLink id="7ee7-90bf-ed95-d1d5" name="Dones de Fímul. Ataques de cola" hidden="false" collective="false" import="true" targetId="d4a5-f791-e934-1be7" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="b6da-b0d1-85f3-00f6" name="Objetos mágicos" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="points" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b92d-e3a3-a7e3-70b0" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc6b-0811-e9ae-effd" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="0112-7a53-3646-9d47" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
+                        <entryLink id="df74-b659-6fc5-af8a" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
+                        <entryLink id="cd23-3d62-d906-023c" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
+                        <entryLink id="cc11-b05a-ba1e-302c" name="Armaduras mágicas. Fimir" hidden="false" collective="false" import="true" targetId="3672-9839-0fa4-e9a7" type="selectionEntryGroup"/>
+                        <entryLink id="b5c0-18a2-d347-af74" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                        <entryLink id="3c0a-d506-ba8b-ec61" name="Armas mágicas. Arma a dos manos" hidden="false" collective="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
+                        <entryLink id="3390-a949-97d2-dc09" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                        <entryLink id="f9e3-4e29-63a6-4682" name="Armas mágicas. Armas emparejadas" hidden="false" collective="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
+                        <entryLink id="3f2b-55dd-c4ec-0d58" name="Armas mágicas. Fimir. Arma a dos manos" hidden="false" collective="false" import="true" targetId="3461-8ca3-af1f-3dc9" type="selectionEntryGroup"/>
+                        <entryLink id="20f4-b8c4-7b87-ba90" name="Armas mágicas. Fimir. Arma de mano" hidden="false" collective="false" import="true" targetId="8e99-3f0a-f234-ad2b" type="selectionEntryGroup"/>
+                        <entryLink id="d5b9-4ec1-674a-8810" name="Armas mágicas. Fimir. Armas emparejadas" hidden="false" collective="false" import="true" targetId="0c21-dc0c-df08-6829" type="selectionEntryGroup"/>
+                        <entryLink id="2769-76a3-4663-fc68" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
+                        <entryLink id="6a73-455a-3a56-f157" name="Objetos hechizados. Fimir" hidden="false" collective="false" import="true" targetId="5573-5226-4d62-2c47" type="selectionEntryGroup"/>
+                        <entryLink id="4730-8dcc-a17b-f00b" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                        <entryLink id="9938-9f23-6255-ef55" name="Talismanes mágicos. Fimir" hidden="false" collective="false" import="true" targetId="8912-e634-7a46-47ff" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
@@ -2033,7 +2050,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="235.0"/>
+            <cost name="pts" typeId="points" value="240.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5b59-63db-2454-562b" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -2242,7 +2259,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="125.0"/>
+            <cost name="pts" typeId="points" value="135.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="635e-a1d1-8fe4-d88b" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" type="upgrade">
@@ -3010,35 +3027,42 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="8f11-d25f-40e0-5610" name="Objetos mágicos" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="5e53-0571-35f1-3301" name="Objeto mágico o Don de Fímul" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b7-63d5-7999-7580" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2675-e7ad-e856-fb8a" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="166d-980a-2ca6-c4c9" type="max"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="c2ec-9d9f-a40e-5708" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
-                    <entryLink id="469b-ef6a-9e45-5ff2" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
-                    <entryLink id="086c-3da6-7250-03df" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
-                    <entryLink id="6e91-f930-d4d8-e6b5" name="Armaduras mágicas. Fimir" hidden="false" collective="false" import="true" targetId="3672-9839-0fa4-e9a7" type="selectionEntryGroup"/>
-                    <entryLink id="afc4-c60a-0499-6bb5" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
-                    <entryLink id="fa31-8b92-817c-4c05" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
-                    <entryLink id="d476-3ae7-1645-178e" name="Armas mágicas. Armas emparejadas" hidden="false" collective="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
-                    <entryLink id="2f7f-97a6-d64e-d431" name="Armas mágicas. Fimir. Arma de mano" hidden="false" collective="false" import="true" targetId="8e99-3f0a-f234-ad2b" type="selectionEntryGroup"/>
-                    <entryLink id="1ed3-f1f8-b6f4-5c8c" name="Armas mágicas. Fimir. Armas emparejadas" hidden="false" collective="false" import="true" targetId="0c21-dc0c-df08-6829" type="selectionEntryGroup"/>
-                    <entryLink id="bb18-24e5-1df0-3783" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink id="e94d-03d5-7ff5-b8d0" name="Objetos hechizados. Fimir" hidden="false" collective="false" import="true" targetId="5573-5226-4d62-2c47" type="selectionEntryGroup"/>
-                    <entryLink id="b9f1-a525-309d-8e24" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
-                    <entryLink id="dfaf-ceab-59d3-3d94" name="Talismanes mágicos. Fimir" hidden="false" collective="false" import="true" targetId="8912-e634-7a46-47ff" type="selectionEntryGroup"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="dd77-107c-a37a-ad3a" name="Dones de Fímul" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7390-3ca8-a812-18b3" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="4fca-f4b2-1b81-d691" name="Dones de Fímul" hidden="false" collective="false" import="true" targetId="279d-85fd-4c7c-427b" type="selectionEntryGroup"/>
-                    <entryLink id="7a12-a9f5-1a62-7bdf" name="Dones de Fímul. Ataques de cola" hidden="false" collective="false" import="true" targetId="d4a5-f791-e934-1be7" type="selectionEntryGroup"/>
-                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="e609-d172-a211-49a9" name="Dones de Fímul" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e07a-58e2-6d26-ec6a" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="8ffe-4267-0a25-ed85" name="Dones de Fímul" hidden="false" collective="false" import="true" targetId="279d-85fd-4c7c-427b" type="selectionEntryGroup"/>
+                        <entryLink id="dd7a-ec14-caf8-4853" name="Dones de Fímul. Ataques de cola" hidden="false" collective="false" import="true" targetId="d4a5-f791-e934-1be7" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="5717-b1a7-ba53-e2ae" name="Objetos mágicos" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88db-f8f7-8824-5972" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c79c-5768-d142-c365" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="9a93-885d-58a7-a15e" name="Armaduras mágicas. Armadura ligera" hidden="false" collective="false" import="true" targetId="7d6d-6bfd-2572-cd05" type="selectionEntryGroup"/>
+                        <entryLink id="233e-7972-f0d2-dc6f" name="Armaduras mágicas. Armadura pesada" hidden="false" collective="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
+                        <entryLink id="fcfc-6125-1603-3a55" name="Armaduras mágicas. Escudo" hidden="false" collective="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
+                        <entryLink id="ade8-62af-d05a-63e0" name="Armaduras mágicas. Fimir" hidden="false" collective="false" import="true" targetId="3672-9839-0fa4-e9a7" type="selectionEntryGroup"/>
+                        <entryLink id="4d7d-dd25-fd92-5861" name="Armaduras mágicas. Yelmo" hidden="false" collective="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
+                        <entryLink id="e378-1068-df55-ab08" name="Armas mágicas. Arma de mano" hidden="false" collective="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                        <entryLink id="deb9-164d-e366-f368" name="Armas mágicas. Armas emparejadas" hidden="false" collective="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
+                        <entryLink id="1096-560a-583d-8f7b" name="Armas mágicas. Fimir. Arma de mano" hidden="false" collective="false" import="true" targetId="8e99-3f0a-f234-ad2b" type="selectionEntryGroup"/>
+                        <entryLink id="c9a0-117e-d165-e3df" name="Armas mágicas. Fimir. Armas emparejadas" hidden="false" collective="false" import="true" targetId="0c21-dc0c-df08-6829" type="selectionEntryGroup"/>
+                        <entryLink id="0158-aba9-b553-3473" name="Objetos hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
+                        <entryLink id="172e-f3f2-00b2-94d6" name="Objetos hechizados. Fimir" hidden="false" collective="false" import="true" targetId="5573-5226-4d62-2c47" type="selectionEntryGroup"/>
+                        <entryLink id="786a-76a8-138f-3aff" name="Talismanes mágicos" hidden="false" collective="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                        <entryLink id="d0ae-5f2d-1998-2f97" name="Talismanes mágicos. Fimir" hidden="false" collective="false" import="true" targetId="8912-e634-7a46-47ff" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
@@ -3168,7 +3192,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5252-5ed8-696c-a571" name="Ávatar de Fímul" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5252-5ed8-696c-a571" name="Avatar de Fímul" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4850-28d8-ef3b-02f4" type="max"/>
       </constraints>
@@ -3199,7 +3223,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
         <categoryLink id="d59f-ccde-5428-4d16" name="Unidades Singulares" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="469b-8ac7-b5b7-5f64" name="Ávatar de Fímul" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="469b-8ac7-b5b7-5f64" name="Avatar de Fímul" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89a2-6d73-2654-9a1e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="661c-537c-36c0-5b8a" type="min"/>
@@ -3223,7 +3247,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="300.0"/>
+            <cost name="pts" typeId="points" value="325.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3385-65c8-135d-4792" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -3373,6 +3397,7 @@ unidad con la Marca de Fímul a 12” o menos de ellos.</description>
                     <entryLink id="afd6-d1e3-85f1-245d" name="Objetos Hechizados" hidden="false" collective="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink id="4287-3432-e7fb-6199" name="Objetos hechizados. Fimir" hidden="false" collective="false" import="true" targetId="5573-5226-4d62-2c47" type="selectionEntryGroup"/>
                     <entryLink id="d475-d2d7-60e4-c1c5" name="Objetos hechizados. Infantería o Infantería monstruosa" hidden="false" collective="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup"/>
+                    <entryLink id="3d4f-b137-8d41-5547" name="Objetos hechizados. Fimir. Hechiceros" hidden="false" collective="false" import="true" targetId="e9e5-5f29-b210-44bb" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="7850-7ef8-7fa5-c015" name="Talismanes mágicos" hidden="false" collective="false" import="true">
@@ -4998,7 +5023,7 @@ Ataque de rayos.</description>
             <infoLink id="b89b-8386-fbdb-9e80" name="Armadura pesada" hidden="false" targetId="1ee5-2441-2c69-5965" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts" typeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5220,7 +5245,7 @@ Ataque de rayos.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5439,7 +5464,7 @@ Ataque de rayos.</description>
             <infoLink id="6d5b-b999-1c10-6639" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d743-cb70-d478-fd26" name="La Semilla de Fímul" hidden="false" collective="false" import="true" type="upgrade">
@@ -5537,20 +5562,20 @@ Ataque de rayos.</description>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0d1e-6bba-15b0-5d65" name="El corazón del Fango" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0d1e-6bba-15b0-5d65" name="El Corazón del Fango" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="245d-0f77-2d31-d039" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c77-b792-84ad-1a9b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3cd2-2c09-c649-399d" name="El corazón del Fango" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
+            <profile id="3cd2-2c09-c649-399d" name="El Corazón del Fango" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
               <characteristics>
                 <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">El portador obtiene una tirada de salvación especial de 5+; además, será completamente inmune a los efectos de las reglas especiales Golpe letal, Golpe letal heroico y Heridas múltiples.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="45.0"/>
+            <cost name="pts" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5711,7 +5736,7 @@ Ataque de rayos.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts" typeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aef9-fa7d-5e5e-6713" name="Don de Kroll" hidden="false" collective="false" import="true" type="upgrade">
@@ -5780,7 +5805,7 @@ Ataque de rayos.</description>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts" typeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8bea-eba1-391b-34d0" name="Valor de Fímul" hidden="false" collective="false" import="true" type="upgrade">
@@ -5799,7 +5824,7 @@ Ataque de rayos.</description>
             <infoLink id="142f-ebc9-b0ee-dbdb" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts" typeId="points" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5996,6 +6021,30 @@ Ataque de rayos.</description>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e9e5-5f29-b210-44bb" name="Objetos hechizados. Fimir. Hechiceros" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0cb-c6cc-2c86-ce1f" type="max"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8512-303d-66b0-8a14" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3017-419b-c734-fb8d" name="La Semilla de Fímul" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="882b-e806-557e-6b7b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6fe2-0689-3cb4-1132" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8308-73db-3779-e2f9" name="La Semilla de Fímul" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
+              <characteristics>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo hechiceros. Un sólo uso. Puede utilizarse al final de una fase de movimiento propia (después de que el portador haya movido). Designa un punto dentro de la línea de visión del portador y a 12” o menos de éste, y a continuación coloca un pantano (elemento de los tipos Terreno difícil y Elemento acuático) de hasta 4” de radio centrado en el punto designado (si es necesario, coloca el elemento de terreno debajo de las unidades que estén en el lugar en el que se vaya a colocar).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

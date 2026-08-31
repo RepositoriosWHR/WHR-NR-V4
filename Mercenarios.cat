@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b824-aacc-6637-fa81" name="Renombre">
       <characteristicTypes>
@@ -10949,7 +10949,7 @@ Furia borracha: El gigante causa 1D3 impactos de F6 a cada miniatura en contacto
 
 Golpear con el garrote: El gigante elige una única miniatura enemiga con la que esté en contacto penana con peana y la golpea con su garrote. La víctima debe superar un chequeo de iniciativa o sufrirá 2D6 heridas sin tirada de salvación por armadura. Si el gigante obtiene un doble, el garrote se habrá quedado atascado en el suelo, y el gigante no podrá atacar durante la siguiente fase de combate cuerpo a cuerpo del mismo combate mientras recupera su garrote.
 
-Cabezazo: El gigante golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándola una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, perderá los ataques durante su próxima fase de combate cuerpo a cuerpo).
+Cabezazo: El gigante golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándola una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, no podrá realizar ninguna acción voluntaria ni usar objetos o habilidades durante el siguiente turno).
 
 Saltar arriba y abajo: El gigante causa a su unidad objetivo 1D6 impactos de F7 distribuidos como si fueran proyectiles.
 
@@ -26152,22 +26152,6 @@ a Johann y Wilhem. Otorga una tirada de salvación especial de 5+.
         <categoryLink id="99a9-6335-dd71-bdf4" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7e82-32e5-330d-3515" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c29-2cc3-f6fc-bd8d" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="1c21-f38a-27c7-e9cb" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7481-42d0-f11e-99aa" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7093-560c-8e48-9a46" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="1a67-88a9-9eb8-4049" name="Félix Jaegar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a6-689b-9510-5ecc" type="max"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="075f-8356-32a1-bdc4" name="Amazonas" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="075f-8356-32a1-bdc4" name="Amazonas" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="2cad-fe42-87ca-5f4f" name="Elixir y veneno">
       <characteristicTypes>
@@ -3318,7 +3318,6 @@ chequeos fallidos de Estupidez.</description>
             <modifier type="append" field="name" value="(Gélido)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8835-ee79-15b5-79a2" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
         <infoLink id="dae6-f79e-b9a4-f3d7" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
         <infoLink id="6539-691e-ee8a-ca2e" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
       </infoLinks>
@@ -3602,7 +3601,7 @@ Gritar y vocear: Ni la giganta ni ninguna miniatura enemiga en contacto peana co
 
 Golpear con el garrote: La giganta elige una única miniatura enemiga con la que esté en contacto peana con peana y la golpea con su garrote. La víctima debe superar un chequeo de iniciativa o sufrirá 2D6 heridas sin tirada de salvación por armadura. Si la giganta obtiene un doble, el garrote se habrá quedado atascado en el suelo, y la giganta no podrá atacar durante la siguiente fase de combate cuerpo a cuerpo del mismo combate mientras recupera su garrote. 
 
-Cabezazo: La giganta golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándola una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, perderá los ataques durante su próxima fase de combate cuerpo a cuerpo).
+Cabezazo: La giganta golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándola una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, no podrá realizar ninguna acción voluntaria ni usar objetos o habilidades durante el siguiente turno).
 
 Saltar arriba y abajo: Antes de efectuar el ataque, la giganta deberá chequear para ver si se cae (como se describe más arriba). Causa a la unidad pisoteada 2D6 impactos de F6 distribuidos como si fueran proyectiles. Una vez una giganta ha empezado a saltar arriba y abajo es muy difícil que pare, por lo que en las subsiguientes rondas del mismo combate cuerpo a cuerpo no será necesario tirar en la tabla para determinar el ataque del gigante, sino que continuará saltando arriba y abajo hasta que el combate finalice.
 
@@ -18675,13 +18674,14 @@ pese a no tener las reglas Aislacionista o Culto a Koka-Kalim.</description>
           <profiles>
             <profile id="c9dc-c0d6-3e0d-50c4" name="Pabellón de monta" hidden="false" typeId="5441-5d99-9a3f-dce8" typeName="Estandarte mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Sólo Jinetes de Gélido. La unidad obtiene las reglas especiales Cruzar (Bosques, Elementos acuáticos) y podrá repetir sus chequeos fallidos de Sangre Fría.</characteristic>
+                <characteristic name="Reglas especiales" typeId="eb3c-0420-d3ad-ee60">Sólo Jinetes de Gélido. La unidad obtiene las reglas especiales Cruzar (Bosques, Elementos acuáticos) y Sangre Fría.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="d957-f916-194b-337d" name="Cruzar (bosques)" hidden="false" targetId="9d01-387d-269d-5a44" type="rule"/>
             <infoLink id="d0c2-3d99-199a-ddf6" name="Cruzar (elementos acuáticos)" hidden="false" targetId="e522-fd02-1a92-c777" type="rule"/>
+            <infoLink id="39fc-8fc4-c1f9-f900" name="Sangre fría" hidden="false" targetId="fae6-f2eb-1a70-1084" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>

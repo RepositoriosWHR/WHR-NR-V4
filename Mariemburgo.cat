@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0d0b-60b1-02c5-b914" name="Mariemburgo" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0d0b-60b1-02c5-b914" name="Mariemburgo" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="98cd-bd8b-f52a-6fd7" name="Renombre">
       <characteristicTypes>
@@ -7042,9 +7042,9 @@
 
 1-10 Pitido de vapor: Sin efectos.
 
-11-14 Marea revuelta: El Barco de tierra no podrá gastar más de tres Puntos de vapor durante ese turno o el siguiente turno si ya se han gastado tres o más Puntos de vapor este turno.
+11-15 Marea revuelta: El Barco de tierra no podrá gastar más de tres Puntos de vapor durante ese turno o el siguiente turno si ya se han gastado tres o más Puntos de vapor este turno.
 
-15-17 Viento de proa: El Barco de tierra no podrá gastar más de dos puntos de vapor durante ese turno o el siguiente turno si ya se han gastado dos o más Puntos de vapor este turno, y no podrá utilizarlos para mover a Velocidad de casco.
+16-17 Viento de proa: El Barco de tierra no podrá gastar más de dos puntos de vapor durante ese turno o el siguiente turno si ya se han gastado dos o más Puntos de vapor este turno, y no podrá utilizarlos para mover a Velocidad de casco.
 
 18-20 ¡Cuidado con la santabárbara!: El Barco de tierra sufre 1D3 Heridas sin salvación por armadura. Si era su última herida, considera que has sacado un resultado de ¡Kaboom!.
 
@@ -7118,7 +7118,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="320.0"/>
+            <cost name="pts" typeId="points" value="300.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="011a-3097-d255-442e" name="Equipo tripulación" hidden="false" collective="false" import="true" type="upgrade">
@@ -15082,7 +15082,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6d1f-5efb-26b7-117f" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
+        <categoryLink id="988f-ab1c-5f17-542b" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1d40-2bc5-f6e5-b752" name="Amazonas" hidden="false" collective="false" import="true" type="model">
@@ -16164,8 +16164,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b4df-5136-15f2-e152" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="false"/>
-        <categoryLink id="bf78-e1ed-e13a-4353" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
+        <categoryLink id="b4df-5136-15f2-e152" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="74d2-a57a-b1c5-09cd" name="Equipo de artillería" hidden="false" collective="false" import="true" type="model">
@@ -17504,11 +17503,6 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
         <infoLink id="8b42-6f7b-78e8-226c" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
         <infoLink id="a192-867f-d9eb-ed3e" name="Cruzar (obstáculos)" hidden="false" targetId="5dfd-3f02-cece-1e02" type="rule"/>
         <infoLink id="436d-2ca0-1ee2-cdb7" name="Regimientos de renombre" hidden="false" targetId="a07a-2bc2-efde-20d3" type="rule"/>
-        <infoLink id="a83d-d2d9-17ce-5590" name="Lealtad" hidden="false" targetId="82f8-7857-d2a2-c2e1" type="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="(Marienburgo)"/>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="477a-8b10-207f-0fa8" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
@@ -18746,7 +18740,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="af98-0937-fde0-49b3" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
+        <categoryLink id="05e9-3222-31cd-c972" name="New CategoryLink" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f9e6-4e7f-067d-ce11" name="Comehombres" hidden="false" collective="false" import="true" type="model">
@@ -26631,11 +26625,6 @@ combates.</description>
         <infoLink id="07b8-eec7-163f-a963" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
         <infoLink id="7c2b-5d05-a238-fb58" name="Mercenario" hidden="false" targetId="f693-0c5c-49bd-91e7" type="rule"/>
         <infoLink id="2cb9-0287-5cba-c6e9" name="Regimientos de renombre" hidden="false" targetId="a07a-2bc2-efde-20d3" type="rule"/>
-        <infoLink id="62c8-3103-fdf6-df51" name="Lealtad" hidden="false" targetId="82f8-7857-d2a2-c2e1" type="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="(Marienburgo)"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="9730-c0ac-c374-efec" name="Disparo rápido" hidden="false" targetId="e198-cb4f-6dfc-1dcc" type="rule"/>
         <infoLink id="1896-5c1e-d006-cc1f" name="¡Ni por todo el oro del mundo!" hidden="false" targetId="1477-98d2-904e-713f" type="rule">
           <modifiers>
@@ -27233,6 +27222,9 @@ combates.</description>
       <infoLinks>
         <infoLink id="ede5-5f5d-c32a-3b29" name="Escoltas" hidden="false" targetId="0727-ad06-5669-acad" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="626f-b3ef-4c81-c812" name="Escoltas de los Van Raemerswijk" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -27254,6 +27246,9 @@ combates.</description>
       <infoLinks>
         <infoLink id="d5e3-a59d-79a6-12c2" name="Escoltas" hidden="false" targetId="0727-ad06-5669-acad" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -28966,7 +28961,7 @@ especial tienen la regla Orgullo marcial. Además, las miniaturas con esta regla
           <profiles>
             <profile id="1f3b-2cda-79ab-07fc" name="Respetado en Marienburgo" hidden="false" typeId="98cd-bd8b-f52a-6fd7" typeName="Renombre">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="8c79-e536-addc-8a74">Sólo general del ejército. Todas las unidades del ejército de Marienburgo podrán beneficiarse de la regla Presencia Inspirador del general independientemente de si tienen la regla Mercenario o no la tienen. </characteristic>
+                <characteristic name="Reglas especiales" typeId="8c79-e536-addc-8a74">Sólo general del ejército. El radio de la regla Presencia Inspiradora del general aumenta en 6”. </characteristic>
               </characteristics>
             </profile>
           </profiles>

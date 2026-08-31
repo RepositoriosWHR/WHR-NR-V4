@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fa9d-c3b9-2c09-c978" name="Goblins nocturnos" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f553-cb9b-b37d-4333" name="Goblins nocturnos" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -7821,7 +7821,7 @@ D6 Tabla de cosas pequeñas
 
 Gritar y vocear: Ni el Gigante ni ninguna miniatura enemiga en contacto peana con peana con él atacan este turno (a no ser que ya lo hayan hecho). El bando del Gigante gana el combate automáticamente por dos puntos.
 Golpear con el garrote: El Gigante elige una única miniatura enemiga con la que esté en contacto peana con peana y la golpea con su garrote. La víctima debe superar un chequeo de Iniciativa o sufrirá 2D6 heridas sin tirada de salvación por armadura. Si el Gigante obtiene un doble, el garrote se habrá quedado atascado en el suelo y el Gigante no podrá atacar durante la siguiente fase de combate cuerpo a cuerpo del mismo combate mientras recupera su garrote. 
-Cabezazo: El Gigante golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, perderá los ataques durante su próxima fase de combate cuerpo a cuerpo).
+Cabezazo: El Gigante golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, no podrá realizar ninguna acción voluntaria ni usar objetos o habilidades durante el siguiente turno).
 Saltar arriba y abajo: Antes de efectuar el ataque, el Gigante deberá chequear para ver si se cae (como se describe más arriba). Causa a la unidad pisoteada 2D6 impactos de Fuerza 6 distribuidos como si fueran proyectiles. Una vez un Gigante ha empezado a saltar arriba y abajo es muy difícil que pare, por lo que en las subsiguientes rondas del mismo combate cuerpo a cuerpo no será necesario tirar en la tabla para determinar el ataque del Gigante, sino que continuará saltando arriba y abajo hasta que el combate finalice.
 Barrido con el garrote: El Gigante causa a su unidad objetivo 1D6 impactos de Fuerza 7 distribuidos como si fueran proyectiles.
 Aplastado por el garrote: Elige una miniatura enemiga en contacto con el Gigante, esta sufrirá un impacto automático de Fuerza 8. Si este ataque consigue retirar como baja al enemigo, repite el proceso pero con un -1 a la Fuerza acumulable.
@@ -8641,7 +8641,7 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
             <infoLink id="65ee-44ec-ef2b-c8cf" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ebe9-dc60-9b33-4c2d" name="Úniko kaztañazo de Wollopa" hidden="false" collective="false" import="true" type="upgrade">
@@ -9007,7 +9007,7 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
           <profiles>
             <profile id="d588-775d-92f2-cf69" name="Kollar Chungo" hidden="false" typeId="2cee-fb80-f7af-6efc" typeName="Talismán mágico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Si el portador del Kollar Chungo muere, coloca inmediatamente la plantilla redonda pequeña centrada en él. Cualquier miniatura (amiga o enemiga) tocada por la plantilla sufrirá un impacto de F6 con la regla especial Heridas múltiples (1D3). </characteristic>
+                <characteristic name="Reglas especiales" typeId="bb94-e12a-aef4-ebc0">Si el portador del Kollar Chungo muere, coloca inmediatamente la plantilla redonda pequeña centrada en él. Cualquier miniatura (amiga o enemiga) tocada por la plantilla sufrirá un impacto de F6 con la regla especial Heridas múltiples (1D3) y Ataques mágicos. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9047,7 +9047,7 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9154,7 +9154,7 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
           <profiles>
             <profile id="8a4f-3bc9-f26e-0a47" name="Muñeko diabóliko" hidden="false" typeId="e4ac-4b4d-a272-410e" typeName="Artefacto arcano">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Al inicio de la batalla elige un hechicero enemigo: este tendrá un penalizador de -1 a todas sus tiradas de lanzamiento y dispersión de hechizos. </characteristic>
+                <characteristic name="Reglas especiales" typeId="2cab-b0ef-2a60-b01b">Al inicio de cada fase de magia del oponente, elige un hechicero enemigo: este tendrá un penalizador de -1 a todas sus tiradas de lanzamiento y dispersión de hechizos hasta el inicio de la siguiente fase de magia del oponente.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9269,7 +9269,7 @@ fanático como baja cuando entra en contacto con un elemento de escenografía qu
             <infoLink id="4d11-fc7e-c5f1-6d6b" name="Volar" hidden="false" targetId="670e-1a23-b1e1-6e6f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="17c9-1b3a-2677-0f91" name="Garrapato de atake" hidden="false" collective="false" import="true" type="upgrade">

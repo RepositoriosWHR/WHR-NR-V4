@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d08c-6808-8f98-0d64" name="Khainitas" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b1c0-dfa2-401c-8ec1" name="Senda">
       <characteristicTypes>
@@ -496,6 +496,7 @@
         <infoLink id="133e-4888-9150-d1a3" name="Odio (Altos elfos)" hidden="false" targetId="0ba5-8720-3ce6-a503" type="rule"/>
         <infoLink id="413b-83c8-7035-1caa" name="Objetivo grande" hidden="false" targetId="71eb-6467-3a39-bdb6" type="rule"/>
         <infoLink id="f538-ede0-10ef-8bd1" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
+        <infoLink id="d751-8fae-1fc6-465f" name="Khainitas" hidden="false" targetId="f9c0-926e-2bb3-1145" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d0d9-18d3-6d24-044b" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
@@ -5776,6 +5777,7 @@ cabezas nuevas que broten (debido a la regla Crecimiento mutante).</description>
         <infoLink id="cd99-c421-a22b-d6d7" name="Regeneración (4+)" hidden="false" targetId="6605-7689-3444-dccd" type="rule"/>
         <infoLink id="b0af-cc34-1520-531a" name="Monstruo" hidden="false" targetId="0518-1c98-54e1-371d" type="rule"/>
         <infoLink id="9b14-c059-7743-712f" name="Furia asesina" hidden="false" targetId="145c-6914-de8b-e9cc" type="rule"/>
+        <infoLink id="a819-8360-d4a1-6067" name="Khainitas" hidden="false" targetId="f9c0-926e-2bb3-1145" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2ba6-f56c-ede8-3872" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-d5d9-3ca7-598e" name="Altos elfos" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="a20d-ec9e-719a-2f03" name="Senda">
       <characteristicTypes>
@@ -9642,6 +9642,9 @@ elegir ninguna montura.</characteristic>
         <selectionEntryGroup id="aad8-53be-6269-3277" name="Opciones" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="f22a-74a4-1ef0-56f3" name="Lanzavirotes ojo del águila" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3188-23ac-98ff-954a" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="95fa-b8b3-6b7c-7431" name="Lanzavirotes ojo del águila" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
                   <characteristics>
@@ -14599,6 +14602,9 @@ elegir ninguna montura.</characteristic>
           </constraints>
           <selectionEntries>
             <selectionEntry id="0c3f-d52d-d162-cf79" name="Lanzavirotes ojo de águila" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b859-3842-e200-f6a6" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="879d-7f77-0072-b3a3" name="Lanzavirotes ojo del águila" hidden="false" targetId="1cac-6e37-957e-2557" type="profile"/>
               </infoLinks>

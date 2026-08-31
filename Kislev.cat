@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0ecb-7365-2e98-70f6" name="Kislev" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8811-284e-f214-88b5" name="Kossars" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -10966,22 +10966,6 @@ Cielos, cuatro hechizos del Saber de las Bestias y cuatro hechizos del Saber de 
         <categoryLink id="ad38-5569-5742-a723" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="484f-4675-d085-b54b" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89e1-0e33-e831-8264" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="22c9-7894-9871-17f2" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b5f-67c3-468b-1c39" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6779-c81e-b910-d805" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="aab5-f26a-5add-3c62" name="Félix Jaegar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a16-ff1e-8f67-0ff6" type="max"/>

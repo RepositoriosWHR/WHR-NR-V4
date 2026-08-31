@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca36-41ae-f114-eeeb" name="Demonios del caos" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9aa0-a435-0f3a-053a" name="Regalo demoníaco">
       <characteristicTypes>
@@ -9116,7 +9116,7 @@ Incluso aquellos efectos que hieran automáticamente necesitarán un resultado d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0fb-abfe-26fa-929a" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1391-fb66-779d-89da" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -12506,16 +12506,6 @@ grande.</description>
         <rule id="e8cd-fc38-925b-f592" name="Resistencia impía" hidden="false">
           <description>Todos los impactos contra los Brutos demoníacos que no sean Ataques mágicos tienen un penalizador de -1 a su Fuerza.</description>
         </rule>
-        <rule id="797f-aee3-8d41-dc05" name="Manifestaciones del Inmaterium" hidden="false">
-          <description>Al inicio de la batalla, tras el despliegue, elige una de las siguientes y aplícala a los Brutos demoníacos durante toda la batalla. 
--Velocidad imposible: +1 Movimiento, +1 Iniciativa y Veloz.
--Vanguardia infernal: Vanguardia y Hostigadores.
--Bestias acorazadas: Piel escamosa (3+).
--Influencia del Reino de la Sangre: Odio (¡todos los enemigos!) y Carga devastadora. 
--Influencia del Laberinto de Cristal: Ataques flamígeros y tirada de salvación especial (5+). 
--Influencia del Jardín de las Plagas: Ataques de plaga y +1 Herida.
--Influencia de los Círculos de la Seducción: Poder de penetración y Tozudez..</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="001c-9087-30f3-b9db" name="Infantería monstruosa" hidden="false" targetId="4958-70de-0b69-9825" type="rule"/>
@@ -12532,6 +12522,33 @@ grande.</description>
           </constraints>
           <profiles>
             <profile id="4254-4c36-d94c-26dc" name="Bruto demoníaco" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="set" field="576172645361766523232344415441232323" value="5">
+                  <conditions>
+                    <condition field="selections" scope="dbd4-53e9-b094-e2c9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fc96-e8c8-62a8-06b5" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="5723232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="dbd4-53e9-b094-e2c9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e35-a188-973d-a82a" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="3">
+                  <conditions>
+                    <condition field="selections" scope="dbd4-53e9-b094-e2c9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29b2-7373-9be0-14ff" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4d23232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="dbd4-53e9-b094-e2c9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2eb9-f928-29d1-f10d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4923232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="dbd4-53e9-b094-e2c9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2eb9-f928-29d1-f10d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
@@ -12736,6 +12753,113 @@ grande.</description>
               </constraints>
               <infoLinks>
                 <infoLink id="ed3d-7556-2325-d6e9" name="Mangual" hidden="false" targetId="a661-9d75-22a0-6eeb" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8779-08b1-d88a-dc85" name="Manifestaciones del Inmaterium" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c80-a298-c160-9447" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="71a7-9469-f2c2-f3dd" name="Manifestaciones del Inmaterium" hidden="false">
+              <description>Al inicio de la batalla, tras el despliegue, elige una de las siguientes y aplícala a los Brutos demoníacos durante toda la batalla.</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry id="8eab-f50b-e8c9-ec00" name="Velocidad imposible" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c33-e72d-5c77-af8a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="c7e4-2d15-5576-4a29" name="Velocidad imposible" hidden="false">
+                  <description>+1 Movimiento, +1 Iniciativa y Veloz.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="d446-275a-b2ba-5449" name="Veloz" hidden="false" targetId="6d32-e54e-896e-0d9f" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d698-03d9-5e57-8f10" name="Influencia del Reino de la Sangre" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c77b-b14d-1995-4653" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e1f8-6ad0-26b7-0e54" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
+                <infoLink id="6912-24a4-8da2-1a0e" name="Carga devastadora" hidden="false" targetId="dbe6-c910-7f37-aeac" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fc96-e8c8-62a8-06b5" name="Influencia del Laberinto de Cristal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d61-c5cf-3d4b-366c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="99a7-23ed-5751-00ea" name="Influencia del Laberinto de Cristal" hidden="false">
+                  <description>Ataques flamígeros y tirada de salvación especial (5+)</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="5ad2-acb7-f1e0-72c8" name="Ataques flamígeros" hidden="false" targetId="6985-722e-1ce4-b838" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6e35-a188-973d-a82a" name="Influencia del Jardín de las Plagas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="289d-c753-fb7d-a266" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d75e-2b24-ee27-63d9" name="Influencia del Jardín de las Plagas" hidden="false">
+                  <description>Ataques de plaga y +1 Herida.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="3386-243e-aa2d-e544" name="Ataque de plaga" hidden="false" targetId="9bfa-79ab-0333-e501" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="824f-ad7e-9250-3b0d" name="Influencia de los Círculos de la Seducción" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="52d0-5cd7-5640-48e1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b517-d998-d3c6-b42d" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
+                <infoLink id="d87e-4546-a8a8-b296" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="29b2-7373-9be0-14ff" name="Bestias acorazadas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="feb8-41ad-8d53-77a2" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f2f3-abd3-3a68-bb3d" name="Piel escamosa (3+)" hidden="false" targetId="f3fe-4c6e-197e-832f" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2eb9-f928-29d1-f10d" name="Vanguardia infernal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a51b-dc3c-88b1-0cee" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d33f-a24f-1987-4e06" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
+                <infoLink id="b2ea-8265-8f3b-6337" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>

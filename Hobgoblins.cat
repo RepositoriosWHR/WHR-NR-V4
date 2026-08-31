@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="51b8-d71c-a2c1-23c4" name="Hobgoblins" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="51b8-d71c-a2c1-23c4" name="Hobgoblins" revision="8" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b491-b22c-9054-ca3f" name="Reputación infame">
       <characteristicTypes>
@@ -2630,9 +2630,6 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="fe67-94b1-d9cf-4990" name="Opciones" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f4-598b-914f-86ea" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="8430-1b69-9d4d-3215" name="Ataques envenenados" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -3031,7 +3028,7 @@ D6 Tabla de cosas pequeñas
 
 Gritar y vocear: Ni el Gigante ni ninguna miniatura enemiga en contacto peana con peana con él atacan este turno (a no ser que ya lo hayan hecho). El bando del Gigante gana el combate automáticamente por dos puntos.
 Golpear con el garrote: El Gigante elige una única miniatura enemiga con la que esté en contacto peana con peana y la golpea con su garrote. La víctima debe superar un chequeo de Iniciativa o sufrirá 2D6 heridas sin tirada de salvación por armadura. Si el Gigante obtiene un doble, el garrote se habrá quedado atascado en el suelo y el Gigante no podrá atacar durante la siguiente fase de combate cuerpo a cuerpo del mismo combate mientras recupera su garrote. 
-Cabezazo: El Gigante golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, perderá los ataques durante su próxima fase de combate cuerpo a cuerpo).
+Cabezazo: El Gigante golpea con su dura cabeza a una única miniatura de la unidad enemiga, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, no podrá realizar ninguna acción voluntaria ni usar objetos o habilidades durante el siguiente turno).
 Saltar arriba y abajo: Antes de efectuar el ataque, el Gigante deberá chequear para ver si se cae (como se describe más arriba). Causa a la unidad pisoteada 2D6 impactos de Fuerza 6 distribuidos como si fueran proyectiles. Una vez un Gigante ha empezado a saltar arriba y abajo es muy difícil que pare, por lo que en las subsiguientes rondas del mismo combate cuerpo a cuerpo no será necesario tirar en la tabla para determinar el ataque del Gigante, sino que continuará saltando arriba y abajo hasta que el combate finalice.
 Barrido con el garrote: El Gigante causa a su unidad objetivo 1D6 impactos de Fuerza 7 distribuidos como si fueran proyectiles.
 Aplastado por el garrote: Elige una miniatura enemiga en contacto con el Gigante, esta sufrirá un impacto automático de Fuerza 8. Si este ataque consigue retirar como baja al enemigo, repite el proceso pero con un -1 a la Fuerza acumulable.
@@ -4176,7 +4173,6 @@ D6 Resultado (Agarrar y...)
               </constraints>
               <entryLinks>
                 <entryLink id="75ce-b311-ca5f-a82b" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
-                <entryLink id="095e-c3a1-7154-f647" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="55.0"/>
@@ -6372,9 +6368,6 @@ una carga, la unidad que recibe la carga no podrá declarar ninguna reacción a 
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="186e-19a4-14eb-8493" name="Opciones" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4f-a0ab-939d-b5a6" type="max"/>
-          </constraints>
           <selectionEntries>
             <selectionEntry id="cc84-a59e-05a1-a4dd" name="Ataques envenenados" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>

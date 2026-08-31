@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="43" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="45" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -6836,7 +6836,7 @@ A continuación, tira el número de dados que has elegido y el dado de artiller�
 
 Una vez has calculado donde cae la bala, deberás determinar si esta rebota. Para ello, debes tirar de nuevo el dado de artillería; la bala rebotará en línea recta hacia adelante una distancia igual al resultado del dado de artillería. Si obtienes un resultado de Problemas en esta tirada, significa que la bala se habrá detenido y no rebotará. En este caso no debes tirar en la tabla de problemas. Si la bala cae en un punto fuera de la línea de visión del cañón, tan sólo rebotará la mitad de la distancia indicada en el dado de artillería. Si la bala cae en un punto fuera de la línea de visión del cañón, y que no sea parte de la unidad objetivo del disparo, tan sólo rebotará la mitad de la distancia indicada en el dado de artillería (esto representa que el disparo se ha realizado con demasiada inclinación, generando una parábola con mucha altura y cayendo la bala mas en vertical que en horizontal).
 
-Cualquier miniatura sobre la que caiga la bala, así como cualquier miniatura bajo la línea del rebote, sufrirán un impacto de la Fuerza y daño indicados en el perfil del cañón (normalmente Fuerza 10 y Heridas múltiples (1D6)). Ten en cuenta que no puedes impactar a más de una miniatura por cada fila/columna que tenga la unidad que recibe el cañonazo.
+Cualquier miniatura sobre la que caiga la bala, así como cualquier miniatura bajo la línea del rebote, sufrirán un impacto de la Fuerza y daño indicados en el perfil del cañón (normalmente Fuerza 10 y Heridas múltiples (1D6) y no permite tiradas de salvación por armadura). Ten en cuenta que no puedes impactar a más de una miniatura por cada fila/columna que tenga la unidad que recibe el cañonazo.
 
 Rebote y terreno: La línea del rebote no puede ascender en el terreno: es decir, si tiene que ascender una Colina o un desnivel se detendrá antes de comenzar su ascenso. Si bajo la línea del rebote se encuentra un Edificio o sección de este, deberás tirar para dañar al Edificio. Si no consigues derrumbar el edificio, la bala de Cañón se detendrá y no proseguirá el resto de la distancia del rebote que le quede (el Edificio la habrá detenido).
 
@@ -7404,7 +7404,7 @@ En el instante en que una Encarnación Elemental sea retirada como baja del camp
       <characteristics>
         <characteristic name="Rango" typeId="52616e676523232344415441232323">Est. 0-12</characteristic>
         <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">10</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Heridas múltiples (1D6)</characteristic>
+        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Heridas múltiples (1D6), no permite tiradas de salvación por armadura.</characteristic>
       </characteristics>
     </profile>
     <profile id="8cfc-07df-9039-5a44" name="Lanzavirotes" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">

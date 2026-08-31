@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3216-304d-aab6-db09" name="Elfos oscuros" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="3216-304d-pubN65537" name="Elfos Oscuros Reforged"/>
   </publications>
@@ -3461,7 +3461,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="100.0"/>
+            <cost name="pts" typeId="points" value="85.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c9e5-1ea0-bc1f-d9d4" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -11956,6 +11956,7 @@ Orden.</characteristic>
           </modifiers>
         </infoLink>
         <infoLink id="338e-8d34-0175-f511" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
+        <infoLink id="95b0-c063-0323-543a" name="Infantería" hidden="false" targetId="5b75-bd6b-d17a-6b7d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="285d-10a0-53b0-d997" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
@@ -12069,7 +12070,7 @@ Orden.</characteristic>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="495.0"/>
+            <cost name="pts" typeId="points" value="465.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="70b5-953f-6062-0089" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -12078,34 +12079,21 @@ Orden.</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1630-5bfa-570e-a6c3" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8c9d-d20f-4840-4113" name="Buscacorazones" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8c9d-d20f-4840-4113" name="Desgarracorazones y la Espada Oscura" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc5a-477d-1f31-6db1" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e7e-ec86-1da7-b002" type="min"/>
               </constraints>
               <profiles>
-                <profile id="2561-d337-ef37-43ae" name="Buscacorazones" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
+                <profile id="2561-d337-ef37-43ae" name="Desgarracorazones y la Espada Oscura" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Lanza de Caballería. Los ataques efectuados con este arma tienen la regla especial Golpe letal heroico. </characteristic>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Armas emparejadas. Los impactos realizados con esta arma tienen la regla especial Golpe letal y se resuelven con un bonificador de +2 a la Fuerza en el turno en el que Morathi cargue. Además, un monstruo o personaje que sufra una o más heridas no salvadas por parte de Desgarracorazones y la Espada Oscura reduce sus atributos de Ataques, Fuerza y Resistencia en 1 punto (hasta un mínimo de 1) por cada herida no salvada. Estos penalizadores se aplican al final de la ronda de combate cuerpo a cuerpo en la que se sufrieron las heridas, y duran el resto de la partida. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="0339-bdc7-085a-9398" name="Lanza de caballería" hidden="false" targetId="63b9-4a42-e114-14f5" type="profile"/>
                 <infoLink id="9f84-eef0-8d71-5ee7" name="Golpe letal heróico" hidden="false" targetId="95ce-f21a-29e1-42a2" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5fab-8ca9-23de-fc02" name="Larga daga envenenada" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c08-5598-4c74-9327" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6997-c567-b5e9-4f61" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5ba2-b7af-2b39-4c41" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-                <infoLink id="a51f-8124-1b88-b413" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -12135,7 +12123,6 @@ Orden.</characteristic>
         <selectionEntry id="3b31-600d-72ac-3e1d" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="013e-29f5-a0b9-30d6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b584-8b83-dd40-0301" type="min"/>
           </constraints>
           <profiles>
             <profile id="8d5b-8b1d-ade0-b3cd" name="Sulephet" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -12162,7 +12149,7 @@ Orden.</characteristic>
             <infoLink id="ee34-9fd5-8912-6be1" name="Impactos por carga (1)" hidden="false" targetId="8de0-8a91-edee-076e" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="60.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fc29-5adb-abe1-2275" name="Nivel de magia 4" hidden="false" collective="false" import="true" type="upgrade">

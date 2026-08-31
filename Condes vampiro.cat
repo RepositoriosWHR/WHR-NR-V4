@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="13" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6daf-483a-4d59-83db" name="Poder vampírico">
       <characteristicTypes>
@@ -8073,32 +8073,20 @@ combatiendo. Ten en cuenta que no puede disparar en la fase de magia el Lamento 
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e8cc-8b85-e411-7527" name="Jinetes espectrales (Necrarca, Von Carstein)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e8cc-8b85-e411-7527" name="Jinetes espectrales (Necrarca)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="b27c-fc2e-0021-023f" value="1.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4caf-444a-f26c-3f56" type="atLeast"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5149-1d1d-9235-0572" type="atLeast"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4caf-444a-f26c-3f56" type="atLeast"/>
+          </conditions>
         </modifier>
         <modifier type="set" field="b27c-fc2e-0021-023f" value="3.0">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4caf-444a-f26c-3f56" type="atLeast"/>
               </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5149-1d1d-9235-0572" type="atLeast"/>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4caf-444a-f26c-3f56" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -8107,15 +8095,8 @@ combatiendo. Ten en cuenta que no puede disparar en la fase de magia el Lamento 
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4caf-444a-f26c-3f56" type="atLeast"/>
               </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5149-1d1d-9235-0572" type="atLeast"/>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4caf-444a-f26c-3f56" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -17696,7 +17677,7 @@ especial de 4+.</description>
           <profiles>
             <profile id="7bc9-a3f8-e1e5-1cbe" name="Despertar la tempestad" hidden="false" typeId="6daf-483a-4d59-83db" typeName="Poder vampírico">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="fd8d-dbea-6f9b-4f42">Al inicio de tu fase de movimiento, si el personaje no está trabado en combate cuerpo a cuerpo, el vampiro puede invocar una tormenta. La tormenta tiene un radio de 12&quot; centrada en el vampiro. Cualquier unidad que dispare hacia, desde o a través el interior de la tormenta sufrirá un penalizador de -2 para impactar; los efectos de Tormenta de proyectiles que disparen hacia, desde o a través reducirán sus impactos a la mitad; las catapultas o efectos que se dispersen de forma similar se dispersarán el doble dentro de la tormenta; los cañones sólo podrán disparar hacia, desde y a través si antes obtienen un resultado de 4+ en 1D6 y no se puede hacer uso de las reglas especiales Volar o Flotar hacia, a través y desde el interior. Si el vampiro se traba en combate o muere, la tormenta cesará inmediatamente. </characteristic>
+                <characteristic name="Reglas especiales" typeId="fd8d-dbea-6f9b-4f42">Al inicio de tu fase de movimiento, si el personaje no está trabado en combate cuerpo a cuerpo, el vampiro puede invocar una tormenta. La tormenta tiene un radio de 12&quot; centrada en el vampiro. Cualquier unidad que dispare hacia, desde o a través el interior de la tormenta sufrirá un penalizador de -2 para impactar; los efectos de Tormenta de proyectiles que disparen hacia, desde o a través reducirán sus impactos a la mitad; las catapultas o efectos que se dispersen de forma similar se dispersarán el doble dentro de la tormenta; los cañones sólo podrán disparar hacia, desde y a través si antes obtienen un resultado de 4+ en 1D6; las armas de aliento o efectos que usen la plantilla de lágrima solamente causarán impactos parciales a las miniaturas en el interior de la tormenta (en combate actuarán normalmente) y no se puede hacer uso de las reglas especiales Volar o Flotar hacia, a través y desde el interior. Si el vampiro se traba en combate o muere, la tormenta cesará inmediatamente. </characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="6" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="11" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bff8-8e34-eb37-f67a" name="Saber del Fuego" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -759,6 +759,99 @@
           </constraints>
           <infoLinks>
             <infoLink id="5b2d-e2ce-538d-8306" name="Saber de la Antigua Nehekhara" hidden="false" targetId="0a7a-0d64-0d46-daf2" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46c8-7a0b-fad0-29e6" name="Saber de los Arúspices" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9cc7-2729-90d1-a026" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b5df-ac6f-7e29-ec54" name="Saber de los Arúspices" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="2fb5-6123-aca2-e106" name="Mostrar hechizos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e170-1594-ab6b-e896" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9258-36b1-cc0e-e86d" name="Saber de los Arúspices" hidden="false" targetId="a1b6-577b-c850-ba81" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c326-dd64-37d8-ffef" name="Saber del Sigilo" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e02d-7f73-2dfc-54c1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d345-4576-54f7-9259" name="Saber del Sigilo" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="78af-514a-2248-8540" name="Mostrar hechizos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fc5-a7f9-2a87-b532" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6b31-fe57-90ec-91cb" name="Saber del Sigilo" hidden="false" targetId="5e68-68bb-d076-9a4e" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1367-57d3-8e91-a642" name="Runas del Yunque Rúnico" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6959-b545-e5d0-3c00" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3449-5535-7eed-4c70" name="Runas del Yunque Rúnico" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="7dc5-5be4-c3ca-0324" name="Mostrar ritos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f707-3c75-7472-c027" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a90f-a93f-6905-f817" name="Runas del Yunque Rúnico" hidden="false" targetId="b130-aeda-a3f5-b071" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17d1-e53f-981b-49b8" name="Zampamagia" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c165-205f-4508-5be3" name="Zampamagia" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="76fd-2845-e8ba-4d9e" name="Mostrar hechizos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="24ae-feab-09bb-5c80" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="540a-7abb-750c-666b" name="Zampamagia" hidden="false" targetId="b3d8-3de2-9184-ec2e" type="infoGroup"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -2618,7 +2711,7 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">15+</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio lanzador y Permanece en efecto. Mientras dure el hechizo, el lanzador se transforma en un monstruo a tu elección de entre los listados. En forma de monstruo, el lanzador no puede utilizar sus armas, armaduras, artefactos arcanos (salvo familiares) ni objetos hechizados, aunque podrá lanzar hechizos con normalidad. Si estaba unido a una unidad, sepáralo 1” de esta(aunque el personaje no pudiera abandonarla de otra modo). Puede potenciarse para que el lanzador se transforme en un dragón del tipo indicado más arriba, en cuyo caso la dificultad será de 18+. Este hechizo no puede ser dispersado una vez el lanzador se haya transformado en monstruo. Cuando el monstruo muera, sustitúyelo por el lanzador en las mismas condiciones en las que estaba antes de transformarse. Este hechizo no puede ser utilizado si el lanzador tiene montura de cualquier tipo; si es el caso y obtienes este hechizo al generar tus hechizos antes de la batalla, puedes cambiar la Transformación de Kadon por el hechizo que desees del Saber de Magia oscura.
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio lanzador y Permanece en efecto. Mientras dure el hechizo, el lanzador se transforma en un monstruo a tu elección de entre los listados. En forma de monstruo, el lanzador no puede utilizar sus armas, armaduras, artefactos arcanos (salvo familiares), estandartes mágicos ni objetos hechizados, aunque podrá lanzar hechizos con normalidad. Si estaba unido a una unidad, sepáralo 1” de esta(aunque el personaje no pudiera abandonarla de otra modo). Puede potenciarse para que el lanzador se transforme en un dragón del tipo indicado más arriba, en cuyo caso la dificultad será de 18+. Este hechizo no puede ser dispersado una vez el lanzador se haya transformado en monstruo. Cuando el monstruo muera, sustitúyelo por el lanzador en las mismas condiciones en las que estaba antes de transformarse. Este hechizo no puede ser utilizado si el lanzador tiene montura de cualquier tipo; si es el caso y obtienes este hechizo al generar tus hechizos antes de la batalla, puedes cambiar la Transformación de Kadon por el hechizo que desees del Saber de Magia oscura. Si el monstruo es atrapado mientras huye, coloca al lanzador a como máximo 1” tanto del lugar donde fué atrapado como de la unidad que le atrapó (si no es posible colocarlo en esas condiciones, se considerará baja). Si el monstruo huye del campo de batalla, el lanzador se considerará como baja.
 
 
 -Elfos oscuros: Hidra de guerra, Caribdis o Mantícora. Potenciado: Dragón negro.
@@ -3574,6 +3667,275 @@ en su regla especial Constructo, devolviendo bajas al campo de batalla si fuese 
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">3D6&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de vórtice que utiliza la plantilla redonda pequeña. Coloca la plantilla en contacto con el sacerdote y muévela en la dirección que desees 3D6”. Cualquier miniatura tocada por la plantilla sufrirá un impacto de Fuerza 4 con la regla especial Golpe letal. Cualquier unidad que sufra al menos una baja como consecuencia de este hechizo deberá realizar inmediatamente un chequeo de pánico. Puedes potenciar este hechizo, en cuyo caso utilizará la plantilla redonda grande. La dificultad en ese caso será de 19+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="a1b6-577b-c850-ba81" name="Saber de los Arúspices" hidden="false">
+      <profiles>
+        <profile id="e1d6-709b-a8d1-dc9e" name="[R] - Magia ancestral" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Siempre que un enemigo intente dispersar un hechizo de este saber tendrá un penalizador de -1 en su tirada de dispersión.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4275-fb6c-1104-39f8" name="Alas del destino" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Proyectil Mágico</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+/10+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">36&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de proyectil mágico con un alcance de 36” que causa 2D6 impactos de F2. Puede potenciarse el hechizo para que cause impactos de F3, en cuyo caso la dificultad aumenta hasta 10+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="159b-0ae8-99fb-3d0f" name="Luz ancestral" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">36&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que puede lanzarse sobre cualquier unidad amiga a 36” o menos del Arúspice y permanece un turno. Por la duración del conjuro, la unidad obtendrá una tirada de salvación especial de 5+, que se incrementa a 4+ contra heridas causadas por miniaturas con la regla especial Demonio.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c2e6-a1c4-b973-24e5" name="Voz de mando" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">13+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de maldición que toma como objetivo a una unidad enemiga a 24” o menos del Arúspice y que permanece un turno. Por la duración del conjuro, cada vez que la unidad afectada quiera mover, cargar, reformar, disparar, reaccionar a una carga (con una reacción que no sea mantener la posición), lanzar un hechizo o un objeto portahechizos, dispersar un hechizo o
+luchar en combate cuerpo a cuerpo, ésta deberá realizar un chequeo de Fuerza (utiliza el valor de F más común en la unidad): si lo supera, podrá realizar la acción que quería, pero si lo falla no podrá hacer nada durante el resto de la fase en curso.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="045a-78f4-9a54-e180" name="La bendición del valor" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">12+/15+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/36&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que puede lanzarse sobre una unidad amiga a 18” o menos del Arúspice y permanece en efecto. Por la duración del conjuro, la unidad obtiene un bonificador de +1 en todas sus tiradas para impactar (tanto en combate cuerpo a cuerpo como con proyectiles) y la unidad obtiene la regla especial Indesmoralizable. Si la unidad estaba huyendo, se reagrupa inmediatamente. Puede potenciarse este hechizo para duplicar su alcance, en cuyo caso la dificultad aumenta hasta 15+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8328-143b-fa6c-0e99" name="El regalo de la vida" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciacion</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">14+/24+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;/Campo de batalla</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que puede lanzarse sobre una unidad amiga a 24” o menos del Arúspice. Todos los personajes de la unidad y todas las miniaturas heridas recuperan todas las heridas que hubiesen sufrido con anterioridad durante la batalla. Además, la unidad restaura 1D6+1 heridas que hubiese sufrido (recoloca las bajas sufridas hasta llegar al total de heridas restauradas. Puedes resucitar un Oficial o un Músico, pero no a un Portaestandarte o a un personaje muerto. No puedes aumentar una unidad por encima de sus efectivos iniciales. Si se trata de Caballería o Caballería monstruosa, cada herida sanada cuenta como dos (es decir, si puedes restaurar cuatro heridas, serán sólo dos heridas restauradas en caballería o caballería monstruosa). Este hechizo no afecta a unidades con la regla especial No muerto o Demonio). Puedes potenciar este hechizo para que afecte a todas las unidades amigas en el campo de batalla, en cuyo caso la dificultad aumentará hasta 24+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="5e68-68bb-d076-9a4e" name="Saber del Sigilo" hidden="false">
+      <profiles>
+        <profile id="0198-46c7-c001-0680" name="[R] - Sombras sigilosas" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Siempre que un hechizo del Saber del Sigilo se resuelva de manera exitosa, puedes designar una única unidad aliada a 18” o menos del hechicero que lanzó el hechizo. Hasta el inicio de la siguiente fase de magia propia, esa unidad obtendrá la regla especial Esquivar (6+) o aumentará en +1 el valor de salvación de su tirada por Esquivar si ya la tenía (hasta un máximo de 4+). Ninguna unidad puede beneficiarse de este efecto más de una vez por fase de magia.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4b2e-22cc-d9e2-f2f9" name="[1] - Estrellas de disformidad" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Proyectil mágico</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">5+/8+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Proyectil mágico con un alcance de 18” que causa 1D6 impactos de F4 con la regla especial Poder de penetración. Puedes potenciar este hechizo para que cause 1D6 impactos adicionales, en cuyo caso la dificultad será de 8+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c216-d59a-be91-e779" name="[2] - Correteo ágil" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+/13+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;/12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que puede lanzarse sobre una unidad amiga a 24” o menos del lanzador y permanece en efecto. Otorga a la unidad un bonificador de +2 a su atributo de Movimiento. Puedes potenciar este hechizo para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad será de 13+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b41b-5ece-8d73-4a1e" name="[3a] - Ponzoña letal" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 12” o menos del lanzador y permanece un turno. La unidad gana ataques envenenados. Si ya disponía de Ataques envenenados, estos se resolverán con un resultado de 5+ en lugar de 6+. Adicionalmente, en caso de que la unidad ya resuelva sus Ataques envenenados con resultados de 5+, obtendrán un bonificador de +1 en sus tiradas para herir.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7362-087e-5909-f79d" name="[3b] - Armadura de oscuridad" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">9+/12+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/36&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y permanece un turno. Todos los impactos con un valor de fuerza dirigidos contra la unidad afectada obtendrán un penalizador de -1 en sus tiradas para herir. Puedes potenciar este hechizo para aumentar el alcance hasta 36”, en cuyo caso la dificultad será de 12+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fc42-bb0c-610e-665f" name="[4] - Huesos frágiles" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">10+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 18” o menos del lanzador y permanece un turno. Mientras el hechizo esté activo, la unidad afectada sufrirá un penalizador de -1 a sus atributos de Movimiento y Resistencia (hasta un mínimo de 1).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cac0-809b-297f-c9d4" name="[5] - Golpe de gracia" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">12+/15+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y permanece un turno. Mientras dure el hechizo, las heridas causadas por la unidad afectada por sus ataques en cuerpo a cuerpo o con proyectiles (debes decidir uno u otro tras resolver exitosamente el hechizo) impondrán un penalizador de -2 a la tirada de salvación por armadura (adicional a otros penalizadores que pudieran imponer). Puedes potenciar este hechizo para que afecte tanto a los ataques en cuerpo a cuerpo como a proyectiles, en cuyo caso la dificultad será de 15+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d89-b375-3120-4412" name="[0] - Torbellino negro" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Vórtice</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">16+/22+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">3D6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Vórtice. Coloca la plantilla redonda pequeña en contacto con el lanzador y desplaza la plantilla 3D6” en la dirección que desees. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales para impactos parciales) deberá superar un chequeo de Iniciativa o sufrirá una herida sin tirada de salvación por armadura. Además, cualquier unidad que sufra al menos una baja a consecuencia de este hechizo sufrirá un penalizador de -1 en sus tiradas para impactar (tanto con proyectiles como en cuerpo a cuerpo). El Torbellino negro puede potenciarse para utilizar la plantilla redonda grande en lugar de la pequeña, en cuyo caso la dificultad será de 22+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="b130-aeda-a3f5-b071" name="Runas del Yunque Rúnico" hidden="false">
+      <profiles>
+        <profile id="37f6-4b26-91ec-05bf" name="Runas del hogar y el clan" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Campo de batalla</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cuando se martillea esta runa, todos los enanos aliados que estén huyendo en el campo de batalla se reagrupan automáticamente. Todos los enanos aliados obtienen la regla especial Inmune a psicología hasta el inicio de tu siguiente fase de magia. Poder de los ancestros: Además de lo mencionado anteriormente, todas las unidades de enanos aliadas en el campo de batalla duplican su Potencia de unidad hasta el inicio de tu siguiente fase de magia.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e9f2-e968-7008-94f1" name="Runas de la devastación" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">36&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7"/>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Selecciona una unidad enemiga a 36” o menos del Yunque rúnico. Esta unidad sufrirá 1D6 impactos de Fuerza 5 con la regla especial Ataque de rayos. Ten en cuenta que no se considera un proyectil. Poder de los ancestros: En lugar de seleccionar una unidad enemiga, selecciona 1D2+1 unidades diferentes como objetivo para los rayos. Cada una sufrirá impactos como se ha descrito anteriormente.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7b62-bbfc-48e4-de18" name="Runas del oprobio" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Elige una unidad enemiga a 24” o menos del Yunque rúnico. Esa unidad verá su Movimiento e Iniciativa reducidos a la mitad hasta el inicio de tu siguiente fase de magia. Además, perderá la regla Veloz y tendrá un penalizador de -1 a su Liderazgo por la misma duración. Poder de los ancestros: Selecciona 1D2+1 unidades diferentes en lugar de solo una dentro del alcance; aplica los penalizadores a todas ellas.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4eab-4b49-6dde-c5e6" name="Runa del poder marcial" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Selecciona una unidad amiga a 24” o menos del Yunque rúnico. Esta obtiene un bonificador de +1 a su Fuerza y un bonificador de +1 a impactar tanto en cuerpo a cuerpo como en disparo; el efecto dura hasta el inicio de tu siguiente fase de magia. Poder de los ancestros: En lugar de afectar a una unidad amiga, afecta a todas las unidades amigas a 24” o menos del Yunque rúnico.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="88f4-e291-35b2-17f2" name="Runa de la furia y los agravios" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Selecciona una unidad amiga a 24” o menos que no esté huyendo ni trabada en combate. Esa unidad moverá inmediatamente hacia delante 1D6+2”; si ese movimiento es suficiente para llegar a contacto conuna unidad enemiga, se considera carga como si hubiese sido hecha por una unidad con  Movimiento aleatorio. Poder de los ancestros: Selecciona 1D2+1 unidades diferentes en lugar de solo una dentro del alcance.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="b3d8-3de2-9184-ec2e" name="Zampamagia" hidden="false">
+      <profiles>
+        <profile id="162a-29e2-d7ad-eded" name="[R] - Suculenta indigestión" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechizo del saber de Zampamagia es lanzado con éxito y no es dispersado, tira 1D6: si obtienes un resultado de 1, el lanzador sufrirá un impacto automático de F4. Sin embargo, si obtienes un resultado de 2+, el lanzador podrá restaurar una de las heridas que hubiese sufrido con anterioridad durante la batalla.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2b12-827a-3a19-8739" name="[0] - ¡Viva el vino!" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+/14+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que toma como objetivo a una única unidad amiga a 18” o menos del lanzador y permanece un turno. Por la duración del conjuro, la unidad objetivo obtendrá la regla especial Tozudez. Puede potenciarse este hechizo para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad aumenta a 14+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d7bf-7b09-9037-95e9" name="[1] - Golitrón" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Proyectil mágico</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+/10+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/36&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un Proyectil mágico con un alcance de 18” que causa 2D6 impactos de F2 que no permiten tirada de salvación por armadura. Puedes potenciar este hechizo para aumentar el alcance a 36”, en cuyo caso la dificultad será de 10+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="78ae-ec67-7011-0fab" name="[2a] - Sacamantecas" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">9+/16+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que toma como objetivo a una única unidad amiga a 12” o menos del lanzador y permanece un turno. Por la duración del conjuro, la unidad objetivo obtendrá un bonificador de +1 a su Fuerza. Puede potenciarse este hechizo para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad aumenta a 16+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dd89-cf3c-3ae3-85c4" name="[2b] - Tabaco digestivo" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que afecta a todas las unidades amigas a 12” o menos del lanzador y permanece un turno. Por la duración del conjuro, todas las unidades afectadas se consideran tras cobertura ligera a efectos de disparos.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7f32-9014-d0c6-8028" name="[3] - Dientes de leche" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">10+/18+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que toma como objetivo a una única unidad amiga a 12” o menos del lanzador y permanece un turno. Por la duración del conjuro, la unidad objetivo obtendrá un bonificador de +1 a su Resistencia. Puede potenciarse este hechizo para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad aumenta a 18+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2440-aecf-d62a-5868" name="[4] - Engullesesos" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">9+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de maldición que toma como objetivo a una unidad enemiga a 18” o menos del lanzador. Si la unidad no se encuentra trabada en combate, deberá realizar inmediatamente un chequeo de pánico. Si se encuentra trabada en combate, deberá realizar inmediatamente un chequeo de Liderazgo, quedando Apabullada si lo falla. Ten en cuenta que este hechizo no afecta a unidades Inmunes a la psicología.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8c83-6a73-891b-4331" name="[5] - Morcilla de Butifarra" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">13+/20+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de potenciación que toma como objetivo a una única unidad amiga a 12” o menos del lanzador y permanece un turno. Por la duración del conjuro, la unidad objetivo obtendrá la regla especial Regeneración (4+). Puede potenciarse este hechizo para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad aumenta a 20+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="51f6-d07f-085e-0455" name="[6] - El Pastel" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">16+/23+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de daño directo con un alcance de 24”. Coloca la plantilla redonda pequeña dentro del alcance y tira el dado de dispersión: si obtienes un resultado de punto de mira, la plantilla permanece donde está; si obtienes un resultado de flecha, desvía la plantilla en la dirección indicada 2D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de F6 con la regla especial heridas múltiples (1D3). Puedes potenciar este hechizo para que utilice la plantilla redonda grande, en cuyo caso la dificultad será de 23+.</characteristic>
           </characteristics>
         </profile>
       </profiles>

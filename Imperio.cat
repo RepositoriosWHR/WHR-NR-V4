@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="18" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="19" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="208e-cf58-eefc-06d2" name="Orden de caballería">
       <characteristicTypes>
@@ -1230,9 +1230,11 @@ El Tanque a vapor imperial mueve en la sub-fase de Movimientos obligatorios de t
 El Tanque a vapor imperial no puede cargar pero, si su movimiento le lleva al contacto con un enemigo, se considerará carga (ten en cuenta que no se puede reaccionar a dicha “carga”). El Tanque a vapor imperial causa 1D6 Impactos por carga (por ser Carro) más 1D3 adicionales por cada Punto de vapor que haya utilizado en mover ese turno hacia adelante (no es necesario que el tanque mueva físicamente, se cuentan los puntos que haya declarado para mover). Ten en cuenta que el movimiento de girar es parte del movimiento, con lo cual, si solamente con girar te lleva al contacto peana con peana con el enemigo, se considera igualmente una carga exitosa. En este caso el tanque quedará trabado por el lado por donde se encuentre la unidad enemiga respecto a él cuando choque (sigue el mismo criterio descrito en el Reglamento en el apartado “Cargas por el flanco y por la retaguardia” de la sub-fase 5 “Movimiento de las tropas que cargan” de la fase de movimiento cuando haya dudas de porqué lado es la carga). Si ya se encuentra trabado el Tanque a vapor imperial atropella a sus enemigos, causando 1D3 impactos por carga por cada por cada Punto de vapor que utilice en mover ese turno hacia adelante contra una unidad que esté trabada por su frontal (no es necesario que el tanque mueva físicamente, se cuentan los puntos que haya declarado para mover). 
 Durante su fase de movimiento, el Tanque a vapor imperial puede destrabarse de un combate simplemente moviendo (haciendo uso de sus puntos de vapor), siempre y cuando pueda mover y/o girar para que su movimiento lo lleve a 1” o más de la unidad o unidades enemigas con las que estaba trabado.
 El Tanque a vapor imperial puede disparar sus armas incluso si está trabado en combate. 
-El Tanque a vapor puede usar su cañón de vapor del mismo modo que un Arma de aliento, sin utilizar puntos de 
-vapor.
-El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y Aguantar y disparar) . Si está trabado, sólo puede disparar como excepción frente a una de las unidades con las que se encuentra trabado, sin repartir impactos entre varias unidades trabadas. Sólo puede Aguantar y disparar si el Tanque a vapor no se encuentra trabado en combate.</description>
+El Tanque a vapor puede usar su cañón de vapor del mismo modo que un Arma de aliento, sin utilizar puntos de vapor.
+El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia ( y Aguantar y disparar) . Si está trabado, sólo puede disparar como excepción frente a una de las unidades con las que se encuentra trabado, sin repartir impactos entre varias unidades trabadas. Sólo puede Aguantar y disparar si el Tanque a vapor no se encuentra trabado en combate.
+El Tanque a vapor puede usar su cañón de vapor del mismo modo que un Arma de aliento, sin utilizar puntos de vapor.
+El Ingeniero del Tanque a vapor puede disparar en la fase de disparo propia (y Aguantar y disparar) . Si está trabado, sólo puede disparar como excepción frente a una de las unidades con las que se encuentra trabado, sin repartir impactos entre varias unidades trabadas. Sólo puede Aguantar y disparar si el Tanque a vapor no se encuentra trabado en combate.
+El Tanque a vapor no puede disparar metralla.</description>
         </rule>
         <rule id="d628-c477-c01f-b9a3" name="Caldera de Vapor" hidden="false">
           <description>1-10 No sucede nada.
@@ -12295,22 +12297,6 @@ Tiradores de Hochland pueden repetir los resultados naturales de 1 obtenidos en 
         <categoryLink id="fbca-714c-8136-216a" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c2b5-1d8b-7748-4767" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7f4-b240-8e5c-cfc2" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="5600-86f2-6716-b791" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd5-9365-d1b7-5fbb" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e97-9f12-bebb-5d0c" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="0cd1-40cc-f0c9-a9e0" name="Félix Jaegar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38fa-4227-049a-e75d" type="max"/>
@@ -12518,22 +12504,6 @@ Tiradores de Hochland pueden repetir los resultados naturales de 1 obtenidos en 
         <categoryLink id="c233-6ef9-7965-9c2b" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ed50-6461-9287-99dc" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf3a-ceb0-de84-70db" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="b624-a15a-f4ca-3e17" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d41-0069-6511-0470" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d54-a093-34b5-b4fb" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="e210-0d2e-ae44-95eb" name="Josef Bugman, maestro cervecero enano" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e9d-f080-f355-caa0" type="max"/>

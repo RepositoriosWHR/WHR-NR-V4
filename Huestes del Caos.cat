@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b45a-4cb1-e2e8-abd7" name="Huestes del Caos" revision="17" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b45a-4cb1-e2e8-abd7" name="Huestes del Caos" revision="20" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="c41e-b78a-d6e4-14ca" name="Recompensa del caos">
       <characteristicTypes>
@@ -24488,15 +24488,6 @@ D6 	Resultado (Agarrar y...)
                       </modifiers>
                     </entryLink>
                     <entryLink id="3729-e2c7-3bda-615c" name="[GC] - Objetos hechizados. Guerreros del Caos" hidden="false" collective="false" import="true" targetId="b005-75c8-bef3-1484" type="selectionEntryGroup"/>
-                    <entryLink id="11cd-5f7b-780a-8d5b" name="[GC] - Armas mágicas. Guerreros del Caos. Slaanesh. Arma de mano" hidden="false" collective="false" import="true" targetId="46da-502b-7bea-7113" type="selectionEntryGroup">
-                      <modifiers>
-                        <modifier type="set" field="hidden" value="true">
-                          <conditions>
-                            <condition field="selections" scope="b284-ef9d-0a3a-69a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa84-8b93-55b7-3497" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
                     <entryLink id="78be-0f02-b661-c219" name="[GC] - Armas mágicas. Guerreros del Caos. Nurgle. Arma bruja" hidden="false" collective="false" import="true" targetId="1d65-6eff-a280-402b" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
@@ -24584,6 +24575,16 @@ D6 	Resultado (Agarrar y...)
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink id="fb52-927c-434d-411d" name="[GC] - Armas mágicas. Guerreros del Caos. Slaanesh. Arma de mano" hidden="false" collective="false" import="true" targetId="46da-502b-7bea-7113" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="b284-ef9d-0a3a-69a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa84-8b93-55b7-3497" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink id="be6e-881f-7dbb-82ee" name="[GC] - Armas mágicas. Guerreros del Caos. Arma de mano" hidden="false" collective="false" import="true" targetId="067c-1050-d83f-481a" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -24716,7 +24717,7 @@ D6 	Resultado (Agarrar y...)
             </entryLink>
             <entryLink id="da7d-a39d-fe9a-87fc" name="[GC] - Marca de Slaanesh. Unidades" hidden="false" collective="false" import="true" targetId="aa84-8b93-55b7-3497" type="selectionEntry">
               <modifiers>
-                <modifier type="increment" field="points" value="2">
+                <modifier type="increment" field="points" value="2.0">
                   <repeats>
                     <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
@@ -24827,7 +24828,7 @@ D6 	Resultado (Agarrar y...)
     </selectionEntry>
     <selectionEntry id="a36c-b014-a064-9a09" name="[H][GC] - Caballeros del Caos (Básica)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="8e3e-f9f1-6e8a-102a" value="1">
+        <modifier type="increment" field="8e3e-f9f1-6e8a-102a" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1b45-2309-73df-e883" repeats="1" roundUp="false"/>
           </repeats>
@@ -28092,15 +28093,6 @@ D6 	Resultado (Agarrar y...)
                           </modifiers>
                         </entryLink>
                         <entryLink id="1e18-1075-f23b-917e" name="[GC] - Recompensas del Caos" hidden="false" collective="false" import="true" targetId="41f9-aa86-4850-b7ed" type="selectionEntryGroup"/>
-                        <entryLink id="cdb3-fbff-cedc-c4d6" name="[GC] - Recompensas del Caos. Slaanesh" hidden="false" collective="false" import="true" targetId="a480-d753-79be-682c" type="selectionEntryGroup">
-                          <modifiers>
-                            <modifier type="set" field="hidden" value="true">
-                              <conditions>
-                                <condition field="selections" scope="811c-ce01-d172-6bf2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa84-8b93-55b7-3497" type="equalTo"/>
-                              </conditions>
-                            </modifier>
-                          </modifiers>
-                        </entryLink>
                         <entryLink id="2f10-6ffe-379e-03d7" name="[GC] - Recompensas del Caos. Khorne" hidden="false" collective="false" import="true" targetId="6d32-c796-fb35-4623" type="selectionEntryGroup">
                           <modifiers>
                             <modifier type="set" field="hidden" value="true">
@@ -28676,7 +28668,7 @@ D6 	Resultado (Agarrar y...)
         <rule id="6d5f-0843-23e8-fd5b" name="Caídas" hidden="false">
           <description>Un Gigante del Caos deberá efectuar un chequeo para determinar si se cae al suelo si es derrotado en combate cuerpo a cuerpo (se hace antes del chequeo de desmoralización), si está huyendo al inicio de tu fase de movimiento, cuando cruce un Obstáculo (debe realizarse el chequeo al llegar a contacto con el obstáculo) o si decide Saltar arriba y abajo (debe efectuarse antes de comenzar a saltar). Para ver si se cae, deberás tirar 1D6. Con un resultado de 1, el Gigante del Caos se caerá. Al morir, un Gigante del Caos se cae automáticamente. Para determinar en qué dirección se cae, usa el dado de dispersión y coloca la plantilla de gigante caído con los pies en contacto con la peana del gigante y la cabeza apuntando en la dirección de la caída. Cualquier miniatura total o parcialmente cubierta por la plantilla sufrirá un único impacto de Fuerza 6 con la regla especial Heridas múltiples (1D3). Si el Gigante del Caos se encontraba trabado e combate, esas heridas contarán para la resolución. Cuando un Gigante del Caos se cae, sufre automáticamente una herida sin salvación por armadura (que también deberá tenerse en cuenta para la resolución del combate). Una vez en el suelo, puede levantarse en su próxima fase de movimiento (lo cual consumirá todo su movimiento). Un Gigante del Caos en el suelo no podrá atacar. Si el Gigante del Caos es obligado a huir mientras está en el suelo, retíralo como baja. Si tiene la oportunidad de perseguir estando en el suelo, en lugar de eso se pondrá en pie. Puede atacar normalmente el turno en que se levanta.</description>
         </rule>
-        <rule id="95df-909f-1170-6cfd" name="Ataques especiales del gigante" hidden="false">
+        <rule id="c8cf-b497-55d1-f084" name="Ataques especiales del gigante" hidden="false">
           <description>Cuando un Gigante del Caos ataque, determina cuál de las dos siguientes tablas utilizará (dependiendo del tipo de tropa al que ataque) y tira 1D6. Usa la Tabla de cosas grandes contra Infantería monstruosa, Caballería monstruosa, Bestias monstruosas, Monstruos, Carros y Máquinas de guerra; y la Tabla de cosas pequeñas contra Infantería, Bestias, Caballería y Enjambres.
 
 D6 Tabla de cosas grandes 	
@@ -28694,7 +28686,7 @@ D6 Tabla de cosas pequeñas
 
 Gritar y vocear: Ni el Gigante del Caos ni ninguna miniatura enemiga en contacto peana con peana con él atacan este turno (a no ser que ya lo hayan hecho). El bando del Gigante del Caos gana el combate automáticamente por dos puntos.
 Golpear con el garrote: El Gigante del Caos elige una única miniatura enemiga en contacto peana con peana: la víctima debe superar un chequeo de Iniciativa o sufrirá 2D6 heridas sin tirada de salvación por armadura. Si se obtiene un doble, el garrote se incrustará y el Gigante del Caos no podrá atacar durante la siguiente fase de combate cuerpo a cuerpo del mismo combate mientras lo recupera.
-Cabezazo: El Gigante del Caos elige a una única miniatura en contacto con él, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, perderá los ataques durante su próxima fase de combate cuerpo a cuerpo).
+Cabezazo: El Gigante del Caos elige a una única miniatura en contacto con él, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, no podrá realizar ninguna acción voluntaria ni usar objetos o habilidades durante el siguiente turno).
 Saltar arriba y abajo: El Gigante del Caos comienza a saltar sobre sus enemigos, Antes de efectuar el ataque, el Gigante del Caos deberá chequear para ver si se cae (como se describe más arriba). Causa a la unidad pisoteada 2D6 impactos de Fuerza 6 distribuidos como si fueran proyectiles. Una vez un Gigante del Caos ha empezado a Saltar arriba y abajo, en las subsiguientes rondas del mismo combate cuerpo a cuerpo continuará Saltando arriba y abajo hasta que el combate finalice (no tires en la tabla).
 Barrido con el garrote:El Gigante del Caos causa a su unidad objetivo 1D6 impactos de Fuerza 7 distribuidos como si fueran proyectiles.
 Crujir huesos: El Gigante del Caos elige una única miniatura en contacto peana con peana: esa miniatura debe tirar 1D6 y sumar su atributo de Fuerza. El Gigante del Caos tira 2D6 y suma su atributo de Fuerza. Si el objetivo obtiene un resultado superior o si empatan, no ocurre nada; sin embargo, si el Gigante del Caos gana la tirada, el objetivo sufrirá una herida automática sin tirada de salvación por armadura por cada punto por el que su tirada supere a la del objetivo.
@@ -28807,7 +28799,8 @@ D6 	Resultado (Agarrar y...)
         </selectionEntryGroup>
         <selectionEntryGroup id="9ff6-0239-c993-8ba8" name="Marcas del caos" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd0-43c9-73b3-f131" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd0-43c9-73b3-f131" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28d5-b23a-9d59-7314" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="93a4-0723-ef2c-3c42" name="[GC] - Marca de Nurgle. Unidades" hidden="false" collective="false" import="true" targetId="fb11-4524-18fc-0692" type="selectionEntry">
@@ -29376,7 +29369,7 @@ D6 	Resultado (Agarrar y...)
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fc2-5fa2-5de2-ceae" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="8f05-f044-b580-3207" name="[GC] - Armaduras mágicas. Guerreros del Caos" hidden="false" collective="false" import="true" targetId="863b-7f93-fbbf-6c43" type="selectionEntryGroup"/>
+                    <entryLink id="8f05-f044-b580-3207" name="[GC] - Armaduras mágicas. Reliquias. Guerreros del Caos" hidden="false" collective="false" import="true" targetId="27ee-5dcb-2beb-037e" type="selectionEntryGroup"/>
                     <entryLink id="c888-ea27-9835-0b3e" name="Armaduras mágicas. Reliquias. Escudo" hidden="false" collective="false" import="true" targetId="5120-2f9f-febc-dcce" type="selectionEntryGroup"/>
                     <entryLink id="87f1-5edf-e2b5-e0c2" name="Armaduras mágicas. Reliquias. Armadura pesada" hidden="false" collective="false" import="true" targetId="97fd-297c-e754-4afc" type="selectionEntryGroup"/>
                     <entryLink id="39eb-afa8-e115-3fbf" name="Armaduras mágicas. Reliquias. Yelmo" hidden="false" collective="false" import="true" targetId="4644-a77e-94cc-121d" type="selectionEntryGroup"/>
@@ -29434,12 +29427,32 @@ D6 	Resultado (Agarrar y...)
               <modifiers>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
-                    <condition field="selections" scope="2fd7-2f08-2d7a-0066" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea3a-a988-3f6d-42a6" type="equalTo"/>
+                    <condition field="selections" scope="2fd7-2f08-2d7a-0066" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="472b-24c4-7340-ee2a" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
                     <condition field="selections" scope="2fd7-2f08-2d7a-0066" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e7d-9f7e-9364-9ae0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="2fd7-2f08-2d7a-0066" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="40f8-790f-d453-26bd" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="2fd7-2f08-2d7a-0066" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df43-a45b-6240-c3fa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="2fd7-2f08-2d7a-0066" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea3a-a988-3f6d-42a6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="2fd7-2f08-2d7a-0066" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f6a5-d866-b946-d7ec" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -30001,7 +30014,7 @@ D6 	Resultado (Agarrar y...)
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6790-02dd-0a9c-f90f" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="c3df-434a-0238-5d83" name="[BC] - Estandartes Mágicos - Bestias del Caos" hidden="false" collective="false" import="true" targetId="077d-3b64-f4b9-3e62" type="selectionEntryGroup"/>
+                    <entryLink id="c3df-434a-0238-5d83" name="[GC] - Estandartes mágicos. Guerreros del Caos" hidden="false" collective="false" import="true" targetId="617a-a21c-2a7e-a39f" type="selectionEntryGroup"/>
                     <entryLink id="c523-d707-fd69-1b0f" name="[GC] - Estandartes mágicos. Guerreros del Caos. Tzeentch" hidden="false" collective="false" import="true" targetId="d453-f4f2-3570-6a50" type="selectionEntryGroup">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
@@ -30512,6 +30525,16 @@ D6 	Resultado (Agarrar y...)
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
                     <condition field="selections" scope="c4c5-7223-eeb7-6e6e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea3a-a988-3f6d-42a6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="c4c5-7223-eeb7-6e6e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df43-a45b-6240-c3fa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="c4c5-7223-eeb7-6e6e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b155-b5ad-181c-8873" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -32291,13 +32314,6 @@ D6 	Resultado (Agarrar y...)
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="25de-0b99-8b65-a644" name="Armas mágicas" hidden="false" collective="false" import="true">
-                  <modifiers>
-                    <modifier type="set" field="c47c-38f8-bf3f-5416" value="0">
-                      <conditions>
-                        <condition field="selections" scope="7515-ebb3-c662-ff5e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a04c-3aec-d6ff-9935" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47c-38f8-bf3f-5416" type="max"/>
                   </constraints>
@@ -32862,13 +32878,6 @@ D6 	Resultado (Agarrar y...)
       </modifiers>
       <rules>
         <rule id="2405-ebab-33d9-bc55" name="Magia Príncipe demonio" hidden="false">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="379f-108f-23ad-163f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c95d-5c19-5df4-3370" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <description>Si no porta la Marca de Khorne, puede elegir una de las siguientes opciones:
 -Convertirse en hechicero de nivel 1: +40 puntos. 
 -Convertirse en hechicero de nivel 2: +70 puntos. 
@@ -34262,14 +34271,9 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
                 </selectionEntryGroup>
                 <selectionEntryGroup id="e561-9f80-cee2-426f" name="Armas mágicas" hidden="false" collective="false" import="true">
                   <modifiers>
-                    <modifier type="set" field="3928-cd41-7926-e3c3" value="0">
+                    <modifier type="set" field="3928-cd41-7926-e3c3" value="0.0">
                       <conditions>
                         <condition field="selections" scope="118b-0e99-d1d9-c6b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c87-e421-1ca7-7606" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="set" field="3928-cd41-7926-e3c3" value="0">
-                      <conditions>
-                        <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4ff-e690-9609-ecdb" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -34475,13 +34479,6 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="9c87-e421-1ca7-7606" name="Armas mágicas. Reliquias" hidden="false" collective="false" import="true">
-                  <modifiers>
-                    <modifier type="set" field="67eb-598a-518e-ddb5" value="0">
-                      <conditions>
-                        <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f4ff-e690-9609-ecdb" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67eb-598a-518e-ddb5" type="max"/>
                   </constraints>
@@ -34589,7 +34586,7 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
                   <conditions>
-                    <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0937-04b3-0be0-285d" type="equalTo"/>
+                    <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df43-a45b-6240-c3fa" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
@@ -34600,6 +34597,31 @@ Puede elegir sus hechizos de entre los Saberes de la Muerte, de los Cielos, del 
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
                     <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b42-33be-c199-c519" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f6a5-d866-b946-d7ec" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="40f8-790f-d453-26bd" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b155-b5ad-181c-8873" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="472b-24c4-7340-ee2a" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
+                  <conditions>
+                    <condition field="selections" scope="10ed-2d64-cdcc-c1b7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0937-04b3-0be0-285d" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -38113,7 +38135,7 @@ D6 Tabla de cosas pequeñas
 
 Gritar y vocear: Ni el Gigante del Caos ni ninguna miniatura enemiga en contacto peana con peana con él atacan este turno (a no ser que ya lo hayan hecho). El bando del Gigante del Caos gana el combate automáticamente por dos puntos.
 Golpear con el garrote: El Gigante del Caos elige una única miniatura enemiga en contacto peana con peana: la víctima debe superar un chequeo de Iniciativa o sufrirá 2D6 heridas sin tirada de salvación por armadura. Si se obtiene un doble, el garrote se incrustará y el Gigante del Caos no podrá atacar durante la siguiente fase de combate cuerpo a cuerpo del mismo combate mientras lo recupera.
-Cabezazo: El Gigante del Caos elige a una única miniatura en contacto con él, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, perderá los ataques durante su próxima fase de combate cuerpo a cuerpo).
+Cabezazo: El Gigante del Caos elige a una única miniatura en contacto con él, causándole una herida automática sin tirada de salvación por armadura. Si la víctima resulta herida pero no muere, quedará tan aturdida que perderá sus ataques de esa fase de combate cuerpo a cuerpo (si ya había atacado, no podrá realizar ninguna acción voluntaria ni usar objetos o habilidades durante el siguiente turno).
 Saltar arriba y abajo: El Gigante del Caos comienza a saltar sobre sus enemigos, Antes de efectuar el ataque, el Gigante del Caos deberá chequear para ver si se cae (como se describe más arriba). Causa a la unidad pisoteada 2D6 impactos de Fuerza 6 distribuidos como si fueran proyectiles. Una vez un Gigante del Caos ha empezado a Saltar arriba y abajo, en las subsiguientes rondas del mismo combate cuerpo a cuerpo continuará Saltando arriba y abajo hasta que el combate finalice (no tires en la tabla).
 Barrido con el garrote:El Gigante del Caos causa a su unidad objetivo 1D6 impactos de Fuerza 7 distribuidos como si fueran proyectiles.
 Crujir huesos: El Gigante del Caos elige una única miniatura en contacto peana con peana: esa miniatura debe tirar 1D6 y sumar su atributo de Fuerza. El Gigante del Caos tira 2D6 y suma su atributo de Fuerza. Si el objetivo obtiene un resultado superior o si empatan, no ocurre nada; sin embargo, si el Gigante del Caos gana la tirada, el objetivo sufrirá una herida automática sin tirada de salvación por armadura por cada punto por el que su tirada supere a la del objetivo.
@@ -42473,7 +42495,7 @@ resultados de 2 como 3).</description>
           <profiles>
             <profile id="950a-5985-07a7-ea21" name="Mastín del caos" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <modifiers>
-                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="5">
                   <conditions>
                     <condition field="selections" scope="9cf6-4fc3-e931-8638" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ec4-df71-85df-ddf7" type="equalTo"/>
                   </conditions>
@@ -42506,10 +42528,15 @@ resultados de 2 como 3).</description>
                 <condition field="selections" scope="9cf6-4fc3-e931-8638" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fc37-3cb5-9801-6430" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="14ac-183e-cb2d-4694" value="1.0">
+              <conditions>
+                <condition field="selections" scope="9cf6-4fc3-e931-8638" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fc37-3cb5-9801-6430" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="083e-a036-bafe-5c19" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14ac-183e-cb2d-4694" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14ac-183e-cb2d-4694" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="90fa-3dce-e4b2-8edf" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
@@ -42602,7 +42629,7 @@ resultados de 2 como 3).</description>
               <profiles>
                 <profile id="1f27-1854-60b8-566e" name="Mastín alfa" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <modifiers>
-                    <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+                    <modifier type="set" field="41726d6f75725361766523232344415441232323" value="5">
                       <conditions>
                         <condition field="selections" scope="9cf6-4fc3-e931-8638" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ec4-df71-85df-ddf7" type="equalTo"/>
                       </conditions>
@@ -51410,7 +51437,7 @@ Crueldad resentida (personalidad del traidor): El bonificador a la resolución d
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd72-dcad-9d13-ba46" type="min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="33e5-36ca-158d-36d7" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -53002,7 +53029,7 @@ Determina, en el saber obtenido en la tabla, un hechizo aleatoriamente de los qu
               <profiles>
                 <profile id="89c7-b74b-61e0-a756" name="Ladrón de esencia vital" hidden="false" typeId="def6-1530-806b-c3fd" typeName="Regalo demoníaco">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="3a72-4a1b-6bc8-e21b"/>
+                    <characteristic name="Reglas especiales" typeId="3a72-4a1b-6bc8-e21b">Al final de cada fase de combate, si N&apos;kari causó al menos una herida, recuperará una de sus heridas perdidas previamente durante la batalla.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -53018,7 +53045,7 @@ Determina, en el saber obtenido en la tabla, un hechizo aleatoriamente de los qu
               <profiles>
                 <profile id="6843-a130-e3b0-a458" name="Pinzas destripadoras" hidden="false" typeId="def6-1530-806b-c3fd" typeName="Regalo demoníaco">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="3a72-4a1b-6bc8-e21b"/>
+                    <characteristic name="Reglas especiales" typeId="3a72-4a1b-6bc8-e21b">Los ataques realizados por N&apos;kari obtendrán la regla especial Heridas múltiples (1D3). </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -54377,16 +54404,6 @@ Determina, en el saber obtenido en la tabla, un hechizo aleatoriamente de los qu
         <rule id="11bc-53ea-4851-3727" name="Resistencia impía" hidden="false">
           <description>Todos los impactos contra los Brutos demoníacos que no sean Ataques mágicos tienen un penalizador de -1 a su Fuerza.</description>
         </rule>
-        <rule id="b882-0509-4ce4-feb0" name="Manifestaciones del Inmaterium" hidden="false">
-          <description>Al inicio de la batalla, tras el despliegue, elige una de las siguientes y aplícala a los Brutos demoníacos durante toda la batalla. 
--Velocidad imposible: +1 Movimiento, +1 Iniciativa y Veloz.
--Vanguardia infernal: Vanguardia y Hostigadores.
--Bestias acorazadas: Piel escamosa (3+).
--Influencia del Reino de la Sangre: Odio (¡todos los enemigos!) y Carga devastadora. 
--Influencia del Laberinto de Cristal: Ataques flamígeros y tirada de salvación especial (5+). 
--Influencia del Jardín de las Plagas: Ataques de plaga y +1 Herida.
--Influencia de los Círculos de la Seducción: Poder de penetración y Tozudez..</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="c38d-490e-fc08-b37e" name="Infantería monstruosa" hidden="false" targetId="4958-70de-0b69-9825" type="rule"/>
@@ -54403,7 +54420,34 @@ Determina, en el saber obtenido en la tabla, un hechizo aleatoriamente de los qu
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85da-66f9-42ed-642d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d4c2-d7c0-3d88-abde" name="Bruto demoníaco" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="53c8-0009-9576-21fc" name="Bruto demoníaco" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="set" field="576172645361766523232344415441232323" value="5">
+                  <conditions>
+                    <condition field="selections" scope="04f6-38b7-62c5-741b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="52c0-75f4-0a17-5a37" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="5723232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="04f6-38b7-62c5-741b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3089-16eb-7ae9-a9b3" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="3">
+                  <conditions>
+                    <condition field="selections" scope="04f6-38b7-62c5-741b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08f1-069d-60c1-7500" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4d23232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="04f6-38b7-62c5-741b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="172c-0dd5-29d9-6a52" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="4923232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="04f6-38b7-62c5-741b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="172c-0dd5-29d9-6a52" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
@@ -54608,6 +54652,113 @@ Determina, en el saber obtenido en la tabla, un hechizo aleatoriamente de los qu
               </constraints>
               <infoLinks>
                 <infoLink id="5f37-c19f-6c66-ce22" name="Mangual" hidden="false" targetId="a661-9d75-22a0-6eeb" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="166a-195c-397b-adbd" name="Manifestaciones del Inmaterium" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb07-2dfa-219c-2f88" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="94f0-c20b-c710-6160" name="Manifestaciones del Inmaterium" hidden="false">
+              <description>Al inicio de la batalla, tras el despliegue, elige una de las siguientes y aplícala a los Brutos demoníacos durante toda la batalla.</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry id="172c-0dd5-29d9-6a52" name="Velocidad imposible" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb4b-dad8-8aff-5b78" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="56f4-2e70-008f-57aa" name="Velocidad imposible" hidden="false">
+                  <description>+1 Movimiento, +1 Iniciativa y Veloz.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="0ffc-69fe-f423-6ea4" name="Veloz" hidden="false" targetId="6d32-e54e-896e-0d9f" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ff8a-2a12-505a-b30c" name="Influencia del Reino de la Sangre" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="00de-4573-40ed-1a72" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9429-66ff-9d6c-162a" name="Odio (todos los enemigos)" hidden="false" targetId="69e8-bae0-e71a-64f6" type="rule"/>
+                <infoLink id="fd6b-5a60-0e64-3d87" name="Carga devastadora" hidden="false" targetId="dbe6-c910-7f37-aeac" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="52c0-75f4-0a17-5a37" name="Influencia del Laberinto de Cristal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7163-bbd5-1f2b-47fd" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2cf7-b37f-0338-4ebb" name="Influencia del Laberinto de Cristal" hidden="false">
+                  <description>Ataques flamígeros y tirada de salvación especial (5+)</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="f5c2-6cd5-3ec8-6a03" name="Ataques flamígeros" hidden="false" targetId="6985-722e-1ce4-b838" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3089-16eb-7ae9-a9b3" name="Influencia del Jardín de las Plagas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a3d-90fa-abc1-e41b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="225b-04a1-020c-11f9" name="Influencia del Jardín de las Plagas" hidden="false">
+                  <description>Ataques de plaga y +1 Herida.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="fdb5-0e40-813d-2f91" name="Ataque de plaga" hidden="false" targetId="5021-a885-be14-93b0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="67d7-0d2b-c3a6-8a22" name="Influencia de los Círculos de la Seducción" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="784d-b1b8-2f36-2f0d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7a5f-bd44-1f1e-4f5e" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
+                <infoLink id="7e23-9840-2e7c-f846" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="08f1-069d-60c1-7500" name="Bestias acorazadas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0dcc-f372-c40c-1144" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9c41-5442-e239-22c0" name="Piel escamosa (3+)" hidden="false" targetId="f3fe-4c6e-197e-832f" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7216-4264-d578-2cc3" name="Vanguardia infernal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="09e4-10c7-aecc-60d2" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5ab2-bd03-8669-8a91" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
+                <infoLink id="435f-3fac-a18c-ca6d" name="Hostigadores" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
@@ -56578,7 +56729,7 @@ grande.</description>
               <profiles>
                 <profile id="8519-f667-654d-2594" name="Ladrón de esencia vital" hidden="false" typeId="def6-1530-806b-c3fd" typeName="Regalo demoníaco">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="3a72-4a1b-6bc8-e21b"/>
+                    <characteristic name="Reglas especiales" typeId="3a72-4a1b-6bc8-e21b">Al final de cada fase de combate, si N&apos;kari causó al menos una herida, recuperará una de sus heridas perdidas previamente durante la batalla.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -56594,7 +56745,7 @@ grande.</description>
               <profiles>
                 <profile id="a405-ed4a-443b-d16a" name="Pinzas destripadoras" hidden="false" typeId="def6-1530-806b-c3fd" typeName="Regalo demoníaco">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="3a72-4a1b-6bc8-e21b"/>
+                    <characteristic name="Reglas especiales" typeId="3a72-4a1b-6bc8-e21b">Los ataques realizados por N&apos;kari obtendrán la regla especial Heridas múltiples (1D3). </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -59737,7 +59888,7 @@ penalizador de -1 en su tirada para herir.</description>
       <selectionEntryGroups>
         <selectionEntryGroup id="1b5e-0962-e6e0-0112" name="Huestes del Caos" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="increment" field="d27b-d7a4-bd57-e2fb" value="1">
+            <modifier type="increment" field="d27b-d7a4-bd57-e2fb" value="1.0">
               <conditions>
                 <condition field="limit::points" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="greaterThan"/>
               </conditions>
@@ -69821,6 +69972,13 @@ D6+turno	Efecto en Styrkaar
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff3-0af4-edae-d450" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="94ab-9e55-be4f-84ac" type="min"/>
               </constraints>
+              <profiles>
+                <profile id="ff4b-4757-f0fd-6e56" name="Fascinación de Slaanesh" hidden="false" typeId="c41e-b78a-d6e4-14ca" typeName="Recompensa del caos">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="390b-454b-3cef-f653">Todos los ataques cuerpo a cuerpo contra el personaje tendrán un penalizador de -1 en su tirada para impactar.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
@@ -69830,6 +69988,13 @@ D6+turno	Efecto en Styrkaar
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2241-6047-1100-cce7" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3c8a-623b-8ab8-e1bf" type="min"/>
               </constraints>
+              <profiles>
+                <profile id="618f-9f59-9769-f5e4" name="Esplendor diabólico" hidden="false" typeId="c41e-b78a-d6e4-14ca" typeName="Recompensa del caos">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="390b-454b-3cef-f653">Todos los enemigos a 12” o menos del personaje tendrán un penalizador de -1 a su Liderazgo.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <entryLinks>
                 <entryLink id="4c87-b5e3-d31e-877d" name="Recompensa mayor" hidden="false" collective="false" import="true" targetId="e471-a674-c4bc-d62e" type="selectionEntry"/>
               </entryLinks>
@@ -88002,13 +88167,13 @@ Golpe letal.</characteristic>
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e93f-d673-55cf-4968" name="Visión dle Caos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e93f-d673-55cf-4968" name="Visión del Caos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="81da-12b5-c3a4-562d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd89-f89a-0927-2d3f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6fe0-6cc8-ddfa-2377" name="Visión dle Caos" hidden="false" typeId="c41e-b78a-d6e4-14ca" typeName="Recompensa del caos">
+            <profile id="6fe0-6cc8-ddfa-2377" name="Visión del Caos" hidden="false" typeId="c41e-b78a-d6e4-14ca" typeName="Recompensa del caos">
               <characteristics>
                 <characteristic name="Reglas especiales" typeId="390b-454b-3cef-f653">Sólo hechiceros. El personaje obtiene un bonificador de +2 a todas sus tiradas de Canalizar.</characteristic>
               </characteristics>

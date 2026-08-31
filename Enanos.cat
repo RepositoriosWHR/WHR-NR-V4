@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="11" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="12" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4be9-2442-f655-1d41" name="Runa talismánica">
       <characteristicTypes>
@@ -9765,22 +9765,6 @@ fase de magia.
         <categoryLink id="0ca8-9b8d-e9ee-e924" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="eda1-d2db-9755-f014" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c39-1630-2b3f-49fc" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="14e1-7669-4a90-dcb2" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a015-858c-b9f8-a328" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a9-8937-492e-4efb" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="9056-315b-521f-3a18" name="Félix Jaegar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94bf-bb65-6b92-6d99" type="max"/>
@@ -15987,7 +15971,7 @@ Las unidades transportadas en la zona de carga o los héroes que estén en la ca
           <modifiers>
             <modifier type="append" field="name" value="(Yunque sin ruedas)"/>
           </modifiers>
-          <description>Un Yunque rúnico sin Ruedas no puede mover de ninguna manera y no puede unirse a unidades. Sin embargo, debido a la unión con la tierra, una vez por batalla podrá repetir la tirada en la Tabla de efectos secundarios del Yunque rúnico.</description>
+          <description>Un Yunque rúnico sin Ruedas no puede mover de ninguna manera salvo que se vea forzado a comenzar la partida en Refuerzos, en cuyo caso podrá mover hasta 6 y no puede unirse a unidades. Sin embargo, debido a la unión con la tierra, una vez por batalla podrá repetir la tirada en la Tabla de efectos secundarios del Yunque rúnico.</description>
         </rule>
       </rules>
       <infoLinks>

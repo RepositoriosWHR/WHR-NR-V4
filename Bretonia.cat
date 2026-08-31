@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="16" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -2000,7 +2000,7 @@
               </constraints>
               <rules>
                 <rule id="4813-3d34-8762-16c1" name="Munición incendiaria" hidden="false">
-                  <description>Debes declarar que el Trebuchet usará esta munición antes de usarla. Se trata de un disparo de Catapulta de Fuerza 4 con la regla especial Ataques flamígeros cuyo impacto se resuelve con Fuerza 6 y las reglas especiales Ataques flamígeros y Heridas múltiples (1D3). Obligará al enemigo a efectuar un chequeo de Pánico al causar al menos una baja.</description>
+                  <description>Debes declarar que el Trebuchet usará esta munición antes de usarla. Se trata de un disparo de Catapulta de Fuerza 4 con la regla especial Ataques flamígeros cuyo impacto central se resuelve con Fuerza 6 (anula la tirada de salvación por armadura), las reglas especiales Ataques flamígeros y Heridas múltiples (1D3). Obligará al enemigo a efectuar un chequeo de Pánico al causar al menos una baja.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -2016,7 +2016,7 @@
               </constraints>
               <rules>
                 <rule id="5cf8-dcb0-8cc8-a95d" name="Grandes rocas" hidden="false">
-                  <description>Debes declarar que el Trebuchet usará esta munición antes de usarla. Se trata de un disparo de Catapulta de alcance 12-36”. Se resuelve con Fuerza 5 y el impacto central con Fuerza 8 y la regla Heridas múltiples (1D6, para determinarlas, tira 2D6 y escoge el resultado más alto).</description>
+                  <description>Debes declarar que el Trebuchet usará esta munición antes de usarla. Se trata de un disparo de Catapulta de alcance 12-36”. Se resuelve con Fuerza 5 y el impacto central con Fuerza 8 (anula la tirada de salvación por armadura) y la regla Heridas múltiples (1D6, para determinarlas, tira 2D6 y escoge el resultado más alto).</description>
                 </rule>
               </rules>
               <costs>
