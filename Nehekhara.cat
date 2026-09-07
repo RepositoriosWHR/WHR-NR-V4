@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0a0-99d0-d4e2-c1f3" name="Nehekhara" revision="6" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0a0-99d0-d4e2-c1f3" name="Nehekhara" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6649-0126-38ec-4e3b" name="Gran papiro">
       <characteristicTypes>
@@ -59,6 +59,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="783f-922e-77f4-b181" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -77,6 +78,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5f38-aa5a-6d02-6b9a" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -89,11 +91,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f447-0b58-bb3d-e397" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -108,6 +112,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -150,6 +155,7 @@
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5ea4-a266-c050-ef93" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
@@ -178,6 +184,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b019-f0dc-fa85-ed4e" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
@@ -186,6 +193,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -201,6 +209,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8cc1-9e43-0801-aa85" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
@@ -219,6 +228,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -238,6 +248,7 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="861d-0609-67c0-db55" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
@@ -256,6 +267,7 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -286,6 +298,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad4e-e6b0-9c53-646d" name="Arqueros esqueleto" hidden="false" collective="false" import="true" type="unit">
@@ -340,6 +353,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4fe5-86d6-469c-ac9e" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -358,6 +372,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c887-489f-5027-066d" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -370,11 +385,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cb40-e146-371c-1e54" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -389,6 +406,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -431,6 +449,7 @@
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5d0e-8fc2-ad97-178f" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
@@ -452,6 +471,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d41b-541a-9786-428e" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
@@ -460,6 +480,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -481,6 +502,7 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="edc1-50c4-b324-4389" name="Bastón de fuego" hidden="false" collective="false" import="true" type="upgrade">
@@ -504,6 +526,7 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -553,6 +576,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edbb-6fb4-ee97-b70c" name="Caballería esquelética" hidden="false" collective="false" import="true" type="unit">
@@ -604,6 +628,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="11.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="135e-e5c3-d6fa-c917" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -622,6 +647,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5ab4-6416-4192-6284" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -634,11 +660,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b753-6650-c65a-dffd" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
@@ -656,6 +684,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4e9c-a4d4-c29b-8fbb" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -670,6 +699,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -712,6 +742,7 @@
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="de96-6f8e-a382-9bbe" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
@@ -740,6 +771,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9513-87ce-8593-1390" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
@@ -748,6 +780,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -770,6 +803,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="60b7-a2d7-d3ee-31f0" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
@@ -788,6 +822,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -815,6 +850,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cf5-9597-4de0-25a8" name="Carros de guerra" hidden="false" collective="false" import="true" type="unit">
@@ -873,6 +909,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1873-f759-2f14-5f3d" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
@@ -915,6 +952,7 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fdb2-68f5-e4bf-08ee" name="Lanza" hidden="false" collective="false" import="true" type="upgrade">
@@ -927,16 +965,19 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="38a0-cce5-d32a-f497" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
@@ -974,11 +1015,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1b04-bbd0-6307-11d9" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -993,6 +1036,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1036,6 +1080,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1058,6 +1103,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f95a-e8a1-9352-cb3a" name="Cuchillas" hidden="false" collective="false" import="true" type="upgrade">
@@ -1073,6 +1119,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1095,6 +1142,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4fd9-4490-f4c0-7e8f" name="Guardia del sepulcro" hidden="false" collective="false" import="true" type="unit">
@@ -1168,6 +1216,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="11.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5d59-c732-8a68-73ac" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1186,6 +1235,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="223c-800e-ab10-a445" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -1198,11 +1248,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4f5d-1405-5488-5a78" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -1217,6 +1269,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1285,11 +1338,13 @@
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0159-2cb4-a50d-0069" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
@@ -1311,6 +1366,7 @@
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="85ae-c4df-fc56-6df1" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
@@ -1319,6 +1375,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1341,6 +1398,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f22c-ca5d-8aff-5b57" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1359,6 +1417,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1385,6 +1444,7 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9f3-7e35-efce-2d59" name="Enjambres funerarios" hidden="false" collective="false" import="true" type="unit">
@@ -1437,6 +1497,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ee44-856e-8839-3a70" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -1451,6 +1512,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1473,6 +1535,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1480,6 +1543,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb1b-4363-3c21-a655" name="Ushabti" hidden="false" collective="false" import="true" type="unit">
@@ -1539,6 +1603,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4722-4308-93ae-c5f4" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1557,11 +1622,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2d9a-2349-96f3-86ff" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -1576,6 +1643,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1595,6 +1663,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b1ab-1345-b6fc-45b6" name="Alabarda" hidden="false" collective="false" import="true" type="upgrade">
@@ -1613,6 +1682,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2dab-07b7-4508-600f" name="Arma de mano adicional" hidden="false" collective="false" import="true" type="upgrade">
@@ -1624,6 +1694,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="01fb-6dd0-bd7f-0f0e" name="Arma de mano y Arco compuesto con flechas áspid" hidden="false" collective="false" import="true" type="upgrade">
@@ -1644,6 +1715,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1681,6 +1753,7 @@
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1703,6 +1776,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d234-2263-208b-8a83" name="Gólem escorpión" hidden="false" collective="false" import="true" type="unit">
@@ -1760,6 +1834,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="95.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b89b-39a2-442f-30ff" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1778,11 +1853,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="290e-21d2-5ad5-3637" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -1797,11 +1874,13 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2f6-1dc1-4214-e426" name="Buitres de Nehekhara" hidden="false" collective="false" import="true" type="unit">
@@ -1859,6 +1938,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="27.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3c38-1361-86dc-eacf" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1877,11 +1957,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2e98-e181-8434-b8a2" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -1896,6 +1978,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1918,6 +2001,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1925,6 +2009,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2de4-859c-d83c-5a72" name="Acechadores sepulcrales" hidden="false" collective="false" import="true" type="unit">
@@ -1982,6 +2067,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="89ce-92f5-84de-d17c" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -2000,6 +2086,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5196-a3d9-af13-4499" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -2012,11 +2099,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1184-1f21-f767-c89c" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2031,6 +2120,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2053,6 +2143,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2060,6 +2151,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c729-2322-9eac-42b5" name="Lanzavirotes de hueso" hidden="false" collective="false" import="true" type="unit">
@@ -2126,6 +2218,7 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8c85-6dcc-3327-48b8" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
@@ -2168,6 +2261,7 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5a1e-d2ce-6542-77ed" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -2180,16 +2274,19 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9b90-5702-5503-078d" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2204,11 +2301,13 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb43-3c89-04f7-1435" name="Catapulta Lanzacráneos" hidden="false" collective="false" import="true" type="unit">
@@ -2269,6 +2368,7 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8aed-97ba-aae9-f678" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
@@ -2311,6 +2411,7 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="481e-9f17-cf3b-93fd" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
@@ -2323,16 +2424,19 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5c9b-2525-4c71-78f6" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2347,6 +2451,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2364,6 +2469,7 @@
               </rules>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2371,6 +2477,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bda-d6d0-2a95-c16a" name="Coloso necrolítico" hidden="false" collective="false" import="true" type="unit">
@@ -2426,6 +2533,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4f57-dc03-7bc4-7b48" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
@@ -2438,11 +2546,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="51af-d38d-33c1-ca7a" name="Coloso necrótico" hidden="false" collective="false" import="true" type="upgrade">
@@ -2470,6 +2580,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="185.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4deb-955b-4230-91cd" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2484,6 +2595,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2502,6 +2614,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="15e1-9cc1-809d-9d82" name="Arma de mano adicional" hidden="false" collective="false" import="true" type="upgrade">
@@ -2513,6 +2626,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="795d-43b8-48eb-abd1" name="Arco del desierto con flechas áspid" hidden="false" collective="false" import="true" type="upgrade">
@@ -2525,6 +2639,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2532,6 +2647,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bad6-4d71-119b-5949" name="Hierotitán" hidden="false" collective="false" import="true" type="unit">
@@ -2588,6 +2704,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="250.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="944d-ee68-54c2-0b56" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -2606,6 +2723,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5480-aad5-d2bf-c066" name="Armas emparejadas" hidden="false" collective="false" import="true" type="upgrade">
@@ -2619,11 +2737,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8a6a-d926-93a6-ac79" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2639,11 +2759,13 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="48c9-ea93-c78b-0bc5" name="Necroesfinge" hidden="false" collective="false" import="true" type="unit">
@@ -2701,6 +2823,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="290.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c4aa-e86b-39c0-c0ef" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -2719,11 +2842,13 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5de5-cb6f-008d-7fef" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2738,6 +2863,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2753,6 +2879,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2760,6 +2887,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="21f2-21a4-03df-6aeb" name="Esfinge de guerra de Nehekhara" hidden="false" collective="false" import="true" type="unit">
@@ -2837,16 +2965,19 @@
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="66a7-22f5-9fa2-93b1" name="Esfinge de guerra" hidden="false" collective="false" import="true" type="upgrade">
@@ -2874,6 +3005,7 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="250.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="03bb-ba16-d415-15dc" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -2889,6 +3021,7 @@
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2910,6 +3043,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6771-d961-de5c-463e" name="Exhalación sortílega" hidden="false" collective="false" import="true" type="upgrade">
@@ -2930,6 +3064,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ca50-d539-1bcc-19fe" name="Arcos funerarios" hidden="false" collective="false" import="true" type="upgrade">
@@ -2942,6 +3077,7 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2949,6 +3085,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf12-63f6-a074-a277" name="Rey funerario" hidden="false" collective="false" import="true" type="unit">
@@ -3045,6 +3182,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="175.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2d11-5c33-207e-f865" name="Objetos mágicos y Reliquias" hidden="false" collective="false" import="true" type="upgrade">
@@ -3332,6 +3470,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1d70-2aa3-2ccc-40a0" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -3348,6 +3487,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="849c-08a9-a934-b0b7" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -3366,6 +3506,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3086-aa59-d4d7-173b" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -3378,11 +3519,13 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="510e-f521-f820-f1f5" name="Rey de Nehekhara" hidden="false" collective="false" import="true" type="upgrade">
@@ -3401,6 +3544,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4eda-0f0a-6c5b-067c" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -3415,6 +3559,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3480,6 +3625,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="3.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c4c8-4f91-9e75-3c86" name="Arco con flechas áspid" hidden="false" collective="false" import="true" type="upgrade">
@@ -3492,6 +3638,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3517,6 +3664,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="eec3-27ff-6611-d6c4" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
@@ -3528,6 +3676,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="6.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="887a-4cf6-faf7-a499" name="Mayal" hidden="false" collective="false" import="true" type="upgrade">
@@ -3539,6 +3688,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="4.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="80f8-4fcc-5d06-723e" name="Lanza" hidden="false" collective="false" import="true" type="upgrade">
@@ -3567,6 +3717,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="6.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="15db-abe5-b939-c7a9" name="Arma de mano adicional" hidden="false" collective="false" import="true" type="upgrade">
@@ -3578,6 +3729,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="3.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3587,6 +3739,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edad-cb01-5973-0846" name="Sumo sacerdote funerario" hidden="false" collective="false" import="true" type="unit">
@@ -3788,6 +3941,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6530-757a-a3e3-cf90" name="Hierofante" hidden="false" collective="false" import="true" type="upgrade">
@@ -3810,6 +3964,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0fdf-5694-db81-21bc" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -3826,6 +3981,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4264-451c-b024-d7a5" name="Sumo sucerdote funerario" hidden="false" collective="false" import="true" type="upgrade">
@@ -3865,6 +4021,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="185.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f8da-79f5-aafc-00f6" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -3883,11 +4040,13 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cf7e-d933-4de8-4d25" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -3902,6 +4061,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3944,6 +4104,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="55.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="71f1-937c-cd5b-d521" name="Nivel de magia 3" hidden="false" collective="false" import="true" type="upgrade">
@@ -3955,6 +4116,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3973,6 +4135,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ee20-6d77-4fa6-0d78" name="Arma de mano adicional" hidden="false" collective="false" import="true" type="upgrade">
@@ -3984,6 +4147,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4008,6 +4172,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba7f-e054-d854-707b" name="Príncipe funerario" hidden="false" collective="false" import="true" type="unit">
@@ -4146,6 +4311,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d17e-d6df-0ec1-d12c" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" type="upgrade">
@@ -4183,6 +4349,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="69af-fcc6-4d19-466c" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -4199,6 +4366,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="de3d-22fc-96a2-d1db" name="Principe funerario" hidden="false" collective="false" import="true" type="upgrade">
@@ -4238,6 +4406,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="105.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dc2c-bf13-309f-8348" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -4256,6 +4425,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8b15-da71-69ee-d294" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -4268,11 +4438,13 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d578-cd4b-1cbe-0d0c" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -4287,6 +4459,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4318,6 +4491,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="3.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a070-ef28-6cda-4484" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
@@ -4329,6 +4503,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4347,6 +4522,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="4.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7531-d0d8-2023-cca6" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
@@ -4358,6 +4534,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d9c5-9dc0-d931-8d17" name="Arma de mano adicional" hidden="false" collective="false" import="true" type="upgrade">
@@ -4369,6 +4546,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="2.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="027d-0c7d-0f5f-8376" name="Mayal" hidden="false" collective="false" import="true" type="upgrade">
@@ -4380,6 +4558,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="3.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="3312-8c53-6eb5-54c3" name="Lanza" hidden="false" collective="false" import="true" type="upgrade">
@@ -4408,6 +4587,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="4.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4417,6 +4597,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b19-2ed8-540f-58a2" name="Heraldo del sepulcro" hidden="false" collective="false" import="true" type="unit">
@@ -4542,6 +4723,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="988f-52ae-70c5-b35c" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" type="upgrade">
@@ -4584,6 +4766,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7b96-93e4-ecfc-71ab" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -4600,6 +4783,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8680-5371-1567-c3be" name="Heraldo del sepulcro" hidden="false" collective="false" import="true" type="upgrade">
@@ -4644,6 +4828,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6fbc-70f4-993c-6ba6" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -4662,6 +4847,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f8d9-e2f3-d917-5984" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -4674,11 +4860,13 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c72a-908b-a8cf-9899" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -4693,6 +4881,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4751,6 +4940,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4769,6 +4959,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="4.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f85f-0118-a455-3981" name="Arma a dos manos funeraria" hidden="false" collective="false" import="true" type="upgrade">
@@ -4780,6 +4971,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="a4cf-b32b-de34-ba44" name="Arma de mano adicional funeraria" hidden="false" collective="false" import="true" type="upgrade">
@@ -4791,6 +4983,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="2.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9b8c-a6ea-3002-df7e" name="Mayal funerario" hidden="false" collective="false" import="true" type="upgrade">
@@ -4802,6 +4995,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="3.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2e8a-503b-c00f-5215" name="Lanza funeraria" hidden="false" collective="false" import="true" type="upgrade">
@@ -4820,6 +5014,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="4.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4829,6 +5024,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46aa-3ea8-2618-edba" name="Sacerdote funerario" hidden="false" collective="false" import="true" type="unit">
@@ -4899,6 +5095,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8ebb-2788-e362-ad6a" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -4969,6 +5166,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a2a0-6171-dcaa-9c1d" name="Hierofante" hidden="false" collective="false" import="true" type="upgrade">
@@ -4988,6 +5186,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a58c-14fd-4560-c8bc" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -5004,6 +5203,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a033-eacb-efc3-c4a1" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -5022,11 +5222,13 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6f0c-978d-8874-0d97" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -5041,6 +5243,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5075,6 +5278,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3070-d777-74ad-8d29" name="Nivel de magia 1" hidden="false" collective="false" import="true" type="upgrade">
@@ -5086,6 +5290,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5104,6 +5309,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3bfe-e7c0-8132-d9e6" name="Arma de mano adicional" hidden="false" collective="false" import="true" type="upgrade">
@@ -5115,6 +5321,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="1.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5129,6 +5336,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99b7-0e2a-1032-9626" name="Necrotecto" hidden="false" collective="false" import="true" type="unit">
@@ -5212,6 +5420,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4a1b-9324-2bb2-50c2" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -5228,6 +5437,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6b7f-191c-21f4-3abb" name="Necrotecto" hidden="false" collective="false" import="true" type="upgrade">
@@ -5255,6 +5465,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="01e3-1875-1e52-1418" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -5273,6 +5484,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="165f-adf0-edc1-8b2b" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
@@ -5285,6 +5497,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="42ca-75ec-a6f3-7966" name="Látgo de necrotecto" hidden="false" collective="false" import="true" type="upgrade">
@@ -5297,11 +5510,13 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5cf3-2b06-424a-556d" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -5316,6 +5531,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5331,6 +5547,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5338,6 +5555,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="521b-46f4-93ff-4460" name="Arqueros a caballo" hidden="false" collective="false" import="true" type="unit">
@@ -5390,6 +5608,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="11.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d1a0-daec-e144-acd6" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -5408,6 +5627,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6938-8807-06cd-6f4a" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
@@ -5420,11 +5640,13 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fa0d-f3f3-df74-4d41" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
@@ -5442,6 +5664,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7c13-8826-32cf-691c" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -5456,6 +5679,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5498,14 +5722,29 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c0ed-fac0-0fa1-d9df" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="580d-98e9-ff27-9e3d" type="max"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b34c-01a1-ce4f-0058" name="Estandarte mágico" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26a8-27d4-0687-9ef6" type="max"/>
+                    <constraint field="points" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6505-0fb4-b786-0ee5" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a48a-d815-0f86-c5b6" name="Estandartes mágicos. Nehekhara" hidden="false" collective="false" import="true" targetId="7013-f91e-5600-9a59" type="selectionEntryGroup"/>
+                    <entryLink id="8367-450b-b2c1-d262" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
+                    <entryLink id="ff8a-96b0-fa37-a2de" name="Estandartes mágicos. Orden" hidden="false" collective="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5d46-af68-ac5f-d9d5" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
@@ -5514,6 +5753,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5536,6 +5776,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5562,6 +5803,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d155-20f2-0aa7-9d99" name="Gran salmodiador" hidden="false" collective="false" import="true" type="unit">
@@ -5790,6 +6032,7 @@ hechicero de nivel 3.</description>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4135-e47d-7236-170d" name="Gran salmodiador" hidden="false" collective="false" import="true" type="upgrade">
@@ -5824,6 +6067,7 @@ hechicero de nivel 3.</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="135.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c568-0151-7ffa-3caa" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -5842,11 +6086,13 @@ hechicero de nivel 3.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f438-68b5-298b-5dec" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -5860,6 +6106,7 @@ hechicero de nivel 3.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5890,6 +6137,7 @@ hechicero de nivel 3.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8498-9c1f-b874-5724" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
@@ -5901,6 +6149,7 @@ hechicero de nivel 3.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5925,6 +6174,7 @@ hechicero de nivel 3.</description>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c7f-5097-2041-c369" name="Cantor de guerra" hidden="false" collective="false" import="true" type="unit">
@@ -6019,6 +6269,7 @@ hechicero de nivel 3.</description>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b043-8d8b-b50b-b62c" name="Cantor de guerra" hidden="false" collective="false" import="true" type="upgrade">
@@ -6053,6 +6304,7 @@ hechicero de nivel 3.</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a7ad-9d44-d67c-ae38" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -6071,11 +6323,13 @@ hechicero de nivel 3.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5587-7db8-0549-aeae" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -6089,6 +6343,7 @@ hechicero de nivel 3.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6133,6 +6388,7 @@ disparando, huyendo o disparando y huyendo, además de manteniendo la posición.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6151,6 +6407,7 @@ disparando, huyendo o disparando y huyendo, además de manteniendo la posición.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b268-8d7c-5f2e-bec2" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
@@ -6162,6 +6419,7 @@ disparando, huyendo o disparando y huyendo, además de manteniendo la posición.
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="3.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6176,6 +6434,7 @@ disparando, huyendo o disparando y huyendo, además de manteniendo la posición.
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1081-b8f8-ac6f-1dcf" name="[E] - Khalida Neferher, Reina de Lybaras" hidden="false" collective="false" import="true" type="unit">
@@ -6248,6 +6507,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1305-4631-6976-23a3" name="Khalida Neferher, reina de Lybaras" hidden="false" collective="false" import="true" type="upgrade">
@@ -6275,6 +6535,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="350.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="68a8-ce16-28b3-5bda" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -6300,6 +6561,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a412-e852-dab4-bf37" name="Cuchillas" hidden="false" collective="false" import="true" type="upgrade">
@@ -6312,6 +6574,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4811-d881-e62e-1255" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -6324,11 +6587,13 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7b97-9682-5730-703d" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -6343,6 +6608,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6365,6 +6631,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2775-cb01-8a4d-7c43" name="[E] - Khatep el eterno, Sumo hierofante de Khemri" hidden="false" collective="false" import="true" type="unit">
@@ -6423,6 +6690,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a991-dc81-e4d1-0a01" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -6439,6 +6707,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2f60-43ca-d003-b15a" name="Khatep el eterno, sumo hierofante de Khemri" hidden="false" collective="false" import="true" type="upgrade">
@@ -6466,6 +6735,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="445.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="44a5-ab5e-a0cd-1ca6" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -6484,6 +6754,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="867b-4194-b294-3cb5" name="Bastón del liche" hidden="false" collective="false" import="true" type="upgrade">
@@ -6500,6 +6771,7 @@ Khsar” como un objeto portahechizos con nivel de energía 4.</description>
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="adb4-ebfc-ca4c-0d2f" name="Pergamino de la palabra maldita" hidden="false" collective="false" import="true" type="upgrade">
@@ -6518,11 +6790,13 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5c61-78f9-fd21-4ae2" name="Nivel de magia 4" hidden="false" collective="false" import="true" type="upgrade">
@@ -6532,6 +6806,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6e63-dfa3-02ea-085b" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -6546,6 +6821,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6568,6 +6844,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b34-dfac-7512-6b8d" name="[E] - Príncipe Apophas, señor maldito de los escarabajos" hidden="false" collective="false" import="true" type="unit">
@@ -6640,6 +6917,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="170.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5ca0-5337-4d90-dcdb" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -6666,11 +6944,13 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9543-4c59-c5c3-433b" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -6685,11 +6965,13 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff23-4ca2-c1e0-3efc" name="[E] - Rey Phar de Mahrak" hidden="false" collective="false" import="true" type="unit">
@@ -6773,6 +7055,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="295.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="280e-3b90-9507-9bc9" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -6789,6 +7072,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c286-a0c4-69fc-3f00" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -6816,6 +7100,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6cd3-e13c-c291-8202" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -6828,6 +7113,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1c89-d1c1-a788-0e15" name="Arco con flechas áspid" hidden="false" collective="false" import="true" type="upgrade">
@@ -6841,6 +7127,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4417-066d-6a9a-2664" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
@@ -6853,6 +7140,7 @@ de Fuerza 1 que no permiten tirada de salvación por armadura.</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c82b-8b00-2c95-b19b" name="Corona de Mahrak" hidden="false" collective="false" import="true" type="upgrade">
@@ -6877,11 +7165,13 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6b49-fa67-d69d-dabe" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -6896,6 +7186,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6918,6 +7209,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53ec-e2c6-23e4-2e5e" name="[E] - Príncipe Tutankhanut de Numas" hidden="false" collective="false" import="true" type="unit">
@@ -6979,6 +7271,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cb32-e1d8-2c49-1b67" name="Príncipe Tutankhanut de Numas" hidden="false" collective="false" import="true" type="upgrade">
@@ -7013,6 +7306,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="215.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5b94-4baa-c541-d32c" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -7038,6 +7332,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3604-7132-0d45-20e0" name="Máscara mortuoria" hidden="false" collective="false" import="true" type="upgrade">
@@ -7057,6 +7352,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a0d8-0bb6-8144-5eea" name="Arco de caza" hidden="false" collective="false" import="true" type="upgrade">
@@ -7078,11 +7374,13 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5bce-5e1c-adaa-09c1" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -7098,6 +7396,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7120,6 +7419,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3939-9490-324b-9dd9" name="[E] - Nekhap el heraldo, portaetandarte real de Khemri" hidden="false" collective="false" import="true" type="unit">
@@ -7200,6 +7500,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="265.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9e40-74f9-0333-c4da" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -7226,6 +7527,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6f44-4670-316f-16a9" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -7238,11 +7540,13 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e8db-5b14-e7a0-48db" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" type="upgrade">
@@ -7268,6 +7572,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7281,6 +7586,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b665-dcee-fdcd-2b2e" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -7295,6 +7601,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7325,6 +7632,7 @@ Ptra: Todas las unidades amigas a 18” o menos obtienen la regla especial Tozud
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e5f-64a4-0b46-b7a6" name="[E] - Ramhotep el visionario" hidden="false" collective="false" import="true" type="unit">
@@ -7393,6 +7701,7 @@ enemigos!).</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="105.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="95af-b254-cd32-fd69" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -7409,6 +7718,7 @@ enemigos!).</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3615-234d-851f-f97a" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -7428,6 +7738,7 @@ enemigos!).</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="52a2-5489-b0d0-2689" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -7440,6 +7751,7 @@ enemigos!).</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2fd8-6009-5738-1cee" name="Máscara mortuoria del visionario" hidden="false" collective="false" import="true" type="upgrade">
@@ -7460,11 +7772,13 @@ enemigos!).</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f3ab-c26b-c105-9ea8" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -7479,11 +7793,13 @@ enemigos!).</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="59ed-173c-7f19-b4e8" name="[E] - Sehensmet, visir de Quatar" hidden="false" collective="false" import="true" type="unit">
@@ -7541,6 +7857,7 @@ enemigos!).</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5b84-f91d-0021-aa0b" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -7557,6 +7874,7 @@ enemigos!).</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1a65-d9da-f955-41f8" name="Sehensmet, visir de Quatar" hidden="false" collective="false" import="true" type="upgrade">
@@ -7584,6 +7902,7 @@ enemigos!).</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="475.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e215-bbc7-3e67-ff09" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -7609,6 +7928,7 @@ enemigos!).</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ba46-4c67-0925-ae9b" name="Armadura sagrada de Quatar" hidden="false" collective="false" import="true" type="upgrade">
@@ -7628,11 +7948,13 @@ enemigos!).</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="453b-fd56-d7be-df2b" name="Nivel de magia 4" hidden="false" collective="false" import="true" type="upgrade">
@@ -7642,6 +7964,7 @@ enemigos!).</description>
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ca11-dc1e-2bff-e9c8" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -7657,11 +7980,13 @@ enemigos!).</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90ac-969b-e7cf-bbd5" name="[E] - Settra el magno, rey de Nehekhara" hidden="false" collective="false" import="true" type="unit">
@@ -7742,6 +8067,7 @@ enemigos!).</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="620.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cfda-db84-3759-cc97" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -7758,6 +8084,7 @@ enemigos!).</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cab5-4e65-4f64-0462" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -7784,6 +8111,7 @@ enemigos!).</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2944-cbc2-3757-26db" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -7796,6 +8124,7 @@ enemigos!).</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8f78-d6c3-4500-bcf4" name="Broche de Usirian" hidden="false" collective="false" import="true" type="upgrade">
@@ -7815,6 +8144,7 @@ enemigos!).</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4a5b-86d1-b669-16dc" name="Corona de Nehekhara" hidden="false" collective="false" import="true" type="upgrade">
@@ -7835,11 +8165,13 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cbdf-3a11-4874-481d" name="Carruaje de los dioses" hidden="false" collective="false" import="true" type="upgrade">
@@ -7896,16 +8228,19 @@ mágica).</characteristic>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3130-e057-fbed-b860" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
@@ -7938,6 +8273,7 @@ mágica).</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f420-8b66-d2ef-8a3a" name="Nivel de magia 1" hidden="false" collective="false" import="true" type="upgrade">
@@ -7947,6 +8283,7 @@ mágica).</characteristic>
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="875a-7894-5b72-39aa" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -7962,6 +8299,7 @@ mágica).</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7970,6 +8308,7 @@ mágica).</characteristic>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4981-1800-1e3b-eba5" name="[Ex] - Cazadores de Usirian" hidden="false" collective="false" import="true" type="unit">
@@ -8035,6 +8374,7 @@ mágica).</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7abe-ef11-dfae-4fd3" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -8053,11 +8393,13 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1b51-c763-112c-4c1a" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -8072,6 +8414,7 @@ mágica).</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8117,6 +8460,7 @@ mágica).</characteristic>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8140,6 +8484,7 @@ mágica).</characteristic>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ca2-083f-30ba-3c7b" name="Caballeros de la necrópolis" hidden="false" collective="false" import="true" type="unit">
@@ -8197,6 +8542,7 @@ mágica).</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f059-3a59-07f0-1419" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -8215,6 +8561,7 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2e69-2c1f-8517-c023" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -8227,11 +8574,13 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e551-8766-0065-58b6" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
@@ -8249,6 +8598,7 @@ mágica).</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c729-1e1b-53e1-c2a3" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -8264,6 +8614,7 @@ mágica).</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8308,6 +8659,7 @@ mágica).</characteristic>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="12.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="00bd-75e1-8a4b-6a5e" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
@@ -8316,6 +8668,7 @@ mágica).</characteristic>
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="12.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="262b-bf83-4592-2fc0" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
@@ -8337,6 +8690,7 @@ mágica).</characteristic>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="12.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8359,6 +8713,7 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8366,6 +8721,7 @@ mágica).</characteristic>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="04e7-e433-22f9-8845" name="[E] - Amenadresh, el heraldo de Ptra" hidden="false" collective="false" import="true" type="unit">
@@ -8413,6 +8769,7 @@ mágica).</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cda3-e2e2-d43c-a8a0" name="Amenadresh, el heraldo de Ptra" hidden="false" collective="false" import="true" type="upgrade">
@@ -8440,6 +8797,7 @@ mágica).</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="325.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ebd5-fcef-5e4f-a990" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -8465,6 +8823,7 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="89b9-a7ac-931f-97ef" name="Tocado de las estrellas" hidden="false" collective="false" import="true" type="upgrade">
@@ -8481,11 +8840,13 @@ mágica).</characteristic>
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2464-3d57-4e9f-4e9c" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
@@ -8532,11 +8893,13 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9d7a-baa2-3432-7bde" name="Nivel de magia 2" hidden="false" collective="false" import="true" type="upgrade">
@@ -8546,6 +8909,7 @@ mágica).</characteristic>
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bd02-22d8-6521-4895" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -8561,11 +8925,13 @@ mágica).</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3950-8323-cf3f-41cd" name="[E] - Rey Anera-Kotrak de Zandri" hidden="false" collective="false" import="true" type="unit">
@@ -8629,6 +8995,7 @@ mágica).</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="265.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="af17-ec16-7664-0040" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -8645,6 +9012,7 @@ mágica).</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b228-e333-23e7-7026" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -8663,6 +9031,7 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3a24-42fe-b834-9c2d" name="Gran Khopesh de Zandri" hidden="false" collective="false" import="true" type="upgrade">
@@ -8684,6 +9053,7 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="58e0-bf91-6580-0096" name="Escarabajo de jade" hidden="false" collective="false" import="true" type="upgrade">
@@ -8703,11 +9073,13 @@ mágica).</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0d93-812d-bd68-c8e7" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -8722,11 +9094,13 @@ mágica).</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac28-cef5-1292-bb1e" name="[Ex] - Guerreros sagrados de Mahrak" hidden="false" collective="false" import="true" type="unit">
@@ -8789,6 +9163,7 @@ Mahrak.</description>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="24.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0061-7932-f684-8a2f" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -8807,6 +9182,7 @@ Mahrak.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="08b0-b5cf-14b6-beb8" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
@@ -8819,11 +9195,13 @@ Mahrak.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="daf5-403e-154e-3d88" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -8838,6 +9216,7 @@ Mahrak.</description>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8863,6 +9242,7 @@ Mahrak.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="039c-65c7-5d60-59fe" name="Mayal" hidden="false" collective="false" import="true" type="upgrade">
@@ -8881,6 +9261,7 @@ Mahrak.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ca16-85ff-ed9d-3127" name="Arma de mano adicional" hidden="false" collective="false" import="true" type="upgrade">
@@ -8899,6 +9280,7 @@ Mahrak.</description>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8955,6 +9337,7 @@ Mahrak.</description>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="12.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ef09-5dae-4fcc-6390" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
@@ -8963,6 +9346,7 @@ Mahrak.</description>
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8dbe-7361-89a9-24b7" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
@@ -8984,6 +9368,7 @@ Mahrak.</description>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8991,6 +9376,7 @@ Mahrak.</description>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf79-70d3-89e2-60a1" name="[Ex] - Titán de Khemri" hidden="false" collective="false" import="true" type="unit">
@@ -9081,6 +9467,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="490.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="131e-b5e3-a60b-eaf0" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -9099,11 +9486,13 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f1cd-8ca1-2c4b-05ed" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -9118,11 +9507,13 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="79bd-7cbc-244a-1114" name="[E] - Rahmohtep, rey escarabajo de Numas" hidden="false" collective="false" import="true" type="unit">
@@ -9180,6 +9571,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="959e-ff3f-ea0f-d810" name="Rahmohtep, rey escarabajo de Numas" hidden="false" collective="false" import="true" type="upgrade">
@@ -9214,6 +9606,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="245.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2475-68bf-bd28-33d8" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -9240,6 +9633,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a8aa-6012-4a56-f774" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -9252,6 +9646,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="35ac-9943-90ea-9d82" name="Máscara del dios escarabajo" hidden="false" collective="false" import="true" type="upgrade">
@@ -9273,11 +9668,13 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d395-e8b0-59d3-34bc" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -9292,6 +9689,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9314,6 +9712,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa47-a4e4-6211-0af1" name="[E] - Pedget, heraldo del rey escarabajo" hidden="false" collective="false" import="true" type="unit">
@@ -9372,6 +9771,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="165.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1089-cb44-aa00-e005" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -9398,6 +9798,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9173-d72f-bd07-0287" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
@@ -9410,6 +9811,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f903-a0e3-6479-b328" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
@@ -9422,6 +9824,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0414-6a88-8f26-87a1" name="Estandarte del dios escarabajo" hidden="false" collective="false" import="true" type="upgrade">
@@ -9442,11 +9845,13 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="82b2-8f8a-ab71-42e7" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" type="upgrade">
@@ -9464,6 +9869,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7af3-4d3e-80de-fd7d" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -9478,11 +9884,13 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -9507,6 +9915,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="498a-f35d-9e53-f2c2" name="Arca de las almas" hidden="false" collective="false" import="true" type="upgrade">
@@ -9566,6 +9975,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7c67-0492-01cb-cfc2" name="Guardianes del arca" hidden="false" collective="false" import="true" type="upgrade">
@@ -9608,16 +10018,19 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bcf1-e7b9-ea4b-df6f" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
@@ -9631,11 +10044,13 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da05-8ccf-c4ed-d807" name="Esfinge de guerra" hidden="false" collective="false" import="true" type="upgrade">
@@ -9691,6 +10106,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="674e-f10b-7cc3-f1e3" name="Aguijón venenoso" hidden="false" collective="false" import="true" type="upgrade">
@@ -9710,6 +10126,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="15.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9720,6 +10137,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3a0-8a2e-be1a-7034" name="Corcel esquelético" hidden="false" collective="false" import="true" type="upgrade">
@@ -9754,6 +10172,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e1e0-3366-cf02-4871" name="Carro de guerra" hidden="false" collective="false" import="true" type="upgrade">
@@ -9793,6 +10212,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="38a8-308e-c666-3b8b" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
@@ -9834,11 +10254,13 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9854,6 +10276,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9861,6 +10284,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e542-6cf2-e53a-faa8" name="Los arqueros de la reina" hidden="false" collective="false" import="true" type="upgrade">
@@ -9872,6 +10296,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67b7-a850-937f-342f" name="Necrosierpe" hidden="false" collective="false" import="true" type="upgrade">
@@ -9924,6 +10349,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3215-16b1-5af1-a792" name="Unidad de Rasetra" hidden="false" collective="false" import="true" type="upgrade">
@@ -9950,6 +10376,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </rules>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24aa-05fe-1606-96a7" name="Unidad de Zandri" hidden="false" collective="false" import="true" type="upgrade">
@@ -9971,6 +10398,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2c4-033d-783d-7071" name="Unidad de Lybaras" hidden="false" collective="false" import="true" type="upgrade">
@@ -9995,6 +10423,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="131e-c945-b444-ac03" name="Unidad de Numas" hidden="false" collective="false" import="true" type="upgrade">
@@ -10016,6 +10445,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="753b-2523-0ba4-ed0b" name="Unidad de Lahmia" hidden="false" collective="false" import="true" type="upgrade">
@@ -10037,6 +10467,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4711-1f4b-20eb-e01d" name="Unidad de Bel Aliad" hidden="false" collective="false" import="true" type="upgrade">
@@ -10058,6 +10489,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="096a-19cf-0b5c-24e3" name="Unidad de Ka Sabar" hidden="false" collective="false" import="true" type="upgrade">
@@ -10082,6 +10514,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cee1-c907-384a-004e" name="Dragón esqueleto" hidden="false" collective="false" import="true" type="upgrade">
@@ -10143,6 +10576,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e548-a7ce-4668-e1a0" name="Legión escarabajo" hidden="false" collective="false" import="true" type="upgrade">
@@ -10164,6 +10598,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </rules>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5db9-0bc4-db52-c041" name="Unidad básica" hidden="false" collective="false" import="true" type="upgrade">
@@ -10173,6 +10608,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -10202,6 +10638,7 @@ Portal al Inframundo: Coloca la plantilla redonda grande en contacto con el fron
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10235,6 +10672,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10265,6 +10703,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10296,6 +10735,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10320,6 +10760,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="18bc-9559-ab4a-b53d" name="Pectoral de Shapesh" hidden="false" collective="false" import="true" type="upgrade">
@@ -10336,6 +10777,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1ab9-5eb9-8462-f160" name="Sello de invocación de Djedra" hidden="false" collective="false" import="true" type="upgrade">
@@ -10352,6 +10794,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="546d-c4bf-3ab7-9d40" name="Colgante de Djaf" hidden="false" collective="false" import="true" type="upgrade">
@@ -10368,6 +10811,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10401,6 +10845,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10425,6 +10870,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f7fe-2143-c435-9ae1" name="Icono del héroe" hidden="false" collective="false" import="true" type="upgrade">
@@ -10441,6 +10887,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10468,6 +10915,7 @@ ataque que impacta automáticamente y tiene la regla especial Golpe letal heroic
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="959d-c77b-3809-64f0" name="Tablillas de los poderosos cánticos de Neferra" hidden="false" collective="false" import="true" type="upgrade">
@@ -10488,6 +10936,7 @@ Energía o Dispersión.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10512,6 +10961,7 @@ Energía o Dispersión.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0615-f66f-0ccb-9758" name="Cánope de Enkhil" hidden="false" collective="false" import="true" type="upgrade">
@@ -10528,6 +10978,7 @@ Energía o Dispersión.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1aa9-c159-0ab1-d958" name="Vaso hierático" hidden="false" collective="false" import="true" type="upgrade">
@@ -10544,6 +10995,7 @@ Energía o Dispersión.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="83f0-cc80-436c-a721" name="El Báculo de Usirian" hidden="false" collective="false" import="true" type="upgrade">
@@ -10561,6 +11013,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10588,6 +11041,7 @@ chequeo de Pánico.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b5ec-98b3-00dd-af61" name="Estandarte de las arenas" hidden="false" collective="false" import="true" type="upgrade">
@@ -10607,6 +11061,7 @@ chequeo de Pánico.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10631,6 +11086,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="23e9-82bd-4ec8-973f" name="Estandarte de los espejismos" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -10647,6 +11103,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8590-7844-1099-051e" name="Icono de Rakaph" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -10663,6 +11120,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="53a8-0a6b-2b94-056b" name="Estandarte de las palabras malditas" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -10679,6 +11137,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8556-6754-cc86-aa4b" name="Estandarte de las legiones de Nehekhara" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -10695,6 +11154,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="72ad-35c6-622b-294b" name="Estandarte de la legión eterna" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -10711,6 +11171,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10731,6 +11192,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d11b-0355-f8b5-57ff" name="Pergamino de la furia sagrada de Khorekhab" hidden="false" collective="false" import="true" type="upgrade">
@@ -10747,6 +11209,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="015e-a192-56e3-b4bc" name="Pergamino de la vitalidad de Menkaure" hidden="false" collective="false" import="true" type="upgrade">
@@ -10763,6 +11226,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10783,6 +11247,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7dbc-093b-d39e-9f55" name="Gran papiro de la furia sagrada de Khorekhab" hidden="false" collective="false" import="true" type="upgrade">
@@ -10799,6 +11264,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5f41-f622-9cc5-62ab" name="Gran papiro de invocación ultraterrena de Djedra" hidden="false" collective="false" import="true" type="upgrade">
@@ -10815,6 +11281,7 @@ chequeo de Pánico.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10842,6 +11309,7 @@ chequeo de Pánico.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="07ed-2c50-508a-e323" name="Pellejo de lagarto del trueno" hidden="false" collective="false" import="true" type="upgrade">
@@ -10862,6 +11330,7 @@ chequeo de Pánico.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="beb7-b159-270d-0758" name="Armadura del escorpión" hidden="false" collective="false" import="true" type="upgrade">
@@ -10881,6 +11350,7 @@ chequeo de Pánico.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0bb9-d29f-979c-4228" name="Escudo de Ptra" hidden="false" collective="false" import="true" type="upgrade">
@@ -10900,6 +11370,7 @@ chequeo de Pánico.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="097f-b96c-40ea-e882" name="Armadura de Neru" hidden="false" collective="false" import="true" type="upgrade">
@@ -10919,6 +11390,7 @@ chequeo de Pánico.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10953,6 +11425,7 @@ chequeo de Pánico.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10981,6 +11454,7 @@ chequeo de Pánico.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11008,6 +11482,7 @@ chequeo de Pánico.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3bd8-7839-5349-e34a" name="Espada de Setep" hidden="false" collective="false" import="true" type="upgrade">
@@ -11028,6 +11503,7 @@ chequeo de Pánico.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c70c-b14b-6aa6-bf18" name="Khopesh del verdugo" hidden="false" collective="false" import="true" type="upgrade">
@@ -11049,6 +11525,7 @@ en +1.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9136-09d2-2b4f-7e41" name="Daga del escarabajo de la muerte" hidden="false" collective="false" import="true" type="upgrade">
@@ -11068,6 +11545,7 @@ en +1.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11096,6 +11574,7 @@ en +1.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11126,6 +11605,7 @@ en +1.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11150,6 +11630,7 @@ en +1.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11177,6 +11658,7 @@ en +1.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11205,6 +11687,7 @@ en +1.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c614-0468-170c-803b" name="Broche del gran desierto" hidden="false" collective="false" import="true" type="upgrade">
@@ -11221,6 +11704,7 @@ en +1.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a5c9-52f8-f54b-1ee2" name="Brazaletes del sol" hidden="false" collective="false" import="true" type="upgrade">
@@ -11237,6 +11721,7 @@ en +1.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fdd8-731f-8858-d53f" name="Balanza de Phakth" hidden="false" collective="false" import="true" type="upgrade">
@@ -11253,6 +11738,7 @@ en +1.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11277,6 +11763,7 @@ en +1.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11308,6 +11795,7 @@ en +1.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11350,11 +11838,13 @@ en +1.</characteristic>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2c6f-897e-3dbc-a037" name="Montura" hidden="false" collective="false" import="true" type="upgrade">
@@ -11372,11 +11862,13 @@ en +1.</characteristic>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8fca-1669-6483-ce19" name="Rey de Bel Aliad" hidden="false" collective="false" import="true" type="upgrade">
@@ -11406,11 +11898,13 @@ en +1.</characteristic>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="64c2-02ee-3bc0-4465" name="Rey de Ka-Sabar" hidden="false" collective="false" import="true" type="upgrade">
@@ -11438,11 +11932,13 @@ en +1.</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9e9c-9de9-9208-71d6" name="Rey de Khemri" hidden="false" collective="false" import="true" type="upgrade">
@@ -11462,6 +11958,7 @@ en +1.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="47ca-fba4-9809-e229" name="Rey de Lahmia" hidden="false" collective="false" import="true" type="upgrade">
@@ -11492,16 +11989,19 @@ en +1.</characteristic>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bc69-979a-6f5b-5373" name="Rey de Lybaras" hidden="false" collective="false" import="true" type="upgrade">
@@ -11520,6 +12020,7 @@ en +1.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ce91-3b92-5826-bce5" name="Rey de Numas" hidden="false" collective="false" import="true" type="upgrade">
@@ -11535,6 +12036,7 @@ en +1.</characteristic>
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f641-b4a4-925b-b85d" name="Rey de Quatar" hidden="false" collective="false" import="true" type="upgrade">
@@ -11562,11 +12064,13 @@ en +1.</characteristic>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b346-e89d-117b-72f9" name="Rey de Rasetra" hidden="false" collective="false" import="true" type="upgrade">
@@ -11587,6 +12091,7 @@ en +1.</characteristic>
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d4a3-9378-67b4-68f4" name="Rey de Zandri" hidden="false" collective="false" import="true" type="upgrade">
@@ -11617,16 +12122,19 @@ en +1.</characteristic>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11654,6 +12162,7 @@ en +1.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11685,6 +12194,7 @@ en +1.</characteristic>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11714,6 +12224,7 @@ en +1.</characteristic>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
