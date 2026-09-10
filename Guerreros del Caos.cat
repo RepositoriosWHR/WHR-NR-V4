@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="399a-efe8-a7c4-3104" name="Guerreros del Caos" revision="16" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Vil y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="399a-efe8-pubN65537" name="Guerreros del Caos Reforged"/>
   </publications>
@@ -13560,7 +13560,7 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="85.0"/>
+            <cost name="pts" typeId="points" value="75.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6f5e-85a1-51c2-55dd" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -13827,6 +13827,24 @@ Resistencia mágica (2), Ataques envenenados, Inmune a veneno, -1 para impactarl
                       <entryLinks>
                         <entryLink id="71c6-fdca-1594-5c78" name="Recompensas del Caos. Tzeentch" hidden="false" collective="false" import="true" targetId="8fff-3415-7144-d88c" type="selectionEntryGroup"/>
                         <entryLink id="751d-a45b-3c0d-42b5" name="Recompensas del Caos" hidden="false" collective="false" import="true" targetId="9a9a-1f98-d3f0-ad78" type="selectionEntryGroup"/>
+                        <entryLink id="1a6f-4769-f70b-288d" name="Recompensas del Caos. Tzeentch. Hechiceros" hidden="false" collective="false" import="true" targetId="f0fa-e94e-196b-e71e" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="bb57-dd79-5a54-259b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e291-aebf-27e3-38c3" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
+                        <entryLink id="3c61-b554-52e1-8234" name="Recompensas del Caos. Hechiceros" hidden="false" collective="false" import="true" targetId="85fd-2dfb-91a9-b6e6" type="selectionEntryGroup">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="bb57-dd79-5a54-259b" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e291-aebf-27e3-38c3" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                        </entryLink>
                       </entryLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
