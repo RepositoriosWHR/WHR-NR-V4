@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos V4" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="2782-91b8-4812-a1d3" name="Recompensa de Hashut">
       <characteristicTypes>
@@ -5868,14 +5868,16 @@ asedio: esta sufrirá 1D6 impactos automáticos de Fuerza 8 distribuidos como si
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6e2b-5128-cb37-9d31" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup">
+        <selectionEntryGroup id="62de-12fd-6d6d-84b7" name="Recompensas de Hashut" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b09-dc40-d0b3-c2ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dedd-8a54-44f7-7c6f" type="max"/>
           </constraints>
-        </entryLink>
-      </entryLinks>
+          <entryLinks>
+            <entryLink id="9f2b-f38f-683f-f5a7" name="Recompensas de Hashut menores" hidden="false" collective="false" import="true" targetId="772c-16d6-52bb-9f6a" type="selectionEntryGroup"/>
+            <entryLink id="87fd-0b90-8091-b9c8" name="Recompensas de Hashut menores. Centauros" hidden="false" collective="false" import="true" targetId="9c36-d9ca-1a04-a154" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
