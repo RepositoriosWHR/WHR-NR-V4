@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d2ea-a0b8-8a9f-e3a5" name="Grey infernal" revision="12" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="d2ea-a0b8-pubN65537" name="Grey Infernal Reforged"/>
   </publications>
@@ -4520,11 +4520,6 @@ ejército de, al menos, 3000 puntos).</description>
                     <condition field="selections" scope="aecf-c7f6-8927-4ee9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1778-6418-573e-3884" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="decrement" field="8902-764f-2698-254b" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="aecf-c7f6-8927-4ee9" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7418-4248-ee46-83a2" type="notEqualTo"/>
-                  </conditions>
-                </modifier>
                 <modifier type="set" field="8902-764f-2698-254b" value="0.0">
                   <conditions>
                     <condition field="selections" scope="aecf-c7f6-8927-4ee9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16fe-5bba-8442-7dca" type="equalTo"/>
@@ -4999,7 +4994,7 @@ ejército de, al menos, 3000 puntos).</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="77ef-c616-1413-c7df" name="Troll del caos anciano" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="77ef-c616-1413-c7df" name="Troll del Caos anciano" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="4d55-4e4b-602e-4758" value="1.0">
           <repeats>
@@ -5202,7 +5197,7 @@ ejército de, al menos, 3000 puntos).</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="df73-1187-ff5a-9b3c" name="Bruja troll del caos" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="df73-1187-ff5a-9b3c" name="Bruja troll del Caos" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5252,20 +5247,20 @@ ejército de, al menos, 3000 puntos).</description>
             <cost name="pts" typeId="points" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8b1b-84c3-1f87-6667" name="Troll del caos anciano" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8b1b-84c3-1f87-6667" name="Troll del Caos anciano" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0511-473d-afa1-02bf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5bf-c58e-470f-1d3d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5f2f-7dfb-4f50-b5ab" name="Troll del caos anciano" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="5f2f-7dfb-4f50-b5ab" name="Troll del Caos anciano" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <modifiers>
                 <modifier type="increment" field="4c4423232344415441232323" value="1">
                   <conditions>
                     <condition field="selections" scope="77ef-c616-1413-c7df" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="65ab-569a-d885-379d" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="name" value="Bruja troll del caos">
+                <modifier type="set" field="name" value="Bruja troll del Caos">
                   <conditions>
                     <condition field="selections" scope="77ef-c616-1413-c7df" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="df73-1187-ff5a-9b3c" type="equalTo"/>
                   </conditions>
@@ -5793,13 +5788,6 @@ ejército de, al menos, 3000 puntos).</description>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="1365-030e-3a1d-f6b5" name="Objetos mágicos" hidden="false" collective="false" import="true">
-              <modifiers>
-                <modifier type="set" field="3f6f-7155-2af6-145b" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="a78b-27a8-bcbb-44a5" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9477-de7d-0a76-4c0d" type="notEqualTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f6f-7155-2af6-145b" type="max"/>
               </constraints>
@@ -6151,13 +6139,6 @@ ejército de, al menos, 3000 puntos).</description>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="4611-ff1a-0aa8-8d14" name="Objetos mágicos" hidden="false" collective="false" import="true">
-              <modifiers>
-                <modifier type="set" field="cdd0-050e-5580-ae31" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="a013-3e9b-7c63-760c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="41b5-2049-0f47-3278" type="notEqualTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd0-050e-5580-ae31" type="max"/>
               </constraints>
