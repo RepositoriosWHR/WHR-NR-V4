@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0d0b-60b1-02c5-b914" name="Mariemburgo" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0d0b-60b1-02c5-b914" name="Mariemburgo" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="98cd-bd8b-f52a-6fd7" name="Renombre">
       <characteristicTypes>
@@ -7599,15 +7599,458 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="4e37-ddcd-dbab-ade6" name="Magia marina" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c318-814c-696e-82a6" name="Hechizos" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="1346-be8c-4e2f-07f1" name="Dominio de los elementos, parte 1" hidden="false" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="increment" field="29cf-8878-3226-0bf8" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="b8e4-7a64-d5fc-785c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a49f-bf55-d5de-05cc" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="2870-caa2-e4bf-5bbd" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="b8e4-7a64-d5fc-785c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a49f-bf55-d5de-05cc" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2870-caa2-e4bf-5bbd" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29cf-8878-3226-0bf8" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="9be6-c16a-885b-ee7f" name="Atrofia gris (Sombras)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bdbc-48e5-19af-9fb2" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d25a-f544-c68b-935e" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3ac4-d834-f703-43a9" name="[2º] - Atrofia gris (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">10+/13+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/36&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 18” o menos del lanzador y Permanece en efecto. Tira 1D3: mientras dure el hechizo, esa será la cantidad que debes sustraer al atributo de Fuerza de la unidad. Puede potenciarse para aumentar el alcance hasta 36”, en cuyo caso la dificultad será de 13+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="6a83-0835-4e31-122d" name="[R] - Envuelto en sombras (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Los disparos dirigidos contra un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 para impactar. Los enemigos que ataquen en combate cuerpo a cuerpo a un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 a su HA al atacar al hechicero.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="cca3-8743-8d92-4704" name="Charco esmeralda (Vida)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9e5-d0b3-5e63-c9ff" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6808-8e19-acf8-aa5d" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fedf-18c4-41c3-dadf" name="[2º] - Charco esmeralda (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/15+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio hechicero. Retira del campo de batalla al lanzador y vuelve a colocarlo en cualquier punto del campo de batalla a 1” o más de cualquier miniatura enemiga o Edificio. Puedes unirlo a una unidad amiga. Si el lanzador tiene Potencia de unidad de 5+, la dificultad del hechizo será de 15+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="0764-3f86-b486-29b7" name="[R] - Sanación (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador (6&quot;)</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechicero lance exitosamente un hechizo del Saber de la Vida y este no sea dispersado, el hechicero puede curar una herida a una miniatura amiga a 6” o menos de él que hubiese sufrido previamente durante la batalla.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2cbd-46f5-5316-076a" name="La niebla de Duthandor (Vida)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="341a-09a4-2d64-23c2" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="07d6-4652-efb0-e6c5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c9ca-9769-40ab-db01" name="[2º] - La niebla de Duthandor (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">10+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio lanzador y Permanece en efecto. Cualquier disparo que se realice contra cualquier unidad a 12” o menos del lanzador tendrá un penalizador de -2 para impactar, los efectos causados por plantillas de área considerarán cualquier resultado de impacto como si fuese de flecha, que se dispersará la mitad del resultado obtenido, los efectos de Tormenta de proyectiles deberán dividir a la mitad el número de impactos causados y los Cañones y Lanzallamas que deseen disparar al interior del área deberá antes superar un chequeo de Liderazgo; si no lo supera, podrá seleccionar otro objetivo del exterior del área.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="911d-d294-e7b3-e980" name="[R] - Sanación (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador (6&quot;)</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechicero lance exitosamente un hechizo del Saber de la Vida y este no sea dispersado, el hechicero puede curar una herida a una miniatura amiga a 6” o menos de él que hubiese sufrido previamente durante la batalla.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1eb2-fbc3-6de7-db89" name="Rayo Atronador de Urannon (Cielos)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11c3-e631-4f32-a656" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6159-aae8-2de0-2662" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="90ac-6812-0eb9-ddd9" name="[2º] - Rayo Atronador de Urannon (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+/16+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">30&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una unidad enemiga a 30” o menos del lanzador. La unidad sufre 1D6 impactos de Fuerza 5 con la regla especial Ataque de rayos. Puede potenciarse para que cause 2D6 impactos, en cuyo caso la dificultad será de 16+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="0905-2ad9-1cad-21c4" name="[R] - Visión profética (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber de los Cielos puede repetir una tirada de dado una vez por batalla. Ha de ser una tirada concerniente al propio hechicero: una tirada para impactar, herir, salvaciones, chequeo de atributo, dado de Energía o Dispersión o una tirada en la tabla de Disfunciones mágicas. Además, el hechicero obtiene la regla especial Esquivar (6+).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="9cf4-5f00-34db-a684" name="Domino de los elementos, parte 2" hidden="false" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="increment" field="abb5-d032-dd4e-33ba" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="b8e4-7a64-d5fc-785c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d55-4997-0c24-9693" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="f1b8-e123-d5ab-3cbf" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="b8e4-7a64-d5fc-785c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d55-4997-0c24-9693" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="abb5-d032-dd4e-33ba" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1b8-e123-d5ab-3cbf" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="6994-90d6-2872-5ae8" name="Carne pétrea (Vida)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8e4-ae1f-3851-04ca" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6323-f215-5f1c-0f79" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0bbc-e2a1-2e24-669a" name="[3º] - Carne pétrea (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+/18+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y Permanece en efecto. Mientras dure el hechizo, la unidad tendrá un bonificador de +1 a su atributo de Resistencia. Puede potenciarse para que aumente la Resistencia en +2 en lugar de +1 pero en ese caso también reducirá el Movimiento y la Iniciativa en -1 y la dificultad será de 18+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="5c96-5c43-8935-3474" name="[R] - Sanación (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador (6&quot;)</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechicero lance exitosamente un hechizo del Saber de la Vida y este no sea dispersado, el hechicero puede curar una herida a una miniatura amiga a 6” o menos de él que hubiese sufrido previamente durante la batalla.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5155-7c6f-b1f0-4e27" name="Craneo ardiente (Fuego)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c618-a9f9-df64-e7fb" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c445-764e-5958-44b3" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="ddf4-9d61-de9f-8f3b" name="[3º] - Craneo ardiente (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/12+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo. Traza una línea recta de 18” desde el lanzador. Cualquier miniatura bajo esa línea sufrirá un impacto de Fuerza 4 con la regla especial Ataques flamígeros (determínalo como en el caso de los Cañones). Cualquier unidad que sufra al menos una baja como resultado de este hechizo deberá efectuar de inmediato un chequeo de Pánico. Puede potenciarse para aumentar su Fuerza a 5, en cuyo caso la dificultad será 12+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="5a35-1b50-b56f-49f9" name="[R] - Dominio del fuego (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber del Fuego tiene las reglas especiales Ataques flamígeros e Inmune a fuego.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="86e0-0257-6b52-9102" name="Espadas hechizadas de Aiban (Metal)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c120-d158-7b0d-ce66" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9d8-a83c-b91e-d050" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c75f-02ea-2e69-71b8" name="[3º] - Espadas hechizadas de Aiban (Metal)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+/14+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/12&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 12” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad tendrá un bonificador de +1 en sus tiradas para impactar. Además, todos los impactos que causen tendrán las reglas especiales Ataques mágicos y Poder de penetración. Puede potenciarse para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso su dificultad será de 14+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="3058-0ab7-837a-1e54" name="[R] - Imbuir el metal (Metal)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Los hechizos del Saber del Metal ven su dificultad de lanzamiento reducida en punto si toma como objetivo una o más unidades con una tirada de salvación por armadura de 4+ o mejor. Del mismo modo, si la unidad objetivo tiene una tirada de salvación por armadura de 2+ o mejor, reduce en 1 adicional la dificultad de lanzamiento del hechizo (es decir,la dificultad se reduce en 2 puntos).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="cce2-009c-1904-73ae" name="Proyectiles llameantes (Fuego)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00d2-74d3-a2bb-899c" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d25-aab1-83ea-169d" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="6cbc-a631-3062-a683" name="[3º] - Proyectiles llameantes (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Proyectil magico</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">12+/16+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Proyectil mágico con un alcance de 18”. Causa 1D6+1 impactos que hieren a 4+, tienen la regla especial Ataques flamígeros y no permiten tirada de salvación por armadura. Puede potenciarse para causar 2D6 impactos en lugar de 1D6+1, en cuyo caso la dificultad será de 16+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="aac4-73b5-8bdb-8e1e" name="[R] - Dominio del fuego (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber del Fuego tiene las reglas especiales Ataques flamígeros e Inmune a fuego.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="1c6a-b49d-f108-eb4a" name="Hechiería básica" hidden="false" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="increment" field="be30-cdb5-ffb4-ee50" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="b8e4-7a64-d5fc-785c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="034a-c83b-5bb0-e864" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="98ed-7a49-0f5b-25d1" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="b8e4-7a64-d5fc-785c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="034a-c83b-5bb0-e864" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="98ed-7a49-0f5b-25d1" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be30-cdb5-ffb4-ee50" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="e81b-8419-8ad8-955e" name="Bola de Fuego (Fuego)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8804-6d2f-79d8-f8f3" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="883b-2592-0f3c-0c44" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5d1c-e608-e2f3-3be6" name="[1º] - Bola de Fuego (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Proyectil Magico</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">5+/9+/12+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;/36&quot;/48&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Proyectil mágico con un alcance de 24”. Causa 1D6 impactos de Fuerza 4 con la regla especial Ataques sólo flamígeros. Puede potenciarse para aumentar el alcance a 36” y el número de impactos a 2D6, en cuyo caso la dificultad será de 9+, o para aumentar el alcance a 48” y el número de impactos a 3D6, en cuyo caso la dificultad será de 12+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="b7cc-e2e7-59de-a3d0" name="[R] - Dominio del fuego (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber del Fuego tiene las reglas especiales Ataques flamígeros e Inmune a fuego.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5f51-7659-e390-695d" name="Miasma mística de Melkoth (Sombras)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1eb5-f89f-8665-e087" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb8c-9ac6-ce12-134f" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1c78-decb-a2ce-52c2" name="[1º] - Miasma mística de Melkoth (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/13+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 24” o menos del lanzador y Permanece un turno. Elige un atributo de entre los siguientes: HA, HP, I y M. Mientras dure el hechizo, la unidad verá reducido en 1D3 puntos dicho atributo. Puede potenciarse para que reduzca los cuatro atributos indicados en lugar de uno solo (tira un único D3 y reduce la cantidad indicada los cuatro atributos), en cuyo caso la dificultad será de 13+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="d4e0-f47a-d289-54ef" name="[R] - Envuelto en sombras (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Los disparos dirigidos contra un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 para impactar. Los enemigos que ataquen en combate cuerpo a cuerpo a un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 a su HA al atacar al hechicero.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2ec0-a7fe-8937-1819" name="Portento de Phar (Cielos)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="16f2-0732-acb5-043a" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6873-08c8-1315-26ba" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="717d-7534-12a3-a2b9" name="[1º] - Portento de Phar (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">6+/9+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/24&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 12” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad podrá repetir sus resultados de 1 para impactar y herir. Puede potenciarse el hechizo para aumentar el alcance hasta 24”, en cuyo caso la dificultad será de 9+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="fed8-f88e-a907-a9d8" name="[R] - Visión profética (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber de los Cielos puede repetir una tirada de dado una vez por batalla. Ha de ser una tirada concerniente al propio hechicero: una tirada para impactar, herir, salvaciones, chequeo de atributo, dado de Energía o Dispersión o una tirada en la tabla de Disfunciones mágicas. Además, el hechicero obtiene la regla especial Esquivar (6+).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="201c-8744-cd94-46e2" name="Sangre de la Tierra (Vida)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6773-490b-c96b-9cbe" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eaa5-bee0-3214-c1af" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5ea5-45d1-5f5c-4049" name="[1º] - Sangre de la Tierra (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+/15+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/12&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad obtiene la regla especial Regeneración (5+). Puede potenciarse para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad será de 15+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="7bb7-e960-9f69-565a" name="[R] - Sanación (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador (6&quot;)</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechicero lance exitosamente un hechizo del Saber de la Vida y este no sea dispersado, el hechicero puede curar una herida a una miniatura amiga a 6” o menos de él que hubiese sufrido previamente durante la batalla.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7446-699a-aad0-fcc7" name="Cursos" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c453-aac8-c9c2-7450" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="68a1-7b3d-09e6-c07c" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="a49f-bf55-d5de-05cc" name="Dominio de los elementos, parte 1" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9ac-f08f-2ab8-f158" type="max"/>
+                    <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b1d-4328-b800-0fb2" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3d55-4997-0c24-9693" name="Domino de los elementos, parte 2" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0c-2797-db6a-9190" type="max"/>
+                    <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b38-32cc-bb6f-753b" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="034a-c83b-5bb0-e864" name="Hechiería básica" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c6e-2d48-d660-1be3" type="max"/>
+                    <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c5c2-bace-7c9f-931b" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="5fce-7439-4bd7-4b20" name="Magia marina" hidden="false" collective="false" import="true" targetId="ff16-7331-4a13-e3a5" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac35-98c1-3feb-d9d3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="72e1-0468-8a74-607a" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -8334,7 +8777,6 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca37-fa8f-2bfa-d26f" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="2aa5-6c01-9c45-689c" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
                 <entryLink id="b3ff-1158-b1a6-9fb5" name="Nivel 4" hidden="false" collective="false" import="true" targetId="0f9b-ac0b-5037-59a0" type="selectionEntry"/>
               </entryLinks>
               <costs>
@@ -8343,15 +8785,610 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="79ed-f77d-77ac-6620" name="Magia marina" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c0bf-50f3-49d4-6879" name="Hechizos" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="5176-aa6d-4964-a377" name="Dominio de los elementos, parte 1" hidden="false" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="increment" field="3bef-42d9-81a7-38eb" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="6c16-bc8c-935d-a081" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="77af-a23b-d61b-1345" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="95ca-74a7-dc79-238f" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="6c16-bc8c-935d-a081" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="77af-a23b-d61b-1345" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95ca-74a7-dc79-238f" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3bef-42d9-81a7-38eb" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="314b-b7b8-be63-5c48" name="Atrofia gris (Sombras)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c5c5-6766-ee72-ae73" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ccf-f699-c1f2-33da" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="054d-de05-ed40-dd14" name="[2º] - Atrofia gris (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">10+/13+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/36&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 18” o menos del lanzador y Permanece en efecto. Tira 1D3: mientras dure el hechizo, esa será la cantidad que debes sustraer al atributo de Fuerza de la unidad. Puede potenciarse para aumentar el alcance hasta 36”, en cuyo caso la dificultad será de 13+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="13f4-0f1f-3d61-bb0c" name="[R] - Envuelto en sombras (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Los disparos dirigidos contra un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 para impactar. Los enemigos que ataquen en combate cuerpo a cuerpo a un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 a su HA al atacar al hechicero.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0c37-b1e0-c544-7af2" name="Charco esmeralda (Vida)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="81fe-82b1-d8cd-1ff2" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0252-c274-733d-afcd" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="121a-055e-69a6-48f8" name="[2º] - Charco esmeralda (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/15+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio hechicero. Retira del campo de batalla al lanzador y vuelve a colocarlo en cualquier punto del campo de batalla a 1” o más de cualquier miniatura enemiga o Edificio. Puedes unirlo a una unidad amiga. Si el lanzador tiene Potencia de unidad de 5+, la dificultad del hechizo será de 15+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="bc21-a229-d441-4864" name="[R] - Sanación (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador (6&quot;)</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechicero lance exitosamente un hechizo del Saber de la Vida y este no sea dispersado, el hechicero puede curar una herida a una miniatura amiga a 6” o menos de él que hubiese sufrido previamente durante la batalla.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f383-f2b4-65b6-3c6b" name="La niebla de Duthandor (Vida)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4b19-a52d-652a-4086" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e5c-b254-d265-83ce" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="9a05-15a6-f9c0-91ee" name="[2º] - La niebla de Duthandor (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">10+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio lanzador y Permanece en efecto. Cualquier disparo que se realice contra cualquier unidad a 12” o menos del lanzador tendrá un penalizador de -2 para impactar, los efectos causados por plantillas de área considerarán cualquier resultado de impacto como si fuese de flecha, que se dispersará la mitad del resultado obtenido, los efectos de Tormenta de proyectiles deberán dividir a la mitad el número de impactos causados y los Cañones y Lanzallamas que deseen disparar al interior del área deberá antes superar un chequeo de Liderazgo; si no lo supera, podrá seleccionar otro objetivo del exterior del área.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="f386-9078-b318-0498" name="[R] - Sanación (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador (6&quot;)</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechicero lance exitosamente un hechizo del Saber de la Vida y este no sea dispersado, el hechicero puede curar una herida a una miniatura amiga a 6” o menos de él que hubiese sufrido previamente durante la batalla.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6b9f-c499-733c-79be" name="Rayo Atronador de Urannon (Cielos)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8324-070a-acdb-9a44" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="168c-eb42-24da-1c8a" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="de92-b41c-70c4-97c8" name="[2º] - Rayo Atronador de Urannon (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+/16+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">30&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una unidad enemiga a 30” o menos del lanzador. La unidad sufre 1D6 impactos de Fuerza 5 con la regla especial Ataque de rayos. Puede potenciarse para que cause 2D6 impactos, en cuyo caso la dificultad será de 16+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="c736-54d5-e489-af3c" name="[R] - Visión profética (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber de los Cielos puede repetir una tirada de dado una vez por batalla. Ha de ser una tirada concerniente al propio hechicero: una tirada para impactar, herir, salvaciones, chequeo de atributo, dado de Energía o Dispersión o una tirada en la tabla de Disfunciones mágicas. Además, el hechicero obtiene la regla especial Esquivar (6+).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="ad29-8abe-116c-bc10" name="Domino de los elementos, parte 2" hidden="false" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="increment" field="97ed-395e-f735-bb1e" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="6c16-bc8c-935d-a081" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36ea-11b2-ced2-d7bb" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="4913-3217-8d38-5ae2" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="6c16-bc8c-935d-a081" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36ea-11b2-ced2-d7bb" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4913-3217-8d38-5ae2" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97ed-395e-f735-bb1e" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="8923-ce5f-ea94-4b76" name="Carne pétrea (Vida)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fade-0d75-b209-5797" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e602-0a76-8ae7-9181" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="67db-1ac4-afb4-cbc2" name="[3º] - Carne pétrea (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+/18+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y Permanece en efecto. Mientras dure el hechizo, la unidad tendrá un bonificador de +1 a su atributo de Resistencia. Puede potenciarse para que aumente la Resistencia en +2 en lugar de +1 pero en ese caso también reducirá el Movimiento y la Iniciativa en -1 y la dificultad será de 18+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="f8e5-19f7-691b-06b5" name="[R] - Sanación (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador (6&quot;)</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechicero lance exitosamente un hechizo del Saber de la Vida y este no sea dispersado, el hechicero puede curar una herida a una miniatura amiga a 6” o menos de él que hubiese sufrido previamente durante la batalla.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6a78-2dc0-fea6-836f" name="Craneo ardiente (Fuego)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2832-49b4-2c6e-8841" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8620-bc8a-2a98-e39f" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c07d-a998-1944-749d" name="[3º] - Craneo ardiente (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/12+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo. Traza una línea recta de 18” desde el lanzador. Cualquier miniatura bajo esa línea sufrirá un impacto de Fuerza 4 con la regla especial Ataques flamígeros (determínalo como en el caso de los Cañones). Cualquier unidad que sufra al menos una baja como resultado de este hechizo deberá efectuar de inmediato un chequeo de Pánico. Puede potenciarse para aumentar su Fuerza a 5, en cuyo caso la dificultad será 12+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="d9c1-f084-9163-da2e" name="[R] - Dominio del fuego (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber del Fuego tiene las reglas especiales Ataques flamígeros e Inmune a fuego.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5bf9-867e-7755-ba42" name="Espadas hechizadas de Aiban (Metal)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4fc-084f-7316-d1e1" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f09-7743-91fa-8dd0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7998-cc9b-32e3-4a66" name="[3º] - Espadas hechizadas de Aiban (Metal)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+/14+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/12&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 12” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad tendrá un bonificador de +1 en sus tiradas para impactar. Además, todos los impactos que causen tendrán las reglas especiales Ataques mágicos y Poder de penetración. Puede potenciarse para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso su dificultad será de 14+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="d69c-c445-0ed5-6f28" name="[R] - Imbuir el metal (Metal)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Los hechizos del Saber del Metal ven su dificultad de lanzamiento reducida en punto si toma como objetivo una o más unidades con una tirada de salvación por armadura de 4+ o mejor. Del mismo modo, si la unidad objetivo tiene una tirada de salvación por armadura de 2+ o mejor, reduce en 1 adicional la dificultad de lanzamiento del hechizo (es decir,la dificultad se reduce en 2 puntos).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f7ac-e00c-bfcf-71db" name="Proyectiles llameantes (Fuego)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2256-e4b8-d673-d33e" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a3fb-aada-4f48-6fc5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="59c6-099a-f191-fe9d" name="[3º] - Proyectiles llameantes (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Proyectil magico</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">12+/16+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Proyectil mágico con un alcance de 18”. Causa 1D6+1 impactos que hieren a 4+, tienen la regla especial Ataques flamígeros y no permiten tirada de salvación por armadura. Puede potenciarse para causar 2D6 impactos en lugar de 1D6+1, en cuyo caso la dificultad será de 16+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="8176-62e3-ef14-6b94" name="[R] - Dominio del fuego (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber del Fuego tiene las reglas especiales Ataques flamígeros e Inmune a fuego.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="fbd8-76bf-4306-45b3" name="Hechicería avanzada" hidden="false" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="increment" field="e604-ca4d-b176-b714" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="6c16-bc8c-935d-a081" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3834-eb1e-51b3-ea55" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="b8b5-24d7-94d4-e004" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="6c16-bc8c-935d-a081" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3834-eb1e-51b3-ea55" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e604-ca4d-b176-b714" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b8b5-24d7-94d4-e004" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="5abc-8001-5f0f-5f38" name="Luz cegadora de Amshu (Luz)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4395-5a5b-1eac-0b37" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3b2-af2f-e3df-acf9" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="5eab-576d-d601-7404" name="[4º] - Luz cegadora de Amshu (Luz)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">12+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 24” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad verá su Movimiento reducido a la mitad y su HA y HP a un valor de 1. Las Máquinas de guerra no pueden disparar bajo el efecto de este hechizo.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="d427-17cb-27ab-d39c" name="[R] - Iluminación (Luz)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Inicio tu próxima fase de magia</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechicero lance exitosamente un hechizo del Saber de la Luz y este no sea dispersado, puedes elegir una unidad amiga a 12&quot; o menos del hechicero: dicha unidad obtiene la regla especial Inmune a psicología hasta el inicio de tu siguiente fase de magia.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f8c3-42c7-b627-158a" name="Maldición del viento de medianoche (Cielos)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57bd-0abc-54e9-65ff" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="626e-50ab-f28d-300b" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0887-1417-4167-f8cf" name="[4º] - Maldición del viento de medianoche (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, todos los resultados naturales de 6 que obtenga la unidad en sus tiradas para impactar, herir y salvaciones deberán repetirse.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="bd4f-579d-e596-4b60" name="[R] - Visión profética (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber de los Cielos puede repetir una tirada de dado una vez por batalla. Ha de ser una tirada concerniente al propio hechicero: una tirada para impactar, herir, salvaciones, chequeo de atributo, dado de Energía o Dispersión o una tirada en la tabla de Disfunciones mágicas. Además, el hechicero obtiene la regla especial Esquivar (6+).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9751-c8e0-5cd4-e69b" name="Puente de sombras (Sombras)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f318-397f-9457-0b0d" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e363-b60e-15e6-37cc" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="db09-07d9-ba98-b415" name="[4º] - Puente de sombras (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">15+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador. La unidad realiza inmediatamente un movimiento como si tuviera la regla especial Flotar (10). La unidad puede decidir realizar una carga con este movimiento.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="cc31-b2c8-363d-2ecc" name="[R] - Envuelto en sombras (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Los disparos dirigidos contra un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 para impactar. Los enemigos que ataquen en combate cuerpo a cuerpo a un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 a su HA al atacar al hechicero.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="7620-126c-95c0-66ee" name="Tempestad de Cassandora (Cielos)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb7-63f7-ec35-fed4" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5342-1f54-1095-3a38" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="9d77-93be-1946-c225" name="[4º] - Tempestad de Cassandora (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">21+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Campo de batalla</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo. Coloca la plantilla redonda grande en cualquier punto del campo de batalla y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla sufrirá un impacto de Fuerza 6. La miniatura bajo el agujero central de la plantilla sufrirá en vez de ello un impacto de Fuerza 10 con las regla especiales Ataque de rayos y Heridas múltiples (1D3).</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="3dfc-e450-850b-951f" name="[R] - Visión profética (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber de los Cielos puede repetir una tirada de dado una vez por batalla. Ha de ser una tirada concerniente al propio hechicero: una tirada para impactar, herir, salvaciones, chequeo de atributo, dado de Energía o Dispersión o una tirada en la tabla de Disfunciones mágicas. Además, el hechicero obtiene la regla especial Esquivar (6+).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="3f59-1b70-02ae-dab0" name="Hechiería básica" hidden="false" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="increment" field="9ee0-8303-b175-8676" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="6c16-bc8c-935d-a081" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab4c-a73d-f48b-d907" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                    <modifier type="increment" field="53be-7909-046e-627a" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="6c16-bc8c-935d-a081" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab4c-a73d-f48b-d907" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53be-7909-046e-627a" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ee0-8303-b175-8676" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="7c9e-e260-f9af-f81e" name="Bola de Fuego (Fuego)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d473-252f-2612-970e" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e00-071b-04ab-d7f9" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a3b1-9bac-0341-ea26" name="[1º] - Bola de Fuego (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Proyectil Magico</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">5+/9+/12+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;/36&quot;/48&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Proyectil mágico con un alcance de 24”. Causa 1D6 impactos de Fuerza 4 con la regla especial Ataques sólo flamígeros. Puede potenciarse para aumentar el alcance a 36” y el número de impactos a 2D6, en cuyo caso la dificultad será de 9+, o para aumentar el alcance a 48” y el número de impactos a 3D6, en cuyo caso la dificultad será de 12+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="0ec7-567b-209c-c2d7" name="[R] - Dominio del fuego (Fuego)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber del Fuego tiene las reglas especiales Ataques flamígeros e Inmune a fuego.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a110-7340-7acc-7702" name="Miasma mística de Melkoth (Sombras)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ddd-29a0-831e-eefb" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d231-ab8a-1658-8322" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fd2e-70af-2472-96ea" name="[1º] - Miasma mística de Melkoth (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/13+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 24” o menos del lanzador y Permanece un turno. Elige un atributo de entre los siguientes: HA, HP, I y M. Mientras dure el hechizo, la unidad verá reducido en 1D3 puntos dicho atributo. Puede potenciarse para que reduzca los cuatro atributos indicados en lugar de uno solo (tira un único D3 y reduce la cantidad indicada los cuatro atributos), en cuyo caso la dificultad será de 13+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="22bf-52cc-6d76-d6b4" name="[R] - Envuelto en sombras (Sombras)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Los disparos dirigidos contra un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 para impactar. Los enemigos que ataquen en combate cuerpo a cuerpo a un hechicero que conozca uno o más hechizos del Saber de las Sombras tendrán un penalizador de -1 a su HA al atacar al hechicero.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6c73-8d2d-8cee-7f05" name="Portento de Phar (Cielos)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4b1-a20e-f995-9779" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d071-5309-56b3-82dc" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b848-5a64-ff87-c72a" name="[1º] - Portento de Phar (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">6+/9+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/24&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 12” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad podrá repetir sus resultados de 1 para impactar y herir. Puede potenciarse el hechizo para aumentar el alcance hasta 24”, en cuyo caso la dificultad será de 9+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="fc66-0a2e-ce29-b558" name="[R] - Visión profética (Cielos)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber de los Cielos puede repetir una tirada de dado una vez por batalla. Ha de ser una tirada concerniente al propio hechicero: una tirada para impactar, herir, salvaciones, chequeo de atributo, dado de Energía o Dispersión o una tirada en la tabla de Disfunciones mágicas. Además, el hechicero obtiene la regla especial Esquivar (6+).</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="452e-c836-f5b3-409d" name="Sangre de la Tierra (Vida)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="14ea-f2b2-3ede-211f" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2377-bdcb-e53c-7534" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="cc77-3df5-c5b5-c0d1" name="[1º] - Sangre de la Tierra (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">7+/15+</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/12&quot;</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad obtiene la regla especial Regeneración (5+). Puede potenciarse para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad será de 15+.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="7084-0a7d-03a4-1a43" name="[R] - Sanación (Vida)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+                          <characteristics>
+                            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+                            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+                            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador (6&quot;)</characteristic>
+                            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+                            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechicero lance exitosamente un hechizo del Saber de la Vida y este no sea dispersado, el hechicero puede curar una herida a una miniatura amiga a 6” o menos de él que hubiese sufrido previamente durante la batalla.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="1aa2-5c31-1525-f600" name="Cursos" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e789-6eae-31ea-1d16" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f1c-24ec-b0c3-2e81" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="77af-a23b-d61b-1345" name="Dominio de los elementos, parte 1" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="295e-4ce3-2318-9eff" type="max"/>
+                    <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0784-0ce4-6e17-79f1" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="36ea-11b2-ced2-d7bb" name="Domino de los elementos, parte 2" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb56-076c-0fbd-0fa4" type="max"/>
+                    <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="629e-2487-40dc-b617" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3834-eb1e-51b3-ea55" name="Hechicería avanzada" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6c16-bc8c-935d-a081" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eb5-aa6f-67fa-729c" type="max"/>
+                    <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0307-26cc-056e-1b6a" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ab4c-a73d-f48b-d907" name="Hechiería básica" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f6-704c-29b1-6c88" type="max"/>
+                    <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd74-d69d-2ec6-782f" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="ab55-619a-8866-2cf4" name="Magia marina" hidden="false" collective="false" import="true" targetId="ff16-7331-4a13-e3a5" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb80-72c3-7eb8-b355" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b336-72bf-78a2-f68c" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -10690,6 +11727,9 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="29ac-8524-f5f0-0af1" name="Básicas" hidden="false" collective="false" import="true" targetId="b9c2-f0f4-93cc-0dfc" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -12247,6 +13287,9 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6ab8-0c42-cb60-f794" name="Básicas" hidden="false" collective="false" import="true" targetId="b9c2-f0f4-93cc-0dfc" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -12632,6 +13675,9 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b557-7a00-b0ef-7dc5" name="Básicas" hidden="false" collective="false" import="true" targetId="b9c2-f0f4-93cc-0dfc" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -12897,6 +13943,9 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dd97-9022-bd9b-e046" name="Básicas" hidden="false" collective="false" import="true" targetId="b9c2-f0f4-93cc-0dfc" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -13343,6 +14392,9 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="aa46-a66a-2465-d705" name="Básicas" hidden="false" collective="false" import="true" targetId="b9c2-f0f4-93cc-0dfc" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -13613,6 +14665,9 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d959-5bda-882a-cf30" name="Básicas" hidden="false" collective="false" import="true" targetId="b9c2-f0f4-93cc-0dfc" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -18343,7 +19398,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
         <selectionEntry id="a4a9-d14f-f3fa-daa3" name="Los cerveceros de Bugman" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc35-a4c2-6cb7-cde8" type="max"/>
-            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="456e-b4ee-4950-68be" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="456e-b4ee-4950-68be" type="min"/>
           </constraints>
           <profiles>
             <profile id="4ac3-ffc7-812f-e3e9" name="Cervecero" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -18462,7 +19517,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="230.0"/>
+            <cost name="pts" typeId="points" value="245.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="77f7-10ea-7785-9fef" name="Equipo Jorj Ruddle" hidden="false" collective="false" import="true" type="upgrade">
@@ -27973,9 +29028,21 @@ combates.</description>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="745c-138c-9566-5cdf" name="Dominio de los elementos, parte 1" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="increment" field="f61a-5f16-c981-767d" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="8572-bcd2-816f-8355" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8572-bcd2-816f-8355" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="e699-3cd9-7660-5b19" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="8572-bcd2-816f-8355" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8572-bcd2-816f-8355" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e699-3cd9-7660-5b19" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f61a-5f16-c981-767d" type="min"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e699-3cd9-7660-5b19" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f61a-5f16-c981-767d" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="8658-e3dc-c8a3-ef05" name="Atrofia gris (Sombras)" hidden="false" collective="false" import="true" type="upgrade">
