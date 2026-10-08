@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="11" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="11" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bff8-8e34-eb37-f67a" name="Saber del Fuego" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -18,11 +18,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9541-7e36-52a8-e502" name="Saber del pequeño ¡WAAAGH!" hidden="false" collective="false" import="true" type="upgrade">
@@ -42,11 +44,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ddf8-615b-68b4-3fe4" name="Saber del Metal" hidden="false" collective="false" import="true" type="upgrade">
@@ -66,11 +70,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c10d-396c-a49a-4b7a" name="Saber del gran ¡WAAAGH!" hidden="false" collective="false" import="true" type="upgrade">
@@ -90,11 +96,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b20e-2adb-6db4-44be" name="Saber de Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
@@ -114,11 +122,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18bb-6c37-1cfe-8766" name="Saber de Sombras" hidden="false" collective="false" import="true" type="upgrade">
@@ -138,11 +148,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f45-b771-55d8-cc14" name="Saber de Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
@@ -162,11 +174,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a64-b7bc-c9ce-9a94" name="Saber de Ruina" hidden="false" collective="false" import="true" type="upgrade">
@@ -186,11 +200,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3738-8edf-7521-439d" name="Saber de Plaga" hidden="false" collective="false" import="true" type="upgrade">
@@ -210,11 +226,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3352-4875-5820-8bbe" name="Saber de Nurgle" hidden="false" collective="false" import="true" type="upgrade">
@@ -234,11 +252,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="848f-ed6b-1bcd-7f30" name="Saber de Nehekhara" hidden="false" collective="false" import="true" type="upgrade">
@@ -258,11 +278,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77a4-c5d2-08e5-4388" name="Saber de los Cielos" hidden="false" collective="false" import="true" type="upgrade">
@@ -282,11 +304,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d333-4430-fb2b-4f60" name="Saber de las Bestias" hidden="false" collective="false" import="true" type="upgrade">
@@ -306,11 +330,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db69-4431-08db-6b45" name="Saber de la Vida" hidden="false" collective="false" import="true" type="upgrade">
@@ -330,11 +356,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64a6-d9e9-3822-4168" name="Saber de la Muerte" hidden="false" collective="false" import="true" type="upgrade">
@@ -354,11 +382,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b0ef-3e63-c959-64d1" name="Saber de la Luz" hidden="false" collective="false" import="true" type="upgrade">
@@ -378,11 +408,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a58-079d-4da7-3876" name="Saber de Hielo" hidden="false" collective="false" import="true" type="upgrade">
@@ -402,11 +434,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c92f-68f1-a6f5-a110" name="Saber de Hashut" hidden="false" collective="false" import="true" type="upgrade">
@@ -426,11 +460,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="825e-1316-6cbf-cf2e" name="Panzamagia" hidden="false" collective="false" import="true" type="upgrade">
@@ -450,11 +486,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba29-df29-f443-1e1c" name="Nigromancia" hidden="false" collective="false" import="true" type="upgrade">
@@ -474,11 +512,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a1e-b29e-9f4b-44a5" name="Magia Oscura" hidden="false" collective="false" import="true" type="upgrade">
@@ -498,11 +538,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a67-de12-5e4d-657a" name="Alta magia" hidden="false" collective="false" import="true" type="upgrade">
@@ -522,11 +564,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b554-a33e-cca9-e084" name="Los 8 identificativos" hidden="false" collective="false" import="true" type="upgrade">
@@ -546,11 +590,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="074d-3cd1-4f41-edb9" name="Saber de las Profundidades" hidden="false" collective="false" import="true" type="upgrade">
@@ -570,11 +616,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f0c-38dc-2ca3-d803" name="Ritos de Taal" hidden="false" collective="false" import="true" type="upgrade">
@@ -594,11 +642,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d40-e5fb-7fd6-d37a" name="Plegarias a Sigmar" hidden="false" collective="false" import="true" type="upgrade">
@@ -618,11 +668,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c61d-00b3-606b-1420" name="Cánticos de guerra" hidden="false" collective="false" import="true" type="upgrade">
@@ -642,11 +694,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b06c-7ae1-839b-dbd6" name="Plegarias a la Serpiente" hidden="false" collective="false" import="true" type="upgrade">
@@ -666,11 +720,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a66-c511-029d-f60a" name="Plegarias a Sotek" hidden="false" collective="false" import="true" type="upgrade">
@@ -690,11 +746,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b1e5-4bf4-e459-4710" name="Cánticos" hidden="false" collective="false" import="true" type="upgrade">
@@ -714,11 +772,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9e0f-1aca-e931-a0f9" name="Cánticos de guerra (Tierra Bendita)" hidden="false" collective="false" import="true" type="upgrade">
@@ -738,11 +798,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f6d-717c-6a2c-2e2a" name="Saber de la Antigua Nehekhara" hidden="false" collective="false" import="true" type="upgrade">
@@ -762,11 +824,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46c8-7a0b-fad0-29e6" name="Saber de los Arúspices" hidden="false" collective="false" import="true" type="upgrade">
@@ -786,11 +850,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c326-dd64-37d8-ffef" name="Saber del Sigilo" hidden="false" collective="false" import="true" type="upgrade">
@@ -810,11 +876,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1367-57d3-8e91-a642" name="Runas del Yunque Rúnico" hidden="false" collective="false" import="true" type="upgrade">
@@ -834,11 +902,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="17d1-e53f-981b-49b8" name="Zampamagia" hidden="false" collective="false" import="true" type="upgrade">
@@ -855,11 +925,13 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -929,13 +1001,20 @@
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 24” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, cada integrante de la unidad sufrirá un impacto de Fuerza 4 con la regla especial Ataques sólo flamígeros al final de cualquier fase de movimiento, magia o combate cuerpo a cuerpo en la que hayan movido o combatido en combate cuerpo a cuerpo.</characteristic>
           </characteristics>
         </profile>
-        <profile id="e509-028d-1573-062d" name="[5] - Deflagracion de la perdicion" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+        <profile id="e509-028d-1573-062d" name="[5] - Deflagracion de la perdicion (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
-            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">16+/20+</characteristic>
-            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/24&quot;</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">16+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una miniatura enemiga a 12” o menos del lanzador. Tira 2D6: causa a la miniatura una herida automática con la regla especial Ataques flamígeros sin tirada de salvación por armadura por cada punto que la tirada exceda su atributo de Resistencia. Puede potenciarse para aumentar el alcance hasta 24”, en cuyo caso la dificultad será de 20+.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Puede lanzarse contra una sección de muralla, torre o puerta, causando un único impacto con un valor de Daño de 2D6+2.</characteristic>
           </characteristics>
         </profile>
         <profile id="99bc-a853-5566-2894" name="[6] - Tormenta de fuego" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
@@ -945,6 +1024,15 @@
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo. Coloca la plantilla redonda pequeña en cualquier punto a 24” o menos del lanzador y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla sufrirá un impacto de Fuerza 5 con las reglas especiales Ataques sólo flamígeros y Heridas múltiples (1D3). Cualquier unidad que sufra al menos una baja como resultado de este hechizo deberá efectuar de inmediato un chequeo de Pánico. Puede potenciarse para que utilice la plantilla redonda grande en lugar de la pequeña, en cuyo caso la dificultad será de 22+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="11a8-2680-93fe-5838" name="[5] - Deflagracion de la perdicion" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">16+/20+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una miniatura enemiga a 12” o menos del lanzador. Tira 2D6: causa a la miniatura una herida automática con la regla especial Ataques flamígeros sin tirada de salvación por armadura por cada punto que la tirada exceda su atributo de Resistencia. Puede potenciarse para aumentar el alcance hasta 24”, en cuyo caso la dificultad será de 20+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1032,6 +1120,22 @@
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio lanzador y Permanece en efecto. Mientras dure el hechizo, el lanzador obtiene los siguientes bonificadores: +2F, +2R, +1I, +3A y causa Terror. No puede utilizar ningún arma mundana o mágica ni artefacto arcano salvo familiares y tan solo puede lanzar hechizos del Saber de las Bestias.</characteristic>
           </characteristics>
         </profile>
+        <profile id="0a17-0ac7-bd54-1c22" name="[6] - Bestia salvaje de Horros (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">12+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio lanzador y Permanece en efecto. Mientras dure el hechizo, el lanzador obtiene los siguientes bonificadores: +2F, +2R, +1I, +3A y causa Terror. No puede utilizar ningún arma mundana o mágica ni artefacto arcano salvo familiares y tan solo puede lanzar hechizos del Saber de las Bestias. El hechicero se considera un Monstruo a la hora de atacar alguna sección del castillo.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </infoGroup>
     <infoGroup id="574b-8f48-455b-8862" name="Saber de la Vida" hidden="false">
@@ -1108,14 +1212,30 @@
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador. La unidad recupera inmediatamente 1D3+1 heridas que hubiese sufrido con anterioridad en la batalla. Primero restaura las heridas en miembros heridos de la unidad: tras ello, recoloca las bajas sufridas hasta llegar al total de heridas restauradas. Puedes resucitar un Oficial o un Músico, pero no a un Portaestandarte o a un personaje muerto (sin embargo, un personaje podrá ser sanado por este hechizo). No puedes aumentar una unidad por encima de sus efectivos iniciales. Si se trata de Caballería, Caballería monstruosa, Monstruos, Carros o Máquinas de guerra, cada herida sanada cuenta como dos (es decir, si puedes restaurar cuatro heridas, serán sólo dos heridas restauradas en esos tipos de tropa). Este hechizo no afecta a unidades con la regla especial No muerto o Demonio (excepto si tienen la regla especial Espíritu del bosque). Puede potenciarse para que restaure 1D6+1 heridas en lugar de 1D3+1, en cuyo caso la dificultad será de 15+.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2f1f-6e2b-b2bd-88ef" name="[6] - Los moradores de las profundidades" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+        <profile id="2f1f-6e2b-b2bd-88ef" name="[6] - Los moradores de las profundidades (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">20+</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que tiene un alcance máximo de 24”. Coloca la plantilla redonda grande dentro del alcance y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla 
-deberá realizar un chequeo de Fuerza; si lo falla, sufrirá una herida sin tirada de salvación por armadura. Cualquier unidad que sufra al menos una herida como consecuencia de este hechizo verá su Movimiento e Iniciativa reducidos a la mitad y perderá la regla especial Veloz durante su siguiente turno.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Si la plantilla impacta una sección de muralla, torre o puerta, causa un único
+impacto con valor de daño 1D3+10. Se aplican las reglas de asedio para plantillas en fortalezas.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="aadc-b411-37b0-9bfc" name="[6] - Los moradores de las profundidades" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">20+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que tiene un alcance máximo de 24”. Coloca la plantilla redonda grande dentro del alcance y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla deberá realizar un chequeo de Fuerza; si lo falla, sufrirá una herida sin tirada de salvación por armadura. Cualquier unidad que sufra al menos una herida como consecuencia de este hechizo verá su Movimiento e Iniciativa reducidos a la mitad y perderá la regla especial Veloz durante su siguiente turno.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1194,7 +1314,23 @@ deberá realizar un chequeo de Fuerza; si lo falla, sufrirá una herida sin tira
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Tempestad mágica que Permanece en efecto. Mientras dure el hechizo, todos los enemigos en el campo de batalla tendrán un penalizador de -1 a su tirada para impactar con proyectiles, los efectos causados por plantillas de área considerarán cualquier resultado de impacto en el dado de dispersión como si fuese de flecha (aunque en este caso se dispersará sólo la mitad del resultado obtenido), los efectos de Tormenta de proyectiles deberán dividir a la mitad el número de impactos causados y los Cañones y Lanzallamas deberán tirar 1D6 antes de disparar: si no obtiene un resultado de 3+, no podrá disparar. Todas las miniaturas con la regla especial Volar o Flotar no podrán hacer uso de ellas y tendrán que utilizar el movimiento indicado en su perfil de atributos. Adicionalmente, mientras dure el hechizo la dificultad de lanzamiento de los hechizos del Saber de los Cielos se reducirá en 1.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d350-4e78-7206-b25f" name="[6] - Tempestad de Cassandora" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+        <profile id="d350-4e78-7206-b25f" name="[6] - Tempestad de Cassandora (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">21+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Campo de batalla</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Si el impacto central cae sobre una sección de muralla, torre o puerta, causa un único impacto con un valor de daño de 1D3+10, y se aplican las reglas de asedio para plantillas en fortalezas.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b812-bd0c-a11c-bce7" name="[6] - Tempestad de Cassandora" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
           <characteristics>
             <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">21+</characteristic>
@@ -1468,6 +1604,22 @@ de 12+.</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo. Coloca la plantilla del pizotón en cualquier punto del campo de batalla y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla sufre un impacto de Fuerza 6 con la regla especial Heridas múltiples (1D3). Puede potenciarse con una dificultad de 20+ para que, tras resolverlo, tirar 1D6. Con un 1, el adversario coloca la plantilla del pizotón en el punto que desee y tira el dado de dispersión y 2D6 y el hechizo termina. Con un resultado de 2-3, Gorko se aburre y el hechizo termina. Con un resultado de 4+, Gorko pisa otra vez en cualquier punto del campo de batalla. Resuelve el pisotón y tira otra vez 1D6 para ver qué hace Gorko.</characteristic>
           </characteristics>
         </profile>
+        <profile id="2108-289c-1247-0de7" name="[6] - ¡El pizotón! (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">15+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Campo de batalla</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">El Pizotón puede lanzarse contra una sección de muralla, torre o puerta, o impactar en una de ellas si se desvía. Causa un único impacto con un valor de Daño de 3D3+6. </characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </infoGroup>
     <infoGroup id="c3d6-048b-c767-5ec9" name="Saber de Hielo" hidden="false">
@@ -1639,6 +1791,22 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo con un alcance de 24”. Coloca la plantilla redonda pequeña dentro del alcance y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla sufre un impacto de Fuerza 6 con la regla especial Heridas múltiples (1D3). Puedes potenciarse para que utilice la plantilla redonda grande, en cuyo caso la dificultad será de 23+.</characteristic>
           </characteristics>
         </profile>
+        <profile id="50b6-8173-e1fa-21dd" name="[6] - Las fauces (Asedio)" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">16+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo con un alcance de 24”. Coloca la plantilla redonda pequeña dentro del alcance y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla sufre un impacto de Fuerza 6 con la regla especial Heridas múltiples (1D3). Puedes potenciarse para que utilice la plantilla redonda grande, en cuyo caso la dificultad será de 23+. Si la plantilla impacta una sección de muralla, torre o puerta, causa un único impacto con valor de daño 1D6+6. Se aplican las reglas de asedio para plantillas en fortalezas</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </infoGroup>
     <infoGroup id="98a1-a5f1-d74f-e796" name="Saber de Plaga" hidden="false">
@@ -1791,7 +1959,14 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Tempestad mágica que afecta a todas las miniaturas enemigas en el campo de batalla y Permanece en efecto. Mientras dure el hechizo, las unidades no pueden usar la regla especial Volar o Flotar, las unidades tienen un penalizador de -1 para impactar con proyectiles, los efectos causados por plantillas de área considerarán cualquier resultado de impacto como si fuese de flecha, que se dispersará la mitad del resultado obtenido, los efectos de Tormenta de proyectiles deberán dividir a la mitad el número de impactos causados y los Cañones y Lanzallamas deberán tirar 1D6 antes de dispara: si no saca un resultado de 4+, no podrá disparar. Estos penalizadores no afectan en modo alguno a las unidades skaven.</characteristic>
           </characteristics>
         </profile>
-        <profile id="bc5f-be05-c468-845f" name="[6] - Invocar grietas" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+        <profile id="bc5f-be05-c468-845f" name="[6] - Invocar grietas" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">13+</characteristic>
@@ -2140,6 +2315,22 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una miniatura enemiga a 12” o menos del lanzador. Tira 2D6: si obtienes un resultado superior al valor del atributo de Fuerza del objetivo, este se transmutará en una estatua de oro y deberá retirarse como baja.</characteristic>
           </characteristics>
         </profile>
+        <profile id="2e5d-e2cd-1c7d-4df4" name="[6] - Transmutación final (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">16+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Puede lanzarse contra una sección de muralla, torre o puerta para transformarla en oro. No afecta a nivel de reglas, salvo que todas las unidades a 18” o menos de la sección de muralla, torre o puerta con la regla especial Mercenarios obtienen la regla especial Indesmoralizable.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </infoGroup>
     <infoGroup id="adcd-336b-ae90-2ae0" name="Saber de Sombras" hidden="false">
@@ -2223,6 +2414,22 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo con un alcance de 18”. Coloca la plantilla redonda pequeña dentro del alcance y tira el dado de dispersión. Si obtienes un resultado de punto de mira, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla deberá superar un chequeo de Iniciativa o será retirada como baja. Puede potenciarse para que utilice la plantilla redonda grande, en cuyo caso la dificultad será de 24+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3050-0df3-fff5-e33b" name="[6] - Pozo de sombras (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">18+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Si la plantilla impacta una sección de muralla, torre o puerta, causa un único impacto con valor de daño 1D3+10. Se aplican las reglas de asedio para plantillas en fortalezas.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2480,6 +2687,22 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que se lanza en cualquier punto del campo de batalla hacia el que el lanzador tenga línea de visión. Coloca la plantilla redonda pequeña sobre el punto escogido y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Las miniaturas bajo la plantilla sufren un impacto de Fuerza 6 con las reglas especiales Ataques sólo flamígeros y Heridas múltiples (1D3). Adicionalmente, la miniatura bajo el agujero central de la plantilla debe superar un chequeo de Resistencia o será retirada como baja. Puede potenciarse para utilizar la plantilla redonda grande, en cuyo caso la dificultad será de 24+.</characteristic>
           </characteristics>
         </profile>
+        <profile id="4742-f613-72c1-92ed" name="[5] - Martillo infernal (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">14+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">4D6</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Puede lanzarse contra una sección de muralla, torre o puerta, causando un único impacto con un valor de Daño de 1D6+8.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </infoGroup>
     <infoGroup id="18c4-6e80-335b-82a6" name="Alta magia" hidden="false">
@@ -2604,6 +2827,27 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">36&quot;/Campo de batalla</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una unidad enemiga a 36” o menos del lanzador. La unidad sufre 2D6 impactos de Fuerza 10. Si la unidad está usando la regla especial Volar o Flotar en lugar de eso sufrirá 2D6 impactos de Fuerza 5. Puede potenciarse para que afecte a una unidad enemiga en cualquier punto del campo de batalla, aumentando a 3D6 el número de impactos, en cuyo caso la dificultad será de 25+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d98f-7132-df71-bae8" name="[6b] - Sacudida telúrica (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="49dd-6404-b794-06e7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">20+/25+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">36&quot;/Campo de batalla</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Puede lanzarse contra una sección de muralla, torre o puerta, causando un único impacto con un valor de Daño de 2D6+10 (3D6+10 en su versión potenciada).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2836,6 +3080,22 @@ Reglas especiales: Volar (8), Piel escamosa (3+), Arma de aliento (Fuerza 4 y At
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Campo de batalla</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo. Coloca la plantilla del pizotón en cualquier punto del campo de batalla y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla sufre un impacto de Fuerza 6 con la regla especial Heridas múltiples (1D3). Puede potenciarse con una dificultad de 20+ para que, tras resolverlo, tirar 1D6. Con un 1, el adversario coloca la plantilla del pizotón en el punto que desee y tira el dado de dispersión y 2D6 y el hechizo termina. Con un resultado de 2-3, Morko se aburre y el hechizo termina. Con un resultado de 4+, Morko pisa otra vez en cualquier punto del campo de batalla. Resuelve el pisotón y tira otra vez 1D6 para ver qué hace Morko.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4eaf-d6a5-7d3f-b733" name="[6] - El pizotón (Asedio)" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">15+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Campo de batalla</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">El Pizotón puede lanzarse contra una sección de muralla, torre o puerta, o impactar en una de ellas si se desvía. Causa un único impacto con un valor de Daño de 3D3+6. </characteristic>
           </characteristics>
         </profile>
       </profiles>

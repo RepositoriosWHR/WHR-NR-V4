@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="45" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="48" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
   </publications>
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0.0" hidden="false"/>
+    <costType id="7deb-c7e6-415b-8067" name="pts de Asedio" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="4d6f64656c23232344415441232323" name="Modelo">
@@ -82,6 +83,16 @@
       </characteristicTypes>
     </profileType>
     <profileType id="5ba1-6dad-0643-56fd" name="Saber"/>
+    <profileType id="bed2-e974-27fd-c0d6" name="Edificio">
+      <characteristicTypes>
+        <characteristicType id="7523-c4a5-c740-2d0a" name="Reglas especiales"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="2c83-0008-cd07-20f7" name="Equipo de Asedio">
+      <characteristicTypes>
+        <characteristicType id="430d-a994-3adc-7ae5" name="Reglas especiales"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="4c6f72647323232344415441232323" name="Comandantes" hidden="false"/>
@@ -310,6 +321,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="046a-1c36-705e-1c0e" name="Hasta 2.999 puntos" hidden="false" collective="false" import="true" type="upgrade">
@@ -318,6 +330,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3673-aaa8-d1d9-e6c2" name="Batalla gigantesca (5000 a 9999 puntos)" hidden="false" collective="false" import="true" type="upgrade">
@@ -327,6 +340,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8a3f-4f19-b737-e4bc" name="Batalla apocalíptica (10000 puntos o más)" hidden="false" collective="false" import="true" type="upgrade">
@@ -336,6 +350,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -343,6 +358,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c9a-9811-e7c5-3b96" name="Personajes especiales" hidden="false" collective="false" import="true" type="upgrade">
@@ -366,6 +382,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e01b-aa63-8a17-da7d" name="No" hidden="false" collective="false" import="true" type="upgrade">
@@ -374,6 +391,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -381,6 +399,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="96b3-9d7b-efbd-7353" name="Extra reforged" hidden="false" collective="false" import="true" type="upgrade">
@@ -404,6 +423,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a7c9-be80-08a2-aff3" name="No" hidden="false" collective="false" import="true" type="upgrade">
@@ -412,6 +432,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -419,6 +440,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a4e-062e-8f7e-7dcc" name="Regimientos de renombre" hidden="false" collective="false" import="true" type="upgrade">
@@ -442,6 +464,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="89ae-f60b-80b0-8549" name="No" hidden="false" collective="false" import="true" type="upgrade">
@@ -450,6 +473,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -457,6 +481,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="efc1-1681-dc35-eaaa" name="Niveles de restricción" hidden="false" collective="false" import="true" type="upgrade">
@@ -475,6 +500,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fbb7-2fef-7e85-a6df" name="Nivel 3 (FullHammer)" hidden="false" collective="false" import="true" type="upgrade">
@@ -483,6 +509,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="21ef-2b07-168a-7af0" name="Nivel 2 (Restricciones de torneo)" hidden="false" collective="false" import="true" type="upgrade">
@@ -504,6 +531,7 @@
                   </constraints>
                   <costs>
                     <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -569,6 +597,7 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -599,6 +628,7 @@
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -606,6 +636,695 @@
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f217-becd-efde-aa8c" name="Equipo de asedio" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc65-6bf6-d7f7-24e7" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2ac7-cb9f-d4ec-609b" name="Secciones de muralla" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de99-a74b-94c3-9f7c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="bfb1-3880-2469-c764" name="Movimiento y Combate" hidden="false">
+              <description>Debido a las peculiaridades del combate en las murallas o las torres, una unidad puede verse dividida: mientras algunos miembros de la unidad pueden estar combatiendo en combate cuerpo a cuerpo, puede que no quede espacio suficiente y otros miembros de la unidad se queden sin trabarse en combate. Debes rellenar inmediatamente los huecos que queden en el combate al producirse bajas. Sin embargo, las miniaturas que no están trabadas pueden disparar normalmente, y utilizar armas de asedio como rocas o aceite hirviendo</description>
+            </rule>
+            <rule id="6fa7-d60b-acdd-b444" name="Movimiento por Murallas y Torres" hidden="false">
+              <description>Las unidades se mueven por las murallas y torres en formación de hostigadores, tal y como se ha descrito. Ten en cuenta que en lo alto de las murallas tan sólo puede situarse una única fila de tropas. Si una unidad es demasiado grande como para entrar en una torre o en una sección de muralla, coloca el resto de la unidad en el patio de armas, en contacto con la torre o muralla. Si la parte de la unidad en lo alto sufre bajas, rellena los huecos inmediatamente con miniaturas de la parte baja.
+Las miniaturas pueden mover de una sección de muralla o torre a otra adyacente, si les alcanza su movimiento (y no están trabadas en combate). Las miniaturas pueden pasar unas por encima de las otras durante la fase de movimiento, pudiendo intercambiar la posición de dos unidades.</description>
+            </rule>
+            <rule id="05eb-db3f-36b6-ae72" name="Movimiento entre Patio de Armas y Muralla o Torre" hidden="false">
+              <description>Durante su fase de movimiento, una unidad puede mover a un sección de muralla o torre desde el patio de armas: para ello, debe alcanzarle su movimiento para ponerse en contacto con la base de dicha sección de torre o muralla. En ese momento es cuando la unidad adopta formación de Hostigadores, y se coloca en una sola fila en la muralla, o en lo alto de la torre. Como se ha explicado, si la unidad es demasiado grande, las miniaturas sobrantes se colocan en el patio de armas, en contacto con la base de la muralla o torre.
+
+Del mismo modo, una unidad puede mover desde una sección de muralla o torre al patio de armas (obviamente, tan sólo si no está trabada en combate, como es habitual). Coloca la unidad en contacto con la base de la muralla o torre: en ese momento debes abandonar la formación de Hostigadores, y puedes reformar de forma gratuita con la unidad. Puedes realizar un movimiento normal ese turno a partir de ahí, pero no marchar.</description>
+            </rule>
+            <rule id="49b5-35b6-8da8-d366" name="Tomar la Muralla" hidden="false">
+              <description>En cualquier momento en el que sobre una sección de muralla los atacantes tengan más Potencia de unidad que los defensores, se considera que el atacante ha tomado esa sección de muralla. En ese momento dejan de aplicarse los penalizadores y bonificadores al combate en lo alto de las murallas (es decir, cada bando utilizará su valor normal de I, el atacante no impactará sólo con 6+, etc)</description>
+            </rule>
+            <rule id="3f84-46b4-cf51-4432" name="Asaltar Murallas" hidden="false">
+              <description>Si la unidad o unidades disponen de escalas, cuerdas y garfios o usan una torre de asedio, pueden asaltar las murallas en la fase de combate cuerpo a cuerpo. El total de miniaturas que puedan luchar estará limitada por el espacio que hay en la muralla. A continuación explicamos como se usan estos las tres equipaciones que se usan para el asalto a las murallas.
+Si la sección de muralla asaltada está ocupada por una unidad del jugador defensor, la unidad que asalta quedará trabada en combate cuerpo a cuerpo con ella: sitúa a todas las miniaturas que asalten en una hilera, en contacto peana con peana con la unidad defensora. En estos combates, los asaltantes no obtienen el bonificador habitual de +1I por cargar (ni tampoco si tienen la regla especial Ataque rápido), y los defensores siempre duplican su atributo de
+Iniciativa (y no aplicarán nunca la regla especial Lenta de sus armas). Además, los defensores se consideran a cubierto tras un obstáculo (las propias almenas), por lo que tan solo podrán ser impactados con resultados de 6+, sin tener en cuenta los atributos de HA de las respectivas unidades, para representar la protección de las almenas. Hay que tener en cuenta que estas condiciones especiales se aplican cada fase de combate cuerpo a cuerpo hasta que el atacante consiga Tomar la muralla.</description>
+            </rule>
+            <rule id="94cc-2943-76c9-9141" name="Murallas no defendidas" hidden="false">
+              <description>Si una muralla es asaltada exitosamente y no está defendida, el atacante toma la muralla automáticamente, y puede subir con todas las miniaturas de la unidad que desee (mientras entren físicamente en lo alto de la sección de muralla). Las miniaturas que no entren físicamente se dejan en el exterior del castillo. Si en turnos posteriores la unidad entra al patio de armas, considera que entra la unidad entera.</description>
+            </rule>
+            <rule id="23a4-9097-c24e-9a25" name="Tabla de Daños Murallas" hidden="false">
+              <description>Daño Efecto (Muralla)
+2-12 Ningún efecto: la muralla no sufre daños importantes.
+13-14 Dañada: la muralla tiembla hasta los cimientos. Suma +1* a todas las tiradas de daño posterioresrealizadas contra esta sección de muralla.
+15-16 Daños estructurales: la muralla tiembla violentamente. Las tropas situadas sobre la muralla tendrán unpenalizador de -1 para impactar (tanto con proyectiles como en combate cuerpo a cuerpo) hasta el iniciodel próximo turno del jugador que causó el resultado (ten en cuenta que las tropas que impacten sólocon resultados de 6 seguirán impactando con resultados de 6). Suma +1* a todas las tiradas de dañoposteriores realizadas contra esta sección de muralla.
+17-18 Almenas destruidas: Las almenas de la muralla resultan destruidas por el impacto. Cada miniatura sobre la sección de muralla deberá superar un chequeo de Iniciativa o sufrirá un impacto automático de F4. Cualquier unidad a 6” o menos de la sección de muralla (sólo las unidades en el exterior de la fortaleza, no sobre ella o en el patio de armas) sufrirá inmediatamente 1D6 impactos de F4 distribuidos como proyectiles. La destrucción de las almenas también implica que los defensores ya no contarán como defendiendo un obstáculo, y los disparos contra las tropas en lo alto tendrán un penalizador de -1 por cobertura ligera, en lugar del anterior -2 por cobertura pesada. Suma +1* a todas las tiradas de daño posteriores realizadas contra esta sección de muralla. Una vez las almenas de una sección han sido destruidas, considera este resultado como Daños estructurales.
+19 ¡Brecha!: el ataque abre una brecha en la muralla de 2” de ancho y 3” de altura. Una unidad puede atravesar la brecha, pero se considera Terreno muy difícil (es decir, moverá la cuarta parte de su movimiento), y no se podrá cargar a través de la brecha (si una unidad entera no puede atravesarla en
+una fase de movimiento, usa las mismas reglas que con la puerta, colocando una parte de la unidad a cada lado). Suma +1* a todas las tiradas de daño posteriores realizadas contra esta sección de muralla. Una segunda brecha duplica el tamaño de ésta, y hace que atravesarla se considere Terreno difícil. Una tercera brecha hará que se considere Terreno abierto.
+20+ Muralla derruida: la muralla se desmorona. Cada miniatura sobre la muralla sufre un impacto automático de F5. Cualquier unidad a 6” o menos de la sección de muralla (tanto en el exterior como en el patio de armas, pero no en secciones o torres adyacentes) sufrirá inmediatamente 1D6 impactos de F5 distribuidos como proyectiles. Retira la sección de muralla y reemplázala por cascotes o ruinas, y coloca en ellas las miniaturas supervivientes de las unidades que estaban sobre la muralla, reformándolas en formación cerrada: los restos de la muralla se consideran una Obstrucción sólida.
+
+Todos estos modificadores son acumulativos, incluso si se obtiene varias veces el mismo resultado (es decir, una muralla que haya sufrido dos veces un resultado de “Dañada” sumará +2 a todas las tiradas de daño posteriores realizadas contra esta sección de muralla</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="431e-001b-e978-98e9" name="Murallas" hidden="false" targetId="0653-05af-c3cb-5a81" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c2f6-afae-c68d-ae28" name="Torres" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="68b0-3e31-ba85-8848" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="bcd8-ac81-a70f-9204" name="Movimiento y Combate" hidden="false">
+              <description>Debido a las peculiaridades del combate en las murallas o las torres, una unidad puede verse dividida: mientras algunos miembros de la unidad pueden estar combatiendo en combate cuerpo a cuerpo, puede que no quede espacio suficiente y otros miembros de la unidad se queden sin trabarse en combate. Debes rellenar inmediatamente los huecos que queden en el combate al producirse bajas. Sin embargo, las miniaturas que no están trabadas pueden disparar normalmente, y utilizar armas de asedio como rocas o aceite hirviendo</description>
+            </rule>
+            <rule id="7d46-c6f0-7249-103a" name="Movimiento por Murallas y Torres" hidden="false">
+              <description>Las unidades se mueven por las murallas y torres en formación de hostigadores, tal y como se ha descrito. Ten en cuenta que en lo alto de las murallas tan sólo puede situarse una única fila de tropas. Si una unidad es demasiado grande como para entrar en una torre o en una sección de muralla, coloca el resto de la unidad en el patio de armas, en contacto con la torre o muralla. Si la parte de la unidad en lo alto sufre bajas, rellena los huecos inmediatamente con miniaturas de la parte baja.
+Las miniaturas pueden mover de una sección de muralla o torre a otra adyacente, si les alcanza su movimiento (y no están trabadas en combate). Las miniaturas pueden pasar unas por encima de las otras durante la fase de movimiento, pudiendo intercambiar la posición de dos unidades.</description>
+            </rule>
+            <rule id="cf88-014f-27c4-1141" name="Movimiento entre Patio de Armas y Muralla o Torre" hidden="false">
+              <description>Durante su fase de movimiento, una unidad puede mover a un sección de muralla o torre desde el patio de armas: para ello, debe alcanzarle su movimiento para ponerse en contacto con la base de dicha sección de torre o muralla. En ese momento es cuando la unidad adopta formación de Hostigadores, y se coloca en una sola fila en la muralla, o en lo alto de la torre. Como se ha explicado, si la unidad es demasiado grande, las miniaturas sobrantes se colocan en el patio de armas, en contacto con la base de la muralla o torre.
+
+Del mismo modo, una unidad puede mover desde una sección de muralla o torre al patio de armas (obviamente, tan sólo si no está trabada en combate, como es habitual). Coloca la unidad en contacto con la base de la muralla o torre: en ese momento debes abandonar la formación de Hostigadores, y puedes reformar de forma gratuita con la unidad. Puedes realizar un movimiento normal ese turno a partir de ahí, pero no marchar.</description>
+            </rule>
+            <rule id="334b-db1b-07aa-a166" name="Tabla de Daños Torres" hidden="false">
+              <description>Daño Efecto (Torre)
+2-12 Ningún efecto: la torre permanece indemne, sufriendo sólo daños estéticos menores.
+13-14 Dañada: la torre tiembla hasta los cimientos. Suma +1* a todas las tiradas de daño posteriores realizadas contra esta torre.
+15-16 Daños estructurales: la torre tiembla violentamente. Las tropas situadas en el interior o sobre la torre tendrán un penalizador de -1 para impactar (tanto con proyectiles como en combate cuerpo a cuerpo) hasta el inicio del próximo turno del jugador que causó el resultado (ten en cuenta que las tropas que impacten sólo con resultados de 6 seguirán impactando con resultados de 6). Suma +1* a todas las tiradas de daño posteriores realizadas contra esta torre.
+17-18 Almenas destruidas: Las almenas de la torre resultan destruidas por el impacto. Cada miniatura en el interior o sobre la torre deberá superar un chequeo de Iniciativa o sufrirá un impacto automático de F4. Cualquier unidad a 6” o menos de la torre (sólo las unidades en el exterior de la fortaleza o en el patio de armas) sufrirá inmediatamente 1D6 impactos de F4 distribuidos como proyectiles. La destrucción de las almenas también implica que los defensores ya no contarán como defendiendo un obstáculo, y los disparos contra las tropas en lo alto tendrán un penalizador de -1 por cobertura ligera, en lugar del anterior -2 por cobertura pesada. Suma +1* a todas las tiradas de daño posteriores realizadas contra esta torre. Una vez las almenas de una torre han sido destruidas, considera este resultado como Daños estructurales.
+19 Parcialmente derruida: La parte superior de la torre queda destruida en medio de un estruendo ensordecedor y una terrible lluvia de cascotes y piedras. Todas las miniaturas en el interior de la torre deberán superar un chequeo de Iniciativa o sufrirán un impacto automático de F5. Las miniaturas sobre
+la torre sufrirán automáticamente un impacto de F5. Cualquier unidad a 6” o menos de la torre (sólo las unidades en el exterior de la fortaleza o en el patio de armas) sufrirá inmediatamente 1D6 impactos de F5 distribuidos como proyectiles. A partir de ahora no pueden colocarse miniaturas en el nivel superior de la torre. Suma +1* a todas las tiradas de daño posteriores realizadas contra esta torre. 
+20+ ¡La torre es destruida!: La masa de piedra de la torre se desmorona. Todas las miniaturas sobre la torre o en su interior sufren un impacto automático de F5. Cualquier unidad a 8” o menos de la torre (sólo las unidades en el exterior de la fortaleza o en el patio de armas) sufrirá inmediatamente 1D6 impactos de
+F5 distribuidos como proyectiles. Sustituye la torre por una pila de escombros, que se consideran terreno difícil y cobertura pesada.
+
+*Todos estos modificadores son acumulativos, incluso si se obtiene varias veces el mismo resultado (es decir, una torre que haya sufrido dos veces un resultado de “Dañada” sumará +2 a todas las tiradas de daño posteriores realizadas contra esta torre).</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="5d7c-b9e7-1eda-ca3a" name="Torres" hidden="false" targetId="b55d-41fb-08df-d131" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9238-4f0a-4a80-6ca0" name="Puertas" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ff0-8112-8c65-9a89" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="d9de-ed4e-2070-5fe3" name="Tabla de Daños Puertas" hidden="false">
+              <description>Daño Efecto (Puerta)
+2-10 Ningún efecto: las puertas ni tan sólo tiemblan
+11-12 Grieta: la madera y el metal de las puertas se agrietan. Suma +1* a todas las tiradas de daño posteriores realizadas contra las puertas.
+13-14 Resquebrajada: Las puertas gimen y chirrían ante la presión a la que se ven sometidas. Suma +2* a todas las tiradas de daño posteriores realizadas contra las puertas.
+15 Destruida: la puerta ha sido destruida y el enemigo puede entrar en la fortaleza. Sin embargo, los restos de las puertas dificultan el paso, por lo que el terreno bajo el arco se considera terreno difícil. Puedes seguir atacando la puerta para destruirla totalmente, en cuyo caso suma +3* a todas las tiradas de daño posteriores realizadas contra las puertas.
+16+ ¡Vía libre!: las puertas resultan totalmente destruidas: retíralas del campo de batalla.
+
+*Todos estos modificadores son acumulativos, incluso si se obtiene varias veces el mismo resultado (es decir, una puerta que haya sufrido dos veces un resultado de “Grieta” sumará +2 a todas las tiradas de daño posteriores realizadas contra ella).</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="9796-6104-6812-2061" name="Puertas" hidden="false" targetId="c563-8652-e805-427f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e2ad-0191-6372-d5df" name="Equipo de asedio" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7cf7-6d2a-5b2e-4f50" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c9c9-21d9-8354-a87b" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bcc0-0db2-0c37-d241" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="8e4a-87ff-47f2-968b" name="Defensor" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="8b37-cf80-faea-643d" name="Puerta reforzada" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="increment" field="a867-561a-97b5-fbc1" value="1.0">
+                          <repeats>
+                            <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9238-4f0a-4a80-6ca0" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a867-561a-97b5-fbc1" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="951d-cb15-f1c8-bcb9" name="Puerta reforzada" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Si una puerta ha sido reforzada, deberás restar 1 de todas las tiradas de daños que se realicen contra la puerta.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="7703-9cec-1301-825b" name="Puertas" hidden="false" targetId="c563-8652-e805-427f" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="25.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="30bc-8b24-f5b5-5833" name="Tejadillos" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="increment" field="7e63-e1e5-1ddb-3497" value="1.0">
+                          <repeats>
+                            <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ac7-cb9f-d4ec-609b" repeats="1" roundUp="false"/>
+                            <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2f6-afae-c68d-ae28" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e63-e1e5-1ddb-3497" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="8760-e3b9-9716-d079" name="Tejadillos" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una sección de tejadillo en una sección de muralla o torre hace que las criaturas voladoras tengan el penalizador por atacar a enemigos que están defendiendo un obstáculo (es decir, tan sólo impactarán con resultados de 6, sin importar la HA, no aplicarán bonificadores a I por cargar, etc). Esto sólo se aplica hasta que las criaturas atacantes hayan conseguido Tomar la muralla o torre.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="10.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="655b-26ce-5bbb-2468" name="Protecciones mágicas" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="increment" field="eb58-1563-f6c5-0f83" value="1.0">
+                          <repeats>
+                            <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ac7-cb9f-d4ec-609b" repeats="1" roundUp="false"/>
+                            <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2f6-afae-c68d-ae28" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb58-1563-f6c5-0f83" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="34b2-fc26-7dac-cf5e" name="Protecciones mágicas" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Las unidades del defensor sobre una torre o sección de muralla con protecciones mágicas obtienen Resistencia mágica (1), o verán incrementada en 1 su Resistencia mágica (hasta un máximo de 3) si ya disponían de ella.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="5271-8cdc-cbd8-387f" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="20.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="e607-444c-ea07-a89b" name="Arquitectura imperial" hidden="true" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6d1-0def-81bb-7942" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="09c4-4a06-8b6c-530f" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5752-4a70-7461-a2aa" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="74c4-5959-85e8-14bd" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c73-d5e0-1d4d-43b7" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0530-f164-a99e-cd40" name="Arquitectura imperial" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Un castillo de Arquitectura Imperial tendrá de forma gratuita en las torres y en la sección de muralla de la puerta la mejora Tejadillos.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="12a3-e5be-e7a7-501e" name="Tejadillos" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una sección de tejadillo en una sección de muralla o torre hace que las criaturas voladoras tengan el penalizador por atacar a enemigos que están defendiendo un obstáculo (es decir, tan sólo impactarán con resultados de 6, sin importar la HA, no aplicarán bonificadores a I por cargar, etc). Esto sólo se aplica hasta que las criaturas atacantes hayan conseguido Tomar la muralla o torre.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="40.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4f4c-5304-894a-950c" name="Fortaleza inexpugnable" hidden="true" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="718a-95a2-5863-e407" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="469c-f68f-07c2-64cc" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d7c-fd10-a086-d2ce" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="731e-f211-aeff-9a2a" name="Fortaleza inexpugnable" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una fortaleza de Enanos o Enanos del Caos con esta mejora resta 1 a todas las tiradas de daño realizadas contra ella.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="100.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6e6d-487f-6f6c-f957" name="Arquitectura infernal" hidden="true" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="399a-efe8-a7c4-3104" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="619e-e9da-a8e8-4f6f" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2ea-a0b8-8a9f-e3a5" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51fc-eb9b-4cd8-7ac0" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca36-41ae-f114-eeeb" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d464-cc28-f64f-bbfd" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="eacf-3bc1-6238-fb35" name="Arquitectura infernal" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Todas las miniaturas del Caos sobre la fortaleza o en el interior de ésta (incluyendo en el patio de armas) causarán Miedo; si ya causaban Miedo pasarán a causar Terror.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="30.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="cb3d-36b2-4aac-8b71" name="Piedra de la Manada" hidden="true" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51fc-eb9b-4cd8-7ac0" type="instanceOf"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="711d-4f1a-429d-c7b8" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="81f7-80f2-1671-adc7" name="Piedra de la Manada" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">En el interior del patio de la fortaleza debes colocar un elemento de escenografía en forma de obelisco/columna para representar la piedra de la manada. Este elemento de escenografía tiene el siguiente perfil:</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="5d02-8e96-b169-f453" name="Piedra de la Manada" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                          <characteristics>
+                            <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                            <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                            <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                            <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                            <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                            <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                            <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                            <characteristic name="A" typeId="4123232344415441232323">0</characteristic>
+                            <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                            <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                            <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                            <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="1dcd-9fdf-44f7-1ffb" name="Tirada de salvación por armadura (4+)" hidden="false">
+                          <description>Tirada de salvación por armadura (4+)</description>
+                        </rule>
+                        <rule id="7752-9096-7ce6-e6b9" name="Piedra de la Manada" hidden="false">
+                          <description>La piedra de la manada no puede ser afectado por hechizos de  maldición. Si tiene que hacer cualquier chequeo de atributos lo superará automáticamente. Mientras la Piedra de la manada siga en pie todas las unidades de Bestias del Caos que estén dentro de la fortaleza que tengan la regla Indisciplina no deberán hacer chequeo de Liderazgo: lo pasarán automáticamente. Además, al inicio de la partida designa 1D3 unidades dentro de la fortaleza, esas unidades podrán hacer una tirada en la tabla de Destruir la Civilización.</description>
+                        </rule>
+                        <rule id="f002-15d8-8dac-b500" name="Movimiento en el exterior del Castillo y el Patio de Armas" hidden="false">
+                          <description>Se utilizan las reglas habituales de movimiento cuando las tropas se encuentran en el patio de armas o en el exterior de la fortaleza. Hay que tener en cuenta que las tropas en lo alto de las murallas o de las torres no se tienen en cuenta para ver si las unidades en el suelo pueden efectuar movimientos de marcha (es decir, que las tropas en lo alto no obligan a realizar un chequeo de Liderazgo para poder marchar a las tropas en el suelo si se encuentran a 8” o menos de distancia).</description>
+                        </rule>
+                        <rule id="ea59-6dcc-398c-5321" name="Movimiento entre Patio de Armas y Muralla o Torre" hidden="false">
+                          <description>Durante su fase de movimiento, una unidad puede mover a un sección de muralla o torre desde el patio de armas: para ello, debe alcanzarle su movimiento para ponerse en contacto con la base de dicha sección de torre o muralla. En ese momento es cuando la unidad adopta formación de Hostigadores, y se coloca en una sola fila en la muralla, o en lo alto de la torre. Como se ha explicado, si la unidad es demasiado grande, las miniaturas sobrantes se colocan en el patio de armas, en contacto con la base de la muralla o torre.
+
+Del mismo modo, una unidad puede mover desde una sección de muralla o torre al patio de armas (obviamente, tan sólo si no está trabada en combate, como es habitual). Coloca la unidad en contacto con la base de la muralla o torre: en ese momento debes abandonar la formación de Hostigadores, y puedes reformar de forma gratuita con la unidad. Puedes realizar un movimiento normal ese turno a partir de ahí, pero no marchar.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="7c85-f2dd-7159-190b" name="Resistencia mágica (2)" hidden="false" targetId="9718-2e66-193f-7dd6" type="rule"/>
+                        <infoLink id="c191-8026-d21b-3314" name="Inmune al veneno" hidden="false" targetId="0338-1cb0-0dc1-2892" type="rule"/>
+                        <infoLink id="3b97-c750-baa0-59af" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
+                        <infoLink id="1cfa-76b6-6a7f-ce59" name="Patio de armas" hidden="false" targetId="a53c-35f4-831d-e312" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="25.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ef99-f4bd-1bd4-d04d" name="Monolito geomántico" hidden="true" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="90ff-d5d9-3ca7-598e" type="instanceOf"/>
+                                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="49dd-6404-b794-06e7" type="instanceOf"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e118-c782-419d-f363" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="bf11-64ca-ae28-481c" name="Monolito geomántico" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">En el interior del patio de armas de la fortaleza debes colocar un elemento de escenografía en forma de monolito para representarlo. Este elemento de escenografía tiene el siguiente perfil:</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="4fb5-ec33-b0bf-3f59" name="Monolito geomántico" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                          <characteristics>
+                            <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                            <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                            <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                            <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                            <characteristic name="R" typeId="5423232344415441232323">8</characteristic>
+                            <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                            <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                            <characteristic name="A" typeId="4123232344415441232323">0</characteristic>
+                            <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                            <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                            <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                            <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="18c6-070a-71d3-28aa" name="Tirada de salvación por armadura (4+)" hidden="false">
+                          <description>Tirada de salvación por armadura (4+)</description>
+                        </rule>
+                        <rule id="8b50-f5d8-05b0-6574" name="Monolito geomántico" hidden="false">
+                          <description>El Monolito geomántico no puede ser afectado por hechizos de maldición. Si tiene que hacer cualquier chequeo de atributos lo superará automáticamente. Mientras el monolito siga en pie, todos los hechiceros (amigos o enemigos) sobre la fortaleza o en el interior de ésta podrán tirar tres dados adicionales para Canalizar. Sin embargo, si el monolito es destruido, todos los hechiceros (amigos o enemigos) sobre la fortaleza o en el interior de ésta sufrirán inmediatamente una Disfunción mágica.</description>
+                        </rule>
+                        <rule id="d92a-a95e-c40c-8b13" name="Movimiento en el exterior del Castillo y el Patio de Armas" hidden="false">
+                          <description>Se utilizan las reglas habituales de movimiento cuando las tropas se encuentran en el patio de armas o en el exterior de la fortaleza. Hay que tener en cuenta que las tropas en lo alto de las murallas o de las torres no se tienen en cuenta para ver si las unidades en el suelo pueden efectuar movimientos de marcha (es decir, que las tropas en lo alto no obligan a realizar un chequeo de Liderazgo para poder marchar a las tropas en el suelo si se encuentran a 8” o menos de distancia).</description>
+                        </rule>
+                        <rule id="aecf-1317-2517-12cb" name="Movimiento entre Patio de Armas y Muralla o Torre" hidden="false">
+                          <description>Durante su fase de movimiento, una unidad puede mover a un sección de muralla o torre desde el patio de armas: para ello, debe alcanzarle su movimiento para ponerse en contacto con la base de dicha sección de torre o muralla. En ese momento es cuando la unidad adopta formación de Hostigadores, y se coloca en una sola fila en la muralla, o en lo alto de la torre. Como se ha explicado, si la unidad es demasiado grande, las miniaturas sobrantes se colocan en el patio de armas, en contacto con la base de la muralla o torre.
+
+Del mismo modo, una unidad puede mover desde una sección de muralla o torre al patio de armas (obviamente, tan sólo si no está trabada en combate, como es habitual). Coloca la unidad en contacto con la base de la muralla o torre: en ese momento debes abandonar la formación de Hostigadores, y puedes reformar de forma gratuita con la unidad. Puedes realizar un movimiento normal ese turno a partir de ahí, pero no marchar.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="c223-2005-615c-51f2" name="Resistencia mágica (2)" hidden="false" targetId="9718-2e66-193f-7dd6" type="rule"/>
+                        <infoLink id="8dca-fead-f2c7-0432" name="Inmune al veneno" hidden="false" targetId="0338-1cb0-0dc1-2892" type="rule"/>
+                        <infoLink id="286b-5af1-ca79-b691" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="25.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3017-1b5e-b6d1-8a9c" name="Pasadizo secreto" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="60b9-7de0-d2b7-d5f6" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c9a3-1aec-7ec0-7992" name="Pasadizo secreto" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Selecciona antes del despliegue un punto del campo de batalla que contenga un elemento de escenografía o una de las paredes del castillo: esa será la salida del pasadizo secreto. Una unidad de infantería o infantería monstruosa que esté dentro de la fortaleza puede usar el pasadizo secreto al inicio del turno y se considerará como si hubiese llegado al campo mediante la regla Refuerzos (página 152 del reglamento de Warhammer Reforged). El pasadizo solo sirve para salir del castillo y no para entrar.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="75.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0976-14bd-01ed-001f" name="Torre de Hechicería" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="671b-d427-df31-f8e8" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1dd2-1eb6-5c20-6ba2" name="Torre de Hechicería" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una torre puede mejorarse para ser una Torre de Hechicería. La Torre de Hechicería sigue las mismas reglas que las torres.  Los hechiceros que estén en la torre ganarán una bonificación de +1 al canalizar, lanzar y dispersar hechizos.  </characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="2cbf-dec3-969f-6ee6" name="Torres" hidden="false" targetId="b55d-41fb-08df-d131" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="50.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0c0c-6f21-f4cd-037c" name="Torre del Homenaje" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb15-e540-f79f-48b0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c39f-d296-1401-f1ae" name="Torre del homenaje" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                          <characteristics>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una torre puede mejorarse para ser una Torre del Homenaje. La Torre del Homenaje sigue las mismas reglas que las torres. La Torre del homenaje deberá contener una planta más que el resto de torres del castillo. Las tropas guarecidas en él y en las murallas anexas a ella obtendrán un +1 a su atributo de L. Además los ataques dirigidos contra la Torre del Homenaje restarán 1 a todas las tiradas de daños que se realicen contra la torre.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="50.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="027b-1a1f-16d1-2921" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2341-0fcc-92dc-9c52" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="aceb-985e-424d-4c07" name="Atacante" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="a85e-2e29-26a5-ff07" name="Bombarda de L&apos;Anguille" hidden="true" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a132-ff2a-7f39-4dc4" type="instanceOf"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd1b-ac42-5142-8e00" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="198c-3053-cf92-b90e" name="Munición Especial" hidden="false">
+                          <description>Antes de disparar debes declarar qué proyectil disparará la Bombarda.
+
+-Bola de fragmentación: en el punto final en el que aterrice la bala de cañón, coloca la plantilla redonda pequeña. Todas las miniaturas impactadas por la plantilla (siguiendo las reglas habituales de impactos parciales) sufrirán un impacto de F4 y poder de penetración. No tiene impacto central diferenciado.
+
+-Bola de demolición: suma un +1 a los daños causados por el impacto de la bola de demolición a una sección de la muralla. Contra las unidades sigue las mismas reglas que un cañón tal y como está descrito en el reglamento de Warhammer Reforged.</description>
+                        </rule>
+                        <rule id="c1e8-7d20-43b9-35d0" name="Artilleros novatos" hidden="false">
+                          <description>Si se obtiene un resultado de problemas resta 1 a la tirada de 1D6 en la tabla de problemas.</description>
+                        </rule>
+                        <rule id="8152-12ca-71c8-09a4" name="Bombarda de L&apos;Anguille" hidden="false">
+                          <description>La Bombarda dispara como un cañón excepto que la distancia máxima que puede declarar son 8 dados). Antes de disparar debes declarar qué proyectil disparará la Bombarda.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks>
+                        <infoLink id="32cb-fcee-9c6d-cb92" name="Máquina de guerra" hidden="false" targetId="48ca-c3bc-f385-15fc" type="rule"/>
+                        <infoLink id="9e7a-848b-6930-6612" name="Cañón" hidden="false" targetId="9f6a-5d0b-f0a6-dbab" type="rule"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="6ab4-d72f-89d2-1701" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1dd-88ef-9e43-97d1" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f45-8fc0-96b0-929d" type="min"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="4ced-b995-f378-fbe9" name="Hombres de armas" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                              <characteristics>
+                                <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
+                                <characteristic name="HA" typeId="575323232344415441232323">-3</characteristic>
+                                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                                <characteristic name="R" typeId="5423232344415441232323">3</characteristic>
+                                <characteristic name="H" typeId="5723232344415441232323">1 (3)</characteristic>
+                                <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
+                                <characteristic name="A" typeId="4123232344415441232323">1 (3)</characteristic>
+                                <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">6</characteristic>
+                                <characteristic name="TSE" typeId="576172645361766523232344415441232323">-</characteristic>
+                                <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="56ca-1f10-f7b3-be2a" name="Bombarda de L&apos;Anguille" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9f42-7389-7672-decd" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aabf-c547-511d-4a1e" type="min"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="67cd-8f4f-d166-0027" name="Bombarda de L&apos;Anguille" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                              <characteristics>
+                                <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                                <characteristic name="HA" typeId="575323232344415441232323">-</characteristic>
+                                <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                                <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                                <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                                <characteristic name="H" typeId="5723232344415441232323">-</characteristic>
+                                <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                                <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
+                                <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">-</characteristic>
+                                <characteristic name="TSE" typeId="576172645361766523232344415441232323">-</characteristic>
+                                <characteristic name="Tipo" typeId="5479706523232344415441232323">Máquina de guerra</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="5589-3aac-e499-3d2b" name="Cañón" hidden="false" targetId="126e-8186-1926-061e" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="a762-c037-79e5-7690" name="Equipo dotación" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aea3-dd37-5284-822d" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="819b-6f69-2c22-d0de" type="min"/>
+                          </constraints>
+                          <selectionEntries>
+                            <selectionEntry id="1a2d-be0b-0cda-d0ff" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91ec-e566-128d-d1a5" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f319-f761-fafd-6b96" type="min"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink id="eab4-04b4-5bb9-4198" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="0.0"/>
+                                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry id="4d5c-4b20-b96f-d530" name="Armadura ligera" hidden="false" collective="false" import="true" type="upgrade">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0396-64d3-6085-6a62" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ef22-648c-69c1-4c53" type="min"/>
+                              </constraints>
+                              <infoLinks>
+                                <infoLink id="3fc7-1325-d3d3-c282" name="Armadura ligera" hidden="false" targetId="44f2-32d5-23eb-62f5" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="0.0"/>
+                                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="6172-ae9b-e248-bd59" name="Equipo de Asedio (Maquina de guerra)" hidden="false" collective="false" import="true" type="upgrade">
+                          <modifiers>
+                            <modifier type="set" field="hidden" value="true">
+                              <conditions>
+                                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+                              </conditions>
+                            </modifier>
+                          </modifiers>
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c58f-8b80-b215-d4f0" type="max"/>
+                          </constraints>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup id="d49a-cef9-d767-bb9c" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a496-004b-0560-a1c3" type="max"/>
+                              </constraints>
+                              <selectionEntries>
+                                <selectionEntry id="4efa-e61f-043a-0c33" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                                  <modifiers>
+                                    <modifier type="set" field="hidden" value="true">
+                                      <conditions>
+                                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                                      </conditions>
+                                    </modifier>
+                                  </modifiers>
+                                  <constraints>
+                                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e041-7538-cd18-bb13" type="max"/>
+                                  </constraints>
+                                  <entryLinks>
+                                    <entryLink id="0ab3-9e0e-f8d3-707a" name="Doble carga de pólvora" hidden="false" collective="false" import="true" targetId="a309-91e5-cf5d-5741" type="selectionEntry"/>
+                                  </entryLinks>
+                                  <costs>
+                                    <cost name="pts" typeId="points" value="0.0"/>
+                                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                                  </costs>
+                                </selectionEntry>
+                              </selectionEntries>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
+                          <costs>
+                            <cost name="pts" typeId="points" value="0.0"/>
+                            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="120.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -642,6 +1361,7 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9b5-f798-8a8a-903b" name="General del ejército" hidden="false" collective="false" import="true" type="upgrade">
@@ -663,6 +1383,7 @@ El General de tu ejército obtendrá inmediatamente la regla especial Presencia 
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87a7-1a43-fa46-deae" name="Extra reforged" hidden="false" collective="false" import="true" type="upgrade">
@@ -672,6 +1393,7 @@ El General de tu ejército obtendrá inmediatamente la regla especial Presencia 
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cbe6-b40a-eb61-0c1c" name="Regimientos de renombre" hidden="false" collective="false" import="true" type="upgrade">
@@ -692,6 +1414,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </rules>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="78eb-2cbf-361a-df49" name="Encarnación elemental brillante" hidden="false" collective="false" import="true" type="upgrade">
@@ -767,6 +1490,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2879-f229-02d0-b7c2" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -785,11 +1509,13 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -798,6 +1524,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ddaf-296a-71b3-aaba" name="Encarnación elemental celestial" hidden="false" collective="false" import="true" type="upgrade">
@@ -872,6 +1599,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cf02-5125-43b0-9b86" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -890,11 +1618,13 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -903,6 +1633,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c455-38a1-63d9-3b6d" name="Encarnación elemental jade" hidden="false" collective="false" import="true" type="upgrade">
@@ -975,6 +1706,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c029-dfdb-600c-573b" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -993,11 +1725,13 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1006,6 +1740,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="decf-2681-56b7-6905" name="Encarnación elemental ámbar" hidden="false" collective="false" import="true" type="upgrade">
@@ -1079,6 +1814,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a095-16ac-9150-4440" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1097,11 +1833,13 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1110,6 +1848,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba4f-8412-9cd4-9531" name="Encarnación elemental luminosa" hidden="false" collective="false" import="true" type="upgrade">
@@ -1182,6 +1921,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="85f0-febe-b3fd-a5d9" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1200,11 +1940,13 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1213,6 +1955,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9b1-4f18-c304-005f" name="Encarnación elemental gris" hidden="false" collective="false" import="true" type="upgrade">
@@ -1284,6 +2027,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f03d-58c8-8bba-ac38" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1302,11 +2046,13 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1315,6 +2061,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="accb-f3ef-448c-2768" name="Encarnación elemental amatista" hidden="false" collective="false" import="true" type="upgrade">
@@ -1390,6 +2137,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9690-2583-6475-80ac" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1408,11 +2156,13 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1421,6 +2171,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a01a-b6c4-5cc8-269a" name="Encarnación elemental dorada" hidden="false" collective="false" import="true" type="upgrade">
@@ -1493,6 +2244,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1fbd-0a57-df7e-0a5d" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1511,11 +2263,13 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1524,6 +2278,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="300.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c76-43e5-76ad-3f24" name="Encarnación elemental" hidden="false" collective="false" import="true" type="upgrade">
@@ -1541,6 +2296,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f9b-ac0b-5037-59a0" name="Nivel 4" hidden="false" collective="false" import="true" type="upgrade">
@@ -1550,6 +2306,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bbab-3c17-4a42-ee18" name="Clave: Mercenarios" hidden="false" collective="false" import="true" type="upgrade">
@@ -1559,6 +2316,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="074a-f7b8-5b0b-3558" name="Clave: Humanos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1568,6 +2326,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3b4-8f2c-0598-1640" name="Clave: Ogros" hidden="false" collective="false" import="true" type="upgrade">
@@ -1577,6 +2336,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c57f-82bb-e80a-c8e6" name="Clave: Halflings" hidden="false" collective="false" import="true" type="upgrade">
@@ -1586,6 +2346,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4465-4d4a-8a56-acc4" name="Clave: Pielesverdes" hidden="false" collective="false" import="true" type="upgrade">
@@ -1595,6 +2356,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ede-4932-85b1-57f2" name="Clave: Orcos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1604,6 +2366,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e25f-c65b-5b36-4a54" name="Clave: Enanos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1613,6 +2376,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbcf-08dc-4d17-ed43" name="Clave: Orcos negros" hidden="false" collective="false" import="true" type="upgrade">
@@ -1622,6 +2386,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8785-d5e4-2294-b2f9" name="Clave: Elfos Silvanos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1631,6 +2396,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="614d-bf3c-8921-4b1d" name="Clave: Hechicero" hidden="false" collective="false" import="true" type="upgrade">
@@ -1640,6 +2406,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="413a-675c-7342-1956" name="Clave: Elfos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1649,6 +2416,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a52-3212-f360-3228" name="Clave: Marienburgo" hidden="false" collective="false" import="true" type="upgrade">
@@ -1658,6 +2426,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="59ad-fb9e-4562-cfd9" name="Clave: No muertos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1667,6 +2436,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="60f4-8aa5-0832-56be" name="Clave: Imperio" hidden="false" collective="false" import="true" type="upgrade">
@@ -1676,6 +2446,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="234f-146b-b008-ecb6" name="Clave: Esqueletos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1685,6 +2456,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="80e0-b6e3-768a-547f" name="Clave: Tumulario" hidden="false" collective="false" import="true" type="upgrade">
@@ -1694,6 +2466,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d0b7-ad28-15a7-11d6" name="Clave: Reinos Ogros" hidden="false" collective="false" import="true" type="upgrade">
@@ -1703,6 +2476,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec25-f1c8-60f3-e894" name="Clave: Kislev" hidden="false" collective="false" import="true" type="upgrade">
@@ -1712,6 +2486,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e7d-4264-e682-0e1f" name="Clave: Bestias del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1721,6 +2496,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5279-1a86-8eac-0b09" name="Clave: Centigors" hidden="false" collective="false" import="true" type="upgrade">
@@ -1730,6 +2506,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7e4-5bc7-41a5-69bf" name="Clave: Hobgoblins" hidden="false" collective="false" import="true" type="upgrade">
@@ -1739,6 +2516,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da6d-605b-cd08-2818" name="Clave: Enanos del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1748,6 +2526,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a61-1669-1a16-2354" name="Clave: Demonios" hidden="false" collective="false" import="true" type="upgrade">
@@ -1757,6 +2536,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6337-3f19-9a5d-ba68" name="Clave: La Asamblea" hidden="false" collective="false" import="true" type="upgrade">
@@ -1766,6 +2546,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3f44-cfc7-1b54-f02b" name="Clave: Elfos Oscuros" hidden="false" collective="false" import="true" type="upgrade">
@@ -1775,6 +2556,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94fe-d6c3-c532-df78" name="Clave: Gigantes" hidden="false" collective="false" import="true" type="upgrade">
@@ -1784,6 +2566,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e18-cbcb-5545-35ea" name="Clave: Nehekhara" hidden="false" collective="false" import="true" type="upgrade">
@@ -1793,6 +2576,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ce1-4ed1-f37c-2fd3" name="Clave: Kurgan" hidden="false" collective="false" import="true" type="upgrade">
@@ -1802,6 +2586,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d88-82a1-bd2b-b04e" name="Clave: Guerreros del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1811,6 +2596,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="411e-33eb-0712-2cba" name="Clave: Demonios del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1820,6 +2606,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="13d1-2d40-ce4f-49f1" name="Clave: Grey Infernal" hidden="false" collective="false" import="true" type="upgrade">
@@ -1829,6 +2616,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0106-9538-0dac-f566" name="Clave: Hombres Lagarto" hidden="false" collective="false" import="true" type="upgrade">
@@ -1838,6 +2626,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b1b-29f5-0a60-1b2a" name="Clave: Eslizones" hidden="false" collective="false" import="true" type="upgrade">
@@ -1847,6 +2636,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3b6-149b-dc18-ae06" name="Clave: Culto de los Matadores" hidden="false" collective="false" import="true" type="upgrade">
@@ -1856,6 +2646,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6934-ec52-c6cf-c67b" name="Clave: Condes Vampiro" hidden="false" collective="false" import="true" type="upgrade">
@@ -1865,6 +2656,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afb4-2365-9d7a-1321" name="Clave: Goblins" hidden="false" collective="false" import="true" type="upgrade">
@@ -1874,6 +2666,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5d93-5e3c-9997-862e" name="Clave: Orcos y Goblins" hidden="false" collective="false" import="true" type="upgrade">
@@ -1883,6 +2676,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="34ee-4360-80b0-1c0b" name="Clave: Vampiros" hidden="false" collective="false" import="true" type="upgrade">
@@ -1892,6 +2686,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="939b-e21a-d541-3305" name="Clave: La costa del vampiro" hidden="false" collective="false" import="true" type="upgrade">
@@ -1901,6 +2696,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9bd-5a43-4747-4f7e" name="Clave: Altos Elfos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1910,6 +2706,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a78-8842-d90c-582d" name="Clave: Dragón" hidden="false" collective="false" import="true" type="upgrade">
@@ -1919,6 +2716,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5adf-f3e7-ca96-8594" name="Clave: Bretonia" hidden="false" collective="false" import="true" type="upgrade">
@@ -1928,6 +2726,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f23-843b-878b-0cc8" name="Clave: Bestia del cieno" hidden="false" collective="false" import="true" type="upgrade">
@@ -1937,6 +2736,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d595-b5d0-94d8-42b6" name="Clave: Gors" hidden="false" collective="false" import="true" type="upgrade">
@@ -1946,6 +2746,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7859-8066-fb2b-c7c8" name="Clave: Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1955,6 +2756,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8257-44e7-6d6d-9f36" name="Clave: Norsca" hidden="false" collective="false" import="true" type="upgrade">
@@ -1964,6 +2766,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef90-1924-8d68-b6ef" name="Clave: Amazonas" hidden="false" collective="false" import="true" type="upgrade">
@@ -1973,6 +2776,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f246-13ee-0b24-383d" name="Clave: Saurios" hidden="false" collective="false" import="true" type="upgrade">
@@ -1982,6 +2786,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3448-db91-2d30-abe2" name="Clave: Zombis" hidden="false" collective="false" import="true" type="upgrade">
@@ -1991,6 +2796,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46df-b0d6-b094-e0d2" name="Clave: Fantasma" hidden="false" collective="false" import="true" type="upgrade">
@@ -2000,6 +2806,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f04-2596-2103-99ce" name="Leyenda" hidden="false" collective="false" import="true" type="upgrade">
@@ -2019,6 +2826,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8609-02ef-3708-798b" name="Clave: Aguilas" hidden="false" collective="false" import="true" type="upgrade">
@@ -2028,6 +2836,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3f9c-c31b-ca2a-90ae" name="Clave: Ave elemental" hidden="false" collective="false" import="true" type="upgrade">
@@ -2037,6 +2846,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc7e-b46b-4065-b0cc" name="Clave: Kroxigores" hidden="false" collective="false" import="true" type="upgrade">
@@ -2046,6 +2856,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="33cf-1b46-57da-2f2a" name="Clave: Marabunta" hidden="false" collective="false" import="true" type="upgrade">
@@ -2055,6 +2866,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9d2-ca74-3e49-0a48" name="Clave: Slann" hidden="false" collective="false" import="true" type="upgrade">
@@ -2064,6 +2876,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9160-4f41-d68c-23d8" name="Clave: Terrosaurio" hidden="false" collective="false" import="true" type="upgrade">
@@ -2073,6 +2886,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1dca-f7e8-72db-322b" name="Clave: Hidra" hidden="false" collective="false" import="true" type="upgrade">
@@ -2082,6 +2896,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2a4-2625-9b5d-a004" name="Clave: Caribdis" hidden="false" collective="false" import="true" type="upgrade">
@@ -2091,6 +2906,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e19-ec22-2b9e-989d" name="Clave: Constructo" hidden="false" collective="false" import="true" type="upgrade">
@@ -2100,6 +2916,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d10c-4425-3c1a-d6f6" name="Clave: Arpía" hidden="false" collective="false" import="true" type="upgrade">
@@ -2109,6 +2926,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d52c-cae1-b174-50aa" name="Clave: Espíritu del bosque" hidden="false" collective="false" import="true" type="upgrade">
@@ -2118,6 +2936,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f32-a698-630a-9ac2" name="Clave: Necrófagos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2127,6 +2946,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a3b-f801-961a-0ec4" name="Clave: Murciélagos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2136,6 +2956,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="098c-551b-8608-8982" name="Clave: Lobos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2145,6 +2966,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2612-0bd9-0d3a-2749" name="Clave: Carroñeros" hidden="false" collective="false" import="true" type="upgrade">
@@ -2154,6 +2976,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0294-d5ee-d4b0-a074" name="Clave: Momias" hidden="false" collective="false" import="true" type="upgrade">
@@ -2163,6 +2986,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7dad-a51e-69d8-f5c1" name="Clave: Morghast" hidden="false" collective="false" import="true" type="upgrade">
@@ -2172,6 +2996,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae3b-5537-b691-89bf" name="Clave: Buitres" hidden="false" collective="false" import="true" type="upgrade">
@@ -2181,6 +3006,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="74f1-b2fc-fa84-e908" name="Clave: Skaven" hidden="false" collective="false" import="true" type="upgrade">
@@ -2190,6 +3016,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ac8-eed8-f6fc-1b26" name="Clave: Clan Moulder" hidden="false" collective="false" import="true" type="upgrade">
@@ -2199,6 +3026,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1536-f971-c8ee-47c2" name="Clave: Clan Pestilens" hidden="false" collective="false" import="true" type="upgrade">
@@ -2208,6 +3036,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="664e-716c-26a3-565a" name="Clave: Clan Eshin" hidden="false" collective="false" import="true" type="upgrade">
@@ -2217,6 +3046,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a03e-1e50-a9e3-e674" name="Clave: Clan Skyre" hidden="false" collective="false" import="true" type="upgrade">
@@ -2226,6 +3056,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a63-393e-7340-b61d" name="Clave: Ratas" hidden="false" collective="false" import="true" type="upgrade">
@@ -2235,6 +3066,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="939e-2209-5bd2-2631" name="Clave: Vidente gris" hidden="false" collective="false" import="true" type="upgrade">
@@ -2244,6 +3076,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7433-b1dd-0f5f-ddde" name="Clave: Clan Rictus" hidden="false" collective="false" import="true" type="upgrade">
@@ -2253,6 +3086,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3fc4-5266-29c9-da9a" name="Clave: Clan Mors" hidden="false" collective="false" import="true" type="upgrade">
@@ -2262,6 +3096,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="49d2-aaaa-7770-6e59" name="Clave: Goblins nocturnos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2271,6 +3106,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b59-bff0-1ab1-3ca2" name="Clave: Goblins silvanos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2280,6 +3116,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bab-48e1-8cfd-7360" name="Clave: Snotlings" hidden="false" collective="false" import="true" type="upgrade">
@@ -2289,6 +3126,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d2b-77a2-a01e-00ec" name="Clave: Trolls" hidden="false" collective="false" import="true" type="upgrade">
@@ -2298,6 +3136,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bcf6-04c5-fd72-2f0f" name="Clave: Orcos salvajes" hidden="false" collective="false" import="true" type="upgrade">
@@ -2307,6 +3146,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e97e-08df-ceee-7171" name="Clave: Basilísco" hidden="false" collective="false" import="true" type="upgrade">
@@ -2316,6 +3156,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf91-1ffd-2d71-9de2" name="Clave: Kobols de fuego" hidden="false" collective="false" import="true" type="upgrade">
@@ -2325,6 +3166,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3c6b-fbd9-880d-f7c8" name="Clave: Troglagobs" hidden="false" collective="false" import="true" type="upgrade">
@@ -2334,6 +3176,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b195-4d5c-fbf4-f2bc" name="Clave: Goblins de las colinas" hidden="false" collective="false" import="true" type="upgrade">
@@ -2343,6 +3186,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ebf-3ed7-310e-9e45" name="Clave: Goblins del polvo" hidden="false" collective="false" import="true" type="upgrade">
@@ -2352,6 +3196,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b93-bc1d-0143-23c5" name="Clave: Shartak" hidden="false" collective="false" import="true" type="upgrade">
@@ -2361,6 +3206,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="315c-822e-54e3-bc53" name="Clave: Mastines del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2370,6 +3216,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4122-53f3-1f2e-343f" name="Clave: Engendros del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2379,6 +3226,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e47b-0fcb-5add-ef38" name="Clave: Fimir" hidden="false" collective="false" import="true" type="upgrade">
@@ -2388,6 +3236,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce2b-d391-0003-7d6f" name="Clave: Paladín del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2397,6 +3246,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aea8-2dfd-2806-0209" name="Clave: Gnoblar" hidden="false" collective="false" import="true" type="upgrade">
@@ -2406,6 +3256,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ada7-948c-1954-189e" name="Clave: Yetis" hidden="false" collective="false" import="true" type="upgrade">
@@ -2415,6 +3266,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b5e4-c36c-aa3d-9379" name="Clave: Colmillos de sable" hidden="false" collective="false" import="true" type="upgrade">
@@ -2424,6 +3276,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd1b-2d63-84ec-2dd7" name="Clave: Ungors" hidden="false" collective="false" import="true" type="upgrade">
@@ -2433,6 +3286,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="899e-ebec-1506-86da" name="Clave: Minotauros" hidden="false" collective="false" import="true" type="upgrade">
@@ -2442,6 +3296,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a827-de1f-d0c1-2ae9" name="Clave: Nippón" hidden="false" collective="false" import="true" type="upgrade">
@@ -2451,6 +3306,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fdab-ce6f-ed49-f9aa" name="Clave: Samurái" hidden="false" collective="false" import="true" type="upgrade">
@@ -2460,6 +3316,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9074-1c65-d8ef-77e0" name="Clave: Yokais" hidden="false" collective="false" import="true" type="upgrade">
@@ -2469,6 +3326,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="68ca-3ce9-f2e0-a212" name="Clave: Bruto despedazador" hidden="false" collective="false" import="true" type="upgrade">
@@ -2478,6 +3336,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff26-6a3a-c1c5-8447" name="Clave: Dragón Sangriento" hidden="false" collective="false" import="true" type="upgrade">
@@ -2487,6 +3346,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10d1-756a-68ff-c681" name="Clave: Estalia" hidden="false" collective="false" import="true" type="upgrade">
@@ -2496,6 +3356,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2012-8f5d-9387-7791" name="Clave: Licántropos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2505,6 +3366,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6006-0ad1-a687-682d" name="Clave: Tierras del Sur" hidden="false" collective="false" import="true" type="upgrade">
@@ -2514,6 +3376,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aad0-45bf-24b4-56e3" name="Clave: Garrapatos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2523,6 +3386,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e6b-071e-3b01-28aa" name="Clave: Rey" hidden="false" collective="false" import="true" type="upgrade">
@@ -2532,6 +3396,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c08e-5a31-2a7f-6439" name="Clave: Rasetra" hidden="false" collective="false" import="true" type="upgrade">
@@ -2541,6 +3406,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55dd-6e77-d4c5-553f" name="Clave: Khainitas" hidden="false" collective="false" import="true" type="upgrade">
@@ -2550,6 +3416,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7332-4156-f384-9a96" name="Clave: Middenland" hidden="false" collective="false" import="true" type="upgrade">
@@ -2559,6 +3426,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7220-7025-a932-01e6" name="Clave: Caledor" hidden="false" collective="false" import="true" type="upgrade">
@@ -2568,6 +3436,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="160f-6c52-78e6-7db8" name="Clave: Von Carstein" hidden="false" collective="false" import="true" type="upgrade">
@@ -2577,6 +3446,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f57c-d838-f019-f567" name="Clave: Elementales" hidden="false" collective="false" import="true" type="upgrade">
@@ -2586,6 +3456,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a485-24d0-42b1-23c7" name="Reliquia" hidden="false" collective="false" import="true" type="upgrade">
@@ -2595,6 +3466,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="931c-74bb-cd5a-f6ab" name="Nivel 3" hidden="false" collective="false" import="true" type="upgrade">
@@ -2604,6 +3476,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9097-e430-ddd7-df03" name="Nivel 2" hidden="false" collective="false" import="true" type="upgrade">
@@ -2613,6 +3486,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6930-ec9b-4df6-24c5" name="Nivel 1" hidden="false" collective="false" import="true" type="upgrade">
@@ -2622,11 +3496,13 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3366-d461-9db9-35c3" name="Niveles de magia" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a7e-8800-58fe-7bc9" name="Clave: Reptiles" hidden="false" collective="false" import="true" type="upgrade">
@@ -2636,6 +3512,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="752e-5224-0922-4cb1" name="Clave: Pigmeos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2645,6 +3522,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2e3-6060-72b1-7511" name="Clave: Espadas del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2654,6 +3532,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b910-0ad5-97ce-ed09" name="Clave: Hueste roja" hidden="false" collective="false" import="true" type="upgrade">
@@ -2663,6 +3542,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f59-cecc-f723-2b28" name="Clave: Culto del placer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2672,6 +3552,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbfc-146b-5b8f-0f40" name="Clave: Machotez de Grimgor" hidden="false" collective="false" import="true" type="upgrade">
@@ -2681,6 +3562,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30ba-93af-4ffe-0f6b" name="Clave: Espíritus del Bosque" hidden="false" collective="false" import="true" type="upgrade">
@@ -2690,6 +3572,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6ea5-362d-3706-63ce" name="Clave: Chevaliers de Lyonesse" hidden="false" collective="false" import="true" type="upgrade">
@@ -2699,6 +3582,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad0f-0e90-3e52-0bc4" name="Clave: Tierra Bendita" hidden="false" collective="false" import="true" type="upgrade">
@@ -2707,6 +3591,802 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df0e-964a-227b-1e16" type="min"/>
       </constraints>
       <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b75e-9719-8236-1262" name="Saber de la Muerte" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd02-29f2-b0fb-85c6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fabe-6651-5cf9-fd21" name="Muerte" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="4726-a3e7-b2d0-ccdf" name="Mostrar hechizos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f54d-09dd-d3f0-6464" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="30f9-ad28-616d-42bf" name="Saber de la Muerte" hidden="false" targetId="538a-1ea6-89fd-7ebe" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3509-12db-c018-fac6" name="Magia Oscura" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e72-eeae-5fc1-d0ce" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a1e6-fb11-ab00-c3e1" name="Magia Oscura" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="a1a1-58ef-6d0d-caab" name="Mostrar hechizos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="332c-97dc-e972-d0e7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fd6d-1642-631d-79a9" name="Magia Oscura" hidden="false" targetId="a26e-3037-84f6-d307" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b31-e4ba-3e16-6f64" name="Caldero" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a918-af30-f238-33a8" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9f18-370e-592b-8d7b" name="Caldero" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6867-9522-7426-396b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4c5d-5ec6-5f52-e055" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0e1f-c3e4-d59f-62f3" name="Aceite hirviendo" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2984-5650-0992-3ae7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2316-ad9f-f487-a8f6" name="Aceite hirviendo" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cada unidad de Infantería o Infantería monstruosa puede estar equipada con un único caldero de aceite hirviendo, y se considera que contiene aceite suficiente para toda la batalla. Una unidad que acarree un caldero se moverá a la mitad de su valor de M, aunque una unidad puede soltar el caldero en cualquier parte de su movimiento. Del mismo modo, una unidad de Infantería o Infantería monstruosa puede recoger un caldero simplemente poniéndose en contacto peana con peana con él. Si la unidad que acarrea el caldero huye o es destruida, deberás eliminar también el caldero. El aceite hirviendo puede utilizarse únicamente si la unidad que lo acarrea se encuentra en lo alto de una muralla o torre, y tan sólo contra miniaturas enemigas inmediatamente debajo de la posición del caldero. Puede utilizarse tanto en la fase de disparo como para Aguantar y disparar contra tropas enemigas que asalten la muralla con escalas o con cuerda y garfio (no así contra torres de asedio). Para utilizar un caldero se requieren dos miniaturas (o una de Infantería monstruosa): el resto de la unidad podrá disparar normalmente con sus armas de proyectiles. Para utilizar el aceite, coloca la plantilla redonda pequeña en contacto con la base de la muralla, con el centro de la plantilla debajo de la posición del caldero o de una de las miniaturas que lo está utilizando (las dos miniaturas más cercanas al caldero). No es necesario efectuar tirada alguna para impactar:  todas las miniaturas bajo la plantilla resultan impactadas (utiliza las reglas habituales para impactos parciales), sufriendo un impacto de F5 que no permite tirada de salvación por armadura.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0382-cbec-5841-e5e5" name="Fuego alquímico" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="90ff-d5d9-3ca7-598e" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="286c-6d54-61bf-e7cd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c7a5-7ef2-16ba-b855" name="Fuego alquímico" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">El fuego alquímico funciona exactamente igual que un caldero de aceite 
+hirviendo, salvo que sus impactos tienen las reglas especiales Ataques sólo flamígeros y Heridas múltiples (1D3).</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="32f9-a224-82fa-9bd5" name="Aceite hirviendo" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cada unidad de Infantería o Infantería monstruosa puede estar equipada con un único caldero de aceite hirviendo, y se considera que contiene aceite suficiente para toda la batalla. Una unidad que acarree un caldero se moverá a la mitad de su valor de M, aunque una unidad puede soltar el caldero en cualquier parte de su movimiento. Del mismo modo, una unidad de Infantería o Infantería monstruosa puede recoger un caldero simplemente poniéndose en contacto peana con peana con él. Si la unidad que acarrea el caldero huye o es destruida, deberás eliminar también el caldero. El aceite hirviendo puede utilizarse únicamente si la unidad que lo acarrea se encuentra en lo alto de una muralla o torre, y tan sólo contra miniaturas enemigas inmediatamente debajo de la posición del caldero. Puede utilizarse tanto en la fase de disparo como para Aguantar y disparar contra tropas enemigas que asalten la muralla con escalas o con cuerda y garfio (no así contra torres de asedio). Para utilizar un caldero se requieren dos miniaturas (o una de Infantería monstruosa): el resto de la unidad podrá disparar normalmente con sus armas de proyectiles. Para utilizar el aceite, coloca la plantilla redonda pequeña en contacto con la base de la muralla, con el centro de la plantilla debajo de la posición del caldero o de una de las miniaturas que lo está utilizando (las dos miniaturas más cercanas al caldero). No es necesario efectuar tirada alguna para impactar:  todas las miniaturas bajo la plantilla resultan impactadas (utiliza las reglas habituales para impactos parciales), sufriendo un impacto de F5 que no permite tirada de salvación por armadura.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5c43-a2ad-23d7-9a6b" name="Ataques solo flamígeros" hidden="false" targetId="5587-433b-16c0-79d1" type="rule"/>
+                <infoLink id="ee56-774b-6055-6486" name="Heridas múltiples (1D3)" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8e30-5109-251e-7037" name="Metal fundido" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="718a-95a2-5863-e407" type="instanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="469c-f68f-07c2-64cc" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1986-7407-4400-6a83" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1a15-97e4-c80a-98cd" name="Metal fundido" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Un caldero de metal fundido funciona exactamente igual que uno de aceite hirviendo, salvo que causa impactos de F6 y Ataques flamígeros en lugar de F5.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c2b3-f5dc-6baf-0766" name="Aceite hirviendo" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cada unidad de Infantería o Infantería monstruosa puede estar equipada con un único caldero de aceite hirviendo, y se considera que contiene aceite suficiente para toda la batalla. Una unidad que acarree un caldero se moverá a la mitad de su valor de M, aunque una unidad puede soltar el caldero en cualquier parte de su movimiento. Del mismo modo, una unidad de Infantería o Infantería monstruosa puede recoger un caldero simplemente poniéndose en contacto peana con peana con él. Si la unidad que acarrea el caldero huye o es destruida, deberás eliminar también el caldero. El aceite hirviendo puede utilizarse únicamente si la unidad que lo acarrea se encuentra en lo alto de una muralla o torre, y tan sólo contra miniaturas enemigas inmediatamente debajo de la posición del caldero. Puede utilizarse tanto en la fase de disparo como para Aguantar y disparar contra tropas enemigas que asalten la muralla con escalas o con cuerda y garfio (no así contra torres de asedio). Para utilizar un caldero se requieren dos miniaturas (o una de Infantería monstruosa): el resto de la unidad podrá disparar normalmente con sus armas de proyectiles. Para utilizar el aceite, coloca la plantilla redonda pequeña en contacto con la base de la muralla, con el centro de la plantilla debajo de la posición del caldero o de una de las miniaturas que lo está utilizando (las dos miniaturas más cercanas al caldero). No es necesario efectuar tirada alguna para impactar:  todas las miniaturas bajo la plantilla resultan impactadas (utiliza las reglas habituales para impactos parciales), sufriendo un impacto de F5 que no permite tirada de salvación por armadura.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e563-ac11-d319-784b" name="Sangre Hirviente" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3216-304d-aab6-db09" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a56c-cd6a-cc52-c0f2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3e20-01e5-c72e-22a3" name="Sangre hirviente" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">La Sangre Hirviente funciona exactamente igual que el Aceite hirviendo, salvo que cualquier unidad que sufra al menos una baja a causa de la Sangre hirviente deberá efectuar inmediatamente un chequeo de pánico.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9e41-6a41-b42b-6c3f" name="Aceite hirviendo" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cada unidad de Infantería o Infantería monstruosa puede estar equipada con un único caldero de aceite hirviendo, y se considera que contiene aceite suficiente para toda la batalla. Una unidad que acarree un caldero se moverá a la mitad de su valor de M, aunque una unidad puede soltar el caldero en cualquier parte de su movimiento. Del mismo modo, una unidad de Infantería o Infantería monstruosa puede recoger un caldero simplemente poniéndose en contacto peana con peana con él. Si la unidad que acarrea el caldero huye o es destruida, deberás eliminar también el caldero. El aceite hirviendo puede utilizarse únicamente si la unidad que lo acarrea se encuentra en lo alto de una muralla o torre, y tan sólo contra miniaturas enemigas inmediatamente debajo de la posición del caldero. Puede utilizarse tanto en la fase de disparo como para Aguantar y disparar contra tropas enemigas que asalten la muralla con escalas o con cuerda y garfio (no así contra torres de asedio). Para utilizar un caldero se requieren dos miniaturas (o una de Infantería monstruosa): el resto de la unidad podrá disparar normalmente con sus armas de proyectiles. Para utilizar el aceite, coloca la plantilla redonda pequeña en contacto con la base de la muralla, con el centro de la plantilla debajo de la posición del caldero o de una de las miniaturas que lo está utilizando (las dos miniaturas más cercanas al caldero). No es necesario efectuar tirada alguna para impactar:  todas las miniaturas bajo la plantilla resultan impactadas (utiliza las reglas habituales para impactos parciales), sufriendo un impacto de F5 que no permite tirada de salvación por armadura.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ef29-64a2-ddf1-064f" name="Sopa picante" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c57f-82bb-e80a-c8e6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91f3-fcc5-064e-2334" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="193d-b6d1-525e-d5d5" name="Aceite hirviendo" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cada unidad de Infantería o Infantería monstruosa puede estar equipada con un único caldero de aceite hirviendo, y se considera que contiene aceite suficiente para toda la batalla. Una unidad que acarree un caldero se moverá a la mitad de su valor de M, aunque una unidad puede soltar el caldero en cualquier parte de su movimiento. Del mismo modo, una unidad de Infantería o Infantería monstruosa puede recoger un caldero simplemente poniéndose en contacto peana con peana con él. Si la unidad que acarrea el caldero huye o es destruida, deberás eliminar también el caldero. El aceite hirviendo puede utilizarse únicamente si la unidad que lo acarrea se encuentra en lo alto de una muralla o torre, y tan sólo contra miniaturas enemigas inmediatamente debajo de la posición del caldero. Puede utilizarse tanto en la fase de disparo como para Aguantar y disparar contra tropas enemigas que asalten la muralla con escalas o con cuerda y garfio (no así contra torres de asedio). Para utilizar un caldero se requieren dos miniaturas (o una de Infantería monstruosa): el resto de la unidad podrá disparar normalmente con sus armas de proyectiles. Para utilizar el aceite, coloca la plantilla redonda pequeña en contacto con la base de la muralla, con el centro de la plantilla debajo de la posición del caldero o de una de las miniaturas que lo está utilizando (las dos miniaturas más cercanas al caldero). No es necesario efectuar tirada alguna para impactar:  todas las miniaturas bajo la plantilla resultan impactadas (utiliza las reglas habituales para impactos parciales), sufriendo un impacto de F5 que no permite tirada de salvación por armadura.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="4919-631c-a622-1b73" name="Sopa picante" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier regimiento de Halflings (incluyendo halflings imperiales y mercenarios) puede equiparse con Sopa picante. Funciona exactamente igual que el Aceite hirviendo, salvo que debido a la disparidad de recetas, cada vez que se utiliza debe tirarse 1D6 para determinar su valor de F (no permite tirada de salvación por armadura). Además, cualquier unidad de halflings con un caldero de sopa picante obtendrá la regla especial Tozudez.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ab9f-6752-5445-8553" name="Tozudez" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dda4-9ec7-42f6-67a5" name="Rocas" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b917-b29b-19b8-710e" name="Rocas" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una unidad puede equiparse con rocas, a un coste de 1 punto por cada miniatura de la unidad, y se considera que tienen rocas suficientes para toda la batalla.  Las rocas pueden utilizarse en tu fase de disparo: las rocas pueden dispararse contra cualquier unidad enemiga que esté en contacto con la base de la sección de muralla o torre en la que se encuentre la unidad que arroja las rocas. Cada miniatura en lo alto puede soltar una roca. Esto se resuelve utilizando la HP de la unidad (no apliques nunca modificadores por larga distancia). Estos disparos no se consideran que se hagan sobre una unidad en combate por lo que no se deben dividir. Cada roca que impacte causa un impacto de F4. Las rocas también sirven para Aguantar y disparar, pero tan sólo si la unidad equipada con rocas se encuentra en lo alto de una sección de muralla o torre.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f15-888c-2d02-b4bc" name="Munición incendiaria" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bdfd-735e-e719-f5e4" name="Munición incendiaria" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier unidad equipada con cualquier arma de proyectil que no sea arrojadiza puede tener munición incendiaria. La unidad gana la regla especial Ataques flamígeros. Además, si se dispara contra un Ariete cubierto, una Torre de Asedio o una unidad con Manteletes obtendrá un +1 a la tirada para herir.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d7e-f60b-613e-9dac" name="Arietes" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="378f-4e8d-0048-4df9" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c6e4-1f4b-549b-c7ec" name="Arietes" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3916-a4e3-c9bf-9ccf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6659-5b63-43d5-5c67" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b7a5-b55c-72d1-20fd" name="Arietes" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a20-e574-d750-c705" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6c47-d2e3-c35b-c3a5" name="Arietes" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier unidad de Infantería o Infantería monstruosa con una potencia de unidad de al menos 9 puede equiparse con un único ariete. Si la potencia de unidad se reduce a menos de 9, deberá dejarse el ariete en el suelo. Un ariete puede ser recogido por una unidad de Infantería o Infantería monstruosa con una potencia de unidad de al menos 9 durante su movimiento. Mientras una unidad acarre un ariete, este se considera parte integrante de la unidad. Acarrear un ariete no reduce la capacidad de movimiento de una unidad. Si una unidad que acarrea un ariete huye o es destruida, dejarán el ariete en el suelo, en el punto en que comenzó su huida o fue destruida. Las unidades con la regla especial Estupidez no pueden equiparse con arietes ni recogerlos; si una unidad obtiene la regla especial Estupidez por el motivo que sea, dejará caer inmediatamente el ariete que acarree. Una unidad con un ariete puede utilizarlo para atacar una sección de muralla, torre o puerta de una fortaleza durante la fase de combate cuerpo a cuerpo. La unidad con el ariete efectúa un único ataque, que impacta automáticamente y tiene un valor de daño igual a 1D6+la mitad de la potencia de unidad que lo acarrea (redondeando hacia arriba), hasta un máximo de 1D6+8. Las puertas de una fortaleza tan sólo pueden ser atacadas por un único ariete o ariete cubierto en cada fase de combate cuerpo a cuerpo.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b91d-5d66-7a14-337e" name="Arietes cubiertos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f07-f663-1e6b-9027" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5ce3-798a-d76f-a89a" name="Arietes cubiertos" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Un ariete cubierto se añade a una unidad, colocándose en el centro de la primera fila. Se debe extrapolar el tamaño del ariete para calcular las filas de la unidad: en las unidades de infantería con peana de 20mm, un ariete cubierto debe llevar una base o peana de 40mm de frontal y 60mm de largo (6 miniaturas); si se trata de infantería con peana de 25mm, debe llevar una base de 50mm de frontal y 75mm de largo (6 miniaturas); y si se trata de Infantería monstruosa, 40mm de frontal y 80mm de largo (2 miniaturas). Un ariete cubierto mueve siempre al mismo ritmo que su unidad (y puede marchar, pese a ser un Carro), aunque la unidad que lo empuja debe tener una Potencia de unidad de al menos 12 para poder empujarlo. Si la potencia de unidad desciende por debajo de esa cantidad, o si la unidad que lo empuja huye o es destruida, el ariete cubierto deberá abandonarse inmediatamente en ese punto. Una unidad de Infantería o Infantería monstruosa con Potencia de unidad de al menos 12 puede recoger un ariete cubierto durante su movimiento, siempre y cuando no esté marchando: únelo a la unidad como si fuese un personaje uniéndose al regimiento. Las unidades con la regla especial Estupidez no pueden equiparse con arietes cubiertos ni recogerlos; si una unidad obtiene la regla especial Estupidez por el motivo que sea, dejará inmediatamente el ariete cubierto en el lugar en el que esté.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="1bc9-1f3f-f9e4-f736" name="Arietes cubiertos" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">-</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">6-8</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="c017-f104-5f8e-1e7d" name="Potencia de unidad 3" hidden="false"/>
+                <rule id="cbfe-8407-2a6d-13bd" name="Tirada de salvación por armadura 4+" hidden="false">
+                  <description>Tirada de salvación por armadura 4+</description>
+                </rule>
+                <rule id="7c52-b46e-1455-6ea3" name="Arietes cubiertos" hidden="false">
+                  <description>Un ariete cubierto no se considera un objetivo aparte de su unidad. Sin embargo, cada impacto procedente de disparos o magia que sufra la unidad que empuja el ariete deberá asignarse aleatoriamente entre el ariete y la unidad (tira 1D6: 1-2: ariete; 3-6: unidad). Un ariete cubierto proporciona a la unidad que lo empuja y al propio ariete una tirada de salvación especial de 4+ contra todas las heridas causadas por Rocas y Aceite hirviendo (incluyendo sus variantes) arrojadas contra ella desde lo alto de una muralla o torre.
+Un ariete cubierto puede utilizarse para atacar una sección de muralla, torre o puerta de una fortaleza durante la fase de combate cuerpo a cuerpo. La unidad con el ariete cubierto efectúa un único ataque, que impacta automáticamente y tiene un valor de daño igual a 1D6+la mitad de la potencia de unidad que lo empuja (redondeando hacia arriba), hasta un máximo de 1D6+8. Las puertas de una fortaleza tan sólo pueden ser atacadas por un único ariete o ariete cubierto en cada fase de combate cuerpo a cuerpo.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="05ec-4fee-de28-2885" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea16-d7c2-1c5a-3648" name="Escala" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a61a-9995-9dfc-5fb6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="38cf-0526-bddd-966a" name="Escalas" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier regimiento de Infantería o Infantería monstruosa puede equiparse con escalas. Una unidad puede llevar un máximo de una escala por cada dos miniaturas de la unidad (o una escala por miniatura en el caso de los regimientos de Infantería monstruosa). Si una unidad sufre bajas, deberá dejar en el lugar las escalas excedentes, que podrán ser recogidas por otras unidades de Infantería o Infantería monstruosa en su movimiento. Si una unidad huye o es destruida, dejará en el punto en el que inició su huida o fue destruida todas sus escalas. Las unidades con la regla especial Estupidez no pueden equiparse con escalas ni recogerlas; si una unidad obtiene la regla especial Estupidez por el motivo que sea, dejará caer inmediatamente todas las escalas que acarree. Las escalas se utilizan para asaltar las murallas, tal y como se ha explicado en la sección “Equipo para asaltar las murallas”.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5563-8706-6504-64d2" name="Escalas" hidden="false">
+          <description>En cuanto una unidad equipada con escalas llegue a contacto con la base de la muralla, podrá apoyar las escalas contra ella. Eso no reduce su movimiento, y permite asaltar la muralla ese mismo turno. Una unidad puede colocar tantas escalas como columnas tenga.
+Al inicio de cada fase de combate cuerpo a cuerpo, una miniatura de la unidad puede subir por cada escala para asaltar la muralla, situándose sobre la muralla junto a la escala (encima del punto correspondiente a su posición en el suelo). Puede elegirse a cualquier miniatura de la unidad para subir por una escala, por lo que puedes enviar a un personaje u oficial si lo deseas.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fed9-ffee-e981-4903" name="Cuerda y Garfio" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3b8b-5af8-4b4d-7cdf" name="Cuerda y Garfio" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier unidad de Infantería o Infantería monstruosa con la regla especial Hostigadores podrá equiparse con cuerda y garfio. Cada miniatura de la unidad deberá equiparse con cuerda y garfio. La cuerda y garfio sirve para asaltar las murallas, tal y como se ha explicado en la sección “Equipo para asaltar las murallas”.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9b5f-bcd7-93f4-0cb0" name="Cuerda y Garfio" hidden="false">
+          <description>En cuanto una unidad equipada con garfios y cuerdas llegue a contacto con la base de la muralla, podrá lanzarlos a las almenas y trepar por las murallas. Eso no reduce su movimiento, y permite asaltar la muralla ese mismo turno. Se aplican las mismas reglas que con las escalas, salvo que mientras que con las escalas sólo puede subir una miniatura por cada escala, con cuerda y garfio pueden subir todos los miembros de la unidad (sin embargo, sólo las unidades de Hostigadores pueden equiparse con cuerda y garfio).</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a309-91e5-cf5d-5741" name="Doble carga de pólvora" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="beaa-505b-a241-85fd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ce58-c1ea-93f4-f4f2" name="Doble carga de pólvora" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier número de cañones del ejército atacante (eso incluye cualquier máquina de guerra o efecto que dispare como cañón, incluso el cañón de disformidad skaven, que no usa pólvora pero se considera “doble carga de disformidad”)puede equiparse con doble carga de pólvora. Esto confiere mucha más potencia al disparo, pero también hace que el cañón sea más inestable. Un cañón con doble carga de pólvora suma +1 a todas sus tiradas de Daño contra fortalezas, pero debe tirar de nuevo el dado de artillería tras cada disparo: si obtiene un resultado de Problemas, debe tirar en la tabla de Problemas.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="921d-e1db-3767-1b3f" name="Torre de Asedio" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="43fd-fbe7-8229-8c2f" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="01cb-23c6-90bc-54f9" name="Torre de Asedio" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2eda-4fd5-5b6b-b738" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9244-2d2d-c327-8ea2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e3d0-7677-d098-4419" name="Torre de Asedio" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="Torre de Azedio">
+                  <conditions>
+                    <condition field="selections" scope="921d-e1db-3767-1b3f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="eb19-a901-69b8-a33a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea8d-692d-d3cd-b770" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3404-f4d2-f8de-ae07" name="Torre de Asedio" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Torre de Azedio">
+                      <conditions>
+                        <condition field="selections" scope="921d-e1db-3767-1b3f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="eb19-a901-69b8-a33a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier unidad de Infantería o Infantería monstruosa con una potencia de unidad de al menos 15 puede empujar una Torre de asedio. Hasta 9 miniaturas (o 3 de Infantería monstruosa) pueden colocarse en el interior de la torre: el resto deberán colocarse alrededor de la torre en la formación que se desee (ver diagrama). Las miniaturas en el interior de la torre no cuentan para el mínimo de potencia de unidad 15 para empujar la torre. Una torre de asedio mueve al mismo ritmo que la unidad que la empuja. Una torre de asedio no puede marchar, pero una unidad con una torre de asedio obtiene la regla especial Vanguardia. Por cada punto de potencia de unidad por debajo de 15 que tenga la unidad que empuja la torre, su M se reduce en 1. Una unidad puede reformar durante su fase de movimiento para abandonar una torre de asedio; del mismo modo, una unidad puede entrar y empujar una torre de asedio vacía durante su movimiento, si no marcha. Una unidad que huya o sea destruida abandonará inmediatamente la torre de asedio en el punto en el que comenzó su huida o fue destruida. Una Torre de asedio no puede pivotar ni girar, ni tampoco la unidad que la empuja. 
+Una unidad que empuje una torre de asedio nunca puede aplicar su modificador por filas, pues está demasiado desorganizada. Tan sólo lucharán las miniaturas físicamente en contacto peana con peana. La propia torre puede ser atacada. Una unidad que empuje una torre de asedio nunca podrá perseguir.
+Una torre de asedio no se considera un objetivo independiente de su unidad. Sin embargo, cada impacto procedente de disparos o magia que sufra la unidad que empuja la torre de asedio deberá asignarse aleatoriamente entre la torre y la unidad (tira 1D6: 1-2: unidad; 3-6: torre). Una torre de asedio proporciona a la unidad que lo empuja un bonificador de +2 a su tirada de salvación por armadura contra todos los disparos y proyectiles mágicos. Sin embargo, una Torre de asedio es un objetivo grande, así como la unidad que lo empuja.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="bb61-2bf5-d38e-4ebc" name="Torre de Asedio" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Torre de Azedio">
+                      <conditions>
+                        <condition field="selections" scope="921d-e1db-3767-1b3f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="eb19-a901-69b8-a33a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="9fb7-f9e0-9ae5-dbb4" name="Potencia de unidad 6" hidden="false"/>
+                <rule id="2d3f-cba6-43f0-3964" name="Tirada de salvación por armadura 3+" hidden="false">
+                  <description>Tirada de salvación por armadura 3+</description>
+                </rule>
+                <rule id="28cc-cc9a-1b7d-a78e" name="Torre de asedio" hidden="false">
+                  <description>Una torre de asedio no causa impactos por carga.
+Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal y como se ha explicado en la sección “Equipo para asaltar las murallas”. ten en cuenta que, aunque se apliquen las reglas habituales de combate, las unidades implicadas en el combate en las murallas continúan siendo Impasibles.</description>
+                </rule>
+                <rule id="d3bd-5868-61a2-a35f" name="Torre de Asedio: Asaltar murallas" hidden="false">
+                  <description>En cuanto una torre de asedio entre en contacto con una sección de muralla, la unidad en su interior puede asaltar las murallas: despliega el puente levadizo de la torre de asedio, y coloca en ella hasta 3 miniaturas de la unidad (o hasta una de Infantería monstruosa). Al atacar desde una torre de asedio, el atacante puede aplicar su bonificador de +1I por cargar, y el defensor no duplica su Iniciativa. Tampoco se requieren resultados de 6+ para impactar, sino que se utilizan los respectivos valores de HA (es decir, que si se asalta desde una Torre de asedio, se utilizan las reglas habituales de combate de Warhammer Reforged). Tras el turno de carga, en cada fase de combate pueden atacar la muralla otras 3 miniaturas de la unidad que empuja la torre de asedio (¿con un total de máximo 6 miniaturas en el combate o se van añadiendo miniaturas de 3 en 3 al combate?). Si la unidad va equipada con escaleras o garfios y cuerdas las miniaturas que empujan la torre pueden usarlas pero deberán aplicar las restricciones habituales explicadas previamente.</description>
+                </rule>
+              </rules>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="eb19-a901-69b8-a33a" name="Mejoraz Zúper Magnífikaz para Torrez de Azedio" hidden="true" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="718a-95a2-5863-e407" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <rules>
+                    <rule id="b2d8-a02d-fde0-0bae" name="Torrez de Azedio " hidden="false">
+                      <description>Una torre de asedio de orcos o goblins (incluyendo goblins nocturnos, orcos negros, etc) puede tener una o más de estas mejoras con el siguiente coste. Si una torre dispone de una o más mejoraz zúper magnífikaz deberá tirar 1D6 al inicio de cada turno piel verde: con un resultado de 1-2 la torre sufrirá 1 herida sin tirada de salvación de ningún tipo</description>
+                    </rule>
+                  </rules>
+                  <selectionEntries>
+                    <selectionEntry id="40ad-f42e-1171-d38f" name="Plataforma de disparo" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d483-58e6-f08b-218f" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="59e6-5b42-1097-3a3d" name="Plataforma de disparo" hidden="false">
+                          <description>En lo alto de la torre se encuentra parapetado un pequeño destacamento de pielesverdes, que disparan al enemigo mientras la torre avanza. La torre puede realizar durante su fase de disparo  (o al aguantar y disparar) 2D6 disparos, que se resuelven con HP3, alcance 24”, F3 y la regla especial Disparo rápido; pueden disparar incluso aunque la torre o su unidad se encuentre trabada en combate.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="5.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b9f6-300a-dbf9-384a" name="Pinchoz" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="927d-5937-6ef0-c476" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="2965-aaad-52c4-bd08" name="Pinchoz" hidden="false">
+                          <description>Una unidad enemiga que ataque a una torre de asedio con esta mejora o a la unidad que la acarrea perderá los bonos por carga de sus armas, de reglas especiales que se beneficien de la carga, el bonificador de +1 a la I (no así del +1 al resultado del combate por haber cargado).</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="10.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="15d2-4ff6-233c-004c" name="Ariete" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7628-3595-6f2c-488a" type="max"/>
+                      </constraints>
+                      <rules>
+                        <rule id="961d-d934-83e2-cc98" name="Ariete" hidden="false">
+                          <description>Durante el turno en que la torre de asedio llegue a la muralla, ésta puede realizar un único ataque contra la sección de muralla con un valor de daño de 1D6+8.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="10.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f358-33fd-5c90-118a" name="Torre de Asedio a Vapor" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="718a-95a2-5863-e407" type="instanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="469c-f68f-07c2-64cc" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="47c0-47f6-54a0-1bed" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b001-bbe4-c57a-725b" name="Torre de Asedio a vapor" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una torre de asedio a vapor se trata exactamente igual que una torre de asedio normal, salvo que no necesita ser empujada (funciona con su propia caldera), por lo que no hay un número mínimo de miniaturas necesarias para empujarla: una torre de asedio a vapor siempre mueve 6” (es decir, al mismo ritmo que la unidad que lo empuja marchando). Además, una torre de asedio a vapor tiene una herida adicional y un bonificador de +1 a su tirada de salvación por
+armadura.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="959d-efb2-9aee-0fe4" name="Torre de Asedio" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="fb06-273e-0420-d2a1" name="Torre de Asedio" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier unidad de Infantería o Infantería monstruosa con una potencia de unidad de al menos 15 puede empujar una Torre de asedio. Hasta 9 miniaturas (o 3 de Infantería monstruosa) pueden colocarse en el interior de la torre: el resto deberán colocarse alrededor de la torre en la formación que se desee (ver diagrama). Las miniaturas en el interior de la torre no cuentan para el mínimo de potencia de unidad 15 para empujar la torre. Una torre de asedio mueve al mismo ritmo que la unidad que la empuja. Una torre de asedio no puede marchar, pero una unidad con una torre de asedio obtiene la regla especial Vanguardia. Por cada punto de potencia de unidad por debajo de 15 que tenga la unidad que empuja la torre, su M se reduce en 1. Una unidad puede reformar durante su fase de movimiento para abandonar una torre de asedio; del mismo modo, una unidad puede entrar y empujar una torre de asedio vacía durante su movimiento, si no marcha. Una unidad que huya o sea destruida abandonará inmediatamente la torre de asedio en el punto en el que comenzó su huida o fue destruida. Una Torre de asedio no puede pivotar ni girar, ni tampoco la unidad que la empuja. 
+Una unidad que empuje una torre de asedio nunca puede aplicar su modificador por filas, pues está demasiado desorganizada. Tan sólo lucharán las miniaturas físicamente en contacto peana con peana. La propia torre puede ser atacada. Una unidad que empuje una torre de asedio nunca podrá perseguir.
+Una torre de asedio no se considera un objetivo independiente de su unidad. Sin embargo, cada impacto procedente de disparos o magia que sufra la unidad que empuja la torre de asedio deberá asignarse aleatoriamente entre la torre y la unidad (tira 1D6: 1-2: unidad; 3-6: torre). Una torre de asedio proporciona a la unidad que lo empuja un bonificador de +2 a su tirada de salvación por armadura contra todos los disparos y proyectiles mágicos. Sin embargo, una Torre de asedio es un objetivo grande, así como la unidad que lo empuja.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="d943-feef-7d10-6098" name="Torre de Asedio: Asaltar murallas" hidden="false">
+                  <description>En cuanto una torre de asedio entre en contacto con una sección de muralla, la unidad en su interior puede asaltar las murallas: despliega el puente levadizo de la torre de asedio, y coloca en ella hasta 3 miniaturas de la unidad (o hasta una de Infantería monstruosa). Al atacar desde una torre de asedio, el atacante puede aplicar su bonificador de +1I por cargar, y el defensor no duplica su Iniciativa. Tampoco se requieren resultados de 6+ para impactar, sino que se utilizan los respectivos valores de HA (es decir, que si se asalta desde una Torre de asedio, se utilizan las reglas habituales de combate de Warhammer Reforged). Tras el turno de carga, en cada fase de combate pueden atacar la muralla otras 3 miniaturas de la unidad que empuja la torre de asedio (¿con un total de máximo 6 miniaturas en el combate o se van añadiendo miniaturas de 3 en 3 al combate?). Si la unidad va equipada con escaleras o garfios y cuerdas las miniaturas que empujan la torre pueden usarlas pero deberán aplicar las restricciones habituales explicadas previamente.</description>
+                </rule>
+                <rule id="e783-e1f7-10c5-7c44" name="Potencia de unidad 6" hidden="false"/>
+                <rule id="06c8-4a80-d181-3694" name="Tirada de salvación por armadura 3+" hidden="false">
+                  <description>Tirada de salvación por armadura 3+</description>
+                </rule>
+                <rule id="241c-3acc-d704-ad24" name="Torre de asedio" hidden="false">
+                  <description>Una torre de asedio no causa impactos por carga.
+Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal y como se ha explicado en la sección “Equipo para asaltar las murallas”. ten en cuenta que, aunque se apliquen las reglas habituales de combate, las unidades implicadas en el combate en las murallas continúan siendo Impasibles.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="150.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2516-4103-eb28-55df" name="Torre de Asedio de Huesos" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="79c7-cc45-fd7a-618d" type="instanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8b4-dbbc-5155-1269" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2f8-e191-1dfe-2ba4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3d8a-20ea-3939-dd4e" name="Torre de Asedio de Huesos" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una Torre de asedio de huesos funciona exactamente igual que una
+Torre de Asedio normal, salvo que causa Terror y tiene la regla especial No muerto.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f8a5-2372-2b97-05f2" name="Torre de Asedio" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9543-85be-25d9-ce9c" name="Torre de Asedio" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier unidad de Infantería o Infantería monstruosa con una potencia de unidad de al menos 15 puede empujar una Torre de asedio. Hasta 9 miniaturas (o 3 de Infantería monstruosa) pueden colocarse en el interior de la torre: el resto deberán colocarse alrededor de la torre en la formación que se desee (ver diagrama). Las miniaturas en el interior de la torre no cuentan para el mínimo de potencia de unidad 15 para empujar la torre. Una torre de asedio mueve al mismo ritmo que la unidad que la empuja. Una torre de asedio no puede marchar, pero una unidad con una torre de asedio obtiene la regla especial Vanguardia. Por cada punto de potencia de unidad por debajo de 15 que tenga la unidad que empuja la torre, su M se reduce en 1. Una unidad puede reformar durante su fase de movimiento para abandonar una torre de asedio; del mismo modo, una unidad puede entrar y empujar una torre de asedio vacía durante su movimiento, si no marcha. Una unidad que huya o sea destruida abandonará inmediatamente la torre de asedio en el punto en el que comenzó su huida o fue destruida. Una Torre de asedio no puede pivotar ni girar, ni tampoco la unidad que la empuja. 
+Una unidad que empuje una torre de asedio nunca puede aplicar su modificador por filas, pues está demasiado desorganizada. Tan sólo lucharán las miniaturas físicamente en contacto peana con peana. La propia torre puede ser atacada. Una unidad que empuje una torre de asedio nunca podrá perseguir.
+Una torre de asedio no se considera un objetivo independiente de su unidad. Sin embargo, cada impacto procedente de disparos o magia que sufra la unidad que empuja la torre de asedio deberá asignarse aleatoriamente entre la torre y la unidad (tira 1D6: 1-2: unidad; 3-6: torre). Una torre de asedio proporciona a la unidad que lo empuja un bonificador de +2 a su tirada de salvación por armadura contra todos los disparos y proyectiles mágicos. Sin embargo, una Torre de asedio es un objetivo grande, así como la unidad que lo empuja.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="7c0d-84bf-0c97-c41a" name="Torre de Asedio: Asaltar murallas" hidden="false">
+                  <description>En cuanto una torre de asedio entre en contacto con una sección de muralla, la unidad en su interior puede asaltar las murallas: despliega el puente levadizo de la torre de asedio, y coloca en ella hasta 3 miniaturas de la unidad (o hasta una de Infantería monstruosa). Al atacar desde una torre de asedio, el atacante puede aplicar su bonificador de +1I por cargar, y el defensor no duplica su Iniciativa. Tampoco se requieren resultados de 6+ para impactar, sino que se utilizan los respectivos valores de HA (es decir, que si se asalta desde una Torre de asedio, se utilizan las reglas habituales de combate de Warhammer Reforged). Tras el turno de carga, en cada fase de combate pueden atacar la muralla otras 3 miniaturas de la unidad que empuja la torre de asedio (¿con un total de máximo 6 miniaturas en el combate o se van añadiendo miniaturas de 3 en 3 al combate?). Si la unidad va equipada con escaleras o garfios y cuerdas las miniaturas que empujan la torre pueden usarlas pero deberán aplicar las restricciones habituales explicadas previamente.</description>
+                </rule>
+                <rule id="4233-07bc-b472-7228" name="Potencia de unidad 6" hidden="false"/>
+                <rule id="a965-89b7-52e6-736c" name="Tirada de salvación por armadura 3+" hidden="false">
+                  <description>Tirada de salvación por armadura 3+</description>
+                </rule>
+                <rule id="0d7f-f577-8946-737c" name="Torre de asedio" hidden="false">
+                  <description>Una torre de asedio no causa impactos por carga.
+Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal y como se ha explicado en la sección “Equipo para asaltar las murallas”. ten en cuenta que, aunque se apliquen las reglas habituales de combate, las unidades implicadas en el combate en las murallas continúan siendo Impasibles.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="5831-7644-04da-3327" name="Terror" hidden="false" targetId="ca57-1f1f-8bc0-d9ab" type="rule"/>
+                <infoLink id="9594-d7c8-095c-e112" name="No muerto" hidden="false" targetId="3d39-5d46-7335-225c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="110.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8fd3-e7da-6d72-04b3" name="Torre de Asedio Demoníaca" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51fc-eb9b-4cd8-7ac0" type="instanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="399a-efe8-a7c4-3104" type="instanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca36-41ae-f114-eeeb" type="instanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2ea-a0b8-8a9f-e3a5" type="instanceOf"/>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="619e-e9da-a8e8-4f6f" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b53a-b5f8-c897-2466" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e5af-4f3c-5853-cdae" name="Torre de Asedio Demoíaca" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una Torre de asedio demoníaca funciona exactamente igual que una Torre de Asedio normal, salvo que causa Terror y tiene la regla especial Aura demoníaca (5+).</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="59a3-8963-2beb-fa47" name="Torre de Asedio" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <characteristics>
+                    <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
+                    <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                    <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="4a5a-71f2-6449-c825" name="Torre de Asedio" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier unidad de Infantería o Infantería monstruosa con una potencia de unidad de al menos 15 puede empujar una Torre de asedio. Hasta 9 miniaturas (o 3 de Infantería monstruosa) pueden colocarse en el interior de la torre: el resto deberán colocarse alrededor de la torre en la formación que se desee (ver diagrama). Las miniaturas en el interior de la torre no cuentan para el mínimo de potencia de unidad 15 para empujar la torre. Una torre de asedio mueve al mismo ritmo que la unidad que la empuja. Una torre de asedio no puede marchar, pero una unidad con una torre de asedio obtiene la regla especial Vanguardia. Por cada punto de potencia de unidad por debajo de 15 que tenga la unidad que empuja la torre, su M se reduce en 1. Una unidad puede reformar durante su fase de movimiento para abandonar una torre de asedio; del mismo modo, una unidad puede entrar y empujar una torre de asedio vacía durante su movimiento, si no marcha. Una unidad que huya o sea destruida abandonará inmediatamente la torre de asedio en el punto en el que comenzó su huida o fue destruida. Una Torre de asedio no puede pivotar ni girar, ni tampoco la unidad que la empuja. 
+Una unidad que empuje una torre de asedio nunca puede aplicar su modificador por filas, pues está demasiado desorganizada. Tan sólo lucharán las miniaturas físicamente en contacto peana con peana. La propia torre puede ser atacada. Una unidad que empuje una torre de asedio nunca podrá perseguir.
+Una torre de asedio no se considera un objetivo independiente de su unidad. Sin embargo, cada impacto procedente de disparos o magia que sufra la unidad que empuja la torre de asedio deberá asignarse aleatoriamente entre la torre y la unidad (tira 1D6: 1-2: unidad; 3-6: torre). Una torre de asedio proporciona a la unidad que lo empuja un bonificador de +2 a su tirada de salvación por armadura contra todos los disparos y proyectiles mágicos. Sin embargo, una Torre de asedio es un objetivo grande, así como la unidad que lo empuja.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="e127-ce0d-aff6-1d3c" name="Torre de Asedio: Asaltar murallas" hidden="false">
+                  <description>En cuanto una torre de asedio entre en contacto con una sección de muralla, la unidad en su interior puede asaltar las murallas: despliega el puente levadizo de la torre de asedio, y coloca en ella hasta 3 miniaturas de la unidad (o hasta una de Infantería monstruosa). Al atacar desde una torre de asedio, el atacante puede aplicar su bonificador de +1I por cargar, y el defensor no duplica su Iniciativa. Tampoco se requieren resultados de 6+ para impactar, sino que se utilizan los respectivos valores de HA (es decir, que si se asalta desde una Torre de asedio, se utilizan las reglas habituales de combate de Warhammer Reforged). Tras el turno de carga, en cada fase de combate pueden atacar la muralla otras 3 miniaturas de la unidad que empuja la torre de asedio (¿con un total de máximo 6 miniaturas en el combate o se van añadiendo miniaturas de 3 en 3 al combate?). Si la unidad va equipada con escaleras o garfios y cuerdas las miniaturas que empujan la torre pueden usarlas pero deberán aplicar las restricciones habituales explicadas previamente.</description>
+                </rule>
+                <rule id="af57-b2ef-268d-e735" name="Potencia de unidad 6" hidden="false"/>
+                <rule id="110d-2e59-ddb1-bb8c" name="Tirada de salvación por armadura 3+" hidden="false">
+                  <description>Tirada de salvación por armadura 3+</description>
+                </rule>
+                <rule id="af91-1b73-5ae2-b9c6" name="Torre de asedio" hidden="false">
+                  <description>Una torre de asedio no causa impactos por carga.
+Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal y como se ha explicado en la sección “Equipo para asaltar las murallas”. ten en cuenta que, aunque se apliquen las reglas habituales de combate, las unidades implicadas en el combate en las murallas continúan siendo Impasibles.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="84ac-8a4f-57c2-365a" name="Aura demoníaca (5+)" hidden="false" targetId="e5ed-5149-3d72-6aa4" type="rule"/>
+                <infoLink id="a1ca-0e31-44be-fc28" name="Terror" hidden="false" targetId="ca57-1f1f-8bc0-d9ab" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="115.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="383a-ab22-7deb-3a1f" name="Manteletes" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8419-9a4d-9213-928b" name="Manteletes" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Las unidades de infantería o infantería monstruosa con armas de proyectiles pueden equiparse con manteletes. Los manteletes se colocan frente a la unidad. Una unidad que lleve manteletes no podrá declarar cargas, ni realizar movimientos de marcha, y el valor de su atributo de M se reduce a la mitad. Sin embargo, una unidad con manteletes se considera siempre a cubierto tras una obstrucción pesada (-2 para impactarla con proyectiles), y obtiene la regla especial Vanguardia. Durante cualquiera de sus fases de movimiento, una unidad puede reformar para abandonar los manteletes: en ese caso, retíralos del campo de batalla. Una unidad con manteletes que reciba una carga por el frontal contará como si estuviese defendiendo un obstáculo; en el momento en el que la unidad equipada con manteletes huya, reciba una carga por el flanco o la retaguardia o sea destruida, retira los manteletes del campo de batalla (los manteletes nunca pueden ser recogidos por otra unidad). </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2140-0f26-0d65-5eb6" name="Vanguardia" hidden="false" targetId="1bd0-0982-01a3-ed62" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af4c-f3a5-9011-766c" name="Equipo de asedio para Monstruos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3d6-4e97-267c-7913" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="764e-7d08-c567-77bb" name="Equipo de asedio para Monstruos" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Un monstruo equipado con un equipo de asedio para monstruos sumará un +1 al daño producido a una sección del castillo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="847e-b747-d6bb-dae7" name="Virotes encantados" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb2f-d8aa-e036-dc71" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5bbb-ad05-ffc6-acfd" name="Virotes encantados" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Un lanzavirotes con esta mejora causa 1D6+6 en lugar de 1D3+6 para determinar el daño producido contra una sección del castillo. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7431-7cc4-73dc-ee3a" name="Ariete para Tanques" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bee8-6655-4044-1ea0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="844f-67f1-ed0f-5310" name="Arietes" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Cualquier unidad de Infantería o Infantería monstruosa con una potencia de unidad de al menos 9 puede equiparse con un único ariete. Si la potencia de unidad se reduce a menos de 9, deberá dejarse el ariete en el suelo. Un ariete puede ser recogido por una unidad de Infantería o Infantería monstruosa con una potencia de unidad de al menos 9 durante su movimiento. Mientras una unidad acarre un ariete, este se considera parte integrante de la unidad. Acarrear un ariete no reduce la capacidad de movimiento de una unidad. Si una unidad que acarrea un ariete huye o es destruida, dejarán el ariete en el suelo, en el punto en que comenzó su huida o fue destruida. Las unidades con la regla especial Estupidez no pueden equiparse con arietes ni recogerlos; si una unidad obtiene la regla especial Estupidez por el motivo que sea, dejará caer inmediatamente el ariete que acarree. Una unidad con un ariete puede utilizarlo para atacar una sección de muralla, torre o puerta de una fortaleza durante la fase de combate cuerpo a cuerpo. La unidad con el ariete efectúa un único ataque, que impacta automáticamente y tiene un valor de daño igual a 1D6+la mitad de la potencia de unidad que lo acarrea (redondeando hacia arriba), hasta un máximo de 1D6+8. Las puertas de una fortaleza tan sólo pueden ser atacadas por un único ariete o ariete cubierto en cada fase de combate cuerpo a cuerpo.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="733e-43cc-ef0d-def4" name="Ariete para Tanques" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Al causar el carro impactos por carga contra una sección de muralla, torre o puerta, dicho carro no sufre daños; además, en lugar de sus impactos por carga, causará un único impacto con un valor de daño de 1D6+8.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="20.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2735,6 +4415,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9dc0-e4af-e0e4-77d7" name="Pabellón de salvaguarda arcana" hidden="false" collective="false" import="true" type="upgrade">
@@ -2757,6 +4438,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1c45-e698-30e8-bf50" name="Pabellón del poder" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -2776,6 +4458,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2800,6 +4483,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9789-d8de-d0c5-2947" name="Amuleto del fuego" hidden="false" collective="false" import="true" type="upgrade">
@@ -2819,6 +4503,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e668-eb1e-97e0-3338" name="Gema del fuego" hidden="false" collective="false" import="true" type="upgrade">
@@ -2838,6 +4523,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3651-17f1-baca-9fc8" name="Piedra de obsidiana" hidden="false" collective="false" import="true" type="upgrade">
@@ -2857,6 +4543,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4a35-76a7-d34e-353d" name="Talismán de protección" hidden="false" collective="false" import="true" type="upgrade">
@@ -2873,6 +4560,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d0a2-1de6-6ff2-d0e2" name="Amuleto de esencia de jade" hidden="false" collective="false" import="true" type="upgrade">
@@ -2889,6 +4577,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1c22-d2fe-8106-6519" name="Corazón de obsidiana" hidden="false" collective="false" import="true" type="upgrade">
@@ -2908,6 +4597,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f694-6b1d-5bbf-d5eb" name="Amuleto ámbar" hidden="false" collective="false" import="true" type="upgrade">
@@ -2924,6 +4614,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="da7b-e9d0-0645-fc7a" name="Pintura de guerra mágica" hidden="false" collective="false" import="true" type="upgrade">
@@ -2943,6 +4634,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="123d-26c5-dca0-8f37" name="Talismán de resistencia" hidden="false" collective="false" import="true" type="upgrade">
@@ -2959,6 +4651,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="db9d-018f-2afe-7f04" name="La piedra del amanecer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2975,6 +4668,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f7e2-a703-4c4b-c8da" name="Brazales del rayo" hidden="false" collective="false" import="true" type="upgrade">
@@ -2991,6 +4685,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5353-ee66-13f0-77be" name="Semilla de renacimiento" hidden="false" collective="false" import="true" type="upgrade">
@@ -3010,6 +4705,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d5af-dffd-903b-1b47" name="Gema de la vida" hidden="false" collective="false" import="true" type="upgrade">
@@ -3029,6 +4725,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3057,6 +4754,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d15f-8aa9-f1ef-d850" name="Poción de velocidad" hidden="false" collective="false" import="true" type="upgrade">
@@ -3073,6 +4771,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1f79-7177-24fe-2bf1" name="Icono de grandeza" hidden="false" collective="false" import="true" type="upgrade">
@@ -3089,6 +4788,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d93c-f065-8359-bda2" name="Icono de hierro" hidden="false" collective="false" import="true" type="upgrade">
@@ -3105,6 +4805,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="346f-f7d6-5642-460e" name="Amuleto de Ravensdark" hidden="false" collective="false" import="true" type="upgrade">
@@ -3121,6 +4822,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e6da-c85a-a2a6-a7d8" name="Poción de resistencia" hidden="false" collective="false" import="true" type="upgrade">
@@ -3137,6 +4839,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f49b-eb7d-4c2a-a26e" name="Anillo de oscuridad" hidden="false" collective="false" import="true" type="upgrade">
@@ -3153,6 +4856,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="de95-27d0-1df4-93ca" name="Corona de poder" hidden="false" collective="false" import="true" type="upgrade">
@@ -3172,6 +4876,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8ea1-1b4b-9126-e021" name="Poción de curación" hidden="false" collective="false" import="true" type="upgrade">
@@ -3188,6 +4893,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3981-e9ad-c2e1-5d75" name="Flauta de la muerte" hidden="false" collective="false" import="true" type="upgrade">
@@ -3207,6 +4913,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9233-50c4-a44a-f5b4" name="El cáliz de rubíes" hidden="false" collective="false" import="true" type="upgrade">
@@ -3223,6 +4930,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="82d9-e407-20eb-3f35" name="Orbe de tormenta" hidden="false" collective="false" import="true" type="upgrade">
@@ -3239,6 +4947,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8f82-a7d2-2754-ceb2" name="El corazón del infortunio" hidden="false" collective="false" import="true" type="upgrade">
@@ -3258,6 +4967,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c517-2b72-4174-c62d" name="El cuerno de Urgok" hidden="false" collective="false" import="true" type="upgrade">
@@ -3277,6 +4987,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="727b-ec5b-7377-d33a" name="Gema negra de Gnar" hidden="false" collective="false" import="true" type="upgrade">
@@ -3293,6 +5004,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ffc0-834a-d61d-9e1f" name="Poción de fuerza" hidden="false" collective="false" import="true" type="upgrade">
@@ -3309,6 +5021,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a0de-27ba-f5a3-641a" name="Anillo del fuego infernal" hidden="false" collective="false" import="true" type="upgrade">
@@ -3328,6 +5041,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5fce-40f6-f0a3-eb55" name="Poción de invisibilidad" hidden="false" collective="false" import="true" type="upgrade">
@@ -3344,6 +5058,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f586-9038-a4cc-eadd" name="Emplasto curativo" hidden="false" collective="false" import="true" type="upgrade">
@@ -3360,6 +5075,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e850-49bd-c58a-9898" name="Pócimo de los héroes" hidden="false" collective="false" import="true" type="upgrade">
@@ -3376,6 +5092,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7a20-3b86-5653-39e4" name="Amuleto de la venganza" hidden="false" collective="false" import="true" type="upgrade">
@@ -3395,6 +5112,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3421,12 +5139,24 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
             <infoLink id="0714-4353-315b-7e09" name="Estupidez" hidden="false" targetId="eff6-2d64-db5e-d51e" type="rule"/>
             <infoLink id="55f0-d7ec-ddc9-5509" name="Objeto legendario" hidden="false" targetId="1eb5-f5b5-0dbe-0f2e" type="profile"/>
           </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="669a-09e3-c952-52eb" name="Los saberes de la magia" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb0c-31b0-6a2d-2926" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="a7ff-9f24-d457-698d" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="3509-12db-c018-fac6" type="selectionEntry"/>
+                <entryLink id="51bf-b4fa-9cc7-29ed" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="b75e-9719-8236-1262" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="b178-20f5-9ad4-0b2c" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
             <entryLink id="0cea-891b-786c-0406" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d482-f765-cb35-5730" name="Anillo de Corin" hidden="false" collective="false" import="true" type="upgrade">
@@ -3446,6 +5176,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3473,6 +5204,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3501,6 +5233,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3529,6 +5262,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3558,6 +5292,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cf7b-26aa-09e7-079a" name="Lanza punzante" hidden="false" collective="false" import="true" type="upgrade">
@@ -3579,6 +5314,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3608,6 +5344,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3636,6 +5373,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8121-21df-8af8-d4ab" name="Espada drenadora" hidden="false" collective="false" import="true" type="upgrade">
@@ -3655,6 +5393,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eed9-de60-ca6d-2ed4" name="Hacha veloz" hidden="false" collective="false" import="true" type="upgrade">
@@ -3674,6 +5413,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3702,6 +5442,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3729,6 +5470,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8c36-bacf-6e76-dd3b" name="Bebedora de sangre" hidden="false" collective="false" import="true" type="upgrade">
@@ -3748,6 +5490,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6079-1eb7-9ddd-27d4" name="Buscacorazones" hidden="false" collective="false" import="true" type="upgrade">
@@ -3767,6 +5510,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a7e-b834-b139-ea0f" name="Cuchilla mortal" hidden="false" collective="false" import="true" type="upgrade">
@@ -3786,6 +5530,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8ed6-9844-c7c9-efd6" name="Espada bendita" hidden="false" collective="false" import="true" type="upgrade">
@@ -3805,6 +5550,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1294-cba3-1955-2c49" name="Espada cabalistica de cobre" hidden="false" collective="false" import="true" type="upgrade">
@@ -3824,6 +5570,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="2.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="375c-5c17-bf15-f0e2" name="Espada cabalistica de bronce" hidden="false" collective="false" import="true" type="upgrade">
@@ -3843,6 +5590,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a09e-c86c-f30b-fb6f" name="Espada cabalistica de plata" hidden="false" collective="false" import="true" type="upgrade">
@@ -3862,6 +5610,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="48f5-a8e9-4eab-6c7c" name="Espada cabalistica dorada" hidden="false" collective="false" import="true" type="upgrade">
@@ -3881,6 +5630,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c09c-5e38-9fee-cf2e" name="Espada de acero punzante" hidden="false" collective="false" import="true" type="upgrade">
@@ -3900,6 +5650,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2d14-b750-ba74-67c0" name="Espada de bronce fulgurante" hidden="false" collective="false" import="true" type="upgrade">
@@ -3919,6 +5670,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="865a-b704-a234-4f6b" name="Espada de cobre fulgurante" hidden="false" collective="false" import="true" type="upgrade">
@@ -3938,6 +5690,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d27e-84e5-1c15-1f44" name="Espada de hierro encantado" hidden="false" collective="false" import="true" type="upgrade">
@@ -3957,6 +5710,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6407-0dff-077a-4879" name="Espada de la  fuerza" hidden="false" collective="false" import="true" type="upgrade">
@@ -3976,6 +5730,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="261c-8aa1-77e7-c2ad" name="Espada de la muerte súbita" hidden="false" collective="false" import="true" type="upgrade">
@@ -3995,6 +5750,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d194-9cf1-d050-922f" name="Espada de oro marino" hidden="false" collective="false" import="true" type="upgrade">
@@ -4014,6 +5770,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0b93-d330-c023-42e4" name="Espada debilitadora" hidden="false" collective="false" import="true" type="upgrade">
@@ -4033,6 +5790,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="381f-461b-f535-dacf" name="Espada defensora" hidden="false" collective="false" import="true" type="upgrade">
@@ -4052,6 +5810,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8c8c-c242-4388-d3e5" name="Espada ogro" hidden="false" collective="false" import="true" type="upgrade">
@@ -4071,6 +5830,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3e06-50b3-74de-510b" name="Espada rebanadora" hidden="false" collective="false" import="true" type="upgrade">
@@ -4090,6 +5850,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a2e3-222f-93ef-41ab" name="Espada reliquia" hidden="false" collective="false" import="true" type="upgrade">
@@ -4109,6 +5870,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a16d-6670-6afc-5a87" name="Lengua de dragón" hidden="false" collective="false" import="true" type="upgrade">
@@ -4129,6 +5891,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="15f1-5822-2805-077a" name="Espada del torturador" hidden="false" collective="false" import="true" type="upgrade">
@@ -4149,6 +5912,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f168-45fc-2c75-061f" name="Decapitadora" hidden="false" collective="false" import="true" type="upgrade">
@@ -4169,6 +5933,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="86f0-0302-c445-54d5" name="Espada de hueso" hidden="false" collective="false" import="true" type="upgrade">
@@ -4189,6 +5954,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0262-9c33-6068-4676" name="Espada desgarradora" hidden="false" collective="false" import="true" type="upgrade">
@@ -4209,6 +5975,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bc54-9a51-6235-9c95" name="Espada del dragón" hidden="false" collective="false" import="true" type="upgrade">
@@ -4229,6 +5996,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d3ac-483e-6432-43af" name="Espada del valor" hidden="false" collective="false" import="true" type="upgrade">
@@ -4249,6 +6017,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f825-2a5b-48c9-ce56" name="Espada aullante" hidden="false" collective="false" import="true" type="upgrade">
@@ -4269,6 +6038,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b6ee-536c-b956-0a23" name="Espada mordedora" hidden="false" collective="false" import="true" type="upgrade">
@@ -4289,6 +6059,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2c9a-6e52-7fbb-670c" name="Espada cazabrujas" hidden="false" collective="false" import="true" type="upgrade">
@@ -4309,6 +6080,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="29ff-a04b-e9cd-5ab0" name="Espada exorcista" hidden="false" collective="false" import="true" type="upgrade">
@@ -4329,6 +6101,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="84d1-6ef7-d543-ae17" name="Espada de la integridad" hidden="false" collective="false" import="true" type="upgrade">
@@ -4348,6 +6121,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3836-0b67-59a9-6693" name="Espada encantada" hidden="false" collective="false" import="true" type="upgrade">
@@ -4367,6 +6141,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="1.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4397,6 +6172,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4435,6 +6211,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9630-df69-67ef-eb3d" name="Matademonios" hidden="false" collective="false" import="true" type="upgrade">
@@ -4458,6 +6235,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4877-c271-843b-3342" name="Espada venenosa" hidden="false" collective="false" import="true" type="upgrade">
@@ -4481,6 +6259,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9bd4-f818-02a4-0a56" name="Espada del fuego infernal" hidden="false" collective="false" import="true" type="upgrade">
@@ -4507,6 +6286,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ad85-337e-6780-1b10" name="Espada del frío" hidden="false" collective="false" import="true" type="upgrade">
@@ -4530,6 +6310,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="90.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e6b1-65f9-ff83-8551" name="Espada de oro fulgurante" hidden="false" collective="false" import="true" type="upgrade">
@@ -4552,6 +6333,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="22b9-d8cd-af74-037f" name="Espada de obsidiana" hidden="false" collective="false" import="true" type="upgrade">
@@ -4574,6 +6356,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="68e0-d2d0-3479-410c" name="Espada de hidra" hidden="false" collective="false" import="true" type="upgrade">
@@ -4597,6 +6380,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1072-12cd-34db-8e96" name="Espada de gigante" hidden="false" collective="false" import="true" type="upgrade">
@@ -4619,6 +6403,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="16fe-5bba-8442-7dca" name="Espada de destrucción" hidden="false" collective="false" import="true" type="upgrade">
@@ -4641,6 +6426,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4665,6 +6451,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e7d8-ab31-f9d7-789e" name="Familiar guerrero" hidden="false" collective="false" import="true" type="upgrade">
@@ -4684,6 +6471,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4b57-a5c5-bc21-4c05" name="Cáliz de hechicería" hidden="false" collective="false" import="true" type="upgrade">
@@ -4700,6 +6488,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c365-3b75-5efc-1261" name="Familiar hechicero" hidden="false" collective="false" import="true" type="upgrade">
@@ -4716,6 +6505,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1e55-621d-3e78-c4db" name="Varita de poder" hidden="false" collective="false" import="true" type="upgrade">
@@ -4732,6 +6522,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b0f8-ccbc-c34b-8a0a" name="Familiar energético" hidden="false" collective="false" import="true" type="upgrade">
@@ -4748,6 +6539,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4ca2-baba-25a7-388c" name="Báculo de cráneo" hidden="false" collective="false" import="true" type="upgrade">
@@ -4764,6 +6556,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3f89-dbbd-f4f0-2ba8" name="Pergamino de dispersión" hidden="false" collective="false" import="true" type="upgrade">
@@ -4780,6 +6573,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5868-1642-44ed-c251" name="Báculo del rayo" hidden="false" collective="false" import="true" type="upgrade">
@@ -4799,6 +6593,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d623-4c3b-23e4-f7b7" name="Báculo llameante de la muerte" hidden="false" collective="false" import="true" type="upgrade">
@@ -4818,6 +6613,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ad1b-50a3-09dc-542d" name="Pergamino de destrucción de magia" hidden="false" collective="false" import="true" type="upgrade">
@@ -4834,6 +6630,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0b5b-450e-48be-73a8" name="Pergamino de energía" hidden="false" collective="false" import="true" type="upgrade">
@@ -4850,6 +6647,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7da9-9c62-170b-7c93" name="Poción de sabiduría" hidden="false" collective="false" import="true" type="upgrade">
@@ -4866,6 +6664,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6cd7-50e8-d115-93df" name="Vara terrenal" hidden="false" collective="false" import="true" type="upgrade">
@@ -4882,6 +6681,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e781-8422-5b01-799f" name="Anillo de poder arcano" hidden="false" collective="false" import="true" type="upgrade">
@@ -4898,6 +6698,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a863-8046-cd56-cd3f" name="Varita de azabache" hidden="false" collective="false" import="true" type="upgrade">
@@ -4914,6 +6715,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c95f-610f-221e-69d6" name="Báculo de hechicero" hidden="false" collective="false" import="true" type="upgrade">
@@ -4930,6 +6732,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0361-9366-42ec-bc0d" name="Piedra de poder" hidden="false" collective="false" import="true" type="upgrade">
@@ -4946,6 +6749,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4970,6 +6774,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5000,6 +6805,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7806-1094-995d-5a1b" name="El libro de Ashur" hidden="false" collective="false" import="true" type="upgrade">
@@ -5022,6 +6828,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5052,6 +6859,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="125.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5079,6 +6887,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6006-ef41-ff0a-a2bf" name="Estandarte del valor" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5098,6 +6907,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0273-02c6-4aee-11a9" name="Estandarte de destrucción" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5117,6 +6927,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b0ae-25f4-ab68-2fce" name="Pabellón del temor" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5136,6 +6947,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6f92-29b0-1775-d116" name="Pabellón de vitalidad" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5155,6 +6967,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="34c7-3d60-840b-0b76" name="Estandarte de guerra" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5171,6 +6984,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2861-8a5b-f3c6-91f0" name="Estandarte de la rapidez" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5187,6 +7001,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f2e4-63d6-e9b5-f87d" name="Estandarte de disciplina" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5206,6 +7021,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7104-392f-3d88-a204" name="Estandarte de defensa" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5222,6 +7038,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8686-305b-dd5e-7b74" name="Estandarte del coraje" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5238,6 +7055,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7928-54ca-7cfd-5a97" name="Estandarte espantapájaros" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5258,6 +7076,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="02c5-3805-3d80-4c80" name="Estandarte de protección arcana" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5277,6 +7096,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="404f-c794-c812-2945" name="Icono de la venganza" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5293,6 +7113,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="abc6-4f56-77cb-2f33" name="Estandarte de hechicería" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5309,6 +7130,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="315d-2280-3b84-e87c" name="Estandarte de la llama perpetua" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5328,6 +7150,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ff9e-6f39-20c5-ca41" name="Bandera del veterano" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5347,6 +7170,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="44d1-1e94-ac72-17de" name="Estandarte aetírico" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5366,6 +7190,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3567-f17c-2e6d-95ee" name="Estandarte del libre paso" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5387,6 +7212,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </rules>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f5c2-65fa-89f7-0434" name="Estandarte talismánico" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5403,6 +7229,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3c05-6cde-6a05-b031" name="Pabellón de la tormenta" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5423,6 +7250,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0751-1ff3-2792-291f" name="Pabellón centelleante" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5439,6 +7267,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ff8e-c7b1-66c4-4b19" name="Estandarte del honor" page="0" hidden="false" collective="false" import="true" type="upgrade">
@@ -5455,6 +7284,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5482,6 +7312,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5509,6 +7340,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a9ff-2888-1c4a-9d4e" name="Talismán de obsidiana" hidden="false" collective="false" import="true" type="upgrade">
@@ -5528,6 +7360,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2fa8-7cd8-1feb-018f" name="Talismán del destino" hidden="false" collective="false" import="true" type="upgrade">
@@ -5547,6 +7380,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="45.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5574,6 +7408,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="75.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5602,6 +7437,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5629,6 +7465,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5657,6 +7494,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5684,6 +7522,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5708,6 +7547,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9dc4-a417-414f-7cca" name="Alfombra de Arabya" hidden="false" collective="false" import="true" type="upgrade">
@@ -5727,6 +7567,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5758,6 +7599,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5785,6 +7627,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="73c9-d436-2de8-a9cc" name="Armadura de cuero hechizada" hidden="false" collective="false" import="true" type="upgrade">
@@ -5804,6 +7647,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5832,6 +7676,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eb32-7b49-1fa0-2005" name="Escudo de hierro negro" hidden="false" collective="false" import="true" type="upgrade">
@@ -5851,6 +7696,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4ba4-7944-7791-58b3" name="Escudo de Ptolos" hidden="false" collective="false" import="true" type="upgrade">
@@ -5870,6 +7716,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4f87-2d82-a70d-a0f6" name="Escudo encantado" hidden="false" collective="false" import="true" type="upgrade">
@@ -5889,6 +7736,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d19e-f6aa-ac5b-9e09" name="Escudo rúnico" hidden="false" collective="false" import="true" type="upgrade">
@@ -5908,6 +7756,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="405e-fb32-be41-b195" name="Escudo inquebrantable" hidden="false" collective="false" import="true" type="upgrade">
@@ -5927,6 +7776,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5955,6 +7805,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0142-d168-98ef-e7c2" name="Yelmo encantado" hidden="false" collective="false" import="true" type="upgrade">
@@ -5974,6 +7825,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6001,6 +7853,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="31c6-da40-c86d-f021" name="Armadura de la robustez" hidden="false" collective="false" import="true" type="upgrade">
@@ -6020,6 +7873,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a34-ee67-bc1b-0d6b" name="Armadura de la suerte" hidden="false" collective="false" import="true" type="upgrade">
@@ -6039,6 +7893,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b2ed-91c5-eef0-dd17" name="Armadura de los héroes" hidden="false" collective="false" import="true" type="upgrade">
@@ -6058,6 +7913,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c307-20e0-0dc8-36a7" name="Armadura de sombras" hidden="false" collective="false" import="true" type="upgrade">
@@ -6078,6 +7934,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9c9c-e6b0-4b72-d33f" name="Coraza inquebrantable" hidden="false" collective="false" import="true" type="upgrade">
@@ -6097,6 +7954,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="122b-a7c2-8deb-4aa7" name="Armadura de la dureza" hidden="false" collective="false" import="true" type="upgrade">
@@ -6116,6 +7974,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6147,6 +8006,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="55.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6177,6 +8037,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="60.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6207,6 +8068,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2724-0ebd-b36c-b9c6" name="Armadura del destino" hidden="false" collective="false" import="true" type="upgrade">
@@ -6229,6 +8091,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6256,6 +8119,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6291,6 +8155,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="15.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6318,6 +8183,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6348,6 +8214,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="150.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6378,6 +8245,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6402,6 +8270,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6433,6 +8302,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="100.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0ddc-39e8-2960-e00c" name="Espada de gromril" hidden="false" collective="false" import="true" type="upgrade">
@@ -6455,6 +8325,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="65.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7465,5 +9336,248 @@ En el instante en que una Encarnación Elemental sea retirada como baja del camp
         <characteristic name="Reglas especiales" typeId="7e0d-4aa5-85cf-f713">Todos los objetos mágicos marcados como “Objeto legendario” sólo ueden ser usados en Grandes Batallas (batallas a 3000 puntos o más).</characteristic>
       </characteristics>
     </profile>
+    <profile id="b55d-41fb-08df-d131" name="Torres" hidden="false" typeId="bed2-e974-27fd-c0d6" typeName="Edificio">
+      <characteristics>
+        <characteristic name="Reglas especiales" typeId="7523-c4a5-c740-2d0a">Las torres son los puntos más resistentes de un castillo, y pueden ser fácilmente defendidas incluso aunque las secciones de muralla junto a ella hayan sido tomadas o se hayan derrumbado. Gracias a su altura, desde ellas se domina todo el campo de batalla, y es el emplazamiento ideal para una unidad con armas de proyectiles o una máquina de guerra. Las torres en la fortaleza se dividirán normalmente en dos partes: la parte superior de la torre y su interior.
+Puede colocarse en lo alto de una torre una única unidad de infantería o infantería monstruosa, siempre y cuando haya espacio disponible para colocar todas las miniaturas de la unidad. También puedes colocar en lo alto de la torre una única máquina de guerra (aunque tan sólo durante el despliegue, y, si lo haces, la máquina de guerra no podrá mover en toda la batalla). En su interior, puede situarse una unidad de infantería o infantería monstruosa (para disparar desde las aspilleras, por ejemplo), pero no una máquina de guerra: en este caso, te recomendamos que retires la unidad del campo de batalla e indiques a tu oponente que dicha unidad se encuentra en su interior (¡asegúrate de indicar qué torre!). El interior de la torre puede contener más de un piso dependiendo de la altura de esta. La capacidad de cada piso de la torre será igual que la capacidad de la parte superior de la torre: es decir, si en la parte superior de la torre entran, por ejemplo, hasta 20 miniaturas de infantería (o 12 si tienen peana de 25mm). En las partidas de Asedio estándar una torre tendrá una planta baja, un piso que estará a nivel de la parte superior de las murallas que defiende y la parte superior de la torre. Si se desea y se habla de antemano, una torre o varias pueden contener más de un piso.
+Las tropas situadas en lo alto de una torre pueden ser atacadas por los proyectiles enemigos, pero se consideran siempre en cobertura tras cobertura pesada (penalizador de -2 en la tirada para impactarles con proyectiles). Las tropas en alguno de los pisos interiores de una torre no pueden ser atacadas con proyectiles, salvo que la torre se derrumbe.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0653-05af-c3cb-5a81" name="Murallas" hidden="false" typeId="bed2-e974-27fd-c0d6" typeName="Edificio">
+      <characteristics>
+        <characteristic name="Reglas especiales" typeId="7523-c4a5-c740-2d0a">Construidas con sólidos y duraderos materiales, las murallas son el elemento principal que define un castillo o fortaleza. Una sección de muralla es el trozo de muralla comprendido entre dos torres, y cada sección de muralla se considera un elemento independiente. 
+Las murallas tienen, normalmente, una altura de entre 4” y 6” (entre 10 y 15cm). La longitud de una sección de muralla puede ser muy variable, pero normalmente estará en torno a 12” (si una sección es demasiado larga, podéis dividirla en dos secciones anexas de muralla sin torre en medio de ellas). Finalmente, la muralla debe tener en su parte superior una anchura de, al menos, 2” (sin contar las almenas), para que puedan situarse dos filas de miniaturas de infantería, y las criaturas más grandes (como los ogros) puedan situarse sobre ellas sin que se caigan.
+Las almenas rematan cada sección de muralla: se trata de una protección de piedra u otros materiales que dificulta el disparar contra las tropas sobre la muralla, por lo que una miniatura o unidad que se encuentre a cubierto tras las almenas se considera a cubierto tras cobertura pesada (penalizador de -2 en la tirada para impactarles con proyectiles).
+Las tropas situadas sobre una muralla deben colocarse en una sola fila: de esta forma también podrán colocarse sobre las murallas los atacantes. Puedes colocar las miniaturas que desees siempre y cuando estén en una sola fila y haya espacio material para ello. Los defensores deben colocarse dejando un hueco de 1” entre ellos y las almenas, para que quede espacio para colocar las miniaturas atacantes cuando lleguen (¡si es que llegan!).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c563-8652-e805-427f" name="Puertas" hidden="false" typeId="bed2-e974-27fd-c0d6" typeName="Edificio">
+      <characteristics>
+        <characteristic name="Reglas especiales" typeId="7523-c4a5-c740-2d0a">En muchos aspectos, las puertas son la parte más débil de una fortaleza o castillo: aunque sean de madera, piedra o metal, siempre es más sencillo tratar de echar abajo las puertas que derrumbar las murallas de la fortaleza. Por ello, las puertas de una fortaleza suelen estar flanqueadas por dos torres, y defendidas por las mejores tropas con las que cuenta el comandante del castillo.
+Se necesitan por lo menos dos miniaturas para abrir las puertas desde el interior de la fortaleza, sin merma alguna a la capacidad de movimiento de la unidad que abre las puertas (esto quiere decir que un personaje sólo no puede abrir las puertas). Las puertas no pueden abrirse desde el exterior de la fortaleza: el atacante debe derribarlas o destruirlas para poder entrar.
+Una única unidad, de cualquier tamaño (excepto si es Objetivo grande) puede atravesar las puertas abiertas o destruidas de un castillo durante su fase de movimiento, sin reducción alguna a su capacidad de movimiento. No es necesario que la unidad cambie de formación para atravesar la puerta: se asume que vuelve a adquirir la misma formación que tenía tras atravesar la puerta. Es probable que el movimiento de la unidad no la permita atravesar la puerta en una fase de movimiento, quedándose bajo el arco de la puerta: en ese caso, coloca una parte de la unidad a cada lado de la puerta (las filas a las que alcance el movimiento para atravesar la puerta se colocan en el interior, para indicar que la está atravesando).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a53c-35f4-831d-e312" name="Patio de armas" hidden="false" typeId="bed2-e974-27fd-c0d6" typeName="Edificio">
+      <characteristics>
+        <characteristic name="Reglas especiales" typeId="7523-c4a5-c740-2d0a">El Patio de armas es la zona interior delimitada por los muros de la fortaleza. Las tropas en el interior del patio de armas pueden moverse hacia las murallas o a las torres, tal y como se describe más adelante. En el patio de armas se aplican las reglas habituales de Warhammer Reforged.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="538a-1ea6-89fd-7ebe" name="Saber de la Muerte" hidden="false">
+      <profiles>
+        <profile id="0406-0fbd-90fe-080c" name="[R] - Drenar vida" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Cada vez que un hechizo del Saber de la Muerte cause una baja durante el turno en el que se lanzó, tira 1D6. Con cada resultado de 5+, el hechicero añade inmediatamente un dado de Energía a su reserva, los cuales solo podrán ser utilizados por el propio hechicero.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cab2-e360-b456-2a60" name="[0] - Sorber el espíritu" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una miniatura enemiga a 12” o menos del lanzador. Tanto el lanzador como el objetivo tiran 1D6 y suman sus respectivos atributos de Liderazgo: el lanzador suma también la mitad de sus niveles de magia (redondeando hacia abajo). El lanzador causa una herida sin tirada de salvación por armadura a su adversario por cada punto de diferencia que obtenga sobre él.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fd1c-372c-8a98-7581" name="[1] - Presencia pavorosa" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">6+/10+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 24” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad causa Miedo. Si ya causaba Miedo, pasará a causar Terror. Puede potenciarse para que la unidad cause Terror, en cuyo caso la dificultad será de 10+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6d31-eccf-7b48-49a2" name="[2a] - Asolar el alma" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad obtiene un penalizador de -1 a sus atributos de Fuerza y Resistencia.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7e4a-562d-15df-7ef4" name="[2b] - Caricia de Laniph" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una unidad enemiga a 18” o menos del lanzador. Coloca la plantilla redonda pequeña sobre el objetivo y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Cada miniatura bajo la plantilla debe superar un chequeo de Fuerza o sufrirá un impacto de Fuerza 6.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d29-dd1f-8ea8-d087" name="[3] - Descarga mortal de Zandox" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Proyectil mágico</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">9+/12+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/36&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Proyectil mágico con un alcance de 18” que causa 2D6 impactos de Fuerza 3 que niegan la tirada de salvación por armadura. Puede potenciarse para aumentar el alcance hasta 36”, en cuyo caso su dificultad será de 12+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2b2b-8d71-6485-cdbb" name="[4] - Manto de desesperación" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">12+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 24” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad tiene un penalizador de -3 a su atributo de Liderazgo y no puede beneficiarse de los efectos de la regla especial Presencia inspiradora.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e966-4a33-2823-22ee" name="[5] - Destino de Bjuna" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">16+/20+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;/24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una miniatura enemiga situada a una distancia de 12” o menos del lanzador. Tira 2D6: causa una herida sin tirada de salvación por armadura por cada punto que la tirada exceda el atributo de Resistencia del objetivo. Una miniatura que sufra heridas de este hechizo y sobreviva obtiene la regla especial Estupidez durante el resto de la batalla. Puede potenciarse para aumentar el alcance hasta 24”, en cuyo caso la dificultad será de 20+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3506-0fac-b7de-b412" name="[6] - Sol púrpura de Xereus" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Vórtice</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">18+/24&quot;</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">3D6&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Vórtice. Coloca la plantilla redonda pequeña en contacto con el lanzador y tira 3D6: desplaza la plantilla la distancia indicada en los dados en la dirección que desees. Cualquier miniatura sobre la que se mueva la plantilla deberá superar un chequeo de Resistencia o será retirada como baja. Puede potenciarse para utilizar la plantilla redonda grande, en cuyo caso su dificultad será de 24+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="a26e-3037-84f6-d307" name="Magia Oscura" hidden="false">
+      <profiles>
+        <profile id="fb66-5da7-f3b4-9bcd" name="[R] - Foco impío" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">-</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">-</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Un hechicero que conozca uno o más hechizos del Saber de Magia oscura tiene un bonificador de +2 sus intentos de Canalizar dados de Energía.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ad72-d136-0a8b-82b7" name="[0] - Furia primitiva" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51fc-eb9b-4cd8-7ac0" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo una unidad amiga a 12” o menos del lanzador. La unidad mueve 1D6+2” hacia delante. Si el movimiento lleva a la unidad a contacto peana con peana con una o más unidades enemigas, se considera que ha cargado.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7b63-6b72-28a6-7834" name="[0] - Malicia de Khaine" hidden="true" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3216-304d-aab6-db09" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">9+/14+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;/12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo a una unidad amiga a 18” o menos del lanzador y Permanece un turno. Mientras dure el hechizo, la unidad puede repetir las tiradas para herir fallidas en combate cuerpo a cuerpo. Puede potenciarse para que afecte a todas las unidades amigas a 12” o menos del lanzador, en cuyo caso la dificultad será de 14+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="979f-0281-b487-cb8a" name="[0] - Oscura mano de destrucción" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Proyectil mágico</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/14+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Proyectil mágico con un alcance de 18“. La unidad sufre 1D6 impactos de Fuerza 5. Puede potenciarse para que cause 2D6 impactos, en cuyo caso la dificultad será de 14+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9ed0-b99b-c44a-85d7" name="[1] - Destrucción de almas" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">9+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo con un alcance de 18”. Coloca la plantilla redonda pequeña dentro del alcance y tira el dado de dispersión. Si obtienes un resultado de impacto, la plantilla permanece donde está; si no, desvíala 1D6” menos el nivel de magia del lanzador. Las miniaturas bajo la plantilla sufren un impacto de Fuerza 3 que no permite tirada de salvación por armadura. Por cada tres heridas causadas por este hechizo, el lanzador puede curarse una herida que hubiese sufrido con anterioridad durante la batalla o añadir un dado de Energía a su reserva de dados de esa fase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="73a3-7ee4-e435-30f4" name="[2] - Vuelo de bruja" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">8+/13+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio lanzador. El lanzador realiza inmediatamente un movimiento como si tuviera la regla especial Volar (10). El lanzador puede decidir realizar una carga o marcha con este movimiento. Si el lanzador tiene Potencia de unidad de 5+, la dificultad del hechizo será de 13+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b7b6-2790-e27f-8731" name="[3] - Maldición de Nagash" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+/14+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 24” o menos del lanzador y Permanece en efecto. Mientras dure el hechizo, la unidad tiene un penalizador de -2 a su HA, HP y F. Puede potenciarse para que al final de cada fase de magia en la que el hechizo esté activo la unidad sufra 1D6 impactos que siempre hieren con un resultado de 4+ y no permiten tiradas de salvación por armadura, en cuyo caso la dificultad será de 14+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fa64-f2e8-0a54-0906" name="[4a] - Tormenta de espadas" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">12+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Maldición que toma como objetivo a una unidad enemiga a 18” o menos del lanzador. Tira 3D6 y resta el valor de HA del objetivo (utiliza el valor más común de HA en unidades con diferentes valores): ese será el número de impactos que hieren a 4+ y no permiten tirada de salvación por armadura.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d7bf-068b-70b1-d957" name="[4b] - Espasmo de muerte" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Daño directo</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">11+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">18&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Daño directo que toma como objetivo a una miniatura enemiga a 18” o menos del lanzador. Tira 2D6: por cada punto que la tirada exceda la Resistencia de la víctima, esta sufre un impacto automático que siempre hiere a 4+ y no permite tirada de salvación por armadura.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3f42-1eae-edb5-f7de" name="[5] - Transformación de Kadon" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">15+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">Lanzador</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece en efecto</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Potenciación que toma como objetivo al propio lanzador y Permanece en efecto. Mientras dure el hechizo, el lanzador se transforma en un monstruo a tu elección de entre los listados. En forma de monstruo, el lanzador no puede utilizar sus armas, armaduras, artefactos arcanos (salvo familiares) ni objetos hechizados, aunque podrá lanzar hechizos con normalidad. Si estaba unido a una unidad, sepáralo 1” de esta(aunque el personaje no pudiera abandonarla de otra modo). Puede potenciarse para que el lanzador se transforme en un dragón del tipo indicado más arriba, en cuyo caso la dificultad será de 18+. Este hechizo no puede ser dispersado una vez el lanzador se haya transformado en monstruo. Cuando el monstruo muera, sustitúyelo por el lanzador en las mismas condiciones en las que estaba antes de transformarse. Este hechizo no puede ser utilizado si el lanzador tiene montura de cualquier tipo; si es el caso y obtienes este hechizo al generar tus hechizos antes de la batalla, puedes cambiar la Transformación de Kadon por el hechizo que desees del Saber de Magia oscura.
+
+
+-Elfos oscuros: Hidra de guerra, Caribdis o Mantícora. Potenciado: Dragón negro.
+-Bestias del Caos: Gorgona, Cigor o Escuerzo alado. Potenciado: Dragón del Caos.
+-Demás ejércitos del Caos: Quimera o Mantícora. Potenciado: Dragón del Caos.
+-No muertos (de cualquier tipo): Horror abisal. Potenciado: Dragón zombi.
+-Otros ejércitos: Grifo (Orden y Neutral), Mantícora (Destrucción y Neutral). Potenciado: Dragón.
+
+
+             M HA HP F R H I  A L 
+Dragón 6  5    0    6 6  6 2 6 8
+Reglas especiales: Volar (8), Piel escamosa (3+), Arma de aliento (Fuerza 4 y Ataques sólo flamígeros). Un personaje tranformado en dragon (de cualquier tipo) obtiene la clave Dragón</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3e8b-bea3-7115-302e" name="[6] - Horror negro de Arnizipaal" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Vórtice</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">18+/24+</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">3D6</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de Vórtice. Coloca la plantilla redonda pequeña en contacto con el lanzador y tira 3D6: desplaza la plantilla la distancia indicada en los dados en la dirección que desees. Cualquier miniatura sobre la que se mueva la plantilla debe superar un chequeo de Fuerza o será retirada como baja. Puede potenciarse para utilizar la plantilla redonda grande, en cuyo caso su dificultad será de 24+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+  </sharedInfoGroups>
 </gameSystem>
