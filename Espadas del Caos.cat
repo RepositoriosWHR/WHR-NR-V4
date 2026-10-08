@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36e9-44aa-523d-fdf6" name="Espadas del Caos" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36e9-44aa-523d-fdf6" name="Espadas del Caos" revision="7" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada || Actualizadores: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="cf08-e228-80d6-f0ee" name="Recompensa del caos">
       <characteristicTypes>
@@ -118,6 +118,84 @@
             <entryLink id="d31a-4da9-f942-a5d0" name="Clave: Guerreros del Caos" hidden="false" collective="false" import="true" targetId="2d88-82a1-bd2b-b04e" type="selectionEntry"/>
             <entryLink id="e641-99ff-886c-5bb0" name="Clave: Espadas del Caos" hidden="false" collective="false" import="true" targetId="a2e3-6060-72b1-7511" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7090-25b2-c372-2d1d" name="Equipo de Asedio (Infanterias)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f7c6-a129-f4dd-79fc" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e207-6aae-c5f0-ad24" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eea6-464c-8034-3d8e" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="713d-3571-9769-a0a7" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86e0-1e15-1273-4c79" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="bff2-be22-1ddd-2282" name="Arietes" hidden="false" collective="false" import="true" targetId="9d7e-f60b-613e-9dac" type="selectionEntry"/>
+                    <entryLink id="e31d-3003-8d08-08f4" name="Escala" hidden="false" collective="false" import="true" targetId="ea16-d7c2-1c5a-3648" type="selectionEntry"/>
+                    <entryLink id="ac83-a630-e2de-a112" name="Torre de Asedio" hidden="false" collective="false" import="true" targetId="921d-e1db-3767-1b3f" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="11ea-e3bc-1904-2478" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ac6-d15f-c234-15d0" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="d7f7-75fc-bfc8-f4c3" name="Caldero" hidden="false" collective="false" import="true" targetId="4b31-e4ba-3e16-6f64" type="selectionEntry"/>
+                    <entryLink id="70f7-c576-d96c-e03d" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="increment" field="7deb-c7e6-415b-8067" value="1.0">
+                          <repeats>
+                            <repeat field="selections" scope="71da-f694-3a3b-9435" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="266c-f7b2-d0da-fd04" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="004c-546d-7933-b113" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
@@ -3749,6 +3827,84 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5cbe-5a7e-9a56-6d24" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4316-7e9f-2a92-0e96" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="23c6-35ca-2314-9765" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b4f5-4428-564b-391c" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="e7db-043e-b974-4225" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9331-bdc4-fcc2-f23c" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="51a2-ec54-19a8-befc" name="Cuerda y Garfio" hidden="false" collective="false" import="true" targetId="fed9-ffee-e981-4903" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bec-4450-c63a-5329" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1595-75b2-d5f5-2825" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9f24-dea3-4782-d8f5" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="209e-7898-9d74-29b1" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e2b-54d5-029c-e998" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="83af-24ef-133e-7c0d" name="Opciones" hidden="false" collective="false" import="true">
@@ -4531,6 +4687,84 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0a45-9572-6241-d903" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a136-4f0b-b6b7-1eac" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="4eb2-c752-3d79-64dc" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="509b-34ad-6b9d-0da4" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="1942-2f78-798b-be75" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cbeb-efd6-80b0-1279" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="fb5b-0494-5f90-7b41" name="Cuerda y Garfio" hidden="false" collective="false" import="true" targetId="fed9-ffee-e981-4903" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="286a-2eb1-06e7-097c" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="acba-ad09-0f4a-37cf" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a02-3d29-d5be-e356" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="0ac4-295e-a408-1826" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb21-f912-4583-bf40" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="16b7-0cc5-cda8-8ecf" name="Opciones" hidden="false" collective="false" import="true">
@@ -4770,7 +5004,7 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="251b-a9a3-6d4e-59cf" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="55.0"/>
+                <cost name="pts" typeId="points" value="555.0"/>
               </costs>
             </entryLink>
             <entryLink id="8f28-54d0-a2a1-e0db" name="Corcel de Slaanesh" hidden="false" collective="false" import="true" targetId="535b-b87c-fb1e-24de" type="selectionEntry">
@@ -4836,6 +5070,42 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c7e1-ce16-6cec-cf37" name="Los saberes de la magia" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="ec4d-f9a5-f40c-fdbf" name="Saber de Tzeentch" hidden="false" collective="false" import="true" targetId="b20e-2adb-6db4-44be" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="318c-a81a-ab22-37e6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b312-1e7c-fa30-c5e6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="568d-01fa-b5bc-a6ff" name="Saber de Slaanesh" hidden="false" collective="false" import="true" targetId="6f45-b771-55d8-cc14" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="318c-a81a-ab22-37e6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4c3b-ee1f-c149-ac33" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="e2c2-4477-f8e4-70a5" name="Saber de Sombras" hidden="false" collective="false" import="true" targetId="18bb-6c37-1cfe-8766" type="selectionEntry"/>
+            <entryLink id="c558-58c4-4d49-6044" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+            <entryLink id="3908-47f5-6b3b-5d34" name="Saber de los Cielos" hidden="false" collective="false" import="true" targetId="77a4-c5d2-08e5-4388" type="selectionEntry"/>
+            <entryLink id="a919-57dd-373b-24dc" name="Saber de Nurgle" hidden="false" collective="false" import="true" targetId="3352-4875-5820-8bbe" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="318c-a81a-ab22-37e6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7076-7792-e821-b83e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="bd82-0699-8b47-b572" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+            <entryLink id="6978-dd99-37d5-3405" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -5005,6 +5275,74 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
             <entryLink id="938f-2626-5a50-c0bb" name="Clave: Espadas del Caos" hidden="false" collective="false" import="true" targetId="a2e3-6060-72b1-7511" type="selectionEntry"/>
             <entryLink id="3c2b-77d0-6bd3-dd8d" name="Clave: Paladín del Caos" hidden="false" collective="false" import="true" targetId="ce2b-d391-0003-7d6f" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f746-2a61-667f-f556" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6740-3de5-05cc-b745" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1336-1f5b-3ee0-fa15" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="61a0-fc64-671b-5b33" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2e05-2a79-13e4-7e09" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e069-d37e-3671-137a" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d630-140d-6370-65e8" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aac2-f3a6-3462-713d" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5c1e-cb3e-0f88-ba70" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="256b-0efe-9504-d40f" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
@@ -5318,6 +5656,74 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6dca-cd99-0610-c979" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d63a-646e-1d11-9476" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="66e8-68bb-7b0c-584e" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b586-b6c1-de2c-a0ce" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="1dfc-3806-ba2f-a8d2" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a594-8c0b-814a-49fc" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="db10-7375-8212-f233" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c4f-f499-7cc0-ed3d" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="4b3a-de62-8f68-6a13" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3fec-f4ba-ccb4-cc02" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b638-61ca-bcb1-485a" name="Montura" hidden="false" collective="false" import="true">
@@ -5376,6 +5782,11 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d544-8ce2-f4f8-8235" name="Los saberes de la magia" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1a6d-d86c-13d5-5c72" name="Saber de Tzeentch" hidden="false" collective="false" import="true" targetId="b20e-2adb-6db4-44be" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -5583,6 +5994,84 @@ mágica (1); además, sus Ataques aleatorios aumentan a 1D6+3.</description>
               </costs>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7992-62e6-87a7-cdd4" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a7d-2cb1-62dd-92e1" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9bb5-c98d-002d-22f6" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f8cb-90b2-3944-46ed" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="365d-9a06-343d-1e1a" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="821e-270a-120b-eff3" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="ea54-25aa-c846-9ffa" name="Cuerda y Garfio" hidden="false" collective="false" import="true" targetId="fed9-ffee-e981-4903" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af76-f3ec-91da-7872" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4e2c-143c-21ce-de50" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bbfe-3f48-44e8-5e2e" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a55d-58c6-ab8b-8eb0" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a2d3-8996-4a01-754f" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
@@ -5802,6 +6291,84 @@ D6+turno	 Efecto en Syrkaar
             <entryLink id="9c22-0e6b-4e05-3596" name="Clave: Espadas del Caos" hidden="false" collective="false" import="true" targetId="a2e3-6060-72b1-7511" type="selectionEntry"/>
             <entryLink id="efbe-442a-cdc8-5964" name="Clave: Paladín del Caos" hidden="false" collective="false" import="true" targetId="ce2b-d391-0003-7d6f" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7bda-cd7b-ca86-a389" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e87-ba5e-a702-a49a" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="23a8-4455-f1e3-e559" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5278-f0b6-4f44-57c2" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="8522-8c6c-dee8-a09d" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="147f-fec3-7e39-4449" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a937-f9e7-b70e-540e" name="Cuerda y Garfio" hidden="false" collective="false" import="true" targetId="fed9-ffee-e981-4903" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e6cf-c946-ec65-95c7" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2185-df16-ab4f-7095" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d9d1-5159-21f5-5ad3" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="7780-e951-bac2-571d" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d4e-995e-22c5-44f7" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
@@ -6047,6 +6614,84 @@ D6+turno	 Efecto en Syrkaar
               </costs>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="809f-419e-3675-acf2" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a01-2d2a-e0d3-4f7e" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="92e4-6990-571f-f5cc" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0cca-85c8-719d-b085" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="ce71-902c-ca03-1615" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="879f-4fe3-a983-ec70" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="6410-daac-390f-b8f8" name="Cuerda y Garfio" hidden="false" collective="false" import="true" targetId="fed9-ffee-e981-4903" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2bd0-3e40-b0f3-6bb3" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8a2b-4f27-9304-d88c" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="12ad-b78c-2d29-16d1" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="e108-66ad-ead9-365f" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0031-f1b4-e3ce-48b8" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
@@ -6322,6 +6967,84 @@ D6+turno	 Efecto en Syrkaar
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5d03-9cae-40b3-7b9e" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfc6-a0a4-027b-a0c1" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1639-3a9e-3612-6ae1" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6034-6ae9-5ddc-b4ca" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="49f3-a401-458a-d6cd" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7786-94d9-bd06-d5f4" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="ab49-0e6c-c548-83a5" name="Cuerda y Garfio" hidden="false" collective="false" import="true" targetId="fed9-ffee-e981-4903" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a23-6ede-55af-48ba" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9d96-d14a-6540-488d" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1fc0-b140-9762-4ef9" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="0f86-416a-794b-288a" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce37-1097-a109-e9eb" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="af5f-97a2-5270-b9a8" name="Recompensas del Caos" hidden="false" collective="false" import="true">
@@ -6365,6 +7088,11 @@ D6+turno	 Efecto en Syrkaar
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6f9a-4714-3baa-0a7d" name="Los saberes de la magia" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e876-969e-1098-0235" name="Saber de Tzeentch" hidden="false" collective="false" import="true" targetId="b20e-2adb-6db4-44be" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -6621,6 +7349,84 @@ D6+turno	 Efecto en Syrkaar
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d524-d2b7-cc10-672b" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="578f-22a9-85e4-0413" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a3e7-894a-b1dc-a77c" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b8e4-ee98-9576-051a" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="5f22-6d74-d8f7-25d8" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d01a-8733-4a7b-6a74" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="bb3d-14db-d76c-eab4" name="Cuerda y Garfio" hidden="false" collective="false" import="true" targetId="fed9-ffee-e981-4903" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db31-9294-7bd6-8fe7" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1fbc-eea0-8f3b-bf16" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2f8-d9b6-5782-a715" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="999f-08f1-5d9b-3138" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="595e-6437-31cd-cc88" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="1.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6732,6 +7538,84 @@ D6+turno	 Efecto en Syrkaar
             <entryLink id="a1a5-5ef3-b22c-2bd4" name="Clave: Guerreros del Caos" hidden="false" collective="false" import="true" targetId="2d88-82a1-bd2b-b04e" type="selectionEntry"/>
             <entryLink id="b614-e075-be3a-ec21" name="Clave: Espadas del Caos" hidden="false" collective="false" import="true" targetId="a2e3-6060-72b1-7511" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="433e-913f-5611-73fb" name="Equipo de Asedio (Infanterias)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f217-becd-efde-aa8c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Equipo de Asedio"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3a0-1e89-635e-1dbf" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2bed-e05b-b044-0b9d" name="Equipo de Asedio" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6481-a033-719d-9f42" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="81c7-61d1-0d01-c52f" name="Atacante" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="027b-1a1f-16d1-2921" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9188-2f36-c92b-b386" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="5f01-1d15-839d-b924" name="Arietes" hidden="false" collective="false" import="true" targetId="9d7e-f60b-613e-9dac" type="selectionEntry"/>
+                    <entryLink id="58a1-b8b8-4dff-ab52" name="Escala" hidden="false" collective="false" import="true" targetId="ea16-d7c2-1c5a-3648" type="selectionEntry"/>
+                    <entryLink id="a19e-fba3-9137-31eb" name="Torre de Asedio" hidden="false" collective="false" import="true" targetId="921d-e1db-3767-1b3f" type="selectionEntry"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9f9c-d758-9dce-9089" name="Defensor" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c9-21d9-8354-a87b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="736e-eb03-dbd5-3515" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a1c7-ea62-35ba-6b6c" name="Caldero" hidden="false" collective="false" import="true" targetId="4b31-e4ba-3e16-6f64" type="selectionEntry"/>
+                    <entryLink id="1548-d254-e342-9a42" name="Rocas" hidden="false" collective="false" import="true" targetId="dda4-9ec7-42f6-67a5" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="increment" field="7deb-c7e6-415b-8067" value="1.0">
+                          <repeats>
+                            <repeat field="selections" scope="9ad9-5975-8f5f-e3a8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ad0-3ca7-9594-a8d9" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dddf-19e7-e65f-3726" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
@@ -7415,7 +8299,7 @@ D6+turno	 Efecto en Syrkaar
     </selectionEntry>
   </selectionEntries>
   <rules>
-    <rule id="a0bf-7473-2149-1ccb" name="El Caos no tolera la mediocridad" hidden="false">
+    <rule id="9c9f-0bd1-657c-f7ac" name="El Caos no tolera la mediocridad" hidden="false">
       <description>Al finalizar la batalla, los Espadas del Caos obtienen un Punto de gloria menos de los que les corresponden (con un mínimo de 1), y el oponente recibe un Punto de Gloria adicional a los que les correspondan (con un máximo de 9). </description>
     </rule>
   </rules>
@@ -9536,6 +10420,21 @@ los objetos portahechizos, plegarias, etc.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7451-3d51-8c33-75e2" name="Los saberes de la magia" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2534-e736-33eb-2eda" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ca7b-0043-ecec-92b6" name="Saber de Tzeentch" hidden="false" collective="false" import="true" targetId="b20e-2adb-6db4-44be" type="selectionEntry"/>
+                <entryLink id="ff3d-bee3-5f17-6741" name="Saber de Slaanesh" hidden="false" collective="false" import="true" targetId="6f45-b771-55d8-cc14" type="selectionEntry"/>
+                <entryLink id="5004-c8e6-421f-3d42" name="Saber de la Muerte" hidden="false" collective="false" import="true" targetId="64a6-d9e9-3822-4168" type="selectionEntry"/>
+                <entryLink id="301d-4e31-2ba2-e2b8" name="Saber de Nurgle" hidden="false" collective="false" import="true" targetId="3352-4875-5820-8bbe" type="selectionEntry"/>
+                <entryLink id="c656-863b-d5ed-ea00" name="Magia Oscura" hidden="false" collective="false" import="true" targetId="7a1e-b29e-9f4b-44a5" type="selectionEntry"/>
+                <entryLink id="c729-13d9-914f-a6d9" name="Saber del Fuego" hidden="false" collective="false" import="true" targetId="bff8-8e34-eb37-f67a" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="ac84-addf-fccb-a7a0" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
           </entryLinks>
@@ -10740,5 +11639,6 @@ esta regla especial pueden repetir los chequeos de Pánico fallidos.</descriptio
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="4b32-56aa-5fe4-fb0a" name="Huestes del Caos" targetId="b45a-4cb1-e2e8-abd7" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="2ac8-bb15-910b-a311" name="Los saberes de la magia" targetId="8ca7-9cd1-c914-3d7c" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
