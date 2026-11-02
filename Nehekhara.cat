@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< HEAD
 <catalogue id="f0a0-99d0-d4e2-c1f3" name="Nehekhara" revision="11" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="49" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+=======
+<catalogue id="f0a0-99d0-d4e2-c1f3" name="Nehekhara" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+>>>>>>> origin/main
   <profileTypes>
     <profileType id="6649-0126-38ec-4e3b" name="Gran papiro">
       <characteristicTypes>
@@ -6805,6 +6809,7 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="580d-98e9-ff27-9e3d" type="max"/>
               </constraints>
+<<<<<<< HEAD
               <selectionEntryGroups>
                 <selectionEntryGroup id="a05b-5c4b-1c3c-c1e7" name="Estandarte mágico" hidden="false" collective="false" import="true">
                   <constraints>
@@ -6818,6 +6823,8 @@ Saber de Nehekhara “Encantamiento del viento desértico de Khsar” como un ob
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+=======
+>>>>>>> origin/main
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>

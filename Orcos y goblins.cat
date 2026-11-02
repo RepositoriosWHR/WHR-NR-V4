@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< HEAD
 <catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="17" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+=======
+<catalogue id="503a-36a3-b407-46fb" name="Orcos y goblins " revision="16" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+>>>>>>> origin/main
   <selectionEntries>
     <selectionEntry id="d9e4-9c78-810c-d2fd" name="Goblins" hidden="false" collective="false" import="true" type="unit">
       <modifiers>

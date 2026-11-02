@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< HEAD
 <catalogue id="0e00-0d9a-c79e-fcfa" name="Nippón" revision="10" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+=======
+<catalogue id="0e00-0d9a-c79e-fcfa" name="Nippón" revision="9" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+>>>>>>> origin/main
   <profileTypes>
     <profileType id="9d65-8d22-8710-8cea" name="Trasfondo ronin">
       <characteristicTypes>
@@ -6695,11 +6699,6 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="c087-8b81-ab6c-6089" value="3.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3673-aaa8-d1d9-e6c2" type="equalTo"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c087-8b81-ab6c-6089" type="max"/>
@@ -6851,6 +6850,7 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
       </costs>
     </selectionEntry>
     <selectionEntry id="1d7f-333f-574e-97f8" name="Kitsune" hidden="false" collective="false" import="true" type="unit">
+<<<<<<< HEAD
       <modifiers>
         <modifier type="set" field="71eb-e0ca-7d4f-99f9" value="3.0">
           <conditions>
@@ -6863,6 +6863,8 @@ Cualquier unidad a la que se una el Santuario (ver a continuación) también obt
           </conditions>
         </modifier>
       </modifiers>
+=======
+>>>>>>> origin/main
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71eb-e0ca-7d4f-99f9" type="max"/>
       </constraints>
