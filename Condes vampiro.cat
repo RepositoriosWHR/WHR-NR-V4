@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="19" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d8b4-dbbc-5155-1269" name="Condes vampiro" revision="19" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="6daf-483a-4d59-83db" name="Poder vampírico">
       <characteristicTypes>
@@ -3712,7 +3712,7 @@ hechicero de nivel 3 por +50 puntos. Puede elegir sus hechizos de uno (y solo un
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb3c-879a-72f7-2f20" type="max"/>
                       </constraints>
                       <rules>
-                        <rule id="b09d-6ad2-dd83-7e4d" name="Poderes vampiricos deLeyenda" hidden="false">
+                        <rule id="b09d-6ad2-dd83-7e4d" name="Poderes vampiricos de Leyenda" hidden="false">
                           <description>Un personaje que porte un Poder mayor y una Reliquia, o dos Poderes mayores, obtiene la regla especial Leyenda. </description>
                         </rule>
                       </rules>

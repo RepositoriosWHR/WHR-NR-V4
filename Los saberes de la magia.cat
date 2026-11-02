@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="11" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="12" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bff8-8e34-eb37-f67a" name="Saber del Fuego" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -922,6 +922,58 @@
           </constraints>
           <infoLinks>
             <infoLink id="540a-7abb-750c-666b" name="Zampamagia" hidden="false" targetId="b3d8-3de2-9184-ec2e" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2649-ae7f-8ec1-2ebc" name="Plantilla" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf29-8c84-277e-bffd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="53c8-8ca3-5efa-611e" name="Plantilla Saber" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="1696-9582-6948-e110" name="Mostrar hechizos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe32-81a6-ac32-d379" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1e18-188b-3fdf-b24b" name="Alta magia" hidden="false" targetId="18c4-6e80-335b-82a6" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad2a-bb7e-2d87-8651" name="Plegarias del Templo de la Sangre" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9025-9396-6785-acea" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="17d5-7e3e-9469-9f80" name="Plegarias del Templo de la Sangre" hidden="false" typeId="5ba1-6dad-0643-56fd" typeName="Saber"/>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry id="0504-077c-747a-09d9" name="Mostrar hechizos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0201-a661-cbe3-1ace" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1280-3f15-4c86-7067" name="Plegarias del Templo de la Sangre" hidden="false" targetId="5fce-51ec-73dc-2c6b" type="infoGroup"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4196,6 +4248,56 @@ luchar en combate cuerpo a cuerpo, ésta deberá realizar un chequeo de Fuerza (
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
             <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Se trata de un hechizo de daño directo con un alcance de 24”. Coloca la plantilla redonda pequeña dentro del alcance y tira el dado de dispersión: si obtienes un resultado de punto de mira, la plantilla permanece donde está; si obtienes un resultado de flecha, desvía la plantilla en la dirección indicada 2D6” menos el nivel de magia del lanzador. Cualquier miniatura bajo la plantilla (utiliza las reglas habituales de impactos parciales) sufrirá un impacto de F6 con la regla especial heridas múltiples (1D3). Puedes potenciar este hechizo para que utilice la plantilla redonda grande, en cuyo caso la dificultad será de 23+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="5fce-51ec-73dc-2c6b" name="Plegarias del Templo de la Sangre" hidden="false">
+      <profiles>
+        <profile id="e630-c977-5860-daf5" name="Furia sangrienta" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación	</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Potenciación. Puede lanzarse sobre una unidad amiga a 12” o menos de la Sacerdotisa, y permanece un turno. Por la duración del conjuro la unidad obtiene la regla especial Furia asesina.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6b8b-7d43-18f8-922c" name="Velocidad del áspid" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación	</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Potenciación. Puede lanzarse sobre una unidad amiga a 12” o menos de la Sacerdotisa, y permanece un turno. Por la duración del conjuro la unidad obtiene la regla especial Esquivar (6+), o mejora la Esquiva de la unidad en +1 (hasta un máximo de 3+, o de 4+ si se trata de miniaturas con potencia de unidad 5+). No puede lanzarse sobre unidades de
+Caballería, Máquina de guerra o Carros.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ef80-d050-80b6-2e22" name="Llamada de la sangre" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Potenciación. Puede lanzarse sobre una unidad amiga con la regla especial No muertos a 12” o menos de la Sacerdotisa. La unidad restaura inmediatamente un dado de invocación.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c636-8846-54ab-1119" name="Ennegrecer el cielo" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Potenciación</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Potenciación. Puede lanzarse sobre una unidad amiga de Arqueros esqueleto, Arqueros a caballo, Doncellas lahmia, Lanzavirotes de hueso, Ushabtis, Carros de guerra, Esfinge de guerra, Coloso necrolítico, Trono del aquelarre o cualquier personaje Vampiro (Lahmia) a 12” o menos de la Sacerdotisa, y permanece un turno. Por la duración del conjuro la unidad obtiene la regla especial Disparos múltiples (2) con sus armas de proyectiles (o aumenta en +1 sus disparos múltiples si ya disponían de dicha regla especial).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fa8f-4a55-7481-7ee1" name="Hervir la sangre" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">
+          <characteristics>
+            <characteristic name="Tipo" typeId="3b39-64e9-beb6-7abc">Maldición</characteristic>
+            <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
+            <characteristic name="Rango" typeId="544c-fa75-b146-79c4">24&quot;</characteristic>
+            <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">-</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Maldición. Puede lanzarse sobre una unidad enemiga a 24” o menos de la Sacerdotisa. La unidad sufre inmediatamente 1D6+1 impactos que siempre hieren con un resultado de 4+ y no permiten tirada de salvación por armadura. Cualquier unidad que sufra al menos una baja debido a estos impactos deberá realizar inmediatamente un chequeo de Pánico.</characteristic>
           </characteristics>
         </profile>
       </profiles>

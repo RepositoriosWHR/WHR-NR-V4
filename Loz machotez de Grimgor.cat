@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2564-b57a-fd78-2406" name="Loz machotez de Grimgor" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2564-b57a-fd78-2406" name="Loz machotez de Grimgor" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f006-aba6-cc4c-877a" name="Orcos negros" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2154,7 +2154,7 @@
       </constraints>
       <rules>
         <rule id="e134-26d0-8f93-7668" name="Potencia de unidad 4" hidden="false"/>
-        <rule id="17f4-5e78-2dfb-7089" name="Salvación por armadura 4+" hidden="false"/>
+        <rule id="17f4-5e78-2dfb-7089" name="Salvación por armadura 3+" hidden="false"/>
       </rules>
       <infoLinks>
         <infoLink id="ec09-ceaf-2b0d-3ae1" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
@@ -2164,6 +2164,7 @@
             <modifier type="append" field="name" value="(Jabalíes)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="37df-6af2-38cd-3fce" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c0af-16b9-87a7-d6a5" name="Unidades Especiales" hidden="false" targetId="5370656369616c23232344415441232323" primary="true"/>
@@ -2230,7 +2231,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da1c-7c0e-c2f0-29d9" type="min"/>
           </constraints>
           <profiles>
-            <profile id="bddd-fac3-c2a2-1f0c" name="Orco (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="bddd-fac3-c2a2-1f0c" name="Orco Negro (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <modifiers>
                 <modifier type="set" field="name" value="Orco (3)">
                   <conditions>
@@ -2240,14 +2241,14 @@
               </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
-                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">-</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">-</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
@@ -2340,6 +2341,7 @@
             <entryLink id="6123-79c0-2168-d4fd" name="Clave: Orcos" hidden="false" collective="false" import="true" targetId="7ede-4932-85b1-57f2" type="selectionEntry"/>
             <entryLink id="b264-580e-7ec0-3cb1" name="Clave: Pielesverdes" hidden="false" collective="false" import="true" targetId="4465-4d4a-8a56-acc4" type="selectionEntry"/>
             <entryLink id="e994-fe3b-075b-8a59" name="Clave: Orcos y Goblins" hidden="false" collective="false" import="true" targetId="5d93-5e3c-9997-862e" type="selectionEntry"/>
+            <entryLink id="e042-e091-981f-4c5b" name="Clave: Orcos negros" hidden="false" collective="false" import="true" targetId="dbcf-08dc-4d17-ed43" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -2350,12 +2352,12 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="b2a4-63df-c523-9394" name="Opciones" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="7cd3-716e-23c3-f85b" name="Orco adicional" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7cd3-716e-23c3-f85b" name="Orco Negro adicional" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7170-32fe-38f3-35f9" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -3851,7 +3853,7 @@ D6 	Resultado (Agarrar y...)
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
-                    <condition field="selections" scope="ce2c-83fe-2271-b500" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8295-ecd1-b954-08c6" type="equalTo"/>
+                    <condition field="selections" scope="ce2c-83fe-2271-b500" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8295-ecd1-b954-08c6" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
@@ -4041,12 +4043,12 @@ D6 	Resultado (Agarrar y...)
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ddf-2dea-1627-e062" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cd6d-7f08-1465-aab7" name="Karro de jabalíes" hidden="false" collective="false" import="true" targetId="8295-ecd1-b954-08c6" type="selectionEntry">
+            <entryLink id="cd6d-7f08-1465-aab7" name="Karro de jabalíes pezado" hidden="false" collective="false" import="true" targetId="8295-ecd1-b954-08c6" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc8-6420-aaa4-630b" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="65.0"/>
+                <cost name="pts" typeId="points" value="80.0"/>
               </costs>
             </entryLink>
             <entryLink id="692a-25c0-f0ba-6187" name="Serpiente alada" hidden="false" collective="false" import="true" targetId="7a66-5b72-639d-c770" type="selectionEntry">
@@ -4255,6 +4257,13 @@ D6 	Resultado (Agarrar y...)
           </constraints>
           <profiles>
             <profile id="8053-0518-071e-554f" name="Kaudillo orco negro" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="3">
+                  <conditions>
+                    <condition field="selections" scope="8ba7-e2e2-4be1-d97f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b07c-cec7-6dee-2643" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">7</characteristic>
@@ -4492,6 +4501,20 @@ D6 	Resultado (Agarrar y...)
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b07c-cec7-6dee-2643" name="Montura" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c62-b499-c91d-cba5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f84c-de57-afe3-9c20" name="Karro de jabalíes pezado" hidden="false" collective="false" import="true" targetId="8295-ecd1-b954-08c6" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="80.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
@@ -4630,7 +4653,7 @@ D6 	Resultado (Agarrar y...)
                     <condition field="selections" scope="b5cd-1fc0-5f70-3749" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="298d-dce1-abfb-edc1" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="2">
                   <conditions>
                     <condition field="selections" scope="b5cd-1fc0-5f70-3749" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8295-ecd1-b954-08c6" type="equalTo"/>
                   </conditions>
@@ -4886,12 +4909,12 @@ D6 	Resultado (Agarrar y...)
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a22a-a2c0-7ea5-d625" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b209-500b-6136-65b2" name="Karro de jabalíes" hidden="false" collective="false" import="true" targetId="8295-ecd1-b954-08c6" type="selectionEntry">
+            <entryLink id="b209-500b-6136-65b2" name="Karro de jabalíes pezado" hidden="false" collective="false" import="true" targetId="8295-ecd1-b954-08c6" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365f-ae70-eb59-2322" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="80.0"/>
+                <cost name="pts" typeId="points" value="90.0"/>
               </costs>
             </entryLink>
             <entryLink id="9b91-ec53-4567-2005" name="Jabalí de guerra" hidden="false" collective="false" import="true" targetId="c568-af85-0130-e2b7" type="selectionEntry">
@@ -5059,6 +5082,13 @@ D6 	Resultado (Agarrar y...)
           </constraints>
           <profiles>
             <profile id="5ecc-1817-af2d-625c" name="Gran jefe orco negro" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="3">
+                  <conditions>
+                    <condition field="selections" scope="960d-a673-a68f-c98f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c733-b0a7-1366-06fb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">6</characteristic>
@@ -5275,6 +5305,20 @@ D6 	Resultado (Agarrar y...)
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c733-b0a7-1366-06fb" name="Montura" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9b6-7ee9-e43d-4978" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="df8e-9641-7e1c-44f9" name="Karro de jabalíes pezado" hidden="false" collective="false" import="true" targetId="8295-ecd1-b954-08c6" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="90.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
@@ -5379,7 +5423,7 @@ D6 	Resultado (Agarrar y...)
               <modifiers>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                   <conditions>
-                    <condition field="selections" scope="580e-4c53-fdf5-edf9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8295-ecd1-b954-08c6" type="equalTo"/>
+                    <condition field="selections" scope="580e-4c53-fdf5-edf9" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8295-ecd1-b954-08c6" type="equalTo"/>
                   </conditions>
                 </modifier>
                 <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
@@ -5604,12 +5648,12 @@ D6 	Resultado (Agarrar y...)
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d80a-9d21-5412-6e9f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="aed3-180c-01a3-6fc6" name="Karro de jabalíes" hidden="false" collective="false" import="true" targetId="8295-ecd1-b954-08c6" type="selectionEntry">
+            <entryLink id="aed3-180c-01a3-6fc6" name="Karro de jabalíes pezado" hidden="false" collective="false" import="true" targetId="8295-ecd1-b954-08c6" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd42-44f8-f5ac-93ef" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="80.0"/>
+                <cost name="pts" typeId="points" value="90.0"/>
               </costs>
             </entryLink>
             <entryLink id="9fc8-0e33-d5a8-cff7" name="Jabalí de guerra" hidden="false" collective="false" import="true" targetId="c568-af85-0130-e2b7" type="selectionEntry">
@@ -6251,7 +6295,7 @@ D6 	Resultado (Agarrar y...)
               <profiles>
                 <profile id="aa66-61be-82e9-5c0e" name="Hacha de perdizión de Arlad" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
                   <characteristics>
-                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Rebanadora. Los ataques con este arma se resuelven con un bonificador de +1 Fuerza. Además, permite a Borgut repetir sus tiradas de salvación por armadura fallidas. Ten en cuenta que Borgut usa el Hacha junto con una Rebanadora.</characteristic>
+                    <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Rebanadora. Los ataques con este arma se resuelven con un bonificador de +1 Fuerza. Además, permite a Borgut repetir sus tiradas de salvación por armadura fallidas. Ten en cuenta que Borgut usa el Hacha junto con una Rebanadora adicional.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6431,7 +6475,7 @@ D6 	Resultado (Agarrar y...)
       </constraints>
       <rules>
         <rule id="0603-5932-bd7e-0e2e" name="Inmóvil" hidden="false">
-          <description>Un Kareto de Gorko no puede mover nunca, bajo ninguna circunstancia, ni puede verse forzado a mover: una vez se despliega, permanece en esa posición toda la batalla. Un Kareto de Gorko nunca puede entrar como Refuerzos, ni siquiera aunque el escenario lo especifique: siempre debe desplegarse al inicio de la batalla. En caso de ir sobre una Plataforma colosal tendrá Potencia de unidad 16, tirada de salvación por armadura de 4+, contará con dos Heridas adicionales en su perfil (para un total de 8H) y podrá mover como un carro con las reglas habituales, con la excepción de que no es Veloz y que cuenta con la regla especial Impactos por carga (2D6, +2 si tiene cuchillas en las ruedas).</description>
+          <description>El Kareto de Gorko es Indesmoralizable y no puede mover nunca, bajo ninguna circunstancia, ni puede verse forzado a mover: una vez se despliega, permanece en esa posición toda la batalla salvo que se vea forzado a comenzar la partida en Refuerzos, en cuyo caso podrá mover hasta 6” en el turno en el que entre al campo de batalla. En caso de ir sobre una  plataforma colosal tendrá Potencia de unidad 16, tirada de salvación por armadura de 4+, contará con dos Heridas adicionales en su perfil (para un total de 8H) y podrá mover como un carro con las reglas habituales, con la excepción de que no es Veloz y que cuenta con la regla especial Impactos por carga (2D6, +2 si tiene cuchillas en las ruedas).</description>
         </rule>
         <rule id="1b9e-7500-2a34-5aae" name="Protección del Waaagh" hidden="false">
           <description>El Kareto de Gorko tiene una tirada de salvación especial de 4+, y la regla especial Resistencia mágica (3). Chamanes consagrados: El Kareto está siempre custodiado por tres chamanes orcos, concentrados en conjurar el poder del Waaaagh! La dotación del Kareto consta de tres chamanes orcos (por lo que la “máquina de guerra” totaliza 6 heridas). Sin embargo, no se consideran personajes, y no tienen nivel de magia ni pueden lanzar hechizos con normalidad. Sin embargo, una vez por fase de magia, el Kareto puede lanzar un hechizo como un objeto
@@ -8113,7 +8157,7 @@ Waaagh con un nivel de energía 7. Además, no necesita utilizar un dado de ener
       </constraints>
       <rules>
         <rule id="a99e-6c19-6076-844b" name="Kaztañazo Azezino" hidden="false">
-          <description>Siempre que Badruk elija combatir con un Arma a dos manos, Badruk podrá elegir sustituir todos sus ataques por un único ataque especial que se resolverá con +1HA y la regla especial Heridas múltiples (1D3+1).</description>
+          <description>Siempre que Badruk elija combatir con una Rebanadora, Badruk podrá elegir sustituir todos sus ataques por un único ataque especial que se resolverá con +1HA y la regla especial Heridas múltiples (1D3+1).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -9808,19 +9852,17 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="8295-ecd1-b954-08c6" name="Karro de jabalíes" hidden="false" collective="false" import="true" type="unit">
-      <rules>
-        <rule id="4688-6f60-3b6b-a588" name="Potencia de unidad 4" hidden="false"/>
-      </rules>
+    <selectionEntry id="8295-ecd1-b954-08c6" name="Karro de jabalíes pezado" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="e39e-00e8-9bac-2262" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
         <infoLink id="8125-d369-42d1-4bbc" name="Loz mejorez" hidden="false" targetId="2adc-ff6a-d16d-e5e3" type="rule"/>
-        <infoLink id="e01f-7393-a3a3-375d" name="Protección por montura (1)" hidden="false" targetId="1f9d-b34a-3d89-add6" type="rule"/>
+        <infoLink id="e01f-7393-a3a3-375d" name="Protección por montura (2)" hidden="false" targetId="e265-bb6c-2315-231a" type="rule"/>
         <infoLink id="3da4-c615-eddc-36c2" name="Carga devastadora" hidden="false" targetId="dbe6-c910-7f37-aeac" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="(Jabalíes)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="5fc4-b490-780a-c98e" name="Inmune a la psicología" hidden="false" targetId="73ad-8cdb-f1ad-010f" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="1345-b6f6-997c-3c7e" name="Karro de jabalíes" hidden="false" collective="false" import="true" type="upgrade">
@@ -9884,7 +9926,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eaf-194c-00db-3db0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="14ff-9cc1-5f86-fc31" name="Orco" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+            <profile id="14ff-9cc1-5f86-fc31" name="Orco Negro" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <modifiers>
                 <modifier type="set" field="name" value="Orco (2)">
                   <conditions>
@@ -9894,14 +9936,14 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
               </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
-                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">4</characteristic>
                 <characteristic name="R" typeId="5423232344415441232323">-</characteristic>
                 <characteristic name="H" typeId="5723232344415441232323">-</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
-                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
-                <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">8</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
                 <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
                 <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
@@ -9974,7 +10016,7 @@ Sujetar y...: Tira 1D6 y consulta la siguiente tabla para ver cual es el resulta
       <selectionEntryGroups>
         <selectionEntryGroup id="534d-361e-9829-5511" name="Opciones" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="a9e2-b25b-0be5-26a7" name="Orco adicional" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a9e2-b25b-0be5-26a7" name="OrcoNegro  adicional" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ed-359c-6a12-3cd2" type="max"/>
               </constraints>
@@ -10553,7 +10595,7 @@ causó la herida.</characteristic>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5be2-7754-f0a0-98cd" name="Garabatoz Mágikoz" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5be2-7754-f0a0-98cd" name="Garabatoz mágikoz" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="24bc-5880-8639-eb15" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9583-5c77-b94f-05df" type="max"/>
@@ -10934,12 +10976,13 @@ causó la herida.</characteristic>
           <profiles>
             <profile id="07da-9c9f-9624-6747" name="Hacha de loz taponez ozkuroz" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Solo Orcos negros. Rebanadora a dos manos. Al inicio de cada fase de combate, tira 1D6: ese será el número de Ataques adicionales que puede efectuar el portador durante esa fase de combate. Sin embargo, si obtienes un 1, el portador sufre una herida sin tirada de salvación por armadura.</characteristic>
+                <characteristic name="Reglas especiales" typeId="28f4-dde2-505a-99d6">Solo Orcos negros. Rebanadora a dos manos. Otorga a su portador la regla especial Aura demoníaca (4+). Al inicio de cada fase de combate, tira 1D6: ese será el número de Ataques adicionales que puede efectuar el portador durante esa fase de combate. Sin embargo, si obtienes un 1, el portador sufre una herida sin tirada de salvación por armadura.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="f387-3834-2049-b9ea" name="Rebanadora a dos manos" hidden="false" targetId="045b-d3b9-e43a-5ee6" type="profile"/>
+            <infoLink id="6448-4053-3722-37e0" name="Aura demoníaca (4+)" hidden="false" targetId="79f2-17bc-18d1-75e3" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="4be5-dfda-600a-8722" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
@@ -10973,7 +11016,7 @@ causó la herida.</characteristic>
             <infoLink id="0b6e-b91f-af0d-5c6b" name="Yelmo" hidden="false" targetId="9607-7f57-879f-5c42" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -11103,7 +11146,7 @@ causó la herida.</characteristic>
           <profiles>
             <profile id="0aee-3137-d3d7-1729" name="Zetaz de la zuerte" hidden="false" typeId="5d17-3511-0c13-e904" typeName="Objeto hechizado">
               <characteristics>
-                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo hechicero. Antes del despliegue, tira 1D6: Con un resultado de 2+, el chamán contará con una Herida más en su perfil de atributos y la regla especial Regeneración (6+), o aumentará en +1 si ya disponía de esa regla especial. Sin embargo, con un resultado de 1 el chamán sufrirá una herida.</characteristic>
+                <characteristic name="Reglas especiales" typeId="0ef8-5055-c22e-455a">Sólo hechiceros. Antes del despliegue, tira 1D6: Con un resultado de 2+, el chamán contará con una Herida más en su perfil de atributos y la regla especial Regeneración (6+), o aumentará en +1 si ya disponía de esa regla especial. Sin embargo, con un resultado de 1 el chamán sufrirá una herida.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11220,7 +11263,7 @@ Para realizar un chequeo de animosidad, tira 1D6. Si obtienes un resultado de 2 
 6 ¡¡A por elloz!! Gira inmediatamente la unidad para encararla contra la unidad enemiga visible más cercana y efectúa un movimiento completo (no una marcha) en línea recta hacia esta. Si no hay ninguna unidad enemiga a la vista, entonces la unidad tendrá que mover directamente hacia el frente. Si no es posible girar la unidad para encararla con el enemigo visible más cercano, pivota hacia ella tanto como puedas y avanza hacia el frente tanto como sea posible, manteniendo a la unidad enemiga siempre en su arco frontal. En la subfase de cargas, la unidad deberá declarar una carga contra la unidad enemiga, siempre que le sea posible. Si no puede declarar una carga, podrá actuar con normalidad el resto del turno, sin contar como si hubiese movido.</description>
     </rule>
     <rule id="3a86-1e4f-5223-3792" name="Dizziplina" hidden="false">
-      <description>Si el personaje con esta regla especial está al mando de una unidad que falla un chequeo de Animosidad, en vez de aplicar el fallo causa a su unidad 1D6 impactos de Fuerza 5 distribuidos como si fueran disparos y la unidad podrá actuar con normalidad, como si no hubiese fallado su chequeo de Animosidad.</description>
+      <description>Si el personaje con esta regla especial está al mando de una unidad que falla un chequeo de Animosidad, en vez de aplicar el fallo causa a su unidad 1D6 impactos de Fuerza 5 distribuidos como si fueran disparos y la unidad podrá actuar con normalidad, como si no hubiese fallado su chequeo de Animosidad. Las unidades que cuenten con un Jefe orco negro (Oficial) sufrirán 1D3 impactos en lugar de 1D6 como es habitual.</description>
     </rule>
     <rule id="4bc8-99a7-d121-3e13" name="Zin pekeñajoz" hidden="false">
       <description>El ejército de loz Machotez de Grimgor no puede incluir unidades de goblins de ningún tipo, ni aliarse con goblins. El único goblin que puede formar parte del ejército es Larva, el portaestandarte de Ruglud.</description>
