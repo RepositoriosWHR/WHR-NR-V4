@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="16" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="35f6-296f-1bb2-f4a1" name="Mercenarios" revision="18" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="b824-aacc-6637-fa81" name="Renombre">
       <characteristicTypes>
@@ -9935,6 +9935,11 @@
             <selectionEntryGroup id="47ee-dd73-9edf-e34d" name="Armaduras" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a9a-d687-041c-da89">
               <modifiers>
                 <modifier type="set" field="01f1-b0e8-9d5b-fdf0" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="39c0-c8c7-1125-5a32" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2d42-e4a5-9b1e-e25e" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="f18b-abbc-abb3-1fd0" value="0.0">
                   <conditions>
                     <condition field="selections" scope="39c0-c8c7-1125-5a32" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2d42-e4a5-9b1e-e25e" type="equalTo"/>
                   </conditions>
@@ -61058,6 +61063,7 @@ Sanar (Dificultad 5+): Se trata de un hechizo de potenciación que puede lanzars
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="4e3b-6170-fdd1-947a" name="Nivel 1" hidden="false" collective="false" import="true" targetId="6930-ec9b-4df6-24c5" type="selectionEntry"/>
+            <entryLink id="5b08-b4f0-0924-a566" name="Clave: Hechicero" hidden="false" collective="false" import="true" targetId="614d-bf3c-8921-4b1d" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="40.0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="18" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a132-ff2a-7f39-4dc4" name="Bretonia" revision="20" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4d8f-04d7-ddc3-0402" name="Virtudes">
       <characteristicTypes>
@@ -5919,6 +5919,9 @@ Desafío).</description>
           </constraints>
           <entryLinks>
             <entryLink id="971c-433d-d61f-f7ef" name="Caballo de guerra" hidden="false" collective="false" import="true" targetId="9863-e1a2-e945-1eab" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2b3f-2ab4-94f3-a061" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="12.0"/>
               </costs>
@@ -6486,6 +6489,18 @@ Desafío).</description>
           </constraints>
           <profiles>
             <profile id="3afd-92cc-c66a-8d77" name="Bardo" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <modifiers>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2f6-e93b-db65-c7a0" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a12-5b45-455b-6e98" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
@@ -6758,6 +6773,9 @@ Desafío).</description>
           </constraints>
           <entryLinks>
             <entryLink id="c3c7-de12-c557-3963" name="Caballo de guerra" hidden="false" collective="false" import="true" targetId="9863-e1a2-e945-1eab" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="046e-22ae-db43-ab21" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="8.0"/>
               </costs>
@@ -14530,6 +14548,20 @@ esté incluido. Puede utilizarse para restaurar miniaturas retiradas como baja d
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bd7a-3d40-5e02-bab4" name="Claves" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa2-4d0f-a9f6-bd60" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e7d-b06c-a624-4501" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3a94-e6de-0819-fa46" name="Clave: Bretonia" hidden="false" collective="false" import="true" targetId="5adf-f3e7-ca96-8594" type="selectionEntry"/>
+            <entryLink id="f3dc-9266-840e-17a9" name="Clave: Humanos" hidden="false" collective="false" import="true" targetId="074a-f7b8-5b0b-3558" type="selectionEntry"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<<<<<<< HEAD
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="12" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-=======
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="11" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
->>>>>>> origin/main
+<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="13" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bff8-8e34-eb37-f67a" name="Saber del Fuego" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -936,7 +932,6 @@
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-<<<<<<< HEAD
       </costs>
     </selectionEntry>
     <selectionEntry id="2649-ae7f-8ec1-2ebc" name="Plantilla" hidden="false" collective="false" import="true" type="upgrade">
@@ -989,8 +984,6 @@
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-=======
->>>>>>> origin/main
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4276,8 +4269,7 @@ luchar en combate cuerpo a cuerpo, ésta deberá realizar un chequeo de Fuerza (
             <characteristic name="Dificultad" typeId="e3cf-4d57-0b28-a094">-</characteristic>
             <characteristic name="Rango" typeId="544c-fa75-b146-79c4">12&quot;</characteristic>
             <characteristic name="Duración" typeId="bd4f-3a08-5f1c-a7c7">Permanece un turno</characteristic>
-            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Potenciación. Puede lanzarse sobre una unidad amiga a 12” o menos de la Sacerdotisa, y permanece un turno. Por la duración del conjuro la unidad obtiene la regla especial Esquivar (6+), o mejora la Esquiva de la unidad en +1 (hasta un máximo de 3+, o de 4+ si se trata de miniaturas con potencia de unidad 5+). No puede lanzarse sobre unidades de
-Caballería, Máquina de guerra o Carros.</characteristic>
+            <characteristic name="Efecto" typeId="43ea-afef-1216-a118">Potenciación. Puede lanzarse sobre una unidad amiga a 12” o menos de la Sacerdotisa, y permanece un turno. Por la duración del conjuro la unidad obtiene la regla especial Esquivar (6+), o mejora la Esquiva de la unidad en +1 (hasta un máximo de 3+, o de 4+ si se trata de miniaturas con potencia de unidad 5+). No puede lanzarse sobre unidades de Caballería, Máquina de guerra o Carros.</characteristic>
           </characteristics>
         </profile>
         <profile id="ef80-d050-80b6-2e22" name="Llamada de la sangre" hidden="false" typeId="aa67-99ab-2618-c451" typeName="Hechizo">

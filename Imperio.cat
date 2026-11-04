@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="23" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="74c4-5959-85e8-14bd" name="Imperio" revision="25" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="208e-cf58-eefc-06d2" name="Orden de caballería">
       <characteristicTypes>
@@ -2849,7 +2849,8 @@ El Tanque a vapor no puede disparar metralla.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="546e-8ce0-e838-8352" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="76c0-10c4-14fc-068d" name="Ristra de pistolas - Imperio" hidden="false" targetId="5075-821d-1604-bd45" type="profile"/>
+                    <infoLink id="76c0-10c4-14fc-068d" name="Ristra de pistolas (Disparo)" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
+                    <infoLink id="6be4-8925-06fc-167b" name="Ristra de pistolas (Combate)" hidden="false" targetId="254a-7f45-14ed-4756" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -4193,7 +4194,8 @@ El Tanque a vapor no puede disparar metralla.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f83e-8d31-a580-b6c6" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="3203-d919-309b-50f7" name="Ristra de pistolas - Imperio" hidden="false" targetId="5075-821d-1604-bd45" type="profile"/>
+                    <infoLink id="3203-d919-309b-50f7" name="Ristra de pistolas (Combate)" hidden="false" targetId="254a-7f45-14ed-4756" type="profile"/>
+                    <infoLink id="618c-419c-f94b-8ef8" name="Ristra de pistolas (Disparo)" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -7302,7 +7304,8 @@ El Tanque a vapor no puede disparar metralla.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a06-719c-d142-3303" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="4f63-d44d-8527-baf4" name="Ristra de pistolas - Imperio" hidden="false" targetId="5075-821d-1604-bd45" type="profile"/>
+                    <infoLink id="4f63-d44d-8527-baf4" name="Ristra de pistolas (Combate)" hidden="false" targetId="254a-7f45-14ed-4756" type="profile"/>
+                    <infoLink id="e3bb-04b4-acc9-3b41" name="Ristra de pistolas (Disparo)" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10.0"/>
@@ -8454,7 +8457,8 @@ El Tanque a vapor no puede disparar metralla.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d5c-1436-0443-aa6b" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="a39b-3ea5-f110-5e0f" name="Ristra de pistolas - Imperio" hidden="false" targetId="5075-821d-1604-bd45" type="profile"/>
+                    <infoLink id="a39b-3ea5-f110-5e0f" name="Ristra de pistolas (Combate)" hidden="false" targetId="254a-7f45-14ed-4756" type="profile"/>
+                    <infoLink id="06d2-0f75-6cac-24e4" name="Ristra de pistolas (Disparo)" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
                   </infoLinks>
                   <entryLinks>
                     <entryLink id="76ab-eb2c-47c5-b3f2" name="Pistola" hidden="false" collective="false" import="true" targetId="cb52-a681-3aab-a50c" type="selectionEntry"/>
@@ -22646,6 +22650,41 @@ Eterna.</description>
                         <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0e09-3b78-8924-8568" type="equalTo"/>
                       </conditions>
                     </modifier>
+                    <modifier type="increment" field="575323232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ba0-2f6d-c41d-06a4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="4c4423232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b74-ba13-fcd1-683a" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="5323232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c91-f2d4-0734-71ad" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="4c4423232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ba0-2f6d-c41d-06a4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="425323232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ba0-2f6d-c41d-06a4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="5323232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ba0-2f6d-c41d-06a4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="575323232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="9694-5097-b3d6-a480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b74-ba13-fcd1-683a" type="equalTo"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
@@ -23017,7 +23056,7 @@ Eterna.</description>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="35cc-7ecd-c705-b2b9" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ad5-322a-0161-12ef" type="equalTo"/>
+                    <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ad5-322a-0161-12ef" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -23031,7 +23070,7 @@ Eterna.</description>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ad5-322a-0161-12ef" type="equalTo"/>
+                    <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ad5-322a-0161-12ef" type="equalTo"/>
                     <condition field="selections" scope="6823-bf0a-1090-848d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="35cc-7ecd-c705-b2b9" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
@@ -23284,6 +23323,28 @@ Eterna.</description>
               </constraints>
               <profiles>
                 <profile id="9d42-4c64-99f0-e0b0" name="Sargento" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+                  <modifiers>
+                    <modifier type="increment" field="4c4423232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ba0-2f6d-c41d-06a4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="575323232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ba0-2f6d-c41d-06a4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="5323232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ba0-2f6d-c41d-06a4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="425323232344415441232323" value="1">
+                      <conditions>
+                        <condition field="selections" scope="6823-bf0a-1090-848d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ba0-2f6d-c41d-06a4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                     <characteristic name="HA" typeId="575323232344415441232323">3</characteristic>
@@ -33883,7 +33944,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5a05-c2ea-9940-c40e" name="Gran Pricipado de Reikland (Unidad)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5a05-c2ea-9940-c40e" name="Gran Principado de Reikland (Unidad)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="increment" field="d4d8-df89-82cd-46ac" value="1.0">
           <repeats>
@@ -37282,20 +37343,6 @@ Sigmar, la plegaria afecta a todas las unidades amigas a 12” o menos del lanza
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="237d-ae93-339a-3cc2" name="Pistola. Imperio" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
-      <characteristics>
-        <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
-        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Disparo rápido, Combate</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5075-821d-1604-bd45" name="Ristra de pistolas. Imperio" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
-      <characteristics>
-        <characteristic name="Rango" typeId="52616e676523232344415441232323">10&quot;</characteristic>
-        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
-        <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Disparo rápido, Combate, Poder de penetración, Disparos múltiples (2), Ristra.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="2d33-eb0e-cec6-e249" name="Arcabuz de repetición" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
       <characteristics>
         <characteristic name="Rango" typeId="52616e676523232344415441232323">24&quot;</characteristic>
