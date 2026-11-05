@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee14-7e65-a3af-c099" name="Clan Lahmia" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee14-7e65-a3af-c099" name="Clan Lahmia" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9680-f788-862f-a30d" name="Poder vampírico">
       <characteristicTypes>
@@ -14950,6 +14950,11 @@ especial de 4+.</description>
                     <condition field="selections" scope="7f76-d804-ed37-36e6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8719-b0cd-cd24-8b98" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="4">
+                  <conditions>
+                    <condition field="selections" scope="7f76-d804-ed37-36e6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="22e8-6ddc-7cb9-ca6b" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
@@ -15103,6 +15108,21 @@ especial de 4+.</description>
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fa87-c150-35e6-05d6" name="Gran brasero de Aqshy (Saber del Fuego)" hidden="false" collective="false" import="true" targetId="22e8-6ddc-7cb9-ca6b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="7f76-d804-ed37-36e6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bff8-8e34-eb37-f67a" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94e8-4375-e1ef-32e7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="210.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -28666,6 +28686,161 @@ especial de 4+.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d796-aa2d-9041-dd8c" type="max"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="22e8-6ddc-7cb9-ca6b" name="Gran brasero de Aqshy (Saber del Fuego)" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4cac-c43d-fc3b-6a99" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="df84-04bb-f765-479b" name="Magia Gran brasero de Aqshy" hidden="false">
+          <description>El Gran Brasero tiene la regla especial Resistencia Mágica (1); además, al inicio de cada fase de magia propia, tras determinar los vientos de la magia, tira 1D6: si obtienes un resultado de 4+, el Gran Brasero genera un dado adicional de energía esa fase.</description>
+        </rule>
+        <rule id="8f3a-d8e0-8c07-f68b" name="Potencia de unidad 6" hidden="false"/>
+        <rule id="a6b6-67ab-8bea-67b5" name="Ataques flamígeros (todos)" hidden="false"/>
+        <rule id="4a2f-40f8-0d5a-7ed6" name="Corceles mecánicos" hidden="false">
+          <description>Cada Corcel mecánico aumenta en 1 los impactos por carga del Gran brasero de Aqshy (para un total de 1D6+2).</description>
+        </rule>
+        <rule id="af47-834b-2c58-2ac1" name="Impactos por carga (1D6+2)" hidden="false"/>
+        <rule id="04bd-a9b7-f463-ef65" name="Foco de Aqshy" hidden="false">
+          <description>Todos los hechiceros amigos a 12” o menos del Gran brasero de Aqshy obtienen un bonificador de +1D3 a su tirada de lanzamiento de hechizos del Saber del Fuego. Además, al inicio de cada fase de combate cuerpo a cuerpo, todas las miniaturas enemigas en contacto peana con peana con el Gran brasero de Aqshy sufren un impacto automático de Fuerza 4 con la regla especial Ataques sólo flamígeros. Adicionalmente, el Gran Brasero de Aqshy puede Canalizar dados de Energía y Dispersión como si fuera un hechicero.</description>
+        </rule>
+        <rule id="4ddb-22a0-a831-5797" name="Beso del fuego" hidden="false">
+          <description>Al inicio de cada una de tus fases de magia elige una unidad amiga a 12” o menos del Gran brasero de Aqshy. Hasta el inicio de tu siguiente fase de magia, esa unidad obtiene las reglas especiales Ataques flamígeros e Inmune a fuego, así como un bonificador de +1 en sus tiradas para herir.</description>
+        </rule>
+        <rule id="3f54-8905-3446-9912" name="Gran brasero" hidden="false">
+          <description>Objeto portahechizos de nivel de energía 2D3. Se trata de un hechizo de Daño directo: coloca la plantilla redonda grande a 24” o menos del Gran brasero de Aqshy y tira el dado de dispersión: si obtienes un resultado de punto de mira deja la plantilla donde está y si obtienes un resultado de flecha desvía la plantilla 1D6-1” en la dirección indicada. Lasminiaturas impactadas por la plantilla sufren un impacto de Fuerza 4 con la regla especial Ataques sólo flamígeros. Cualquier unidad que sufra al menos una baja a causa de este hechizo deberá efectuar inmediatamente un chequeo de Pánico.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="af39-1304-9827-009f" name="Carro" hidden="false" targetId="c761-ad12-6530-fab7" type="rule"/>
+        <infoLink id="56be-dfa8-1968-a747" name="Resistencia mágica (1)" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
+        <infoLink id="1ea1-464b-98fb-e742" name="Inmune al fuego" hidden="false" targetId="c50e-4c88-061d-12b9" type="rule"/>
+        <infoLink id="8cd0-089f-efb2-f8f5" name="Ataques mágicos" hidden="false" targetId="7cc5-d3fc-a37a-3d4a" type="rule"/>
+        <infoLink id="f71e-58aa-a75d-c178" name="Ataques flamígeros" hidden="false" targetId="6985-722e-1ce4-b838" type="rule"/>
+        <infoLink id="1a4f-7377-2c4c-e586" name="Protección por montura (2)" hidden="false" targetId="e265-bb6c-2315-231a" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="9213-3252-f41b-a124" name="Equipo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54cc-5d8e-6bb2-3681" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e045-d6d2-750b-4134" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c27e-5c98-1644-2710" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de37-d6b7-cc71-c8b2" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d69-d2d6-e6a3-8aa1" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bfa0-41f5-ddd9-a842" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e654-33cd-de77-543f" name="Gran brasero de Aqshy" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="813a-6c08-8c9f-92ae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f6b-567e-6f77-987b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8b4a-4cf1-ada1-3587" name="Gran brasero de Aqshy" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">-</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">5</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="357a-f05d-bfce-cbe9" name="Tripulación" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3290-cc68-2ad1-42f8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9626-ba86-fa41-7089" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3083-ceea-b4a5-924d" name="Acólito (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">2</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">-</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">-</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">1</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">3</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="309f-b0fd-8b93-9cbb" name="Tirado por" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f0c-6e87-229c-98db" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6594-51f3-0829-c670" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9f1f-638c-d155-4134" name="Corcel mecánico (2)" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">8</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">2</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">0</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">5</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">1</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">1</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
+                <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
+                <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
