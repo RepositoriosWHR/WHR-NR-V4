@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee14-7e65-a3af-c099" name="Clan Lahmia" revision="2" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee14-7e65-a3af-c099" name="Clan Lahmia" revision="3" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="9680-f788-862f-a30d" name="Poder vampírico">
       <characteristicTypes>
@@ -2701,13 +2701,6 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
               </costs>
             </entryLink>
             <entryLink id="2452-74ee-7db5-2a37" name="Trono del aquelarre" hidden="false" collective="false" import="true" targetId="34bd-104a-8985-1ae7" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="054a-8b5f-bf5f-fdee" type="max"/>
               </constraints>
@@ -4466,13 +4459,6 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
               </costs>
             </entryLink>
             <entryLink id="3f5a-cd1c-6ad6-000a" name="Trono del aquelarre" hidden="false" collective="false" import="true" targetId="34bd-104a-8985-1ae7" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7c9-be80-08a2-aff3" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee85-6679-39cb-5231" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4917-d72a-44e6-3c26" type="max"/>
