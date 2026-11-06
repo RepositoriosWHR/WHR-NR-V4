@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="53" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="50" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -12,17 +12,17 @@
     <profileType id="4d6f64656c23232344415441232323" name="Modelo">
       <characteristicTypes>
         <characteristicType id="4d23232344415441232323" name="M"/>
-        <characteristicType id="5.753232323444154e+23" name="HA"/>
-        <characteristicType id="4.2532323234441546e+23" name="HP"/>
-        <characteristicType id="5.323232344415441e+21" name="F"/>
-        <characteristicType id="5.423232344415441e+21" name="R"/>
-        <characteristicType id="5.723232344415441e+21" name="H"/>
-        <characteristicType id="4.923232344415441e+21" name="I"/>
-        <characteristicType id="4.123232344415441e+21" name="A"/>
+        <characteristicType id="575323232344415441232323" name="HA"/>
+        <characteristicType id="425323232344415441232323" name="HP"/>
+        <characteristicType id="5323232344415441232323" name="F"/>
+        <characteristicType id="5423232344415441232323" name="R"/>
+        <characteristicType id="5723232344415441232323" name="H"/>
+        <characteristicType id="4923232344415441232323" name="I"/>
+        <characteristicType id="4123232344415441232323" name="A"/>
         <characteristicType id="4c4423232344415441232323" name="L"/>
         <characteristicType id="41726d6f75725361766523232344415441232323" name="TSA"/>
-        <characteristicType id="5.761726453617665e+35" name="TSE"/>
-        <characteristicType id="5.479706523232345e+27" name="Tipo"/>
+        <characteristicType id="576172645361766523232344415441232323" name="TSE"/>
+        <characteristicType id="5479706523232344415441232323" name="Tipo"/>
       </characteristicTypes>
     </profileType>
     <profileType id="576561706f6e23232344415441232323" name="Arma">
@@ -99,7 +99,7 @@
     <categoryEntry id="4865726f657323232344415441232323" name="Héroes" hidden="false"/>
     <categoryEntry id="436f726523232344415441232323" name="Unidades básicas" hidden="false"/>
     <categoryEntry id="5370656369616c23232344415441232323" name="Unidades especiales" hidden="false"/>
-    <categoryEntry id="5.261726523232345e+27" name="Unidades singulares" hidden="false"/>
+    <categoryEntry id="5261726523232344415441232323" name="Unidades singulares" hidden="false"/>
     <categoryEntry id="adc7-d622-704f-a087" name="Tamaño ejército" hidden="false"/>
     <categoryEntry id="e839-bd6b-7e36-e758" name="Personajes" hidden="false"/>
     <categoryEntry id="f277-3fe2-22c5-0650" name="Portaestandarte de batalla" hidden="false"/>
@@ -115,7 +115,7 @@
       <categoryLinks>
         <categoryLink id="5374616e6461726423232344415441232323-4c6f72647323232344415441232323" name="Comandantes" hidden="false" targetId="4c6f72647323232344415441232323" primary="false">
           <modifiers>
-            <modifier type="set" field="maxPercentage" value="30">
+            <modifier type="set" field="maxPercentage" value="30.0">
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
               </conditions>
@@ -125,7 +125,7 @@
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2a0-ff97-4c0c-c6c5" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="maxPercentage" value="20">
+            <modifier type="set" field="maxPercentage" value="20.0">
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d0b-60b1-02c5-b914" type="instanceOf"/>
               </conditions>
@@ -137,7 +137,7 @@
         </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-4865726f657323232344415441232323" name="Héroes" hidden="false" targetId="4865726f657323232344415441232323" primary="false">
           <modifiers>
-            <modifier type="set" field="maxPercentage" value="50">
+            <modifier type="set" field="maxPercentage" value="50.0">
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bff-f57e-cbdd-cdbc" type="instanceOf"/>
               </conditions>
@@ -154,7 +154,7 @@
         </categoryLink>
         <categoryLink id="5374616e6461726423232344415441232323-436f726523232344415441232323" name="Unidades básicas" hidden="false" targetId="436f726523232344415441232323" primary="false">
           <modifiers>
-            <modifier type="increment" field="b523-688b-1242-a9b7" value="1">
+            <modifier type="increment" field="b523-688b-1242-a9b7" value="1.0">
               <repeats>
                 <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
@@ -175,9 +175,9 @@
             <constraint field="limit::points" scope="roster" value="50.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="maxPercentage" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="5374616e6461726423232344415441232323-5261726523232344415441232323" name="Unidades singulares" hidden="false" targetId="5.261726523232345e+27" primary="false">
+        <categoryLink id="5374616e6461726423232344415441232323-5261726523232344415441232323" name="Unidades singulares" hidden="false" targetId="5261726523232344415441232323" primary="false">
           <modifiers>
-            <modifier type="set" field="maxPercentage" value="35">
+            <modifier type="set" field="maxPercentage" value="35.0">
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2a0-ff97-4c0c-c6c5" type="instanceOf"/>
               </conditions>
@@ -189,12 +189,12 @@
         </categoryLink>
         <categoryLink id="fbd7-0bbd-5dbc-8eb6" name="Personajes" hidden="false" targetId="e839-bd6b-7e36-e758" primary="false">
           <modifiers>
-            <modifier type="set" field="448d-4a70-f042-8562" value="100">
+            <modifier type="set" field="448d-4a70-f042-8562" value="100.0">
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b6bc-5ac6-8851-e26e" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="0ab5-6383-dd78-ff2b" value="100">
+            <modifier type="set" field="0ab5-6383-dd78-ff2b" value="100.0">
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b6bc-5ac6-8851-e26e" type="instanceOf"/>
               </conditions>
@@ -207,7 +207,7 @@
         </categoryLink>
         <categoryLink id="8959-27ee-bbd0-0965" name="Bestia del cieno" hidden="false" targetId="6645-bf03-34e3-e081" primary="false">
           <modifiers>
-            <modifier type="increment" field="5385-d51f-e855-7fb6" value="1">
+            <modifier type="increment" field="5385-d51f-e855-7fb6" value="1.0">
               <repeats>
                 <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
               </repeats>
@@ -219,7 +219,7 @@
         </categoryLink>
         <categoryLink id="3dbf-c7a7-c46a-c734" name="Portaestandarte de batalla" hidden="false" targetId="f277-3fe2-22c5-0650" primary="false">
           <modifiers>
-            <modifier type="set" field="d6fe-b51b-cc30-b0fa" value="0">
+            <modifier type="set" field="d6fe-b51b-cc30-b0fa" value="0.0">
               <conditions>
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a132-ff2a-7f39-4dc4" type="notInstanceOf"/>
               </conditions>
@@ -232,27 +232,27 @@
         </categoryLink>
         <categoryLink id="1589-befc-c268-d174" name="Huestes de Apoyo" hidden="false" targetId="8243-422f-87a4-f048" primary="false">
           <modifiers>
-            <modifier type="increment" field="2e53-15da-044f-3cbf" value="8">
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="8.0">
               <conditions>
                 <condition field="limit::points" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
               </conditions>
             </modifier>
-            <modifier type="increment" field="2e53-15da-044f-3cbf" value="25">
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="25.0">
               <conditions>
                 <condition field="limit::points" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
               </conditions>
             </modifier>
-            <modifier type="increment" field="2e53-15da-044f-3cbf" value="7">
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="7.0">
               <conditions>
                 <condition field="limit::points" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
               </conditions>
             </modifier>
-            <modifier type="increment" field="2e53-15da-044f-3cbf" value="10">
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="10.0">
               <conditions>
                 <condition field="limit::points" scope="roster" value="4999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
               </conditions>
             </modifier>
-            <modifier type="increment" field="2e53-15da-044f-3cbf" value="25">
+            <modifier type="increment" field="2e53-15da-044f-3cbf" value="25.0">
               <conditions>
                 <condition field="limit::points" scope="roster" value="9999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
               </conditions>
@@ -264,7 +264,7 @@
         </categoryLink>
         <categoryLink id="d063-a9f4-bd24-5f0a" name="Dragones" hidden="false" targetId="eaf4-2780-219b-851f" primary="false">
           <modifiers>
-            <modifier type="increment" field="67c9-d818-4992-0369" value="1">
+            <modifier type="increment" field="67c9-d818-4992-0369" value="1.0">
               <repeats>
                 <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
@@ -284,7 +284,7 @@
                 <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f2a0-ff97-4c0c-c6c5" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="3245-e99f-e0dc-8306" value="2">
+            <modifier type="set" field="3245-e99f-e0dc-8306" value="2.0">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="170b-06ad-215f-f891" type="equalTo"/>
               </conditions>
@@ -519,7 +519,7 @@
               <selectionEntries>
                 <selectionEntry id="5dae-a9a6-6278-eebf" name="Reliquias" hidden="false" collective="false" import="true" type="upgrade">
                   <modifiers>
-                    <modifier type="increment" field="c348-4750-d073-bad7" value="1">
+                    <modifier type="increment" field="c348-4750-d073-bad7" value="1.0">
                       <repeats>
                         <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a485-24d0-42b1-23c7" repeats="1" roundUp="false"/>
                       </repeats>
@@ -538,52 +538,52 @@
               <entryLinks>
                 <entryLink id="a269-a040-3caf-d9bc" name="Niveles de magia" hidden="false" collective="false" import="true" targetId="3366-d461-9db9-35c3" type="selectionEntry">
                   <modifiers>
-                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="1">
+                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="1.0">
                       <repeats>
                         <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6930-ec9b-4df6-24c5" repeats="1" roundUp="false"/>
                       </repeats>
                     </modifier>
-                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="4">
+                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="4.0">
                       <repeats>
                         <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0f9b-ac0b-5037-59a0" repeats="1" roundUp="false"/>
                       </repeats>
                     </modifier>
-                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="3">
+                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="3.0">
                       <repeats>
                         <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="931c-74bb-cd5a-f6ab" repeats="1" roundUp="false"/>
                       </repeats>
                     </modifier>
-                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="2">
+                    <modifier type="increment" field="3ec2-665d-ef0c-0c5a" value="2.0">
                       <repeats>
                         <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9097-e430-ddd7-df03" repeats="1" roundUp="false"/>
                       </repeats>
                     </modifier>
-                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1">
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
                       <conditions>
                         <condition field="limit::points" scope="roster" value="1499.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1">
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
                       <conditions>
                         <condition field="limit::points" scope="roster" value="2999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1">
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
                       <conditions>
                         <condition field="limit::points" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1">
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
                       <conditions>
                         <condition field="limit::points" scope="roster" value="1999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1">
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
                       <conditions>
                         <condition field="limit::points" scope="roster" value="2499.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
                       </conditions>
                     </modifier>
-                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1">
+                    <modifier type="increment" field="d762-51c2-aec9-f692" value="1.0">
                       <conditions>
                         <condition field="limit::points" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
                       </conditions>
@@ -606,12 +606,12 @@
           <selectionEntries>
             <selectionEntry id="9084-27a8-08ec-b337" name="Reliquias" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="increment" field="df14-90ee-7c1a-55ea" value="1">
+                <modifier type="increment" field="df14-90ee-7c1a-55ea" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a485-24d0-42b1-23c7" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
-                <modifier type="increment" field="8e1e-fb43-d066-20bf" value="1">
+                <modifier type="increment" field="8e1e-fb43-d066-20bf" value="1.0">
                   <repeats>
                     <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a485-24d0-42b1-23c7" repeats="1" roundUp="false"/>
                   </repeats>
@@ -772,7 +772,7 @@ F5 distribuidos como proyectiles. Sustituye la torre por una pila de escombros, 
                   <selectionEntries>
                     <selectionEntry id="8b37-cf80-faea-643d" name="Puerta reforzada" hidden="false" collective="false" import="true" type="upgrade">
                       <modifiers>
-                        <modifier type="increment" field="a867-561a-97b5-fbc1" value="1">
+                        <modifier type="increment" field="a867-561a-97b5-fbc1" value="1.0">
                           <repeats>
                             <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9238-4f0a-4a80-6ca0" repeats="1" roundUp="false"/>
                           </repeats>
@@ -798,7 +798,7 @@ F5 distribuidos como proyectiles. Sustituye la torre por una pila de escombros, 
                     </selectionEntry>
                     <selectionEntry id="30bc-8b24-f5b5-5833" name="Tejadillos" hidden="false" collective="false" import="true" type="upgrade">
                       <modifiers>
-                        <modifier type="increment" field="7e63-e1e5-1ddb-3497" value="1">
+                        <modifier type="increment" field="7e63-e1e5-1ddb-3497" value="1.0">
                           <repeats>
                             <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ac7-cb9f-d4ec-609b" repeats="1" roundUp="false"/>
                             <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2f6-afae-c68d-ae28" repeats="1" roundUp="false"/>
@@ -822,7 +822,7 @@ F5 distribuidos como proyectiles. Sustituye la torre por una pila de escombros, 
                     </selectionEntry>
                     <selectionEntry id="655b-26ce-5bbb-2468" name="Protecciones mágicas" hidden="false" collective="false" import="true" type="upgrade">
                       <modifiers>
-                        <modifier type="increment" field="eb58-1563-f6c5-0f83" value="1">
+                        <modifier type="increment" field="eb58-1563-f6c5-0f83" value="1.0">
                           <repeats>
                             <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ac7-cb9f-d4ec-609b" repeats="1" roundUp="false"/>
                             <repeat field="selections" scope="f217-becd-efde-aa8c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2f6-afae-c68d-ae28" repeats="1" roundUp="false"/>
@@ -961,17 +961,17 @@ F5 distribuidos como proyectiles. Sustituye la torre por una pila de escombros, 
                         <profile id="5d02-8e96-b169-f453" name="Piedra de la Manada" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                           <characteristics>
                             <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                            <characteristic name="HA" typeId="5.753232323444154e+23">0</characteristic>
-                            <characteristic name="HP" typeId="4.2532323234441546e+23">-</characteristic>
-                            <characteristic name="F" typeId="5.323232344415441e+21">-</characteristic>
-                            <characteristic name="R" typeId="5.423232344415441e+21">7</characteristic>
-                            <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                            <characteristic name="I" typeId="4.923232344415441e+21">-</characteristic>
-                            <characteristic name="A" typeId="4.123232344415441e+21">0</characteristic>
+                            <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                            <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                            <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                            <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                            <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                            <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                            <characteristic name="A" typeId="4123232344415441232323">0</characteristic>
                             <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
                             <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                            <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                            <characteristic name="Tipo" typeId="5.479706523232345e+27"/>
+                            <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                            <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1027,17 +1027,17 @@ Del mismo modo, una unidad puede mover desde una sección de muralla o torre al 
                         <profile id="4fb5-ec33-b0bf-3f59" name="Monolito geomántico" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                           <characteristics>
                             <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                            <characteristic name="HA" typeId="5.753232323444154e+23">0</characteristic>
-                            <characteristic name="HP" typeId="4.2532323234441546e+23">-</characteristic>
-                            <characteristic name="F" typeId="5.323232344415441e+21">-</characteristic>
-                            <characteristic name="R" typeId="5.423232344415441e+21">8</characteristic>
-                            <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                            <characteristic name="I" typeId="4.923232344415441e+21">-</characteristic>
-                            <characteristic name="A" typeId="4.123232344415441e+21">0</characteristic>
+                            <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                            <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                            <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                            <characteristic name="R" typeId="5423232344415441232323">8</characteristic>
+                            <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                            <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                            <characteristic name="A" typeId="4123232344415441232323">0</characteristic>
                             <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
                             <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                            <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                            <characteristic name="Tipo" typeId="5.479706523232345e+27"/>
+                            <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                            <characteristic name="Tipo" typeId="5479706523232344415441232323"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1090,7 +1090,7 @@ Del mismo modo, una unidad puede mover desde una sección de muralla o torre al 
                       <profiles>
                         <profile id="1dd2-1eb6-5c20-6ba2" name="Torre de Hechicería" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
                           <characteristics>
-                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una torre puede mejorarse para ser una Torre de Hechicería. La Torre de Hechicería sigue las mismas reglas que las torres.  Los hechiceros que estén en la torre ganarán una bonificación de +1 al canalizar, lanzar y dispersar hechizos.</characteristic>
+                            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Una torre puede mejorarse para ser una Torre de Hechicería. La Torre de Hechicería sigue las mismas reglas que las torres.  Los hechiceros que estén en la torre ganarán una bonificación de +1 al canalizar, lanzar y dispersar hechizos.  </characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1173,17 +1173,17 @@ Del mismo modo, una unidad puede mover desde una sección de muralla o torre al 
                             <profile id="4ced-b995-f378-fbe9" name="Hombres de armas" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                               <characteristics>
                                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                                <characteristic name="HA" typeId="5.753232323444154e+23">-3</characteristic>
-                                <characteristic name="HP" typeId="4.2532323234441546e+23">3</characteristic>
-                                <characteristic name="F" typeId="5.323232344415441e+21">3</characteristic>
-                                <characteristic name="R" typeId="5.423232344415441e+21">3</characteristic>
-                                <characteristic name="H" typeId="5.723232344415441e+21">1 (3)</characteristic>
-                                <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                                <characteristic name="A" typeId="4.123232344415441e+21">1 (3)</characteristic>
+                                <characteristic name="HA" typeId="575323232344415441232323">-3</characteristic>
+                                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                                <characteristic name="F" typeId="5323232344415441232323">3</characteristic>
+                                <characteristic name="R" typeId="5423232344415441232323">3</characteristic>
+                                <characteristic name="H" typeId="5723232344415441232323">1 (3)</characteristic>
+                                <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
+                                <characteristic name="A" typeId="4123232344415441232323">1 (3)</characteristic>
                                 <characteristic name="L" typeId="4c4423232344415441232323">7</characteristic>
                                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">6</characteristic>
-                                <characteristic name="TSE" typeId="5.761726453617665e+35">-</characteristic>
-                                <characteristic name="Tipo" typeId="5.479706523232345e+27">Infantería</characteristic>
+                                <characteristic name="TSE" typeId="576172645361766523232344415441232323">-</characteristic>
+                                <characteristic name="Tipo" typeId="5479706523232344415441232323">Infantería</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -1201,17 +1201,17 @@ Del mismo modo, una unidad puede mover desde una sección de muralla o torre al 
                             <profile id="67cd-8f4f-d166-0027" name="Bombarda de L&apos;Anguille" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                               <characteristics>
                                 <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                                <characteristic name="HA" typeId="5.753232323444154e+23">-</characteristic>
-                                <characteristic name="HP" typeId="4.2532323234441546e+23">-</characteristic>
-                                <characteristic name="F" typeId="5.323232344415441e+21">-</characteristic>
-                                <characteristic name="R" typeId="5.423232344415441e+21">7</characteristic>
-                                <characteristic name="H" typeId="5.723232344415441e+21">-</characteristic>
-                                <characteristic name="I" typeId="4.923232344415441e+21">-</characteristic>
-                                <characteristic name="A" typeId="4.123232344415441e+21">-</characteristic>
+                                <characteristic name="HA" typeId="575323232344415441232323">-</characteristic>
+                                <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                                <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                                <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                                <characteristic name="H" typeId="5723232344415441232323">-</characteristic>
+                                <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                                <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
                                 <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
                                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">-</characteristic>
-                                <characteristic name="TSE" typeId="5.761726453617665e+35">-</characteristic>
-                                <characteristic name="Tipo" typeId="5.479706523232345e+27">Máquina de guerra</characteristic>
+                                <characteristic name="TSE" typeId="576172645361766523232344415441232323">-</characteristic>
+                                <characteristic name="Tipo" typeId="5479706523232344415441232323">Máquina de guerra</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -1341,7 +1341,7 @@ Del mismo modo, una unidad puede mover desde una sección de muralla o torre al 
   <sharedSelectionEntries>
     <selectionEntry id="897e-1149-172a-b469" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="68eb-78d8-3bcf-2153" value="0">
+        <modifier type="set" field="68eb-78d8-3bcf-2153" value="0.0">
           <conditions>
             <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9b5-f798-8a8a-903b" type="equalTo"/>
           </conditions>
@@ -1462,7 +1462,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <infoLink id="f3ee-42fc-488c-b706" name="Leyenda" hidden="false" targetId="d331-afa2-533e-c273" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f444-7f28-5853-4d24" name="Unidades singulares" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="f444-7f28-5853-4d24" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c2e8-c2a6-ec2d-c4c0" name="Encarnación elemental brillante" hidden="false" collective="false" import="true" type="upgrade">
@@ -1474,17 +1474,17 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
             <profile id="2559-abee-9144-8bec" name="Encarnación elemental brillante" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                <characteristic name="HA" typeId="5.753232323444154e+23">4</characteristic>
-                <characteristic name="HP" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="F" typeId="5.323232344415441e+21">6</characteristic>
-                <characteristic name="R" typeId="5.423232344415441e+21">6</characteristic>
-                <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">4</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">5</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                <characteristic name="Tipo" typeId="5.479706523232345e+27">Monstruo</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1571,7 +1571,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <infoLink id="43cd-592e-c083-df42" name="Arma de aliento" hidden="false" targetId="3438-0c27-972c-d418" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b464-25ca-5df9-48c3" name="Unidades singulares" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="b464-25ca-5df9-48c3" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d24b-c0ec-0188-56c1" name="Encarnación elemental celestial" hidden="false" collective="false" import="true" type="upgrade">
@@ -1583,17 +1583,17 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
             <profile id="cd88-691b-7899-f116" name="Encarnación elemental celestial" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">2</characteristic>
-                <characteristic name="HA" typeId="5.753232323444154e+23">4</characteristic>
-                <characteristic name="HP" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="F" typeId="5.323232344415441e+21">6</characteristic>
-                <characteristic name="R" typeId="5.423232344415441e+21">6</characteristic>
-                <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">5</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">4</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                <characteristic name="Tipo" typeId="5.479706523232345e+27">Monstruo</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1678,7 +1678,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <infoLink id="c6fd-af31-45e1-df42" name="Regeneración (5+)" hidden="false" targetId="515b-514f-7ee3-6cc3" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ce3a-c13c-e371-ca4d" name="Unidades singulares" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="ce3a-c13c-e371-ca4d" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="762d-b300-b5aa-675d" name="Encarnación elemental jade" hidden="false" collective="false" import="true" type="upgrade">
@@ -1690,17 +1690,17 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
             <profile id="1c80-f36f-711b-0487" name="Encarnación elemental jade" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                <characteristic name="HA" typeId="5.753232323444154e+23">4</characteristic>
-                <characteristic name="HP" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="F" typeId="5.323232344415441e+21">6</characteristic>
-                <characteristic name="R" typeId="5.423232344415441e+21">6</characteristic>
-                <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">4</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">5</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                <characteristic name="Tipo" typeId="5.479706523232345e+27">Monstruo</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1786,7 +1786,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <infoLink id="7e7c-ff2b-d368-f475" name="Impactos por carga (1D3)" hidden="false" targetId="97de-652c-df54-f43b" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="936b-9807-cff8-5795" name="Unidades singulares" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="936b-9807-cff8-5795" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9637-48de-b429-6a10" name="Encarnación elemental ámbar" hidden="false" collective="false" import="true" type="upgrade">
@@ -1798,17 +1798,17 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
             <profile id="8de2-2e52-3078-1c24" name="Encarnación elemental ámbar" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                <characteristic name="HA" typeId="5.753232323444154e+23">5</characteristic>
-                <characteristic name="HP" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="F" typeId="5.323232344415441e+21">7</characteristic>
-                <characteristic name="R" typeId="5.423232344415441e+21">6</characteristic>
-                <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">4</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">6</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">5</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">7</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">6</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                <characteristic name="Tipo" typeId="5.479706523232345e+27">Monstruo</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1893,7 +1893,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <infoLink id="5ff4-7462-e40f-0ef5" name="Veloz" hidden="false" targetId="6d32-e54e-896e-0d9f" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6ee3-1ece-e3fe-ac16" name="Unidades singulares" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="6ee3-1ece-e3fe-ac16" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fd7f-4d6e-cbb3-ccaa" name="Encarnación elemental luminosa" hidden="false" collective="false" import="true" type="upgrade">
@@ -1905,17 +1905,17 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
             <profile id="b834-dc97-f058-5551" name="Encarnación elemental luminosa" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">10</characteristic>
-                <characteristic name="HA" typeId="5.753232323444154e+23">4</characteristic>
-                <characteristic name="HP" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="F" typeId="5.323232344415441e+21">6</characteristic>
-                <characteristic name="R" typeId="5.423232344415441e+21">6</characteristic>
-                <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">10</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">4</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">10</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                <characteristic name="Tipo" typeId="5.479706523232345e+27">Monstruo</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1999,7 +1999,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <infoLink id="73a8-3388-1351-3e0f" name="Leyenda" hidden="false" targetId="d331-afa2-533e-c273" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8f80-dba2-ca58-1141" name="Unidades singulares" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="8f80-dba2-ca58-1141" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="47cd-4c82-4c6f-1265" name="Encarnación elemental gris" hidden="false" collective="false" import="true" type="upgrade">
@@ -2011,17 +2011,17 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
             <profile id="5324-4233-96f2-7bbc" name="Encarnación elemental gris" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                <characteristic name="HA" typeId="5.753232323444154e+23">4</characteristic>
-                <characteristic name="HP" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="F" typeId="5.323232344415441e+21">6</characteristic>
-                <characteristic name="R" typeId="5.423232344415441e+21">6</characteristic>
-                <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">5</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                <characteristic name="Tipo" typeId="5.479706523232345e+27">Monstruo</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2109,7 +2109,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <infoLink id="282b-5bec-cfe8-8952" name="Golpe letal" hidden="false" targetId="9f1c-d301-bd0e-af81" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="741b-13d2-8d67-adf4" name="Unidades singulares" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="741b-13d2-8d67-adf4" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4e3d-a032-71b0-9c32" name="Encarnación elemental amatista" hidden="false" collective="false" import="true" type="upgrade">
@@ -2121,17 +2121,17 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
             <profile id="fbb1-f0d0-115f-174e" name="Encarnación elemental amatista" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
-                <characteristic name="HA" typeId="5.753232323444154e+23">4</characteristic>
-                <characteristic name="HP" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="F" typeId="5.323232344415441e+21">6</characteristic>
-                <characteristic name="R" typeId="5.423232344415441e+21">6</characteristic>
-                <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">2</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">4</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">4</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                <characteristic name="Tipo" typeId="5.479706523232345e+27">Monstruo</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2216,7 +2216,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
         <infoLink id="f04e-4f9d-74ee-8e4d" name="Poder de penetración" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="471e-16ee-3aec-5488" name="Unidades singulares" hidden="false" targetId="5.261726523232345e+27" primary="true"/>
+        <categoryLink id="471e-16ee-3aec-5488" name="New CategoryLink" hidden="false" targetId="5261726523232344415441232323" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9f47-90df-9d36-de38" name="Encarnación elemental dorada" hidden="false" collective="false" import="true" type="upgrade">
@@ -2228,17 +2228,17 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
             <profile id="ed3b-152a-d3ff-1d43" name="Encarnación elemental dorada" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
               <characteristics>
                 <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
-                <characteristic name="HA" typeId="5.753232323444154e+23">4</characteristic>
-                <characteristic name="HP" typeId="4.2532323234441546e+23">3</characteristic>
-                <characteristic name="F" typeId="5.323232344415441e+21">6</characteristic>
-                <characteristic name="R" typeId="5.423232344415441e+21">6</characteristic>
-                <characteristic name="H" typeId="5.723232344415441e+21">6</characteristic>
-                <characteristic name="I" typeId="4.923232344415441e+21">3</characteristic>
-                <characteristic name="A" typeId="4.123232344415441e+21">5</characteristic>
+                <characteristic name="HA" typeId="575323232344415441232323">4</characteristic>
+                <characteristic name="HP" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="F" typeId="5323232344415441232323">6</characteristic>
+                <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                <characteristic name="H" typeId="5723232344415441232323">6</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">5</characteristic>
                 <characteristic name="L" typeId="4c4423232344415441232323">10</characteristic>
                 <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323">1</characteristic>
-                <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                <characteristic name="Tipo" typeId="5.479706523232345e+27">Monstruo</characteristic>
+                <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="Tipo" typeId="5479706523232344415441232323">Monstruo</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2283,7 +2283,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
     </selectionEntry>
     <selectionEntry id="6c76-43e5-76ad-3f24" name="Encarnación elemental" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="increment" field="0c6c-4451-6f95-ffe5" value="1">
+        <modifier type="increment" field="0c6c-4451-6f95-ffe5" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0f9b-ac0b-5037-59a0" repeats="1" roundUp="false"/>
           </repeats>
@@ -2811,7 +2811,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
     </selectionEntry>
     <selectionEntry id="8f04-2596-2103-99ce" name="Leyenda" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="ed4f-f022-ef3b-4c77" value="0">
+        <modifier type="set" field="ed4f-f022-ef3b-4c77" value="0.0">
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="046a-1c36-705e-1c0e" type="atLeast"/>
           </conditions>
@@ -3873,17 +3873,17 @@ hirviendo, salvo que sus impactos tienen las reglas especiales Ataques sólo fla
                 <profile id="1bc9-1f3f-f9e4-f736" name="Arietes cubiertos" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                    <characteristic name="HA" typeId="5.753232323444154e+23">-</characteristic>
-                    <characteristic name="HP" typeId="4.2532323234441546e+23">-</characteristic>
-                    <characteristic name="F" typeId="5.323232344415441e+21">6-8</characteristic>
-                    <characteristic name="R" typeId="5.423232344415441e+21">6</characteristic>
-                    <characteristic name="H" typeId="5.723232344415441e+21">5</characteristic>
-                    <characteristic name="I" typeId="4.923232344415441e+21">-</characteristic>
-                    <characteristic name="A" typeId="4.123232344415441e+21">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">-</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">6-8</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">6</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                    <characteristic name="Tipo" typeId="5.479706523232345e+27">Carro</characteristic>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4016,17 +4016,17 @@ Una torre de asedio no se considera un objetivo independiente de su unidad. Sin 
                   </modifiers>
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                    <characteristic name="HA" typeId="5.753232323444154e+23">0</characteristic>
-                    <characteristic name="HP" typeId="4.2532323234441546e+23">-</characteristic>
-                    <characteristic name="F" typeId="5.323232344415441e+21">-</characteristic>
-                    <characteristic name="R" typeId="5.423232344415441e+21">7</characteristic>
-                    <characteristic name="H" typeId="5.723232344415441e+21">5</characteristic>
-                    <characteristic name="I" typeId="4.923232344415441e+21">-</characteristic>
-                    <characteristic name="A" typeId="4.123232344415441e+21">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                    <characteristic name="Tipo" typeId="5.479706523232345e+27">Carro</characteristic>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4134,17 +4134,17 @@ armadura.</characteristic>
                 <profile id="959d-efb2-9aee-0fe4" name="Torre de Asedio" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                    <characteristic name="HA" typeId="5.753232323444154e+23">0</characteristic>
-                    <characteristic name="HP" typeId="4.2532323234441546e+23">-</characteristic>
-                    <characteristic name="F" typeId="5.323232344415441e+21">-</characteristic>
-                    <characteristic name="R" typeId="5.423232344415441e+21">7</characteristic>
-                    <characteristic name="H" typeId="5.723232344415441e+21">5</characteristic>
-                    <characteristic name="I" typeId="4.923232344415441e+21">-</characteristic>
-                    <characteristic name="A" typeId="4.123232344415441e+21">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                    <characteristic name="Tipo" typeId="5.479706523232345e+27">Carro</characteristic>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="fb06-273e-0420-d2a1" name="Torre de Asedio" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
@@ -4199,17 +4199,17 @@ Torre de Asedio normal, salvo que causa Terror y tiene la regla especial No muer
                 <profile id="f8a5-2372-2b97-05f2" name="Torre de Asedio" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                    <characteristic name="HA" typeId="5.753232323444154e+23">0</characteristic>
-                    <characteristic name="HP" typeId="4.2532323234441546e+23">-</characteristic>
-                    <characteristic name="F" typeId="5.323232344415441e+21">-</characteristic>
-                    <characteristic name="R" typeId="5.423232344415441e+21">7</characteristic>
-                    <characteristic name="H" typeId="5.723232344415441e+21">5</characteristic>
-                    <characteristic name="I" typeId="4.923232344415441e+21">-</characteristic>
-                    <characteristic name="A" typeId="4.123232344415441e+21">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                    <characteristic name="Tipo" typeId="5.479706523232345e+27">Carro</characteristic>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9543-85be-25d9-ce9c" name="Torre de Asedio" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
@@ -4270,17 +4270,17 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
                 <profile id="59a3-8963-2beb-fa47" name="Torre de Asedio" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
                   <characteristics>
                     <characteristic name="M" typeId="4d23232344415441232323">-</characteristic>
-                    <characteristic name="HA" typeId="5.753232323444154e+23">0</characteristic>
-                    <characteristic name="HP" typeId="4.2532323234441546e+23">-</characteristic>
-                    <characteristic name="F" typeId="5.323232344415441e+21">-</characteristic>
-                    <characteristic name="R" typeId="5.423232344415441e+21">7</characteristic>
-                    <characteristic name="H" typeId="5.723232344415441e+21">5</characteristic>
-                    <characteristic name="I" typeId="4.923232344415441e+21">-</characteristic>
-                    <characteristic name="A" typeId="4.123232344415441e+21">-</characteristic>
+                    <characteristic name="HA" typeId="575323232344415441232323">0</characteristic>
+                    <characteristic name="HP" typeId="425323232344415441232323">-</characteristic>
+                    <characteristic name="F" typeId="5323232344415441232323">-</characteristic>
+                    <characteristic name="R" typeId="5423232344415441232323">7</characteristic>
+                    <characteristic name="H" typeId="5723232344415441232323">5</characteristic>
+                    <characteristic name="I" typeId="4923232344415441232323">-</characteristic>
+                    <characteristic name="A" typeId="4123232344415441232323">-</characteristic>
                     <characteristic name="L" typeId="4c4423232344415441232323">-</characteristic>
                     <characteristic name="TSA" typeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="TSE" typeId="5.761726453617665e+35"/>
-                    <characteristic name="Tipo" typeId="5.479706523232345e+27">Carro</characteristic>
+                    <characteristic name="TSE" typeId="576172645361766523232344415441232323"/>
+                    <characteristic name="Tipo" typeId="5479706523232344415441232323">Carro</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="4a5a-71f2-6449-c825" name="Torre de Asedio" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
@@ -4325,7 +4325,7 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
       <profiles>
         <profile id="8419-9a4d-9213-928b" name="Manteletes" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
           <characteristics>
-            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Las unidades de infantería o infantería monstruosa con armas de proyectiles pueden equiparse con manteletes. Los manteletes se colocan frente a la unidad. Una unidad que lleve manteletes no podrá declarar cargas, ni realizar movimientos de marcha, y el valor de su atributo de M se reduce a la mitad. Sin embargo, una unidad con manteletes se considera siempre a cubierto tras una obstrucción pesada (-2 para impactarla con proyectiles), y obtiene la regla especial Vanguardia. Durante cualquiera de sus fases de movimiento, una unidad puede reformar para abandonar los manteletes: en ese caso, retíralos del campo de batalla. Una unidad con manteletes que reciba una carga por el frontal contará como si estuviese defendiendo un obstáculo; en el momento en el que la unidad equipada con manteletes huya, reciba una carga por el flanco o la retaguardia o sea destruida, retira los manteletes del campo de batalla (los manteletes nunca pueden ser recogidos por otra unidad).</characteristic>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Las unidades de infantería o infantería monstruosa con armas de proyectiles pueden equiparse con manteletes. Los manteletes se colocan frente a la unidad. Una unidad que lleve manteletes no podrá declarar cargas, ni realizar movimientos de marcha, y el valor de su atributo de M se reduce a la mitad. Sin embargo, una unidad con manteletes se considera siempre a cubierto tras una obstrucción pesada (-2 para impactarla con proyectiles), y obtiene la regla especial Vanguardia. Durante cualquiera de sus fases de movimiento, una unidad puede reformar para abandonar los manteletes: en ese caso, retíralos del campo de batalla. Una unidad con manteletes que reciba una carga por el frontal contará como si estuviese defendiendo un obstáculo; en el momento en el que la unidad equipada con manteletes huya, reciba una carga por el flanco o la retaguardia o sea destruida, retira los manteletes del campo de batalla (los manteletes nunca pueden ser recogidos por otra unidad). </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4360,7 +4360,7 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
       <profiles>
         <profile id="5bbb-ad05-ffc6-acfd" name="Virotes encantados" hidden="false" typeId="2c83-0008-cd07-20f7" typeName="Equipo de Asedio">
           <characteristics>
-            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Un lanzavirotes con esta mejora causa 1D6+6 en lugar de 1D3+6 para determinar el daño producido contra una sección del castillo.</characteristic>
+            <characteristic name="Reglas especiales" typeId="430d-a994-3adc-7ae5">Un lanzavirotes con esta mejora causa 1D6+6 en lugar de 1D3+6 para determinar el daño producido contra una sección del castillo. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5350,7 +5350,7 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
           <infoLinks>
             <infoLink id="dd4e-76a8-9e99-f962" name="Ataques envenenados" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
             <infoLink id="bcbb-7c9c-730d-e25b" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-            <infoLink id="a7d9-ff70-ba4c-7717" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+            <infoLink id="a7d9-ff70-ba4c-7717" name="Arma de mano adicional" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
@@ -6831,7 +6831,7 @@ Golpes letales con cincos: Algunos efectos poderosos pueden permitirte realizar 
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="0b22-36a8-2256-ce46" name="Señor del conocimiento" hidden="false" targetId="38ca-408d-dbc3-4847" type="rule"/>
+            <infoLink id="0b22-36a8-2256-ce46" name="Señor del Conocimiento" hidden="false" targetId="38ca-408d-dbc3-4847" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="fff6-087b-1f00-a718" name="Reliquia" hidden="false" collective="false" import="true" targetId="a485-24d0-42b1-23c7" type="selectionEntry"/>
@@ -7500,7 +7500,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
           </profiles>
           <infoLinks>
             <infoLink id="a3f3-91e5-dc23-0245" name="Arma de mano" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-            <infoLink id="7a34-39d7-56b4-70e1" name="Arma emparejadas" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+            <infoLink id="7a34-39d7-56b4-70e1" name="Arma de mano adicional" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="25.0"/>
@@ -8387,7 +8387,7 @@ con la regla especial Volar o Flotar que ataque en combate cuerpo a cuerpo al po
       <description>Las miniaturas con esta regla especial obtienen un bonificador de +1 a su Fuerza durante cualquier turno en el que realicen exitosamente una carga o durante su siguiente turno si arrasaron y esto les llevó a trabarse en combate.</description>
     </rule>
     <rule id="7ea4-f7e1-7e21-9266" name="Cruzar" hidden="false">
-      <description>Esta regla especial siempre se acompaña de una descripción entre paréntesis, que hace referencia a uno o varios tipos de terreno. Por ejemplo, Cruzar (Bosques), Cruzar (Obstáculos) o Cruzar (Todos los terrenos). Una unidad con esta regla especial ignora las penalizaciones al movimiento que le pudiese imponer el terreno indicado, tanto en Terreno difícil como en Terreno muy difícil, además de ese tipo de Terreno peligroso. Un carro con Cruzar no sufrirá impactos por cruzar ese terreno. Ten en cuenta que las unidades con Cruzar nunca pueden cruzar Terreno intransitable.</description>
+      <description>Esta regla especial siempre se acompaña de una descripción entre paréntesis, que hace referencia a uno o varios tipos de terreno. Por ejemplo, Cruzar (Bosques), Cruzar (Obstáculos) o Cruzar (Todos los terrenos). Una unidad con esta regla especial ignora las penalizaciones al movimiento que le pudiese imponer el terreno indicado, tanto en Terreno difícil como en Terreno muy difícil, además de ese tipo de Terreno peligroso. Un carro con Cruzar no sufrirá impactos por cruzar ese terreno. Ten en cuenta que las unidades con Cruzar nunca pueden cruzar Terreno intransitable. </description>
     </rule>
     <rule id="fc5c-7e1e-498d-ffb4" name="Demonio" hidden="false">
       <description>Las miniaturas con esta regla especial tienen las reglas especiales Inestable, Inmune a psicología, Inmune a veneno, Ataques mágicos, Aura demoníaca (5+) y causan Miedo.Si en una miniatura de Caballería, Caballería monstruosa, Carro o Monstruo tiene la regla especial Demonio pero el jinete no, no se le aplicarán las reglas especiales Inestable, Inmune a veneno ni Aura demoníaca y tan sólo la montura tendrá la regla especial Ataques mágicos; sin embargo, se seguirán considerando Demonios a los demás efectos. Recuerda que conservarán la regla especial Inmune a psicología y causarán Miedo.</description>
@@ -8538,7 +8538,7 @@ Si esta lista no establece una prioridad, entonces eliges qué personaje lanza o
       <description>Una miniatura o arma con esta regla especial impone un penalizador adicional de -1 a la tirada de salvación por armadura del enemigo. Por ejemplo, una herida causada con Fuerza 5 y la regla especial Poder de penetración tendrá un penalizador de -3 a la tirada de salvación por armadura.</description>
     </rule>
     <rule id="b950-0689-6573-779c" name="Presencia inspiradora" hidden="false">
-      <description>Normalmente, el General de cada ejército dispone de esta regla especial, aunque excepcionalmente otros personajes pueden disponer de ella también. Las tropas amigas a 12” o menos de un personaje con esta regla especial que no esté huyendo podrán utilizar el Liderazgo de este para realizar sus chequeos de psicología, desmoralización, reagruparse, reformarse y cualquier otro chequeo de Liderazgo que no especifique que debe utilizarse el Liderazgo natural de la miniatura. Si la miniatura con esta regla especial tiene también la regla especial Objetivo grande el alcance de esta regla especial se incrementa a 18”.</description>
+      <description>Normalmente, el General de cada ejército dispone de esta regla especial, aunque excepcionalmente otros personajes pueden disponer de ella también. Las tropas amigas a 12” o menos de un personaje con esta regla especial que no esté huyendo podrán utilizar el Liderazgo de este para realizar sus chequeos de psicología, desmoralización, reagruparse, reformarse y cualquier otro chequeo de Liderazgo que no especifique que debe utilizarse el Liderazgo natural de la miniatura. Si la miniatura con esta regla especial tiene también la regla especial Objetivo grande el alcance de esta regla especial se incrementa a 18”. </description>
     </rule>
     <rule id="6605-7689-3444-dccd" name="Regeneración (4+)" hidden="false">
       <description>Esta regla especial siempre va acompañada de un número entre paréntesis; por ejemplo, Regeneración (5+), o Regeneración (2+). Cada vez que la miniatura sufra una o más heridas, tras realizar todas las tiradas de salvación pertinentes, tira 1D6 por cada herida: si el resultado es igual o superior al indicado por su Regeneración, la herida será cancelada. Algunos efectos aumentan las tiradas de Regeneración; el máximo al que se puede llegar apilando es de 3+ o, si la miniatura tiene una Potencia de unidad 5+, de 4+, salvo que se especifique lo contrario.</description>
@@ -8547,7 +8547,7 @@ Si esta lista no establece una prioridad, entonces eliges qué personaje lanza o
       <description>Las armas con esta regla especial no pueden usarse con un Escudo, pues tendrá ambas manos ocupadas.</description>
     </rule>
     <rule id="eae7-760e-1a1e-47d7" name="Resistencia mágica (1)" hidden="false">
-      <description>Esta regla especial siempre va acompañada de un número entre paréntesis; que generalmente será 1, 2 o 3. Cuanto más elevado sea el número, mayor será la resistencia a la magia de la unidad. Si en una unidad hay diferentes valores de Resistencia mágica, tan sólo se aplica el mayor de ellos, no se suman. Cuando una unidad con esta regla especial es designada como objetivo de un hechizo o quede dentro del área de un hechizo que afecte a varias unidades puedes usar su Resistencia mágica para tratar de evitar que el hechizo funcione (en el caso de que un hechizo afecte a varias de tus unidades con Resistencia mágica, usa solo el valor mayor). El valor de la Resistencia mágica se convierte en Dados de dispersión adicionales que sumar a la tirada de dispersión del hechizo. Puedes, incluso, efectuar un intento de dispersión sin utilizar ningún dado de tu reserva de dispersión, tan sólo con los dados proporcionados por la Resistencia mágica, pero en ese caso no sumarás nunca el nivel de ningún hechicero (se consideraría una dispersión con el ejército en su conjunto). Ten en cuenta que la Resistencia mágica no protege en absoluto contra hechizos del tipo Vórtice o Tempestad mágica ni contra los hechizos de Daño directo que trazan una línea. Con los hechizos de Daño directo que utilizan plantilla, si el hechizo es lanzado exitosamente, el oponente deberá colocar la plantilla antes del intento de dispersión: utiliza el valor de Resistencia mágica más alto de entre todas las unidades tocadas por la plantilla.</description>
+      <description>Esta regla especial siempre va acompañada de un número entre paréntesis; que generalmente será 1, 2 o 3. Cuanto más elevado sea el número, mayor será la resistencia a la magia de la unidad. Si en una unidad hay diferentes valores de Resistencia mágica, tan sólo se aplica el mayor de ellos, no se suman. Cuando una unidad con esta regla especial es designada como objetivo de un hechizo o quede dentro del área de un hechizo que afecte a varias unidades puedes usar su Resistencia mágica para tratar de evitar que el hechizo funcione (en el caso de que un hechizo afecte a varias de tus unidades con Resistencia mágica, usa solo el valor mayor). El valor de la Resistencia mágica se convierte en Dados de dispersión adicionales que sumar a la tirada de dispersión del hechizo. Puedes, incluso, efectuar un intento de dispersión sin utilizar ningún dado de tu reserva de dispersión, tan sólo con los dados proporcionados por la Resistencia mágica, pero en ese caso no sumarás nunca el nivel de ningún hechicero (se consideraría una dispersión con el ejército en su conjunto). Ten en cuenta que la Resistencia mágica no protege en absoluto contra hechizos del tipo Vórtice o Tempestad mágica ni contra los hechizos de Daño directo que trazan una línea. Con los hechizos de Daño directo que utilizan plantilla, si el hechizo es lanzado exitosamente, el oponente deberá colocar la plantilla antes del intento de dispersión: utiliza el valor de Resistencia mágica más alto de entre todas las unidades tocadas por la plantilla. </description>
     </rule>
     <rule id="fae6-f2eb-1a70-1084" name="Sangre fría" hidden="false">
       <description>Las unidades con esta regla especial efectúan todos sus chequeos de Liderazgo con 3D6, descartando el resultado más alto. Si un efecto obliga a chequear Liderazgo con 3D6 y descartando el resultado más bajo, las unidades con esta regla especial verán ese efecto neutralizado con su propia regla especial y en ese caso realizarán el chequeo con 2D6, como es habitual con las demás tropas.</description>
@@ -8594,7 +8594,8 @@ Se utiliza el valor de la armadura del jinete y recibe un bonificador de +1. Alg
 
 Tienen la regla especial Veloz y las miniaturas con la regla especial Ataques flamígeros o Ataques sólo flamígeros (o que tengan un arma con alguna de estas reglas especiales) les causan Miedo.
 
-Cada miniatura de Caballería tiene una Potencia de unidad de 2.</description>
+Cada miniatura de Caballería tiene una Potencia de unidad de 2.
+</description>
     </rule>
     <rule id="4958-70de-0b69-9825" name="Infantería monstruosa" hidden="false">
       <description>Las unidades de Infantería monstruosa necesitan un mínimo de tres miniaturas para formar una fila completa. Cada miniatura de Infantería monstruosa tiene una Potencia de unidad de 3.</description>
@@ -8625,7 +8626,8 @@ Se utiliza el valor de la armadura del jinete y recibe un bonificador de +1. Alg
 
 Tienen la regla especial Veloz.
 
-Cada miniatura de Caballería monstruosa tiene una Potencia de unidad de 4.</description>
+Cada miniatura de Caballería monstruosa tiene una Potencia de unidad de 4.
+</description>
     </rule>
     <rule id="d477-174e-9843-a1b7" name="Enjambre" hidden="false">
       <description>Las unidades de Enjambres no pueden obtener bonificador por filas.
@@ -8814,10 +8816,10 @@ Artillero adicional: Algunas Máquinas de guerra pueden tener uno o más artille
       <description>Esta regla especial siempre va acompañada de un número entre paréntesis, como Impactos múltiples (2) o Impactos múltiples (1D6). Tras realizar la tirada para impactar, cada impacto se multiplica por la cantidad de impactos múltiples indicada (tira una vez por cada impacto). Los impactos multiplicados se aplican a la misma miniatura que fue impactada y no se pasan entre miniaturas (es decir, un personaje con 4 Ataques e Impactos múltiples 1D6 no podrá matar más que 4 miniatura enemigas). Tras ello, realiza las tiradas para herir como es habitual.</description>
     </rule>
     <rule id="9718-2e66-193f-7dd6" name="Resistencia mágica (2)" hidden="false">
-      <description>Esta regla especial siempre va acompañada de un número entre paréntesis; que generalmente será 1, 2 o 3. Cuanto más elevado sea el número, mayor será la resistencia a la magia de la unidad. Si en una unidad hay diferentes valores de Resistencia mágica, tan sólo se aplica el mayor de ellos, no se suman. Cuando una unidad con esta regla especial es designada como objetivo de un hechizo o quede dentro del área de un hechizo que afecte a varias unidades puedes usar su Resistencia mágica para tratar de evitar que el hechizo funcione (en el caso de que un hechizo afecte a varias de tus unidades con Resistencia mágica, usa solo el valor mayor). El valor de la Resistencia mágica se convierte en Dados de dispersión adicionales que sumar a la tirada de dispersión del hechizo. Puedes, incluso, efectuar un intento de dispersión sin utilizar ningún dado de tu reserva de dispersión, tan sólo con los dados proporcionados por la Resistencia mágica, pero en ese caso no sumarás nunca el nivel de ningún hechicero (se consideraría una dispersión con el ejército en su conjunto). Ten en cuenta que la Resistencia mágica no protege en absoluto contra hechizos del tipo Vórtice o Tempestad mágica ni contra los hechizos de Daño directo que trazan una línea. Con los hechizos de Daño directo que utilizan plantilla, si el hechizo es lanzado exitosamente, el oponente deberá colocar la plantilla antes del intento de dispersión: utiliza el valor de Resistencia mágica más alto de entre todas las unidades tocadas por la plantilla.</description>
+      <description>Esta regla especial siempre va acompañada de un número entre paréntesis; que generalmente será 1, 2 o 3. Cuanto más elevado sea el número, mayor será la resistencia a la magia de la unidad. Si en una unidad hay diferentes valores de Resistencia mágica, tan sólo se aplica el mayor de ellos, no se suman. Cuando una unidad con esta regla especial es designada como objetivo de un hechizo o quede dentro del área de un hechizo que afecte a varias unidades puedes usar su Resistencia mágica para tratar de evitar que el hechizo funcione (en el caso de que un hechizo afecte a varias de tus unidades con Resistencia mágica, usa solo el valor mayor). El valor de la Resistencia mágica se convierte en Dados de dispersión adicionales que sumar a la tirada de dispersión del hechizo. Puedes, incluso, efectuar un intento de dispersión sin utilizar ningún dado de tu reserva de dispersión, tan sólo con los dados proporcionados por la Resistencia mágica, pero en ese caso no sumarás nunca el nivel de ningún hechicero (se consideraría una dispersión con el ejército en su conjunto). Ten en cuenta que la Resistencia mágica no protege en absoluto contra hechizos del tipo Vórtice o Tempestad mágica ni contra los hechizos de Daño directo que trazan una línea. Con los hechizos de Daño directo que utilizan plantilla, si el hechizo es lanzado exitosamente, el oponente deberá colocar la plantilla antes del intento de dispersión: utiliza el valor de Resistencia mágica más alto de entre todas las unidades tocadas por la plantilla. </description>
     </rule>
     <rule id="c9ab-a12d-0ce9-430c" name="Resistencia mágica (3)" hidden="false">
-      <description>Esta regla especial siempre va acompañada de un número entre paréntesis; que generalmente será 1, 2 o 3. Cuanto más elevado sea el número, mayor será la resistencia a la magia de la unidad. Si en una unidad hay diferentes valores de Resistencia mágica, tan sólo se aplica el mayor de ellos, no se suman. Cuando una unidad con esta regla especial es designada como objetivo de un hechizo o quede dentro del área de un hechizo que afecte a varias unidades puedes usar su Resistencia mágica para tratar de evitar que el hechizo funcione (en el caso de que un hechizo afecte a varias de tus unidades con Resistencia mágica, usa solo el valor mayor). El valor de la Resistencia mágica se convierte en Dados de dispersión adicionales que sumar a la tirada de dispersión del hechizo. Puedes, incluso, efectuar un intento de dispersión sin utilizar ningún dado de tu reserva de dispersión, tan sólo con los dados proporcionados por la Resistencia mágica, pero en ese caso no sumarás nunca el nivel de ningún hechicero (se consideraría una dispersión con el ejército en su conjunto). Ten en cuenta que la Resistencia mágica no protege en absoluto contra hechizos del tipo Vórtice o Tempestad mágica ni contra los hechizos de Daño directo que trazan una línea. Con los hechizos de Daño directo que utilizan plantilla, si el hechizo es lanzado exitosamente, el oponente deberá colocar la plantilla antes del intento de dispersión: utiliza el valor de Resistencia mágica más alto de entre todas las unidades tocadas por la plantilla.</description>
+      <description>Esta regla especial siempre va acompañada de un número entre paréntesis; que generalmente será 1, 2 o 3. Cuanto más elevado sea el número, mayor será la resistencia a la magia de la unidad. Si en una unidad hay diferentes valores de Resistencia mágica, tan sólo se aplica el mayor de ellos, no se suman. Cuando una unidad con esta regla especial es designada como objetivo de un hechizo o quede dentro del área de un hechizo que afecte a varias unidades puedes usar su Resistencia mágica para tratar de evitar que el hechizo funcione (en el caso de que un hechizo afecte a varias de tus unidades con Resistencia mágica, usa solo el valor mayor). El valor de la Resistencia mágica se convierte en Dados de dispersión adicionales que sumar a la tirada de dispersión del hechizo. Puedes, incluso, efectuar un intento de dispersión sin utilizar ningún dado de tu reserva de dispersión, tan sólo con los dados proporcionados por la Resistencia mágica, pero en ese caso no sumarás nunca el nivel de ningún hechicero (se consideraría una dispersión con el ejército en su conjunto). Ten en cuenta que la Resistencia mágica no protege en absoluto contra hechizos del tipo Vórtice o Tempestad mágica ni contra los hechizos de Daño directo que trazan una línea. Con los hechizos de Daño directo que utilizan plantilla, si el hechizo es lanzado exitosamente, el oponente deberá colocar la plantilla antes del intento de dispersión: utiliza el valor de Resistencia mágica más alto de entre todas las unidades tocadas por la plantilla. </description>
     </rule>
     <rule id="7fde-020b-4899-2864" name="Impactos por carga (1D3+1)" hidden="false">
       <description>Como su propio nombre indica, los impactos generados por esta regla especial se producen cuando la miniatura que la posee carga al combate cuerpo a cuerpo y queda en contacto de peana con peana con una o más miniaturas enemigas. El número de impactos causados se indica en la propia regla especial, por ejemplo, Impactos por carga (1), o Impactos por carga (2D6+2). Cuando la miniatura cargue al combate (o arrase y llegue al combate), durante su siguiente ronda de combate cuerpo a cuerpo causará los Impactos por carga indicados. Estos impactos son automáticos (no es necesario efectuar tirada alguna para impactar) y se resuelven al inicio de la fase de combate cuerpo a cuerpo, antes de que ninguna miniatura ataque, con la Fuerza de la miniatura que los causó (en el caso de los Carros, utiliza la Fuerza del propio carro). En el caso de que se efectúen Impactos por carga contra una unidad mixta, los Impactos por carga se reparten como si fuesen impactos por proyectiles. Las bajas causadas por los Impactos por carga se cuentan a la hora de determinar el resultado del combate de esa fase. A menos que se especifique lo contrario, sólo se aplican a los impactos por carga las siguientes reglas especiales que posea la miniatura que los causa: Ataques mágicos, Ataques flamígeros y Carga devastadora.</description>
@@ -8868,7 +8870,7 @@ Artillero adicional: Algunas Máquinas de guerra pueden tener uno o más artille
       <description>Esta regla especial viene siempre acompañada de una cantidad aleatoria entre paréntesis (por ejemplo, 2D6, o 1D6+2). Estas unidades no se mueven como las demás tropas ni pueden declarar cargas, sino que mueven en la sub-fase de Movimientos obligatorios de la fase de movimiento: encáralos en la dirección en la que deseas que muevan y tira la cantidad determinada por su movimiento aleatorio: a continuación, muévelos la distancia indicada en la dirección en la que los encaraste; nunca puedes elegir mover menos que la distancia indicada en los dados ni pueden elegir no mover (a menos que se encuentren trabados en combate). Si ese movimiento los lleva en contacto peana con peana con el enemigo, se considera una carga exitosa (aunque el oponente no podrá reaccionar a la carga). Si su movimiento les lleva fuera del tablero, podrán entrar de nuevo en el campo de batalla en tu siguiente fase de movimiento como si se hubiesen salido del tablero persiguiendo a una unidad que huye. Ten en cuenta que también deben mover en el turno en el que se reagrupan. Una unidad con Movimiento aleatorio siempre usa su valor de movimiento aleatorio al huir, perseguir o arrasar en lugar de las reglas habituales de huida, persecución y arrasamiento. El movimiento aleatorio nunca puede ser reducido, salvo por terreno o porque algún efecto lo especifique. Ten también en cuenta que el encaramiento es parte del movimiento aunque sea gratuito, con lo cual, si solamente con encarar te lleva al contacto peana con peana con el enemigo, se considera igualmente una carga exitosa. En este caso la unidad con movimiento aleatorio quedará trabada por el lado por donde se encuentre la unidad enemiga respecto a ella cuando choque (sigue el mismo criterio descrito en el apartado “Cargas por el flanco y por la retaguardia” de la sub-fase 5 “Movimiento de las tropas que cargan” de la fase de movimiento cuando haya dudas de porqué lado es la carga).</description>
     </rule>
     <rule id="4704-d147-6f38-d713" name="Movimiento aleatorio" hidden="false">
-      <description>Esta regla especial viene siempre acompañada de una cantidad aleatoria entre paréntesis (por ejemplo, 2D6, o 1D6+2). Estas unidades no se mueven como las demás tropas ni pueden declarar cargas, sino que mueven en la sub-fase de Movimientos obligatorios de la fase de movimiento: encáralos en la dirección en la que deseas que muevan y tira la cantidad determinada por su movimiento aleatorio: a continuación, muévelos la distancia indicada en la dirección en la que los encaraste; nunca puedes elegir mover menos que la distancia indicada en los dados ni pueden elegir no mover (a menos que se encuentren trabados en combate). Si ese movimiento los lleva en contacto peana con peana con el enemigo, se considera una carga exitosa (aunque el oponente no podrá reaccionar a la carga). Si su movimiento les lleva fuera del tablero, podrán entrar de nuevo en el campo de batalla en tu siguiente fase de movimiento como si se hubiesen salido del tablero persiguiendo a una unidad que huye. Ten en cuenta que también deben mover en el turno en el que se reagrupan. Una unidad con Movimiento aleatorio siempre usa su valor de movimiento aleatorio al huir, perseguir o arrasar en lugar de las reglas habituales de huida, persecución y arrasamiento. El movimiento aleatorio nunca puede ser reducido, salvo por terreno o porque algún efecto lo especifique. Ten también en cuenta que el encaramiento es parte del movimiento aunque sea gratuito, con lo cual, si solamente con encarar te lleva al contacto peana con peana con el enemigo, se considera igualmente una carga exitosa. En este caso la unidad con movimiento aleatorio quedará trabada por el lado por donde se encuentre la unidad enemiga respecto a ella cuando choque (sigue el mismo criterio descrito en el apartado “Cargas por el flanco y por la retaguardia” de la sub-fase 5 “Movimiento de las tropas que cargan” de la fase de movimiento cuando haya dudas de porqué lado es la carga).</description>
+      <description>Esta regla especial viene siempre acompañada de una cantidad aleatoria entre paréntesis (por ejemplo, 2D6, o 1D6+2). Estas unidades no se mueven como las demás tropas ni pueden declarar cargas, sino que mueven en la sub-fase de Movimientos obligatorios de la fase de movimiento: encáralos en la dirección en la que deseas que muevan y tira la cantidad determinada por su movimiento aleatorio: a continuación, muévelos la distancia indicada en la dirección en la que los encaraste; nunca puedes elegir mover menos que la distancia indicada en los dados ni pueden elegir no mover (a menos que se encuentren trabados en combate). Si ese movimiento los lleva en contacto peana con peana con el enemigo, se considera una carga exitosa (aunque el oponente no podrá reaccionar a la carga). Si su movimiento les lleva fuera del tablero, podrán entrar de nuevo en el campo de batalla en tu siguiente fase de movimiento como si se hubiesen salido del tablero persiguiendo a una unidad que huye. Ten en cuenta que también deben mover en el turno en el que se reagrupan. Una unidad con Movimiento aleatorio siempre usa su valor de movimiento aleatorio al huir, perseguir o arrasar en lugar de las reglas habituales de huida, persecución y arrasamiento. El movimiento aleatorio nunca puede ser reducido, salvo por terreno o porque algún efecto lo especifique. Ten también en cuenta que el encaramiento es parte del movimiento aunque sea gratuito, con lo cual, si solamente con encarar te lleva al contacto peana con peana con el enemigo, se considera igualmente una carga exitosa. En este caso la unidad con movimiento aleatorio quedará trabada por el lado por donde se encuentre la unidad enemiga respecto a ella cuando choque (sigue el mismo criterio descrito en el apartado “Cargas por el flanco y por la retaguardia” de la sub-fase 5 “Movimiento de las tropas que cargan” de la fase de movimiento cuando haya dudas de porqué lado es la carga). </description>
     </rule>
     <rule id="ce14-b296-0a1f-2d80" name="Artillero veterano" hidden="false">
       <description>Algunos cañones pueden contar en su dotación con un artillero veterano (por ejemplo, los ingenieros enanos). Se trata de veteranos artilleros, expertos en la estimación de distancias con sus cañones. Si un Cañón cuenta con un artillero veterano puede, tras tirar los dados de estimación, tirar 1D3 y sumárselo o restárselo al resultado total.</description>
@@ -8946,7 +8948,7 @@ Combinando Aura demoníaca y tirada de salvación especial: La regla especial Au
       <description>Esta regla especial siempre va acompañada de un número entre paréntesis; por ejemplo, Regeneración (5+), o Regeneración (2+). Cada vez que la miniatura sufra una o más heridas, tras realizar todas las tiradas de salvación pertinentes, tira 1D6 por cada herida: si el resultado es igual o superior al indicado por su Regeneración, la herida será cancelada. Algunos efectos aumentan las tiradas de Regeneración; el máximo al que se puede llegar apilando es de 3+ o, si la miniatura tiene una Potencia de unidad 5+, de 4+, salvo que se especifique lo contrario.</description>
     </rule>
     <rule id="2326-75e1-288f-6ccd" name="Resistencia mágica" hidden="false">
-      <description>Esta regla especial siempre va acompañada de un número entre paréntesis; que generalmente será 1, 2 o 3. Cuanto más elevado sea el número, mayor será la resistencia a la magia de la unidad. Si en una unidad hay diferentes valores de Resistencia mágica, tan sólo se aplica el mayor de ellos, no se suman. Cuando una unidad con esta regla especial es designada como objetivo de un hechizo o quede dentro del área de un hechizo que afecte a varias unidades puedes usar su Resistencia mágica para tratar de evitar que el hechizo funcione (en el caso de que un hechizo afecte a varias de tus unidades con Resistencia mágica, usa solo el valor mayor). El valor de la Resistencia mágica se convierte en Dados de dispersión adicionales que sumar a la tirada de dispersión del hechizo. Puedes, incluso, efectuar un intento de dispersión sin utilizar ningún dado de tu reserva de dispersión, tan sólo con los dados proporcionados por la Resistencia mágica, pero en ese caso no sumarás nunca el nivel de ningún hechicero (se consideraría una dispersión con el ejército en su conjunto). Ten en cuenta que la Resistencia mágica no protege en absoluto contra hechizos del tipo Vórtice o Tempestad mágica ni contra los hechizos de Daño directo que trazan una línea. Con los hechizos de Daño directo que utilizan plantilla, si el hechizo es lanzado exitosamente, el oponente deberá colocar la plantilla antes del intento de dispersión: utiliza el valor de Resistencia mágica más alto de entre todas las unidades tocadas por la plantilla.</description>
+      <description>Esta regla especial siempre va acompañada de un número entre paréntesis; que generalmente será 1, 2 o 3. Cuanto más elevado sea el número, mayor será la resistencia a la magia de la unidad. Si en una unidad hay diferentes valores de Resistencia mágica, tan sólo se aplica el mayor de ellos, no se suman. Cuando una unidad con esta regla especial es designada como objetivo de un hechizo o quede dentro del área de un hechizo que afecte a varias unidades puedes usar su Resistencia mágica para tratar de evitar que el hechizo funcione (en el caso de que un hechizo afecte a varias de tus unidades con Resistencia mágica, usa solo el valor mayor). El valor de la Resistencia mágica se convierte en Dados de dispersión adicionales que sumar a la tirada de dispersión del hechizo. Puedes, incluso, efectuar un intento de dispersión sin utilizar ningún dado de tu reserva de dispersión, tan sólo con los dados proporcionados por la Resistencia mágica, pero en ese caso no sumarás nunca el nivel de ningún hechicero (se consideraría una dispersión con el ejército en su conjunto). Ten en cuenta que la Resistencia mágica no protege en absoluto contra hechizos del tipo Vórtice o Tempestad mágica ni contra los hechizos de Daño directo que trazan una línea. Con los hechizos de Daño directo que utilizan plantilla, si el hechizo es lanzado exitosamente, el oponente deberá colocar la plantilla antes del intento de dispersión: utiliza el valor de Resistencia mágica más alto de entre todas las unidades tocadas por la plantilla. </description>
     </rule>
     <rule id="f693-0c5c-49bd-91e7" name="Mercenario" hidden="false">
       <description>Una miniatura con esta regla especial solamente podrá utilizar las reglas Presencia inspiradora y “¡Ni un paso atrás!” de una miniatura que comparta la regla especial Mercenario.</description>
@@ -9066,7 +9068,7 @@ En el instante en que una Encarnación Elemental sea retirada como baja del camp
       <description>Se consideran una única miniatura en la que los cuidadores se colocan siempre tras el monstruo. Los enemigos siempre atacarán contra la Habilidad de armas del monstruo. Se utilizan siempre los valores de Resistencia y Heridas del monstruo, así como los atributos del monstruo para todos los chequeos de atributo (salvo los de Liderazgo, que se realizan con el valor de los cuidadores). Los cuidadores pueden atacar a cualquier unidad a la que pueda atacar el monstruo, aunque estos nunca podrán ser atacados directamente ni pueden ser objetivo de ningún disparo o hechizo. Si el monstruo muere, elimina también las miniaturas de los cuidadores. Su Potencia de unidad es igual a la Potencia del monstruo +1 por cada cuidador.</description>
     </rule>
     <rule id="a5eb-98d2-3b7c-18c7" name="Monstruos con castillos" hidden="false">
-      <description>Estos monstruos tienen también los perfiles de su tripulación, aunque se consideran una única miniatura y siempre se usan los valores de Resistencia y Heridas del Monstruo, así como sus tiradas de salvación pertinentes. En cuerpo a cuerpo, el monstruo y la dotación pueden atacar con normalidad a cualquier miniatura en contacto con la peana del monstruo y el enemigo debe tirar para impactar contra la Habilidad de armas más alta de entre el monstruo y su tripulación. Siempre resuelve sus chequeos de atributo usando los valores del monstruo salvo en los chequeos de Liderazgo, que utilizará el valor más alto entre el Monstruo y su tripulación. Su Potencia de unidad es igual a la Potencia del monstruo +1 por cada tripulante de Infantería o +3 por cada tripulante de Infantería monstruosa. Se trata como un monstruo en todos los demás aspectos.</description>
+      <description>Estos monstruos tienen también los perfiles de su tripulación, aunque se consideran una única miniatura y siempre se usan los valores de Resistencia y Heridas del Monstruo, así como sus tiradas de salvación pertinentes. En cuerpo a cuerpo, el monstruo y la dotación pueden atacar con normalidad a cualquier miniatura en contacto con la peana del monstruo y el enemigo debe tirar para impactar contra la Habilidad de armas más alta de entre el monstruo y su tripulación. Siempre resuelve sus chequeos de atributo usando los valores del monstruo salvo en los chequeos de Liderazgo, que utilizará el valor más alto entre el Monstruo y su tripulación. Su Potencia de unidad es igual a la Potencia del monstruo +1 por cada tripulante de Infantería o +3 por cada tripulante de Infantería monstruosa. Se trata como un monstruo en todos los demás aspectos. </description>
     </rule>
     <rule id="38d4-1707-be50-7d0f" name="Monstruosamente grande" hidden="false">
       <description>Las miniaturas con esta regla especial tienen su propia categoría de tamaño (ver el primer capítulo del reglamento). Su tamaño es tal que se aplican las siguientes reglas adicionales: los chequeos de Terror provocados por ellos deben efectuarse tirando 3D6 y descartando el resultado más bajo; tienen la regla especial Objetivo grande y además el oponente podrá aplicar un bonificador de +1 a todas sus tiradas para impactar con proyectiles contra ellos; tienen la regla especial Tozudez en vez de Impasible; tienen la regla especial Impactos por carga(1D6) y tienen una Potencia de unidad igual al doble de su valor inicial de Heridas.</description>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<<<<<<< HEAD
-<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="49" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-=======
-<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos" revision="14" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
->>>>>>> origin/main
+<catalogue id="469c-f68f-07c2-64cc" name="Enanos del caos" revision="15" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  || Actualizador: Gengis" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="7f15-8eb3-2094-c753" name="Guerreros enanos del caos" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -7632,11 +7628,7 @@ asedio: esta sufrirá 1D6 impactos automáticos de Fuerza 8 distribuidos como si
                     <infoLink id="3c85-4aac-56cb-7be1" name="Arma a dos manos" hidden="false" targetId="b737-28ed-1002-5531" type="profile"/>
                   </infoLinks>
                   <costs>
-<<<<<<< HEAD
                     <cost name="pts" typeId="points" value="4.0"/>
-=======
-                    <cost name="pts" typeId="points" value="24.0"/>
->>>>>>> origin/main
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>

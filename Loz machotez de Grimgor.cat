@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<<<<<<< HEAD
 <catalogue id="2564-b57a-fd78-2406" name="Loz machotez de Grimgor" revision="5" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-=======
-<catalogue id="2564-b57a-fd78-2406" name="Loz machotez de Grimgor" revision="4" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
->>>>>>> origin/main
   <selectionEntries>
     <selectionEntry id="f006-aba6-cc4c-877a" name="Orcos negros" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2361,11 +2357,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7170-32fe-38f3-35f9" type="max"/>
               </constraints>
               <costs>
-<<<<<<< HEAD
                 <cost name="pts" typeId="points" value="10.0"/>
-=======
-                <cost name="pts" typeId="points" value="5.0"/>
->>>>>>> origin/main
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -11024,11 +11016,7 @@ causó la herida.</characteristic>
             <infoLink id="0b6e-b91f-af0d-5c6b" name="Yelmo" hidden="false" targetId="9607-7f57-879f-5c42" type="profile"/>
           </infoLinks>
           <costs>
-<<<<<<< HEAD
             <cost name="pts" typeId="points" value="30.0"/>
-=======
-            <cost name="pts" typeId="points" value="25.0"/>
->>>>>>> origin/main
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
           </costs>
         </selectionEntry>
