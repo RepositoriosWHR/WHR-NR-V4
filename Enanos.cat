@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<<<<<<< HEAD
-<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="17" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="49" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-=======
-<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="16" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
->>>>>>> origin/main
+<catalogue id="718a-95a2-5863-e407" name="Enanos" revision="17" battleScribeVersion="2.03" authorName="Creador -&gt; Corocotta Bada  || Actualizadores V4: Gengis y Aswer" authorContact="" authorUrl="" library="false" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="4be9-2442-f655-1d41" name="Runa talismánica">
       <characteristicTypes>
@@ -14737,39 +14733,7 @@ como baja.
               <selectionEntries>
                 <selectionEntry id="e3ac-ac03-67a5-8800" name="[E] - Gotrek y Félix" hidden="false" collective="false" import="true" type="unit">
                   <constraints>
-<<<<<<< HEAD
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f9b-663e-4158-9042" type="max"/>
-=======
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="10e5-7b82-a25f-4a44" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac03-7a63-0078-14d0" type="min"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="points" value="125.0"/>
-                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="d614-f754-96e7-66b5" name="Max Schreiber" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="94ae-aad9-147d-6d3c" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="19dc-193c-8fa1-93ab" type="min"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="points" value="125.0"/>
-                    <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="0af2-ed15-bd89-e9de" name="Gotrek y Félix" hidden="false" collective="false" import="true" type="unit">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e01b-aa63-8a17-da7d" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae35-0567-c98f-f6b6" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d115-8784-46aa-c80d" type="min"/>
->>>>>>> origin/main
                   </constraints>
                   <rules>
                     <rule id="7c5b-1bc6-f2fc-67de" name="CLAVE : ENANOS, IMPERIO, enanos (sólo Gotrek), humanos (sólo Félix)." hidden="false"/>
@@ -14788,30 +14752,8 @@ como baja.
                   <selectionEntries>
                     <selectionEntry id="c787-dfef-1547-0c20" name="Félix Jaegar" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-<<<<<<< HEAD
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e653-fca6-0513-1afd" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0e4-b1e8-2e26-f695" type="min"/>
-=======
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="034c-69f0-b5a3-b583" type="max"/>
-                      </constraints>
-                      <entryLinks>
-                        <entryLink id="c4f5-c2d7-1aba-f35f" name="General del ejército" hidden="false" collective="false" import="true" targetId="e9b5-f798-8a8a-903b" type="selectionEntry">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a53-6f9c-d46a-960a" type="max"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="528a-83b7-9679-f271" type="min"/>
-                          </constraints>
-                        </entryLink>
-                      </entryLinks>
-                      <costs>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a9f7-b8b9-0a94-27e0" name="Félix Jaegar" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca9e-3664-019c-423c" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="803b-44f0-5c95-fb8d" type="min"/>
->>>>>>> origin/main
                       </constraints>
                       <profiles>
                         <profile id="767f-05a8-4c44-2be0" name="Félix Jaegar" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Modelo">
@@ -14832,11 +14774,7 @@ como baja.
                         </profile>
                       </profiles>
                       <costs>
-<<<<<<< HEAD
                         <cost name="pts" typeId="points" value="125.0"/>
-=======
-                        <cost name="pts" typeId="points" value="0.0"/>
->>>>>>> origin/main
                         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -14922,11 +14860,7 @@ como baja.
                         <infoLink id="9b63-f233-4977-9928" name="Matadores" hidden="false" targetId="d08c-19c0-88f4-c878" type="rule"/>
                       </infoLinks>
                       <costs>
-<<<<<<< HEAD
                         <cost name="pts" typeId="points" value="225.0"/>
-=======
-                        <cost name="pts" typeId="points" value="0.0"/>
->>>>>>> origin/main
                         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -14961,7 +14895,6 @@ como baja.
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
                         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-<<<<<<< HEAD
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ba6d-345a-d2ce-c212" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
@@ -15040,8 +14973,6 @@ como baja.
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
                         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-=======
->>>>>>> origin/main
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -15050,11 +14981,7 @@ como baja.
                     <entryLink id="b68b-05a9-992b-aecc" name="Saga (Gotrek)" hidden="false" collective="false" import="true" targetId="d91a-3283-7da9-d8bb" type="selectionEntry"/>
                   </entryLinks>
                   <costs>
-<<<<<<< HEAD
                     <cost name="pts" typeId="points" value="0.0"/>
-=======
-                    <cost name="pts" typeId="points" value="350.0"/>
->>>>>>> origin/main
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
@@ -15601,11 +15528,7 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
                         </profile>
                       </profiles>
                       <costs>
-<<<<<<< HEAD
                         <cost name="pts" typeId="points" value="140.0"/>
-=======
-                        <cost name="pts" typeId="points" value="0.0"/>
->>>>>>> origin/main
                         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -15691,7 +15614,6 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
                         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-<<<<<<< HEAD
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3df9-05c9-bdb2-d683" name="Equipo de Asedio (Personajes)" hidden="false" collective="false" import="true" type="upgrade">
@@ -15770,8 +15692,6 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
                         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-=======
->>>>>>> origin/main
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -15779,26 +15699,13 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
                     <entryLink id="1ee2-016f-5ed2-f3c1" name="Saga (Snorri Muerdenarices)" hidden="false" collective="false" import="true" targetId="8cf0-11ca-f3da-996a" type="selectionEntry"/>
                   </entryLinks>
                   <costs>
-<<<<<<< HEAD
                     <cost name="pts" typeId="points" value="0.0"/>
-=======
-                    <cost name="pts" typeId="points" value="140.0"/>
->>>>>>> origin/main
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-<<<<<<< HEAD
             </selectionEntryGroup>
           </selectionEntryGroups>
-=======
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
->>>>>>> origin/main
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -16452,10 +16359,6 @@ Se trata de un hechizo de Potenciación que puede lanzarse sobre una única mini
                       </costs>
                     </entryLink>
                     <entryLink id="eb21-ed18-dac1-e7fb" name="Manteletes" hidden="false" collective="false" import="true" targetId="383a-ab22-7deb-3a1f" type="selectionEntry">
-<<<<<<< HEAD
-=======
-                      <comment></comment>
->>>>>>> origin/main
                       <modifiers>
                         <modifier type="append" field="name" value="(Solo Skeggi y Sigurd)"/>
                       </modifiers>
