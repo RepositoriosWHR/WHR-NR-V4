@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<<<<<<< HEAD
 <gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="50" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-=======
-<gameSystem id="be4eb679-97dc-4876-b582-19ff87fae0fd" name="Warhammer Reforged V4" revision="48" battleScribeVersion="2.03" authorName="Creador: Corocotta Bada  ||  Actualizador: Aswer" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
->>>>>>> origin/main
   <readme>Warhammer Reforged V4 ha tomado todos los documentos que Corocotta creó en V3 para actualizarlo a la versión actual. Esta actualización ha sido llevada a cabo por Gengis, Viltraidor y Aswer. Agradecer a Corocotta Bada por la base creada y su apoyo en este proyecto y tambien agradecer enormemente a Jolrael, Urresti y todos los que indirectamente habéis ayudado a resolver dudas que nos han ido surgiendo en el camino, sin ellos no habría sido posible nada de esto.</readme>
   <publications>
     <publication id="3b8f-2f71-171e-ded0" name="Warhammer Reforged. 4º edición"/>
@@ -4392,7 +4388,6 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
       <costs>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="20.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
-<<<<<<< HEAD
       </costs>
     </selectionEntry>
     <selectionEntry id="44a8-d904-4dfb-da1f" name="Clave: Lahmia" hidden="false" collective="false" import="true" type="upgrade">
@@ -4403,8 +4398,6 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0.0"/>
-=======
->>>>>>> origin/main
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
